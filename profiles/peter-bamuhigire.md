@@ -35,13 +35,26 @@ Peter Bamuhigire is an ICT and business professional with over 15 years of exper
 ## Qualifications
 
 ### Education
-| Degree | Institution | Country |
-|---|---|---|
-| <!-- TO COMPLETE: Degree title and year --> | Makerere University | Uganda |
 
-<!-- Peter — please add the specific degree(s) from Makerere and any other institutions, plus year of graduation -->
+| Degree | Institution | Period | Grade |
+|---|---|---|---|
+| Bachelor of Technology (BTech), Computer Software Engineering | Makerere University, College of ICT | Aug 2006 – May 2009 | Second Class Upper Division with Honours |
 
-<!-- TO COMPLETE: Add any certifications (PMP, PRINCE2, AWS, ITIL, etc.) and other professional body memberships -->
+Notable: Pioneer member of the Software Incubation Center at the College of ICT (2008). Final-year project: Soil-Crop Analysis system for the University Faculty of Agriculture. Core modules: Advanced Database Systems, Software Engineering, Network Administration, Systems Analysis & Design.
+
+### Professional Certifications
+
+| Certification | Issuing Body | Year | Credential ID |
+|---|---|---|---|
+| Diploma in Information Systems and Organization Strategy | Alison | 2024 | 3339-17713547 |
+| Diploma in Operations Management | Alison | 2024 | 1707-17713547 |
+| Principles and Processes of Property Management | Alison | 2024 | 5794-17713547 |
+| Warehouse Management: Inventory, Stock and Supply Chains | Alison | 2025 | 2327-17713547 |
+| Fundamentals of Human Resources | Alison | 2023 | 1239-17713547 |
+| Fundamentals of Accounting | Alison | 2023 | 1261-17713547 |
+| Information Systems and Business Processes | Alison | 2023 | 3319-17713547 |
+
+<!-- TO COMPLETE: Add any other certifications (PMP, PRINCE2, AWS, ITIL, Scrum, etc.) and professional body memberships -->
 
 ## Employment History
 
