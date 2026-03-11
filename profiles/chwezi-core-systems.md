@@ -83,7 +83,7 @@ Chwezi Core Systems Limited is an integrated technology, business consulting, an
 
 | Name | Position | Specialisation | Years Experience | Key Qualifications |
 |---|---|---|---|---|
-| Peter Bamuhigire | Managing Director / Lead Consultant | Software architecture, ICT strategy, business consulting | 15+ | <!-- TO COMPLETE --> |
+| Peter Bamuhigire | Managing Director / Lead Consultant | Software architecture, ICT strategy, ERP implementation, business consulting | 15+ | BTech Computer Software Engineering (Makerere, 2nd Class Upper); Diplomas in Information Systems & Organization Strategy, Operations Management; certifications in Property Management, Warehouse Management, HR, Accounting |
 <!-- TO COMPLETE: Add other key staff and regular associates -->
 
 ## Regional Presence
