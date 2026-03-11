@@ -73,6 +73,67 @@ Reference documentation that proposal skills load for context. See `sectors/INDE
 - `skill-safety-audit/` — scans skills for unsafe instructions
 - `update-claude-documentation/` — updates project documentation files
 
+## Proposal Workspace — How Proposals Are Built
+
+Proposals are developed in a local `proposals/` directory (gitignored — never committed). When a consultant starts Claude Code in this repository, follow this initialization workflow:
+
+### First-Run Initialization
+
+1. **Check** if `proposals/` exists. If not, create it with an `INDEX.md`.
+2. **Ask** the user: "What proposal are you working on?" — get the client name, assignment title, and deadline.
+3. **Create** the proposal directory: `proposals/YYYY-MM-DD-short-name/` with this structure:
+
+```
+proposals/
+├── INDEX.md                              # Master index of all proposals
+└── 2026-03-15-client-short-name/
+    ├── BRIEF.md                          # Brainstorm output — the design spec driving all writing
+    ├── 01-cover-letter.md                # One MD per proposal section
+    ├── 02-executive-summary.md
+    ├── 03-understanding-of-assignment.md
+    ├── 04-firm-profile.md
+    ├── 05-relevant-experience.md
+    ├── 06-methodology.md
+    ├── 07-team-composition.md
+    ├── 08-work-plan.md
+    ├── 09-financial-proposal.md
+    ├── terms/                            # ToR, RFP, adverts, client-provided templates
+    ├── sheets/                           # Excel/CSV for tabular sections (staffing, budget, work plan)
+    ├── team/                             # CVs and team member details for this bid
+    ├── research/                         # Background materials, sector reports, client intel
+    └── output/                           # Final compiled docx files (technical + financial)
+```
+
+4. **Update** `proposals/INDEX.md` with the new proposal entry.
+5. **Ask** the user to paste any materials (ToR, RFP, advert, templates) into `terms/` and any team CVs into `team/`.
+6. **After materials are in place**, read the terms and invoke the brainstorming skill to design the proposal approach. The brainstorm output becomes `BRIEF.md`.
+7. **Write sections** one at a time into the section MDs, loading the relevant sub-skill (`01-cover-letter/SKILL.md` etc.) before writing each section.
+8. **Generate tables** (staffing schedule, work plan Gantt, budget breakdown, deliverables table) as Excel/CSV files in `sheets/`.
+9. **Compile** final docx files into `output/` — typically `technical-proposal.docx` and `financial-proposal.docx` as separate documents.
+
+### INDEX.md Format
+
+```markdown
+# Proposals Index
+
+| # | Proposal | Client | Status | Directory | Created |
+|---|----------|--------|--------|-----------|---------|
+| 1 | ICT Systems Assessment | Ministry of Health | Brainstorming | `2026-03-15-moh-ict-assessment/` | 2026-03-15 |
+```
+
+Status values: `Brainstorming` → `Drafting` → `Review` → `Final` → `Submitted`
+
+### Returning to an Existing Proposal
+
+If the user wants to continue work on an existing proposal, read `proposals/INDEX.md`, show the list, and ask which one. Then read the `BRIEF.md` and any completed section MDs to pick up where they left off.
+
+### Proposer Profile
+
+Before writing any proposal content, ask which proposer profile to use (or check if one is specified in `BRIEF.md`):
+- `profiles/peter-bamuhigire.md` — individual consultant
+- `profiles/chwezi-core-systems.md` — company
+- `profiles/client-template.md` — ghostwriting for a client
+
 ## Key Conventions
 
 - **British English always**: organisation, programme, centre, colour, travelling, specialise

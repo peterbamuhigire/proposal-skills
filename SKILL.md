@@ -101,6 +101,16 @@ Before writing any proposal, load the correct proposer profile from `profiles/SK
 
 **If no proposer is specified, ask before proceeding.** The profile affects every section — voice, signatory, experience, team, references.
 
+## Proposal Workspace
+
+All proposals are developed in the local `proposals/` directory (gitignored). See CLAUDE.md § "Proposal Workspace" for the full initialization workflow, directory structure, and INDEX.md format. Every proposal lives in its own subdirectory with:
+- Section MDs (one per proposal section)
+- `terms/` — ToR, RFP, client-provided documents and templates
+- `sheets/` — Excel/CSV for tabular sections
+- `team/` — CVs and team composition for this bid
+- `research/` — background materials, sector data
+- `output/` — final compiled docx files
+
 ## Standards That Apply to All Sub-Skills
 
 - Follow `east-african-english` for tone, spelling, and courteous phrasing throughout

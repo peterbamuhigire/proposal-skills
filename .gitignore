@@ -1,0 +1,12 @@
+# Proposals contain confidential client data — never commit
+proposals/
+
+# Output files
+*.docx
+*.xlsx
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
