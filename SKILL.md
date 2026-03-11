@@ -22,6 +22,35 @@ This skill covers the full range of consulting proposal documents. Each section 
 | 09 | Expression of Interest (EoI) | `09-expression-of-interest/SKILL.md` |
 | 10 | Financial proposal | `10-financial-proposal/SKILL.md` |
 
+## Supporting Skills — Cross-Cutting Knowledge
+
+These are reference libraries that proposal sections draw from. Read the relevant supporting skill when the proposal requires that domain. Each can also generate a standalone section if the ToR explicitly requires it.
+
+| Supporting Skill | When to Read |
+|---|---|
+| `project-management/SKILL.md` | PM frameworks, governance, reporting, steering committees |
+| `change-management/SKILL.md` | OCM frameworks, adoption strategies, resistance management |
+| `monitoring-and-evaluation/SKILL.md` | Log frames, results frameworks, KPIs, theory of change |
+| `stakeholder-engagement/SKILL.md` | Stakeholder mapping, consultation approaches, communication plans |
+| `capacity-building/SKILL.md` | Training models, ToT, knowledge transfer, skills sustainability |
+| `gender-and-social-inclusion/SKILL.md` | GESI frameworks, gender mainstreaming, disability and youth inclusion |
+| `environmental-and-social-safeguards/SKILL.md` | ESIA, environmental management plans, World Bank ESF, AfDB ISS |
+| `data-management/SKILL.md` | Data collection, MIS design, data governance, data protection law |
+| `sustainability-planning/SKILL.md` | Exit strategies, institutional embedding, ownership transfer |
+| `risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
+| `business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices |
+
+## Reference — World-Class Proposal Patterns
+
+Read `references/world-class-proposal-patterns.md` before writing any proposal. This file contains patterns extracted from McKinsey and Deloitte proposals that should be applied across all sections:
+
+- Quantify everything — not "extensive experience" but "150 engagements in 5 years"
+- Name the client's problem before your own capabilities
+- Use proprietary or named frameworks — branded methodology is a differentiator
+- Structure for scannability — summary tables before detail, consistent formatting, visual elements
+- Think in programmes, not projects — governance, engagement, and results management
+- Every project must have a quantified outcome
+
 ## Standards That Apply to All Sub-Skills
 
 - Follow `east-african-english` for tone, spelling, and courteous phrasing throughout

@@ -11,13 +11,34 @@ A collection of Claude Code skills for generating professional consulting propos
 ### Parent Skill: `SKILL.md` (root)
 The `proposal-writing` parent skill routes to the correct sub-skill based on what section or document type is needed. It defines cross-cutting standards (British English, East African tone, first-person plural, `.docx` output).
 
-### Proposal Sub-Skills
+### Proposal Section Sub-Skills (numbered — follow proposal order)
 Each sub-skill lives in its own directory with a `SKILL.md` and optional `references/` folder:
 
-- `cover-letter/` — cover letter and submission sheet
-- `relevant-experience/` — past projects with outcomes (most heavily weighted in evaluation)
-- `methodology/` — approach, phase-by-phase plan, risk register, deliverables
-- `financial-proposal/` — separate sealed document with fees, reimbursables, payment schedule
+- `01-cover-letter/` — cover letter and submission sheet
+- `02-executive-summary/` — four differentiators, scope table, value proposition
+- `03-understanding-of-assignment/` — background, objectives, scope, ToR comments
+- `04-firm-profile/` — firm overview, service areas, sector expertise, individual consultant format
+- `05-relevant-experience/` — summary table + project cards, the outcomes rule
+- `06-methodology/` — conceptual approach, phased plans (ICT and consulting variants), risk table
+- `07-team-composition/` — organogram, WB TECH-6 format, narrative format, CV rules
+- `08-work-plan/` — Gantt table, milestones, staffing schedule
+- `09-expression-of-interest/` — shorter EoI-specific structure
+- `10-financial-proposal/` — FIN forms, fee breakdown, reimbursables, payment schedule, day rate ranges
+
+### Supporting Domain Skills (unnumbered — reference libraries + standalone generators)
+These are cross-cutting knowledge bases that proposal sections draw from. Each can also generate a standalone section when a ToR explicitly requires it.
+
+- `project-management/` — PM frameworks (PRINCE2, PMBoK, Agile), governance, reporting, steering committees
+- `change-management/` — OCM frameworks (ADKAR, Kotter), adoption strategies, resistance management
+- `monitoring-and-evaluation/` — log frames, results frameworks, KPIs, theory of change
+- `stakeholder-engagement/` — stakeholder mapping, consultation approaches, communication plans
+- `capacity-building/` — training models, ToT, knowledge transfer, skills sustainability
+- `gender-and-social-inclusion/` — GESI frameworks, gender mainstreaming, disability and youth inclusion
+- `environmental-and-social-safeguards/` — ESIA, environmental management plans, WB ESF, AfDB ISS
+- `data-management/` — data collection, MIS design, data governance, data protection law
+- `sustainability-planning/` — exit strategies, institutional embedding, ownership transfer
+- `risk-management/` — risk registers, mitigation frameworks, escalation triggers
+- `business-analysis-tools/` — SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
 
 ### Content Creation Skills
 - `blog-idea-generator/` — generates 15–25 blog topic ideas using a 20-method ideation library
@@ -26,6 +47,12 @@ Each sub-skill lives in its own directory with a `SKILL.md` and optional `refere
 ### Cross-Cutting Language Skills
 - `east-african-english/` — tone, British spelling, courteous phrasing for all output
 - `language-standards/` — multi-language standards covering English, French, and Kiswahili
+
+### Sectors and Procurement Frameworks: `sectors/`
+Reference documentation that proposal skills load for context. See `sectors/INDEX.md` for the full list.
+
+- **Procurement frameworks** (how bids must be packaged): `ppda-uganda/`, `world-bank/`, `afdb/`, `undp/`
+- **Industry sectors** (domain-specific content): `agriculture/`, `health/`, `education/`, `ict/`, `financial-services/`, `energy/`, `water-sanitation/`, `transport-infrastructure/`, `governance/`
 
 ### Meta Skills
 - `skill-writing/` — guide for creating and updating skills in this repository
