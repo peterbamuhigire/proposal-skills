@@ -64,6 +64,136 @@ Common types of comments:
 
 If the ToR is well written and has no issues, state this briefly and note that the firm is fully aligned with the stated scope and approach. Never fabricate comments for the sake of appearing thorough.
 
+## The Baseline Logic: S1 → S2 → B
+
+Every understanding-of-assignment section must walk through a clear logical arc. This arc has three elements:
+
+### S1 — Current State
+
+Describe the client's current situation as stated or implied in the ToR. Three components make up S1:
+
+- **Triggering event** — the specific event, decision, or deadline that brought this problem to consciousness and prompted the procurement. This may be a policy directive, an audit finding, a donor requirement, an expiring contract, or a crisis.
+- **Overriding problem** — the single highest-level problem the client faces. There is always one overriding problem, even when the ToR lists many issues. Identify it and state it clearly.
+- **Effects** — the downstream consequences of the overriding problem. These are the symptoms the client experiences day-to-day: delays, cost overruns, non-compliance, service failures, stakeholder dissatisfaction.
+
+### S2 — Desired State
+
+Describe what will be different at the end of the project. S2 is the result the client is purchasing — not the activities or deliverables, but the changed condition. If the ToR describes expected outcomes, synthesise them into a single coherent picture of the desired end-state. If the ToR is silent on outcomes, infer S2 from the objectives and state the inference explicitly.
+
+### B — Benefits
+
+State the good things that accrue from achieving S2. Benefits sit beyond the project boundary — they are the lasting value the client and its stakeholders receive. Examples include reduced costs, improved service delivery, enhanced compliance, stronger institutional capacity, or better policy outcomes.
+
+### Applying the Logic
+
+The understanding section should explicitly walk through this arc in its narrative:
+
+> "The [institution] currently faces [S1 — overriding problem and its effects, triggered by the triggering event]. The Terms of Reference seek to move toward [S2 — the desired end-state]. Achieving this will [B — the benefits that follow]."
+
+This logic provides the backbone of the narrative. Every sentence in the understanding section should serve this arc. If a sentence does not connect to S1, S2, or B, it is filler and should be removed.
+
+## The Overriding Question
+
+Every assignment has one overriding question that the project must answer. The overriding question is the pivot of the entire proposal — if it is wrong, the objective is wrong; if the objective is wrong, the methodology is wrong; and if the methodology is wrong, the proposal fails regardless of how well it is written.
+
+The overriding question is derived from the overriding problem (identified in S1), not from the ToR's list of tasks. Tasks are activities; the overriding question is the intellectual challenge the firm must resolve.
+
+### How to Derive It
+
+1. Identify the overriding problem from S1.
+2. Frame it as a question that, if answered correctly, would resolve the problem and move the client to S2.
+3. Ensure the question is specific enough to guide methodology design, but broad enough to encompass the full scope of the assignment.
+
+### Example
+
+If the ToR asks for "a review of the procurement function", the overriding question is not "What is the current state of procurement?" — that is merely descriptive. The overriding question might be:
+
+> "What specific changes to [institution]'s procurement processes, systems, and capacity would reduce procurement cycle times to within [benchmark] while maintaining compliance with [regulatory framework]?"
+
+This question drives the methodology: it tells the team what data to collect, what to analyse, and what the deliverable must contain.
+
+### Stating It in the Proposal
+
+The understanding section should identify the overriding question explicitly. This signals to the evaluator that the firm has moved beyond surface comprehension to genuine analytical engagement with the assignment. Place it after the S1–S2–B narrative, as a bridge to the methodology.
+
+## Problem Analysis — Three Facets
+
+A strong understanding section analyses the client's problem from three facets, based on the Wickham framework. Most proposals address only the first; proposals that address all three demonstrate a mature grasp of organisational consulting.
+
+### Rational Facet
+
+The logical and economic dimension of the problem. This is the facet most consultants address instinctively:
+
+- What is the measurable cost of the current problem? (Financial losses, time delays, compliance gaps, service failures.)
+- What is the economic value of resolving it? (Cost savings, efficiency gains, revenue increases, risk reduction.)
+- What does the evidence say? (Data, benchmarks, audit findings, performance metrics.)
+
+The rational facet provides the business case. It answers the question: "Why is this worth spending money on?"
+
+### Cognitive Facet
+
+How individual managers, staff, and stakeholders perceive the problem. This may differ substantially from the rational reality:
+
+- Do stakeholders agree on what the problem is, or do different groups define it differently?
+- Are there misconceptions, blind spots, or outdated assumptions shaping how the problem is understood?
+- Is there awareness of the problem's full scope, or do stakeholders see only their portion of it?
+
+The cognitive facet matters because solutions that ignore how people perceive the problem will face resistance regardless of their technical merit. The understanding section should signal awareness of these perceptual differences.
+
+### Political Facet
+
+Who gains and who loses from the proposed change. Every assignment that recommends change creates winners and losers within the client organisation:
+
+- Which units, departments, or individuals benefit from the current state and may resist change?
+- Which stakeholders stand to gain from the proposed reforms and can be mobilised as champions?
+- Where are the power dynamics that will shape whether recommendations are implemented or shelved?
+
+The political facet is rarely stated openly in a ToR, but evaluators — particularly senior ones — know it exists. A proposal that acknowledges organisational dynamics (tactfully and professionally) demonstrates that the firm will not produce technically sound but politically naive recommendations.
+
+### Applying the Three Facets
+
+The understanding section need not label these facets explicitly. Instead, weave them into the narrative:
+
+- The rational facet appears in the description of the problem and its costs.
+- The cognitive facet appears in references to stakeholder perspectives, differing interpretations, or change readiness.
+- The political facet appears in references to institutional dynamics, competing priorities, or implementation risks.
+
+The effect is an understanding section that reads as organisationally intelligent, not merely technically competent.
+
+## The Story Component
+
+The understanding section should read as a compelling narrative of the client's situation, not as a restatement of the Terms of Reference. Evaluators read dozens of proposals; the ones that stay with them tell the client's story in a way that resonates. The Freed framework provides three components for structuring this narrative.
+
+### Story
+
+Tell the evaluator where the client is now, from the client's own perspective. This is not the firm's analysis — it is an empathetic rendering of the client's experience:
+
+- What pressures is the client facing?
+- What has the client already tried?
+- What constraints limit the client's options?
+- Why has the problem persisted despite previous efforts?
+
+The story component draws on S1 but goes further — it humanises the situation. It shows the evaluator that the firm has listened, not just read.
+
+### Questions
+
+State the key questions that must be answered by the assignment. These are not simply the tasks listed in the ToR — they are the analytical questions generated from the methodology logic:
+
+- What must be understood before solutions can be designed?
+- What evidence must be gathered to support recommendations?
+- What trade-offs must be examined?
+
+The questions component bridges the understanding section and the methodology. It tells the evaluator: "We know what we need to find out, and our methodology is designed to find it out."
+
+### Closing
+
+State the project's objectives clearly and concisely, then end with the benefits. The closing ties the narrative back to the S1–S2–B arc:
+
+- Restate the objectives in one to two sentences.
+- End with the benefits, briefly stated — what the client and its stakeholders will gain.
+
+The closing should leave the evaluator with a clear sense of purpose and value. It should feel like the natural conclusion of a well-told story, not a bureaucratic summary.
+
 ## Tone Rules
 
 - Three to four pages total

@@ -38,6 +38,13 @@ Open with a statement that shows understanding of the client's situation. Refere
 - Provide primary contact name, phone, and email
 - Sign off with "Yours faithfully" (unknown recipient) or "Yours sincerely" (known recipient)
 
+### Relationship Signals
+The cover letter is the first impression of service quality. It should signal:
+- **Genuine understanding** — name the client's specific problem, not generic language. Reference a specific detail from the ToR or context that shows you have studied their situation.
+- **Measurable-results orientation** — even in the cover letter, hint at quantified value: "Our experience in similar engagements suggests [X% improvement] is achievable."
+- **The TRUST framework** (Wickham): Truthful (honest about what is achievable), Responsive (acknowledge the ToR's specific concerns), Uniform (consistent with the tone of the full proposal), Safe (mention confidentiality and data protection if relevant), Trained (one sentence of quantified credential).
+- **Compatibility signal** — demonstrate cultural awareness and alignment with the client's values and operating context.
+
 ## Tone Rules
 
 - One page maximum

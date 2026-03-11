@@ -97,6 +97,28 @@ These are frequently relevant and can be adapted to specific assignments:
 | Currency fluctuation | Assignments quoted in local currency but with USD-denominated costs | Quote in stable currency where possible; include exchange rate assumption and adjustment clause |
 | Data unavailability | Expected baseline data does not exist or is unreliable | Plan for primary data collection as contingency; state data assumptions in inception report |
 
+### Project Shock Management
+Based on Wickham's framework, consulting projects routinely face shocks that threaten delivery. Common shock types in East African development consulting:
+
+| Shock Type | Examples |
+|---|---|
+| **Changes in client interests** | Government reshuffle, policy change, donor reprioritisation, election cycle |
+| **Changes in project context** | Conflict, drought, pandemic, economic shock, currency devaluation |
+| **Budget cuts** | Mid-project budget revision by donor, exchange rate losses |
+| **Loss of key people** | Government counterpart transfers, consultant illness, high staff turnover in partner organisations |
+| **Misinterpretation of information** | Baseline data errors, population estimates, market size assumptions |
+| **Scope creep** | Client expanding expectations beyond the ToR without adjusting timeline or budget |
+
+**Response Protocol:**
+1. **Refer back to objectives** — many shocks affect tasks but not the overall aim
+2. **Evaluate resource implications** — what does the shock cost in time, money, or quality?
+3. **Modify plans accordingly** — adjust methodology, timeline, or deliverables
+4. **Communicate proactively** — never hide problems; present problems alongside proposed solutions
+
+**Proposal application:** Include a "Risk and Mitigation" subsection in the methodology or work plan that identifies 3-5 likely project risks with specific mitigation strategies. This signals experience and preparedness.
+
+**Crisis communication rule** (Wickham): "When communicating a problem, try to communicate its solution as well."
+
 ## Generating a Standalone Section
 
 When the ToR asks for a dedicated risk management plan, generate a document covering:

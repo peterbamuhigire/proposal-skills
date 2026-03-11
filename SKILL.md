@@ -40,6 +40,18 @@ These are reference libraries that proposal sections draw from. Read the relevan
 | `risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices |
 
+## Reference — Proposal Strategy and Persuasion
+
+Read `references/proposal-strategy-and-persuasion.md` before writing any proposal. This is the cross-cutting persuasion layer that separates a competent proposal from one that wins:
+
+- **S1 → S2 → B baseline logic** — every proposal must express: current state, desired result, benefits
+- **P-I-P structure** — every methodology phase opens with WHY this approach, describes WHAT will be done, closes with WHAT it produces
+- **Buyer psychology** — write for the full evaluation committee (Economic, User, Technical buyers), not one reader
+- **Theme architecture** — identify 3–4 persuasive themes and weave them through EVERY section
+- **Hypothesis-driven methodology** — structure the approach as tests of a stated hypothesis
+- **Measurable-results orientation** — quantify value by project type (Insight, Planning, Implementation)
+- **Pyramid of Ideas** — Big Idea → Means → Logic → Evidence
+
 ## Reference — World-Class Proposal Patterns
 
 Read `references/world-class-proposal-patterns.md` before writing any proposal. This file contains patterns extracted from McKinsey and Deloitte proposals that should be applied across all sections:

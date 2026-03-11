@@ -41,6 +41,12 @@ Best practice: never present a SWOT alone — always follow with "So what?" — 
 | **Legal** | Legislation, regulatory frameworks, compliance requirements | Regulatory reform, legal framework assignments |
 | **Environmental** | Climate, natural resources, environmental regulations | Agriculture, energy, infrastructure assignments |
 
+### STEEPLE Analysis
+**Use for**: comprehensive environment scanning that adds ethical considerations to PESTLE.
+Add one row to the existing PESTLE table:
+| **Ethical** | Community consent, safeguarding standards, environmental justice, indigenous rights, anti-corruption norms | Development projects, extractive industries, community-based interventions |
+Reference STEEPLE instead of PESTLE when the ToR involves community-level interventions, safeguarding, or ethics-sensitive sectors.
+
 ### Porter's Five Forces
 **Use for**: market analysis, competition assessments, sector studies, private sector advisory.
 
@@ -57,6 +63,45 @@ Best practice: never present a SWOT alone — always follow with "So what?" — 
 - Identify where value is created and where it is lost
 - Pinpoint bottlenecks, inefficiencies, and opportunities for intervention
 - Common in agriculture, manufacturing, and trade assignments
+
+### TOWS Matrix
+**Use for**: extending SWOT into actionable strategy options.
+Build on a completed SWOT by generating four strategy types:
+| Strategy | Combination | Question |
+|---|---|---|
+| **SO (Maxi-Maxi)** | Strengths × Opportunities | How can we use strengths to maximise opportunities? |
+| **ST (Maxi-Mini)** | Strengths × Threats | How can we use strengths to minimise threats? |
+| **WO (Mini-Maxi)** | Weaknesses × Opportunities | How can we minimise weaknesses by exploiting opportunities? |
+| **WT (Mini-Mini)** | Weaknesses × Threats | How can we minimise weaknesses and avoid threats? |
+Always present TOWS as the "So what?" after SWOT — it converts analysis into strategy.
+
+### SOAR Analysis
+**Use for**: positive/appreciative organisational assessments, strategic planning, rebranding.
+| Dimension | Focus |
+|---|---|
+| **Strengths** | What are we doing well? What are our greatest assets? |
+| **Opportunities** | What are the best possible market/sector opportunities? |
+| **Aspirations** | What do we care deeply about? What is our preferred future? |
+| **Results** | How will we know we are succeeding? What measurable outcomes? |
+Use when the ToR calls for a forward-looking, strengths-based assessment rather than a deficit-focused diagnostic.
+
+### McKinsey 7-S Framework
+**Use for**: organisational effectiveness assessments, institutional capacity reviews, change readiness.
+Seven interdependent factors that must be aligned:
+| Hard Elements | Soft Elements |
+|---|---|
+| **Strategy** — the plan | **Shared Values** — core beliefs and culture |
+| **Structure** — how the org is organised | **Style** — leadership and management approach |
+| **Systems** — processes and procedures | **Staff** — people and their capabilities |
+| | **Skills** — competencies and capabilities |
+Misalignment between any elements explains organisational underperformance. Commonly used in institutional capacity assessments for government agencies and development organisations.
+
+### Value Proposition Canvas
+**Use for**: product/service design, market positioning, customer-centric strategy.
+Two components:
+- **Customer Profile**: customer jobs (what they need to do), pains (frustrations, risks), gains (desired outcomes)
+- **Value Map**: products/services offered, pain relievers (how you address pains), gain creators (how you deliver gains)
+Useful in private sector advisory, market development, and enterprise development assignments.
 
 ---
 
@@ -106,6 +151,16 @@ Tools:
 - **5 Whys**: iterative questioning to reach the root cause
 - **Fishbone (Ishikawa) diagram**: categorises causes under People, Process, Technology, Policy, Environment
 - **Pareto analysis**: 80/20 rule — identify the 20% of causes producing 80% of the problems
+
+### Hypothesis-Driven Issue Tree
+**Use for**: structured problem decomposition in diagnostic and advisory assignments.
+1. State the overriding question at the top
+2. Break into mutually exclusive, collectively exhaustive (MECE) sub-questions
+3. For each sub-question, identify the data needed and method to answer it
+4. Structure the methodology phases around the tree branches
+5. As evidence is gathered, eliminate branches and converge on root cause
+
+This is the standard consulting problem decomposition approach used by McKinsey, BCG, and Bain. It signals intellectual rigour and structured thinking in methodology sections.
 
 ---
 

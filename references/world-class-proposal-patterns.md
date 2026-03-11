@@ -148,3 +148,46 @@ Professional proposals are not just text. They include tables, figures, diagrams
 6. **They offer something extra**: pro-bono planning phases, proprietary benchmarks, dedicated centres of excellence — giving the client more than what was asked for.
 7. **They write to the evaluation criteria**: every section directly addresses what evaluators will score, not just what the firm wants to say.
 8. **They structure for scannability**: summary tables before detail, consistent formatting, visual elements, and cross-references make the document easy to evaluate.
+
+---
+
+## 9. Buyer Role Awareness
+Write for the evaluation committee, not one reader. Every proposal is read by 3-5 people with different agendas:
+- **Economic Buyer** (budget holder) — wants ROI, bottom-line impact, risk management
+- **User Buyer** (operational staff) — wants to know how the project affects their daily work; if ignored, can sabotage
+- **Technical Buyer** (procurement/compliance) — checks compliance with ToR, scoring criteria, format requirements
+- **Coach** (your internal advocate) — needs ammunition to champion your proposal in committee discussions
+
+Ensure each section contains something for each buyer type.
+
+---
+
+## 10. Theme Architecture
+Identify 3-4 persuasive themes and weave them through EVERY section:
+- Sources: hot buttons from the ToR, evaluation criteria (published or implied), your competitive advantages
+- Each theme should appear in: understanding of assignment, methodology, team composition, and relevant experience
+- Example themes: "local presence and contextual understanding", "knowledge transfer from day one", "proprietary diagnostic tools", "proven track record in [sector]"
+
+---
+
+## 11. The Proposal as Performance
+The proposal itself is a demonstration of service quality:
+- Responsiveness (turnaround time, thoroughness of ToR analysis) signals how you will perform during the engagement
+- Naming the client's problem more precisely than they can signals genuine expertise
+- Cultural sensitivity in tone and approach signals compatibility
+- Boilerplate is fatal — generic proposals that could apply to any client virtually guarantee a loss in competitive situations
+
+---
+
+## 12. Relationship Signals
+The TRUST framework (Wickham):
+- **Truthful** — acknowledge challenges honestly; short-term discomfort builds long-term credibility
+- **Responsive** — engage totally in the client's world; show you have studied their context
+- **Uniform** — be consistent in ideas and attitudes across all sections
+- **Safe** — formalise confidentiality; provide constant reassurance of data protection
+- **Trained** — demonstrate competence through specific, quantified evidence
+
+---
+
+## 13. Column Fodder Warning
+If you have no realistic chance of winning, decline gracefully. Being listed as a third option to justify a predetermined choice wastes resources and damages reputation. Qualifying signals: incumbent advantage, pre-existing relationship, unusually specific ToR language that matches one firm's capabilities.
