@@ -91,9 +91,44 @@ State clearly what is not included in the price and what the client is expected 
 
 International (non-local) consultant rates are typically 1.5 to 3 times local rates. World Bank and donor-funded projects may publish rate ceilings — check the ToR.
 
+## Budget Construction Methodology
+
+State the estimation methodology used: "Our budget is constructed using a hybrid approach — recurring operational costs are estimated from comparable recent assignments in our cost database, while specialist and activity-specific costs are built from first principles."
+
+### The PCTS Constraint (Lewis)
+
+Cost is a function of Performance, Time, and Scope: `C = f(P, T, S)`. You can fix three constraints; the fourth must be whatever the relationship dictates. When clients challenge the price, respond by adjusting scope or timeline, not by compressing costs below sustainable levels.
+
+### Risk-Adjusted Contingency
+
+Calculate contingency using the square-root-sum-of-squares method rather than a flat percentage:
+
+```
+Risk Budget = √(C₁² + C₂² + C₃² + ...)
+```
+
+Where C = individual risk cost (effect × probability). This produces a statistically reasonable contingency that can be justified to evaluators. Typically 5-10% of professional fees.
+
+### Buffer Scheduling
+
+Identify cost modules that can be delivered at reduced specification if risks materialise. Present these as a structured contingency plan in the assumptions section — it demonstrates fiscal discipline and gives the client flexibility.
+
 ## Rules
 
 - Never quote below a sustainable rate — low pricing signals low quality and creates delivery risk
 - State currency explicitly on every table — ambiguity between UGX and USD can disqualify a bid
 - Warrant the delivered system or reports for a minimum of three months after final acceptance
 - Seal the financial proposal separately — in PPDA and World Bank format, the financial proposal is never in the same envelope as the technical proposal
+- Always present life cycle costs for ICT or infrastructure assignments — a 5-year TCO table alongside the project budget demonstrates strategic thinking
+- For multi-year assignments, include NPV analysis with a stated discount rate and rationale
+- Categorise costs explicitly (direct/indirect, fixed/variable) in the budget narrative
+
+## Reference Library
+
+| Reference File | Contents |
+|---|---|
+| `references/budgeting-and-cost-estimation.md` | Budget allocation methodologies (ZBB, incremental, hybrid), 5-level progressive cost estimation, PCTS constraints, cost contingency and management reserve, contractor pricing build-up, risk-adjusted budgeting (√ formula), life cycle costs, financial ratio analysis (12+ ratios), fiscal conservatism, TVM (PV/FV/NPV), forecasting methods, budget alignment, variance analysis, 6-stage costing gates, cost databases, wants vs needs prioritisation, "cut back not out" principle |
+| `../consulting-frameworks/references/financial-analysis.md` | Expected value, cannibalisation, breakeven, profitability decomposition, market sizing, pricing toolkit, pocket pricing model, CLV, experience curve |
+| `../references/world-class-proposal-patterns.md` | Budget proposal architecture (Chereau & Meschi), Sweet Spot positioning |
+
+Read the budgeting reference file when constructing project budgets that need detailed cost estimation frameworks, contingency calculations, or when the assignment involves advising clients on budgeting and fiscal management.

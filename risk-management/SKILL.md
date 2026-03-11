@@ -119,17 +119,52 @@ Based on Wickham's framework, consulting projects routinely face shocks that thr
 
 **Crisis communication rule** (Wickham): "When communicating a problem, try to communicate its solution as well."
 
+## Quantitative Risk Assessment (Advanced)
+
+For complex assignments or clients that expect quantitative rigour, use the FMEA-based Risk Priority Number:
+
+```
+RPN = Probability (1-10) × Severity (1-10) × Detection (1-10)
+```
+
+**Critical severity rule:** Regardless of the RPN value, when severity is 8-10, you MUST take action. Never ignore high-severity risks even when probability is low.
+
+### Five Risk Response Strategies (Lewis)
+
+1. **Avoidance** — eliminate the risk entirely (best option when feasible)
+2. **Mitigation** — reduce probability or impact
+3. **Transfer** — shift to another party (insurance, fixed-price subcontracts)
+4. **Acceptance** — knowingly live with the risk (low RPN only)
+5. **Ignore** — never appropriate in professional consulting
+
+### Dual Assessment Points
+
+Risk assessment occurs at TWO points: strategic-level (can the approach succeed?) and implementation-level (what could go wrong at the task level?). Show evaluators that risk management is embedded in the methodology, not bolted on.
+
+## Reference Library
+
+| Reference File | Contents |
+|---|---|
+| `references/risk-quantification-and-response.md` | FMEA-based RPN scoring (complete P/S/D tables with 10-point scales), five risk response strategies, risk budget calculation (√ formula), ALARP method, riskograph (visual assessment), risk categories for consulting, costing risk (the vagueness problem), buffer scheduling for risk management, dual assessment points, schedule contingency approaches |
+
+Read the reference file when:
+- The assignment requires quantitative risk assessment beyond the standard likelihood-impact matrix
+- The financial proposal needs a risk-adjusted contingency calculation
+- The client expects FMEA or similar industrial risk methods
+- Writing a standalone risk management plan
+
 ## Generating a Standalone Section
 
 When the ToR asks for a dedicated risk management plan, generate a document covering:
 
 1. Risk management approach and methodology
 2. Risk identification (categories, methods)
-3. Risk assessment framework (likelihood, impact, scoring)
+3. Risk assessment framework (likelihood, impact, scoring — or RPN for complex assignments)
 4. Risk register (complete table with all identified risks)
 5. Risk monitoring and reporting process
 6. Risk escalation and decision-making framework
 7. Risk appetite statement (what level of risk is acceptable)
 8. Contingency planning for critical risks
+9. Risk budget calculation (for financial proposals)
 
 Follow east-african-english standards throughout.

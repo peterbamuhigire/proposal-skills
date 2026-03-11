@@ -24,9 +24,10 @@ The work plan translates the methodology into a time-bound schedule. It must be 
 Half a page. Briefly explain the logic of the schedule:
 
 - Why the work is sequenced this way
-- Where the critical path lies
+- Where the critical path lies (the longest dependency chain — any slip here delays the project)
 - What assumptions underpin the timeline (e.g., client provides data within two weeks of request)
 - Where buffer has been built in and why
+- How estimates were derived — reference PERT three-point estimation for credibility: `te = (optimistic + 4 × most likely + pessimistic) / 6`
 
 ### Gantt-Style Activity Schedule
 
@@ -71,10 +72,24 @@ A table showing when each team member is deployed and their level of effort per 
 
 The total person-days here must match the financial proposal. Any discrepancy will be flagged by evaluators.
 
+## Scheduling Principles
+
+- **Critical Path Method (CPM):** Identify the longest dependency chain through the work plan. Activities on the critical path have zero float — any delay extends the project. Non-critical activities have float that can absorb delays.
+- **Resource levelling:** After building the schedule, check that no team member is over-allocated. Delay non-critical tasks within their float to resolve conflicts.
+- **Schedule contingency:** Build in buffer days for context disruptions (rainy season, election periods, public holidays). Do NOT plan overtime into the baseline — keep it in reserve.
+- **The time-cost trade-off:** There is an optimum project duration where costs are minimised. Compressing below this increases costs exponentially (overtime, coordination overhead, rework). Never compress timelines to impress — evaluators know how long things take.
+
+## Reference Library
+
+| Reference File | Contents |
+|---|---|
+| `../project-management/references/project-controls-and-earned-value.md` | WBS construction, PERT estimation (formula), CPM/critical path, resource levelling, earned value tracking, change control, stagegate process |
+
 ## Tone Rules
 
 - Two to three pages
 - Realistic timelines — do not compress to impress; evaluators know how long things take
 - Always include client review windows — omitting them signals inexperience
 - The work plan must be consistent with the methodology (section 06) and the financial proposal (section 10)
+- The total person-days in the staffing schedule must match the financial proposal — any discrepancy will be flagged
 - Follow east-african-english standards throughout

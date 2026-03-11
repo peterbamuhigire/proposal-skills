@@ -161,6 +161,9 @@ Signal this in the methodology: "Our approach embeds knowledge transfer in every
 | `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, EUR Framework, F.A.A.S.T., Triple Constraints, frontloading, engagement kick-off, SCAMPER, Design Sprint, SOSTAC, SECI Knowledge Spiral |
 | `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, SCORE framework, Cialdini's principles, Red Team review |
 | `../references/world-class-proposal-patterns.md` | McKinsey and Deloitte methodology patterns, storyboarding, ghost packs, elevator test, budget proposal architecture, Sweet Spot positioning, prewiring |
+| `../project-management/references/project-controls-and-earned-value.md` | Lewis Method (10-step PM), WBS, PERT estimation, CPM scheduling, earned value (all formulas), 15% rule, change control, lessons learned, stagegate, stoplight reporting, PM maturity model, variance analysis tools |
+| `../risk-management/references/risk-quantification-and-response.md` | FMEA/RPN risk scoring (complete tables), five risk response strategies, risk budget calculation (√ formula), ALARP, buffer scheduling, dual assessment points, schedule contingency |
+| `../10-financial-proposal/references/budgeting-and-cost-estimation.md` | Budget allocation (ZBB, incremental, hybrid), 5-level cost estimation, PCTS constraints, cost contingency, risk-adjusted budgeting, life cycle costs, financial ratios, TVM/NPV, forecasting methods |
 
 Read the relevant reference file when a methodology requires detailed frameworks or delivery excellence standards beyond this SKILL.md.
 
