@@ -39,6 +39,7 @@ These are reference libraries that proposal sections draw from. Read the relevan
 | `sustainability-planning/SKILL.md` | Exit strategies, institutional embedding, ownership transfer |
 | `risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices |
+| `consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy frameworks, operations frameworks, communication structures — the analytical building blocks for methodology design |
 
 ## Reference — Proposal Strategy and Persuasion
 
