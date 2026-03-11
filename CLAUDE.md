@@ -39,6 +39,7 @@ These are cross-cutting knowledge bases that proposal sections draw from. Each c
 - `sustainability-planning/` — exit strategies, institutional embedding, ownership transfer
 - `risk-management/` — risk registers, mitigation frameworks, escalation triggers
 - `business-analysis-tools/` — SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
+- `consulting-frameworks/` — analytical building blocks for methodology design: problem structuring (8 first-principles, MECE, issue trees), financial analysis (expected value, breakeven, cannibalisation), strategy (market entry, competitive response, build/buy/partner), operations (bottleneck, stakeholder-based), communication (SCORE, recommendations, exhibit interpretation)
 
 ### Proposer Profiles: `profiles/`
 - `profiles/peter-bamuhigire.md` — Individual consultant profile (first-person singular voice)

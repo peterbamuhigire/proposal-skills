@@ -152,9 +152,14 @@ Signal this in the methodology: "Our approach embeds knowledge transfer in every
 
 | Reference File | Contents |
 |---|---|
-| `references/case-interview-frameworks.md` | Eight-Bucket Framework, case type methodology templates (Market Entry, Profitability, M&A, Pricing), quantitative analysis patterns, structured problem-solving, communication structures |
-| `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Consulting Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, Griffin Dilemma Framework, Six Core Mission Types, Theory of Abandonment, Quick Diagnosis and Solution Validation checklists |
-| `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, hypothesis-driven approach, Cialdini's persuasion principles, Red Team review |
+| `../consulting-frameworks/SKILL.md` | **Start here for analytical frameworks.** Routes to five reference files: problem structuring, financial analysis, strategy, operations, communication structures |
+| `../consulting-frameworks/references/problem-structuring.md` | 8 first-principles strategies, issue trees, MECE, hypothesis-driven analysis, eight-bucket system, idea expansion techniques |
+| `../consulting-frameworks/references/financial-analysis.md` | Expected value, cannibalisation, breakeven, profitability decomposition, market sizing, pricing toolkit |
+| `../consulting-frameworks/references/strategy-frameworks.md` | Market entry, competitive response, build/buy/partner, adjacent market, M&A evaluation, pricing methodology |
+| `../consulting-frameworks/references/operations-frameworks.md` | Process bottleneck, stakeholder-based, criteria-based option evaluation, situation assessment |
+| `../consulting-frameworks/references/communication-structures.md` | SCORE storytelling, top-down recommendations, exhibit interpretation, action titles, sense-checking |
+| `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, EUR Framework, F.A.A.S.T., Triple Constraints, frontloading, engagement kick-off |
+| `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, SCORE framework, Cialdini's principles, Red Team review |
 | `../references/world-class-proposal-patterns.md` | McKinsey and Deloitte methodology patterns, storyboarding, ghost packs, elevator test, budget proposal architecture, Sweet Spot positioning, prewiring |
 
 Read the relevant reference file when a methodology requires detailed frameworks or delivery excellence standards beyond this SKILL.md.
