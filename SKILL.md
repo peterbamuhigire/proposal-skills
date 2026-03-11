@@ -83,6 +83,11 @@ Read `references/consulting-delivery-excellence.md` when writing methodology, qu
 - **Design Thinking** — Empathise → Define → Ideate → Prototype → Test
 - **Griffin Dilemma Framework** — seven recurring consulting dilemmas with prescribed responses
 - **Theory of Abandonment** — recommend what to stop, not just what to start
+- **SCAMPER** — structured ideation through seven transformation lenses
+- **Design Sprint** — five-day compressed discovery-to-testing methodology
+- **Thinking Map vs. Activity Map** — intellectual framework must precede the Gantt chart
+- **SOSTAC** — Situation → Objectives → Strategy → Tactics → Action → Control
+- **SECI Knowledge Spiral** — Socialisation → Externalisation → Combination → Internalisation
 
 ## Proposer Profiles — Who Is Proposing?
 

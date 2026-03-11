@@ -27,11 +27,11 @@ A library of structured analytical frameworks drawn from top-tier consulting pra
 
 | Reference File | Contents | Use When |
 |---|---|---|
-| `references/problem-structuring.md` | Eight first-principles structuring strategies, issue tree construction, MECE compliance, hypothesis-driven analysis, eight-bucket system, idea expansion techniques | Designing any methodology's conceptual framework; decomposing any consulting problem |
-| `references/financial-analysis.md` | Expected value, cannibalisation analysis, breakeven, profitability decomposition, market sizing, weighted average/mix analysis, pricing toolkit | The ToR requires financial feasibility, investment appraisal, cost-benefit analysis, or market analysis |
-| `references/strategy-frameworks.md` | Market entry, competitive response, build/buy/partner, adjacent market proximity, M&A evaluation, pricing strategy methodology | Strategy, market entry, growth, competitive positioning, or acquisition assignments |
-| `references/operations-frameworks.md` | Process bottleneck, stakeholder-based framework, criteria-based option evaluation, situation assessment, business concepts | Operations improvement, process reengineering, multi-stakeholder assignments, option appraisal |
-| `references/communication-structures.md` | SCORE storytelling, top-down recommendation structure, mini-frameworks for qualitative analysis, exhibit interpretation, analytical sense-checking | Structuring deliverables, presentations, experience narratives, and qualitative analysis |
+| `references/problem-structuring.md` | Eight first-principles structuring strategies, issue tree construction, MECE compliance, hypothesis-driven analysis, eight-bucket system, idea expansion techniques, lateral thinking toolkit, Six Thinking Hats | Designing any methodology's conceptual framework; decomposing any consulting problem |
+| `references/financial-analysis.md` | Expected value, cannibalisation analysis, breakeven, profitability decomposition, market sizing, pricing toolkit, pocket pricing model, customer lifetime value, experience curve | The ToR requires financial feasibility, investment appraisal, cost-benefit analysis, or market analysis |
+| `references/strategy-frameworks.md` | Market entry, competitive response, build/buy/partner, adjacent market proximity, M&A evaluation, pricing strategy, Blue Ocean ERRC, Discipline of Market Leaders, disruptive innovation, structured choice decision-making, scenario planning, Rumelt's Kernel, Innovation-Change-Learning Matrix | Strategy, market entry, growth, competitive positioning, innovation, or acquisition assignments |
+| `references/operations-frameworks.md` | Process bottleneck, stakeholder-based framework, criteria-based option evaluation, situation assessment, job-to-be-done, importance × satisfaction analysis, structured decision-making | Operations improvement, process reengineering, multi-stakeholder assignments, option appraisal |
+| `references/communication-structures.md` | SCORE storytelling, top-down recommendation structure, exhibit interpretation, analytical sense-checking, action titles, Hero's Journey narrative, Tufte's data visualisation rules, Comma Effect | Structuring deliverables, presentations, experience narratives, and qualitative analysis |
 
 ## Relationship to Other Skills
 
