@@ -104,6 +104,31 @@ The first major deliverable in most consulting assignments. Must include:
 | Project level | Delays, resource conflicts, quality issues | Project Manager + Client Focal Point | Within 3 working days |
 | Steering committee | Scope changes, budget overruns, strategic risks | Steering Committee | Next scheduled meeting or emergency session |
 
+## Earned Value Management
+
+For assignments exceeding three months or involving significant budgets, include earned value tracking:
+
+- **Three measures:** Planned Value (PV), Earned Value (EV), Actual Cost (AC)
+- **Key indices:** Schedule Performance Index (SPI = EV/PV), Cost Performance Index (CPI = EV/AC), Critical Ratio (CR = SPI × CPI)
+- **15% Rule:** If the project is 15% into its timeline and performance indices are below 0.8, initiate a formal corrective action review — projects in trouble at 15% almost never recover
+- **Stoplight reporting:** Green (CR 0.8-1.2), Yellow (CR in warning range), Red (CR outside limits) — backed by earned value data, not subjective assessment
+
+### Change Control
+
+All scope changes must be assessed for impact on schedule, cost, and performance before approval. Log all changes and their effect on work budget, reserve, and margin. No change is implemented without written client agreement.
+
+### Lessons Learned (Lewis Method)
+
+Two questions only: "What are we doing well?" and "What do we want to improve?" Never ask "What did we do wrong?" Use multivoting for prioritisation; resolve in order: goals → roles → procedures → relationships.
+
+## Reference Library
+
+| Reference File | Contents |
+|---|---|
+| `references/project-controls-and-earned-value.md` | Lewis Method (10-step PM methodology), WBS construction, PERT three-point estimation, CPM/critical path scheduling, resource levelling, complete earned value system (all formulas), 15% rule, four EV scenarios, project control framework, change control process, three types of project reviews, lessons learned facilitation, stoplight reporting, stagegate process, variance analysis tools (MAD/RMSE/MAPE), control charts, PM maturity model (5 levels), multitasking problem, quality tracking indicators |
+
+Read the reference file when writing methodology sections that describe project management approaches, when designing governance frameworks, or when the assignment involves assessing client PM capability.
+
 ## Generating a Standalone Section
 
 When the ToR asks for a dedicated project management plan, generate a document covering:
@@ -114,5 +139,7 @@ When the ToR asks for a dedicated project management plan, generate a document c
 4. Issue and change management process
 5. Communication plan
 6. Escalation framework
+7. Earned value tracking approach (for assignments > 3 months)
+8. Change control process
 
 Follow east-african-english standards throughout.
