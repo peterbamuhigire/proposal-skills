@@ -514,4 +514,33 @@ Before submission, every competitive proposal should undergo a structured advers
 
 ---
 
-*Synthesised from: Writing Winning Business Proposals (Freed, Romano & Freed, 3rd Ed., 2011), Management Consulting: Delivering an Effective Project (Wickham & Wickham, 3rd Ed., 2008), The Case Interview Workbook (Mellon, 2018), Management Consulting Projects (Cook, Harris & Barber, 6th Ed., 2022), Consulting Essentials (Kavanaugh), The McKinsey Mind (Rasiel & Friga), Punch the Elephant (Frank Bria), Strategic Consulting (Chereau & Meschi), Consulting Drucker (Cohen), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit).*
+## 17. The SCORE Framework for Experience Narratives
+
+From *Conquer Your Consulting Case Interview* — a storytelling structure for past engagement narratives in proposals. Use this when writing relevant experience entries or case studies:
+
+| Element | Description | Proposal Application |
+|---|---|---|
+| **S — Situation** | Brief context: who, where, when | Client background and engagement context |
+| **C — Complication** | What made it challenging | The problem or gap that required intervention |
+| **O — Outcome Expectation** | What would have happened without intervention | Creates urgency: "Without action, [consequence]" |
+| **R — Remedial Action** | Detailed actions taken (80-90% of the narrative) | What we did — methodology, tools, approach |
+| **E — End Result** | Measurable outcome achieved | Quantified results: cost saved, time reduced, capacity built |
+
+### Why SCORE is more persuasive than a simple project description
+
+Most experience entries in proposals read: "We did X for Client Y." This is forgettable. SCORE creates narrative tension through the Outcome Expectation element — the reader understands what was at stake before learning what the consultant did. This makes the Remedial Action (methodology) feel consequential rather than routine.
+
+**Template:** "[Client] faced [situation]. [Complication] threatened [worst outcome if unaddressed]. We [detailed remedial actions — specific methods, tools, team composition]. The result: [quantified end result]."
+
+### Application across proposal sections
+
+| Section | SCORE Element Emphasis |
+|---|---|
+| **Relevant Experience** | Full SCORE for each project narrative |
+| **Executive Summary** | S-C-O (to establish urgency) then R-E (to preview approach and value) |
+| **Understanding of Assignment** | S-C-O (demonstrate understanding of the current engagement's stakes) |
+| **Methodology** | R (the detailed remedial action is the methodology itself) |
+
+---
+
+*Synthesised from: Writing Winning Business Proposals (Freed, Romano & Freed, 3rd Ed., 2011), Management Consulting: Delivering an Effective Project (Wickham & Wickham, 3rd Ed., 2008), The Case Interview Workbook (Mellon, 2018), Management Consulting Projects (Cook, Harris & Barber, 6th Ed., 2022), Consulting Essentials (Kavanaugh), The McKinsey Mind (Rasiel & Friga), Punch the Elephant (Frank Bria), Strategic Consulting (Chereau & Meschi), Consulting Drucker (Cohen), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), The McKinsey Edge (Hattori), The 1%: Conquer Your Consulting Case Interview (Smeritschnig).*

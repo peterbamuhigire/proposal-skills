@@ -291,3 +291,204 @@ When designing a methodology section for a proposal:
 6. **Structure qualitative analysis** using the mini-frameworks from Section 5
 7. **Apply the conclusion structure** from Section 5 to describe how the final deliverable will present recommendations
 8. **Build in sense-checking** from Section 7 as a quality assurance element
+
+---
+
+## 9. Process Bottleneck Framework
+
+**Use for**: operations improvement, value chain optimisation, efficiency reviews, process reengineering assignments.
+
+For cases involving processes, efficiency, or capacity problems, decompose the end-to-end process and examine each step for constraints:
+
+| Step | Action | Key Question |
+|---|---|---|
+| 1 | Map the full process chain from input to output | What are the sequential steps? |
+| 2 | For each step, assess whether it is the constraint | Is this step limiting overall throughput? |
+| 3 | Identify the bottleneck step | Where does the system slow down? |
+| 4 | Generate improvement options specific to that step | What interventions address the constraint? |
+
+**Proposal methodology language:** "Our approach maps the end-to-end process from [input] to [output], systematically assessing each step to identify the binding constraint on throughput before designing targeted interventions."
+
+Links to Theory of Constraints in `../references/consulting-delivery-excellence.md`.
+
+---
+
+## 10. Stakeholder-Based Framework
+
+**Use for**: healthcare, education, public sector, multi-party institutional assignments where multiple actors influence outcomes.
+
+Structure the analysis around each stakeholder group and the levers they control:
+
+| Step | Action |
+|---|---|
+| 1 | Identify all relevant stakeholders in the ecosystem |
+| 2 | For each stakeholder, identify the levers they control |
+| 3 | Assess what actions each stakeholder can take to address the problem |
+| 4 | Prioritise stakeholders by impact potential |
+
+**Template (drug adoption example):**
+- Patients — awareness, willingness to request
+- Physicians — awareness, willingness to prescribe
+- Insurers — reimbursement policy, formulary inclusion
+- Company — production capacity, distribution readiness
+
+**Proposal methodology language:** "Phase 2 will assess stakeholder readiness across [list], examining the levers each controls and the incentives required to drive adoption."
+
+---
+
+## 11. Competitive Response Framework
+
+**Use for**: reactive strategy assignments, market positioning, responding to disruption or new entrants.
+
+When a competitor takes a specific action, structure the analysis:
+
+| Component | Key Questions |
+|---|---|
+| **Threat sizing** | How large and direct is the threat? Does the competitor have differentiation? |
+| **Customer response** | How will customers react? How likely are they to switch? |
+| **Competitor response** | Will other competitors also react? How? |
+| **Strategic options** | Do nothing / Match / Counter-attack / Differentiate / Exit |
+
+**Proposal methodology language:** "The methodology sequences threat assessment before strategy development — sizing the competitive threat, modelling customer and market response, then evaluating strategic options."
+
+---
+
+## 12. Criteria-Based Option Evaluation
+
+**Use for**: any assignment requiring selection among alternatives — site selection, technology choice, policy options, institutional reform pathways.
+
+| Step | Action |
+|---|---|
+| 1 | Define evaluation criteria BEFORE assessing options |
+| 2 | Assess each option against each criterion |
+| 3 | Weight criteria by importance (agreed with the client) |
+| 4 | Select the option that performs best across weighted criteria |
+
+**Proposal methodology language:** "We will evaluate [options] against [N] criteria: [list]. For each criterion, we will assess which option performs best and why, using a weighted scoring matrix agreed with the client before evaluation begins."
+
+---
+
+## 13. Expected Value Decision Framework
+
+**Use for**: investment appraisal, risk-adjusted decision making, scenario analysis, go/no-go decisions.
+
+For decisions with uncertain outcomes, calculate expected value:
+
+**Formula:** EV = Σ (Probability of Scenario × Financial Outcome)
+
+| Step | Action |
+|---|---|
+| 1 | Identify discrete scenarios (e.g., market growth vs. decline) |
+| 2 | Assign probabilities to each scenario |
+| 3 | Within each scenario, identify sub-outcomes |
+| 4 | Assign probabilities and financial outcomes to sub-outcomes |
+| 5 | Calculate expected value for each path |
+| 6 | Weight by scenario probability for overall expected value |
+| 7 | Decision rule: positive EV = proceed; negative EV = do not |
+
+**Proposal methodology language:** "Financial feasibility will be assessed using expected value analysis across [N] scenarios, weighted by probability of occurrence, to provide a risk-adjusted basis for the investment decision."
+
+---
+
+## 14. Build vs. Buy vs. Partner Framework
+
+**Use for**: capability development strategy, market entry, institutional reform options, technology acquisition decisions.
+
+| Mode | Advantages | Disadvantages |
+|---|---|---|
+| **Build internally** | Full control, no integration risk | Slow, requires investment, hiring |
+| **Partnership / JV** | Access to partner's capabilities, shared risk | Shared profits, less control, dependency |
+| **Acquire** | Immediate capabilities, brand, customer base | High cost, integration risk, cultural clash |
+
+**Proposal methodology language:** "The options appraisal will evaluate three capability acquisition modes — build, partner, and acquire — against [criteria], with a recommended pathway and implementation sequence."
+
+---
+
+## 15. Adjacent Market Proximity Model
+
+**Use for**: growth strategy, diversification, market expansion assignments.
+
+Structure adjacent market opportunities by distance from core:
+
+| Tier | Description | Feasibility | Risk |
+|---|---|---|---|
+| **Core-adjacent** | Same domain, different product | Highest | Lowest |
+| **Product-adjacent** | Same product type, different domain | High | Low-Medium |
+| **Sector-adjacent** | Same broad sector, different product type | Medium | Medium |
+| **Sector-distant** | Same sector, entirely different business model | Lowest | Highest |
+
+**Principle:** Closest adjacencies are most feasible and likely to succeed. Evaluate from inside out.
+
+**Proposal methodology language:** "Growth opportunities will be mapped by proximity to the core business, with closer adjacencies evaluated first for feasibility and risk-adjusted return."
+
+---
+
+## 16. Sales Cannibalisation Analysis
+
+**Use for**: product portfolio strategy, new offering launch, service line expansion.
+
+**Formula:**
+```
+Net Profit Impact = [New Product Volume × (Price - Variable Cost)]
+                  - Additional Fixed Costs
+                  - Σ [Cannibalised Volume per Product × Margin per Product]
+```
+
+**Key insight:** A new product can appear profitable in isolation but destroy value when cannibalisation of higher-margin existing products is accounted for.
+
+**Proposal methodology language:** "The financial analysis will account for potential cannibalisation of existing revenues, isolating the net incremental profit contribution of the proposed [product/service]."
+
+---
+
+## 17. Eight First-Principles Strategies for Problem Structuring
+
+From *Conquer Your Consulting Case Interview* — eight distinct lenses for generating MECE top-level structures. Any one can be applied to any problem:
+
+| # | Strategy | Description | Best For |
+|---|---|---|---|
+| 1 | **Process Steps** | Map the flow of how a good is produced or service rendered | Operations, value chain, efficiency |
+| 2 | **Components** | Identify physical/digital/human components needed | Infrastructure, system design |
+| 3 | **Segmenting** | Break by business segments, products, or customers | Portfolio analysis, market assessment |
+| 4 | **Matrix Approach** | Combine two perspectives into a grid (segments × criteria) | Option evaluation, comparison |
+| 5 | **Problem Drivers** | List variables that directly influence the outcome | Root cause analysis, KPI design |
+| 6 | **Mathematical Representation** | Express the target as a formula | Financial targets, KPI-driven scoping |
+| 7 | **Using Opposites** | Create exhaustive coverage through antonyms | Ensuring MECE compliance |
+| 8 | **Stakeholder Approach** | Structure around key stakeholders | Multi-party assignments |
+
+**Proposal application:** When designing a methodology's conceptual framework, select the most appropriate structuring strategy from these eight. The matrix approach is especially powerful for evaluation frameworks in proposals.
+
+---
+
+## 18. SCORE Storytelling Framework
+
+For structuring engagement narratives in proposals and presentations:
+
+| Element | Description | Proposal Application |
+|---|---|---|
+| **S — Situation** | Brief description of context | Client background in understanding of assignment |
+| **C — Complication** | Issues faced, why it was challenging | The problem or gap that creates the need |
+| **O — Outcome Expectation** | Worst possible outcome if no intervention | Creates urgency — "If nothing changes, [consequence]" |
+| **R — Remedial Action** | Detailed actions to overcome challenges (80-90% of content) | The methodology — what we will do |
+| **E — End Result** | Successful outcome | Expected benefits and deliverables |
+
+**What makes SCORE different from SCQA:** The "O" (Outcome Expectation) element creates stakes before the action, building urgency. SCQA moves from Question to Answer; SCORE moves from worst-case to intervention to result.
+
+**Proposal language pattern:** Use SCORE for past experience narratives: "The client faced [situation]. [Complication] threatened [worst outcome]. We [remedial actions]. The result was [measurable end result]."
+
+---
+
+## 19. Three Idea Expansion Techniques
+
+For developing depth beneath any top-level methodology structure:
+
+| Technique | Direction | Method |
+|---|---|---|
+| **Expansion** | Top-down | Take each bucket, create 3-5 sub-areas, expand each into concrete actions |
+| **Extremes** | Lateral | Imagine the extreme action, then dial back to feasible variations |
+| **Linking** | Bottom-up/sideways | Start with one idea, go down (detail), up (generalise), or sideways (adjacent) |
+
+**Proposal application:** When a methodology section feels thin, apply these techniques to develop richer sub-activities. "Extremes" is particularly useful for generating the full range of options before narrowing to recommendations.
+
+---
+
+*Synthesised from: Hacking the Case Interview (Taylor Warfield, 2017), The Ultimate Case Interview Workbook (Taylor Warfield), The 1%: Conquer Your Consulting Case Interview (Florian Smeritschnig). Frameworks reframed as proposal methodology tools for the proposal-skills repository.*

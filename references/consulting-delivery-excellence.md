@@ -308,4 +308,211 @@ Before recommending any action, ask:
 
 ---
 
-*Synthesised from: The McKinsey Mind (Rasiel & Friga), Consulting Essentials (Kavanaugh), Consulting Management EXPLAINED, Consulting Drucker (Cohen), Strategic Consulting (Chereau & Meschi), Punch the Elephant (Bria), Deloitte Consulting (WetFeet), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Hacking the Case Interview (Warfield).*
+
+---
+
+## 15. The Professional Services Tightrope
+
+From *The Seven Principles of Professional Services* — successful delivery requires maintaining balance between competing tensions:
+
+| Tension | Balance Required |
+|---|---|
+| Client's business improvements | AND the firm's time/profitability goals |
+| Pushing hard to keep the engagement progressing | AND stopping if damaging issues arise |
+| Being fully engaged with the client's business | AND being fully engaged with your own firm |
+| Solving problems by diving into details | AND guiding the client by focusing on the bigger picture |
+
+**The 75/25 Rule:** Subject matter expertise accounts for roughly 75% of what is required for successful delivery. The remaining 25% is relationship management, expectation management, and engagement discipline. Proposals that demonstrate mastery of the 25% differentiate from technically competent but relationally weak competitors.
+
+---
+
+## 16. Always Know What "Done" Looks Like
+
+Before starting any engagement, establish mutually agreed completion criteria. "Done" is not the same as "success" — sometimes the definition must fall back from success to a safe, professional conclusion.
+
+### Minimum elements of "Done"
+
+| Element | Description |
+|---|---|
+| Detailed scope description | What is and is not included |
+| Expected effort | Resources required |
+| Price | Fee structure and total |
+| Completion criteria | How we objectively measure that the engagement is complete |
+| Responsibilities | Who is responsible for each component |
+| Change process | How "done" can be modified (formal change control) |
+| Exclusions | What is explicitly NOT included |
+
+### Prescribing Done
+
+Use expert status to prescribe what the client needs rather than endlessly asking what they want:
+
+**Language pattern:** "Our experience, based on more than [X] implementations, is that [alternative approach] is not worth pursuing. It is difficult to design, costly to deploy, and prone to failure. We strongly recommend [prescribed approach], which has proven effective across [N] comparable engagements."
+
+### Customer Acceptance Techniques
+
+| Technique | Description |
+|---|---|
+| **Frequent check-ins** | Iterative validation to catch misalignment early |
+| **Client-written acceptance tests** | Clients define their own success criteria with expected results |
+| **Partial acceptance** | Document which deliverables have been accepted and which have not |
+| **Conditional acceptance** | Accept with conditions for completing outstanding items |
+
+**Proposal application:** "Each phase concludes with a formal acceptance gate. The client reviews deliverables against pre-agreed criteria and provides written acceptance before the next phase begins."
+
+---
+
+## 17. The Triple Constraints (Iron Triangle)
+
+**Scope + Effort + Time = Quality**
+
+If any one constraint shifts, the others must shift proportionally to maintain quality. There is no free lunch.
+
+| Constraint | Definition | Measured In |
+|---|---|---|
+| **Scope** | Depth and breadth of work | Requirements, deliverables |
+| **Effort** | Total use of resources | Person-days, not currency |
+| **Time** | Calendar duration | Working days |
+| **Quality** | Resultant product of the three | Not a constraint — an output |
+
+**The Yestimate warning:** A "Yestimate" is an estimate designed primarily to make the client say "yes" rather than to reflect reality. It creates expectation misalignment from day one. Proposals must resist the temptation to under-estimate for competitive advantage.
+
+**Proposal application:** "Our pricing reflects a realistic assessment of the effort required. We have structured the engagement so that scope, effort, and timeline are balanced to deliver the quality the [client] expects."
+
+---
+
+## 18. Manage Expectations — The EUR Framework
+
+From *Seven Principles* — the core framework for difficult conversations during delivery:
+
+### EUR: Empathy, Understanding, Resolution
+
+| Phase | Action | Key Principle |
+|---|---|---|
+| **Empathy** | Let the client express concerns without interruption. Validate feelings. Take detailed notes. Do NOT admit fault. | Empathy is feeling WITH someone, not FOR someone |
+| **Understanding** | Gather all perspectives. Identify where views differ. Understanding does not mean agreeing. | Unify the problem statement before attempting solutions |
+| **Resolution** | Take ownership of driving the resolution process. Set expectations using Who, What, When, and How. | Own the process even if you don't own the problem |
+
+### Selling the Resolution
+
+| Technique | Language |
+|---|---|
+| **Focus on outcome** | "Do we really need to argue about the process when the result will be the same?" |
+| **Be prescriptive** | Use expert status to recommend the path forward |
+| **"Yes, if…"** | "Yes, we could do that, if we are willing to [consequence]." Never say "no" — redirect |
+
+### Proactive Escalation
+
+The strongest form of expectation management: identify the misalignment before the client does and escalate it with a proposed resolution. This demonstrates trusted advisor status.
+
+**Proposal application:** "Our engagement methodology includes structured expectation management — weekly alignment checks, formal change control, and proactive escalation of any risk to delivery before it impacts outcomes."
+
+---
+
+## 19. F.A.A.S.T. Quality Standard
+
+Five core quality traits for consulting delivery:
+
+| Trait | Description | Self-Assessment Question |
+|---|---|---|
+| **Focus** | Always focused on the client's outcomes, not the firm's process | Am I focused on the same outcome the client is focused on? |
+| **Attention to Detail** | Master the client's complex details through functional decomposition | Have I broken this problem into component parts that add up to the whole? |
+| **Accountable** | Four-way accountability: you→firm, firm→you, team→client, client→team | Is every responsibility assigned and understood? |
+| **Skilled** | Continuously hone both technical and soft skills | Am I the right person for this task, or should I delegate? |
+| **Trustworthy** | The culmination of all other traits — trust is built one deliverable at a time | Would the client trust me with their most sensitive information? |
+
+**Proposal application:** "Our delivery teams operate to the F.A.A.S.T. standard — maintaining focus on client outcomes, attention to detail through structured decomposition, clear accountability, continuously updated skills, and the trust that comes from consistent quality."
+
+---
+
+## 20. Frontload Every Engagement
+
+From *The McKinsey Edge* — the first week sets the impression for the entire engagement. Peak output should occur on day 1-2, not ramp up gradually.
+
+### The Basket of Essentials (First Week Checklist)
+
+| # | Action | Why It Matters |
+|---|---|---|
+| 1 | Get senior leaders to spend time with you | Establishes relationship and alignment before work begins |
+| 2 | Complete the end storyline up front | Reduce everything to 3 guiding questions before making any deliverables |
+| 3 | Ask the right questions early | Perspective, stakeholder/relationship, scope/goal, risk/constraint questions |
+| 4 | Quick due diligence on team members | 30-minute 1-on-1s about learning goals and working styles |
+| 5 | Organise all necessary meetings | Lock in progress reviews and workshops in week one |
+
+### The One-Week Answer
+
+Have a credible preliminary answer to the engagement's core question within the first week. This demonstrates pace and builds client confidence.
+
+**Proposal application:** "Our methodology frontloads the engagement — within the first week, we will present preliminary findings and a refined work plan, giving [client] early confidence in the direction of the analysis."
+
+---
+
+## 21. The Double-Clicking Communication Technique
+
+From *The McKinsey Edge* — prepare every topic at three levels of depth so any stakeholder can "click" deeper:
+
+| Level | Description | Example |
+|---|---|---|
+| **Level 1** | The one-line answer (headline) | "Procurement cycle time can be reduced by 40%" |
+| **Level 2** | The 30-second expansion (3-4 supporting points) | "Three drivers: approval bottleneck, manual documentation, supplier fragmentation" |
+| **Level 3** | Detailed drill-down on any supporting point | Full analysis of the approval bottleneck with data and recommendations |
+
+### The Four C-Level Questions
+
+What every senior executive wants to hear:
+
+1. What is the overall project status — good or bad?
+2. What are one or two examples that support the status?
+3. What do I plan to do about any problems?
+4. What can the executive do to help?
+
+**Proposal application:** "All client communications follow a structured top-down format — headline finding, supporting evidence, and detailed analysis available on request — ensuring that senior stakeholders receive the level of detail they need."
+
+---
+
+## 22. Pull vs. Push Communication
+
+From *The McKinsey Edge* — two fundamentally different communication approaches:
+
+| Mode | Method | Effect |
+|---|---|---|
+| **Push** | Telling people what to think | Creates resistance, less effective |
+| **Pull** | Asking questions that lead people to your conclusion | Creates buy-in, more effective |
+
+**The rule:** Fewer words = more authority. Every unnecessary word dilutes the message.
+
+### Five Types of Second-Order Questions
+
+Beyond surface-level questions, these five types probe the underlying dynamics:
+
+| Type | Pattern | Example |
+|---|---|---|
+| **Dream situation** | "What if…" | "What if budget were not a constraint — what would you do?" |
+| **Options and alternatives** | "What else could we…" | "What other approaches have been considered?" |
+| **Other's shoes** | "How does [stakeholder] see…" | "How would the regional directors view this change?" |
+| **Need to believe** | "What would need to be true for…" | "What would need to be true for this to work?" |
+| **Next steps** | "What is the real, practical…" | "What is the first concrete action?" |
+
+**Proposal application:** When describing stakeholder engagement or workshop facilitation in the methodology, reference the pull communication approach: "Our facilitation methodology uses guided questioning rather than directive presentations, building client ownership of findings and recommendations."
+
+---
+
+## 23. Engagement Kick-Off Protocol
+
+From *Seven Principles* — the minimum agenda for an engagement kick-off meeting:
+
+1. Introduce team members, roles, and responsibilities
+2. Present engagement methodology and draft plan
+3. Confirm contract scope (first version of "done")
+4. Confirm how completion will be measured (acceptance criteria)
+5. Confirm issue, risk, and change management processes
+6. Confirm communications cadence and format
+7. Identify urgent issues or risks
+8. Identify immediate next steps with owners and deadlines
+
+**Sales-to-Services Handover:** Before kick-off, conduct a structured briefing covering how the engagement was won, commitments made, stakeholder backgrounds, agreed budget, and unusual terms.
+
+**Proposal application:** "The engagement opens with a structured kick-off that aligns all stakeholders on scope, methodology, governance, and success criteria — establishing the foundation for smooth delivery."
+
+---
+
+*Synthesised from: The McKinsey Mind (Rasiel & Friga), Consulting Essentials (Kavanaugh), Consulting Management EXPLAINED, Consulting Drucker (Cohen), Strategic Consulting (Chereau & Meschi), Punch the Elephant (Bria), Deloitte Consulting (WetFeet), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Hacking the Case Interview (Warfield), The Seven Principles of Professional Services (Anastasi), The McKinsey Edge (Hattori).*
