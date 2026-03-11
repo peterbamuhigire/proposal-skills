@@ -152,4 +152,53 @@ Three pricing methods, each with distinct data requirements:
 
 ---
 
-*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig).*
+## 10. Pocket Pricing Model
+
+From Marn & Rosiello (HBR) via *Essential Management Models* — diagnoses the gap between list price and actual "pocket price" after all deductions:
+
+```
+List Price
+  - Discounts
+  - Rebates
+  - Co-op funding
+  - Absorbed freight
+  - Payment terms cost
+  = Pocket Price (actual contribution)
+```
+
+**Key insight:** The gap between list price and pocket price is typically 30-60%, and varies enormously across customers. A 1% improvement in price yields an 11.1% increase in operating profit — versus 3.3% from volume improvement.
+
+**Diagnostic approach:** Start with the outliers — the top and bottom 10-20% of customers by pocket price realisation. The bottom decile often reveals structural pricing leakage.
+
+**Methodology language:** "Our pricing diagnostic will analyse the full pocket price waterfall — mapping the gap between list price and actual contribution across customer segments to identify systematic pricing leakage and quick-win revenue recovery opportunities."
+
+---
+
+## 11. Customer Lifetime Value (CLV)
+
+A quantitative framework for valuing customer relationships:
+
+**CLV = Annual Recurring Revenue × Customer Lifetime**
+
+Where Customer Lifetime = 1 / Churn Rate
+
+**Decision rule:** CLV - Cost to Acquire (CTA) > 0. If the cost of acquiring a customer exceeds their lifetime value, the acquisition strategy is value-destructive.
+
+**Methodology language:** "Our customer economics analysis will calculate lifetime value by segment, comparing CLV against acquisition and servicing costs to identify which customer segments warrant investment and which are unprofitable."
+
+---
+
+## 12. Experience Curve
+
+From Henderson / BCG via *Essential Management Models* — as cumulative production doubles, unit cost falls by a predictable percentage:
+
+**Three drivers:**
+1. **Learning** — workers and processes improve with repetition
+2. **Technological improvement** — discontinuous leaps in production capability
+3. **Economies of scale** — fixed costs spread across greater volume
+
+**Proposal application:** In operational efficiency or pricing strategy proposals: "Our cost projection model incorporates experience curve effects — forecasting unit cost reductions as [client] scales operations, which will inform both pricing strategy and investment timing."
+
+---
+
+*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig), Essential Management Models (Foster & Grannell).*

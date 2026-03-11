@@ -127,4 +127,38 @@ Instant analytical organisation for any qualitative assessment:
 
 ---
 
-*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig).*
+## 9. Lateral Thinking Toolkit (de Bono)
+
+From *Consulting Essentials* — six tools for breaking out of conventional problem-structuring patterns when standard frameworks produce predictable, undifferentiated solutions:
+
+| Tool | Method | When to Use |
+|---|---|---|
+| **Random Entry** | Introduce a random word or concept and force connections to the problem | Stuck on conventional approaches; need fresh angles |
+| **Provocation** | Make a deliberately absurd statement ("What if we charged nothing?") and work backward to viable ideas | Need to challenge assumptions embedded in the ToR |
+| **Challenge** | Question why things are done the current way — not to criticise but to understand necessity vs. habit | Diagnosing whether current practices serve a purpose |
+| **Focus** | Narrowly define what you are trying to solve — most creative failures come from too-broad focus | Problem definition keeps expanding |
+| **Harvesting** | Extract the useful principle from an impractical idea — not the idea itself but the mechanism | Good ideas are emerging but seem infeasible |
+| **Treatment** | Shape a raw idea into something practical and implementable | Moving from ideation to recommendation |
+
+**Proposal application:** "Our solution design methodology includes structured lateral thinking techniques — deliberately challenging assumptions and generating non-obvious options before converging on recommendations."
+
+---
+
+## 10. Six Thinking Hats (de Bono)
+
+From *Consulting Essentials* — a structured parallel thinking method for evaluating ideas, reviewing deliverables, and facilitating workshops:
+
+| Hat | Focus | Role |
+|---|---|---|
+| **White** | Facts and data | What do we know? What data is missing? |
+| **Red** | Emotions and intuition | How does this feel? What is the gut reaction? |
+| **Black** | Risks and caution | What could go wrong? What are the weaknesses? |
+| **Yellow** | Benefits and value | What are the advantages? Why could this work? |
+| **Green** | Creativity and alternatives | What else could we do? What new ideas emerge? |
+| **Blue** | Process and meta-thinking | What thinking is needed? How should we structure this discussion? |
+
+**Proposal application:** Reference for workshop facilitation and deliverable review: "All draft deliverables undergo structured review using parallel thinking methods — systematically examining findings from factual, risk, benefit, and creative perspectives before finalising recommendations."
+
+---
+
+*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig), Consulting Essentials (Kavanaugh).*

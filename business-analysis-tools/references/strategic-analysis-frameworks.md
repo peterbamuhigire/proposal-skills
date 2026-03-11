@@ -345,4 +345,78 @@ Sort all ideas by ICE score. The top-scoring items become the priority recommend
 
 ---
 
-*Synthesised from: PMI Guide to Business Analysis (2017), Business Analysis for Practitioners (PMI, 2015), Business Analysis Methodology Book (Yayici, 2015), Seven Steps to Mastering Business Analysis (Champagne, 2019), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Strategic Consulting (Chereau & Meschi), The McKinsey Mind (Rasiel & Friga), Consulting Management EXPLAINED, Consulting Essentials (Kavanaugh).*
+## Portfolio Analysis Frameworks
+
+### Ansoff's Growth Matrix
+
+From Ansoff (HBR, 1957) via *Essential Management Models* — a 2×2 framework for evaluating growth options:
+
+| | Existing Products | New Products |
+|---|---|---|
+| **Existing Markets** | **Market Penetration** — grow share in current market | **Product Development** — new offerings for existing customers |
+| **New Markets** | **Market Development** — take existing offerings to new markets | **Diversification** — new offerings in new markets (highest risk) |
+
+**The rule:** Exhaust penetration opportunities before pursuing riskier diversification. Each quadrant further from penetration increases risk and uncertainty.
+
+**Proposal language:** "Our growth strategy analysis will map opportunities using Ansoff's matrix — prioritising market penetration and adjacent growth before evaluating higher-risk diversification."
+
+### BCG Growth-Share Matrix
+
+From Henderson / BCG via *Essential Management Models* — portfolio classification based on market share and growth:
+
+| | High Market Share | Low Market Share |
+|---|---|---|
+| **High Growth** | **Stars** — invest to maintain | **Question Marks** — invest selectively or divest |
+| **Low Growth** | **Cash Cows** — harvest cash for reinvestment | **Dogs** — divest or manage for cash |
+
+**Cash flow logic:** Cash Cows fund Question Marks to become Stars; Stars mature into Cash Cows; Dogs drain resources.
+
+**Proposal language:** "Our portfolio analysis will classify [client's] business units/products using growth-share analysis, identifying which units warrant investment, which generate cash for reinvestment, and which should be considered for divestment."
+
+### GE/McKinsey Attractiveness-Strengths Matrix
+
+A 3×3 matrix offering more nuance than BCG — plots Market Attractiveness against Corporate Strengths:
+
+| | Strong | Medium | Weak |
+|---|---|---|---|
+| **High Attractiveness** | Invest heavily | Invest selectively | Protect position |
+| **Medium Attractiveness** | Build selectively | Manage for earnings | Limited expansion |
+| **Low Attractiveness** | Protect and refocus | Harvest | Divest |
+
+**Proposal language:** "We will assess each business unit across market attractiveness and competitive strength dimensions, producing a prioritised investment portfolio with clear prescriptive actions for each unit."
+
+---
+
+## Additional Diagnostic Frameworks
+
+### Collins' Hedgehog Concept
+
+From *Good to Great* via *Essential Management Models* — the intersection of three circles identifies strategic focus:
+
+| Circle | Question |
+|---|---|
+| **Passion** | What are we deeply passionate about? |
+| **Best at** | What can we be the best in the world at? |
+| **Economic engine** | What drives our economic engine? |
+
+Only activities that sit at the intersection of all three circles warrant strategic focus. Everything else is distraction.
+
+**Proposal language:** "Our strategic prioritisation will apply the Hedgehog Concept — identifying the intersection of [client's] distinctive capabilities, economic drivers, and organisational commitment to determine where to focus resources."
+
+### Organisational Readiness Assessment
+
+From *Knowledge Management and Business Strategies* — a gap analysis specifically designed for assessing readiness for change, knowledge management, or transformation:
+
+| Dimension | Assessment Method |
+|---|---|
+| **Importance** | How important is this capability to the organisation's strategy? (1-5) |
+| **Effectiveness** | How effectively does the organisation currently perform this capability? (1-5) |
+| **Gap** | Importance minus Effectiveness — positive gap = priority area |
+
+**Application:** Survey five to ten dimensions relevant to the assignment. Dimensions with the largest importance-effectiveness gap are the priority intervention areas. Provides a quantified, transparent basis for prioritisation.
+
+**Proposal language:** "Our readiness assessment will survey [N] capability dimensions, measuring importance against current effectiveness to identify and prioritise the gaps that most urgently require intervention."
+
+---
+
+*Synthesised from: PMI Guide to Business Analysis (2017), Business Analysis for Practitioners (PMI, 2015), Business Analysis Methodology Book (Yayici, 2015), Seven Steps to Mastering Business Analysis (Champagne, 2019), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Strategic Consulting (Chereau & Meschi), The McKinsey Mind (Rasiel & Friga), Consulting Management EXPLAINED, Consulting Essentials (Kavanaugh), Essential Management Models (Foster & Grannell), Knowledge Management and Business Strategies (Abou-Zeid).*
