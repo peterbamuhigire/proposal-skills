@@ -1,44 +1,47 @@
 ---
-name: sectors/undp
-description: UNDP procurement framework for consulting services, grants, and project proposals. Read this skill whenever the proposal responds to a UNDP-funded assignment or UNDP-managed grant. Covers grant modalities (competitive grants, GEF SGP, UN Trust Funds), proposal templates, evaluation criteria, and strategies for maximising scores across different UNDP instruments.
+name: sectors/un-system
+description: United Nations system procurement framework for consulting services, grants, and project proposals. Read this skill whenever the proposal responds to any UN agency assignment — UNDP, UNICEF, UNFCCC, UNEP, UN Women, FAO, WHO, UNIDO, ILO, or any other UN body. Covers grant modalities (competitive grants, GEF SGP, UN Trust Funds), UN consulting services RFPs (UNICEF, UNFCCC-style), proposal templates, evaluation criteria, and strategies for maximising scores across different UN instruments.
 ---
 
-# UNDP Procurement Framework — Consulting Services and Grants
+# United Nations System Procurement Framework — Consulting Services and Grants
 
-This skill provides the procurement rules, evaluation methodology, and scoring intelligence for UNDP-funded proposals. UNDP procurement is less standardised than World Bank — different instruments, templates, and evaluation criteria apply depending on the programme, funding source, and instrument type. Read this before writing any UNDP proposal.
+This skill covers procurement across the entire UN system: UNDP, UNICEF, UNFCCC, UNEP, UN Women, FAO, WHO, UNIDO, ILO, and all other UN bodies. While each agency has its own procedures, they share common patterns in proposal structure, evaluation, and compliance requirements. Read this before writing any UN-funded proposal.
 
 ## When to Read This Skill
 
-- The ToR or Call for Proposals references UNDP
+- The ToR or Call for Proposals references any UN agency (UNDP, UNICEF, UNFCCC, UNEP, FAO, WHO, etc.)
 - The assignment is funded through GEF Small Grants Programme (SGP)
-- The RFP uses UNDP project document format or Annex-based templates
-- The proposal is a grant application to a UNDP-managed fund
-- The assignment is funded by a bilateral donor channelled through UNDP (EU, DFID, SIDA, etc.)
-- You need to understand how UNDP evaluators score differently from World Bank
+- The RFP uses UN project document format or Annex-based templates
+- The proposal is a grant application to a UN-managed fund
+- The assignment is funded by a bilateral donor channelled through a UN agency (EU, DFID, SIDA, etc.)
+- You need to understand how UN evaluators score differently from World Bank
+- The RFP is a competitive consulting services procurement issued by a UN secretariat or agency
 
 ---
 
 ## Key Difference from World Bank
 
-| Dimension | World Bank | UNDP |
+| Dimension | World Bank | UN System |
 |---|---|---|
-| **Standardisation** | Single procurement framework, universal forms (TECH/FIN) | Multiple instruments varying by programme, country office, and funding source |
-| **Primary instruments** | Consulting services contracts (QCBS, QBS, etc.) | Grants to CSOs, project documents, consulting contracts, institutional contracts |
-| **Two-envelope system** | Mandatory — sealed technical and financial envelopes | Not used for grants. Single submission with budget embedded |
-| **Minimum technical score** | Hard gate (typically 75/100) | No equivalent hard threshold in grant mechanisms; administrative verification is the pass/fail gate |
-| **Scoring scale** | 0-4 per sub-criterion, weighted to 100 | Varies: 1000-point scales with tier bands, qualitative expert appraisal, or NC/NSC committee review |
-| **Price competition** | Formula: (Lowest Price / Your Price) x 100 x Weight | Budget assessed for "economy and relevance" — not a comparative formula |
-| **Key personnel** | Individual CVs scored per position (qualifications, adequacy, regional experience) | Team evaluated as a whole (size, qualifications, years of experience) |
-| **Eligible entities** | Primarily consulting firms | CSOs, NGOs, CBOs, IPOs, community groups, academic institutions |
-| **Co-financing** | Not typically required from bidders | Strongly encouraged or required |
+| **Standardisation** | Single procurement framework, universal forms (TECH/FIN) | Multiple instruments varying by agency, programme, country office, and funding source |
+| **Primary instruments** | Consulting services contracts (QCBS, QBS, etc.) | Grants to CSOs, project documents, consulting contracts, institutional contracts, RFPs for services |
+| **Two-envelope system** | Mandatory — sealed technical and financial envelopes | Grants: single submission. Consulting RFPs: separate technical and financial files |
+| **Minimum technical score** | Hard gate (typically 75/100) | Grants: administrative verification is the pass/fail gate. RFPs: varies by agency |
+| **Scoring scale** | 0-4 per sub-criterion, weighted to 100 | Varies: 1000-point scales with tier bands, qualitative expert appraisal, NC/NSC committee review, or cumulative point scoring |
+| **Price competition** | Formula: (Lowest Price / Your Price) x 100 x Weight | Grants: budget assessed for "economy and relevance". RFPs: varies by agency |
+| **Key personnel** | Individual CVs scored per position (qualifications, adequacy, regional experience) | Grants: team evaluated as a whole. RFPs: individual CVs with standardised UN CV template |
+| **Eligible entities** | Primarily consulting firms | CSOs, NGOs, CBOs, IPOs, community groups, academic institutions, consulting firms |
+| **Co-financing** | Not typically required from bidders | Grants: strongly encouraged or required. RFPs: not applicable |
 | **Gender/inclusion** | Cross-cutting but rarely a scored criterion | Often a standalone scored criterion with significant weight |
 | **Government endorsement** | Not required from bidders | Required for NGO applicants to UN Trust Funds |
+| **IPR ownership** | Varies by contract | Defaults to the UN body — secretariat/agency holds exclusive IPR on all work produced |
+| **Tax exemption** | Client-side | UN is exempt from all taxes and VAT — all prices must be quoted exclusive of tax |
 
 ---
 
-## UNDP Instrument Types
+## UN System Instrument Types
 
-UNDP uses different procurement modalities depending on the programme and funding source. Each has its own templates, evaluation approach, and strategic requirements.
+The UN system uses different procurement modalities depending on the agency, programme, and funding source. Each has its own templates, evaluation approach, and strategic requirements.
 
 ### Modality 1: Competitive Grants (UNDP-Managed Re-Granting)
 
@@ -88,19 +91,69 @@ UNDP uses different procurement modalities depending on the programme and fundin
 
 **See:** `references/un-trust-funds-guide.md`
 
-### Modality 4: UNDP Consulting Services Procurement
+### Modality 4: UN Consulting Services RFPs (UNICEF, UNFCCC, and Other Agencies)
+
+**When used:** A UN agency issues a competitive RFP to procure consulting firms, IT service providers, or individual consultants for implementation, evaluation, system development, or advisory services.
+
+**Typical features:**
+- Annex-based RFP package (multiple annexes covering terms, requirements, templates)
+- Technical and financial proposals submitted as **separate files** (not sealed envelopes, but distinct documents)
+- Standardised technical proposal template provided by the agency (varies by agency)
+- UN CV template for key personnel
+- IPR defaults to the UN body — secretariat/agency holds exclusive rights on all work produced
+- All prices quoted exclusive of taxes and VAT (UN exemption)
+- Staged payments tied to deliverables (not time-based billing)
+- Third-party reviews may be mandated (project management and technical quality)
+
+**Common technical proposal structure (synthesised from UNICEF and UNFCCC patterns):**
+
+| Section | Content | Maps to Skill |
+|---|---|---|
+| **Value statement** | Half-page statement on why the firm is most suitable | `01-cover-letter/` |
+| **General information** | Organisation name, registration, contact details | `04-firm-profile/` |
+| **Organisational capability** | Size, project management strength, financial stability, global networking | `04-firm-profile/` |
+| **Past and present experience** | Relevant projects, collaborative efforts, regional experience | `05-relevant-experience/` |
+| **Specialised knowledge** | Domain expertise relevant to the ToR | `03-understanding-of-assignment/` |
+| **Engagement model / approach** | How the firm will organise and partner with the UN agency | `06-methodology/` |
+| **Management approach** | Project management, risk management, progress reporting, change management | `06-methodology/` |
+| **Quality approach** | Quality environment, certifications, formal methodologies | `06-methodology/` |
+| **Technical solution** | Detailed technical response to requirements (varies by assignment) | `06-methodology/` |
+| **Key personnel and CVs** | Team structure, supervisory relationships, individual CVs | `07-team-composition/` |
+| **Project plan and schedule** | Milestones, deliverables, critical path, dependencies | `08-work-plan/` |
+| **Previous experience** | Track record in analogous assignments | `05-relevant-experience/` |
+| **References** | Minimum 3 at organisation level + 3 per CV | `05-relevant-experience/` |
+
+**Evaluation approach:** Cumulative point scoring (technical + financial), with technical and financial proposals evaluated separately. Technical weight typically 60-70%, financial 30-40%.
+
+**See:** `references/un-consulting-rfp-guide.md`
+
+### Modality 5: UNDP Direct Consulting Procurement
 
 **When used:** UNDP procures consulting firms or individual consultants directly for implementation support, evaluations, assessments.
 
 **Typical features:** Similar to World Bank but with UNDP-specific templates and procedures. Uses UNDP Procurement Manual (not World Bank SPDs). Individual consultant procurement uses a different process from firm procurement.
 
-**Note:** The three reference documents studied cover grant modalities. When UNDP consulting services procurement documents are available, this section will be expanded.
+---
+
+## UN System-Wide Rules
+
+These rules apply across all UN agencies and instruments:
+
+| Rule | Implication |
+|---|---|
+| **Tax exemption** | All prices must exclude taxes and VAT. The UN is exempt. Including VAT signals unfamiliarity. |
+| **IPR ownership** | All work product, data, and deliverables belong to the UN body. Proposals must not claim IP rights over outputs. |
+| **Adverse judgments disclosure** | Mandatory disclosure of any adverse legal judgments or arbitration awards. Omission can disqualify. |
+| **UN sanctions** | Firms/individuals on UN sanctions lists are ineligible. |
+| **Conflict of interest** | Standard COI declarations required. Firms involved in preparing the ToR may be excluded. |
+| **Currency** | Financial proposals in the currency specified in the RFP. Some calls specify local currency. |
+| **UN experience valued** | Experience with UN organisations and major multilateral/bilateral programmes is explicitly "highly desirable" across agencies. Prioritise UN project references. |
 
 ---
 
 ## Evaluation Criteria — Cross-Modality Patterns
 
-Despite variation across instruments, UNDP evaluations consistently weight these areas:
+Despite variation across agencies and instruments, UN evaluations consistently weight these areas:
 
 ### Universal Scoring Areas
 
@@ -252,7 +305,7 @@ UNDP grants often impose strict page limits (unlike World Bank, which typically 
 
 ## Proposal Template Mapping
 
-Unlike World Bank's universal TECH/FIN forms, UNDP templates vary by instrument. This table maps common UNDP proposal sections to the proposal section skills:
+Unlike World Bank's universal TECH/FIN forms, UN templates vary by agency and instrument. This table maps common UN proposal sections to the proposal section skills:
 
 | UNDP Section | Content | Maps to Skill |
 |---|---|---|
@@ -279,9 +332,10 @@ Unlike World Bank's universal TECH/FIN forms, UNDP templates vary by instrument.
 | `references/competitive-grants-guide.md` | UNDP-managed competitive CSO grants: evaluation scoring (1000-point scale), sub-criteria breakdown, administrative requirements, partnership rules |
 | `references/gef-sgp-guide.md` | GEF Small Grants Programme: template structure, mandatory indicators, dual objectives, co-financing, eligibility, strategic priorities |
 | `references/un-trust-funds-guide.md` | UN Trust Fund project proposals: five-part pro forma, budget line numbering, government endorsement, appraisal criteria, seed-money strategy |
+| `references/un-consulting-rfp-guide.md` | UN consulting services RFPs (UNICEF/UNFCCC patterns): technical proposal structure, CV template, financial proposal rules, key personnel requirements, engagement model, IPR and data ownership, strategic signals for scoring |
 
 Read the relevant reference file for detailed guidance beyond this summary.
 
 ---
 
-*Based on: UNDP/EU "Guidelines for Submitting Project Proposals for Civil Society Organizations" (January 2025), GEF Small Grants Programme "Project Proposal Template" (GEF-7 Operational Phase), and United Nations "Guidelines for Preparing and Submitting Project Proposals" for UN Trust Funds.*
+*Based on: UNDP/EU "Guidelines for Submitting Project Proposals for Civil Society Organizations" (January 2025), GEF Small Grants Programme "Project Proposal Template" (GEF-7 Operational Phase), United Nations "Guidelines for Preparing and Submitting Project Proposals" for UN Trust Funds, UNICEF "Format of Technical and Financial Proposal" (Annex E, 2021), and UNFCCC "Technical Proposal Template" (Annex 9, ITL RFP).*
