@@ -63,11 +63,23 @@ Read `references/world-class-proposal-patterns.md` before writing any proposal. 
 - Think in programmes, not projects — governance, engagement, and results management
 - Every project must have a quantified outcome
 
+## Proposer Profiles — Who Is Proposing?
+
+Before writing any proposal, load the correct proposer profile from `profiles/SKILL.md`. The profile determines the voice, credentials, experience, and branding used throughout the document.
+
+| Profile | When to Use |
+|---|---|
+| `profiles/peter-bamuhigire.md` | Proposing as Peter Bamuhigire (individual consultant) |
+| `profiles/chwezi-core-systems.md` | Proposing as Chwezi Core Systems (company) |
+| `profiles/client-template.md` | Writing on behalf of a client — copy, customise, and save |
+
+**If no proposer is specified, ask before proceeding.** The profile affects every section — voice, signatory, experience, team, references.
+
 ## Standards That Apply to All Sub-Skills
 
 - Follow `east-african-english` for tone, spelling, and courteous phrasing throughout
 - Use British English spelling: organisation, programme, centre, colour
-- Write in first-person plural: "We propose…", "Our team will…"
+- **Voice:** Determined by the loaded proposer profile — first-person singular for individual consultants ("I propose…"), first-person plural for companies ("We propose…")
 - Every output is a `.docx` file — use the `docx` skill for generation
 - Never use exaggerated marketing language. Confident, measured, professional
 
