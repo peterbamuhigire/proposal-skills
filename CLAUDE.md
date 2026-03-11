@@ -40,9 +40,18 @@ These are cross-cutting knowledge bases that proposal sections draw from. Each c
 - `risk-management/` — risk registers, mitigation frameworks, escalation triggers
 - `business-analysis-tools/` — SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
 
+### Proposer Profiles: `profiles/`
+- `profiles/peter-bamuhigire.md` — Individual consultant profile (first-person singular voice)
+- `profiles/chwezi-core-systems.md` — Company profile (first-person plural voice)
+- `profiles/client-template.md` — Template for ghostwriting on behalf of clients
+- `profiles/SKILL.md` — Profile routing and selection rules
+
+Load exactly one profile before generating any proposal content. The profile determines voice, signatory, credentials, experience, and branding throughout the document.
+
 ### Cross-Cutting References: `references/`
-- `references/proposal-strategy-and-persuasion.md` — the persuasion layer: S1→S2→B baseline logic, P-I-P structure, buyer psychology, theme architecture, hypothesis-driven methodology, Pyramid of Ideas, quality self-assessment checklist. Read before writing ANY proposal section.
-- `references/world-class-proposal-patterns.md` — patterns from McKinsey/Deloitte: quantification, named frameworks, buyer role awareness, theme weaving, relationship signals
+- `references/proposal-strategy-and-persuasion.md` — the persuasion layer: S1→S2→B baseline logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, hypothesis-driven methodology, Pyramid of Ideas, Cialdini's persuasion principles, pre-emptive objection neutralisation, Red Team review process. Read before writing ANY proposal section.
+- `references/world-class-proposal-patterns.md` — patterns from McKinsey/Deloitte: quantification, named frameworks, buyer role awareness, theme weaving, storyboarding, ghost packs, elevator test, budget proposal architecture, Sweet Spot positioning, prewiring
+- `references/consulting-delivery-excellence.md` — implementation quality standards: McKinsey problem-solving process, 6-Step Consulting Workflow, Done-Done standard, VRM, Drucker's Five Questions, Design Thinking, Griffin Dilemma Framework, Theory of Abandonment. Read when writing methodology or implementation sections.
 
 ### Content Creation Skills
 - `blog-idea-generator/` — generates 15–25 blog topic ideas using a 20-method ideation library
@@ -67,7 +76,7 @@ Reference documentation that proposal skills load for context. See `sectors/INDE
 
 - **British English always**: organisation, programme, centre, colour, travelling, specialise
 - **East African professional tone**: formal, respectful, courteous — no marketing hype or AI-sounding vocabulary
-- **First-person plural in proposals**: "We propose…", "Our team will…"
+- **Voice determined by proposer profile**: first-person plural for companies ("We propose…"), first-person singular for individual consultants ("I propose…")
 - **Dates**: day-month-year (17 February 2026), never American format
 - **AI vocabulary blacklist**: never use words like delve, tapestry, landscape (metaphor), leverage, navigate (metaphor), foster, realm, harness, synergy, embark, robust, vibrant, holistic, seamless
 - **Outcomes rule**: every past project card must state what was achieved, not just what was done

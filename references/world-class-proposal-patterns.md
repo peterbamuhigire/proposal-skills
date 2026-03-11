@@ -191,3 +191,124 @@ The TRUST framework (Wickham):
 
 ## 13. Column Fodder Warning
 If you have no realistic chance of winning, decline gracefully. Being listed as a third option to justify a predetermined choice wastes resources and damages reputation. Qualifying signals: incumbent advantage, pre-existing relationship, unusually specific ToR language that matches one firm's capabilities.
+
+---
+
+## 14. Storyboarding and Ghost Packs
+
+### Storyboarding (McKinsey/Deloitte standard)
+
+Before writing the proposal in full, create a storyboard — a sequence of one-line messages, one per page or section, that tells the proposal's story from start to finish. Each line answers: "What is the single message this section must convey?"
+
+**Process:**
+1. Write the Big Idea (Pyramid Level 1)
+2. List the 3-4 supporting arguments (Level 2)
+3. For each section, write a one-sentence message
+4. Arrange these sentences in sequence — they should read as a coherent narrative
+5. Only then write the full text
+
+If the storyboard does not flow as a compelling argument, the proposal will not either. Fix the story before writing the prose.
+
+### Ghost Packs (McKinsey technique)
+
+A Ghost Pack is a sketched version of the final deliverable — created before the analysis begins. It shows what the end product will look like, what data it will contain, and what conclusions it might reach.
+
+**Application to proposals:**
+- For each major deliverable promised in the methodology, sketch what it will contain (table of contents, key exhibits, sample findings)
+- Include a sample Ghost Pack page in the proposal as an appendix or embedded exhibit
+- This demonstrates that we have thought through the end product, not just the process
+- Evaluators see concrete evidence of what they will receive, not just a description
+
+**Pattern:** "Exhibit 7 shows a sample output from our Phase 2 diagnostic. The final report will follow this structure, populated with data from [client name]'s operations."
+
+---
+
+## 15. The Elevator Test
+
+Every proposal must pass the Elevator Test: if forced to describe the entire proposal in 30 seconds (one elevator ride), could you do it clearly and compellingly?
+
+**The test:**
+1. State the client's core problem in one sentence
+2. State our proposed solution in one sentence
+3. State why we are the right firm in one sentence
+4. State the key benefit in one sentence
+
+If any of these four sentences is vague, unclear, or unconvincing, the proposal has a structural problem. The Elevator Test should be applied to:
+- The proposal as a whole (tested against the executive summary)
+- Each major section (tested against the section's opening paragraph)
+- Each methodology phase (tested against the phase's P-I-P opening)
+
+**McKinsey rule:** "One slide, one message." Every section, every phase, every exhibit should convey exactly one clear message. If you cannot state the message in a single sentence, the section is trying to do too much.
+
+---
+
+## 16. Budget Proposal Architecture (Chereau's Nine Parts)
+
+A structured approach to financial proposals from strategic consulting practice, applicable when the ToR allows narrative in the financial submission:
+
+| # | Part | Content |
+|---|---|---|
+| 1 | **Table of Contents** | Clear navigation of the financial proposal |
+| 2 | **Context** | Why this engagement, why now — mirrors the situation analysis |
+| 3 | **Client Request** | Restatement of what was asked, demonstrating precise understanding |
+| 4 | **Value Proposition** | What the client will gain — benefits, not just deliverables |
+| 5 | **Mission Content** | Detailed scope: phases, activities, deliverables, tools |
+| 6 | **Mission Team** | Who will deliver, their roles, and why this composition |
+| 7 | **Budget and Timeframe** | Costed by phase and by team member, with timeline |
+| 8 | **References** | Relevant past engagements with outcomes |
+| 9 | **Contractual Conditions** | Terms, assumptions, exclusions, IP, payment schedule |
+
+### Five-Element Stage Structure
+
+Each phase/stage within Part 5 (Mission Content) should contain exactly five elements:
+
+| Element | Description |
+|---|---|
+| **Objective** | What this stage will achieve (one clear sentence) |
+| **Methodology** | How it will be done (specific methods and tools) |
+| **Tools** | Named frameworks, instruments, templates to be used |
+| **Teams** | Which team members are deployed and in what roles |
+| **Deliverables** | What will be produced, in what format, by when |
+
+This five-element structure ensures completeness and consistency across all stages. Missing any element signals a gap in thinking.
+
+---
+
+## 17. Deloitte's "Sweet Spot" Positioning
+
+Deloitte Consulting positions itself at the intersection of three capabilities:
+
+```
+        Strategy
+           ▲
+          / \
+         /   \
+        / Sweet\
+       / Spot   \
+      /___________\
+Operations ◄──► Technology
+```
+
+**The principle:** The most valuable consulting engagements sit where strategy, operations, and technology converge. A digital transformation requires strategic vision (strategy), process redesign (operations), AND systems implementation (technology). Firms that offer only one or two of these create handoff gaps.
+
+**Application to proposals:**
+- When the assignment touches multiple domains, explicitly position the firm at the intersection
+- "Unlike firms that specialise in strategy alone or technology alone, [Firm] integrates strategic advisory with operational redesign and technology implementation — ensuring that recommendations are executable and that systems serve the strategy, not the other way around."
+- The concept of "executable strategies" — strategies designed to be implemented, not just recommended — is a powerful differentiator against pure strategy firms
+
+**Language pattern:** "Our approach ensures that strategy is not a document that sits on a shelf but a programme of change that is designed for implementation from day one."
+
+---
+
+## 18. Prewiring: Pre-selling Findings Before Formal Presentation
+
+A McKinsey technique that distinguishes experienced consultants from novices. Before the formal presentation of findings or deliverables, walk each key decision-maker through the conclusions individually.
+
+**Why it matters for proposals:**
+- In the proposal itself, signal that our methodology includes this practice: "Before formal presentation of findings, we conduct individual briefings with key stakeholders to ensure alignment, address concerns, and incorporate feedback."
+- This signals sophistication — we know that formal presentations should contain no surprises
+- It addresses the User Buyer concern (Section 4 of proposal-strategy-and-persuasion.md) — stakeholders feel included, not ambushed
+
+**Methodology language:** "Our approach includes structured pre-briefings with key stakeholders before each formal deliverable presentation, ensuring that the final output reflects institutional consensus rather than consultant opinion."
+
+**The principle extends to proposal development:** Before submitting a proposal, if possible, validate key elements with the client contact. The proposal should contain no surprises — only confirmations of what has already been discussed.

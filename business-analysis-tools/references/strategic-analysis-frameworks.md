@@ -187,4 +187,162 @@ From the PMI Guide:
 
 ---
 
-*Synthesised from: PMI Guide to Business Analysis (2017), Business Analysis for Practitioners (PMI, 2015), Business Analysis Methodology Book (Yayici, 2015), Seven Steps to Mastering Business Analysis (Champagne, 2019).*
+---
+
+## Advanced Strategic Frameworks
+
+### Power Curve (McKinsey)
+
+From *Strategy Beyond the Hockey Stick* — economic profit follows a power curve distribution across companies:
+
+- The top quintile captures almost all economic profit
+- The middle three quintiles are in a flat zone with near-zero economic profit
+- The bottom quintile destroys value
+- Moving from the middle to the top is the strategic challenge
+
+**Proposal application:** When proposing strategy or organisational transformation, reference the power curve to frame urgency: "Research shows that economic profit follows a power curve — a small number of organisations capture the majority of value in any sector. Our strategy work is designed to move [client] from the middle of this curve into the top quintile."
+
+### ETM Model — Endowment, Trends, Moves
+
+Ten variables that predict strategic success with 86% accuracy:
+
+| Category | Variables |
+|---|---|
+| **Endowment** (starting position) | Revenue (size), Debt level, Past investment in R&D/capex |
+| **Trends** (tailwinds/headwinds) | Industry trend, Geographic exposure |
+| **Moves** (management actions) | Programmatic M&A, Dynamic resource reallocation, Strong capital expenditure, Productivity improvement, Differentiation improvement |
+
+**Key insight:** Endowment explains more than most executives admit. Trends are more powerful than most strategies assume. But 3+ bold moves in combination can overcome unfavourable endowment and trends — achieving a 47% probability of moving to the top quintile (vs. 8% baseline).
+
+**Proposal application:** In strategy assignments, use the ETM model to structure the diagnostic: "We will assess [client's] current endowment (market position, financial health, investment history), identify relevant industry and geographic trends, and develop a portfolio of bold strategic moves designed to shift performance trajectory."
+
+### Bold Moves Framework
+
+Not all strategic actions are equal. Five types of move, when made boldly (top quintile of effort), significantly improve odds:
+
+| Move | Bold Threshold | Impact |
+|---|---|---|
+| **Programmatic M&A** | Consistent programme of deals, each <30% of market cap | Builds capabilities and market position over time |
+| **Dynamic resource reallocation** | Reallocate >50% of capital across businesses over 10 years | Shifts resources from declining to growing areas |
+| **Strong capital expenditure** | Top 20% of industry in capex-to-sales ratio | Signals commitment and builds competitive moats |
+| **Productivity improvement** | Sufficient to move from bottom to top half of industry | Creates headroom for investment |
+| **Differentiation** | Gross margin improvement to top 30% of industry peers | Pricing power through unique value proposition |
+
+**Proposal language:** "Our strategic recommendations will be evaluated against the Bold Moves framework — ensuring that proposed actions are sufficiently ambitious to shift [client's] competitive trajectory, not merely incremental improvements."
+
+### Inside View vs. Outside View (Kahneman-derived)
+
+| Perspective | Description | Risk |
+|---|---|---|
+| **Inside view** | Based on the organisation's own experience, plans, and beliefs | Optimism bias, planning fallacy, anchoring to past performance |
+| **Outside view** | Based on base rates from thousands of comparable situations | More accurate but harder to accept — "we are not average" |
+
+**The Hairy Back diagnostic:** Plot the organisation's past strategic plans (the "hockey sticks" — flat performance followed by projected growth) against actual performance. If successive plans show unrealised growth projections against flat actuals, the organisation suffers from systematic inside-view bias.
+
+**Proposal application:** "Our strategy process explicitly incorporates the outside view — benchmarking [client's] trajectory against base rates from comparable institutions. This guards against the optimism bias that undermines most strategic plans."
+
+### Competitive Systems Matrix
+
+Classifies market segments by the relationship between profitability and size:
+
+| System | Size-Profit Relationship | Strategy Implication |
+|---|---|---|
+| **Volume** | Larger players are more profitable | Scale matters — pursue market share |
+| **Specialisation** | Focused players are more profitable regardless of size | Find and defend niches |
+| **Fragmentation** | No relationship between size and profitability | Compete on execution, not scale |
+| **Stalemate** | No player earns attractive returns | Compete on cost or exit |
+
+**Proposal application:** In market analysis and strategy assignments, classify the client's market first. The classification determines whether the strategy should pursue scale, focus, execution excellence, or cost leadership.
+
+### VRIST Criteria — Sustainable Competitive Advantage
+
+A resource or capability creates sustainable competitive advantage only if it meets all five criteria:
+
+| Criterion | Test |
+|---|---|
+| **Value-creating** | Does it enable the firm to create value for customers? |
+| **Rare** | Do few competitors possess it? |
+| **Inimitable** | Is it difficult or costly for competitors to replicate? |
+| **Non-Substitutable** | Is there no alternative that provides the same benefit? |
+| **Non-Transferable** | Can it be easily acquired on the open market? |
+
+**Proposal application:** When identifying differentiators (ours or the client's), test each against VRIST. Only advantages that meet all five criteria are sustainable. "We will assess [client's] competitive advantages against the VRIST sustainability framework to identify which advantages merit investment and which are vulnerable to erosion."
+
+### Three Horizons Model (McKinsey)
+
+Organises strategic initiatives by time horizon and certainty:
+
+| Horizon | Focus | Time Frame | Certainty | Investment Profile |
+|---|---|---|---|---|
+| **H1** | Fix and optimise the core business | 0-12 months | High | Operational improvements, efficiency gains, quick wins |
+| **H2** | Scale and transform emerging opportunities | 1-3 years | Medium | New capabilities, market expansion, strategic partnerships |
+| **H3** | Explore and disrupt — create future options | 3-5+ years | Low | Innovation, R&D, exploratory pilots, new business models |
+
+**Proposal application:** "Our roadmap organises recommendations across three horizons — ensuring a balanced portfolio of immediate operational improvements (H1), medium-term transformation initiatives (H2), and longer-term strategic options (H3)."
+
+---
+
+## Systems and Process Frameworks
+
+### Theory of Constraints (Goldratt)
+
+Every system has exactly one constraint that limits its throughput. The five-step process:
+
+| Step | Action | Consulting Application |
+|---|---|---|
+| 1 | **Identify** the constraint | Find the bottleneck — the single process, resource, or policy that limits overall performance |
+| 2 | **Exploit** the constraint | Maximise throughput at the bottleneck without additional investment |
+| 3 | **Subordinate** everything else | Align all other processes to serve the constraint — do not optimise non-constraints |
+| 4 | **Elevate** the constraint | Invest to increase capacity at the bottleneck |
+| 5 | **Prevent inertia** | Once the constraint moves, return to Step 1 — the new constraint may be elsewhere |
+
+**Proposal application:** In process improvement and operational efficiency assignments: "Our approach applies the Theory of Constraints — identifying the single binding constraint on [client's] throughput and focusing intervention there, rather than dispersing effort across non-binding areas."
+
+### Causal Loop Diagrams (Systems Thinking)
+
+Map the reinforcing and balancing feedback loops in a system:
+
+- **Reinforcing loops (R):** More of A leads to more of B, which leads to more of A — growth or decline spirals
+- **Balancing loops (B):** More of A leads to more of B, which leads to LESS of A — stabilising mechanisms
+
+**Application:** In complex assignments (health systems, education reform, institutional transformation), draw causal loop diagrams to:
+1. Show the evaluator that we understand systemic dynamics, not just isolated problems
+2. Identify leverage points — where small interventions produce large systemic effects
+3. Anticipate unintended consequences of proposed interventions
+
+**Proposal language:** "Our analysis will map the systemic dynamics underlying [problem], identifying reinforcing loops that drive [negative pattern] and the leverage points where targeted intervention will produce the greatest systemic effect."
+
+---
+
+## Ideation and Innovation Frameworks
+
+### Morphological Box (Structured Ideation)
+
+A systematic method for generating novel solutions by combining variations across parameters:
+
+1. **Define parameters** — the key dimensions of the solution (e.g., delivery channel, technology platform, pricing model, target user)
+2. **List variations** for each parameter (e.g., delivery: mobile app / web portal / in-person / hybrid)
+3. **Force novel combinations** — systematically combine one variation from each parameter to generate new solution concepts
+4. **Evaluate combinations** against feasibility and value criteria
+
+**Proposal application:** In assignments requiring innovation or options generation: "We will apply structured ideation methods including morphological analysis — systematically combining solution parameters to identify non-obvious options that a conventional approach might miss."
+
+### ICE Scoring (Impact × Confidence × Ease)
+
+A rapid prioritisation method for screening ideas and recommendations:
+
+| Criterion | Scale | Description |
+|---|---|---|
+| **Impact** | 1-10 | How much will this improve the situation? |
+| **Confidence** | 1-10 | How confident are we that it will work? |
+| **Ease** | 1-10 | How easy is it to implement? |
+
+**ICE Score** = Impact × Confidence × Ease (max 1000)
+
+Sort all ideas by ICE score. The top-scoring items become the priority recommendations. Quick, transparent, and client-friendly.
+
+**Proposal application:** "Recommendations will be prioritised using ICE scoring (Impact × Confidence × Ease), providing the client with a transparent, defensible basis for sequencing implementation."
+
+---
+
+*Synthesised from: PMI Guide to Business Analysis (2017), Business Analysis for Practitioners (PMI, 2015), Business Analysis Methodology Book (Yayici, 2015), Seven Steps to Mastering Business Analysis (Champagne, 2019), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Strategic Consulting (Chereau & Meschi), The McKinsey Mind (Rasiel & Friga), Consulting Management EXPLAINED, Consulting Essentials (Kavanaugh).*
