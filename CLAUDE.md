@@ -40,6 +40,10 @@ These are cross-cutting knowledge bases that proposal sections draw from. Each c
 - `risk-management/` — risk registers, mitigation frameworks, escalation triggers
 - `business-analysis-tools/` — SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
 
+### Cross-Cutting References: `references/`
+- `references/proposal-strategy-and-persuasion.md` — the persuasion layer: S1→S2→B baseline logic, P-I-P structure, buyer psychology, theme architecture, hypothesis-driven methodology, Pyramid of Ideas, quality self-assessment checklist. Read before writing ANY proposal section.
+- `references/world-class-proposal-patterns.md` — patterns from McKinsey/Deloitte: quantification, named frameworks, buyer role awareness, theme weaving, relationship signals
+
 ### Content Creation Skills
 - `blog-idea-generator/` — generates 15–25 blog topic ideas using a 20-method ideation library
 - `blog-writer/` — full article pipeline with SEO, bilingual output (EN/FR), and Astro page building
