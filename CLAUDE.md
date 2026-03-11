@@ -63,7 +63,7 @@ Load exactly one profile before generating any proposal content. The profile det
 - `language-standards/` — multi-language standards covering English, French, and Kiswahili
 
 ### Sectors and Procurement Frameworks: `sectors/`
-Reference documentation that proposal skills load for context. See `sectors/INDEX.md` for the full list.
+Reference documentation that proposal skills load for context. See `sectors/SKILL.md` for the full list.
 
 - **Procurement frameworks** (how bids must be packaged): `ppda-uganda/`, `world-bank/`, `afdb/`, `undp/`
 - **Industry sectors** (domain-specific content): `agriculture/`, `health/`, `education/`, `ict/`, `financial-services/`, `energy/`, `water-sanitation/`, `transport-infrastructure/`, `governance/`

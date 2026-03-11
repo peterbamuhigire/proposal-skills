@@ -1,14 +1,79 @@
 # Proposal Skills
 
-A collection of Claude Code skills for generating professional consulting proposals and Expressions of Interest, tailored for the East and Central African consulting market.
+A Claude Code skills repository for generating professional consulting proposals that compete with McKinsey, Deloitte, PwC, and Bain — tailored for the East and Central African consulting market.
 
 ---
 
-## Overview
+## How It Works
 
-This repository contains skills that guide Claude in producing complete, competitive bid documents — from a single cover letter to a full technical proposal. Each skill is a focused set of instructions for one section or document type, following the conventions of winning proposals in Uganda, Kenya, Rwanda, Tanzania, and neighbouring markets.
+A consultant on the team clones this repo, opens a terminal, navigates to `proposal-skills/`, and starts Claude Code. From there, the entire proposal lifecycle is handled through conversation:
 
-The skills are modelled on real winning proposals including Deloitte-calibre enterprise structures and East African public sector and donor-funded bid formats (World Bank, AfDB, PPDA, UNDP).
+### 1. Start a New Proposal
+
+```
+cd proposal-skills
+claude
+```
+
+Claude checks for the `proposals/` directory (created on first run), asks what proposal you are working on, and scaffolds the workspace:
+
+```
+proposals/
+├── INDEX.md
+└── 2026-03-15-moh-ict-assessment/
+    ├── BRIEF.md                    # Brainstorm output — drives all writing
+    ├── 01-cover-letter.md
+    ├── 02-executive-summary.md
+    ├── 03-understanding-of-assignment.md
+    ├── 04-firm-profile.md
+    ├── 05-relevant-experience.md
+    ├── 06-methodology.md
+    ├── 07-team-composition.md
+    ├── 08-work-plan.md
+    ├── 09-financial-proposal.md
+    ├── terms/                      # Paste ToR, RFP, adverts here
+    ├── sheets/                     # Excel/CSV tables generated here
+    ├── team/                       # CVs for this bid
+    ├── research/                   # Background materials, sector data
+    └── output/                     # Final compiled docx files
+```
+
+### 2. Paste Your Materials
+
+Drop the ToR, RFP, or advert into `terms/`. Drop team CVs into `team/`. Tell Claude when you are ready.
+
+### 3. Brainstorm
+
+Claude reads the terms, invokes the brainstorming workflow, and asks you focused questions — one at a time — to understand the assignment, identify themes, select frameworks, and design the proposal approach. The output is saved as `BRIEF.md`, which drives all subsequent writing.
+
+### 4. Write Sections
+
+Claude writes each section by loading the relevant skill (e.g., `06-methodology/SKILL.md`), applying the persuasion frameworks from `references/`, and following the approach defined in the brief. Sections are written into the per-proposal markdown files.
+
+### 5. Generate Tables
+
+Tabular sections — staffing schedule, work plan Gantt, budget breakdown, deliverables matrix — are generated as Excel or CSV files in `sheets/`.
+
+### 6. Compile and Deliver
+
+Final documents are compiled into `output/` as Word files. Most proposals produce two separate documents: `technical-proposal.docx` and `financial-proposal.docx`.
+
+### 7. Resume Later
+
+To continue an in-progress proposal, start Claude Code and ask to resume. Claude reads `proposals/INDEX.md`, shows your proposals, and picks up from where you left off.
+
+---
+
+## What Makes This Different
+
+This is not a collection of prompt templates. It is a structured knowledge base synthesised from 22 consulting and strategy books, including:
+
+- **Proposal strategy**: S1-S2-B logic, P-I-P structure, SCQA narrative spine, hypothesis-driven methodology, Cialdini's persuasion principles, pre-emptive objection neutralisation, Red Team review
+- **Consulting frameworks**: 80+ structured analytical frameworks (McKinsey problem-solving process, Blue Ocean ERRC, Structured Choice, Theory of Constraints, SECI Knowledge Spiral, and dozens more)
+- **Delivery excellence**: Done-Done standard, Value Realisation Method, Design Sprint, SOSTAC, Triple Constraints, frontloading principles
+- **World-class patterns**: storyboarding, ghost packs, elevator test, Sweet Spot positioning, prewiring, action titles
+
+Every section skill knows how to apply these frameworks to produce output that reads like it came from a top-tier firm.
 
 ---
 
@@ -16,132 +81,184 @@ The skills are modelled on real winning proposals including Deloitte-calibre ent
 
 ```
 proposal-skills/
-├── README.md
-└── proposal-writing/
-    ├── SKILL.md                        ← Parent skill — routes to sub-skills
-    ├── docs/                           ← Documentation and reference notes
-    ├── blog-posts/                     ← Generated blog posts on proposal writing
-    ├── cover-letter/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── executive-summary/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── understanding-of-assignment/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── firm-profile/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── relevant-experience/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── methodology/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── team-composition/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── work-plan/
-    │   ├── SKILL.md
-    │   └── references/
-    ├── financial-proposal/
-    │   ├── SKILL.md
-    │   └── references/
-    └── expression-of-interest/
-        ├── SKILL.md
-        └── references/
+├── CLAUDE.md                         # Instructions for Claude Code
+├── SKILL.md                          # Parent skill — routes to sub-skills
+├── .gitignore                        # Excludes proposals/ (confidential)
+│
+├── 01-cover-letter/                  # Proposal section skills (numbered)
+├── 02-executive-summary/
+├── 03-understanding-of-assignment/
+├── 04-firm-profile/
+├── 05-relevant-experience/
+├── 06-methodology/
+├── 07-team-composition/
+├── 08-work-plan/
+├── 09-expression-of-interest/
+├── 10-financial-proposal/
+│
+├── profiles/                         # Proposer identity system
+│   ├── peter-bamuhigire.md           #   Individual consultant
+│   ├── chwezi-core-systems.md        #   Company
+│   └── client-template.md           #   Ghostwriting template
+│
+├── references/                       # Cross-cutting knowledge bases
+│   ├── proposal-strategy-and-persuasion.md
+│   ├── world-class-proposal-patterns.md
+│   └── consulting-delivery-excellence.md
+│
+├── consulting-frameworks/            # Analytical building blocks
+│   └── references/
+│       ├── problem-structuring.md
+│       ├── financial-analysis.md
+│       ├── strategy-frameworks.md
+│       ├── operations-frameworks.md
+│       └── communication-structures.md
+│
+├── business-analysis-tools/          # Diagnostic instruments
+│   └── references/
+│       ├── strategic-analysis-frameworks.md
+│       ├── elicitation-techniques.md
+│       ├── requirements-analysis-models.md
+│       ├── prioritisation-and-decision-tools.md
+│       └── ...
+│
+├── sectors/                          # Procurement and sector knowledge
+│   ├── world-bank/
+│   ├── undp/
+│   ├── afdb/
+│   ├── ppda-uganda/
+│   └── (industry sectors)
+│
+├── project-management/               # Supporting domain skills
+├── change-management/
+├── monitoring-and-evaluation/
+├── stakeholder-engagement/
+├── capacity-building/
+├── gender-and-social-inclusion/
+├── environmental-and-social-safeguards/
+├── data-management/
+├── sustainability-planning/
+├── risk-management/
+│
+├── east-african-english/             # Language and tone standards
+├── language-standards/
+│
+├── blog-writer/                      # Content creation skills
+├── blog-idea-generator/
+│
+└── proposals/                        # LOCAL ONLY — gitignored
+    ├── INDEX.md
+    └── (per-proposal directories)
 ```
 
 ---
 
-## Skills
+## Proposal Section Skills
 
-### proposal-writing *(parent)*
-Routes to the correct sub-skill based on what section or document type is needed. Defines the standards that apply across all sub-skills: British English spelling, East African tone, first-person plural voice, and `.docx` output via the `docx` skill.
-
----
-
-### cover-letter
-Generates the cover letter and technical proposal submission sheet. Enforces a client-specific opening (never boilerplate), two to three comparable past projects with outcomes, and a courteous East African closing.
-
-### executive-summary
-Generates the executive summary — the most critical section of any proposal. Covers the client's problem, the firm's four differentiators, a scope table, a high-level timeline, and a value proposition closing paragraph.
-
-### understanding-of-assignment
-Generates the background, objectives, scope, and ToR comments section. Ensures the firm's understanding is expressed in its own words, with professional comments on any ToR items that need flagging.
-
-### firm-profile
-Generates the firm or individual consultant profile. Covers legal registration, core service areas, sector expertise, geographic footprint, and certifications. Supports both firm and solo-consultant formats.
-
-### relevant-experience
-Generates the past projects section with a summary table and individual project cards. Enforces the outcomes rule — every project must state what was achieved, not just what was done.
-
-### methodology
-Generates the approach and methodology section. Covers the conceptual framework, a phase-by-phase plan with activities and deliverables, a deliverables summary table, quality assurance, project governance, and a risk register. Includes standard phase templates for both ICT system and management consulting assignments.
-
-### team-composition
-Generates the team section including an organogram, a role-responsibility table, and individual CVs. Supports both World Bank TECH-6 format and the shorter narrative format used in PPDA and smaller local bids.
-
-### work-plan
-Generates the Gantt-style work plan, milestone table, and staffing schedule. Enforces realistic timelines with client review windows and buffer built in.
-
-### financial-proposal
-Generates the complete financial proposal as a separate document: submission sheet, bid price summary, fee breakdown by expert, reimbursables breakdown, milestone payment schedule, and assumptions. Includes East African day-rate reference ranges for 2025–2026.
-
-### expression-of-interest
-Generates a complete EoI document for pre-qualification and shortlisting purposes. Shorter than a full proposal — focused on firm credentials, comparable experience, and available experts.
+| # | Section | What It Produces |
+|---|---------|-----------------|
+| 01 | Cover Letter | Client-specific opening, comparable past projects with outcomes, courteous closing |
+| 02 | Executive Summary | Problem statement, four differentiators, scope table, timeline, value proposition |
+| 03 | Understanding of Assignment | Background, objectives, scope analysis, ToR comments in the firm's own words |
+| 04 | Firm Profile | Legal details, service areas, sector expertise, geographic footprint, certifications |
+| 05 | Relevant Experience | Summary table + project cards with quantified outcomes (never just activities) |
+| 06 | Methodology | Conceptual framework, phased plan (ICT or consulting), deliverables table, risk register, QA, governance |
+| 07 | Team Composition | Organogram, role-responsibility table, CVs (World Bank TECH-6 or narrative format) |
+| 08 | Work Plan | Gantt table, milestones, staffing schedule with realistic timelines and buffer |
+| 09 | Expression of Interest | Shorter pre-qualification document — credentials, experience, available experts |
+| 10 | Financial Proposal | Fee breakdown, reimbursables, payment schedule, assumptions (separate sealed document) |
 
 ---
 
-## Companion Skills
+## Supporting Domain Skills
 
-These skills from the wider repository are applied alongside proposal-writing:
+These are cross-cutting knowledge bases that proposal sections draw from. Each can also generate a standalone section when a ToR explicitly requires it.
 
-| Skill | Purpose |
-|---|---|
-| `east-african-english` | Tone, spelling, and courteous phrasing standards for all output |
-| `language-standards` | Grammar and style consistency |
-| `skill-writing` | Used when creating or updating skills in this repository |
+| Skill | Domain |
+|-------|--------|
+| `project-management/` | PRINCE2, PMBoK, Agile, governance, reporting, steering committees |
+| `change-management/` | ADKAR, Kotter, adoption strategies, resistance management |
+| `monitoring-and-evaluation/` | Log frames, results frameworks, KPIs, theory of change |
+| `stakeholder-engagement/` | Stakeholder mapping, consultation approaches, communication plans |
+| `capacity-building/` | Training models, ToT, knowledge transfer, skills sustainability |
+| `gender-and-social-inclusion/` | GESI frameworks, gender mainstreaming, disability and youth inclusion |
+| `environmental-and-social-safeguards/` | ESIA, environmental management plans, World Bank ESF, AfDB ISS |
+| `data-management/` | Data collection, MIS design, data governance, data protection law |
+| `sustainability-planning/` | Exit strategies, institutional embedding, ownership transfer |
+| `risk-management/` | Risk registers, mitigation frameworks, escalation triggers |
 
 ---
 
-## Output Format
+## Proposer Profiles
 
-All proposal sections are generated as `.docx` Word documents using the `docx` skill. Outputs follow professional formatting conventions: consistent headings, page numbers, tables, and section numbering that mirrors the RFP or ToR structure.
+Every proposal needs a voice. Before writing, Claude loads the correct profile:
+
+| Profile | Voice | Use When |
+|---------|-------|----------|
+| `profiles/peter-bamuhigire.md` | First-person singular ("I propose...") | Proposing as Peter Bamuhigire |
+| `profiles/chwezi-core-systems.md` | First-person plural ("We propose...") | Proposing as Chwezi Core Systems |
+| `profiles/client-template.md` | Customisable | Ghostwriting on behalf of a client |
 
 ---
 
 ## Supported Procurement Frameworks
 
-- **PPDA** — Public Procurement and Disposal of Public Assets (Uganda)
-- **World Bank** — TECH-1 through TECH-6 and FIN-1 through FIN-4 standard forms
-- **AfDB / UNDP** — Equivalent international donor formats
-- **Direct client RFPs** — Private sector, NGO, and government ministry bids
+| Framework | Coverage |
+|-----------|----------|
+| **PPDA** (Uganda) | Public Procurement and Disposal of Public Assets |
+| **World Bank** | TECH-1 through TECH-6 and FIN-1 through FIN-4 standard forms |
+| **AfDB** | African Development Bank procurement formats |
+| **UNDP / UN System** | United Nations procurement and evaluation criteria |
+| **Direct RFPs** | Private sector, NGO, and government ministry bids |
 
 ---
 
-## References Directory
+## Language Standards
 
-Each sub-skill has a `references/` folder for storing supporting documents — sample excerpts from past winning proposals, templates, benchmark tables, and sector-specific notes. These are loaded by Claude as needed and are not part of the skill trigger.
-
----
-
-## Blog Posts
-
-The `blog-posts/` directory stores generated articles on proposal writing, bidding strategy, and consulting practice for East African markets. Generated using the content creation skills in the wider repository.
+- **British English** throughout: organisation, programme, centre, colour
+- **East African professional tone**: formal, respectful, courteous — no marketing hype
+- **Dates**: day-month-year (17 February 2026)
+- **Banned AI vocabulary**: delve, tapestry, landscape (metaphor), leverage, navigate (metaphor), foster, realm, harness, synergy, embark, robust, vibrant, holistic, seamless
 
 ---
 
-## Contributing
+## Knowledge Base
 
-When adding a new sub-skill:
-1. Create a subdirectory under `proposal-writing/`
-2. Add a `SKILL.md` following the same format and level of detail as existing sub-skills
-3. Add a `references/` subdirectory with a `.gitkeep`
-4. Update the parent `proposal-writing/SKILL.md` routing table
-5. Update this README
+The reference library is synthesised from 22 consulting and strategy books:
+
+| Reference File | Sections | Content |
+|----------------|----------|---------|
+| `references/proposal-strategy-and-persuasion.md` | 17 | S1-S2-B logic, P-I-P structure, buyer psychology, SCQA, Cialdini, Red Team review |
+| `references/world-class-proposal-patterns.md` | 18 | McKinsey/Deloitte patterns, storyboarding, ghost packs, elevator test, prewiring |
+| `references/consulting-delivery-excellence.md` | 34 | McKinsey problem-solving, Design Sprint, SCAMPER, SOSTAC, SECI, Done-Done standard |
+| `consulting-frameworks/references/` (5 files) | 53 | Problem structuring, financial analysis, strategy, operations, communication |
+| `business-analysis-tools/references/` (7 files) | 40+ | SWOT, PESTLE, gap analysis, maturity models, Power Curve, BCG, Ansoff, Theory of Constraints |
 
 ---
 
-*Built for World CLass results for the East and Central African consulting market*
+## Getting Started
+
+### Prerequisites
+- [Claude Code](https://claude.ai/code) installed and authenticated
+- Git (to clone the repository)
+
+### Setup
+
+```bash
+git clone <repository-url> proposal-skills
+cd proposal-skills
+claude
+```
+
+Claude reads `CLAUDE.md`, understands the full skill set, and walks you through creating your first proposal.
+
+### Adding a New Skill
+
+1. Create a subdirectory with a `SKILL.md` (YAML frontmatter with `name` and `description`)
+2. Add a `references/` subdirectory if needed
+3. Update the parent `SKILL.md` routing table
+4. Update this README
+
+---
+
+*Built for world-class results in the East and Central African consulting market.*
