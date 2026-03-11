@@ -269,7 +269,7 @@ Detailed tool descriptions, templates, and synthesis from PMI Guide to Business 
 |---|---|
 | `references/elicitation-techniques.md` | 13 elicitation techniques with planning, question types, and selection guidance |
 | `references/requirements-analysis-models.md` | Scope, process, rule, data, and interface models with templates |
-| `references/strategic-analysis-frameworks.md` | SWOT, PESTLE, gap analysis, benchmarking, maturity models, root cause analysis, feasibility |
+| `references/strategic-analysis-frameworks.md` | SWOT, PESTLE, gap analysis, benchmarking, maturity models, root cause analysis, feasibility, Power Curve, ETM Model, Bold Moves, Inside/Outside View, Competitive Systems Matrix, VRIST, Three Horizons, Theory of Constraints, Causal Loop Diagrams, Morphological Box, ICE Scoring |
 | `references/prioritisation-and-decision-tools.md` | MoSCoW, weighted ranking, MCDA, Kano, impact-effort, options appraisal, CBA, financial methods |
 | `references/requirements-documentation.md` | Requirement types, use case and user story formats, quality criteria, documentation principles |
 | `references/traceability-and-change-control.md` | RTM, requirements lifecycle, change control process, impact analysis, governance |

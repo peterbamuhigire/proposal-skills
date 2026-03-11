@@ -51,6 +51,10 @@ Read `references/proposal-strategy-and-persuasion.md` before writing any proposa
 - **Hypothesis-driven methodology** — structure the approach as tests of a stated hypothesis
 - **Measurable-results orientation** — quantify value by project type (Insight, Planning, Implementation)
 - **Pyramid of Ideas** — Big Idea → Means → Logic → Evidence
+- **SCQA narrative spine** — Situation → Complication → Question → Answer for every section
+- **Pre-emptive objection neutralisation** — identify and address evaluator scepticism before it forms
+- **Cialdini's six principles** — reciprocity, authority, social proof, consistency, liking, scarcity
+- **Red Team review process** — structured adversarial review with Six Thinking Hats
 
 ## Reference — World-Class Proposal Patterns
 
@@ -62,6 +66,22 @@ Read `references/world-class-proposal-patterns.md` before writing any proposal. 
 - Structure for scannability — summary tables before detail, consistent formatting, visual elements
 - Think in programmes, not projects — governance, engagement, and results management
 - Every project must have a quantified outcome
+- **Storyboarding and Ghost Packs** — sketch the proposal's story and sample deliverables before writing
+- **The Elevator Test** — every section must pass the 30-second clarity test
+- **Prewiring** — signal that findings will be pre-briefed with stakeholders before formal presentation
+
+## Reference — Consulting Delivery Excellence
+
+Read `references/consulting-delivery-excellence.md` when writing methodology, quality assurance, or implementation sections. This file ensures proposals describe world-class delivery methods, not just promise quality:
+
+- **McKinsey problem-solving process** — Hypothesis → QDT → Issue Tree → Work Plan → Test/Iterate
+- **6-Step Consulting Workflow** — Define → Structure → Prioritise → Analyse → Solve → Communicate
+- **Done-Done standard** — every deliverable complete, checked, proofed, and presentation-ready
+- **Value Realisation Method** — trace from initiative → process → operational lever → financial impact
+- **Drucker's Five Questions** — Mission? Customer? Value? Results? Plan?
+- **Design Thinking** — Empathise → Define → Ideate → Prototype → Test
+- **Griffin Dilemma Framework** — seven recurring consulting dilemmas with prescribed responses
+- **Theory of Abandonment** — recommend what to stop, not just what to start
 
 ## Proposer Profiles — Who Is Proposing?
 

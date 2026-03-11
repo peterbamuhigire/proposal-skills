@@ -119,7 +119,10 @@ Every recommendation in the final deliverable must include three components:
 This structure ensures that the methodology does not stop at diagnosis but carries through to actionable, evidence-based guidance. When writing the methodology, signal that the final deliverable will follow this structure — it reassures evaluators that the firm's outputs will be practical, not academic.
 
 ### Quality Assurance
-Describe the internal quality process: peer review, client sign-off gates, version control, and how feedback is incorporated. Keep this concise — two to four bullet points.
+Describe the internal quality process: peer review, client sign-off gates, version control, and how feedback is incorporated. Apply the Done-Done standard — every deliverable must be complete, checked, proofed, formatted, and ready to present before submission to the client. Keep this concise — two to four bullet points, but signal rigour:
+
+- "Every deliverable undergoes our Done-Done quality process: peer review, editorial review, and a final quality gate before submission to the client."
+- "We apply the six-point solution validation framework — testing every recommendation for feasibility, acceptability, sustainability, scalability, risk, and value."
 
 ### Project Management and Governance
 Describe:
@@ -127,6 +130,7 @@ Describe:
 - Reporting frequency and format (weekly status reports, steering committee meetings)
 - Issue escalation path
 - What the firm needs from the client in terms of a counterpart or focal point
+- Pre-briefing protocol: "Before formal presentation of findings, we conduct individual briefings with key stakeholders to ensure alignment and address concerns" (the prewiring technique)
 
 ### Risk Management
 A short risk table identifying the top five to eight risks, their likelihood and impact, and the specific mitigation action.
@@ -134,10 +138,32 @@ A short risk table identifying the top five to eight risks, their likelihood and
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
 
+### Knowledge Transfer and Sustainability
+Every methodology should include a knowledge transfer component, not as an afterthought but as a deliberate design element in every phase. Apply the Structure-Focus-Design-Embed framework — the Embed phase is where most consulting engagements fail:
+
+- Pair working with client counterparts during every phase
+- Formal training sessions at key milestones
+- Documentation of all processes, tools, and frameworks used
+- Handover plan ensuring the client can maintain and extend outputs independently
+
+Signal this in the methodology: "Our approach embeds knowledge transfer in every phase, not as a separate activity but as a way of working. The client's team will be equipped to maintain and extend all outputs independently after the engagement concludes."
+
+## Reference Library
+
+| Reference File | Contents |
+|---|---|
+| `references/case-interview-frameworks.md` | Eight-Bucket Framework, case type methodology templates (Market Entry, Profitability, M&A, Pricing), quantitative analysis patterns, structured problem-solving, communication structures |
+| `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Consulting Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, Griffin Dilemma Framework, Six Core Mission Types, Theory of Abandonment, Quick Diagnosis and Solution Validation checklists |
+| `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, hypothesis-driven approach, Cialdini's persuasion principles, Red Team review |
+| `../references/world-class-proposal-patterns.md` | McKinsey and Deloitte methodology patterns, storyboarding, ghost packs, elevator test, budget proposal architecture, Sweet Spot positioning, prewiring |
+
+Read the relevant reference file when a methodology requires detailed frameworks or delivery excellence standards beyond this SKILL.md.
+
 ## Tone Rules
 
 - Five to ten pages — this section should be the longest in the technical proposal
 - Specific to this assignment — evaluators notice when methodology is generic
 - Reference ToR deliverables by name in the phase descriptions
 - Every phase must have at least one named deliverable
+- Apply SCQA within each phase: open with what the reader accepts (Situation), introduce the challenge (Complication), raise the question this phase answers (Question), then present the approach (Answer)
 - Follow east-african-english standards throughout
