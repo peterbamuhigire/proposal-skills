@@ -515,4 +515,186 @@ From *Seven Principles* — the minimum agenda for an engagement kick-off meetin
 
 ---
 
-*Synthesised from: The McKinsey Mind (Rasiel & Friga), Consulting Essentials (Kavanaugh), Consulting Management EXPLAINED, Consulting Drucker (Cohen), Strategic Consulting (Chereau & Meschi), Punch the Elephant (Bria), Deloitte Consulting (WetFeet), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Hacking the Case Interview (Warfield), The Seven Principles of Professional Services (Anastasi), The McKinsey Edge (Hattori).*
+## 24. SCAMPER — Structured Ideation Technique
+
+From *Consulting Essentials* — a systematic method for generating solution options by applying seven transformation lenses to any existing process, product, or service:
+
+| Lens | Question | Consulting Application |
+|---|---|---|
+| **Substitute** | What can be replaced? | Alternative technology, different delivery channel, outsourced function |
+| **Combine** | What can be merged? | Integrated services, combined roles, bundled offerings |
+| **Adapt** | What can be borrowed from elsewhere? | Cross-sector best practice, adapted frameworks, proven models from other contexts |
+| **Modify** | What can be enlarged, reduced, or reshaped? | Scaled pilot, modified process, adjusted timeline |
+| **Purpose** | What else could this be used for? | Repurposed infrastructure, alternative use cases, new market applications |
+| **Eliminate** | What can be removed? | Redundant steps, unnecessary approvals, legacy processes |
+| **Rearrange** | What can be resequenced? | Parallel instead of sequential, reversed order, different phasing |
+
+**Proposal application:** "Our solution design phase applies structured ideation techniques — systematically examining each process element for substitution, combination, adaptation, modification, alternative purpose, elimination, and rearrangement opportunities."
+
+---
+
+## 25. Design Sprint (Google Ventures)
+
+A five-day compressed discovery-to-testing methodology. Use when the ToR requires rapid prototyping, solution validation, or user-centred design:
+
+| Day | Focus | Output |
+|---|---|---|
+| **Monday** | Map the problem, set goals, identify target | Problem map, sprint questions, target area |
+| **Tuesday** | Generate solutions individually | Sketched solution concepts |
+| **Wednesday** | Decide on best solution, create storyboard | Storyboard for prototype |
+| **Thursday** | Build a realistic prototype | Testable prototype |
+| **Friday** | Test with real users, learn | Validated or invalidated assumptions |
+
+**Preparation (Week -1):** Recruit test users, assemble cross-functional team, gather background data.
+**Follow-up (Week +1):** Document findings, plan next iteration, build momentum for implementation.
+
+**Proposal application:** "We will conduct a structured Design Sprint — compressing the discovery-to-testing cycle into five days — to validate key assumptions before committing to full-scale implementation."
+
+---
+
+## 26. Thinking Map vs. Activity Map
+
+From *Consulting Essentials* — a critical distinction in methodology design:
+
+| Map Type | Purpose | Content |
+|---|---|---|
+| **Thinking Map** | The intellectual framework — what decisions must be made and what evidence is needed | Hypotheses, issues, analytical questions, decision points |
+| **Activity Map** | The operational plan — who does what and when | Gantt charts, task assignments, milestones, dependencies |
+
+**The rule:** The Thinking Map must precede the Activity Map. A work plan without a thinking map is a list of activities with no analytical purpose. Three types of thinking maps:
+
+1. **Decision Matrix** — what decisions will be made, what information drives each decision
+2. **Issue Tree** — MECE decomposition of the problem into testable branches
+3. **Hypothesis Approach** — initial hypothesis with structured tests to confirm or refute
+
+**Proposal application:** Structure every methodology section with the thinking map first (conceptual approach, analytical framework, hypothesis) and the activity map second (phases, tasks, timeline). This signals that the firm thinks before it acts.
+
+---
+
+## 27. Three Requirements of Change
+
+From Holly Benson via *Consulting Essentials* — every change initiative requires three conditions, and failure in any one blocks adoption:
+
+| Requirement | Description | Consulting Implication |
+|---|---|---|
+| **Know what is expected** | People must clearly understand what the new behaviour, process, or system requires of them | Clear communication, job aids, process documentation |
+| **Have the skills and tools** | People must be equipped to meet the new expectations | Training, technology, resources, support structures |
+| **Be held accountable** | Consequences (positive and negative) must exist for meeting or failing to meet expectations | Performance metrics, management oversight, incentive alignment |
+
+**Proposal application:** "Our change management approach addresses all three requirements for sustainable adoption: ensuring stakeholders understand what is expected, equipping them with the skills and tools to meet those expectations, and establishing accountability mechanisms to sustain the change."
+
+---
+
+## 28. Eight Archetypal Consulting Dilemmas
+
+From *Consulting Essentials* — eight recurring tensions that every consulting engagement must navigate. Naming the dilemma in the methodology demonstrates sophisticated understanding:
+
+| Dilemma | Tension |
+|---|---|
+| **Head vs. Heart** | Data-driven analysis vs. stakeholder emotions and politics |
+| **Inside vs. Outside** | Internal perspective (client's view) vs. external perspective (market/benchmark view) |
+| **Cost vs. Benefit** | Investment required vs. value delivered |
+| **Product vs. Market** | Improving the offering vs. expanding the audience |
+| **Change vs. Stability** | Driving transformation vs. maintaining operational continuity |
+| **Known vs. Unknown** | Working with available data vs. exploring uncharted territory |
+| **Competing Priorities** | Multiple valid objectives that cannot all be maximised simultaneously |
+| **Content vs. Process** | Getting the technical answer right vs. getting the organisational process right |
+
+**Proposal application:** In the conceptual approach, name the dilemma the assignment must navigate: "This engagement sits at the intersection of [change and stability] — [client] must transform its [system/process] while maintaining operational continuity. Our methodology is designed to manage both simultaneously."
+
+---
+
+## 29. Puzzles vs. Mysteries
+
+From *Consulting Essentials* — a diagnostic for classifying the engagement type:
+
+| Type | Description | Approach |
+|---|---|---|
+| **Puzzle** | The problem is known; the solution requires finding specific information | Structured data gathering, gap analysis, benchmarking |
+| **Mystery** | The problem itself is unclear; the engagement requires "problem finding" before problem solving | Exploratory research, hypothesis generation, stakeholder dialogue |
+
+**Proposal application:** Most ToRs describe puzzles, but many real engagements are mysteries. Signal awareness of this: "While the ToR frames this as [specific problem], our experience suggests that the underlying dynamics may be more complex. Our inception phase is designed to validate the problem definition before committing to a solution pathway."
+
+---
+
+## 30. Secure-Substantial-Sequential Value Framework
+
+From *Consulting Essentials* — three attributes that every consulting engagement must deliver:
+
+| Attribute | Description | How to Demonstrate |
+|---|---|---|
+| **Secure** | Value must be credible and defensible — the client must believe it is real | Evidence-based methodology, benchmarked projections, conservative estimates |
+| **Substantial** | Value must be significant enough to justify the investment | Quantified benefits, clear ROI, comparison against cost of inaction |
+| **Sequential** | Value must be delivered incrementally — not all at the end | Phase-gated deliverables, quick wins, progressive results |
+
+**Proposal application:** "Our methodology delivers value sequentially — each phase produces tangible outputs that build towards the final deliverable, giving [client] progressive returns on investment rather than a single end-of-engagement delivery."
+
+---
+
+## 31. Five Design Principles for Solutions
+
+From *Consulting Essentials* — a framework for evaluating any proposed solution architecture, operating model, or system design:
+
+| Principle | Description | Test |
+|---|---|---|
+| **Functional** | The solution works as intended | Does it solve the stated problem? |
+| **Flexible** | The solution adapts to changing conditions | Can it accommodate future changes without redesign? |
+| **Fluid** | The solution flows — no unnecessary friction or bottleneck | Are there manual handoffs, approval loops, or process gaps? |
+| **Flat** | The solution minimises unnecessary hierarchy and complexity | Is the governance proportionate to the risk? |
+| **Familiar** | The solution is intuitive to users | Will users adopt it without extensive retraining? |
+
+**Proposal application:** "Every solution option will be evaluated against five design principles: functional (does it work?), flexible (does it adapt?), fluid (does it flow?), flat (is it simple?), and familiar (will users adopt it?)."
+
+---
+
+## 32. SOSTAC Planning Framework
+
+From PR Smith via *Essential Management Models* — a six-element planning framework that maps directly to engagement methodology:
+
+| Element | Description | Engagement Phase |
+|---|---|---|
+| **Situation** | Where are we now? | Discovery and diagnostic |
+| **Objectives** | Where do we want to be? | Goal setting and success criteria |
+| **Strategy** | How do we get there? (the big picture) | Options development and strategic direction |
+| **Tactics** | How do we get there? (the details) | Implementation planning and action items |
+| **Action** | Who does what, when? | Execution and delivery |
+| **Control** | How do we measure progress? | Monitoring, evaluation, and course correction |
+
+**Proposal application:** Use as an alternative structuring device for methodology sections, particularly for marketing strategy, communications planning, or organisational development assignments where the client is familiar with this framework.
+
+---
+
+## 33. Nonaka's SECI Knowledge Spiral
+
+From *Knowledge Management and Business Strategies* — the foundational model for knowledge creation and transfer in organisations:
+
+| Mode | From → To | Method | Consulting Application |
+|---|---|---|---|
+| **Socialisation** | Tacit → Tacit | Observation, mentoring, shared experience | Pair working with client counterparts, on-the-job coaching |
+| **Externalisation** | Tacit → Explicit | Articulation, documentation, concept creation | Codifying processes, writing SOPs, creating frameworks |
+| **Combination** | Explicit → Explicit | Systemising, integrating, categorising | Database design, report consolidation, system integration |
+| **Internalisation** | Explicit → Tacit | Learning by doing, practice, simulation | Training programmes, pilot implementations, hands-on workshops |
+
+**Proposal application:** When the ToR involves knowledge management, capacity building, or institutional strengthening, describe the knowledge transfer approach using the SECI model: "Our knowledge transfer methodology moves through four modes — from tacit knowledge sharing through socialisation, to explicit documentation, systematic integration, and finally internalisation through practice."
+
+---
+
+## 34. Performance-Driven Knowledge Management — 7-Step Framework
+
+From Massey et al. via *Knowledge Management and Business Strategies* — validated at IBM and Nortel. A complete engagement methodology for KM assignments:
+
+| Step | Action | Deliverable |
+|---|---|---|
+| 1 | **Identify business objectives** | Prioritised objectives linked to strategic plan |
+| 2 | **Map knowledge requirements** | Knowledge audit — what knowledge is needed, where it exists, where gaps are |
+| 3 | **Assess current KM practices** | KM maturity assessment using importance-vs-effectiveness gap analysis |
+| 4 | **Design KM interventions** | KM strategy with prioritised initiatives |
+| 5 | **Develop enabling infrastructure** | Technology, process, and governance recommendations |
+| 6 | **Implement KM initiatives** | Pilot and rollout plan |
+| 7 | **Measure and refine** | KM performance metrics linked back to Step 1 objectives |
+
+**Proposal application:** Use as the methodology backbone for any assignment involving knowledge management, institutional memory, lesson learning, or organisational learning systems.
+
+---
+
+*Synthesised from: The McKinsey Mind (Rasiel & Friga), Consulting Essentials (Kavanaugh), Consulting Management EXPLAINED, Consulting Drucker (Cohen), Strategic Consulting (Chereau & Meschi), Punch the Elephant (Bria), Deloitte Consulting (WetFeet), Strategy Beyond the Hockey Stick (Bradley, Hirt & Smit), Hacking the Case Interview (Warfield), The Seven Principles of Professional Services (Anastasi), The McKinsey Edge (Hattori), Essential Management Models (Foster & Grannell), Knowledge Management and Business Strategies (Abou-Zeid), Innovation in Business and Enterprise (Al-Hakim).*

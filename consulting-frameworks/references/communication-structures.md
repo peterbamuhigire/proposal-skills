@@ -139,4 +139,63 @@ Every time multiple ideas are presented, use explicit structure:
 
 ---
 
-*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig).*
+## 7. Hero's Journey for Proposal Narrative
+
+From *Consulting Essentials* — Joseph Campbell's twelve-step narrative structure adapted for consulting proposals. The critical reframe: **the client is the hero, not the consultant.** The consultant is the mentor who equips the hero to succeed.
+
+| Stage | Narrative Function | Proposal Application |
+|---|---|---|
+| **Ordinary World** | The client's current situation | Understanding of the assignment — where the client is now |
+| **Call to Adventure** | The challenge or opportunity | The ToR — why this engagement is needed |
+| **Refusal of the Call** | Hesitation, risk awareness | Acknowledge the difficulty — "This is not a simple task" |
+| **Meeting the Mentor** | The guide who provides tools and wisdom | Introduce the firm — experience, frameworks, methodology |
+| **Crossing the Threshold** | Committing to the journey | The inception phase — engagement launch |
+| **Tests, Allies, Enemies** | The work itself — challenges faced | The methodology phases — assessment, analysis, obstacles |
+| **The Ordeal** | The critical challenge | The most complex analytical or implementation phase |
+| **The Reward** | Breakthrough insight or solution | Key findings, recommendations, designed solution |
+| **The Return** | Bringing the solution back | Deliverables, knowledge transfer, handover |
+| **The New World** | The transformed state | Benefits realisation, improved performance, sustained change |
+
+**Proposal application:** Structure the overall proposal narrative so the client sees themselves in the journey: from current situation, through the challenge of transformation, guided by a proven methodology, to a measurably better outcome.
+
+---
+
+## 8. Tufte's Ten Rules for Data Visualisation
+
+From Edward Tufte via *Consulting Essentials* — standards for presenting quantitative information in consulting deliverables:
+
+| # | Rule | Implication for Deliverables |
+|---|---|---|
+| 1 | **Show the data** | Every chart must have a clear analytical purpose |
+| 2 | **Use graphics to reveal data** | Visualisations should expose patterns, not decorate |
+| 3 | **Avoid chart junk** | Remove gridlines, 3D effects, decorative elements |
+| 4 | **Maximise data-ink ratio** | Every pixel of ink should convey information |
+| 5 | **Use labels directly on data** | Avoid legends when direct labelling is possible |
+| 6 | **Macro and micro views** | Show both the big picture and the supporting detail |
+| 7 | **Separate layers** | Use colour and position to distinguish data categories |
+| 8 | **Small multiples** | Use repeating panels to show comparison across dimensions |
+| 9 | **Use light and colour deliberately** | Colour conveys meaning, not decoration |
+| 10 | **Understand the narrative** | Every exhibit tells a story — know what story before designing |
+
+**Proposal application:** Signal deliverable quality: "All data visualisations in our deliverables follow Tufte's data-ink principles — maximising information density, eliminating decorative elements, and ensuring every chart conveys a clear analytical insight."
+
+---
+
+## 9. The Comma Effect
+
+From *Consulting Essentials* — a technique for converting data observations into analytical insights:
+
+**Structure:** Combine two contrasting facts into a single compound sentence using a comma:
+
+| Data Observation | Comma Effect Insight |
+|---|---|
+| "Revenue grew 15%." + "Costs grew 22%." | "While revenue grew 15%, costs grew 22%, eroding margins by 7 percentage points." |
+| "Customer satisfaction is 85%." + "Repeat purchase rate is 40%." | "Despite 85% satisfaction scores, only 40% of customers return, suggesting a gap between satisfaction and loyalty." |
+
+**The rule:** A single data point is a fact. Two contrasting data points connected by a comma become an insight. Insights drive recommendations; facts do not.
+
+**Proposal application:** When describing analytical outputs in the methodology: "Our analysis synthesises findings across data sources — contrasting metrics to identify gaps between performance indicators that reveal the underlying dynamics, not just the surface data."
+
+---
+
+*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig), Consulting Essentials (Kavanaugh).*

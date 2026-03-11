@@ -94,4 +94,62 @@ Key concepts for understanding the competitive environment:
 
 ---
 
-*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig).*
+## 6. Job-to-Be-Done / Outcome-Driven Innovation
+
+From Christensen & Ulwick via *Essential Management Models* — customers do not buy products; they "hire" them to make progress in specific circumstances:
+
+| Step | Action |
+|---|---|
+| 1 | Identify the "job" the customer is trying to get done |
+| 2 | Break the job into measurable **outcomes** (minimise X, maximise Y, increase Z, reduce W) |
+| 3 | Score each outcome on **importance** and current **satisfaction** |
+| 4 | Identify outcomes that are highly important AND poorly satisfied — these are unmet needs |
+| 5 | Design solutions that address the highest-priority unmet outcomes |
+
+**Proposal application:** In customer research, service design, or product strategy proposals: "Our customer insight methodology identifies the jobs customers are trying to get done, measures satisfaction against each outcome, and focuses solution design on the highest-value unmet needs."
+
+---
+
+## 7. Importance × Satisfaction Analysis
+
+From Ulwick via *Essential Management Models* — a two-dimensional prioritisation framework:
+
+| Zone | Importance | Satisfaction | Action |
+|---|---|---|---|
+| **Underserved** | High | Low | **Priority investment** — greatest opportunity |
+| **Appropriately served** | High | High | Maintain current performance |
+| **Overserved** | Low | High | Reduce investment — resources are being wasted |
+| **Don't care** | Low | Low | Ignore — not worth addressing |
+
+**Proposal application:** "Our assessment will map [client's] service dimensions on an Importance × Satisfaction matrix, identifying underserved areas that warrant priority investment and overserved areas where resources can be redirected."
+
+---
+
+## 8. Structured Decision-Making for Option Appraisal
+
+From *The Decision Model* (von Halle & Goldberg) — when the ToR requires evaluation of alternatives, separate the decision logic from the process:
+
+### Business Decision Value Assessment
+
+Prioritise which decisions to formalise using three dimensions:
+
+| Dimension | Assessment |
+|---|---|
+| **Operative context** | Simple → Complicated → Complex → Chaotic (Cynefin-derived) |
+| **Economic impact** | Per-instance value × frequency of decision |
+| **Logic complexity** | Number of conditions and their interdependencies |
+
+### Decision Table Structure
+
+For each decision point, create a clear table:
+
+| Condition 1 | Condition 2 | Condition 3 | → Conclusion |
+|---|---|---|---|
+| Value A | Value X | Value P | → Action 1 |
+| Value B | Value Y | Value Q | → Action 2 |
+
+**Proposal application:** "Our analysis will separate decision logic from process flow — documenting each critical decision as a transparent table of conditions and conclusions, ensuring that decision rules are visible, testable, and transferable to the client's team."
+
+---
+
+*Synthesised from: Hacking the Case Interview (Warfield), The Ultimate Case Interview Workbook (Warfield), The 1%: Conquer Your Consulting Case Interview (Smeritschnig), Essential Management Models (Foster & Grannell), The Decision Model (von Halle & Goldberg).*
