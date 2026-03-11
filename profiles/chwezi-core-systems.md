@@ -27,7 +27,7 @@ Chwezi Core Systems Limited is an integrated technology, business consulting, an
 | **Country of registration** | Uganda |
 | **Year of establishment** | 2025 |
 | **Legal status** | Limited Company |
-| **Ownership structure** | <!-- TO COMPLETE: e.g., Sole proprietorship / Partnership / Shareholders --> |
+| **Ownership structure** | Private Limited Company |
 | **Number of permanent staff** | <!-- TO COMPLETE --> |
 | **Office locations** | Kampala, Uganda (headquarters) |
 
@@ -63,18 +63,21 @@ Chwezi Core Systems Limited is an integrated technology, business consulting, an
 
 ## Key Experience
 
-| # | Project | Client | Country | Sector | Outcome |
-|---|---|---|---|---|---|
-| 1 | POS and Inventory Management System | Nakamatte Pharmacy Group | Uganda | Retail / Pharmacy | Multi-branch POS with integrated inventory management deployed across pharmacy chain |
-| 2 | Property Portfolio Management System | Lakeside Properties | Uganda | Real Estate | Multi-property management platform with tenant tracking and financial reporting |
-| 3 | Healthcare Management System | Kampala Medical Centre | Uganda | Healthcare | Clinical and practice management system improving patient records and billing |
-| 4 | ERP Management System | Dynapharm Africa | Senegal, Sierra Leone, Guinea | Agriculture / FMCG | Enterprise management system deployed across West African operations |
-| 5 | Hotel and Restaurant Management System | Excellis Garden Hotels | Uganda | Hospitality | Integrated hospitality management covering reservations, billing, and restaurant operations |
-| 6 | Maduuka SaaS Platform | Proprietary — multi-tenant | Uganda, Kenya, Rwanda, West Africa | Financial Services / SME | Multi-tenant bookkeeping platform for SMEs, deployed in 5 languages |
-| 7 | Aqar Property Platform | Proprietary | East Africa | Real Estate | Property management SaaS for landlords and portfolio managers |
-| 8 | Longhorn ERP Platform | Proprietary | East Africa | Enterprise | Cloud-based ERP integrating finance, HR, inventory, and procurement |
+| # | Project | Client | Country | Sector | Period | Outcome |
+|---|---|---|---|---|---|---|
+| 1 | Comprehensive ERP Implementation (sales, distribution, finance, HR, manufacturing, laboratory) | Banana Industrial Research & Development Center (BIRDC) | Uganda | Agriculture / Manufacturing | 2022–Present | Full ERP integrating all business operations; transformed manual processes into digital workflows across 6 departments |
+| 2 | Management Information System — development, deployment, and multi-country support | Dynapharm International | Senegal, Sierra Leone, Guinea, Guinea-Bissau | FMCG / Distribution | 2010–Present | Built core MIS from scratch; became standard across all 36 Dynapharm franchises in West Africa; ongoing optimisation and feature development |
+| 3 | Online Budgeting System | Uganda Ministry of Finance (via EFICON Consulting) | Uganda | Government / Public Finance | 2014–2016 | Large-scale national budgeting system using .NET and SQL Server; complex stakeholder management and compliance requirements |
+| 4 | Maduuka SaaS Bookkeeping Platform | Proprietary (maduuka.com) | Uganda, Kenya, Rwanda, West Africa | Financial Services / SME | 2016–Present | Multi-tenant bookkeeping platform for SMEs, deployed in 5 languages with multi-currency support |
+| 5 | Aqar Property Management Software | Proprietary (property.chwezi.co.za) | Uganda, East Africa, UK | Real Estate / PropTech | 2016–Present | Multi-country property management platform for landlords and portfolio managers |
+| 6 | Longhorn ERP | Proprietary | East Africa | Enterprise | 2016–Present | Cloud-based ERP integrating finance, HR, inventory, and procurement |
+| 7 | POS and Inventory Management System | Nakamatte Pharmacy Group | Uganda | Retail / Pharmacy | — | Multi-branch POS with integrated inventory management deployed across pharmacy chain |
+| 8 | Property Portfolio Management System | Lakeside Properties | Uganda | Real Estate | — | Multi-property management platform with tenant tracking and financial reporting |
+| 9 | Healthcare Management System | Kampala Medical Centre | Uganda | Healthcare | — | Clinical and practice management system improving patient records and billing |
+| 10 | Hotel and Restaurant Management System | Excellis Garden Hotels | Uganda | Hospitality | — | Integrated hospitality management covering reservations, billing, and restaurant operations |
+| 11 | ERP Systems for Hospitals and Non-Profits | Various clients | East Africa | Healthcare / Non-Profit | — | Multiple ERP implementations tailored to healthcare institutions and NGO operations |
 
-<!-- TO COMPLETE: Add more assignments, especially consulting/advisory engagements, government/donor-funded projects, and any with quantified outcomes -->
+<!-- TO COMPLETE: Add quantified outcomes where available (cost savings, users served, revenue impact, efficiency gains) -->
 
 ## Key Personnel Pool
 
@@ -87,7 +90,7 @@ Chwezi Core Systems Limited is an integrated technology, business consulting, an
 
 | Dimension | Detail |
 |---|---|
-| **Countries of operation** | Uganda (HQ), Kenya, Tanzania, Rwanda, South Africa, DRC, Senegal, Sierra Leone, Guinea |
+| **Countries of operation** | Uganda (HQ), Kenya, Tanzania, Rwanda, South Africa, DRC, Senegal, Sierra Leone, Guinea, Guinea-Bissau |
 | **Languages** | English, French, Swahili |
 | **Regional focus** | East and Central Africa (primary), West Africa and Southern Africa (secondary) |
 | **Local partnerships** | <!-- TO COMPLETE: Local partner firms, technology partnerships, reseller agreements --> |
@@ -96,11 +99,13 @@ Chwezi Core Systems Limited is an integrated technology, business consulting, an
 
 1. **Integrated expertise** — technology, business consulting, and security combined under one firm; clients get a single partner for digital transformation rather than coordinating multiple vendors
 2. **Proprietary software products** — Maduuka, Aqar, and Longhorn ERP demonstrate the firm's ability to conceive, build, deploy, and support production-grade systems; not just a services firm but a product company
-3. **Full-cycle delivery** — from strategy and requirements through development, deployment, training, and ongoing support; no handoff gaps
-4. **Multi-country deployment experience** — systems deployed across 10+ countries in East, West, and Southern Africa with multi-language and multi-currency support
-5. **Francophone Africa capability** — bilingual English-French operations with delivered projects in Francophone West Africa; uncommon for East Africa-based firms
-6. **Cross-industry versatility** — healthcare, hospitality, real estate, retail/pharmacy, agriculture, and financial services; adaptable to sector-specific requirements
-7. **SaaS and multi-tenant architecture** — enterprise-grade multi-tenancy capability proven in production (Maduuka serves multiple tenants across countries)
+3. **Government systems track record** — delivered the Online Budgeting System for Uganda's Ministry of Finance; understands public sector compliance, stakeholder management, and government IT requirements
+4. **Enterprise scale proven** — MIS adopted as standard across all 36 Dynapharm franchises in 4 West African countries; comprehensive ERP implementation at BIRDC integrating 6 departments
+5. **Full-cycle delivery** — from strategy and requirements through development, deployment, training, and ongoing support; no handoff gaps; proven across the complete lifecycle from startup build (Dynapharm 2010) to ongoing optimisation (2024+)
+6. **Multi-country deployment experience** — systems deployed across 10+ countries in East, West, and Southern Africa with multi-language and multi-currency support
+7. **Francophone Africa capability** — bilingual English-French operations with 7+ years of delivered projects in Senegal, Sierra Leone, Guinea, and Guinea-Bissau; uncommon for East Africa-based firms
+8. **Cross-industry versatility** — healthcare, hospitality, real estate, retail/pharmacy, agriculture/manufacturing, FMCG distribution, government finance, and non-profit organisations
+9. **SaaS and multi-tenant architecture** — enterprise-grade multi-tenancy capability proven in production (Maduuka serves multiple tenants across countries)
 
 ## Association Arrangements
 
@@ -114,6 +119,6 @@ Chwezi Core Systems Limited is an integrated technology, business consulting, an
 - **Voice throughout:** First-person plural ("we", "our", "the firm")
 - **Firm profile section:** Full organisational profile — legal status, structure, capabilities, products, office locations
 - **Team composition:** Named staff with positions, supported by the firm's organisational depth and product track record
-- **References:** Corporate references from Nakamatte Pharmacy Group, Lakeside Properties, Kampala Medical Centre, Dynapharm Africa, Excellis Garden Hotels
+- **References:** Corporate references from BIRDC, Dynapharm International, EFICON Consulting / Ministry of Finance, Nakamatte Pharmacy Group, Lakeside Properties, Kampala Medical Centre, Excellis Garden Hotels
 - **Branding:** "Chwezi Core Systems" at first mention in each section, then "Chwezi" or "the firm" for subsequent references
 - **When to use this profile vs. Peter individual:** Use this profile when the ToR requires an institutional proposer, when organisational depth and team size matter, when the assignment requires multiple disciplines, or when the client expects a company-to-company relationship. Use Peter's individual profile when the ToR explicitly seeks an individual consultant.

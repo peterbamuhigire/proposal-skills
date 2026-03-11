@@ -17,56 +17,82 @@
 
 ## Professional Summary
 
-Peter Bamuhigire is an independent IT consultant and software developer with over 15 years of experience building technology solutions and providing business advisory services across Africa. He specialises in custom software development, enterprise systems, ICT strategy, and digital transformation, with a track record spanning 10+ countries including Uganda, Kenya, Tanzania, Rwanda, DRC, Senegal, Sierra Leone, Guinea, and the United Kingdom. He is the founder of Chwezi Core Systems and the architect of three proprietary SaaS platforms deployed across East and West Africa.
+Peter Bamuhigire is an ICT and business professional with over 15 years of expertise in software development, enterprise systems implementation, and digital transformation across East and West Africa. He specialises in delivering robust business solutions tailored to enhance operational efficiency, streamline processes, and drive sustainable growth, with a track record spanning 10+ countries including Uganda, Kenya, Tanzania, Rwanda, DRC, Senegal, Sierra Leone, Guinea, and the United Kingdom. He is the founder and Managing Director of Chwezi Core Systems and the creator of Aqar Property Management Software (property.chwezi.co.za) and Maduuka Bookkeeping Software (maduuka.com), alongside multiple ERP systems for hospitals, corporate enterprises, and non-profit organisations.
 
 ## Core Competencies
 
-1. Custom software development (web applications, mobile apps, SaaS platforms)
-2. ICT consulting and digital transformation strategy
-3. Enterprise resource planning (ERP) systems design and implementation
-4. Business consulting and advisory services
-5. Property management technology (PropTech)
-6. Database architecture and API design
-7. Full-stack development and production-grade system delivery
-8. Business process automation and operational optimisation
+1. **Enterprise software development** — building scalable, secure, and efficient software solutions tailored to specific industries
+2. **ERP implementation** — designing and deploying integrated ERP systems for sales, finance, HR, manufacturing, and more
+3. **Database design and management** — creating and optimising databases to ensure data integrity and performance
+4. **Business process automation** — streamlining workflows to reduce redundancy and improve productivity
+5. **Systems integration** — ensuring seamless communication between diverse applications and platforms
+6. **ICT consulting and digital transformation** — translating complex business needs into practical, scalable technical solutions
+7. **Team leadership** — guiding cross-functional teams through complex projects with precision and agility
+8. **Strategic planning and business consulting** — operational efficiency, market analysis, and growth strategy
+9. **Property management technology (PropTech)** — multi-country property management platforms
+10. **Backup and recovery systems** — data protection and business continuity solutions
 
 ## Qualifications
 
-<!-- TO COMPLETE: Degrees, certifications, professional memberships -->
-<!-- Peter — please add your formal education, any certifications (PMP, PRINCE2, AWS, etc.), and professional body memberships here -->
+### Education
+| Degree | Institution | Country |
+|---|---|---|
+| <!-- TO COMPLETE: Degree title and year --> | Makerere University | Uganda |
+
+<!-- Peter — please add the specific degree(s) from Makerere and any other institutions, plus year of graduation -->
+
+<!-- TO COMPLETE: Add any certifications (PMP, PRINCE2, AWS, ITIL, etc.) and other professional body memberships -->
+
+## Employment History
+
+| # | Period | Employer | Position | Location | Type |
+|---|---|---|---|---|---|
+| 1 | Jul 2024 – Present | Banana Industrial Research & Development Center (BIRDC) | Information Technology Manager | Kampala, Uganda | Full-time |
+| 2 | Nov 2022 – Jul 2024 | Banana Industrial Research & Development Center (BIRDC) | Information Technology Consultant | Kampala, Uganda | Contract |
+| 3 | Nov 2022 – Present | Dynapharm International | Information Technology Consultant | Multi-country | Part-time |
+| 4 | Jan 2019 – Nov 2022 | Dynapharm International | Regional ICT Manager — West Africa | Dakar, Senegal | Full-time |
+| 5 | Feb 2016 – Present | Chwezi Digital Solutions / Chwezi Core Systems | Information Technology Consultant | Kampala, Uganda | Freelance |
+| 6 | Feb 2014 – Jan 2016 | EFICON Consulting Limited | Information Technology Consultant | Kampala, Uganda | Contract |
+| 7 | Apr 2010 – Jan 2014 | Dynapharm International | MIS Manager — Sierra Leone | Freetown, Sierra Leone | Full-time |
 
 ## Key Experience
 
-| # | Product / Project | Client | Countries | Role | Outcome |
-|---|---|---|---|---|---|
-| 1 | Maduuka SaaS Bookkeeping Platform | Proprietary product — multi-tenant | Uganda, Kenya, Rwanda + West Africa | Architect and Lead Developer | Multi-tenant SaaS platform for SME bookkeeping, deployed in 5 languages |
-| 2 | Aqar Property Management System | Proprietary product | Uganda, East Africa | Architect and Lead Developer | Property management platform for landlords and portfolio managers |
-| 3 | Longhorn ERP | Proprietary product | East Africa | Architect and Lead Developer | Cloud-based ERP integrating finance, HR, inventory, and procurement |
-| 4 | ERP Management System | Dynapharm Africa | West Africa (Senegal, Sierra Leone, Guinea) | ICT Consultant and Developer | Enterprise management system deployed across West African operations |
-| 5 | Hotel and Restaurant Management System | Excellis Garden Hotels | Uganda | ICT Consultant and Developer | Integrated hospitality management system |
-| 6 | POS and Inventory System | Nakamatte Pharmacy Group | Uganda | Developer | Retail/pharmacy POS with inventory management and multi-branch support |
-| 7 | Property Portfolio System | Lakeside Properties | Uganda | Developer | Multi-property portfolio management with tenant tracking |
-| 8 | Healthcare Management System | Kampala Medical Centre | Uganda | Developer | Clinical and practice management system |
+| # | Project / Assignment | Client / Employer | Countries | Period | Role | Description and Outcome |
+|---|---|---|---|---|---|---|
+| 1 | Comprehensive ERP Implementation (sales, distribution, finance, HR, manufacturing, laboratory research) | BIRDC | Uganda | 2022–Present | IT Manager / Lead Implementer | Leading full ERP rollout integrating all business operations. Set up databases, configured workflows, ensured cross-departmental integration. Transformed manual processes into efficient digital workflows. Established IT policies, managed infrastructure, user training, and technical support. |
+| 2 | Management Information System — development and multi-country deployment | Dynapharm International | Senegal, Guinea, Guinea-Bissau, Sierra Leone | 2010–Present | MIS Manager → Regional ICT Manager → Ongoing Consultant | Developed core MIS as founding IT Manager in Sierra Leone (2010); system became standard across all 36 Dynapharm franchises. Scaled to Regional ICT Manager overseeing 4 West African countries (2019–2022). Continues as ongoing consultant for system optimisation and feature development. |
+| 3 | Online Budgeting System | Uganda Ministry of Finance (via EFICON Consulting) | Uganda | 2014–2016 | IT Consultant / System Analyst | Large-scale government system for national budget management. System analysis, design, and implementation using .NET and SQL Server. Managed complex requirements, multiple stakeholders, and strict compliance standards. |
+| 4 | Aqar Property Management Software | Proprietary product (property.chwezi.co.za) | Uganda, East Africa, UK | 2016–Present | Creator and Lead Developer | Comprehensive property management platform for landlords and portfolio managers across multiple countries. Scalable, cloud-based architecture with tenant tracking, lease management, and financial reporting. |
+| 5 | Maduuka Bookkeeping Software | Proprietary product (maduuka.com) | Uganda, Kenya, Rwanda, West Africa | 2016–Present | Creator and Lead Developer | Multi-tenant SaaS bookkeeping platform for SMEs, deployed in 5 languages with multi-currency support. |
+| 6 | Longhorn ERP | Proprietary product | East Africa | 2016–Present | Creator and Lead Developer | Cloud-based ERP integrating finance, HR, inventory, and procurement for corporate enterprises. |
+| 7 | Hotel and Restaurant Management System | Excellis Garden Hotels | Uganda | — | ICT Consultant and Developer | Integrated hospitality management system covering reservations, billing, and restaurant operations. |
+| 8 | POS and Inventory System | Nakamatte Pharmacy Group | Uganda | — | Developer | Multi-branch retail/pharmacy POS with integrated inventory management deployed across pharmacy chain. |
+| 9 | Property Portfolio System | Lakeside Properties | Uganda | — | Developer | Multi-property portfolio management with tenant tracking and financial reporting. |
+| 10 | Healthcare Management System | Kampala Medical Centre | Uganda | — | Developer | Clinical and practice management system improving patient records and billing. |
+| 11 | ERP Systems for Hospitals and Non-Profits | Various clients | East Africa | — | Consultant and Developer | Multiple ERP implementations for healthcare institutions and non-profit organisations. |
+| 12 | POS Applications for Retail | Various clients | East Africa | — | Developer | Point-of-sale solutions for retail businesses with inventory and multi-branch support. |
 
-<!-- TO COMPLETE: Add more assignments, especially consulting/advisory engagements, government/donor-funded projects, and any assignments with quantified outcomes (cost savings, efficiency gains, users served, etc.) -->
+<!-- TO COMPLETE: Add quantified outcomes where available (cost savings, efficiency gains, users served, revenue impact, etc.) -->
 
 ## Regional Presence
 
 | Dimension | Detail |
 |---|---|
-| **Countries of work experience** | Uganda, Kenya, Tanzania, Rwanda, DRC, Senegal, Sierra Leone, Guinea, United Kingdom (10+ countries) |
+| **Countries of work experience** | Uganda, Kenya, Tanzania, Rwanda, DRC, Senegal, Sierra Leone, Guinea, Guinea-Bissau, United Kingdom (10+ countries) |
 | **Languages** | English (native), French (business proficiency) |
 | **Regional focus** | East and Central Africa (primary), West Africa (secondary) |
 | **Local networks** | Based in Kampala, Uganda with established client relationships across the East African Community |
 
 ## Differentiators
 
-1. **Proprietary SaaS products** — not just a consultant but a product builder; Maduuka, Aqar, and Longhorn ERP demonstrate end-to-end delivery capability from concept to production
-2. **Full-stack technical depth** — handles database architecture, API design, mobile applications, server management, and deployment; no dependency on sub-contractors for core technical work
-3. **Francophone Africa reach** — bilingual English-French capability with delivered projects in Senegal, Sierra Leone, Guinea, and DRC; rare among East Africa-based consultants
-4. **Cross-industry experience** — 6+ industries including healthcare, hospitality, real estate, retail/pharmacy, agriculture, and financial services
-5. **Integrated technology-business perspective** — combines software engineering with business consulting and strategy, not just a coder
-6. **Multi-tenant SaaS architecture expertise** — Maduuka demonstrates enterprise-grade multi-tenancy, multi-language, and multi-currency design
+1. **Proprietary SaaS products** — not just a consultant but a product builder; Maduuka, Aqar, and Longhorn ERP demonstrate end-to-end delivery capability from concept to production deployment
+2. **Government systems experience** — delivered the Online Budgeting System for Uganda's Ministry of Finance via EFICON Consulting; understands public sector compliance, stakeholder management, and large-scale government IT requirements
+3. **Multi-country ERP at scale** — built the MIS that became standard across all 36 Dynapharm franchises in West Africa; managed regional ICT infrastructure across 4 countries simultaneously from Dakar
+4. **Francophone Africa reach** — bilingual English-French capability with 7+ years based in West Africa (Senegal, Sierra Leone, Guinea, Guinea-Bissau); rare among East Africa-based consultants
+5. **Full development lifecycle ownership** — from founding MIS Manager (building systems from scratch in a startup) to Regional ICT Manager (scaling across countries) to ongoing consultant (optimising and extending); proven across all project phases
+6. **Cross-industry experience** — healthcare, hospitality, real estate, retail/pharmacy, agriculture/manufacturing (BIRDC), FMCG distribution (Dynapharm), government finance, and non-profit organisations
+7. **Integrated technology-business perspective** — combines software engineering with business process automation, strategic planning, and digital transformation; translates complex business needs into scalable technical solutions
+8. **Multi-tenant SaaS architecture expertise** — Maduuka demonstrates enterprise-grade multi-tenancy, multi-language, and multi-currency design
 
 ## Association Arrangements
 
