@@ -24,7 +24,7 @@ These define **how** bids must be packaged, what forms are required, and how the
 |---|---|---|
 | `ppda-uganda/` | Public Procurement and Disposal of Public Assets Authority | Ugandan public sector bids — mandatory forms, evaluation criteria, reserved schemes, domestic preference rules |
 | `world-bank/` | World Bank Procurement | TECH-1–6 and FIN-1–4 standard forms, QCBS/QBS/FBS/LCS selection methods, conflict of interest rules |
-| `afdb/` | African Development Bank | AfDB procurement rules, shortlisting criteria, standard bid documents |
+| `afdb/` | African Development Bank | AfDB consultant selection methods (QCBS/QBS/FBS/LCS/CQS/SSS), Integrated Safeguards System (ISS 2023, 10 Operational Safeguards), project categorisation, IDEV evaluation framework, ADB/ADF lending terms, climate and gender mainstreaming |
 | `undp/` | United Nations Development Programme | UN procurement processes, UNGM registration, financial proposal format |
 
 ---
