@@ -53,6 +53,14 @@ Classify each stakeholder group to determine engagement strategy:
 | Surveys | Quantitative data from large groups | Baseline assessments, satisfaction measurement |
 | Steering committee | Governance, strategic decisions, issue resolution | Senior management, project sponsors |
 
+## Reference Files
+
+Load these reference files for deeper guidance when writing stakeholder engagement sections:
+
+- `references/stakeholder-analysis-and-mapping.md` — stakeholder identification methods (role-based, agenda-based, snowball), classification systems (primary/secondary/key, voluntary/involuntary, normative/derivative), hidden stakeholders (sleepers, spoilers, lurkers), analysis frameworks (power-interest matrix, Mitchell-Agle-Wood salience model with 7 types, sociodynamics model with 8 attitudes, expectations matrix), stakeholder project continuum (neutral/sensitive/led), sources of power (overt/influence/covert), RACI as stakeholder tool, sustainable development integration
+- `references/stakeholder-engagement-and-communication.md` — engagement life cycle (4 stages), relationship management process (Huemann), engagement journey (resistant→indifferent→supportive→proactive), whispering evolution (Shander), engagement formula, purposeful communication framework (6 types), communication by quadrant, 10 engagement techniques, expectation alignment, consultation design (6 requirements), questioning techniques (Five Whys, Six Ws, diverge/converge, premortem), facilitation and meetings, group engagement, 7 principles of engagement
+- `references/stakeholder-dynamics-and-influence.md` — resistance management (indicators, root causes, 10 strategies), Thomas-Kilmann conflict modes, 6-step conflict resolution, difficult stakeholder protocol, barriers to engagement (13 types), Cialdini's 6 principles applied to stakeholders, cognitive biases catalogue (17 biases), active listening framework, emotional intelligence model, 10 competencies, relationship building (8 practices), Freeman's 10 ethical principles, systemic constellation methods, Ashby's Law of Requisite Variety
+
 ## Grievance and Feedback Mechanism
 
 For assignments affecting communities or large staff populations:
@@ -66,12 +74,17 @@ For assignments affecting communities or large staff populations:
 
 When the ToR asks for a dedicated stakeholder engagement plan, generate a document covering:
 
-1. Stakeholder identification and analysis
-2. Power-interest mapping
-3. Engagement strategy per stakeholder group
-4. Consultation schedule and methods
-5. Communication plan (audiences, messages, channels, frequency)
-6. Grievance and feedback mechanism
-7. Stakeholder engagement monitoring (how engagement effectiveness will be tracked)
+1. Stakeholder identification methodology — role-based and agenda-based approaches, snowball sampling (see `references/stakeholder-analysis-and-mapping.md` section 1)
+2. Stakeholder classification — primary/secondary/key, hidden stakeholders (sleepers, spoilers, lurkers) (see `references/stakeholder-analysis-and-mapping.md` sections 2–3)
+3. Stakeholder analysis — power-interest matrix and salience model with engagement strategy per type (see `references/stakeholder-analysis-and-mapping.md` sections 4–5)
+4. Stakeholder project continuum assessment — classify assignment as neutral, sensitive, or stakeholder-led (see `references/stakeholder-analysis-and-mapping.md` section 5)
+5. Engagement strategy per stakeholder group — lifecycle stages, engagement journey (see `references/stakeholder-engagement-and-communication.md` sections 1–3)
+6. Communication plan — purposeful communication framework with six communication types (see `references/stakeholder-engagement-and-communication.md` section 6)
+7. Consultation design — six requirements for genuine consultation, extended management process (see `references/stakeholder-engagement-and-communication.md` section 9)
+8. Resistance management strategy — indicators, root causes, ten strategies for engaging resisters (see `references/stakeholder-dynamics-and-influence.md` sections 1, 4)
+9. Conflict resolution approach — Thomas-Kilmann modes, six-step process (see `references/stakeholder-dynamics-and-influence.md` section 2)
+10. Influence and persuasion framework — Cialdini's six principles applied to stakeholder contexts (see `references/stakeholder-dynamics-and-influence.md` section 5)
+11. Grievance and feedback mechanism
+12. Stakeholder engagement monitoring — four evaluation approaches, engagement effectiveness tracking (see `references/stakeholder-engagement-and-communication.md` section 15)
 
 Follow east-african-english standards throughout.
