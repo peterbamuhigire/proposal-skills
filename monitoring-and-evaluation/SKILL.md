@@ -81,17 +81,29 @@ When the proposal includes primary data collection:
 | Direct observation | Process verification, facility assessments | Purposive sample of sites |
 | Administrative data | Routine monitoring, system usage | Census of available records |
 
+## Reference Files
+
+Load these reference files for deeper guidance when writing M&E sections:
+
+- `references/results-frameworks-and-indicators.md` — results chain, problem tree method, theory of change vs logframe, CREAM indicator criteria, indicator reference sheets, process/outcome/progression indicators (ILO), baselines and targets (four-step process), disaggregation requirements, results and resources framework (UNDG), performance management cycle, sector-specific indicator frameworks
+- `references/evaluation-design-and-methods.md` — evaluation types (formative/summative/ex-post/real-time), four evaluation approaches (Civicus), OECD-DAC criteria (six), four-step evaluation design process (Seasons), evaluation matrix, impact evaluation designs (RCT, quasi-experimental, contribution analysis, outcome harvesting, Most Significant Change), quantitative and qualitative methods, mixed methods designs, sampling (probability and non-probability), sample size, data quality assurance (five dimensions), evaluation quality standards (UNDP), evaluation report structure, management response, joint evaluations, evaluation ethics
+- `references/monitoring-systems-and-reporting.md` — monitoring vs evaluation distinction, monitoring plan development (six steps), M&E governance and working groups (UNDG), roles and responsibilities (IFRC), M&E capacity assessment, routine and periodic data collection systems, digital data collection tools, reporting hierarchy, traffic light (RAG) system, adaptive management and learning loop, decision triggers, periodic reviews, costed M&E plan (3–5% budget rule), open data and FAIR principles, common M&E pitfalls
+
 ## Generating a Standalone Section
 
 When the ToR asks for a dedicated M&E plan or framework, generate a document covering:
 
 1. M&E approach and methodology
-2. Theory of change (narrative and diagram)
-3. Logical framework matrix
-4. Indicator reference sheets (definition, data source, frequency, responsibility, disaggregation)
-5. Data collection plan and tools
-6. Reporting schedule and templates
-7. Baseline and endline assessment methodology
-8. Evaluation design (mid-term and final, if applicable)
+2. Theory of change — narrative and diagram (see `references/results-frameworks-and-indicators.md` section 2)
+3. Logical framework matrix with CREAM-quality indicators
+4. Indicator reference sheets — definition, data source, frequency, responsibility, disaggregation (see `references/results-frameworks-and-indicators.md` section 3)
+5. Monitoring plan matrix with schedule and responsibilities (see `references/monitoring-systems-and-reporting.md` section 2)
+6. Data collection plan — methods, sampling, digital tools (see `references/evaluation-design-and-methods.md` sections 4–5)
+7. Data quality assurance framework (see `references/evaluation-design-and-methods.md` section 6)
+8. Reporting framework with traffic light system (see `references/monitoring-systems-and-reporting.md` section 5)
+9. Baseline and endline assessment methodology
+10. Evaluation design — type, OECD-DAC criteria, evaluation matrix (see `references/evaluation-design-and-methods.md` sections 1–3)
+11. Adaptive management framework — decision triggers and review schedule (see `references/monitoring-systems-and-reporting.md` section 6)
+12. Costed M&E budget (see `references/monitoring-systems-and-reporting.md` section 7)
 
 Follow east-african-english standards throughout.
