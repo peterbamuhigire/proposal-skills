@@ -84,16 +84,26 @@ When to use: as a complementary lens alongside ADKAR or Kotter, particularly whe
 - Never dismiss resistance as "people don't like change" — there is always a specific reason
 - Document resistance patterns and responses for the client's future reference
 
+## Reference Files
+
+Load these reference files for deeper guidance when writing change management sections:
+
+- `references/change-process-models.md` — Satir Change Model, Lewin, Kübler-Ross change curve, force field analysis, Nadler-Tushman congruence model, Burke-Litwin diagnostic, complexity and emergence (Hearsum), Silver Bullet lifecycle, Adams and Straw's Seven Fundamental Shifts, types-of-change classification
+- `references/hard-and-soft-integration.md` — hard/soft integration principle, project charter for change, four-team model (core project, change management, transition monitoring, red team), RACI matrix, communication plan framework, training plan framework (four-level evaluation), resistance management plan (seven sources of resistance, change saturation analysis, resistance patterns), action review, organisational readiness assessment (eight dimensions with scoring)
+- `references/lean-and-adaptive-change.md` — Lean Change Management cycle (Insights→Options→Experiments), improvement canvas, strategic change canvas, one-page change plan, change agent network design, digital change management (adoption curve, six practices), feedback-driven vs plan-driven comparison, measuring change success (qualitative, quantitative, leading vs lagging indicators)
+
 ## Generating a Standalone Section
 
 When the ToR asks for a dedicated change management plan, generate a document covering:
 
 1. Change management approach and framework
-2. Stakeholder readiness assessment methodology
-3. Communication plan
-4. Training and capacity building plan (reference `capacity-building/SKILL.md`)
-5. Change champion network design
-6. Resistance management strategy
-7. Change sustainability and reinforcement plan
+2. Organisational readiness assessment methodology (see `references/hard-and-soft-integration.md` section 9)
+3. Stakeholder readiness assessment and change saturation analysis
+4. Communication plan (see `references/hard-and-soft-integration.md` section 5)
+5. Training and capability development plan (reference `capacity-building/SKILL.md` and `references/hard-and-soft-integration.md` section 6)
+6. Change champion or change agent network design (see `references/lean-and-adaptive-change.md` section 3)
+7. Resistance management strategy (see `references/hard-and-soft-integration.md` section 7)
+8. Adoption measurement framework (see `references/lean-and-adaptive-change.md` section 6)
+9. Change sustainability and reinforcement plan
 
 Follow east-african-english standards throughout.
