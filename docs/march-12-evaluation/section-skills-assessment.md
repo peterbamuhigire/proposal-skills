@@ -1,6 +1,7 @@
 # Proposal Section Skills Assessment (01–10)
 
 **Date:** 12 March 2026
+**Updated:** 12 March 2026 (post-remediation ecosystem review)
 
 ---
 
@@ -35,6 +36,41 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 | 09 | Expression of Interest | 75 | Adequate | Weak | Weak | Missing | Adequate |
 | 10 | Financial Proposal | 134 | Strong | Strong | Adequate | Adequate | Strong |
 
+> **Note on ratings:** The individual SKILL.md files for sections 01–10 have not changed since the original evaluation. The ratings above remain the same. However, the supporting ecosystem around these skills has been significantly strengthened — see the Ecosystem Improvement Assessment below.
+
+---
+
+## Ecosystem Improvement Assessment
+
+Since the original evaluation, three categories of improvement have materially changed the effective capability of the section skills, even though their SKILL.md files remain unchanged.
+
+### 1. Domain Skill Reference Libraries Now Complete
+
+Three domain skills that section skills cross-reference have moved from empty shells to comprehensive reference libraries:
+
+| Domain Skill | Before | After | Sections That Benefit |
+|-------------|--------|-------|----------------------|
+| **Change Management** | SKILL.md only, no references | 3 reference files (change process models, hard/soft integration, lean/adaptive change) | 03, 06, 09 |
+| **Monitoring & Evaluation** | SKILL.md only, no references | 4 reference files (results frameworks, evaluation design, monitoring systems, impact evaluation/economic analysis) | 03, 06, 08, 09 |
+| **Stakeholder Engagement** | SKILL.md only, no references | 3 reference files (analysis/mapping, engagement/communication, dynamics/influence) | 03, 06, 07, 09 |
+
+**Practical impact:** When section 06 (Methodology) cross-references the change-management skill, for example, it now draws on the Satir Change Model, Lean CM cycle, four-team model, RACI templates, and digital adoption measurement — rather than a bare SKILL.md with no substantive content. The same applies to M&E references (results chains, theory of change, CREAM indicators, impact evaluation designs) and stakeholder engagement references (sociodynamics model, Mitchell-Agle-Wood salience, Thomas-Kilmann conflict modes). These cross-references, which previously pointed to thin air, now connect to genuinely rich material.
+
+### 2. Procurement Frameworks: 4/4 Now Complete
+
+| Framework | Before | After |
+|-----------|--------|-------|
+| World Bank | Complete (SKILL.md + 2 references) | No change |
+| UNDP/UN System | Complete (SKILL.md + 4 references) | No change |
+| PPDA Uganda | Missing | Complete (SKILL.md + 2 references: evaluation forms/procedures, Act/regulatory framework) |
+| AfDB | Missing | Complete (SKILL.md + 3 references: procurement/consultant-selection, safeguards/financial-terms, project-cycle/evaluation) |
+
+**Practical impact:** Section skills that previously had procurement compliance rated as "Missing" or "Weak" still do not embed procurement-specific guidance directly. However, all four procurement frameworks are now available to load alongside any section skill. A proposal writer can now consult PPDA evaluation scoring criteria (Forms 14, 15, 16, 24, 26, 45, 49), AfDB QCBS/QBS/FBS/LCS/CQS/SSS procedures, and AfDB ISS safeguards requirements when drafting any section. The gap has shifted from "frameworks do not exist" to "frameworks exist but are not yet wired into each section skill's instructions."
+
+### 3. Uganda Country Profile and Sector Data
+
+The Uganda country profile and sector references now provide contextual data — economic indicators, institutional structures, regulatory environment — that section skills can draw from when writing Uganda-targeted proposals. This is particularly relevant for sections 03 (Understanding of Assignment), 04 (Firm Profile), and 06 (Methodology), where country-specific context strengthens credibility.
+
 ---
 
 ## Detailed Assessment by Section
@@ -55,6 +91,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - Does not address evaluation criteria referencing
 
 **What McKinsey would do differently:** Lead with a quantified value proposition tied to the client's specific pain point, not a generic expression of interest.
+
+**Ecosystem note:** The PPDA and AfDB frameworks are now available to inform cover letter tone and compliance language, but this section skill does not yet reference them.
 
 ---
 
@@ -96,6 +134,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - No evaluation scoring guidance
 
 **What McKinsey would do differently:** Frame the understanding section as a "hypothesis about the client's real problem" — not just proof of comprehension but a signal that the firm has already started solving.
+
+**Ecosystem note:** Cross-references to M&E (theory of change, results chains) and stakeholder engagement (stakeholder mapping, power analysis) now connect to substantive reference material. When writing an understanding section for an M&E assignment, the writer can draw on CREAM indicators, problem trees, and four evaluation approaches. For governance or organisational assignments, stakeholder analysis frameworks (Mitchell-Agle-Wood salience, sociodynamics) provide genuine analytical depth.
 
 ---
 
@@ -164,6 +204,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - project-management/references/project-controls-and-earned-value.md
 - risk-management/references/risk-quantification-and-response.md
 
+**Ecosystem note:** This section's cross-references are now backed by the strongest supporting material in the repository. The change management references (Satir model, Lean CM cycle, four-team model) give methodology writers concrete frameworks for organisational change phases. The M&E references (results frameworks, impact evaluation designs, theory of change) provide rigorous monitoring methodology content. The stakeholder engagement references (engagement lifecycle, communication frameworks, conflict management) supply stakeholder-related methodology components. Previously these cross-references pointed to skills with no reference depth; now they connect to substantive, book-sourced content.
+
 ---
 
 ### 07. Team Composition (128 lines) — Rating: Strong
@@ -182,6 +224,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - No guidance on handling team gaps (ToR asks for specialist the firm lacks)
 - No gender balance or diversity considerations
 - No team change management (person leaves before submission)
+
+**Ecosystem note:** This section already references World Bank and PPDA CV formats. With the AfDB procurement framework now complete, AfDB-specific team composition requirements (shortlisting criteria, conflict of interest rules, eligibility by nationality) are available to consult, though not yet embedded in the skill.
 
 ---
 
@@ -203,6 +247,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - No guidance on client-imposed fixed dates
 - No holiday/unavailability calendar handling
 
+**Ecosystem note:** The project-management references (Lewis Method, earned value, WBS, PERT, CPM) and M&E references (monitoring plan matrix, reporting hierarchy, RAG system) now provide substantial supporting material for work plan construction. The risk-management references (buffer scheduling, FMEA/RPN scoring) support risk-integrated scheduling.
+
 ---
 
 ### 09. Expression of Interest (75 lines) — Rating: Weak
@@ -219,6 +265,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - No strong-vs-weak EoI examples
 - No pass/fail vs scored shortlisting criteria guidance
 - No guidance on priority conflicts (shortlisted for wrong assignment)
+
+**Ecosystem note:** All four procurement frameworks now exist and contain EoI-relevant content — World Bank shortlisting procedures, PPDA two-stage procurement, AfDB EoI requirements and GPN/SPN notice structures, and UNDP vendor registration. The section skill does not yet reference these, but the material is available for a future update that adds procurement variants.
 
 ---
 
@@ -243,6 +291,8 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 - No currency fluctuation risk for long assignments
 - No worked NPV example
 
+**Ecosystem note:** The PPDA evaluation forms (Forms 24, 26, 45) now provide detailed financial evaluation scoring criteria, including the QCBS financial formula. The AfDB procurement references cover FBS and LCS selection methods where price is decisive. The budgeting reference file (already strong at 520 lines) is complemented by procurement-specific pricing expectations from all four frameworks.
+
 ---
 
 ## Cross-Section Integration
@@ -263,14 +313,24 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 | No section references sectors/ directory | Sector-specific adaptation not integrated into section skills |
 | No section has a "checklist before submission" | Quality assurance left to ad hoc review |
 
+### Improved Cross-Links (ecosystem effect)
+
+| Cross-Reference | Before | After |
+|----------------|--------|-------|
+| Section 06 → change-management/ | Pointed to bare SKILL.md | Now connects to 3 reference files (24 sections of content) |
+| Section 06 → monitoring-and-evaluation/ | Pointed to bare SKILL.md | Now connects to 4 reference files (40 sections of content) |
+| Section 06 → stakeholder-engagement/ | Pointed to bare SKILL.md | Now connects to 3 reference files (43 sections of content) |
+| Sections 01–10 → procurement frameworks | 2/4 frameworks existed | 4/4 frameworks complete with detailed reference files |
+| Sections 03, 04, 06 → sector/country data | No Uganda-specific context | Uganda country profile and sector data available |
+
 ---
 
 ## Recommendations by Priority
 
 ### Must Fix (for $1M+ credibility)
 
-1. **Add evaluation scoring guidance to every section** — what percentage of total score, what evaluators prioritise, how to optimise points
-2. **Add procurement framework variants** — at minimum, a "World Bank format" vs "PPDA format" vs "UNDP format" note per section
+1. **Add evaluation scoring guidance to every section** — what percentage of total score, what evaluators prioritise, how to optimise points. This remains the single highest-impact improvement. The PPDA evaluation forms (now available) provide concrete scoring criteria that should be embedded directly into each section skill.
+2. **Add procurement framework variants** — at minimum, a "World Bank format" vs "PPDA format" vs "UNDP format" vs "AfDB format" note per section. All four frameworks now exist as loadable references; the next step is wiring their requirements into each section's instructions.
 3. **Create worked weak-vs-strong examples** for sections 01, 02, 04, 05, 09
 4. **Add World Bank FIN-1–4 templates** to section 10
 
@@ -285,3 +345,15 @@ Rating scale: **Strong** / **Adequate** / **Weak** / **Missing**
 
 9. Create a "worked example" directory showing all 10 sections for one realistic assignment
 10. Add team diversity and gender balance guidance to section 07
+
+---
+
+## Overall Assessment Shift
+
+**Original finding (pre-remediation):** The 10 section skills are structurally sound but operate in a thin ecosystem. Domain skills they cross-reference lack substance. Only 2 of 4 procurement frameworks exist. The skills produce competent proposals but cannot consistently reach the depth and compliance precision required for $1M+ competitive bids.
+
+**Updated finding (post-remediation):** The 10 section SKILL.md files are unchanged, and their individual ratings remain the same. However, the ecosystem surrounding them has been significantly strengthened. Three critical domain skills (Change Management, M&E, Stakeholder Engagement) now have comprehensive, book-sourced reference libraries. All four procurement frameworks (World Bank, UNDP, PPDA Uganda, AfDB) are complete with detailed reference files. Uganda-specific country and sector data is available for contextual grounding.
+
+**What this means in practice:** A proposal writer invoking these section skills today will produce materially better output than before the remediation — not because the section instructions changed, but because the supporting material they draw from is richer and more complete. The methodology section, for instance, can now pull genuine change management frameworks, M&E designs, and stakeholder analysis models from substantive references rather than thin placeholders.
+
+**The next priority is clear:** embed evaluation scoring guidance and procurement-specific variants directly into each section skill's SKILL.md. The reference material now exists to support this; what remains is wiring it into the section-level instructions so that compliance and scoring optimisation are automatic rather than dependent on the writer remembering to load the right framework alongside.

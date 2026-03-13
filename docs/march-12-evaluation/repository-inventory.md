@@ -1,6 +1,6 @@
 # Repository Inventory — Complete File Audit
 
-**Date:** 12 March 2026
+**Date:** 12 March 2026 (updated after Phase 1 remediation sessions 6–10)
 
 ---
 
@@ -8,14 +8,14 @@
 
 | Metric | Count |
 |--------|-------|
-| SKILL.md files | 34 |
-| Lines across all SKILL.md files | 5,667 |
-| Reference .md files | 39 |
-| Lines across all reference files | 11,206 |
-| Profile files (proposer identities) | 3 |
-| Lines across profile files | 311 |
+| SKILL.md files | 36 |
+| Lines across all SKILL.md files | 6,035 |
+| Reference .md files | 63 |
+| Lines across all reference files | 19,700 |
+| Profile files (proposer identities) | 4 |
+| Lines across profile files | 399 |
 | Python utility scripts | 3 |
-| **Total documented knowledge** | **~17,200 lines** |
+| **Total documented knowledge** | **~26,070 lines** |
 
 ---
 
@@ -45,15 +45,15 @@
 | risk-management | 170 | 1 | 232 | risk-quantification-and-response.md |
 | business-analysis-tools | 312 | 7 | 1,509 | Full library (see below) |
 | consulting-frameworks | 43 | 5 | 946 | Full library (see below) |
-| change-management | 99 | 0 | 0 | references/ empty |
-| monitoring-and-evaluation | 97 | 0 | 0 | references/ empty |
-| stakeholder-engagement | 77 | 0 | 0 | references/ empty |
+| change-management | 99 | 3 | 648 | 3 new reference files (see below) |
+| monitoring-and-evaluation | 97 | 4 | 1,351 | 4 new reference files (see below) |
+| stakeholder-engagement | 77 | 3 | 1,031 | 3 new reference files (see below) |
 | capacity-building | 95 | 0 | 0 | references/ empty |
 | gender-and-social-inclusion | 77 | 0 | 0 | references/ empty |
 | environmental-and-social-safeguards | 105 | 0 | 0 | references/ empty |
 | data-management | 102 | 0 | 0 | references/ empty |
 | sustainability-planning | 103 | 0 | 0 | references/ empty |
-| **Subtotal** | **1,425** | **14** | **3,043** | |
+| **Subtotal** | **1,425** | **24** | **6,073** | |
 
 ### business-analysis-tools/references/ (7 files)
 
@@ -78,6 +78,34 @@
 | operations-frameworks.md | 156 |
 | communication-structures.md | 202 |
 | **Total** | **949** |
+
+### change-management/references/ (3 files — NEW)
+
+| File | Lines |
+|------|-------|
+| change-process-models.md | 171 |
+| hard-and-soft-integration.md | 257 |
+| lean-and-adaptive-change.md | 220 |
+| **Total** | **648** |
+
+### monitoring-and-evaluation/references/ (4 files — NEW)
+
+| File | Lines |
+|------|-------|
+| results-frameworks-and-indicators.md | 260 |
+| evaluation-design-and-methods.md | 309 |
+| monitoring-systems-and-reporting.md | 248 |
+| impact-evaluation-and-economic-analysis.md | 534 |
+| **Total** | **1,351** |
+
+### stakeholder-engagement/references/ (3 files — NEW)
+
+| File | Lines |
+|------|-------|
+| stakeholder-analysis-and-mapping.md | 355 |
+| stakeholder-engagement-and-communication.md | 330 |
+| stakeholder-dynamics-and-influence.md | 346 |
+| **Total** | **1,031** |
 
 ---
 
@@ -106,30 +134,38 @@
 
 ## 5. Sectors
 
-### Populated Sectors
+### Populated Sectors — Procurement Frameworks
 
 | Directory | SKILL.md Lines | Reference Files | Reference Lines | Total |
 |-----------|---------------|-----------------|-----------------|-------|
 | sectors/SKILL.md (router) | 79 | — | — | 79 |
 | sectors/world-bank | 233 | 2 | 508 | 741 |
 | sectors/undp | 341 | 4 | 964 | 1,305 |
-| **Subtotal** | **653** | **6** | **1,472** | **2,125** |
+| sectors/ppda-uganda | 182 | 2 | 1,069 | 1,251 |
+| sectors/afdb | 186 | 3 | 1,047 | 1,233 |
+| **Framework subtotal** | **1,021** | **11** | **3,588** | **4,609** |
 
-### Empty Sector Directories (stub only — .gitkeep)
+### Populated Sectors — Uganda Country and Industry References
 
-- sectors/afdb/
-- sectors/ppda-uganda/
-- sectors/agriculture/
-- sectors/education/
-- sectors/energy/
-- sectors/financial-services/
-- sectors/governance/
-- sectors/health/
-- sectors/ict/
-- sectors/transport-infrastructure/
-- sectors/water-sanitation/
+| File | Lines | Purpose |
+|------|-------|---------|
+| sectors/uganda-country-profile.md | 161 | Cross-sector Uganda context |
+| sectors/agriculture/references/uganda-agriculture-sector.md | 118 | Agriculture sector profile |
+| sectors/education/references/uganda-education-sector.md | 81 | Education sector profile |
+| sectors/energy/references/uganda-energy-sector.md | 82 | Energy sector profile |
+| sectors/financial-services/references/uganda-financial-sector.md | 110 | Financial services sector profile |
+| sectors/governance/references/uganda-governance-sector.md | 92 | Governance sector profile |
+| sectors/health/references/uganda-health-sector.md | 82 | Health sector profile |
+| sectors/ict/references/uganda-ict-sector.md | 101 | ICT sector profile |
+| sectors/transport-infrastructure/references/uganda-transport-sector.md | 113 | Transport infrastructure sector profile |
+| sectors/water-sanitation/references/uganda-wash-sector.md | 65 | WASH sector profile |
+| **Industry subtotal** | **1,005** | |
 
-**11 empty directories.**
+**Sector total: 5,614 lines across 22 files.**
+
+### Empty Sector Directories
+
+**0 empty directories.** All 9 industry sectors now have at least one Uganda-specific reference file, and all 4 procurement frameworks (World Bank, UNDP/UN System, PPDA Uganda, AfDB) are fully built.
 
 ---
 
@@ -178,20 +214,26 @@
 ## Content Distribution
 
 ```
-Proposal section skills:     1,150 lines (  7%)  ████
-Domain skills:               1,425 lines (  8%)  █████
-Domain references:           3,043 lines ( 18%)  ██████████
-Cross-cutting references:    1,563 lines (  9%)  █████
-Sector skills + references:  2,125 lines ( 12%)  ███████
-Language skills:               667 lines (  4%)  ██
-Blog skills + references:   3,757 lines ( 22%)  ████████████
-Meta/utility skills:         2,366 lines ( 14%)  ████████
-Profiles + routing:            535 lines (  3%)  ██
-Root files:                    555 lines (  3%)  ██
+Sector skills + references:  5,609 lines ( 22%)  ████████████
+Domain references:           6,073 lines ( 23%)  █████████████
+Blog skills + references:    3,757 lines ( 14%)  ████████
+Meta/utility skills:         2,366 lines (  9%)  █████
+Cross-cutting references:    1,563 lines (  6%)  ███
+Domain skills:               1,425 lines (  5%)  ███
+Proposal section skills:     1,150 lines (  4%)  ██
+Language skills:               667 lines (  3%)  ██
+Profiles + routing:            535 lines (  2%)  █
+Root files:                    555 lines (  2%)  █
                             ──────
-                            17,186 lines (100%)
+                            ~26,070 lines (100%)
 ```
 
-### Key Observation
+### Key Observations
 
-Blog writing skills (3,757 lines) account for 22% of total content — more than all proposal section skills combined (1,150 lines). This reflects the maturity of the blog system but also highlights that proposal section skills are relatively lean and rely heavily on external references for depth.
+1. **Sector content is now the largest category** (5,609 lines, 22%) — up from 2,125 lines (12%) before remediation. All 4 procurement frameworks are complete and all 9 industry sectors have Uganda-specific reference files.
+
+2. **Domain references have nearly doubled** (6,073 lines, 23%) — up from 3,043 lines (18%). Change management, monitoring and evaluation, and stakeholder engagement now have comprehensive reference libraries synthesised from 67 source documents.
+
+3. **Blog writing skills** (3,757 lines, 14%) are no longer the largest category — they have been overtaken by both domain references and sector content. This reflects the repository's shift towards proposal-centric depth.
+
+4. **Remaining gaps:** Only 1 of 10 proposal section skills has a reference file (financial-proposal). Five of 12 domain skills still lack references: capacity-building, gender-and-social-inclusion, environmental-and-social-safeguards, data-management, and sustainability-planning. These are Phase 2 priorities.
