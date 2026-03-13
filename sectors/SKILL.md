@@ -29,21 +29,29 @@ These define **how** bids must be packaged, what forms are required, and how the
 
 ---
 
+## Country Profile
+
+| File | Coverage |
+|---|---|
+| `uganda-country-profile.md` | Cross-cutting Uganda development context from AfDB CDN December 2025 and UN Country Analysis 2025 — demographics, macroeconomic indicators (GDP USD 53.7bn, pop 45.9m), development frameworks (Vision 2040, NDP IV), structural transformation, poverty/inequality (HDI 0.582, multidimensional poverty 42.1%), employment, gender (GII 0.524), climate (41% land degraded, INFORM 12/191), governance, financial sector, trade, statistics, fragility, and 10 SDG acceleration pathways. Load this before writing any Uganda-targeted proposal. |
+
+---
+
 ## Industry Sectors
 
-These define **what** evaluators expect in terms of domain knowledge, terminology, methodology, and deliverables for bids in each sector.
+These define **what** evaluators expect in terms of domain knowledge, terminology, methodology, and deliverables for bids in each sector. Each sector now includes Uganda-specific reference data from the AfDB Country Diagnostic Note (December 2025) and the UN Uganda SDG Analysis Report Summary (2025), including SDG pathway alignment.
 
-| Directory | Sector | Coverage |
-|---|---|---|
-| `agriculture/` | Agriculture & Food Security | Crop value chains, irrigation, extension services, food security programmes, agribusiness development |
-| `health/` | Health & Pharmaceutical | Public health systems, pharmaceutical supply chains, health informatics, disease surveillance, health facility assessments |
-| `education/` | Education & Capacity Building | Curriculum development, e-learning platforms, institutional strengthening, TVET, teacher training |
-| `ict/` | ICT & Digital Transformation | E-government, MIS/ERP implementations, digital infrastructure, cybersecurity, data systems |
-| `financial-services/` | Financial Services | Banking, insurance, mobile money, microfinance, financial inclusion, payment systems |
-| `energy/` | Energy & Environment | Power generation, rural electrification, renewable energy, environmental impact assessments |
-| `water-sanitation/` | Water, Sanitation & Hygiene | WASH programmes, water utility management, sanitation infrastructure, community-led approaches |
-| `transport-infrastructure/` | Transport & Infrastructure | Roads, logistics, urban transport planning, infrastructure assessments, PPP advisory |
-| `governance/` | Governance & Public Sector Reform | Institutional reform, M&E frameworks, anti-corruption, decentralisation, public financial management |
+| Directory | Sector | Coverage | Uganda Reference |
+|---|---|---|---|
+| `agriculture/` | Agriculture & Food Security | Crop value chains, irrigation, extension services, food security programmes, agribusiness development | `references/uganda-agriculture-sector.md` — 24.3% of GDP, 70% of workforce, GHI 27.3, undernourishment 36.9%, post-harvest losses 40%, food insecurity 71.2%, SDG Pathways 1 & 3 |
+| `health/` | Health & Pharmaceutical | Public health systems, pharmaceutical supply chains, health informatics, disease surveillance, health facility assessments | `references/uganda-health-sector.md` — UHC index 49, MMR 189/100K, life expectancy 68.2, GBV data, nutrition indicators, SDG Pathway 4 |
+| `education/` | Education & Capacity Building | Curriculum development, e-learning platforms, institutional strengthening, TVET, teacher training | `references/uganda-education-sector.md` — NER 78% primary, NEET 50.9% (worsening), literacy 74%, GII 124/139, SDG Pathways 2 & 4 |
+| `ict/` | ICT & Digital Transformation | E-government, MIS/ERP implementations, digital infrastructure, cybersecurity, data systems | `references/uganda-ict-sector.md` — 4,387 km fibre, 10.3% internet, mobile phone ownership 43%, GII 124/139, SDG Pathway 8 |
+| `financial-services/` | Financial Services | Banking, insurance, mobile money, microfinance, financial inclusion, payment systems | `references/uganda-financial-sector.md` — 22 banks, financial inclusion 68% (gender gap), FDI USD 2.99bn, SDG Pathways 1 & 10 |
+| `energy/` | Energy & Environment | Power generation, rural electrification, renewable energy, environmental impact assessments | `references/uganda-energy-sector.md` — 2,048 MW installed, 53% access (25% grid/28% off-grid), clean cooking 4%, SDG Pathway 8 |
+| `water-sanitation/` | Water, Sanitation & Hygiene | WASH programmes, water utility management, sanitation infrastructure, community-led approaches | `references/uganda-wash-sector.md` — 81.1% improved but only 18% safely managed water, 20% safely managed sanitation, urban waste, SDG Pathway 7 |
+| `transport-infrastructure/` | Transport & Infrastructure | Roads, logistics, urban transport planning, infrastructure assessments, PPP advisory | `references/uganda-transport-sector.md` — 159,366 km roads, 28.9 road fatalities/100K, urbanisation 8.8%, housing deficit 7.3M, SDG Pathways 1 & 9 |
+| `governance/` | Governance & Public Sector Reform | Institutional reform, M&E frameworks, anti-corruption, decentralisation, public financial management | `references/uganda-governance-sector.md` — IIAG 49.1/100, CPI 26, INFORM 12/191, birth registration 40.4%, women in Cabinet 45%, SDG Pathway 5 |
 
 ---
 
