@@ -160,3 +160,49 @@ These figures are useful for contextualising agricultural proposals in Uganda:
 African Development Bank Group. "Country Diagnostic Note for Uganda." December 2025.
 
 United Nations Uganda. "SDG Analysis Report Summary." 2025.
+
+---
+
+## Sustainable Agriculture Frameworks
+
+### Environmental Costs of Conventional Agriculture
+When proposals involve agricultural modernisation or intensification, acknowledge externalities:
+- **Pesticide costs**: health impacts on farm workers, water contamination, biodiversity loss, resistance development
+- **Soil degradation**: erosion, nutrient depletion, compaction, salinisation from irrigation
+- **Water pollution**: nitrate/phosphate runoff, eutrophication, pesticide residues in groundwater
+- **GHG emissions**: methane from livestock/rice paddies, nitrous oxide from fertilisers, CO2 from land clearing
+- **Biodiversity loss**: habitat destruction, monoculture, loss of pollinators
+
+### Sustainable Intensification Approaches
+For methodology sections, reference these evidence-based approaches (Pretty, 2005: 286 projects across 57 countries showed average 79% yield increase with resource-conserving methods):
+
+| Approach | Description | Uganda Application |
+|----------|-------------|-------------------|
+| Integrated Pest Management (IPM) | Biological control, crop rotation, resistant varieties, targeted chemical use | Coffee, cotton, horticulture |
+| Conservation Agriculture | Minimum tillage, permanent soil cover, crop rotation | Maize-bean systems, semi-arid areas |
+| Agroforestry | Trees integrated with crops/livestock | Coffee-banana systems, woodlot integration |
+| Integrated Nutrient Management | Organic + targeted inorganic fertiliser, composting, green manure | Soil fertility restoration in degraded areas |
+| Water Harvesting | Rainwater collection, micro-irrigation, valley tanks | Cattle corridor, Karamoja |
+| Farmer Field Schools | Participatory learning, IPM training, experimentation | NAADS successor programmes |
+
+### Trade and Market Sustainability
+- **Fair trade**: premium prices for certified producers, social premiums for community development
+- **Market access barriers**: tariffs, quotas, non-tariff barriers (SPS standards, quality requirements)
+- **Subsidies impact**: developed-country agricultural subsidies depress world prices, undermining developing country competitiveness
+- **Value addition**: processing locally rather than exporting raw commodities increases returns
+- **Uganda-specific**: coffee, tea, cocoa, vanilla certification; fish export compliance (EU SPS)
+
+### Climate-Smart Agriculture (CSA)
+Three pillars relevant to Uganda proposals:
+1. **Productivity**: sustainably increasing agricultural productivity and incomes
+2. **Adaptation**: adapting and building resilience to climate change
+3. **Mitigation**: reducing/removing GHG emissions where possible
+
+Key CSA practices for Uganda: drought-tolerant varieties, improved water management, agroforestry, biogas from livestock waste, sustainable rice intensification (SRI).
+
+### Source
+- Hester & Harrison (eds.), *Sustainability in Agriculture*, Issues in Environmental Science and Technology 21, Royal Society of Chemistry, 2005
+- Pretty, J., "Sustainability in Agriculture: Recent Progress and Emergent Challenges" (Ch. 1)
+- Osborn, D., "Sustainable Land Management" (Ch. 4)
+- Smith, J., "Globalising Vulnerability: Impacts of Unfair Trade on Developing Country Agriculture" (Ch. 6)
+- Butler, C., "Free Trade in Food: Moral and Physical Hazards" (Ch. 7)
