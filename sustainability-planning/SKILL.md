@@ -5,6 +5,40 @@ description: Sustainability and exit strategy frameworks for consulting proposal
 
 # Sustainability Planning
 
+## Use When
+- Use this skill when the assignment explicitly needs sustainability, exit strategy, ownership transfer, or continuity content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where sustainability or exit-planning logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready ownership, continuity, and institutionalization mechanisms.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate sustainability concepts into practical proposal language and long-term continuity logic.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not use generic sustainability language with no operational detail.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed sustainability content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 The question every evaluator asks: "What happens when the consultants leave?" Proposals that answer this convincingly — with specific mechanisms for embedding results into the client's operations — score significantly higher than those that end at "final report delivered". This skill provides the frameworks for demonstrating that the assignment's outcomes will endure.
 
 ## When to Read This Skill

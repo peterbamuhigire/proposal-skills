@@ -5,6 +5,40 @@ description: Business analysis frameworks, diagnostic tools, and analytical mode
 
 # Business Analysis Tools
 
+## Use When
+- Use this skill when the assignment needs business-analysis tools, diagnostics, or decision-support methods.
+- Load it when a proposal section needs structured analysis rather than generic commentary.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify which analytical question the proposal actually needs to answer.
+2. Read the local references only where they materially improve the output.
+3. Select the tools that fit the assignment and convert them into proposal-ready logic, not academic summary.
+4. Integrate the output into the relevant proposal section and check for consistency.
+
+## Quality Standards
+- Translate analysis into practical proposal language, decisions, and outputs.
+- Keep the selected tools specific to the assignment rather than listing frameworks for their own sake.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not dump framework names without explaining how they apply.
+- Do not overload the proposal with jargon or marginal tools.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed analysis content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Top-tier proposals reference named analytical frameworks and tools — they show the evaluator how the firm thinks, not just what it will do. This skill provides a library of business analysis tools that proposal sections draw from, particularly methodology (06), understanding of assignment (03), and executive summary (02).
 
 ## When to Read This Skill

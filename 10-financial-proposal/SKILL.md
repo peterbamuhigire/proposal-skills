@@ -5,6 +5,44 @@ description: Write the financial proposal for a consulting bid. Use when the use
 
 # Financial Proposal
 
+## Use When
+- Use this skill to draft or revise the financial proposal narrative, pricing logic, or cost structure.
+- Load it when the bid requires a separate commercial response or financial forms.
+
+## Do Not Use When
+- The task is unrelated to pricing, costing, or financial proposal content.
+- The user only needs supporting domain knowledge rather than the financial response.
+
+## Required Inputs
+- The financial-proposal instructions, forms, and commercial assumptions.
+- The methodology, work plan, and staffing assumptions that drive the pricing logic.
+- Any taxes, reimbursables, validity, and currency rules that apply.
+
+## Workflow
+1. Read the commercial instructions and identify the required pricing structure, forms, and constraints.
+2. Load any relevant procurement framework before drafting or structuring the response.
+3. Use the guidance below to build defensible pricing logic tied to the actual delivery model.
+4. Cross-check the financial content against the methodology, staffing, and timeline assumptions.
+5. Verify compliance with envelope separation, form rules, and pricing assumptions before finalizing.
+
+## Quality Standards
+- Keep the pricing logic transparent, internally consistent, and format-compliant.
+- Use clear professional language and avoid unsupported commercial claims.
+- Prefer defensible assumptions, explicit cost drivers, and coherent structure.
+
+## Anti-Patterns
+- Do not price work that the technical proposal does not actually support.
+- Do not ignore donor or client form requirements, currency rules, or tax assumptions.
+- Do not mix financial content into the technical proposal where separation is required.
+
+## Outputs
+- A financial proposal narrative or pricing structure aligned to the bid instructions.
+
+## References
+- `../sectors/SKILL.md` for procurement routing.
+- Root and local `references/` files for budgeting, estimation, and commercial framing.
+- Relevant proposal sections so pricing remains consistent with delivery assumptions.
+
 The financial proposal is always a separate document — never included in the technical proposal envelope. It presents the total cost of the assignment, broken down by fees and reimbursable expenses, tied to a milestone payment schedule.
 
 ## What to Gather Before Writing

@@ -8,6 +8,8 @@ A collection of Claude Code skills for generating professional consulting propos
 
 ## Repository Architecture
 
+`AGENTS.md` now exists at the repository root as a Codex-compatible routing layer. Keep `CLAUDE.md` as the Claude-specific operating file; the two documents should remain complementary rather than duplicative.
+
 ### Parent Skill: `SKILL.md` (root)
 The `proposal-writing` parent skill routes to the correct sub-skill based on what section or document type is needed. It defines cross-cutting standards (British English, East African tone, first-person plural, `.docx` output).
 
@@ -67,6 +69,8 @@ Reference documentation that proposal skills load for context. See `sectors/SKIL
 
 - **Procurement frameworks** (how bids must be packaged): `ppda-uganda/`, `world-bank/`, `afdb/`, `undp/`
 - **Industry sectors** (domain-specific content): `agriculture/`, `health/`, `education/`, `ict/`, `financial-services/`, `energy/`, `water-sanitation/`, `transport-infrastructure/`, `governance/`
+
+Each sector directory now has its own `SKILL.md` so sector context is loadable as a first-class skill rather than only passive reference material.
 
 ### Meta Skills
 - `skill-writing/` — guide for creating and updating skills in this repository

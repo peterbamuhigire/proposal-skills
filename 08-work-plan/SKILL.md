@@ -5,6 +5,44 @@ description: Write the work plan and timeline section of a consulting proposal. 
 
 # Work Plan and Timeline
 
+## Use When
+- Use this skill to draft or revise the work plan, schedule, staffing schedule, or timeline section.
+- Load it when the evaluator needs a realistic delivery sequence and timing logic.
+
+## Do Not Use When
+- The task is unrelated to work planning or scheduling.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The ToR, deliverables, milestones, and assignment duration.
+- The selected proposer profile and any relevant procurement requirements.
+- Staffing assumptions, dependencies, and known schedule constraints.
+
+## Workflow
+1. Read the assignment materials and confirm the timeline, milestones, and required planning outputs.
+2. Load the proposer profile and any relevant procurement, sector, and methodology context.
+3. Use the structure below to build a realistic sequence of activities, deliverables, and staffing effort.
+4. Check the work plan against the methodology, team, and financial assumptions.
+5. Verify that durations, overlaps, and milestone logic are credible before finalizing.
+
+## Quality Standards
+- Keep the plan realistic, readable, and tied to the actual scope.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer explicit milestones, dependencies, and staffing logic over vague timetable language.
+
+## Anti-Patterns
+- Do not create a timeline that ignores deliverables, review cycles, or client inputs.
+- Do not over-compress or over-extend the plan beyond what the assignment supports.
+- Do not let the work plan contradict the methodology, team, or budget.
+
+## Outputs
+- A proposal-ready work plan, timeline, and related staffing or milestone structures.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Root and local `references/` files for delivery logic and scheduling support.
+
 The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable — overly compressed or suspiciously padded plans both raise concerns.
 
 ## What to Gather Before Writing

@@ -5,6 +5,44 @@ description: Write the relevant experience section of a consulting proposal. Use
 
 # Relevant Experience
 
+## Use When
+- Use this skill to draft or revise the relevant experience section of a proposal or EoI.
+- Load it when evaluator confidence depends on comparable project evidence.
+
+## Do Not Use When
+- The task is unrelated to past performance or comparable assignments.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The assignment brief and any evaluation criteria on experience.
+- The selected proposer profile.
+- Verified project examples, dates, roles, clients, scope, and outcomes.
+
+## Workflow
+1. Read the bid requirements and determine what kinds of experience matter most.
+2. Load the proposer profile and any procurement or sector context that shapes relevance.
+3. Select the strongest comparable assignments and structure them using the guidance below.
+4. Emphasize outcomes, relevance, and evaluator-fit rather than raw volume.
+5. Verify consistency with the profile, team, and methodology sections.
+
+## Quality Standards
+- Keep examples directly relevant to the assignment and evaluation criteria.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer quantified outcomes, named roles, and clear similarity signals.
+
+## Anti-Patterns
+- Do not list projects with no outcomes or no relevance logic.
+- Do not exaggerate roles, scope, or contracting relationships.
+- Do not overload the section with marginal examples that dilute the strongest evidence.
+
+## Outputs
+- A proposal-ready relevant experience section with evaluator-focused project evidence.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Relevant proposal-wide references when positioning or proof structure needs reinforcement.
+
 This section is typically the most heavily weighted in evaluation scoring. It is where the firm proves — not claims — that it has done this before and can do it again.
 
 ## What to Gather Before Writing

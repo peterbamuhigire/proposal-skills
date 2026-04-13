@@ -5,6 +5,43 @@ description: Sector and procurement framework reference index. Use when writing 
 
 # Sectors — Index
 
+## Use When
+- Use this skill when a proposal needs both procurement-framework guidance and sector-domain context.
+- Load it when you must decide which procurement and sector skills to read before drafting.
+
+## Do Not Use When
+- The task is only language editing or proposer-profile selection.
+- A specific sector and framework skill have already been chosen and no routing help is needed.
+
+## Required Inputs
+- The ToR, RFP, advert, or client brief.
+- Known donor, geography, industry, and form requirements.
+- Any clues about evaluation criteria, selection method, and terminology.
+
+## Workflow
+1. Identify the procurement framework first because it controls forms, scoring, and compliance rules.
+2. Identify the industry sector next because it shapes terminology, methodology, and evaluator expectations.
+3. Load one procurement skill and one or more sector skills as needed for the assignment.
+4. Read country context where it materially improves the proposal.
+5. Carry those assumptions into the numbered proposal section skills.
+
+## Quality Standards
+- Use procurement skills for compliance logic and sector skills for domain logic.
+- Prefer the smallest relevant set of context files so the proposal stays focused.
+- Treat sector references as evidence and framing support, not text to paste verbatim.
+
+## Anti-Patterns
+- Do not assume the donor framework from sector keywords alone.
+- Do not load every sector reference when only one or two are relevant.
+- Do not ignore country context when the bid is explicitly country-specific.
+
+## Outputs
+- A routing decision to the relevant procurement and sector skills.
+
+## References
+- Local framework and sector subdirectories.
+- `uganda-country-profile.md` when Uganda context matters.
+
 This directory contains reference documentation for procurement frameworks and industry sectors. Each file defines the specifics that apply when writing proposals for that context — mandatory forms, evaluation weightings, compliance requirements, terminology, and sector-specific content expectations.
 
 ## How to Use

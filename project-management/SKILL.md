@@ -5,6 +5,40 @@ description: Project management frameworks, governance structures, and reporting
 
 # Project Management
 
+## Use When
+- Use this skill when the assignment explicitly needs project-management, governance, controls, or reporting content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where project-management logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready governance, controls, and reporting mechanisms.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate PM frameworks into practical proposal language, outputs, and escalation logic.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not mention PM frameworks without showing how they apply.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed project-management content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 This skill provides the PM knowledge base that proposal sections draw from — particularly methodology (06), work plan (08), and team composition (07). It covers the frameworks, governance models, and reporting standards that make proposals credible on project delivery.
 
 ## When to Read This Skill

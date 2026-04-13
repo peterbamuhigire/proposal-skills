@@ -5,6 +5,43 @@ description: African Development Bank procurement framework covering consultant 
 
 # African Development Bank Procurement Framework
 
+## Use When
+- Use this skill when the solicitation follows African Development Bank consulting procurement rules.
+- Load it before drafting when you need form, scoring, threshold, or compliance guidance.
+
+## Do Not Use When
+- The task only needs sector-domain framing without procurement mechanics.
+- A different procurement framework clearly applies.
+
+## Required Inputs
+- The solicitation package, especially instructions, forms, and evaluation criteria.
+- Any known selection method and technical threshold.
+- The target proposal sections that must comply with the framework.
+
+## Workflow
+1. Confirm that AfDB procurement applies from explicit cues in the solicitation.
+2. Read this skill and the local references to understand forms, scoring, safeguards, and constraints.
+3. Map those requirements into the numbered proposal section skills before drafting.
+4. Draft to maximize technical quality without creating compliance risk.
+5. Check the final output against thresholds, form placement, and submission rules.
+
+## Quality Standards
+- Treat AfDB instructions as hard constraints, not optional style guidance.
+- Keep terminology, form names, and evaluation assumptions aligned to the actual solicitation.
+- Optimize for evaluator behavior where the framework supports it.
+
+## Anti-Patterns
+- Do not rely on generic donor assumptions when the AfDB solicitation gives exact instructions.
+- Do not ignore minimum thresholds, safeguards expectations, or eligibility rules.
+- Do not mix AfDB assumptions with World Bank, PPDA, or UN rules.
+
+## Outputs
+- An AfDB-compliant drafting and scoring approach for the relevant proposal sections.
+
+## References
+- Local `references/` files for selection methods, safeguards, project cycle, and financial terms.
+- `../SKILL.md` to combine framework and sector context.
+
 This skill provides the procurement rules, evaluation methodology, safeguard requirements, and scoring intelligence that every AfDB-funded proposal must be built around. Read this before writing any section of an AfDB-funded proposal.
 
 ## When to Read This Skill

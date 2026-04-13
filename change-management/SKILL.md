@@ -5,6 +5,40 @@ description: Change management and organisational change frameworks for consulti
 
 # Change Management
 
+## Use When
+- Use this skill when the assignment explicitly needs change-management, adoption, transition, or resistance-management content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where change-management logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready activities, controls, and adoption mechanisms.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate theory into practical proposal language, outputs, and roles.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not mention change-management frameworks without showing how they apply.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed change-management content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Most consulting assignments — ICT implementations, institutional reform, process improvement — require people to change how they work. Proposals that address this explicitly score higher than those that treat change as an afterthought. This skill provides the OCM frameworks and structures that proposal sections draw from.
 
 ## When to Read This Skill

@@ -5,6 +5,41 @@ description: Generate SEO-optimised, bilingual blog articles with featured image
 
 # Blog Writer — Article Generation Skill
 
+## Use When
+- Use this skill when the user wants a blog article, thought piece, or publishable article page.
+- Load it when the task includes writing, article planning, or blog-page execution.
+
+## Do Not Use When
+- The user only needs ideation rather than article drafting.
+- The request is about proposal writing or unrelated to content publishing.
+
+## Required Inputs
+- The topic, angle, audience, and publishing goal.
+- Any project files, design constraints, source material, and available images.
+
+## Workflow
+1. Plan the article before drafting: audience, buyer stage, outline, and format.
+2. Gather or process the supporting assets and context the article needs.
+3. Use the workflow below to draft, structure, and package the article for publication.
+4. Run quality, SEO, design, and publication checks before final delivery.
+
+## Quality Standards
+- Keep the article human-sounding, useful, and structurally strong.
+- Match the project’s existing technical and design conventions when building pages.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not skip planning or quality gates for publishable content.
+- Do not produce generic AI-sounding copy or design filler.
+- Do not publish without checking links, images, and build behavior when a site is involved.
+
+## Outputs
+- A publishable article and any associated metadata, page, or index updates required by the project.
+
+## References
+- Local `references/` files for writing craft, strategy, voice, and design.
+- `../blog-idea-generator/SKILL.md` if ideation is still needed before drafting.
+
 Generate detailed, rich, educating, and captivating blog articles with authentic human voice, professional photography, and full SEO optimisation. Each article is a marketing asset — a demonstration of expertise that builds trust and attracts clients through organic search.
 
 **Use the `frontend-design` plugin** throughout article page creation for distinctive, high-quality design.
