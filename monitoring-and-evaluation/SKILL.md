@@ -5,6 +5,40 @@ description: Monitoring and evaluation frameworks for consulting proposals. Use 
 
 # Monitoring and Evaluation
 
+## Use When
+- Use this skill when the assignment explicitly needs monitoring, evaluation, results, indicators, or learning content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where monitoring, evaluation, or results logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready frameworks, indicators, and reporting logic.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate M&E theory into practical proposal language, outputs, and controls.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not mention results frameworks without showing how they will be used.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed monitoring and evaluation content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Donor-funded and government assignments almost always require an M&E component. Proposals that present a clear results framework with measurable indicators score significantly higher than those offering vague "monitoring activities". This skill provides the M&E structures that proposal sections draw from.
 
 ## When to Read This Skill

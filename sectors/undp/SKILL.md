@@ -5,6 +5,43 @@ description: United Nations system procurement framework for consulting services
 
 # United Nations System Procurement Framework — Consulting Services and Grants
 
+## Use When
+- Use this skill when the solicitation follows UNDP or wider UN-system procurement rules.
+- Load it before drafting when you need form, scoring, threshold, or compliance guidance.
+
+## Do Not Use When
+- The task only needs sector-domain framing without procurement mechanics.
+- A different procurement framework clearly applies.
+
+## Required Inputs
+- The solicitation package, especially instructions, forms, and evaluation criteria.
+- Any known selection method and technical threshold.
+- The target proposal sections that must comply with the framework.
+
+## Workflow
+1. Confirm that UNDP or UN-system procurement applies from explicit cues in the solicitation.
+2. Read this skill and the local references to understand forms, scoring, administrative compliance, and constraints.
+3. Map those requirements into the numbered proposal section skills before drafting.
+4. Draft to maximize technical quality without creating compliance risk.
+5. Check the final output against thresholds, form placement, and submission rules.
+
+## Quality Standards
+- Treat UN instructions as hard constraints, not optional style guidance.
+- Keep terminology, form names, and evaluation assumptions aligned to the actual solicitation.
+- Optimize for evaluator behavior where the framework supports it.
+
+## Anti-Patterns
+- Do not rely on generic donor assumptions when the UN materials give exact instructions.
+- Do not ignore administrative compliance gates, thresholds, or mandatory declarations.
+- Do not mix UN assumptions with World Bank, AfDB, or PPDA rules.
+
+## Outputs
+- A UNDP- or UN-compliant drafting and scoring approach for the relevant proposal sections.
+
+## References
+- Local `references/` files for UN procurement variants, scoring logic, and programme-specific requirements.
+- `../SKILL.md` to combine framework and sector context.
+
 This skill covers procurement across the entire UN system: UNDP, UNICEF, UNFCCC, UNEP, UN Women, FAO, WHO, UNIDO, ILO, and all other UN bodies. While each agency has its own procedures, they share common patterns in proposal structure, evaluation, and compliance requirements. Read this before writing any UN-funded proposal.
 
 ## When to Read This Skill

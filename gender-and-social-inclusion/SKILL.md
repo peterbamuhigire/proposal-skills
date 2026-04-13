@@ -5,6 +5,40 @@ description: Gender equality and social inclusion frameworks for consulting prop
 
 # Gender and Social Inclusion
 
+## Use When
+- Use this skill when the assignment explicitly needs gender, social inclusion, disability, youth, or GESI content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where GESI or inclusion logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready measures, indicators, and delivery logic.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate inclusion concepts into practical proposal commitments and mechanisms.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not use generic inclusion language with no operational detail.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed GESI content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 World Bank, AfDB, UNDP, EU, and most bilateral donors now require explicit attention to gender equality and social inclusion (GESI) in all assignments. Proposals that treat GESI as a tick-box exercise score poorly — evaluators look for meaningful integration into the methodology, team composition, and data collection. This skill provides the frameworks and language to do this credibly.
 
 ## When to Read This Skill

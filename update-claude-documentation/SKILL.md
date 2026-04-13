@@ -5,6 +5,41 @@ description: "Update project documentation files (README.md, PROJECT_BRIEF.md, T
 
 # Update Claude Documentation
 
+## Use When
+- Use this skill when repository documentation such as `README.md`, `CLAUDE.md`, or repo docs must be updated after skill changes.
+- Load it when repository behavior has changed and the Claude-facing docs are now incomplete or stale.
+
+## Do Not Use When
+- The task does not change repository behavior or documentation-relevant structure.
+- The work is unrelated to repository documentation.
+
+## Required Inputs
+- The changed files and the user-visible behavior they introduce or modify.
+- The documentation files that describe the repository, workflows, or skill inventory.
+
+## Workflow
+1. Review the repository changes and determine which docs they affect.
+2. Update the relevant documentation files using the mapping rules below.
+3. Check for consistency across overview docs, routing docs, and maintenance docs.
+4. Return concise documentation updates that match the current repository state.
+
+## Quality Standards
+- Keep documentation factual, current, and aligned to actual file paths and workflows.
+- Prefer minimal updates that eliminate drift without adding unnecessary ceremony.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not leave routing tables or workflow instructions stale after structural or skill changes.
+- Do not describe workflows that the repository no longer supports.
+- Do not duplicate the same long explanation in multiple files without need.
+
+## Outputs
+- Updated repository documentation that reflects the current skill system and operating rules.
+
+## References
+- `README.md`, `CLAUDE.md`, and repo docs under `docs/`.
+- The changed skills and directories the documentation must describe.
+
 Update project documentation systematically after significant changes. Keep all files consistent and accurate.
 
 **Core Principle:** Documentation tells one cohesive story. Each file serves a specific audience but must reflect the same reality.

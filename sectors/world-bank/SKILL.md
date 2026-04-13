@@ -5,6 +5,44 @@ description: World Bank procurement framework for consulting services. Read this
 
 # World Bank Procurement Framework — Consulting Services
 
+## Use When
+- Use this skill when the solicitation clearly follows World Bank consulting procurement rules.
+- Load it before drafting when you need form, scoring, threshold, or compliance guidance.
+
+## Do Not Use When
+- The task only needs sector-domain framing without procurement mechanics.
+- A different procurement framework clearly applies.
+
+## Required Inputs
+- The solicitation package, especially instructions, forms, and evaluation criteria.
+- Any known selection method and technical threshold.
+- The target proposal sections that must comply with the framework.
+
+## Workflow
+1. Confirm that World Bank procurement applies from explicit cues in the solicitation.
+2. Read this skill and the local references to understand forms, scoring, thresholds, and constraints.
+3. Map those requirements into the numbered proposal section skills before drafting.
+4. Draft to maximize technical quality without creating compliance risk.
+5. Check the final output against thresholds, form placement, and two-envelope rules.
+
+## Quality Standards
+- Treat World Bank instructions as hard constraints, not optional style guidance.
+- Keep terminology, form names, and scoring assumptions aligned to the actual solicitation.
+- Optimize for evaluator behavior where the framework supports it.
+
+## Anti-Patterns
+- Do not infer TECH or FIN form requirements from memory when the solicitation provides exact instructions.
+- Do not ignore minimum technical thresholds, conflict-of-interest rules, or pass/fail gates.
+- Do not mix World Bank assumptions with PPDA, AfDB, or UN rules.
+
+## Outputs
+- A World Bank-compliant drafting and scoring approach for the relevant proposal sections.
+
+## References
+- `references/evaluation-scoring-guide.md` for scoring behavior.
+- `references/tech-fin-forms-guide.md` for form-level guidance.
+- `../SKILL.md` to combine framework and sector context.
+
 This skill provides the procurement rules, evaluation methodology, and scoring intelligence that every World Bank proposal must be built around. Read this before writing any section of a World Bank-funded proposal.
 
 ## When to Read This Skill

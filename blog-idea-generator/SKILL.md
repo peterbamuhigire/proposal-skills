@@ -5,6 +5,41 @@ description: Generate 15-25 targeted blog post ideas with 200-word summaries for
 
 # Blog Idea Generator
 
+## Use When
+- Use this skill when the user wants blog topics, editorial angles, or content ideas.
+- Load it before article drafting when ideation and prioritization are still needed.
+
+## Do Not Use When
+- The user already chose an article and needs full drafting.
+- The request is about proposals or unrelated to content publishing.
+
+## Required Inputs
+- The topic area, audience, and publishing objective.
+- Any company, sector, geography, or SEO context that should shape the ideas.
+
+## Workflow
+1. Gather the business context, audience, and publishing purpose.
+2. Assess what information is already available and what ideation gaps remain.
+3. Use the workflow below to generate, refine, and prioritize candidate ideas.
+4. Return idea summaries that can be handed off cleanly to `blog-writer/`.
+
+## Quality Standards
+- Produce differentiated ideas with clear audience and angle fit.
+- Balance SEO usefulness with authority-building and originality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not return generic topic lists with no angle or audience fit.
+- Do not skip summary or prioritization when the user needs a working shortlist.
+- Do not treat ideation as if it were the full article-writing workflow.
+
+## Outputs
+- A prioritized list of blog ideas and short article-ready summaries.
+
+## References
+- Local `references/` files for ideation frameworks and content formats.
+- `../blog-writer/SKILL.md` when an idea moves into drafting.
+
 Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid summary with narrative brief + structured specs. The system adapts its ideation methods to the specific client and available information.
 
 **Read `references/ideation-frameworks.md`** for the full 20-method library and selection logic.

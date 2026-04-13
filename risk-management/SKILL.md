@@ -5,6 +5,40 @@ description: Risk management frameworks for consulting proposals. Use as a refer
 
 # Risk Management
 
+## Use When
+- Use this skill when the assignment explicitly needs risk-management, mitigation, contingency, or escalation content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where risk-management logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready risks, controls, and response mechanisms.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate risk frameworks into practical proposal language, scoring, and mitigation logic.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not present generic risk lists with no assignment-specific relevance.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed risk-management content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 A strong risk section demonstrates that the firm has thought beyond the ideal scenario. Proposals that identify specific, credible risks — and propose practical mitigations — show maturity and experience. Generic risk tables ("risk: delays; mitigation: monitor closely") signal that the firm has not thought deeply about the assignment.
 
 ## When to Read This Skill

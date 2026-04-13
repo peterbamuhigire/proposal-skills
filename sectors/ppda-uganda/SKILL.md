@@ -5,6 +5,43 @@ description: Uganda PPDA procurement framework covering evaluation methods, scor
 
 # Uganda PPDA Procurement Framework
 
+## Use When
+- Use this skill when the solicitation follows Uganda PPDA procurement rules.
+- Load it before drafting when you need form, scoring, threshold, or compliance guidance.
+
+## Do Not Use When
+- The task only needs sector-domain framing without procurement mechanics.
+- A different procurement framework clearly applies.
+
+## Required Inputs
+- The solicitation package, especially instructions, forms, and evaluation criteria.
+- Any known selection method and technical threshold.
+- The target proposal sections that must comply with the framework.
+
+## Workflow
+1. Confirm that PPDA procurement applies from explicit cues in the solicitation.
+2. Read this skill and the local references to understand forms, scoring, procedures, and constraints.
+3. Map those requirements into the numbered proposal section skills before drafting.
+4. Draft to maximize technical quality without creating compliance risk.
+5. Check the final output against thresholds, form placement, and submission rules.
+
+## Quality Standards
+- Treat PPDA instructions as hard constraints, not optional style guidance.
+- Keep terminology, form names, and evaluation assumptions aligned to the actual solicitation.
+- Optimize for evaluator behavior where the framework supports it.
+
+## Anti-Patterns
+- Do not rely on generic public-procurement assumptions when the PPDA materials give exact instructions.
+- Do not ignore eligibility checks, pass/fail gates, or form requirements.
+- Do not mix PPDA assumptions with World Bank, AfDB, or UN rules.
+
+## Outputs
+- A PPDA-compliant drafting and scoring approach for the relevant proposal sections.
+
+## References
+- Local `references/` files for the PPDA Act, forms, procedures, and evaluation mechanics.
+- `../SKILL.md` to combine framework and sector context.
+
 This skill provides the evaluation methodology, scoring rules, form structures, and procedural requirements that govern all public procurement in Uganda under the PPDA Act (Cap 205). Read this before writing any section of a Uganda government-funded proposal.
 
 ## When to Read This Skill

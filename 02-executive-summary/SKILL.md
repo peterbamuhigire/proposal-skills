@@ -5,6 +5,44 @@ description: Write the executive summary of a consulting proposal. Use when the 
 
 # Executive Summary
 
+## Use When
+- Use this skill to draft or revise the executive summary of a proposal or similar bid response.
+- Load it after the proposer profile and proposal direction are clear.
+
+## Do Not Use When
+- The task is unrelated to the executive summary.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The ToR, RFP, advert, or assignment brief.
+- The selected proposer profile and the proposal’s core themes.
+- Any priority differentiators, timeline, scope, and value evidence.
+
+## Workflow
+1. Read the assignment materials and confirm what the summary must persuade the evaluator to believe.
+2. Load the proposer profile and any relevant procurement, sector, or domain skills.
+3. Use the structure below to create a concise, benefits-forward summary tied to the actual assignment.
+4. Cross-check the summary against the rest of the proposal so the themes and facts match.
+5. Verify that the opening, differentiators, scope logic, and close all reinforce the same win story.
+
+## Quality Standards
+- Keep the section client-specific, scannable, and strategically persuasive.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer quantified relevance and clear value logic over broad claims.
+
+## Anti-Patterns
+- Do not write a generic corporate overview instead of an assignment-specific summary.
+- Do not overstate capabilities that are not supported elsewhere in the proposal.
+- Do not let the section drift out of alignment with the methodology, timeline, or team.
+
+## Outputs
+- A proposal-ready executive summary aligned to the assignment, proposer, and evaluation context.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Root `references/` files for persuasion, story structure, and proposal patterns.
+
 The executive summary is the most heavily read section after the cover letter. Many evaluators form their first impression here. It must communicate the firm's understanding, approach, differentiation, and value in two to three pages — without requiring the reader to look at any other section.
 
 ## What to Gather Before Writing

@@ -5,6 +5,40 @@ description: Environmental and social safeguard frameworks for consulting propos
 
 # Environmental and Social Safeguards
 
+## Use When
+- Use this skill when the assignment explicitly needs safeguards, ESF, ESIA, or environmental and social risk content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where safeguards logic matters in the assignment and which framework applies.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready instruments, controls, and implementation logic.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate safeguards knowledge into practical proposal language and compliance-ready actions.
+- Keep the approach specific to the client context and the actual donor or regulator.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not list standards without showing the practical response they require.
+- Do not understate safeguards obligations or implementation risk.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed safeguards content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Infrastructure, agriculture, energy, water, and natural resource assignments increasingly require compliance with environmental and social safeguard frameworks. Proposals must demonstrate that the firm understands the applicable framework and can integrate safeguard requirements into the methodology — not treat them as a separate add-on.
 
 ## When to Read This Skill

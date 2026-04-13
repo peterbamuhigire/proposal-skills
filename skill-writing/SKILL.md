@@ -1,10 +1,46 @@
 ---
 name: skill-creator
 description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-license: Complete terms in LICENSE.txt
 ---
 
 # Skill Creator
+
+## Use When
+- Use this skill when a user wants to create, upgrade, or refactor a skill in this repository.
+- Load it when a skill needs better trigger language, structure, references, or reusable scripts.
+
+## Do Not Use When
+- The task is ordinary feature work rather than skill authoring.
+- The request is only to consume an existing skill, not improve it.
+
+## Required Inputs
+- The workflow the skill should support.
+- Representative prompts or usage scenarios.
+- Any references, scripts, or assets that belong inside the skill.
+
+## Workflow
+1. Clarify the workflow the skill must support and the trigger language it needs.
+2. Decide what belongs in `SKILL.md` versus `references/`, `scripts/`, or `assets/`.
+3. Use the guidance below and the local helper files to author or revise the skill.
+4. Validate the structure and run a safety review before finalizing when appropriate.
+
+## Quality Standards
+- Keep frontmatter minimal and trigger-focused.
+- Prefer progressive disclosure: short `SKILL.md`, deeper material in `references/`.
+- Treat `SKILL.md` as the portable unit rather than depending on a special parent folder.
+
+## Anti-Patterns
+- Do not bury activation logic in the body instead of the description.
+- Do not duplicate long reference material inside `SKILL.md`.
+- Do not accept unsafe scripts or hidden installers into a skill package.
+
+## Outputs
+- A production-ready skill or a clear set of improvements to an existing one.
+
+## References
+- Local `scripts/` helpers for initialization, validation, and packaging.
+- Local `references/` guides for workflows, patterns, and authoring standards.
+- `../skill-safety-audit/SKILL.md` for safety review of new or imported skills.
 
 This skill provides guidance for creating effective skills.
 

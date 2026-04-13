@@ -5,6 +5,41 @@ description: Language and tone standards for all written content across 3 langua
 
 # Language Standards — Multi-Language Tone & Grammar
 
+## Use When
+- Use this skill when multilingual content needs cross-cutting language, tone, and wording rules.
+- Load it before drafting or reviewing English, French, or Kiswahili output.
+
+## Do Not Use When
+- The task is purely about procurement mechanics or domain frameworks with no language work.
+- Another loaded skill already defines the exact language treatment and there is no conflict.
+
+## Required Inputs
+- The target language and audience.
+- The content being drafted or reviewed.
+
+## Workflow
+1. Determine the target language, audience, and communication purpose.
+2. Apply the relevant language-specific rules from this skill.
+3. Check for awkward phrasing, poor localization, and culturally weak wording.
+4. Return wording that matches the target market and content purpose.
+
+## Quality Standards
+- Prefer clarity, courtesy, and natural local phrasing over flashy copy.
+- Use this as a cross-cutting review pass, not as a substitute for domain or procurement logic.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not translate literally when adaptation is required.
+- Do not use exaggerated marketing language or obviously synthetic phrasing.
+- Do not overwrite project-specific terminology without reason.
+
+## Outputs
+- Language and tone decisions aligned to this skill.
+
+## References
+- Use the local language sections as the primary guide.
+- `../blog-writer/references/human-voice-standards.md` when stronger anti-AI voice checks are needed.
+
 All website copy, headings, calls to action, descriptions, and microcopy must follow this style guide for their respective language. This is a cross-cutting standard applied throughout every content-writing step.
 
 ## Core Principles (All Languages)

@@ -81,6 +81,7 @@ Every section skill knows how to apply these frameworks to produce output that r
 
 ```
 proposal-skills/
+├── AGENTS.md                         # Repo-level routing/instructions for Codex and other agents
 ├── CLAUDE.md                         # Instructions for Claude Code
 ├── SKILL.md                          # Parent skill — routes to sub-skills
 ├── .gitignore                        # Excludes proposals/ (confidential)
@@ -127,7 +128,7 @@ proposal-skills/
 │   ├── undp/
 │   ├── afdb/
 │   ├── ppda-uganda/
-│   └── (industry sectors)
+│   └── (industry sectors with their own SKILL.md entrypoints)
 │
 ├── project-management/               # Supporting domain skills
 ├── change-management/
