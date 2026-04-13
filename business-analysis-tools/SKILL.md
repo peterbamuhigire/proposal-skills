@@ -19,13 +19,15 @@ description: Business analysis frameworks, diagnostic tools, and analytical mode
 
 ## Workflow
 1. Identify which analytical question the proposal actually needs to answer.
-2. Read the local references only where they materially improve the output.
-3. Select the tools that fit the assignment and convert them into proposal-ready logic, not academic summary.
-4. Integrate the output into the relevant proposal section and check for consistency.
+2. Decide whether the assignment needs business value assessment, business analysis planning, solution refinement, or solution evaluation support.
+3. Read the local references only where they materially improve the output.
+4. Select the tools that fit the assignment and convert them into proposal-ready logic, not academic summary.
+5. Integrate the output into the relevant proposal section and check for consistency.
 
 ## Quality Standards
 - Translate analysis into practical proposal language, decisions, and outputs.
 - Keep the selected tools specific to the assignment rather than listing frameworks for their own sake.
+- Show how findings move from situation -> gap -> solution -> transition -> evaluation.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
@@ -48,6 +50,61 @@ Top-tier proposals reference named analytical frameworks and tools — they show
 - Structuring the conceptual framework section of a methodology
 - The ToR asks for specific analytical deliverables (gap analysis, benchmarking, options appraisal)
 - Strengthening a proposal with named, credible frameworks that demonstrate structured thinking
+
+## Business Analysis Lifecycle
+
+Use this four-part structure when the proposal must show disciplined analysis rather than isolated tools:
+
+1. **Business value assessment** — understand the situation, identify gaps, and define the high-level solution direction.
+2. **Business analysis planning** — define governance, stakeholder engagement, decision rights, and the analysis roadmap.
+3. **Solution refinement** — elicit, analyse, and package requirements or other solution information.
+4. **Transition and evaluation** — define adoption, rollout, acceptance, benefits realisation, and post-implementation review.
+
+Proposal language should make the chain explicit: "We will first establish the current-state problem and desired outcomes, then govern the analysis process, refine the requirements with stakeholders, and finally support transition and solution evaluation."
+
+---
+
+## Business Analysis Planning and Governance
+
+### Business Analysis Governance
+**Use for**: assignments where the client needs clarity on decision rights, approval routes, standards, or change authority.
+
+Cover:
+- decision-making forums and approval thresholds
+- documentation and sign-off rules
+- traceability expectations
+- escalation and change control links to project governance
+- level of rigour needed for predictive versus adaptive delivery
+
+### Stakeholder Engagement Approach
+**Use for**: politically complex assignments, cross-functional reforms, digital projects, or any work with many affected groups.
+
+Define:
+- stakeholder groups and why they matter
+- engagement objective by group
+- preferred techniques by group
+- cadence and decision points
+- known sensitivities, resistance points, and availability constraints
+
+### Business Analysis Work Plan
+**Use for**: methodology sections that need a visible roadmap for analysis activities.
+
+Include:
+- analysis activities by phase
+- expected artefacts and who approves them
+- dependency on client inputs
+- analysis checkpoints before design or implementation begins
+- links to testing, transition, and benefits tracking
+
+### Situation, Scope, and Problem Framing
+Use these patterns before jumping to requirements:
+- **Situation statement** — what is happening now and why it matters
+- **Goal statement** — what improved future state the client wants
+- **Context diagram** — the boundary of the work and key external actors, systems, and information flows
+- **Customer segments/personas** — distinct user or beneficiary groups whose needs differ materially
+- **Business events** — triggers that cause work to happen and reveal real functional needs
+
+These patterns are especially useful where the ToR is solution-biased and the proposal needs to reframe the assignment around the actual business problem.
 
 ---
 
@@ -196,6 +253,28 @@ Tools:
 
 This is the standard consulting problem decomposition approach used by McKinsey, BCG, and Bain. It signals intellectual rigour and structured thinking in methodology sections.
 
+### Business Event Analysis
+**Use for**: requirements-heavy assignments, service redesign, process reviews, and system implementation planning.
+
+Business events are the triggers that cause work to be performed. They are often a better starting point than interface screens or forms because they reveal:
+- what starts the work
+- who responds
+- what outcome must be produced
+- what information is needed
+- what rules and exceptions must be handled
+
+Use business events to organise discovery workshops and then convert the prioritised events into use cases, stories, process maps, or functional requirements.
+
+### Context Diagram
+**Use for**: clarifying scope before detailed analysis.
+
+Show:
+- the work or solution in the middle
+- external actors, organisations, and systems around it
+- major information or material flows across the boundary
+
+Use the context diagram early to expose hidden interfaces, external dependencies, and stakeholders who can approve, block, or supply information.
+
 ---
 
 ## Process and Operations Tools
@@ -302,6 +381,7 @@ Detailed tool descriptions, templates, and synthesis from PMI Guide to Business 
 | Reference File | Contents |
 |---|---|
 | `references/elicitation-techniques.md` | 13 elicitation techniques with planning, question types, and selection guidance |
+| `references/business-analysis-planning-and-governance.md` | Situation framing, governance, stakeholder engagement, BA work planning, transition planning, and solution evaluation |
 | `references/requirements-analysis-models.md` | Scope, process, rule, data, and interface models with templates |
 | `references/strategic-analysis-frameworks.md` | SWOT, PESTLE, gap analysis, benchmarking, maturity models, root cause analysis, feasibility, Power Curve, ETM Model, Bold Moves, Inside/Outside View, Competitive Systems Matrix, VRIST, Three Horizons, Theory of Constraints, Causal Loop Diagrams, Morphological Box, ICE Scoring, Ansoff's Growth Matrix, BCG Growth-Share, GE/McKinsey Matrix, Hedgehog Concept, Organisational Readiness Assessment |
 | `references/prioritisation-and-decision-tools.md` | MoSCoW, weighted ranking, MCDA, Kano, impact-effort, options appraisal, CBA, financial methods |
@@ -339,6 +419,12 @@ Reference tools as activities: "During Phase 1, we will conduct a maturity model
 
 ### In the Deliverables Table
 Tools produce deliverables: "Current State Assessment Report (including SWOT analysis, process maps, and benchmarking results)."
+
+### In Requirements-Heavy Methodologies
+Name the requirements process explicitly: "Our business analysis work will follow a structured path from situation assessment and context mapping, through stakeholder-led elicitation and business event analysis, to prioritised and testable requirements with full traceability to business objectives."
+
+### In Transition-Oriented Assignments
+Show that analysis does not stop at documentation: "We will package requirements for design and implementation, define transition needs such as training and migration, and establish the acceptance criteria and benefits measures used for solution evaluation."
 
 ### McKinsey Pattern
 Name the tools as proprietary where possible: "Using our [Firm Name] Diagnostic Framework, we will assess..." — even a standard gap analysis becomes more credible when it has a name and a structured process.

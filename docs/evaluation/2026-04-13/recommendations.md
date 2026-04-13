@@ -1,33 +1,41 @@
 # Recommendations
 
-## Priority View
+## Current Priority View
 
-The highest-value improvements are not more section text.
+After the 13 April remediation pass, the repository no longer most urgently needs more generic domain content.
 
-The highest-value improvements are:
+The highest-value next moves are:
 
 1. stronger brief-driven orchestration
-2. stronger evaluator and score alignment
-3. stronger coherence control across sections
-4. stronger review and commercial logic before submission
+2. evaluator and score alignment
+3. cross-section control and evidence reuse
+4. adversarial review and packaging before submission
 
-## Skill-Level Improvements
+## Completed In This Round
 
-### 1. Strengthen `SKILL.md` Into A Real Orchestrator
+These items were materially improved today and should move down the queue:
+
+- business analysis governance and requirements structure
+- project controls and work-plan control logic
+- financial modelling rigour inside the pricing workflow
+
+## Highest-Priority Skill-Level Improvements
+
+### 1. Strengthen Root `SKILL.md` Into A True Orchestrator
 
 Add a mandatory workflow between intake and section drafting:
 
-- bid/no-bid decision
+- bid / no-bid decision
 - procurement and sector routing
 - brief generation
 - win-theme selection
-- score map creation
+- score-map creation
 - storyboard / ghost-pack generation
 - section drafting
 - red-team review
 - final packaging
 
-This would convert the root skill from router to conductor.
+This remains the most important system upgrade.
 
 ### 2. Add A Formal `BRIEF.md` Schema
 
@@ -49,38 +57,38 @@ Standardise `BRIEF.md` with fields such as:
 - mandatory forms and compliance risks
 - section message map
 
-This should become the canonical source for every later section.
+This should become the canonical control file for every later section.
 
 ### 3. Upgrade `06-methodology`
 
-This is already one of the strongest skills, but it should add:
+This is already strong, but it should now add:
 
 - explicit phase scoring against evaluation criteria
-- a required workstream-to-deliverable matrix
-- a method-to-role matrix
-- a deliverable-to-payment linkage note
-- guidance for when to use proprietary named frameworks vs standard donor-safe frameworks
+- workstream-to-deliverable matrix
+- method-to-role matrix
+- deliverable-to-payment linkage note
+- guidance for when to use proprietary named frameworks versus donor-safe standard frameworks
 
 ### 4. Upgrade `07-team-composition`
 
 Add:
 
-- a role-to-task traceability matrix
+- role-to-task traceability matrix
 - score-by-position logic
-- red flags for CV mismatch
-- availability risk checks
+- CV mismatch red flags
+- availability-risk checks
 - capability matrix pattern, not just organogram and CV formatting
 
-### 5. Upgrade `10-financial-proposal`
+### 5. Extend `10-financial-proposal` From Modelling To Pricing Strategy
 
-Add a commercial strategy section covering:
+The modelling layer is stronger now. The remaining financial gap is strategic pricing:
 
 - QCBS price positioning
 - fixed-budget strategy
 - least-cost threshold strategy
-- when to use contingency visibly vs invisibly
-- when to trade margin for shortlisting or award probability
-- phase-based costing and alternative commercial options
+- visible versus embedded contingency
+- when to trade margin for shortlist or award probability
+- alternative commercial packaging by phase or option
 
 ## New Skills To Add
 
@@ -115,7 +123,7 @@ Purpose:
 
 - adversarially test claims, compliance, differentiation, and coherence
 - identify contradictions and weak claims
-- issue a go/no-go readiness assessment
+- issue a go / no-go readiness assessment
 
 ### 5. `win-theme-generator/`
 
@@ -172,7 +180,7 @@ Create a machine-readable control file per proposal containing:
 - key proof points
 - critical dates
 
-This gives the engine a reliable state object, not just markdown prose.
+This gives the engine a reliable state object rather than a loose markdown note.
 
 ### 3. Build Cross-Section Dependency Rules
 
@@ -186,7 +194,7 @@ Examples:
 
 ### 4. Create A Submission Readiness Gate
 
-Before final output, require pass/fail checks on:
+Before final output, require pass / fail checks on:
 
 - compliance
 - evidence sufficiency

@@ -75,6 +75,12 @@ This is not a collection of prompt templates. It is a structured knowledge base 
 
 Every section skill knows how to apply these frameworks to produce output that reads like it came from a top-tier firm.
 
+Recent strengthening includes:
+
+- business analysis governance, business event analysis, context-driven requirements discovery, and fit criteria
+- project-control artefacts such as WBS dictionaries, task responsibility matrices, schedule hierarchy, and decision-gate calendars
+- financial modelling patterns such as assumptions dashboards, cash-budget logic, scenario/sensitivity checks, and break-even testing
+
 ---
 
 ## Repository Structure
@@ -177,7 +183,7 @@ These are cross-cutting knowledge bases that proposal sections draw from. Each c
 
 | Skill | Domain |
 |-------|--------|
-| `project-management/` | PRINCE2, PMBoK, Agile, governance, reporting, steering committees |
+| `project-management/` | PRINCE2, PMBoK, Agile, governance, reporting, WBS-driven controls, steering committees |
 | `change-management/` | ADKAR, Kotter, adoption strategies, resistance management |
 | `monitoring-and-evaluation/` | Log frames, results frameworks, KPIs, theory of change |
 | `stakeholder-engagement/` | Stakeholder mapping, consultation approaches, communication plans |
@@ -233,7 +239,7 @@ The reference library is synthesised from 22 consulting and strategy books:
 | `references/world-class-proposal-patterns.md` | 18 | McKinsey/Deloitte patterns, storyboarding, ghost packs, elevator test, prewiring |
 | `references/consulting-delivery-excellence.md` | 34 | McKinsey problem-solving, Design Sprint, SCAMPER, SOSTAC, SECI, Done-Done standard |
 | `consulting-frameworks/references/` (5 files) | 53 | Problem structuring, financial analysis, strategy, operations, communication |
-| `business-analysis-tools/references/` (7 files) | 40+ | SWOT, PESTLE, gap analysis, maturity models, Power Curve, BCG, Ansoff, Theory of Constraints |
+| `business-analysis-tools/references/` (8 files) | 40+ | SWOT, PESTLE, gap analysis, business analysis governance, requirements planning, fit criteria, transition evaluation, maturity models |
 
 ---
 

@@ -2,80 +2,111 @@
 
 ## Bottom Line
 
-Proposal Skills is a serious and unusually well-developed proposal knowledge base. It is materially stronger than a generic prompt pack because it contains:
+Proposal Skills remains a serious and unusually well-developed proposal knowledge base. After the 13 April 2026 remediation pass, it is stronger than the morning baseline in three concrete ways:
 
-- a clear section architecture
-- procurement-framework adapters
-- sector overlays
-- a sizeable persuasion and consulting-framework library
-- strong guidance on tone, structure, and measurable claims
+- stronger business analysis and requirements discipline
+- stronger project-control and work-plan structure
+- stronger financial modelling logic in the commercial workflow
 
-However, as a **proposal-generation engine**, it is not yet world-class.
+It is therefore better described now as a **competitive proposal system with improving operating discipline**, rather than only a large modular prompt and reference library.
 
-The main reason is architectural: the repository describes a `BRIEF.md`-driven proposal system, but the actual repo does not yet contain the operational machinery that would make that brief the controlling intelligence for the full bid. The result is a strong modular writing system with excellent strategic references, but not yet a closed-loop engine that can consistently out-compete Big 4 or top advisory teams in high-value, highly scored procurements.
+It is still **not yet world-class as a closed-loop proposal engine** because the repository still lacks the strategy-control machinery that top-tier teams use before and after drafting.
 
-## Overall Score
+## Updated Overall Score
 
-**6.2/10**
+**6.8/10**
 
-## Readiness Level
+Previous baseline on 13 April 2026: **6.2/10**
 
-**Competitive**
+## Updated Readiness Level
+
+**Competitive+**
 
 Interpretation:
 
-- Strong enough to produce credible proposals for many East/Central African bids
-- Stronger than most ad hoc consultant writing workflows
-- Not yet strong enough to reliably produce McKinsey/Bain/Big 4-grade proposal packages at scale
-- Not yet reliable enough for repeatable wins in elite QCBS, World Bank, AfDB, UN, or complex private-sector RFPs without heavy human strategy leadership
+- strong enough to produce credible proposals for many East and Central African bids
+- stronger than most ad hoc consultant proposal workflows
+- now better able to describe disciplined analysis, delivery control, and commercial viability
+- still not strong enough for repeatable Big 4-grade performance at scale without heavy human strategy leadership
 
-## Key Strengths
+## What Improved Today
 
-- The repository has near-complete **section coverage** for standard consulting proposals, EOIs, and financial proposals.
-- The methodology and persuasion references are materially above average. They include SCQA, Pyramid Principle, hypothesis-driven problem solving, P-I-P, buyer psychology, and objection handling.
-- Procurement alignment is stronger than in most proposal repositories. World Bank, PPDA, AfDB, and UN/UNDP routing is present and generally useful.
-- Domain support is broad enough to make methodologies sound credible in real development and advisory assignments.
-- The repository consistently pushes the writer toward client-specific, evaluator-aware, quantified language rather than generic corporate boilerplate.
+### 1. Business Analysis Layer
 
-## Critical Weaknesses
+The repository now has better support for:
 
-- The repo lacks an actual **brief-generation and control layer**. `CLAUDE.md` says proposals should be driven by `BRIEF.md`, but there is no explicit brainstorming skill, brief schema, or enforcement mechanism.
-- Cross-section coherence is mostly **instructional**, not **systemic**. The repo tells the user to keep sections aligned, but it does not operationalise win themes, evidence reuse, score targeting, or contradiction checks.
-- The repository is still closer to a **high-end prompt library** than a **proposal operating system**.
-- Red Team review, evaluator simulation, ghost-pack storyboarding, and no-bid/bid strategy are referenced but not embedded as mandatory workflow stages.
-- Financial strategy is underpowered for top-tier competition. The repo covers costing structure, but not pricing strategy by bid type, competitive positioning, or scenario-based commercial trade-offs.
-- Output assembly is described, but not implemented in-repo. The repo promises `.docx` outputs and final compilation, but that compilation layer is not present here.
+- business value assessment
+- business analysis governance
+- stakeholder engagement planning
+- business event analysis
+- fit criteria and testable requirements
+- transition and solution-evaluation logic
 
-## Can It Win Against Big 4?
+This makes methodology writing more credible in diagnostic, process, and systems assignments.
 
-**Occasionally, yes. Consistently, no.**
+### 2. Project and Scheduling Layer
 
-It can likely compete well in:
+The repository now has better support for:
 
-- smaller and mid-sized public sector bids
-- technically straightforward donor assignments
-- EOIs and qualification-driven opportunities
-- regionally scoped assignments where local context and procurement literacy matter
+- WBS dictionaries
+- task responsibility matrices
+- schedule hierarchy
+- decision-gate calendars
+- dependency-aware work plans
+- responsibility-linked staffing logic
 
-It is unlikely to consistently beat top-tier firms in:
+This makes work plans more realistic and less decorative.
 
-- high-value QCBS competitions with deep evaluation scrutiny
-- complex transformation assignments requiring a strong proprietary point of view
-- bids where narrative integration, pre-emptive evaluator scoring, and differentiated commercial strategy decide the outcome
-- private-sector RFPs where executive storytelling, commercial positioning, and tailored value architecture matter as much as technical compliance
+### 3. Financial Layer
 
-## What Would Move It To The Next Tier
+The repository now has better support for:
 
-The next step is not more reference material. The next step is systemisation.
+- assumptions / calculations / outputs separation
+- driver-based budget construction
+- master-budget thinking
+- cash-budget logic
+- sensitivity and scenario testing
+- contribution margin, break-even, and viability checks
 
-The repository needs:
+This makes the financial proposal skill more disciplined and less superficial.
+
+## What Still Prevents World-Class Performance
+
+- no true brief-generation and control layer
+- no bid / no-bid decision logic
+- no evaluator score architecture
+- no mandatory storyboard or ghost-pack phase
+- no embedded red-team or evaluator-simulation stage
+- no industrial evidence registry
+- no real packaging and submission-readiness layer
+
+## Can It Beat Big 4 Now?
+
+**Occasionally, yes. Consistently, still no.**
+
+The repo is now better equipped for:
+
+- requirements-heavy technical proposals
+- delivery-intensive advisory assignments
+- bids where evaluators care about planning realism and pricing coherence
+
+It still remains weaker than top-tier firms in:
+
+- pre-draft bid strategy
+- score engineering
+- narrative orchestration across sections
+- commercial positioning strategy
+- submission finishing discipline
+
+## What Moves It To The Next Tier
+
+The next step is still systemisation, not another large content dump.
+
+The repository now most needs:
 
 - a formal `BRIEF.md` schema and generation workflow
-- a win-theme and evaluator-score architecture that drives every section
-- a storyboard/ghost-pack phase before drafting
-- a Red Team and evaluator simulation phase before finalisation
+- a score-driven evaluator architecture
+- a storyboard / ghost-pack phase before drafting
+- a red-team and evaluator-simulation phase before finalisation
 - an evidence registry for experience, CVs, proof points, and quantified outcomes
-- a stronger pricing and commercial strategy layer
-- a compilation and compliance layer that turns good text into a submission-ready bid pack
-
-If those are added well, this repository could move from **Competitive** to **Strong**, and in selected East African procurement contexts potentially toward **Near Big 4** performance.
+- a packaging and compliance layer that turns strong text into a submission-ready bid pack

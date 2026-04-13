@@ -1,184 +1,189 @@
 # Gap Analysis
 
-## The Central Gap
+## Current Status
 
-The repository is strongest as a **modular proposal knowledge system**.
+After the 13 April 2026 remediation pass, the repository is still strongest as a **modular proposal knowledge system**, but it is now materially less thin in three areas that were previously underdeveloped:
 
-It is weaker as a **winning proposal engine** because the stages that separate good writing from bid-winning execution are not yet hardwired into the workflow.
+- business analysis planning and requirements discipline
+- project controls and work-plan realism
+- financial modelling rigour inside the commercial workflow
 
-## What Prevents Consistent Wins On High-Value Bids
+The repository is still **not yet a full winning-proposal operating system**, but the gap is narrower than it was at the start of the day.
 
-### 1. No True Strategy-Control Layer
+## Gaps Reduced Today
 
-The repository says everything should flow from `BRIEF.md`, but in the current repo:
+### 1. Business Analysis Structure Is Stronger
 
-- there is no explicit brainstorm skill
-- there is no formal brief template
-- there is no score-driven brief structure
-- there is no mechanism ensuring section drafts inherit from the brief
+This gap was reduced by:
+
+- adding a visible business analysis lifecycle to `business-analysis-tools/SKILL.md`
+- adding governance, stakeholder engagement, BA work-planning, transition, and evaluation guidance
+- strengthening requirements documentation with discovery sequence, business events, context models, and fit criteria
 
 Why this matters:
 
-Top-tier bids are rarely won by good sections written independently. They are won by a coordinated bid strategy expressed consistently across every section.
+The repo can now describe how analysis work moves from problem framing to testable requirements with more evaluator-facing credibility.
+
+### 2. Project and Work-Plan Controls Are Stronger
+
+This gap was reduced by:
+
+- expanding `project-management/SKILL.md` with visual PM patterns, matrix delivery guidance, and control artefacts
+- expanding the PM reference with WBS dictionaries, task responsibility matrices, schedule hierarchy, and decision-gate calendars
+- upgrading `08-work-plan/SKILL.md` to require dependencies, approval logic, and responsibility mapping
+
+Why this matters:
+
+The work-plan layer is now less likely to read like a decorative Gantt chart and more likely to read like a controllable delivery system.
+
+### 3. Financial Modelling Rigour Is Stronger
+
+This gap was reduced by:
+
+- restructuring `10-financial-proposal/SKILL.md` around assumptions, calculations, outputs, and delivery drivers
+- adding cash-flow sufficiency, scenario testing, sensitivity checks, contribution margin, and break-even logic
+- upgrading the budgeting reference with master-budget logic, assumptions dashboards, cash budgets, and viability checks
+
+Why this matters:
+
+The financial proposal skill is no longer only a table generator. It now gives better support for building a price that is internally defensible and operationally workable.
+
+### 4. Methodology-to-Workplan-to-Budget Coherence Is Better
+
+This gap was reduced indirectly because the revised skills now push the writer to connect:
+
+- analysis activities to governance and approval points
+- work packages to responsibility and schedule logic
+- staffing and scope drivers to pricing calculations
+
+Why this matters:
+
+This does not fully solve cross-section coherence, but it reduces avoidable contradictions between the technical and financial sides of the bid.
+
+## Major Gaps Still Open
+
+### 1. No True Strategy-Control Layer
+
+The root system still describes a `BRIEF.md`-driven model without enforcing one. There is still:
+
+- no formal brief schema in-repo
+- no mandatory intake-to-brief workflow
+- no mechanism ensuring later sections inherit from the brief
+
+This remains the single biggest architectural gap.
 
 ### 2. No Bid / No-Bid Logic
 
-World-class proposal engines do not start by drafting. They start by deciding:
+The repository still lacks a formal qualification stage covering:
 
-- can we win?
-- what must be true to win?
-- where are we weak?
-- is this a qualification play, relationship play, price play, or differentiator play?
-
-The repo references competitive awareness, but there is no formal no-bid qualification stage.
+- can we win
+- what must be true to win
+- what score path is realistic
+- whether the opportunity is worth pursuing at all
 
 ### 3. No Evaluator Score Architecture
 
-The repository contains procurement scoring references, but it does not convert them into a mandatory scoring matrix such as:
+The repo still does not hardwire a scoring matrix that maps:
 
 - criterion
-- likely evaluator question
+- evaluator question
 - proof required
 - section owner
 - target score
 
-Why this matters:
+Winning bids are still not being built explicitly backward from points.
 
-Winning proposals are built backward from points, not forward from prose.
+### 4. Cross-Section Coherence Is Improved, But Still Not Systemic
 
-### 4. Weak Cross-Section Coherence Mechanism
+The revised skills now help with consistency, but the repository still does not enforce:
 
-The repo tells the writer to align sections, but does not enforce:
+- shared win themes across all sections
+- proposal-wide proof-point reuse
+- automatic staffing-budget-methodology triangulation
+- contradiction checks before finalisation
 
-- shared win themes
-- shared quantitative proof points
-- shared client problem framing
-- staffing-budget consistency checks
-- methodology-work plan-team triangulation
+### 5. Storyboarding and Ghost Packs Are Still Referenced, Not Operationalised
 
-Why this matters:
-
-Big 4 proposals feel inevitable because every section reinforces the same strategic thesis. This system currently relies too much on memory and careful drafting.
-
-### 5. Referenced, But Not Operationalised, Storyboarding
-
-Ghost packs and storyboards are mentioned in `references/world-class-proposal-patterns.md`, but there is no required pre-draft step that generates:
+The repo still lacks a mandatory pre-draft stage that creates:
 
 - section message map
 - page-by-page narrative
-- evidence placement
-- visual/exhibit plan
+- evidence placement plan
+- exhibit strategy
 
-Why this matters:
+### 6. Red Team And Evaluator Simulation Are Still Conceptual
 
-Without storyboarding, drafting tends to become sectional and reactive. That usually lowers strategic sharpness.
-
-### 6. Red Team Is Conceptual, Not Embedded
-
-The repo contains Red Team logic, but there is no workflow stage or skill that:
+There is still no embedded workflow that:
 
 - scores the draft against evaluation criteria
 - attacks weak claims
-- identifies contradictions
-- checks compliance risks
-- recommends rewrites by impact on score
-
-Why this matters:
-
-Elite proposals are not just drafted; they are stress-tested before submission.
+- checks coherence and compliance
+- recommends rewrites by likely score impact
 
 ### 7. No Evidence Registry
 
-The experience and team skills assume the operator can supply:
+The repo still assumes the operator can supply proof on demand. It still lacks a reusable evidence layer for:
 
+- case studies
 - quantified outcomes
-- references
-- CV details
-- analogous project evidence
-
-But there is no structured repository layer for:
-
-- reusable case studies
+- CV fragments
 - proof points
-- quantified impacts
-- staff profile fragments
 - donor-specific references
 
-Why this matters:
+### 8. Commercial Strategy Is Better Modelled, But Not Yet Strategic Enough
 
-Top firms win because their evidence base is industrialised. They do not improvise proof at the last moment.
+The financial layer is stronger on modelling and viability, but still weaker than top-tier practice on:
 
-### 8. Pricing Logic Is Structural, Not Strategic
+- QCBS price posture
+- least-cost threshold tactics
+- strategic discounting decisions
+- walk-away margin discipline
+- award-probability trade-offs
 
-The financial skill is decent on:
+### 9. Private-Sector RFP Capability Is Still Thin
 
-- fee tables
-- reimbursables
-- milestone payments
-- assumptions
+The repository remains more public-procurement and donor oriented than private-sector oriented. It still needs stronger support for:
 
-It is weaker on:
-
-- competitive pricing strategy by procurement method
-- walk-away margins
-- strategic discounting
-- phase-based commercial packaging
-- value-pricing vs threshold-pricing decisions
-- financial risk of over-scoring technically but underpricing delivery
-
-Why this matters:
-
-In many competitions, the technical proposal gets you to the final round. Commercial strategy wins or loses the deal.
-
-### 9. Private-Sector RFP Capability Is Thin
-
-The repo mentions private-sector RFPs, but most of its structure is public-procurement and donor-logic heavy.
-
-Missing or underdeveloped private-sector capabilities include:
-
-- account strategy
 - executive value architecture
-- transformation business case framing
-- CXO-oriented storytelling
-- commercial differentiation against named competitors
-- operating model and ROI-heavy proposal logic
+- transformation business cases
+- named competitor differentiation
+- ROI-led CXO storytelling
 
-### 10. Output Packaging Layer Is Missing
+### 10. Output Packaging Layer Is Still Missing
 
-The repo says final outputs are `.docx` files and separate technical/financial packs.
-
-But this repo does not include:
+The repo still does not contain a true submission-packaging system for:
 
 - compilation workflow
-- exhibit automation
 - appendix assembly
-- final formatting standards
-- cover page / header / footer packaging
+- exhibit automation
+- formatting standards
 - submission checklist generation
 
-Why this matters:
+## Competitive Position After Remediation
 
-In real competitions, package quality affects evaluator confidence. A strong draft is not yet a strong submission.
+Compared with the earlier 13 April baseline, the repository is now less exposed in:
 
-## Competitive Disadvantages Relative To Top-Tier Firms
+- business analysis discipline
+- work-plan realism
+- PM control language
+- financial modelling depth
 
-Compared with McKinsey, Bain, Big 4, or IFC/World Bank advisory teams, the current engine is disadvantaged in:
+It is still materially behind top-tier firms in:
 
 - bid triage discipline
 - message architecture before drafting
-- proprietary asset reuse
-- industrial-scale evidence management
 - evaluator simulation
+- industrial evidence reuse
 - commercial strategy sophistication
-- final package polish and scannability
+- final submission packaging
 
-## Summary Of The Real Constraint
+## Summary Of The Remaining Constraint
 
-The repo does not mainly need more content.
+The repository no longer mainly lacks content in the remediated areas.
 
-It needs stronger conversion from:
+Its main remaining constraint is still conversion from:
 
 - knowledge -> strategy
-- strategy -> scored section plan
-- section drafts -> coherent proposal
-- coherent proposal -> evaluator-tested submission
+- strategy -> scored brief
+- scored brief -> coherent section set
+- coherent draft -> evaluator-tested submission
