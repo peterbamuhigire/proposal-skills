@@ -55,6 +55,32 @@ A hierarchical decomposition of project scope into manageable work packages.
 
 **Proposal application:** Reference the WBS as a planning tool: "During inception, we will develop a detailed Work Breakdown Structure decomposing the assignment into manageable work packages, each with defined deliverables, resource requirements, and risk assessments."
 
+### WBS Dictionary
+
+Use a short WBS dictionary to define what each work package actually means.
+
+| Field | Purpose |
+|---|---|
+| WBS code | Unique identifier |
+| Work package name | Short deliverable-oriented label |
+| Description | What is included |
+| Owner | Responsible lead |
+| Inputs | What must be available before work starts |
+| Completion rule | How the team knows the package is done |
+| Dependencies | Upstream and downstream links |
+
+This is valuable in proposals because it converts the WBS from a list into a control mechanism.
+
+### Task Responsibility Matrix
+
+After the WBS is defined, map responsibility explicitly.
+
+| Work Package | Responsible | Support | Review | Approve |
+|---|---|---|---|---|
+| [WP-1] | [Lead] | [Support roles] | [Reviewer] | [Approver] |
+
+Use this where the evaluator needs confidence that work packages, experts, and approvals are aligned.
+
 ---
 
 ## 3. Estimation Techniques
@@ -89,6 +115,15 @@ Where:
 
 ## 4. Scheduling Frameworks
 
+### Schedule Hierarchy
+
+Build the schedule in layers:
+1. major phases and contractual milestones
+2. work-package schedule under each phase
+3. detailed task network only where control is needed
+
+This keeps proposal schedules readable while preserving enough structure for execution planning.
+
 ### Critical Path Method (CPM)
 
 **Key concepts:**
@@ -116,6 +151,18 @@ Initial schedule computation ignores resource constraints. After computing the c
 4. If levelling extends the project, escalate — additional resources or scope reduction required
 
 **Proposal application:** In work plan narratives, describe the scheduling approach: "Activities are sequenced using critical path analysis. Non-critical activities are scheduled with float to absorb delays without affecting the overall timeline."
+
+### Decision-Gate Calendar
+
+For review-heavy assignments, show client decisions as part of the schedule, not side notes.
+
+| Gate | Trigger | Required Input | Decision |
+|---|---|---|---|
+| Gate 1 | Inception report submitted | Scope confirmation, work plan, stakeholder list | Approve or refine mobilisation basis |
+| Gate 2 | Diagnostic findings completed | Current-state evidence and gap summary | Confirm solution direction |
+| Gate 3 | Draft deliverable submitted | Draft report or design package | Approve, revise, or hold |
+
+This is a strong pattern for donor, regulatory, and public-sector assignments where client review time determines the real critical path.
 
 ---
 

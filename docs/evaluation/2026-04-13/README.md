@@ -2,6 +2,8 @@
 
 Date: 13 April 2026
 
+Status: updated after same-day remediation of the business-analysis, project-management, work-plan, and financial-proposal layers.
+
 Files:
 
 - `executive-summary.md`

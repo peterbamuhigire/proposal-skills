@@ -21,14 +21,14 @@ description: Write the work plan and timeline section of a consulting proposal. 
 ## Workflow
 1. Read the assignment materials and confirm the timeline, milestones, and required planning outputs.
 2. Load the proposer profile and any relevant procurement, sector, and methodology context.
-3. Use the structure below to build a realistic sequence of activities, deliverables, and staffing effort.
+3. Use the structure below to build a realistic sequence of activities, deliverables, dependencies, and staffing effort.
 4. Check the work plan against the methodology, team, and financial assumptions.
-5. Verify that durations, overlaps, and milestone logic are credible before finalizing.
+5. Verify that durations, overlaps, milestones, and approval logic are credible before finalising.
 
 ## Quality Standards
 - Keep the plan realistic, readable, and tied to the actual scope.
 - Use British English and East African professional tone unless the bid format requires otherwise.
-- Prefer explicit milestones, dependencies, and staffing logic over vague timetable language.
+- Prefer explicit milestones, dependencies, review gates, and staffing logic over vague timetable language.
 
 ## Anti-Patterns
 - Do not create a timeline that ignores deliverables, review cycles, or client inputs.
@@ -43,33 +43,34 @@ description: Write the work plan and timeline section of a consulting proposal. 
 - `../sectors/SKILL.md` for procurement and sector routing.
 - Root and local `references/` files for delivery logic and scheduling support.
 
-The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable — overly compressed or suspiciously padded plans both raise concerns.
+The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable; overly compressed or suspiciously padded plans both raise concerns.
 
 ## What to Gather Before Writing
 
 - The overall assignment duration from the ToR
-- The phases and activities from the methodology section (06-methodology)
+- The phases and activities from the methodology section (`06-methodology`)
 - Client review and approval periods required for key deliverables
-- Any fixed dates — start date, end date, mid-term review, final presentation
+- Any fixed dates such as start date, end date, mid-term review, and final presentation
 - Public holidays or known unavailability periods in the client's country
 - Team member availability and any part-time allocations
-- Dependencies — which activities cannot start until others are complete
+- Dependencies showing which activities cannot start until others are complete
 
 ## Structure
 
 ### Work Plan Narrative
 
-Half a page. Briefly explain the logic of the schedule:
+Half a page. Explain the logic of the schedule:
 
-- Why the work is sequenced this way
-- Where the critical path lies (the longest dependency chain — any slip here delays the project)
-- What assumptions underpin the timeline (e.g., client provides data within two weeks of request)
-- Where buffer has been built in and why
-- How estimates were derived — reference PERT three-point estimation for credibility: `te = (optimistic + 4 × most likely + pessimistic) / 6`
+- why the work is sequenced this way
+- where the critical path lies
+- what assumptions underpin the timeline
+- where buffer has been built in and why
+- how estimates were derived, referencing PERT where useful: `te = (optimistic + 4 x most likely + pessimistic) / 6`
+- which milestones are internal delivery points versus client decision gates
 
 ### Gantt-Style Activity Schedule
 
-A table showing all activities by phase, mapped to weeks or months. Use "X" or shading to indicate when each activity is active.
+Show all activities by phase, mapped to weeks or months. Use `X` or shading to show activity windows.
 
 | Phase / Activity | W1 | W2 | W3 | W4 | W5 | W6 | W7 | W8 |
 |---|---|---|---|---|---|---|---|---|
@@ -81,15 +82,24 @@ A table showing all activities by phase, mapped to weeks or months. Use "X" or s
 | **Phase 2: [Name]** | | | | | | | | |
 
 Rules for the Gantt:
+- show client review periods as distinct rows in italics
+- include approval gates as milestones
+- do not overlap activities that have hard dependencies
+- build in at least one week of buffer for every three months of assignment duration
 
-- Show client review periods as distinct rows in italics — these are not the firm's activities but they consume calendar time
-- Include approval gates as milestones
-- Do not overlap activities that have dependencies
-- Build in at least one week of buffer for every three months of assignment duration
+### Dependency and Approval Table
+
+Add this when the assignment has review-heavy delivery or multiple workstreams:
+
+| Activity / Deliverable | Depends On | Client Input Required | Approval Gate |
+|---|---|---|---|
+| [Item] | [Predecessor] | [Data/decision/access] | [Yes/No or gate name] |
+
+This helps evaluators see that the team has planned around real dependencies rather than drawing an optimistic timeline.
 
 ### Milestone and Deliverables Table
 
-A table linking each milestone to its deliverable and target date:
+Link each milestone to its deliverable and target date:
 
 | # | Milestone | Deliverable | Target Date |
 |---|---|---|---|
@@ -100,7 +110,7 @@ Every deliverable from the methodology section must appear here with a date.
 
 ### Staffing Schedule
 
-A table showing when each team member is deployed and their level of effort per phase:
+Show when each team member is deployed and their level of effort per phase:
 
 | Team Member | Role | Phase 1 | Phase 2 | Phase 3 | Total Days |
 |---|---|---|---|---|---|
@@ -110,24 +120,36 @@ A table showing when each team member is deployed and their level of effort per 
 
 The total person-days here must match the financial proposal. Any discrepancy will be flagged by evaluators.
 
+### Work Package Responsibility Matrix
+
+For complex assignments, include a compact responsibility matrix beneath the staffing schedule:
+
+| Work Package | Lead | Support | Review / Approval |
+|---|---|---|---|
+| [Package] | [Expert] | [Support roles] | [Client or QA role] |
+
+This links the schedule to named accountability and reduces the risk that timelines appear detached from the proposed team.
+
 ## Scheduling Principles
 
-- **Critical Path Method (CPM):** Identify the longest dependency chain through the work plan. Activities on the critical path have zero float — any delay extends the project. Non-critical activities have float that can absorb delays.
+- **Critical Path Method (CPM):** Identify the longest dependency chain through the work plan. Activities on the critical path have zero float; any delay extends the project.
+- **Schedule hierarchy:** Show high-level phase milestones in the proposal and keep detailed task logic underneath. This preserves scannability while proving the team has thought through execution.
 - **Resource levelling:** After building the schedule, check that no team member is over-allocated. Delay non-critical tasks within their float to resolve conflicts.
-- **Schedule contingency:** Build in buffer days for context disruptions (rainy season, election periods, public holidays). Do NOT plan overtime into the baseline — keep it in reserve.
-- **The time-cost trade-off:** There is an optimum project duration where costs are minimised. Compressing below this increases costs exponentially (overtime, coordination overhead, rework). Never compress timelines to impress — evaluators know how long things take.
+- **Schedule contingency:** Build in buffer days for context disruptions such as rainy season, election periods, public holidays, or slow approvals. Do not plan overtime into the baseline.
+- **Time-cost trade-off:** There is an optimum project duration where costs are minimised. Compressing below this increases costs through overtime, coordination overhead, and rework.
+- **Decision gates matter:** Client reviews, approvals, and access decisions are part of the actual schedule. Treat them as explicit timeline events, not hidden assumptions.
 
 ## Reference Library
 
 | Reference File | Contents |
 |---|---|
-| `../project-management/references/project-controls-and-earned-value.md` | WBS construction, PERT estimation (formula), CPM/critical path, resource levelling, earned value tracking, change control, stagegate process |
+| `../project-management/references/project-controls-and-earned-value.md` | WBS construction, WBS dictionary, task responsibility matrices, PERT estimation, CPM/critical path, schedule hierarchy, resource levelling, earned value tracking, change control, and stagegate process |
 
 ## Tone Rules
 
 - Two to three pages
-- Realistic timelines — do not compress to impress; evaluators know how long things take
-- Always include client review windows — omitting them signals inexperience
-- The work plan must be consistent with the methodology (section 06) and the financial proposal (section 10)
-- The total person-days in the staffing schedule must match the financial proposal — any discrepancy will be flagged
-- Follow east-african-english standards throughout
+- Realistic timelines; do not compress to impress
+- Always include client review windows
+- Keep the work plan consistent with methodology (`06`) and the financial proposal (`10`)
+- Ensure total person-days in the staffing schedule match the financial proposal
+- Follow `east-african-english` standards throughout
