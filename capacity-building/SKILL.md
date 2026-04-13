@@ -5,6 +5,40 @@ description: Capacity building, training, and knowledge transfer frameworks for 
 
 # Capacity Building
 
+## Use When
+- Use this skill when the assignment explicitly needs capacity-building, training, knowledge transfer, or institutional strengthening content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where capacity-building or transfer of knowledge matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready activities, deliverables, and sustainability logic.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate theory into practical proposal language, outputs, and responsibilities.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not treat training as a generic add-on with no delivery logic.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed capacity-building content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Almost every East African consulting assignment includes a training or capacity building component — clients and donors want sustainable outcomes, not dependency on consultants. Proposals must show a structured approach to building the client's internal capability to maintain and build on the project's results after the consultants leave.
 
 ## When to Read This Skill

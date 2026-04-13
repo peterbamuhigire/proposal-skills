@@ -5,6 +5,44 @@ description: Write the team composition section of a consulting proposal. Use wh
 
 # Team Composition
 
+## Use When
+- Use this skill to draft or revise the team composition, staffing, role-allocation, or CV framing section.
+- Load it when the evaluator will score people, roles, or organizational fit.
+
+## Do Not Use When
+- The task is unrelated to team structure or CV presentation.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The assignment brief and any staffing or CV-format requirements.
+- The selected proposer profile.
+- Verified role definitions, expert biographies, availability, and staffing assumptions.
+
+## Workflow
+1. Read the assignment materials and identify which roles, qualifications, and forms matter most.
+2. Load the proposer profile and any relevant procurement framework before drafting.
+3. Use the structure below to align the proposed team with the actual work and scoring logic.
+4. Check the team narrative against the methodology, work plan, and relevant experience sections.
+5. Verify role fit, terminology, and CV framing before finalizing.
+
+## Quality Standards
+- Keep the section tightly matched to the assignment tasks and evaluation criteria.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer clear role logic, evidence of fit, and credible staffing assumptions.
+
+## Anti-Patterns
+- Do not propose roles that are disconnected from the methodology or work plan.
+- Do not overstate qualifications, availability, or organizational depth.
+- Do not ignore mandatory CV formats or staffing forms.
+
+## Outputs
+- A proposal-ready team composition section, including role logic and CV framing guidance.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Relevant proposal-wide references when positioning or proof structure needs reinforcement.
+
 Evaluators assess whether the proposed team has the qualifications, experience, and availability to deliver the assignment. This section typically carries 30–40% of the technical score in QCBS evaluations. Every person named must be credible for the role assigned.
 
 ## What to Gather Before Writing

@@ -5,6 +5,40 @@ description: Data management, data governance, and data collection frameworks fo
 
 # Data Management
 
+## Use When
+- Use this skill when the assignment explicitly needs data-management, governance, privacy, or information-system content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where data collection, governance, quality, or protection matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready controls, activities, and ownership logic.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate theory into practical proposal language, outputs, and safeguards.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not mention governance or privacy frameworks without showing how they apply.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed data-management content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Assignments involving system implementations, M&E frameworks, surveys, or institutional assessments all require a data management component. Proposals that demonstrate a structured approach to data collection, storage, quality, governance, and protection score higher — particularly with donors who have been burned by projects that produced unusable data.
 
 ## When to Read This Skill

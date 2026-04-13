@@ -5,6 +5,44 @@ description: Write the firm profile or consultant profile section of a consultin
 
 # Firm Profile
 
+## Use When
+- Use this skill to draft or revise the firm profile or consultant profile section of a proposal.
+- Load it after the proposer identity is fixed.
+
+## Do Not Use When
+- The task is unrelated to proposer credentials or profile content.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The selected proposer profile from `../profiles/`.
+- The assignment brief and any relevant procurement-form constraints.
+- Current credential, service, footprint, and differentiator information for the proposer.
+
+## Workflow
+1. Confirm who is proposing before drafting anything in this section.
+2. Read the assignment materials and determine which profile elements matter most to the evaluator.
+3. Use the structure below to tailor the profile to the actual bid instead of reusing a generic corporate description.
+4. Align the profile with the experience, methodology, and team sections.
+5. Verify that the voice, evidence, and entity details match the selected proposer profile.
+
+## Quality Standards
+- Keep the section relevant to the assignment rather than encyclopedic.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Emphasize evidence, capability fit, and credibility over broad marketing language.
+
+## Anti-Patterns
+- Do not write a generic company brochure in place of a bid-specific profile.
+- Do not mix individual and company identities or voice.
+- Do not include claims that the rest of the proposal cannot support.
+
+## Outputs
+- A proposal-ready firm or consultant profile aligned to the selected proposer.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Relevant proposal-wide references when positioning or proof structure needs reinforcement.
+
 This section establishes the firm's credentials and eligibility. It must convince the evaluator that the firm is legally registered, technically capable, financially stable, and experienced in the relevant sector and geography.
 
 ## What to Gather Before Writing

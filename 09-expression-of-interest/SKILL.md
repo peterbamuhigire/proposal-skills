@@ -5,6 +5,44 @@ description: Write an Expression of Interest for a consulting assignment. Use wh
 
 # Expression of Interest
 
+## Use When
+- Use this skill to draft or revise an Expression of Interest or similar short-form prequalification response.
+- Load it when the procurement stage is about being shortlisted rather than submitting the full proposal.
+
+## Do Not Use When
+- The task is unrelated to an EoI or prequalification document.
+- The user only needs supporting domain knowledge rather than this document.
+
+## Required Inputs
+- The EoI notice, shortlist request, or brief.
+- The selected proposer profile.
+- Relevant experience, staffing readiness, and qualification evidence suitable for shortlist evaluation.
+
+## Workflow
+1. Read the EoI requirements and identify what the issuer needs to be convinced of at shortlist stage.
+2. Load the proposer profile and any relevant procurement or sector context.
+3. Use the structure below to produce a concise, evidence-led response tailored to the request.
+4. Emphasize relevance, credentials, and readiness over unnecessary detail.
+5. Verify consistency with any future full-proposal positioning if the bid will continue.
+
+## Quality Standards
+- Keep the document concise, relevant, and evaluator-aware.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer directly relevant proof and shortlisting logic over broad narrative.
+
+## Anti-Patterns
+- Do not turn the EoI into an overlong full technical proposal.
+- Do not include unsupported claims or irrelevant experience.
+- Do not ignore page, format, or evidence constraints in the request.
+
+## Outputs
+- A shortlist-oriented EoI or similar prequalification response.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Relevant proposal-wide references when positioning or proof structure needs reinforcement.
+
 An Expression of Interest is shorter than a full technical proposal. Its purpose is to get the firm shortlisted — not to win the contract. The evaluator is assessing eligibility and relevance, not detailed methodology. Every sentence must demonstrate that the firm meets the stated criteria and has done this type of work before.
 
 ## What to Gather Before Writing

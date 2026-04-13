@@ -5,6 +5,40 @@ description: Language and tone standard for all proposal content. Enforces authe
 
 # East African English — Language & Tone Skill
 
+## Use When
+- Use this skill when English-language output needs East African professional tone and British spelling.
+- Load it as a cross-cutting review or drafting standard for proposals and related business writing.
+
+## Do Not Use When
+- The task is purely about procurement mechanics or domain frameworks with no language work.
+- Another loaded skill already defines the exact language treatment and there is no conflict.
+
+## Required Inputs
+- The target audience and communication purpose.
+- The content being drafted or reviewed.
+
+## Workflow
+1. Determine the audience, purpose, and level of formality.
+2. Apply the relevant tone, spelling, vocabulary, and courtesy rules from this skill.
+3. Check for hype, awkward phrasing, and non-local wording patterns.
+4. Return wording that sounds natural in East African professional English.
+
+## Quality Standards
+- Prefer clarity, courtesy, and natural local phrasing over flashy copy.
+- Use this as a cross-cutting review pass, not as a substitute for domain or procurement logic.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not use American spelling where British English is expected.
+- Do not use exaggerated marketing language or obviously synthetic phrasing.
+- Do not overwrite project-specific terminology without reason.
+
+## Outputs
+- English wording and tone decisions aligned to this skill.
+
+## References
+- `../language-standards/SKILL.md` when the work spans multiple languages.
+
 All proposal text — cover letters, executive summaries, methodology sections, CVs, financial submissions, and supporting documents — must follow this style guide. This is the foundational language standard applied before and during every content-writing step.
 
 ## Core Characteristics

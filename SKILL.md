@@ -5,6 +5,82 @@ description: Use this skill whenever the user asks to write, draft, or generate 
 
 # Proposal Writing — Parent Skill
 
+## Use When
+- Use this skill when the user needs to draft, review, or assemble any consulting proposal, bid, or Expression of Interest.
+- Load it when you need routing guidance to the correct numbered section skill or supporting skill.
+
+## Do Not Use When
+- The task is only about blog writing or skill maintenance.
+- The work is unrelated to proposals, tenders, or bid responses.
+
+## Required Inputs
+- The ToR, RFP, advert, or proposal brief.
+- The proposer identity and any known procurement or sector context.
+- Any mandatory templates, deadlines, or submission constraints.
+
+## Workflow
+1. Identify the requested document or proposal section.
+2. Load `profiles/SKILL.md` before drafting proposal text so voice and identity are consistent.
+3. Load the relevant numbered section skill, then add procurement, sector, and supporting domain skills only where they materially improve the output.
+4. Draft the requested content and keep the proposal-wide themes, evidence, and terminology aligned.
+5. Verify compliance, section order, and separation between technical and financial content before finalizing.
+
+## Quality Standards
+- Treat each `SKILL.md` as the portable unit; do not assume a special `skills/` folder is required for activation.
+- Maintain British English, East African professional tone, and proposer-specific voice.
+- Keep the proposal client-specific, evaluator-aware, and measurable where evidence exists.
+
+## Anti-Patterns
+- Do not draft proposal text before selecting the proposer profile.
+- Do not generate a full proposal from memory without reading the relevant section skill.
+- Do not merge technical and financial content when the procurement process separates them.
+
+## Outputs
+- The requested proposal section, routing decision, or proposal component.
+
+## References
+- `profiles/SKILL.md` for proposer selection.
+- `sectors/SKILL.md` for procurement and sector routing.
+- Root `references/` files for persuasion, delivery, and proposal patterns.
+
+## Use When
+- Use this skill when the user needs to draft, review, or assemble any consulting proposal, bid, or Expression of Interest.
+- Load it when you need routing guidance to the correct numbered section skill or supporting skill.
+
+## Do Not Use When
+- The task is only about blog writing or skill maintenance.
+- The work is unrelated to proposals, tenders, or bid responses.
+
+## Required Inputs
+- The ToR, RFP, advert, or proposal brief.
+- The proposer identity and any known procurement or sector context.
+- Any mandatory templates, deadlines, or submission constraints.
+
+## Workflow
+1. Identify the requested document or proposal section.
+2. Load `profiles/SKILL.md` before drafting proposal text so voice and identity are consistent.
+3. Load the relevant numbered section skill, then add procurement, sector, and supporting domain skills only where they materially improve the output.
+4. Draft the requested content and keep the proposal-wide themes, evidence, and terminology aligned.
+5. Verify compliance, section order, and separation between technical and financial content before finalizing.
+
+## Quality Standards
+- Treat each `SKILL.md` as the portable unit; do not assume a special `skills/` folder is required for activation.
+- Maintain British English, East African professional tone, and proposer-specific voice.
+- Keep the proposal client-specific, evaluator-aware, and measurable where evidence exists.
+
+## Anti-Patterns
+- Do not draft proposal text before selecting the proposer profile.
+- Do not generate a full proposal from memory without reading the relevant section skill.
+- Do not merge technical and financial content when the procurement process separates them.
+
+## Outputs
+- The requested proposal section, routing decision, or proposal component.
+
+## References
+- `profiles/SKILL.md` for proposer selection.
+- `sectors/SKILL.md` for procurement and sector routing.
+- Root `references/` files for persuasion, delivery, and proposal patterns.
+
 This skill covers the full range of consulting proposal documents. Each section of a technical proposal is a sub-skill. Read the relevant sub-skill SKILL.md before generating any content.
 
 ## Sub-Skills — Proposal Sections

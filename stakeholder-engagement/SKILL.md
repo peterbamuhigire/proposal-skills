@@ -5,6 +5,40 @@ description: Stakeholder engagement frameworks for consulting proposals. Use as 
 
 # Stakeholder Engagement
 
+## Use When
+- Use this skill when the assignment explicitly needs stakeholder mapping, engagement, consultation, or communication content.
+- Load it when another proposal section needs this domain expertise.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify where stakeholder logic matters in the assignment.
+2. Read the local references only where they materially improve the output.
+3. Convert the guidance into proposal-ready stakeholder, consultation, and feedback mechanisms.
+4. Integrate the result into the target section and check for consistency.
+
+## Quality Standards
+- Translate stakeholder theory into practical proposal language, activities, and governance.
+- Keep the approach specific to the client context and implementation reality.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not describe stakeholder engagement as a vague communications add-on.
+- Do not overload the proposal with jargon or academic summary.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed stakeholder-engagement content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 Every consulting assignment involves multiple stakeholders with different interests, influence, and expectations. Proposals that demonstrate a structured approach to stakeholder engagement — not just a list of "consultation meetings" — score higher because they show the firm understands the political and institutional landscape.
 
 ## When to Read This Skill

@@ -5,6 +5,40 @@ description: Structured analytical frameworks for consulting methodology design.
 
 # Consulting Frameworks
 
+## Use When
+- Use this skill when the assignment needs consulting frameworks to shape methodology, analysis, or recommendations.
+- Load it when a proposal section needs structured problem-solving logic.
+
+## Do Not Use When
+- The task only needs formatting or proposer-profile selection.
+- Another supporting skill is a closer fit for the assignment.
+
+## Required Inputs
+- The assignment brief or target proposal section.
+- The sector, client, geography, and any donor or regulatory constraints that matter.
+
+## Workflow
+1. Identify which analytical problem the proposal needs to structure.
+2. Read the local references only where they materially improve the output.
+3. Select the frameworks that fit the assignment and turn them into proposal-ready logic.
+4. Integrate the result into the relevant section and check for consistency.
+
+## Quality Standards
+- Translate frameworks into practical proposal language, sequence, and decisions.
+- Use only the methods that improve the actual assignment response.
+- Preserve compatibility with existing repository workflows and file paths.
+
+## Anti-Patterns
+- Do not list frameworks without showing how they help the assignment.
+- Do not overwhelm the proposal with theory.
+- Do not ignore referenced files when they are needed for accuracy.
+
+## Outputs
+- Domain-informed framework content aligned to this skill.
+
+## References
+- Local `references/` files when detailed frameworks or examples are needed.
+
 A library of structured analytical frameworks drawn from top-tier consulting practice. These frameworks are the building blocks of methodology sections — they determine how problems are decomposed, how analysis is structured, and how recommendations are developed.
 
 ## When to Read This Skill

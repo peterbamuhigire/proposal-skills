@@ -5,6 +5,44 @@ description: Write the cover letter for a consulting proposal or EoI submission.
 
 # Cover Letter
 
+## Use When
+- Use this skill to draft or revise the proposal cover letter or transmittal letter.
+- Load it after identifying the proposer profile and the applicable procurement context.
+
+## Do Not Use When
+- The task is unrelated to the cover letter or submission sheet.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The ToR, RFP, advert, or submission notice.
+- The selected proposer profile and any signature details.
+- Any client-specific differentiators, past-project evidence, and validity requirements.
+
+## Workflow
+1. Read the assignment materials and confirm what the cover letter must signal to the evaluator.
+2. Load the proposer profile and any relevant procurement framework before drafting.
+3. Use the structure below to draft a client-specific letter rather than generic boilerplate.
+4. Cross-check the letter against the rest of the proposal for consistency of tone, facts, and commitments.
+5. Verify signatory details, validity statements, and any submission-sheet requirements.
+
+## Quality Standards
+- Keep the letter specific, courteous, and evaluator-aware.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer concrete relevance and measurable evidence over generic claims.
+
+## Anti-Patterns
+- Do not open with generic boilerplate that could fit any client.
+- Do not contradict the proposer profile, the proposal body, or the procurement instructions.
+- Do not omit mandatory validity, enclosure, or signatory details.
+
+## Outputs
+- A proposal-ready cover letter and, where needed, a submission sheet aligned to the bid format.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Root `references/` files for persuasion and proposal-wide positioning.
+
 The cover letter is the first thing an evaluator reads. It must be personal, specific to the client, and demonstrate that the firm has already understood the assignment — before the proposal body is read.
 
 ## What to Gather Before Writing

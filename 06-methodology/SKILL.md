@@ -5,6 +5,44 @@ description: Write the approach and methodology section of a consulting proposal
 
 # Approach and Methodology
 
+## Use When
+- Use this skill to draft or revise the approach and methodology section of a proposal.
+- Load it when the evaluator needs to see how the assignment will actually be delivered.
+
+## Do Not Use When
+- The task is unrelated to the proposal methodology or work approach.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The ToR, RFP, advert, or assignment brief.
+- The selected proposer profile and any relevant procurement or sector context.
+- Deliverables, constraints, schedule assumptions, and any required frameworks.
+
+## Workflow
+1. Read the assignment materials and define the delivery problem this section must solve.
+2. Load the proposer profile plus any relevant procurement, sector, and supporting domain skills.
+3. Use the structure below to design a tailored methodology with clear phases, deliverables, controls, and logic.
+4. Check the methodology against the work plan, team, and financial assumptions.
+5. Verify that the section is specific, credible, and evaluator-aware before finalizing.
+
+## Quality Standards
+- Keep the approach assignment-specific, concrete, and delivery-focused.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Prefer named methods, explicit deliverables, and realistic controls over generic process language.
+
+## Anti-Patterns
+- Do not submit a recycled generic methodology with no tie to the actual brief.
+- Do not describe activities without deliverables, sequence logic, or client value.
+- Do not make commitments the work plan, team, or budget cannot support.
+
+## Outputs
+- A proposal-ready methodology section with phases, deliverables, governance, quality, and risk logic.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
+
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.
 
 ## What to Gather Before Writing

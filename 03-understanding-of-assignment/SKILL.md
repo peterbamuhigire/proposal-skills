@@ -5,6 +5,44 @@ description: Write the understanding of the assignment section of a consulting p
 
 # Understanding of the Assignment
 
+## Use When
+- Use this skill to draft or revise the assignment-understanding section of a proposal.
+- Load it when the bid requires interpretation of the background, objectives, scope, or ToR comments.
+
+## Do Not Use When
+- The task is unrelated to understanding the assignment or commenting on the ToR.
+- The user only needs supporting domain knowledge rather than this section.
+
+## Required Inputs
+- The ToR, RFP, advert, or assignment brief.
+- The selected proposer profile and any client or sector context already gathered.
+- Any explicit evaluator expectations about ToR comments, assumptions, or observations.
+
+## Workflow
+1. Read the assignment materials and identify the real problem, scope, and evaluator concerns.
+2. Load relevant profile, sector, procurement, and supporting domain skills before drafting.
+3. Use the structure below to translate the brief into a clear, client-aware interpretation in your own words.
+4. Add substantive comments on the ToR where the format or evaluator expectations reward them.
+5. Check the section against the methodology and work plan so the logic flows cleanly into delivery.
+
+## Quality Standards
+- Keep the section analytical, client-specific, and grounded in the actual brief.
+- Use British English and East African professional tone unless the bid format requires otherwise.
+- Show insight, structure, and practical judgement rather than simply rephrasing the ToR.
+
+## Anti-Patterns
+- Do not restate the ToR mechanically with no interpretation.
+- Do not make comments on the ToR that create unnecessary compliance risk or contradict later sections.
+- Do not describe problems, assumptions, or scope elements that the proposal does not address.
+
+## Outputs
+- A proposal-ready understanding section, including ToR comments where appropriate.
+
+## References
+- `../profiles/SKILL.md` for proposer selection and voice.
+- `../sectors/SKILL.md` for procurement and sector routing.
+- Root `references/` files for persuasion, logic structure, and proposal patterns.
+
 This section proves the firm has read, analysed, and thought critically about the Terms of Reference. It is not a paraphrase of the ToR — evaluators wrote the ToR and will notice if it is simply copied back at them. The firm must restate the assignment in its own words and add professional insight.
 
 ## What to Gather Before Writing
