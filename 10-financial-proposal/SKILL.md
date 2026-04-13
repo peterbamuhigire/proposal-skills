@@ -21,14 +21,16 @@ description: Write the financial proposal for a consulting bid. Use when the use
 ## Workflow
 1. Read the commercial instructions and identify the required pricing structure, forms, and constraints.
 2. Load any relevant procurement framework before drafting or structuring the response.
-3. Use the guidance below to build defensible pricing logic tied to the actual delivery model.
-4. Cross-check the financial content against the methodology, staffing, and timeline assumptions.
-5. Verify compliance with envelope separation, form rules, and pricing assumptions before finalizing.
+3. Build the budget from delivery drivers: scope, team, level of effort, timing, travel, and approvals.
+4. Test the price for internal consistency against the methodology, staffing plan, and timeline.
+5. Stress-test the price with basic cash-flow, scenario, and sustainability checks before finalising.
+6. Verify compliance with envelope separation, form rules, and pricing assumptions.
 
 ## Quality Standards
 - Keep the pricing logic transparent, internally consistent, and format-compliant.
 - Use clear professional language and avoid unsupported commercial claims.
 - Prefer defensible assumptions, explicit cost drivers, and coherent structure.
+- Show that the price is workable operationally, not merely arithmetically.
 
 ## Anti-Patterns
 - Do not price work that the technical proposal does not actually support.
@@ -43,22 +45,34 @@ description: Write the financial proposal for a consulting bid. Use when the use
 - Root and local `references/` files for budgeting, estimation, and commercial framing.
 - Relevant proposal sections so pricing remains consistent with delivery assumptions.
 
-The financial proposal is always a separate document — never included in the technical proposal envelope. It presents the total cost of the assignment, broken down by fees and reimbursable expenses, tied to a milestone payment schedule.
+The financial proposal is a separate commercial document. It presents the total cost of the assignment, broken down by fees and reimbursable expenses, tied to milestones and payment logic. Strong pricing shows not only what the work costs, but why the cost structure is credible and sustainable.
 
 ## What to Gather Before Writing
 
-- The assignment scope and deliverables (from the ToR)
+- The assignment scope and deliverables from the ToR
 - Team members, their roles, day rates, and number of days per person
-- Reimbursable items: travel, accommodation, printing, communications
-- Currency to quote in (UGX, USD, KES, or as specified in the ToR)
-- VAT treatment: whether to include or exclude, and the applicable rate
-- Payment schedule preferences or any milestones specified in the ToR
-- Any rate ceilings published by the client or donor
+- Reimbursable items such as travel, accommodation, printing, and communications
+- Currency to quote in
+- VAT treatment and any withholding assumptions
+- Payment schedule preferences or mandatory milestones
+- Any published rate ceilings or eligible-cost rules
+- Internal assumptions on mobilisation, review cycles, and payment lag
+
+## Pricing Model Structure
+
+Build the financial response using three linked layers:
+
+1. **Assumptions layer** — scope drivers, rates, tax rules, travel assumptions, exchange assumptions, and payment terms.
+2. **Calculation layer** — fees, reimbursables, overhead allocation, contingency, and totals.
+3. **Output layer** — compliant submission sheets, summary tables, milestone payments, and any narrative assumptions.
+
+This separation makes it easier to check logic, revise assumptions, and defend the price during internal review.
 
 ## Structure
 
 ### Financial Proposal Submission Sheet
-```
+
+```text
 FINANCIAL PROPOSAL SUBMISSION SHEET
 
 Total Bid Price: [CURRENCY] [AMOUNT] ([AMOUNT IN WORDS])
@@ -74,6 +88,7 @@ For and on behalf of: [FIRM NAME]
 ```
 
 ### Summary of Bid Price
+
 | Component | Amount |
 |---|---|
 | Professional Fees | [Amount] |
@@ -83,12 +98,14 @@ For and on behalf of: [FIRM NAME]
 | **Total Bid Price** | **[Amount]** |
 
 ### Breakdown of Professional Fees
+
 | Expert | Role | Day Rate | Days | Total |
 |---|---|---|---|---|
 | [Name] | [Role] | [Rate] | [N] | [Total] |
 | **Total Fees** | | | | **[Total]** |
 
 ### Breakdown of Reimbursables
+
 | Item | Unit | Quantity | Unit Cost | Total |
 |---|---|---|---|---|
 | Local transport | Trip | [N] | [Cost] | [Total] |
@@ -98,6 +115,7 @@ For and on behalf of: [FIRM NAME]
 | **Total Reimbursables** | | | | **[Total]** |
 
 ### Payment Schedule
+
 Tie every payment to a deliverable, not a calendar date.
 
 | Payment | Milestone / Deliverable | % | Amount |
@@ -107,66 +125,85 @@ Tie every payment to a deliverable, not a calendar date.
 | 3 | [Deliverable name] | 30% | [Amount] |
 | 4 | Final report accepted / Project closure | 20% | [Amount] |
 
-Typical splits: 20/30/30/20 for most assignments. For longer multi-phase projects, use more milestones at smaller percentages.
-
 ### Assumptions and Exclusions
+
 State clearly what is not included in the price and what the client is expected to provide:
 
-- Client will provide workspace and internet connectivity for on-site work
-- Travel costs for client staff attending training are not included
-- Third-party software licence costs are not included unless specified
-- The quoted price assumes the assignment commences within [30] days of contract signing
+- workspace and internet connectivity for on-site work where relevant
+- client-side participation costs such as venue or staff travel if excluded
+- third-party software licence costs unless explicitly included
+- pricing validity period
+- payment timing assumptions if these materially affect mobilisation or cash flow
 
-## Day Rate Reference Ranges (East African Market, 2025–2026)
+## Day Rate Reference Ranges
 
-| Level | USD/day | UGX/day (approx.) |
-|---|---|---|
-| Senior Partner / Director | $800–1,500 | UGX 3M–5.5M |
-| Senior Consultant / Project Manager | $400–800 | UGX 1.5M–3M |
-| Consultant / Analyst | $150–400 | UGX 550K–1.5M |
-| Junior Consultant | $80–150 | UGX 300K–550K |
-| Technical Specialist (Developer) | $200–600 | UGX 750K–2.2M |
-
-International (non-local) consultant rates are typically 1.5 to 3 times local rates. World Bank and donor-funded projects may publish rate ceilings — check the ToR.
+Use local market evidence and published ceilings where available. If the client or donor publishes allowable rates, those take precedence over generic market ranges.
 
 ## Budget Construction Methodology
 
-State the estimation methodology used: "Our budget is constructed using a hybrid approach — recurring operational costs are estimated from comparable recent assignments in our cost database, while specialist and activity-specific costs are built from first principles."
+State the estimation methodology used. A strong default is:
+"Our budget is constructed using a hybrid approach: recurring operational costs are estimated from comparable recent assignments, while specialist and activity-specific costs are built from first principles using the staffing plan and work breakdown."
 
-### The PCTS Constraint (Lewis)
+### Driver-Based Build
 
-Cost is a function of Performance, Time, and Scope: `C = f(P, T, S)`. You can fix three constraints; the fourth must be whatever the relationship dictates. When clients challenge the price, respond by adjusting scope or timeline, not by compressing costs below sustainable levels.
+Tie costs to the actual delivery model:
+- work package or phase
+- level of effort
+- expertise level
+- travel volume
+- workshop count
+- reporting frequency
+
+Avoid unexplained lump sums unless the form requires them.
+
+### The PCTS Constraint
+
+Cost is a function of performance, time, and scope: `C = f(P, T, S)`.
+
+When clients challenge the price, respond by adjusting scope, sequencing, or timeline rather than compressing costs below sustainable levels.
 
 ### Risk-Adjusted Contingency
 
-Calculate contingency using the square-root-sum-of-squares method rather than a flat percentage:
+Where contingency is allowed, calculate it from identified risks rather than adding an arbitrary markup. If the bid rules discourage visible contingency lines, absorb the logic into conservative assumptions and documented pricing buffers.
 
-```
-Risk Budget = √(C₁² + C₂² + C₃² + ...)
-```
+### Cash-Flow Sufficiency Check
 
-Where C = individual risk cost (effect × probability). This produces a statistically reasonable contingency that can be justified to evaluators. Typically 5-10% of professional fees.
+Before finalising, test whether mobilisation and delivery costs can be financed between payment milestones. A technically correct price can still be commercially weak if the payment schedule creates an avoidable cash squeeze.
 
-### Buffer Scheduling
+### Scenario and Sensitivity Check
 
-Identify cost modules that can be delivered at reduced specification if risks materialise. Present these as a structured contingency plan in the assumptions section — it demonstrates fiscal discipline and gives the client flexibility.
+Run simple tests on the most sensitive assumptions:
+- expert days
+- travel frequency
+- exchange rate
+- approval delay
+- tax treatment
+
+Use this to identify which assumptions materially affect margin or cash position.
+
+### Contribution Margin and Break-Even Check
+
+Separate fixed and variable cost logic where possible:
+- use contribution margin to understand how much each additional work package or deliverable contributes after variable cost
+- check the break-even level for effort-intensive assignments
+
+This is useful when presenting optional scope, alternative commercial options, or negotiations around reduced budgets.
 
 ## Rules
 
-- Never quote below a sustainable rate — low pricing signals low quality and creates delivery risk
-- State currency explicitly on every table — ambiguity between UGX and USD can disqualify a bid
-- Warrant the delivered system or reports for a minimum of three months after final acceptance
-- Seal the financial proposal separately — in PPDA and World Bank format, the financial proposal is never in the same envelope as the technical proposal
-- Always present life cycle costs for ICT or infrastructure assignments — a 5-year TCO table alongside the project budget demonstrates strategic thinking
-- For multi-year assignments, include NPV analysis with a stated discount rate and rationale
-- Categorise costs explicitly (direct/indirect, fixed/variable) in the budget narrative
+- Never quote below a sustainable rate.
+- State currency explicitly on every table.
+- Keep the financial proposal separate from the technical proposal where required.
+- For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
+- For multi-year assignments, include NPV or cash-flow logic where the commercial form allows it.
+- Categorise costs clearly as direct, indirect, fixed, variable, or reimbursable where that adds clarity.
 
 ## Reference Library
 
 | Reference File | Contents |
 |---|---|
-| `references/budgeting-and-cost-estimation.md` | Budget allocation methodologies (ZBB, incremental, hybrid), 5-level progressive cost estimation, PCTS constraints, cost contingency and management reserve, contractor pricing build-up, risk-adjusted budgeting (√ formula), life cycle costs, financial ratio analysis (12+ ratios), fiscal conservatism, TVM (PV/FV/NPV), forecasting methods, budget alignment, variance analysis, 6-stage costing gates, cost databases, wants vs needs prioritisation, "cut back not out" principle |
-| `../consulting-frameworks/references/financial-analysis.md` | Expected value, cannibalisation, breakeven, profitability decomposition, market sizing, pricing toolkit, pocket pricing model, CLV, experience curve |
-| `../references/world-class-proposal-patterns.md` | Budget proposal architecture (Chereau & Meschi), Sweet Spot positioning |
+| `references/budgeting-and-cost-estimation.md` | Budget methodologies, driver-based modelling, master budget logic, cash budget, capex, sensitivity analysis, contribution margin, break-even, ratios, contingency, forecasting, and cost database practices |
+| `../consulting-frameworks/references/financial-analysis.md` | Expected value, breakeven, profitability decomposition, market sizing, pricing toolkit, and related commercial logic |
+| `../references/world-class-proposal-patterns.md` | Proposal architecture and commercial positioning patterns |
 
-Read the budgeting reference file when constructing project budgets that need detailed cost estimation frameworks, contingency calculations, or when the assignment involves advising clients on budgeting and fiscal management.
+Read the budgeting reference when constructing budgets that need stronger modelling logic, scenario testing, or financial viability checks.

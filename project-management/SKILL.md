@@ -26,6 +26,7 @@ description: Project management frameworks, governance structures, and reporting
 ## Quality Standards
 - Translate PM frameworks into practical proposal language, outputs, and escalation logic.
 - Keep the approach specific to the client context and implementation reality.
+- Show how scope, schedule, responsibility, reporting, and decisions will be controlled visually and operationally.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
@@ -71,6 +72,18 @@ More common in private sector, large infrastructure, and multi-year programmes:
 
 When to use: private sector clients, large-scale programmes, assignments where the client uses PMBoK terminology.
 
+### Systems and Visual PM Patterns
+
+Use these when the assignment involves multiple workstreams, many interfaces, or complex delivery dependencies:
+
+- **Work Breakdown Structure (WBS)** — decomposes the assignment into controllable work packages
+- **WBS dictionary** — defines the deliverable, owner, assumptions, and completion rule for each package
+- **Task responsibility matrix** — shows who is responsible, supports, reviews, or approves each work package
+- **Schedule hierarchy** — programme milestones at the top, detailed task networks underneath
+- **Decision-gate calendar** — shows when the client must review, approve, or redirect the work
+
+These patterns are especially useful when the proposal must convince evaluators that the team can manage complexity, not just draft a high-level timeline.
+
 ### Agile / Hybrid (Preferred for ICT and Software)
 
 For ICT system implementations and software development assignments:
@@ -99,6 +112,14 @@ Only propose a PMO for assignments exceeding 12 months or involving multiple wor
 - Consolidated reporting across workstreams
 - Resource allocation and conflict resolution
 - Quality assurance and standards compliance
+
+### Matrix Delivery Pattern
+
+For multi-disciplinary assignments, describe the project office realistically:
+- keep the central project office lean
+- assign delivery responsibility to work-package owners
+- use the PMO to consolidate reporting, dependency management, and issue escalation
+- avoid implying a heavyweight bureaucracy for short assignments
 
 ## Reporting Standards
 
@@ -138,6 +159,15 @@ The first major deliverable in most consulting assignments. Must include:
 | Project level | Delays, resource conflicts, quality issues | Project Manager + Client Focal Point | Within 3 working days |
 | Steering committee | Scope changes, budget overruns, strategic risks | Steering Committee | Next scheduled meeting or emergency session |
 
+### Visual Control Toolkit
+
+When the ToR expects strong controls, reference these artefacts explicitly:
+- milestone ladder showing major approvals and delivery gates
+- dependency network for critical deliverables
+- task responsibility matrix linked to the WBS
+- issue, risk, and decision logs with named owners
+- stoplight dashboard backed by schedule and cost data
+
 ## Earned Value Management
 
 For assignments exceeding three months or involving significant budgets, include earned value tracking:
@@ -159,7 +189,7 @@ Two questions only: "What are we doing well?" and "What do we want to improve?" 
 
 | Reference File | Contents |
 |---|---|
-| `references/project-controls-and-earned-value.md` | Lewis Method (10-step PM methodology), WBS construction, PERT three-point estimation, CPM/critical path scheduling, resource levelling, complete earned value system (all formulas), 15% rule, four EV scenarios, project control framework, change control process, three types of project reviews, lessons learned facilitation, stoplight reporting, stagegate process, variance analysis tools (MAD/RMSE/MAPE), control charts, PM maturity model (5 levels), multitasking problem, quality tracking indicators |
+| `references/project-controls-and-earned-value.md` | Lewis Method (10-step PM methodology), WBS construction, WBS dictionary, schedule hierarchy, task responsibility matrices, PERT three-point estimation, CPM/critical path scheduling, resource levelling, complete earned value system (all formulas), 15% rule, four EV scenarios, project control framework, change control process, three types of project reviews, lessons learned facilitation, stoplight reporting, stagegate process, variance analysis tools (MAD/RMSE/MAPE), control charts, PM maturity model (5 levels), multitasking problem, quality tracking indicators |
 
 Read the reference file when writing methodology sections that describe project management approaches, when designing governance frameworks, or when the assignment involves assessing client PM capability.
 
