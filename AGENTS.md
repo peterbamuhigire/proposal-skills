@@ -5,6 +5,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 ## Baseline Rules
 - Preserve existing Claude Code behavior. Layer improvements on top of the current structure instead of restructuring directories.
 - Treat `SKILL.md` as the execution contract and `references/` as deeper supporting material loaded only when needed.
+- Every `SKILL.md` must include this exact acknowledgement line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
 - Load `profiles/SKILL.md` before drafting any proposal text so voice, signatory, and proposer identity stay consistent.
 - Use `sectors/SKILL.md` to decide which procurement framework and industry sector skills apply.
 - Keep technical and financial proposal content separate when the procurement process requires separate envelopes or forms.

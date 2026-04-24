@@ -4,6 +4,7 @@ description: Monitoring and evaluation frameworks for consulting proposals. Use 
 ---
 
 # Monitoring and Evaluation
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs monitoring, evaluation, results, indicators, or learning content.
@@ -145,3 +146,4 @@ When the ToR asks for a dedicated M&E plan or framework, generate a document cov
 15. Cost-benefit or cost-effectiveness analysis — NPV, shadow pricing, distributional analysis (see `references/impact-evaluation-and-economic-analysis.md` sections 9–11)
 
 Follow east-african-english standards throughout.
+

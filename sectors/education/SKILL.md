@@ -4,6 +4,7 @@ description: Education and capacity-building sector skill. Use when the proposal
 ---
 
 # Education and Capacity Building
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in education, learning, TVET, or institutional capacity work.
@@ -37,3 +38,4 @@ description: Education and capacity-building sector skill. Use when the proposal
 ## References
 - `references/uganda-education-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

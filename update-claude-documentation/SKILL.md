@@ -4,6 +4,7 @@ description: "Update project documentation files (README.md, PROJECT_BRIEF.md, T
 ---
 
 # Update Claude Documentation
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when repository documentation such as `README.md`, `CLAUDE.md`, or repo docs must be updated after skill changes.
@@ -234,3 +235,4 @@ Major refactor: 45-60 min
 6. One reality, multiple perspectives
 
 **Remember:** Documentation debt compounds fast. Update immediately when making changes.
+

@@ -4,6 +4,7 @@ description: Proposer identity system. Read this skill before writing any propos
 ---
 
 # Proposer Profiles
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill whenever proposal content needs the correct proposer identity, signatory, or voice.
@@ -120,3 +121,4 @@ After each successful proposal, update the profile with:
 - New differentiators or branded frameworks
 
 Profiles are living documents — they grow with every assignment.
+

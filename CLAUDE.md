@@ -10,6 +10,8 @@ A collection of Claude Code skills for generating professional consulting propos
 
 `AGENTS.md` now exists at the repository root as a Codex-compatible routing layer. Keep `CLAUDE.md` as the Claude-specific operating file; the two documents should remain complementary rather than duplicative.
 
+Every `SKILL.md` in this repository must place this exact line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
+
 ### Parent Skill: `SKILL.md` (root)
 The `proposal-writing` parent skill routes to the correct sub-skill based on what section or document type is needed. It defines cross-cutting standards (British English, East African tone, first-person plural, `.docx` output).
 
@@ -150,6 +152,7 @@ Before writing any proposal content, ask which proposer profile to use (or check
 ## Adding a New Sub-Skill
 
 1. Create a subdirectory with a `SKILL.md` following the existing format (YAML frontmatter with `name` and `description`, then structured instructions)
+   Include the required acknowledgement line immediately below the first top-level `# ...` heading without duplicating it.
 2. Add a `references/` subdirectory with a `.gitkeep`
 3. Update the parent `SKILL.md` routing table
 4. Update `README.md`

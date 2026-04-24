@@ -4,6 +4,7 @@ description: Project management frameworks, governance structures, and reporting
 ---
 
 # Project Management
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs project-management, governance, controls, or reporting content.
@@ -207,3 +208,4 @@ When the ToR asks for a dedicated project management plan, generate a document c
 8. Change control process
 
 Follow east-african-english standards throughout.
+

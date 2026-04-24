@@ -4,6 +4,7 @@ description: Financial services sector skill. Use when the proposal concerns ban
 ---
 
 # Financial Services
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in banking, insurance, payments, or financial-inclusion work.
@@ -37,3 +38,4 @@ description: Financial services sector skill. Use when the proposal concerns ban
 ## References
 - `references/uganda-financial-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

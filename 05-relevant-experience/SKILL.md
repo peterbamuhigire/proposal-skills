@@ -4,6 +4,7 @@ description: Write the relevant experience section of a consulting proposal. Use
 ---
 
 # Relevant Experience
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the relevant experience section of a proposal or EoI.
@@ -108,3 +109,4 @@ A project card without outcomes is significantly weaker than one with them. Neve
 - Order by relevance, not chronology
 - Never include projects that are not genuinely comparable — it weakens the section
 - Follow east-african-english standards throughout
+

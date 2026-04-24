@@ -4,6 +4,7 @@ description: Generate 15-25 targeted blog post ideas with 200-word summaries for
 ---
 
 # Blog Idea Generator
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the user wants blog topics, editorial angles, or content ideas.
@@ -274,3 +275,4 @@ Before finalising:
 - [ ] Narrative briefs are compelling — they make you want to write the article
 
 After writing, verify line count is under 500: wc -l blog-idea-generator/SKILL.md
+

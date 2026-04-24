@@ -4,6 +4,7 @@ description: Structured analytical frameworks for consulting methodology design.
 ---
 
 # Consulting Frameworks
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment needs consulting frameworks to shape methodology, analysis, or recommendations.
@@ -75,3 +76,4 @@ A library of structured analytical frameworks drawn from top-tier consulting pra
 - **`06-methodology/SKILL.md`** — the methodology section skill. It draws on these frameworks when building the phase-by-phase plan.
 
 Follow east-african-english standards throughout.
+

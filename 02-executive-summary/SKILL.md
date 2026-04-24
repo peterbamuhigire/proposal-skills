@@ -4,6 +4,7 @@ description: Write the executive summary of a consulting proposal. Use when the 
 ---
 
 # Executive Summary
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the executive summary of a proposal or similar bid response.
@@ -133,3 +134,4 @@ The executive summary should end with benefits, not fees or timeline. The closin
 3. **Benefits beyond the project** — measurable results that persist after implementation. Examples: reduced processing times, improved compliance rates, cost savings sustained over subsequent fiscal years.
 
 This structure creates a persuasive arc: the executive summary opens with the problem and closes with the value. The evaluator's last impression is of what the client gains — not what the assignment costs. Every benefit statement should be specific and, where possible, quantified.
+

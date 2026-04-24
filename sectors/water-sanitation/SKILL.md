@@ -4,6 +4,7 @@ description: Water, sanitation, and hygiene sector skill. Use when the proposal 
 ---
 
 # Water, Sanitation, and Hygiene
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in WASH, water utility, sanitation, or hygiene systems work.
@@ -37,3 +38,4 @@ description: Water, sanitation, and hygiene sector skill. Use when the proposal 
 ## References
 - `references/uganda-wash-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

@@ -4,6 +4,7 @@ description: Use this skill whenever the user asks to write, draft, or generate 
 ---
 
 # Proposal Writing — Parent Skill
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the user needs to draft, review, or assemble any consulting proposal, bid, or Expression of Interest.
@@ -211,3 +212,4 @@ When generating a full technical proposal, sections follow this order:
 10. References
 
 Financial Proposal is always a separate sealed document.
+
