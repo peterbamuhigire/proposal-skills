@@ -4,6 +4,7 @@ description: Stakeholder engagement frameworks for consulting proposals. Use as 
 ---
 
 # Stakeholder Engagement
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs stakeholder mapping, engagement, consultation, or communication content.
@@ -122,3 +123,4 @@ When the ToR asks for a dedicated stakeholder engagement plan, generate a docume
 12. Stakeholder engagement monitoring — four evaluation approaches, engagement effectiveness tracking (see `references/stakeholder-engagement-and-communication.md` section 15)
 
 Follow east-african-english standards throughout.
+

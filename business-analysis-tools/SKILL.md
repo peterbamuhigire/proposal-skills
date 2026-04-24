@@ -4,6 +4,7 @@ description: Business analysis frameworks, diagnostic tools, and analytical mode
 ---
 
 # Business Analysis Tools
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment needs business-analysis tools, diagnostics, or decision-support methods.
@@ -430,3 +431,4 @@ Show that analysis does not stop at documentation: "We will package requirements
 Name the tools as proprietary where possible: "Using our [Firm Name] Diagnostic Framework, we will assess..." — even a standard gap analysis becomes more credible when it has a name and a structured process.
 
 Follow east-african-english standards throughout.
+

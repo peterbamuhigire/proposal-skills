@@ -4,6 +4,7 @@ description: Write the financial proposal for a consulting bid. Use when the use
 ---
 
 # Financial Proposal
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the financial proposal narrative, pricing logic, or cost structure.
@@ -207,3 +208,4 @@ This is useful when presenting optional scope, alternative commercial options, o
 | `../references/world-class-proposal-patterns.md` | Proposal architecture and commercial positioning patterns |
 
 Read the budgeting reference when constructing budgets that need stronger modelling logic, scenario testing, or financial viability checks.
+

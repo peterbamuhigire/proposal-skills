@@ -4,6 +4,7 @@ description: United Nations system procurement framework for consulting services
 ---
 
 # United Nations System Procurement Framework — Consulting Services and Grants
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the solicitation follows UNDP or wider UN-system procurement rules.
@@ -376,3 +377,4 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: UNDP/EU "Guidelines for Submitting Project Proposals for Civil Society Organizations" (January 2025), GEF Small Grants Programme "Project Proposal Template" (GEF-7 Operational Phase), United Nations "Guidelines for Preparing and Submitting Project Proposals" for UN Trust Funds, UNICEF "Format of Technical and Financial Proposal" (Annex E, 2021), and UNFCCC "Technical Proposal Template" (Annex 9, ITL RFP).*
+

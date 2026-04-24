@@ -4,6 +4,7 @@ description: Generate SEO-optimised, bilingual blog articles with featured image
 ---
 
 # Blog Writer — Article Generation Skill
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the user wants a blog article, thought piece, or publishable article page.
@@ -502,3 +503,4 @@ If the site has blog categories and tags:
 - Remove tags or categories used only once or twice
 - Show categories early on the page (near the top), not hidden at the bottom in small grey text
 - Each category and tag page should have a title and short description
+

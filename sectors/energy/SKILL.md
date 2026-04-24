@@ -4,6 +4,7 @@ description: Energy sector skill. Use when the proposal concerns power systems, 
 ---
 
 # Energy and Environment
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in energy, utilities, access, or related infrastructure work.
@@ -37,3 +38,4 @@ description: Energy sector skill. Use when the proposal concerns power systems, 
 ## References
 - `references/uganda-energy-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

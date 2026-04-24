@@ -4,6 +4,7 @@ description: Sustainability and exit strategy frameworks for consulting proposal
 ---
 
 # Sustainability Planning
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs sustainability, exit strategy, ownership transfer, or continuity content.
@@ -135,3 +136,4 @@ When the ToR asks for a dedicated sustainability plan or exit strategy, generate
 8. Post-project support arrangements
 
 Follow east-african-english standards throughout.
+

@@ -4,6 +4,7 @@ description: Write the team composition section of a consulting proposal. Use wh
 ---
 
 # Team Composition
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the team composition, staffing, role-allocation, or CV framing section.
@@ -164,3 +165,4 @@ For PPDA, private sector, and smaller bids where TECH-6 is not required:
 - Match qualifications to ToR requirements explicitly — if the ToR asks for "10 years of experience in public financial management", state exactly how many years the proposed person has
 - For key experts, emphasise the specific experience that matches this assignment, not a full career history
 - Follow east-african-english standards throughout
+

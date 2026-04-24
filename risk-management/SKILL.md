@@ -4,6 +4,7 @@ description: Risk management frameworks for consulting proposals. Use as a refer
 ---
 
 # Risk Management
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs risk-management, mitigation, contingency, or escalation content.
@@ -202,3 +203,4 @@ When the ToR asks for a dedicated risk management plan, generate a document cove
 9. Risk budget calculation (for financial proposals)
 
 Follow east-african-english standards throughout.
+

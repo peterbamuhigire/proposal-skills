@@ -4,6 +4,7 @@ description: Gender equality and social inclusion frameworks for consulting prop
 ---
 
 # Gender and Social Inclusion
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs gender, social inclusion, disability, youth, or GESI content.
@@ -109,3 +110,4 @@ When the ToR asks for a dedicated GESI plan or gender action plan, generate a do
 7. Monitoring and reporting on GESI outcomes
 
 Follow east-african-english standards throughout.
+

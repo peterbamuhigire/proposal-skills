@@ -4,6 +4,7 @@ description: African Development Bank procurement framework covering consultant 
 ---
 
 # African Development Bank Procurement Framework
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the solicitation follows African Development Bank consulting procurement rules.
@@ -221,3 +222,4 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: AfDB Procurement Policy for Bank Group Funded Operations (2015, revised 2023), Rules and Procedures for Procurement of Goods, Works, and Non-Consulting Services (2023), Rules and Procedures for the Use of Consultants (2023), Integrated Safeguards System (ISS, 2023), Independent Evaluation Policy (IDEV), AfDB Financial Products and Terms.*
+

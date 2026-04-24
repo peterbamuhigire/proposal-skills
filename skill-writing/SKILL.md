@@ -4,6 +4,7 @@ description: Guide for creating effective skills. This skill should be used when
 ---
 
 # Skill Creator
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when a user wants to create, upgrade, or refactor a skill in this repository.
@@ -554,3 +555,4 @@ After testing the skill, users may request improvements. Often this happens righ
 2. Notice struggles or inefficiencies
 3. Identify how SKILL.md or bundled resources should be updated
 4. Implement changes and test again
+

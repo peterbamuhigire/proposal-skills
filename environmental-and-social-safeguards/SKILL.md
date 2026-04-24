@@ -4,6 +4,7 @@ description: Environmental and social safeguard frameworks for consulting propos
 ---
 
 # Environmental and Social Safeguards
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs safeguards, ESF, ESIA, or environmental and social risk content.
@@ -137,3 +138,4 @@ When the ToR asks for a dedicated safeguards instrument, generate the relevant d
 9. Institutional arrangements and budget
 
 Follow east-african-english standards throughout.
+

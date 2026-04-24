@@ -4,6 +4,7 @@ description: Write the approach and methodology section of a consulting proposal
 ---
 
 # Approach and Methodology
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the approach and methodology section of a proposal.
@@ -213,3 +214,4 @@ Read the relevant reference file when a methodology requires detailed frameworks
 - Every phase must have at least one named deliverable
 - Apply SCQA within each phase: open with what the reader accepts (Situation), introduce the challenge (Complication), raise the question this phase answers (Question), then present the approach (Answer)
 - Follow east-african-english standards throughout
+

@@ -4,6 +4,7 @@ description: Health sector skill. Use when the proposal concerns public health s
 ---
 
 # Health and Pharmaceutical Systems
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in health systems, health programmes, or pharmaceutical and service-delivery work.
@@ -37,3 +38,4 @@ description: Health sector skill. Use when the proposal concerns public health s
 ## References
 - `references/uganda-health-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

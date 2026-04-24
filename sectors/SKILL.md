@@ -4,6 +4,7 @@ description: Sector and procurement framework reference index. Use when writing 
 ---
 
 # Sectors — Index
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when a proposal needs both procurement-framework guidance and sector-domain context.
@@ -122,3 +123,4 @@ Not every directory needs every file from day one. Start with a `README.md` and 
 2. Add a `README.md` with an overview, key requirements, and a compliance checklist
 3. Add reference files as needed (terminology, evaluation criteria, methodology notes)
 4. Update this INDEX.md with the new entry
+

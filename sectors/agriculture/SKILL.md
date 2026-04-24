@@ -4,6 +4,7 @@ description: Agriculture and food security sector skill. Use when the proposal c
 ---
 
 # Agriculture and Food Security
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in agriculture or closely adjacent to food systems work.
@@ -37,3 +38,4 @@ description: Agriculture and food security sector skill. Use when the proposal c
 ## References
 - `references/uganda-agriculture-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+
