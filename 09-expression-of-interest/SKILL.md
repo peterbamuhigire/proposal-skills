@@ -4,6 +4,7 @@ description: Write an Expression of Interest for a consulting assignment. Use wh
 ---
 
 # Expression of Interest
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise an Expression of Interest or similar short-form prequalification response.
@@ -111,3 +112,4 @@ Half a page. A checklist or brief statement confirming:
 - Do not include a financial proposal — EoIs never include pricing
 - Focus on proving eligibility and relevance, not on persuasion
 - Follow east-african-english standards throughout
+

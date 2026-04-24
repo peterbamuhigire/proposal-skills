@@ -4,6 +4,7 @@ description: Data management, data governance, and data collection frameworks fo
 ---
 
 # Data Management
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs data-management, governance, privacy, or information-system content.
@@ -134,3 +135,4 @@ When the ToR asks for a dedicated data management plan, generate a document cove
 8. Data handover and sustainability
 
 Follow east-african-english standards throughout.
+

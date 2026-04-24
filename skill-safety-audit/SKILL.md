@@ -4,6 +4,7 @@ description: Scan new or updated skills for unsafe or malicious instructions (un
 ---
 
 # Skill Safety Audit
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when a new or modified skill must be checked for unsafe instructions before acceptance.
@@ -154,3 +155,4 @@ When using this skill, report:
 ## Notes
 
 This skill is about **preventing unsafe instructions** from entering the repository. It does **not** replace code review or security testing for application code.
+

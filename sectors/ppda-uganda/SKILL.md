@@ -4,6 +4,7 @@ description: Uganda PPDA procurement framework covering evaluation methods, scor
 ---
 
 # Uganda PPDA Procurement Framework
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the solicitation follows Uganda PPDA procurement rules.
@@ -217,3 +218,4 @@ Load these references for detailed procedural requirements:
 |-----------|---------|
 | `references/ppda-evaluation-forms-and-procedures.md` | Complete content of Forms 14, 15, 16, 24, 26, 45, 49, Performance Securing Declaration, and User Guide for Quotation Method — all scoring criteria, table structures, process steps, and bidder strategy notes |
 | `references/ppda-act-and-regulatory-framework.md` | PPDA Act (Cap. 205) legal framework — institutional structures (5 PDE bodies), 9 procurement methods, preference and reservation schemes (7% for Ugandan consultants), contract types, evaluation rules, bidding process, negotiations, 3-tier complaints mechanism, suspension of providers, offences and penalties, conflict of interest rules, compliance audit requirements, practical tips for consulting firms |
+

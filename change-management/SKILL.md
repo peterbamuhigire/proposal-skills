@@ -4,6 +4,7 @@ description: Change management and organisational change frameworks for consulti
 ---
 
 # Change Management
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs change-management, adoption, transition, or resistance-management content.
@@ -141,3 +142,4 @@ When the ToR asks for a dedicated change management plan, generate a document co
 9. Change sustainability and reinforcement plan
 
 Follow east-african-english standards throughout.
+

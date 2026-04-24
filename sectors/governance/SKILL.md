@@ -4,6 +4,7 @@ description: Governance and public-sector reform skill. Use when the proposal co
 ---
 
 # Governance and Public Sector Reform
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in governance, institutional reform, accountability, or public-sector systems work.
@@ -37,3 +38,4 @@ description: Governance and public-sector reform skill. Use when the proposal co
 ## References
 - `references/uganda-governance-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

@@ -4,6 +4,7 @@ description: Language and tone standards for all written content across 3 langua
 ---
 
 # Language Standards — Multi-Language Tone & Grammar
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when multilingual content needs cross-cutting language, tone, and wording rules.
@@ -503,3 +504,4 @@ Before publishing in any language, assign review:
 - **Kiswahili**: Native Kiswahili speaker from Kenya, Tanzania, or Uganda
 
 All translations reviewed by in-country professionals before publishing.
+

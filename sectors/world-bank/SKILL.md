@@ -4,6 +4,7 @@ description: World Bank procurement framework for consulting services. Read this
 ---
 
 # World Bank Procurement Framework — Consulting Services
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the solicitation clearly follows World Bank consulting procurement rules.
@@ -268,3 +269,4 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: World Bank "A Beginner's Guide for Borrowers: Procurement under World Bank Investment Project Financing" (November 2023, 2nd Edition) and "Evaluating Bids and Proposals — Including Use of Rated Criteria" (February 2025, 3rd Edition).*
+

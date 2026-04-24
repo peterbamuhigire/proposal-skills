@@ -4,6 +4,7 @@ description: ICT and digital transformation sector skill. Use when the proposal 
 ---
 
 # ICT and Digital Transformation
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment is clearly in ICT, digital systems, software, or transformation work.
@@ -37,3 +38,4 @@ description: ICT and digital transformation sector skill. Use when the proposal 
 ## References
 - `references/uganda-ict-sector.md` for local sector context.
 - `../SKILL.md` to combine this sector with procurement context.
+

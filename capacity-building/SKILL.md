@@ -4,6 +4,7 @@ description: Capacity building, training, and knowledge transfer frameworks for 
 ---
 
 # Capacity Building
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when the assignment explicitly needs capacity-building, training, knowledge transfer, or institutional strengthening content.
@@ -127,3 +128,4 @@ When the ToR asks for a dedicated capacity building plan, generate a document co
 8. Post-training support and follow-up
 
 Follow east-african-english standards throughout.
+

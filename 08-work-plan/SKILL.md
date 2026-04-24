@@ -4,6 +4,7 @@ description: Write the work plan and timeline section of a consulting proposal. 
 ---
 
 # Work Plan and Timeline
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the work plan, schedule, staffing schedule, or timeline section.
@@ -153,3 +154,4 @@ This links the schedule to named accountability and reduces the risk that timeli
 - Keep the work plan consistent with methodology (`06`) and the financial proposal (`10`)
 - Ensure total person-days in the staffing schedule match the financial proposal
 - Follow `east-african-english` standards throughout
+

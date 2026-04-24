@@ -4,6 +4,7 @@ description: Language and tone standard for all proposal content. Enforces authe
 ---
 
 # East African English — Language & Tone Skill
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill when English-language output needs East African professional tone and British spelling.
@@ -229,3 +230,4 @@ Use this as a benchmark for tone and rhythm:
 - **Internal documents** — inception reports, progress reports, deliverables produced during assignments
 
 This skill runs alongside every other skill. It governs what the text says and how it sounds.
+

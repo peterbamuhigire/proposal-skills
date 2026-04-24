@@ -4,6 +4,7 @@ description: Write the cover letter for a consulting proposal or EoI submission.
 ---
 
 # Cover Letter
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the proposal cover letter or transmittal letter.
@@ -117,3 +118,4 @@ Position:  [TITLE]             Date:  [DATE]
 For and on behalf of: [FIRM NAME]
 Address: [ADDRESS]
 ```
+

@@ -4,6 +4,7 @@ description: Write the understanding of the assignment section of a consulting p
 ---
 
 # Understanding of the Assignment
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the assignment-understanding section of a proposal.
@@ -240,3 +241,4 @@ The closing should leave the evaluator with a clear sense of purpose and value. 
 - Comments on the ToR must be professional and constructive — never critical of the client
 - Frame suggestions as "we recommend" or "the firm suggests", not "the ToR should have included"
 - Follow east-african-english standards throughout
+

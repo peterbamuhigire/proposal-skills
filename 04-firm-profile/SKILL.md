@@ -4,6 +4,7 @@ description: Write the firm profile or consultant profile section of a consultin
 ---
 
 # Firm Profile
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 - Use this skill to draft or revise the firm profile or consultant profile section of a proposal.
@@ -123,3 +124,4 @@ A summary table of four to six most relevant assignments, following the format i
 - Do not exaggerate staff numbers or geographic reach
 - If the firm is small, position this as an advantage: senior attention, no delegation to juniors, direct access to decision-makers
 - Follow east-african-english standards throughout
+
