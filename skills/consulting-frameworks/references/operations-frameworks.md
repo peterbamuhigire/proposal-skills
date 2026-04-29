@@ -32,6 +32,19 @@ For manufacturing, processing, warehousing, logistics, and inventory-heavy assig
 
 Use `industrial-operations-diagnostics.md` when the ToR involves MRP, inventory optimisation, factory layout, material handling, ERP/MES/WMS/TMS, or green production.
 
+### Software Delivery and DevOps Extension
+
+For software, SaaS, cloud migration, platform, managed IT, PHP/LAMP, or digital-service assignments, test operational bottlenecks across:
+
+- demand intake, prioritisation, WIP, branch age, and review queues;
+- CI/CD stage reliability, artifact promotion, deployment frequency, and lead time;
+- testing depth, flaky checks, security gates, and manual approval delays;
+- release strategy, rollback realism, migration safety, and feature exposure controls;
+- observability, actionable alerts, release markers, on-call ownership, and incident learning;
+- infrastructure automation, GitOps discipline, configuration drift, cloud cost, and environment parity.
+
+Use `devops-delivery-diagnostics.md` when the ToR involves CI/CD, release engineering, production reliability, DevSecOps, cloud-native delivery, PHP deployment, SaaS operations, or incident response.
+
 ---
 
 ## 2. Stakeholder-Based Framework
