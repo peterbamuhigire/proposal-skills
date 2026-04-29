@@ -139,12 +139,14 @@ This links the schedule to named accountability and reduces the risk that timeli
 - **Schedule contingency:** Build in buffer days for context disruptions such as rainy season, election periods, public holidays, or slow approvals. Do not plan overtime into the baseline.
 - **Time-cost trade-off:** There is an optimum project duration where costs are minimised. Compressing below this increases costs through overtime, coordination overhead, and rework.
 - **Decision gates matter:** Client reviews, approvals, and access decisions are part of the actual schedule. Treat them as explicit timeline events, not hidden assumptions.
+- **Industrial site work:** For manufacturing, warehouse, ERP/MES/WMS/TMS, or inventory assignments, schedule data extraction, site walk-throughs, stock or record sampling, process observation, validation workshops, and client review gates as separate activities. Do not hide site access, system access, or stock-reconciliation dependencies inside generic "assessment" rows.
 
 ## Reference Library
 
 | Reference File | Contents |
 |---|---|
 | `../project-management/references/project-controls-and-earned-value.md` | WBS construction, WBS dictionary, task responsibility matrices, PERT estimation, CPM/critical path, schedule hierarchy, resource levelling, earned value tracking, change control, and stagegate process |
+| `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Industrial assessment work packages for material planning, capacity, warehouse, facility flow, quality, and green-production assignments |
 
 ## Tone Rules
 
