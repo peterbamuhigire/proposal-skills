@@ -19,6 +19,19 @@ For cases involving processes, efficiency, or capacity problems, decompose the e
 
 Links to Theory of Constraints in `../../references/consulting-delivery-excellence.md` §15 and `../../business-analysis-tools/references/strategic-analysis-frameworks.md`.
 
+### Industrial Bottleneck Extension
+
+For manufacturing, processing, warehousing, logistics, and inventory-heavy assignments, test bottlenecks across:
+
+- material availability and supplier lead time;
+- BOM, recipe, UOM, and item-master accuracy;
+- work-centre capacity, setup/changeover, maintenance, and labour skill;
+- WIP queues, warehouse congestion, picking and dispatch staging;
+- quality holds, rework, scrap, and batch-release delays;
+- energy, water, waste, and resource-intensity constraints.
+
+Use `industrial-operations-diagnostics.md` when the ToR involves MRP, inventory optimisation, factory layout, material handling, ERP/MES/WMS/TMS, or green production.
+
 ---
 
 ## 2. Stakeholder-Based Framework
