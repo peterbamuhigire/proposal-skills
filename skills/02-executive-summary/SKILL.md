@@ -94,6 +94,8 @@ One paragraph or a simple table showing the overall duration, major phases, and 
 
 One paragraph that ties the differentiators to the client's expected outcomes. What will be different for the client after this assignment? State the value in terms the client cares about — cost savings, time reduction, compliance achieved, systems operational, staff trained and competent.
 
+For growth, revenue, product, AI, or transformation proposals, state the growth engine explicitly: the target customer, acquisition or adoption path, conversion or activation moment, retention/referral mechanism, profit lever, and management metric. Do not settle for broad claims such as "increase growth" or "drive innovation".
+
 ## Tone Rules
 
 - Two to three pages maximum
@@ -112,6 +114,8 @@ Based on Barbara Minto's Pyramid Principle, the executive summary should be orga
 - **Level 4: Evidence** — supporting data that makes the logic concrete. Quantified experience (number of projects, percentage improvements delivered), sector benchmarks, or independently verified results.
 
 When drafting, begin at Level 1 and confirm the Big Idea is defensible before expanding downward. If the Big Idea cannot be stated in a single sentence, the proposal's strategic logic is not yet clear enough to write.
+
+For commercial transformation assignments, the Big Idea should name the measurable growth or profit system being built, not only the deliverable. Example: "We will design and pilot a measurable acquisition, activation, retention, and pricing system that allows [client] to grow revenue without relying on one-off campaigns."
 
 ## Value Proposition Opening
 
@@ -134,4 +138,8 @@ The executive summary should end with benefits, not fees or timeline. The closin
 3. **Benefits beyond the project** — measurable results that persist after implementation. Examples: reduced processing times, improved compliance rates, cost savings sustained over subsequent fiscal years.
 
 This structure creates a persuasive arc: the executive summary opens with the problem and closes with the value. The evaluator's last impression is of what the client gains — not what the assignment costs. Every benefit statement should be specific and, where possible, quantified.
+
+## Growth and Profit Proposal Lens
+
+When the assignment involves revenue growth, product-led growth, AI-enabled products, pricing, disruption, or business-model transformation, load `../references/growth-profit-disruption-proposal-patterns.md` before drafting. Use it to make the executive summary commercially sharper: growth system, profit levers, experiments, operating cadence, and disruption readiness.
 

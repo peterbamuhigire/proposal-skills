@@ -174,6 +174,21 @@ When themes are developed across all four dimensions and woven through every sec
 
 Clients — and evaluators — respond to proposals that speak in terms of results rather than activities. The language of results differs by project type.
 
+### Commercial growth and disruption proposals
+
+When the assignment concerns growth strategy, commercial transformation, product-led growth, AI-enabled products, pricing, or disruption, measurable results should describe the growth system, not only end-state revenue. Include the levers the engagement will test or improve:
+
+- acquisition source quality;
+- activation or conversion rate;
+- customer retention and repeat purchase;
+- referral or expansion revenue;
+- price, packaging, offer mix, or margin;
+- experiment cycle time and decision cadence;
+- sales pipeline conversion and follow-up discipline;
+- service/support metrics that protect retention.
+
+Use `growth-profit-disruption-proposal-patterns.md` when a proposal needs this commercial logic.
+
 ### Insight projects
 
 We cannot promise numbers when the purpose of the project is to discover what the numbers are. However, we should signal what results MIGHT follow implementation of our findings, using appropriate qualifiers:
