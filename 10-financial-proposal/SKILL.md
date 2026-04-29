@@ -196,6 +196,7 @@ This is useful when presenting optional scope, alternative commercial options, o
 - State currency explicitly on every table.
 - Keep the financial proposal separate from the technical proposal where required.
 - For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
+- For manufacturing, warehousing, logistics, ERP/MES/WMS/TMS, and industrial operations assignments, price site visits, data extraction, stock sampling, process observation, layout mapping, validation workshops, and specialist modelling effort explicitly.
 - For multi-year assignments, include NPV or cash-flow logic where the commercial form allows it.
 - Categorise costs clearly as direct, indirect, fixed, variable, or reimbursable where that adds clarity.
 
@@ -206,6 +207,7 @@ This is useful when presenting optional scope, alternative commercial options, o
 | `references/budgeting-and-cost-estimation.md` | Budget methodologies, driver-based modelling, master budget logic, cash budget, capex, sensitivity analysis, contribution margin, break-even, ratios, contingency, forecasting, and cost database practices |
 | `../consulting-frameworks/references/financial-analysis.md` | Expected value, breakeven, profitability decomposition, market sizing, pricing toolkit, and related commercial logic |
 | `../references/world-class-proposal-patterns.md` | Proposal architecture and commercial positioning patterns |
+| `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Cost drivers for industrial diagnostics, including site work, data cleansing, material-flow mapping, scheduling analysis, warehouse review, and sustainability measurement |
 
 Read the budgeting reference when constructing budgets that need stronger modelling logic, scenario testing, or financial viability checks.
 
