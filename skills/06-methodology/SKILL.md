@@ -91,9 +91,18 @@ Break the assignment into clear phases. For each phase, write:
 3. System Design
 4. Development and Configuration
 5. Testing and Quality Assurance
-6. Deployment and Go-Live
+6. Deployment and Go-Live, including release controls, rollback, observability, and incident readiness where the system will enter production
 7. Training
 8. Post-Implementation Support
+
+**Standard phases for DevOps, CI/CD, cloud, SaaS, or PHP/LAMP assignments:**
+1. Inception and value-stream mapping
+2. Current-state delivery, release, and operations assessment
+3. Pipeline, branching, testing, security, and deployment diagnostics
+4. Observability, incident response, and reliability review
+5. Target operating model and roadmap design
+6. Pilot implementation or quick-win hardening
+7. Knowledge transfer, runbook handover, and improvement backlog
 
 **Standard phases for management consulting assignments:**
 1. Inception and Scoping
@@ -197,6 +206,7 @@ Signal this in the methodology: "Our approach embeds knowledge transfer in every
 | `../consulting-frameworks/references/strategy-frameworks.md` | Market entry, competitive response, build/buy/partner, adjacent market, M&A evaluation, pricing, Blue Ocean ERRC, structured choice, scenario planning, Rumelt's Kernel, Innovation-Change-Learning Matrix |
 | `../consulting-frameworks/references/operations-frameworks.md` | Process bottleneck, stakeholder-based, criteria-based option evaluation, situation assessment, job-to-be-done, importance × satisfaction, structured decision-making |
 | `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Manufacturing, inventory, MRP, capacity, warehouse, facilities, quality, traceability, and green-operations diagnostic domains for industrial proposals |
+| `../consulting-frameworks/references/devops-delivery-diagnostics.md` | DevOps, CI/CD, PHP/LAMP, cloud-native, observability, incident response, DevSecOps, GitOps, and release-engineering diagnostics for software-delivery proposals |
 | `../consulting-frameworks/references/communication-structures.md` | SCORE storytelling, top-down recommendations, exhibit interpretation, action titles, sense-checking, Hero's Journey narrative, Tufte's visualisation rules, Comma Effect |
 | `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, EUR Framework, F.A.A.S.T., Triple Constraints, frontloading, engagement kick-off, SCAMPER, Design Sprint, SOSTAC, SECI Knowledge Spiral |
 | `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, SCORE framework, Cialdini's principles, Red Team review |
