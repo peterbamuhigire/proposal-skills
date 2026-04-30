@@ -407,6 +407,11 @@ For quantitative assignments, reference:
 - Descriptive statistics (mean, median, distribution)
 - Regression analysis (for impact evaluation)
 - Confidence intervals and margin of error (for survey-based findings)
+- The analytics ladder: descriptive for what happened, diagnostic for why it happened,
+  predictive for what may happen, and prescriptive for what action is recommended under
+  constraints. Pair with `data-management/references/data-analytics-methodology-for-proposals.md`
+  whenever the methodology includes datasets, dashboards, AI analytics, forecasting, or
+  decision-support tools.
 
 ---
 
