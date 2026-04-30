@@ -39,6 +39,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- Use `references/data-analytics-methodology-for-proposals.md` when the proposal
+  involves dashboards, MIS analytics, BI, AI analytics, survey analysis, data platforms,
+  routine monitoring, forecasting, or evidence-based decision support.
 
 Assignments involving system implementations, M&E frameworks, surveys, or institutional assessments all require a data management component. Proposals that demonstrate a structured approach to data collection, storage, quality, governance, and protection score higher — particularly with donors who have been burned by projects that produced unusable data.
 

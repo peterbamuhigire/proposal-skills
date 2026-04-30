@@ -1,5 +1,5 @@
 ---
-name: proposal-writing/06-methodology
+name: proposal-writing-06-methodology
 description: Write the approach and methodology section of a consulting proposal. Use when the user asks to draft the methodology, approach, technical approach, work approach, or phased plan section of a proposal.
 ---
 
@@ -208,6 +208,7 @@ Signal this in the methodology: "Our approach embeds knowledge transfer in every
 | `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Manufacturing, inventory, MRP, capacity, warehouse, facilities, quality, traceability, and green-operations diagnostic domains for industrial proposals |
 | `../consulting-frameworks/references/devops-delivery-diagnostics.md` | DevOps, CI/CD, PHP/LAMP, cloud-native, observability, incident response, DevSecOps, GitOps, and release-engineering diagnostics for software-delivery proposals |
 | `../consulting-frameworks/references/communication-structures.md` | SCORE storytelling, top-down recommendations, exhibit interpretation, action titles, sense-checking, Hero's Journey narrative, Tufte's visualisation rules, Comma Effect |
+| `../data-management/references/data-analytics-methodology-for-proposals.md` | Data analytics workstream for dashboards, MIS, BI, AI analytics, survey analysis, forecasting, data-quality profiling, method selection, and handover |
 | `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, EUR Framework, F.A.A.S.T., Triple Constraints, frontloading, engagement kick-off, SCAMPER, Design Sprint, SOSTAC, SECI Knowledge Spiral |
 | `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, SCORE framework, Cialdini's principles, Red Team review |
 | `../references/world-class-proposal-patterns.md` | McKinsey and Deloitte methodology patterns, storyboarding, ghost packs, elevator test, budget proposal architecture, Sweet Spot positioning, prewiring |
