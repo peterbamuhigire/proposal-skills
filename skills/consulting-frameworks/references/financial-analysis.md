@@ -2,6 +2,8 @@
 
 Quantitative analysis patterns for consulting methodologies. Use when the ToR requires financial feasibility, investment appraisal, cost-benefit analysis, market sizing, or profitability diagnosis.
 
+For finance-system, bookkeeping, ERP accounting, reconciliation, Excel model audit, or management-accounting assignments, also read `accounting-finance-systems-diagnostics.md` so the methodology covers source documents, subledgers, control accounts, close, tax, and system controls rather than only financial ratios.
+
 ---
 
 ## 1. Profitability Decomposition
