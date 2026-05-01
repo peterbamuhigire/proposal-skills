@@ -123,6 +123,7 @@ proposal-skills/
 | `skills/gender-and-social-inclusion/SKILL.md` | GESI frameworks, gender mainstreaming, disability and youth inclusion |
 | `skills/environmental-and-social-safeguards/SKILL.md` | ESIA, environmental management plans, World Bank ESF, AfDB ISS |
 | `skills/data-management/SKILL.md` | Data collection, MIS design, data governance, data protection law |
+| `skills/ai-transformation-proposal/SKILL.md` | AI-powered applications, agentic workflows, AI analytics, automation, governance, evaluation, and maintenance proposals |
 | `skills/sustainability-planning/SKILL.md` | Exit strategies, institutional embedding, ownership transfer |
 | `skills/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
