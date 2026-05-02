@@ -14,7 +14,8 @@ Every `SKILL.md` in this repository must place this exact line immediately below
 2. The agent creates or resumes a local `proposals/` workspace, which is gitignored.
 3. Place ToR, RFP, adverts, and templates in the proposal `terms/` folder, and place CVs or team data in `team/`.
 4. The agent reads `skills/SKILL.md`, loads `skills/profiles/SKILL.md`, routes through `skills/sectors/SKILL.md`, and then loads the relevant proposal section skills.
-5. Sections are written into the per-proposal markdown files. Tables are generated into `sheets/`, and final `.docx` outputs are compiled into `output/`.
+5. For high-stakes content, the agent runs `skills/critical-analysis-business-logic/SKILL.md` so claims, assumptions, feasibility, budget, and delivery logic are tested before final writing.
+6. Sections are written into the per-proposal markdown files. Tables are generated into `sheets/`, and final `.docx` outputs are compiled into `output/`.
 
 Example proposal workspace:
 
@@ -46,6 +47,7 @@ This is not a collection of prompt templates. It is a structured knowledge base 
 Recent strengthening includes:
 
 - Proposal strategy patterns such as S1-S2-B logic, P-I-P structure, SCQA narrative spine, Cialdini persuasion principles, theme architecture, and Red Team review.
+- Critical analysis and business-logic discipline: claim-evidence-warrant reasoning, essential questions, mental-model review, feasibility checks, and achievability gates.
 - Consulting delivery patterns such as McKinsey-style problem solving, Done-Done quality, Value Realisation Method, Design Thinking, SECI, and SOSTAC.
 - Business analysis governance, context-driven requirements discovery, fit criteria, and transition planning.
 - Project control artefacts such as WBS dictionaries, responsibility matrices, decision gates, staffing schedules, and work plan hierarchies.
@@ -128,6 +130,7 @@ proposal-skills/
 | `skills/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
 | `skills/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy, operations, and communication frameworks |
+| `skills/critical-analysis-business-logic/SKILL.md` | Serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
 
 ## Proposer Profiles
 
@@ -144,6 +147,7 @@ proposal-skills/
 | `skills/references/proposal-strategy-and-persuasion.md` | S1-S2-B logic, P-I-P structure, buyer psychology, SCQA, Cialdini, Red Team review |
 | `skills/references/world-class-proposal-patterns.md` | McKinsey and Deloitte proposal patterns, storyboarding, ghost packs, elevator test, prewiring |
 | `skills/references/consulting-delivery-excellence.md` | McKinsey-style problem solving, Design Sprint, SCAMPER, SOSTAC, SECI, Done-Done standard |
+| `skills/critical-analysis-business-logic/references/reasoning-and-business-sense-gate.md` | Essential questions, argument map, mental-model pass, business-sense checks, and achievability gate |
 | `skills/consulting-frameworks/references/` | Problem structuring, financial analysis, strategy, operations, communication |
 | `skills/business-analysis-tools/references/` | SWOT, PESTLE, gap analysis, requirements planning, fit criteria, transition evaluation, maturity models |
 

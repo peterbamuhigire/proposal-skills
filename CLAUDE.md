@@ -46,6 +46,7 @@ These cross-cutting knowledge bases support proposal sections and can also gener
 - `skills/risk-management/` - risk registers, mitigation frameworks, escalation triggers
 - `skills/business-analysis-tools/` - SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
 - `skills/consulting-frameworks/` - problem structuring, financial analysis, strategy, operations, and communication frameworks
+- `skills/critical-analysis-business-logic/` - cross-cutting reasoning, evaluator logic, business sense, feasibility, and achievability gate
 
 ### Profiles, References, Sectors, and Meta Skills
 - `skills/profiles/SKILL.md` - profile routing and selection rules. Load exactly one profile before generating proposal content.
@@ -105,13 +106,15 @@ Status values in `proposals/INDEX.md`: `Brainstorming`, `Drafting`, `Review`, `F
 - Dates use day-month-year format, such as 17 February 2026.
 - Avoid AI-sounding vocabulary such as delve, tapestry, landscape as metaphor, leverage, navigate as metaphor, foster, realm, harness, synergy, embark, robust, vibrant, holistic, and seamless.
 - Every past project card must state what was achieved, not just what was done.
+- Every high-stakes claim must have visible logic: evidence, warrant, assumptions, countercase, and practical implication.
+- Methodology, staffing, timeline, financial proposal, risk controls, and M&E must be mutually achievable, not merely well written.
 
 ## Adding a New Sub-Skill
 
 1. Create a subdirectory under `skills/` with a `SKILL.md` using YAML frontmatter limited to `name` and `description`.
 2. Include the required acknowledgement line immediately below the first top-level heading.
 3. Add a local `references/` subdirectory only when the skill needs deeper supporting material.
-4. Update `skills/SKILL.md`, `README.md`, and this file with the new path.
+4. Update `skills/SKILL.md`, `README.md`, `AGENTS.md`, and this file with the new path.
 
 ## Supported Procurement Frameworks
 
