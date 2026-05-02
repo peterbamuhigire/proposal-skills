@@ -7,6 +7,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Every `SKILL.md` must include this exact acknowledgement line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
 - Load `skills/profiles/SKILL.md` before drafting any proposal text so voice, signatory, and proposer identity stay consistent.
 - Use `skills/sectors/SKILL.md` to decide which procurement framework and industry sector skills apply.
+- Use `skills/critical-analysis-business-logic/SKILL.md` as the reasoning, business-sense, feasibility, and achievability gate for high-stakes proposal content and final review.
 - Keep technical and financial proposal content separate when the procurement process requires separate envelopes or forms.
 
 ## Task Routing
@@ -15,6 +16,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Procurement and sector routing: [skills/sectors/SKILL.md](/C:/wamp64/www/proposal-skills/skills/sectors/SKILL.md)
 - Proposal sections: use the numbered section skills under `skills/01-` through `skills/10-`
 - Supporting proposal domains: use unnumbered skills such as `skills/project-management/`, `skills/monitoring-and-evaluation/`, `skills/risk-management/`, `skills/stakeholder-engagement/`, and related folders when the ToR or methodology needs that domain
+- Serious analysis and business logic: use [skills/critical-analysis-business-logic/SKILL.md](/C:/wamp64/www/proposal-skills/skills/critical-analysis-business-logic/SKILL.md) before methodology, work plan, financial, transformation, and final-review outputs
 - Language and tone: use [skills/east-african-english/SKILL.md](/C:/wamp64/www/proposal-skills/skills/east-african-english/SKILL.md) and [skills/language-standards/SKILL.md](/C:/wamp64/www/proposal-skills/skills/language-standards/SKILL.md) as cross-cutting review layers
 - Skill maintenance: use [skills/skill-writing/SKILL.md](/C:/wamp64/www/proposal-skills/skills/skill-writing/SKILL.md), [skills/skill-safety-audit/SKILL.md](/C:/wamp64/www/proposal-skills/skills/skill-safety-audit/SKILL.md), and [skills/update-claude-documentation/SKILL.md](/C:/wamp64/www/proposal-skills/skills/update-claude-documentation/SKILL.md)
 - Blog workflows: use `skills/blog-idea-generator/` and `skills/blog-writer/` only for content publishing tasks, not for proposal work
@@ -28,6 +30,8 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 
 ## Quality Expectations
 - Prefer concrete, evaluator-facing language over generic corporate boilerplate.
+- Make the logic visible: claim, evidence, warrant, assumption, countercase, and implication should be clear for load-bearing proposal claims.
+- Do not call a proposed approach convincing, innovative, or high-value unless it is feasible under the team, time, budget, client data, approvals, and country constraints.
 - Use British English and East African professional tone for proposal work unless the active skill says otherwise.
 - Keep outputs aligned across profile, methodology, work plan, staffing, and pricing.
 - When a skill exposes `Use When`, `Do Not Use When`, `Required Inputs`, `Workflow`, `Quality Standards`, `Anti-Patterns`, and `Outputs`, follow those sections as the default contract.

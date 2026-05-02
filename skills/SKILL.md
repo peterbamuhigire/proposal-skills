@@ -25,8 +25,9 @@ This parent skill covers the full range of consulting proposal documents. All ac
 1. Identify the requested document or proposal section.
 2. Load `skills/profiles/SKILL.md` before drafting proposal text so voice and identity are consistent.
 3. Load the relevant numbered section skill, then add procurement, sector, and supporting domain skills only where they materially improve the output.
-4. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
-5. Verify compliance, section order, and separation between technical and financial content before finalizing.
+4. Load `skills/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
+5. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
+6. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
 
 ## Quality Standards
 - Treat each `SKILL.md` as the portable unit and load it from the `skills/` folder.
@@ -79,6 +80,7 @@ Read the relevant supporting skill when the proposal requires that domain. Each 
 | `skills/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, cost-benefit analysis, maturity models, prioritisation matrices |
 | `skills/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy frameworks, operations frameworks, communication structures |
+| `skills/critical-analysis-business-logic/SKILL.md` | Cross-cutting serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
 
 ## Reference - Proposal Strategy and Persuasion
 
@@ -87,6 +89,10 @@ Read `skills/references/proposal-strategy-and-persuasion.md` before writing any 
 ## Reference - World-Class Proposal Patterns
 
 Read `skills/references/world-class-proposal-patterns.md` before writing any proposal. Apply its guidance on quantified evidence, named frameworks, client-first problem framing, scannability, programme-level thinking, storyboarding, ghost packs, the elevator test, and prewiring.
+
+## Reference - Critical Analysis and Business Logic
+
+Read `skills/critical-analysis-business-logic/SKILL.md` before writing methodology, work plan, financial proposal, risk, M&E, sustainability, transformation, or final review content. Apply its claim-evidence-warrant discipline, essential questions, business-sense checks, mental-model pass, and achievability gate so the proposal is persuasive because it is logical and deliverable.
 
 ## Reference - Consulting Delivery Excellence
 
