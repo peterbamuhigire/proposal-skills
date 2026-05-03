@@ -42,6 +42,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../premium-client-proposal-strategy/SKILL.md` for executive, enterprise, affluent, luxury, high-ticket, or premium-priced proposals where value, proof, and pricing confidence matter.
 - Root `references/` files for persuasion, story structure, and proposal patterns.
 
 The executive summary is the most heavily read section after the cover letter. Many evaluators form their first impression here. It must communicate the firm's understanding, approach, differentiation, and value in two to three pages — without requiring the reader to look at any other section.
