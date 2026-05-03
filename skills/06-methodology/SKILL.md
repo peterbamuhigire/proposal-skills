@@ -42,6 +42,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../premium-client-proposal-strategy/SKILL.md` when the assignment targets premium clients, executives, enterprise buyers, affluent markets, strategic growth, pricing, sales, or high-ticket transformation.
 - Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
 
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.

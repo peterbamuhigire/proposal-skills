@@ -198,6 +198,7 @@ This is useful when presenting optional scope, alternative commercial options, o
 - For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
 - For accounting, bookkeeping, ERP finance, POS/accounting integration, finance dashboards, Excel model, or management-accounting assignments, price discovery of source documents, chart-of-accounts review, reconciliation sampling, control walkthroughs, data cleanup, model audit, configuration review, and validation workshops explicitly.
 - For finance transformation, accounting cleanup, ERP/POS finance, grant finance, revenue assurance, cost-control, financial-modelling, or management-accounting proposals, run `../accounting-finance-advisory/SKILL.md` before final pricing so scope, methodology, deliverables, risks, and level of effort agree.
+- For premium-client, executive, enterprise, luxury/affluent, high-ticket, or strategic transformation proposals, run `../premium-client-proposal-strategy/SKILL.md` before final pricing so fees reflect value, risk, seniority, proof, governance, and service quality rather than low-cost positioning.
 - For manufacturing, warehousing, logistics, ERP/MES/WMS/TMS, and industrial operations assignments, price site visits, data extraction, stock sampling, process observation, layout mapping, validation workshops, and specialist modelling effort explicitly.
 - For multi-year assignments, include NPV or cash-flow logic where the commercial form allows it.
 - Categorise costs clearly as direct, indirect, fixed, variable, or reimbursable where that adds clarity.
@@ -210,6 +211,7 @@ This is useful when presenting optional scope, alternative commercial options, o
 | `../consulting-frameworks/references/financial-analysis.md` | Expected value, breakeven, profitability decomposition, market sizing, pricing toolkit, and related commercial logic |
 | `../consulting-frameworks/references/accounting-finance-systems-diagnostics.md` | Accounting/bookkeeping diagnostics, ERP finance controls, reconciliations, management accounting, source-document review, Excel model audit, and finance-system deliverables |
 | `../accounting-finance-advisory/references/accounting-finance-proposal-gate.md` | Proposal workstreams, deliverables, pricing drivers, acceptance criteria, and red flags for accounting, ERP finance, financial-modelling, controls, and finance-transformation assignments |
+| `../premium-client-proposal-strategy/references/premium-proposal-gate.md` | Executive, enterprise, affluent, high-ticket, and premium proposal positioning, methodology, proof, and commercial discipline |
 | `../references/world-class-proposal-patterns.md` | Proposal architecture and commercial positioning patterns |
 | `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Cost drivers for industrial diagnostics, including site work, data cleansing, material-flow mapping, scheduling analysis, warehouse review, and sustainability measurement |
 
