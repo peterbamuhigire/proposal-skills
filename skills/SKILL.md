@@ -25,9 +25,10 @@ This parent skill covers the full range of consulting proposal documents. All ac
 1. Identify the requested document or proposal section.
 2. Load `skills/profiles/SKILL.md` before drafting proposal text so voice and identity are consistent.
 3. Load the relevant numbered section skill, then add procurement, sector, and supporting domain skills only where they materially improve the output.
-4. Load `skills/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
-5. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
-6. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
+4. Load `skills/website-design-proposal-strategy/SKILL.md` whenever the proposal includes website design, redesign, SEO, web content, ecommerce, portal, landing page, web frontend, hosting, maintenance, or website costing.
+5. Load `skills/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
+6. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
+7. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
 
 ## Quality Standards
 - Treat each `SKILL.md` as the portable unit and load it from the `skills/` folder.
@@ -76,6 +77,7 @@ Read the relevant supporting skill when the proposal requires that domain. Each 
 | `skills/gender-and-social-inclusion/SKILL.md` | GESI frameworks, gender mainstreaming, disability and youth inclusion |
 | `skills/environmental-and-social-safeguards/SKILL.md` | ESIA, environmental management plans, World Bank ESF, AfDB ISS |
 | `skills/data-management/SKILL.md` | Data collection, MIS design, data governance, data protection law |
+| `skills/website-design-proposal-strategy/SKILL.md` | Website philosophy, UX/content/SEO methodology, stack explanation, costing, QA, launch, handover, and support |
 | `skills/sustainability-planning/SKILL.md` | Exit strategies, institutional embedding, ownership transfer |
 | `skills/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, cost-benefit analysis, maturity models, prioritisation matrices |

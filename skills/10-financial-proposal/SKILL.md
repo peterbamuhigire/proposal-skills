@@ -1,5 +1,5 @@
 ---
-name: proposal-writing/10-financial-proposal
+name: proposal-writing-10-financial-proposal
 description: Write the financial proposal for a consulting bid. Use when the user asks to draft a financial proposal, budget, cost breakdown, fee schedule, or pricing for a consulting assignment.
 ---
 
@@ -196,6 +196,7 @@ This is useful when presenting optional scope, alternative commercial options, o
 - State currency explicitly on every table.
 - Keep the financial proposal separate from the technical proposal where required.
 - For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
+- For website design, redesign, SEO-ready website, ecommerce, landing page, portal, or web frontend assignments, run `../website-design-proposal-strategy/SKILL.md` before final pricing. Price discovery, UX, content, SEO, design system, development, CMS, integrations, QA, launch, hosting/licences, training, handover, support, and post-launch optimisation explicitly.
 - For accounting, bookkeeping, ERP finance, POS/accounting integration, finance dashboards, Excel model, or management-accounting assignments, price discovery of source documents, chart-of-accounts review, reconciliation sampling, control walkthroughs, data cleanup, model audit, configuration review, and validation workshops explicitly.
 - For finance transformation, accounting cleanup, ERP/POS finance, grant finance, revenue assurance, cost-control, financial-modelling, or management-accounting proposals, run `../accounting-finance-advisory/SKILL.md` before final pricing so scope, methodology, deliverables, risks, and level of effort agree.
 - For premium-client, executive, enterprise, luxury/affluent, high-ticket, or strategic transformation proposals, run `../premium-client-proposal-strategy/SKILL.md` before final pricing so fees reflect value, risk, seniority, proof, governance, and service quality rather than low-cost positioning.
@@ -212,6 +213,7 @@ This is useful when presenting optional scope, alternative commercial options, o
 | `../consulting-frameworks/references/accounting-finance-systems-diagnostics.md` | Accounting/bookkeeping diagnostics, ERP finance controls, reconciliations, management accounting, source-document review, Excel model audit, and finance-system deliverables |
 | `../accounting-finance-advisory/references/accounting-finance-proposal-gate.md` | Proposal workstreams, deliverables, pricing drivers, acceptance criteria, and red flags for accounting, ERP finance, financial-modelling, controls, and finance-transformation assignments |
 | `../premium-client-proposal-strategy/references/premium-proposal-gate.md` | Executive, enterprise, affluent, high-ticket, and premium proposal positioning, methodology, proof, and commercial discipline |
+| `../website-design-proposal-strategy/references/website-design-proposal-gate.md` | Website philosophy, UX/content/SEO methodology, stack explanation, deliverables, costing drivers, acceptance criteria, launch, handover, and red flags |
 | `../references/world-class-proposal-patterns.md` | Proposal architecture and commercial positioning patterns |
 | `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Cost drivers for industrial diagnostics, including site work, data cleansing, material-flow mapping, scheduling analysis, warehouse review, and sustainability measurement |
 

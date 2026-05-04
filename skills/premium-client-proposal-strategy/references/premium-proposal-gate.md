@@ -22,6 +22,7 @@ Use this gate for high-value proposals where the firm must win on value, trust, 
 - Explain why the phase exists, what will be done, and what value it creates.
 - Include discovery and diagnosis before prescription where the problem is complex.
 - For growth, premium positioning, marketing, pricing, or sales assignments, include buyer research, offer review, pricing review, channel plan, sales process, pilot/testing, and measurement cadence.
+- For website, product, or service-design assignments, include premium packaging, content/SEO, usability, proof, launch, measurement, and support workstreams where they affect value.
 
 ## Commercial Strategy
 
@@ -36,3 +37,9 @@ Use this gate for high-value proposals where the firm must win on value, trust, 
 - Avoid hype, begging language, generic adjectives, and unsupported superiority claims.
 - Use the client's language for the problem and the firm's language for the method.
 - Make invisible service quality tangible: process, cadence, governance, evidence, escalation, and deliverables.
+- Explain price premium through outcomes, risk reduction, senior judgement, quality controls, proof, and lifecycle value; never through adjectives alone.
+
+## Authority And Meeting Assets
+
+- High-value proposals should reference assets that make the buyer comfortable meeting or approving: diagnostic, audit sample, benchmark, case study, prototype, risk register, implementation roadmap, or executive briefing.
+- For elite or enterprise buyers, show the proposal's role in a broader decision process: stakeholder confidence, board approval, procurement evidence, implementation risk, and post-award governance.

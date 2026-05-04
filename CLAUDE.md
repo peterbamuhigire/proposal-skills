@@ -42,6 +42,7 @@ These cross-cutting knowledge bases support proposal sections and can also gener
 - `skills/gender-and-social-inclusion/` - GESI frameworks, disability and youth inclusion
 - `skills/environmental-and-social-safeguards/` - ESIA, environmental management plans, World Bank ESF, AfDB ISS
 - `skills/data-management/` - data collection, MIS design, data governance, data protection law
+- `skills/website-design-proposal-strategy/` - website design/development proposal philosophy, stack explanation, UX/content/SEO methodology, costing drivers, QA, launch, handover, and support
 - `skills/sustainability-planning/` - exit strategies, institutional embedding, ownership transfer
 - `skills/risk-management/` - risk registers, mitigation frameworks, escalation triggers
 - `skills/business-analysis-tools/` - SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
