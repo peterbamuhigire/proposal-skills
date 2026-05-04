@@ -43,6 +43,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../premium-client-proposal-strategy/SKILL.md` when the assignment targets premium clients, executives, enterprise buyers, affluent markets, strategic growth, pricing, sales, or high-ticket transformation.
+- `../website-design-proposal-strategy/SKILL.md` when the methodology includes website design, redesign, SEO, content architecture, ecommerce, landing pages, portals, web frontends, launch, training, or support.
 - Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
 
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.
@@ -95,6 +96,17 @@ Break the assignment into clear phases. For each phase, write:
 6. Deployment and Go-Live, including release controls, rollback, observability, and incident readiness where the system will enter production
 7. Training
 8. Post-Implementation Support
+
+**Standard phases for website design and development assignments:**
+1. Inception, commercial goals, and stakeholder alignment
+2. Website strategy, audience, analytics, and competitor review
+3. Content, SEO, and information architecture
+4. UX journeys, wireframes, and prototype validation
+5. Visual design system and responsive template approval
+6. Development, CMS/configuration, integrations, and analytics setup
+7. QA: accessibility, performance, security, SEO/schema, browser/device, forms, and content checks
+8. Launch: redirects, DNS/hosting, backups, Search Console/Bing, social previews, and go-live report
+9. Training, handover, support window, and optimisation backlog
 
 **Standard phases for DevOps, CI/CD, cloud, SaaS, or PHP/LAMP assignments:**
 1. Inception and value-stream mapping
