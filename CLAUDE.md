@@ -42,7 +42,14 @@ These cross-cutting knowledge bases support proposal sections and can also gener
 - `skills/gender-and-social-inclusion/` - GESI frameworks, disability and youth inclusion
 - `skills/environmental-and-social-safeguards/` - ESIA, environmental management plans, World Bank ESF, AfDB ISS
 - `skills/data-management/` - data collection, MIS design, data governance, data protection law
+- `skills/ai-transformation-proposal/` - AI applications, agentic workflows, analytics, automation, governance, evaluation, operations, and maintenance proposals
 - `skills/website-design-proposal-strategy/` - website design/development proposal philosophy, stack explanation, UX/content/SEO methodology, costing drivers, QA, launch, handover, and support
+- `skills/premium-client-proposal-strategy/` - executive, enterprise, affluent, high-ticket, premium, and strategic transformation proposal positioning
+- `skills/premium-pricing-and-value-defense/` - premium fee justification, commercial options, value stack, and price defence
+- `skills/sales-discovery-and-objection-handling/` - discovery question banks, buyer qualification, objection handling, and follow-up logic
+- `skills/service-design-proposal-strategy/` - service design, customer/citizen experience, journey mapping, blueprints, co-creation, and implementation evidence
+- `skills/proposal-storytelling-and-evaluator-journey/` - evaluator journey, narrative spine, case-story structure, design rationale, and sign-off flow
+- `skills/customer-service-and-maintenance-proposals/` - support, maintenance, SLAs, escalation, incident response, managed services, and post-launch optimisation
 - `skills/sustainability-planning/` - exit strategies, institutional embedding, ownership transfer
 - `skills/risk-management/` - risk registers, mitigation frameworks, escalation triggers
 - `skills/business-analysis-tools/` - SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
@@ -54,7 +61,7 @@ These cross-cutting knowledge bases support proposal sections and can also gener
 - `skills/profiles/peter-bamuhigire.md` - individual consultant profile.
 - `skills/profiles/chwezi-core-systems.md` - company profile.
 - `skills/profiles/client-template.md` - ghostwriting template.
-- `skills/references/` - cross-cutting proposal strategy, persuasion, world-class proposal patterns, and consulting delivery excellence.
+- `skills/references/` - cross-cutting proposal strategy, persuasion, world-class proposal patterns, consulting delivery excellence, ethical evaluator psychology, premium pricing, discovery, objection handling, service design, support commitments, narrative patterns, and technical strategy credibility.
 - `skills/sectors/SKILL.md` - procurement and sector routing. Sector directories include PPDA Uganda, World Bank, AfDB, UNDP, and industry-specific sectors.
 - `skills/blog-idea-generator/` and `skills/blog-writer/` - content creation skills, used only for publishing tasks.
 - `skills/east-african-english/` and `skills/language-standards/` - cross-cutting language and tone standards.

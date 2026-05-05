@@ -52,6 +52,7 @@ Recent strengthening includes:
 - Business analysis governance, context-driven requirements discovery, fit criteria, and transition planning.
 - Project control artefacts such as WBS dictionaries, responsibility matrices, decision gates, staffing schedules, and work plan hierarchies.
 - Manufacturing, industrial production, inventory, capacity, material handling, MRP, scheduling, and green production diagnostics for bids involving operations-heavy businesses.
+- Premium proposal strategy, ethical evaluator psychology, sales discovery, objection handling, premium-rate defence, service design, technical strategy, and support/maintenance language derived from local HTML study materials.
 
 ## Repository Structure
 
@@ -126,6 +127,13 @@ proposal-skills/
 | `skills/environmental-and-social-safeguards/SKILL.md` | ESIA, environmental management plans, World Bank ESF, AfDB ISS |
 | `skills/data-management/SKILL.md` | Data collection, MIS design, data governance, data protection law |
 | `skills/ai-transformation-proposal/SKILL.md` | AI-powered applications, agentic workflows, AI analytics, automation, governance, evaluation, and maintenance proposals |
+| `skills/website-design-proposal-strategy/SKILL.md` | Website design/development strategy, UX/content/SEO methodology, stack explanation, launch, handover, costing, and support |
+| `skills/premium-client-proposal-strategy/SKILL.md` | Executive, enterprise, affluent, high-ticket, premium, and strategic transformation proposal positioning |
+| `skills/premium-pricing-and-value-defense/SKILL.md` | Premium fee justification, commercial options, value stack, total-cost-of-ownership logic, and price defence |
+| `skills/sales-discovery-and-objection-handling/SKILL.md` | Discovery questions, qualification, buyer concerns, objection handling, and follow-up logic |
+| `skills/service-design-proposal-strategy/SKILL.md` | Service design, customer/citizen experience, journey maps, blueprints, co-creation, and implementation evidence |
+| `skills/proposal-storytelling-and-evaluator-journey/SKILL.md` | Narrative spine, evaluator journey, case-study story structure, design rationale, and presentation flow |
+| `skills/customer-service-and-maintenance-proposals/SKILL.md` | Support, maintenance, SLAs, escalation, incident response, managed services, and post-launch optimisation |
 | `skills/sustainability-planning/SKILL.md` | Exit strategies, institutional embedding, ownership transfer |
 | `skills/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
@@ -147,6 +155,15 @@ proposal-skills/
 | `skills/references/proposal-strategy-and-persuasion.md` | S1-S2-B logic, P-I-P structure, buyer psychology, SCQA, Cialdini, Red Team review |
 | `skills/references/world-class-proposal-patterns.md` | McKinsey and Deloitte proposal patterns, storyboarding, ghost packs, elevator test, prewiring |
 | `skills/references/consulting-delivery-excellence.md` | McKinsey-style problem solving, Design Sprint, SCAMPER, SOSTAC, SECI, Done-Done standard |
+| `skills/references/ethical-persuasion-and-evaluator-psychology-gate.md` | Ethical persuasion, evaluator concerns, risk perception, social proof discipline, and persuasion red flags |
+| `skills/references/premium-rate-justification-framework.md` | Premium value stack, proof ladder, commercial options, discount rules, and price defence |
+| `skills/references/discovery-question-bank-for-proposals.md` | Proposal discovery questions for outcomes, buyers, users, scope, technology, AI, support, and commercial assumptions |
+| `skills/references/proposal-objection-handling.md` | Ethical handling of price, risk, timeline, staffing, technology, AI, local-context, support, and procurement objections |
+| `skills/references/service-design-methodology-module.md` | Service design phases, journey mapping, blueprints, co-creation, prototypes, implementation, and acceptance criteria |
+| `skills/references/website-software-maintenance-support-language.md` | Website/software/AI maintenance categories, SLA language, support commitments, client responsibilities, and pricing notes |
+| `skills/references/proposal-narrative-patterns-and-case-story-spine.md` | Evaluator journey, narrative spine, case-study story cards, design rationale, and storyboard use |
+| `skills/references/technical-strategy-credibility-checklist.md` | Software, SaaS, AI, cloud, API, operations, roadmap, governance, and maintainability checks |
+| `skills/references/customer-service-and-escalation-commitments.md` | Service communication, escalation, complaint recovery, known-problem updates, and support boundaries |
 | `skills/critical-analysis-business-logic/references/reasoning-and-business-sense-gate.md` | Essential questions, argument map, mental-model pass, business-sense checks, and achievability gate |
 | `skills/consulting-frameworks/references/` | Problem structuring, financial analysis, strategy, operations, communication |
 | `skills/business-analysis-tools/references/` | SWOT, PESTLE, gap analysis, requirements planning, fit criteria, transition evaluation, maturity models |

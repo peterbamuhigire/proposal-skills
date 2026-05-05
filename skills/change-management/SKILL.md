@@ -20,9 +20,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Workflow
 1. Identify where change-management logic matters in the assignment.
-2. Read the local references only where they materially improve the output.
-3. Convert the guidance into proposal-ready activities, controls, and adoption mechanisms.
-4. Integrate the result into the target section and check for consistency.
+2. Identify adoption risks across leaders, managers, frontline staff, users, customers, beneficiaries, and support teams.
+3. Read the local references only where they materially improve the output.
+4. Convert the guidance into proposal-ready activities, controls, and adoption mechanisms.
+5. Integrate the result into the target section and check for consistency.
 
 ## Quality Standards
 - Translate theory into practical proposal language, outputs, and roles.
@@ -39,6 +40,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/service-design-methodology-module.md` for co-creation, prototype validation, service implementation, and frontline adoption.
+- `../references/discovery-question-bank-for-proposals.md` for change-readiness, adoption, and implementation assumption questions.
+- `../customer-service-and-maintenance-proposals/SKILL.md` when adoption depends on support, issue handling, and post-launch confidence.
 
 Most consulting assignments — ICT implementations, institutional reform, process improvement — require people to change how they work. Proposals that address this explicitly score higher than those that treat change as an afterthought. This skill provides the OCM frameworks and structures that proposal sections draw from.
 

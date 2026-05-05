@@ -1,5 +1,5 @@
 ---
-name: proposal-writing/03-understanding-of-assignment
+name: proposal-writing-03-understanding-of-assignment
 description: Write the understanding of the assignment section of a consulting proposal. Use when the user asks to draft the background, objectives, scope interpretation, or ToR comments section.
 ---
 
@@ -22,9 +22,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Workflow
 1. Read the assignment materials and identify the real problem, scope, and evaluator concerns.
 2. Load relevant profile, sector, procurement, and supporting domain skills before drafting.
-3. Use the structure below to translate the brief into a clear, client-aware interpretation in your own words.
-4. Add substantive comments on the ToR where the format or evaluator expectations reward them.
-5. Check the section against the methodology and work plan so the logic flows cleanly into delivery.
+3. Use discovery questions to expose missing assumptions on outcomes, users, data, support, budget, approvals, and decision criteria.
+4. Use the structure below to translate the brief into a clear, client-aware interpretation in your own words.
+5. Add substantive comments on the ToR where the format or evaluator expectations reward them.
+6. Check the section against the methodology and work plan so the logic flows cleanly into delivery.
 
 ## Quality Standards
 - Keep the section analytical, client-specific, and grounded in the actual brief.
@@ -42,6 +43,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../references/discovery-question-bank-for-proposals.md` for clarification questions and assumption discovery.
+- `../service-design-proposal-strategy/SKILL.md` when the assignment involves journeys, touchpoints, support, citizen/customer experience, or service quality.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for evaluator concern, risk perception, and ethical persuasion checks.
 - Root `references/` files for persuasion, logic structure, and proposal patterns.
 
 This section proves the firm has read, analysed, and thought critically about the Terms of Reference. It is not a paraphrase of the ToR — evaluators wrote the ToR and will notice if it is simply copied back at them. The firm must restate the assignment in its own words and add professional insight.
@@ -154,6 +158,8 @@ This question drives the methodology: it tells the team what data to collect, wh
 ### Stating It in the Proposal
 
 The understanding section should identify the overriding question explicitly. This signals to the evaluator that the firm has moved beyond surface comprehension to genuine analytical engagement with the assignment. Place it after the S1–S2–B narrative, as a bridge to the methodology.
+
+For website, software, SaaS, AI, service design, support, or transformation assignments, the overriding question should include the operating reality: which users are affected, which service or workflow moments fail today, which data or systems constrain delivery, and which measurable outcome will prove the change worked.
 
 ## Problem Analysis — Three Facets
 

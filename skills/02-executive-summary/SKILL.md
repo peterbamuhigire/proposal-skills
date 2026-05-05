@@ -23,8 +23,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Read the assignment materials and confirm what the summary must persuade the evaluator to believe.
 2. Load the proposer profile and any relevant procurement, sector, or domain skills.
 3. Use the structure below to create a concise, benefits-forward summary tied to the actual assignment.
-4. Cross-check the summary against the rest of the proposal so the themes and facts match.
-5. Verify that the opening, differentiators, scope logic, and close all reinforce the same win story.
+4. Build the evaluator journey: understanding, confidence, proof, control, and defensible decision.
+5. Cross-check the summary against the rest of the proposal so the themes and facts match.
+6. Verify that the opening, differentiators, scope logic, and close all reinforce the same win story.
 
 ## Quality Standards
 - Keep the section client-specific, scannable, and strategically persuasive.
@@ -44,6 +45,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../premium-client-proposal-strategy/SKILL.md` for executive, enterprise, affluent, luxury, high-ticket, or premium-priced proposals where value, proof, and pricing confidence matter.
 - `../website-design-proposal-strategy/SKILL.md` when the proposal includes website design, redesign, SEO-ready content, ecommerce, landing pages, portals, web applications, or website costing.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` when the summary needs a stronger narrative spine, case-story logic, or evaluator journey.
+- `../premium-pricing-and-value-defense/SKILL.md` when the summary must justify premium fees, total cost of ownership, service quality, or risk reduction.
+- `../sales-discovery-and-objection-handling/SKILL.md` when likely buyer objections should be anticipated in the executive summary.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for high-stakes persuasion and risk-perception checks.
 - Root `references/` files for persuasion, story structure, and proposal patterns.
 
 The executive summary is the most heavily read section after the cover letter. Many evaluators form their first impression here. It must communicate the firm's understanding, approach, differentiation, and value in two to three pages — without requiring the reader to look at any other section.
@@ -97,6 +102,8 @@ One paragraph or a simple table showing the overall duration, major phases, and 
 One paragraph that ties the differentiators to the client's expected outcomes. What will be different for the client after this assignment? State the value in terms the client cares about — cost savings, time reduction, compliance achieved, systems operational, staff trained and competent.
 
 For growth, revenue, product, AI, or transformation proposals, state the growth engine explicitly: the target customer, acquisition or adoption path, conversion or activation moment, retention/referral mechanism, profit lever, and management metric. Do not settle for broad claims such as "increase growth" or "drive innovation".
+
+For website, software, SaaS, AI, service design, or support-heavy proposals, state the operating system explicitly: the user or customer journey, the service moment being improved, the technical or operational capability being built, the support model that protects value after launch, and the metric management will use to judge success.
 
 ## Tone Rules
 
