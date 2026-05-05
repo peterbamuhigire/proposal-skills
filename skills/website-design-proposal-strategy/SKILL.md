@@ -31,8 +31,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 3. Draft the philosophy: strategy before design, content before decoration, search and accessibility by default, performance/security as quality gates, and measurable launch outcomes.
 4. Build the methodology from reviewable artefacts: discovery brief, content/SEO map, UX architecture, design system, prototype, build, QA, launch, training, and support.
 5. Explain the stack in client-value language: speed, ownership, maintainability, security, integrations, content workflow, scalability, and total cost of ownership.
-6. Cost the scope from delivery drivers, not page count alone: senior discovery, UX, content, SEO, development, integrations, QA, project management, launch, documentation, training, and support.
-7. Run the website design proposal gate before finalising methodology, executive summary, work plan, and financial proposal.
+6. Explain design decisions through client goals, user needs, evidence, trade-offs, and approval points, especially where stakeholders may prefer different layouts or technologies.
+7. Treat forms, search, navigation, errors, confirmation messages, and content workflows as business-critical service moments, not minor interface details.
+8. Cost the scope from delivery drivers, not page count alone: senior discovery, UX, content, SEO, development, integrations, QA, project management, launch, documentation, training, and support.
+9. Define post-launch support, maintenance, analytics review, security updates, content updates, and optimisation so they are not implied freebies.
+10. Run the website design proposal gate before finalising methodology, executive summary, work plan, and financial proposal.
 
 ## Quality Standards
 
@@ -41,6 +44,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Content, SEO, UX, accessibility, performance, security, analytics, and handover are first-class workstreams.
 - Stack recommendations are justified by client needs rather than fashion or developer preference.
 - Pricing protects premium delivery quality and does not hide material work inside a vague lump sum.
+- The proposal shows how the website supports the wider service journey, conversion path, support model, or institutional mandate.
+- The support model is specific enough to manage expectations after launch.
 
 ## Anti-Patterns
 
@@ -55,8 +60,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Website proposal win theme.
 - Technical approach and methodology text.
 - Stack philosophy and architecture rationale.
+- Design rationale, evaluator story, and user-journey language.
 - Deliverables and acceptance criteria.
 - Financial proposal costing notes and assumptions.
+- Maintenance, support, and optimisation assumptions.
 - Website design proposal quality review.
 
 ## References
@@ -65,3 +72,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../06-methodology/SKILL.md` - proposal methodology section owner.
 - `../10-financial-proposal/SKILL.md` - financial proposal and costing owner.
 - `../premium-client-proposal-strategy/SKILL.md` - use for premium, executive, enterprise, affluent, or high-ticket website proposals.
+- `../service-design-proposal-strategy/SKILL.md` - use when the website is part of a wider customer, citizen, or staff service journey.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` - design rationale, evaluator journey, and case-story support.
+- `../customer-service-and-maintenance-proposals/SKILL.md` - post-launch support, SLA, maintenance, and escalation language.
+- `../premium-pricing-and-value-defense/SKILL.md` - premium website pricing and value defence.
+- `../references/technical-strategy-credibility-checklist.md` - architecture, maintainability, operations, SaaS, and roadmap checks.

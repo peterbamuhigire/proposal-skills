@@ -34,9 +34,11 @@ Use this skill as the proposal suite's thinking gate. It prevents persuasive wri
 1. State the evaluator's real decision: why should this proposer be trusted for this assignment?
 2. Convert each major section into claim, evidence, warrant, assumption, countercase, and implication.
 3. Use `references/reasoning-and-business-sense-gate.md` to test essential questions, logic, business sense, feasibility, and achievability.
-4. Check that methodology, staffing, timeline, risk controls, M&E, sustainability, and budget tell the same delivery story.
-5. Rewrite claims into evaluator-facing language: specific, evidenced, measurable, and proportionate.
-6. Flag any proof gaps that cannot be solved by wording.
+4. Apply ethical persuasion and evaluator psychology checks so strong writing does not become manipulation or unsupported confidence.
+5. Check technical strategy where software, SaaS, AI, cloud, integrations, data, or operations are central.
+6. Check that methodology, staffing, timeline, risk controls, M&E, sustainability, support, and budget tell the same delivery story.
+7. Rewrite claims into evaluator-facing language: specific, evidenced, measurable, and proportionate.
+8. Flag any proof gaps that cannot be solved by wording.
 
 ## Quality Bar
 
@@ -45,6 +47,7 @@ Use this skill as the proposal suite's thinking gate. It prevents persuasive wri
 - The methodology can be delivered with the proposed team, time, tools, and budget.
 - The value proposition is specific enough to be scored.
 - Risks and constraints are not hidden.
+- Premium pricing, support promises, and technical claims are defensible under the stated scope.
 
 ## Anti-Patterns
 
@@ -67,4 +70,7 @@ Use this skill as the proposal suite's thinking gate. It prevents persuasive wri
 
 - `references/reasoning-and-business-sense-gate.md` - essential questions, argument map, business-sense gate, achievability checks, and final reviewer checklist.
 - `../references/proposal-strategy-and-persuasion.md` - win themes, SCQA, Pyramid of Ideas, P-I-P, and red-team review.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` - ethical persuasion, evaluator concerns, risk perception, and red flags.
+- `../references/technical-strategy-credibility-checklist.md` - SaaS, AI, software, cloud, architecture, operations, and maintainability checks.
+- `../references/premium-rate-justification-framework.md` - premium value, price defence, options, and commercial proof ladder.
 - `../consulting-frameworks/references/problem-structuring.md` - issue trees, MECE, and hypothesis-driven analysis when the methodology needs deeper structure.

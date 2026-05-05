@@ -23,9 +23,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Read the commercial instructions and identify the required pricing structure, forms, and constraints.
 2. Load any relevant procurement framework before drafting or structuring the response.
 3. Build the budget from delivery drivers: scope, team, level of effort, timing, travel, and approvals.
-4. Test the price for internal consistency against the methodology, staffing plan, and timeline.
-5. Stress-test the price with basic cash-flow, scenario, and sustainability checks before finalising.
-6. Verify compliance with envelope separation, form rules, and pricing assumptions.
+4. Add premium value, support, maintenance, technical risk, service design, and total-cost-of-ownership drivers where relevant.
+5. Test the price for internal consistency against the methodology, staffing plan, and timeline.
+6. Stress-test the price with basic cash-flow, scenario, and sustainability checks before finalising.
+7. Verify compliance with envelope separation, form rules, and pricing assumptions.
 
 ## Quality Standards
 - Keep the pricing logic transparent, internally consistent, and format-compliant.
@@ -43,6 +44,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - `../sectors/SKILL.md` for procurement routing.
+- `../premium-pricing-and-value-defense/SKILL.md` for premium fee logic, options, and value defence.
+- `../sales-discovery-and-objection-handling/SKILL.md` for price, risk, timeline, staffing, technology, and local-context objections.
+- `../customer-service-and-maintenance-proposals/SKILL.md` for support, maintenance, SLA, and post-launch optimisation pricing.
+- `../references/technical-strategy-credibility-checklist.md` for SaaS, AI, software, cloud, API, operations, and maintainability cost drivers.
 - Root and local `references/` files for budgeting, estimation, and commercial framing.
 - Relevant proposal sections so pricing remains consistent with delivery assumptions.
 
@@ -197,6 +202,8 @@ This is useful when presenting optional scope, alternative commercial options, o
 - Keep the financial proposal separate from the technical proposal where required.
 - For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
 - For website design, redesign, SEO-ready website, ecommerce, landing page, portal, or web frontend assignments, run `../website-design-proposal-strategy/SKILL.md` before final pricing. Price discovery, UX, content, SEO, design system, development, CMS, integrations, QA, launch, hosting/licences, training, handover, support, and post-launch optimisation explicitly.
+- For software, SaaS, AI, website, or digital-service assignments, price operations explicitly: monitoring, backups, updates, incident response, model/prompt evaluation, usage review, analytics review, documentation, handover, support channels, and optimisation backlog.
+- For service design or customer-experience assignments, price research, touchpoint inventory, journey mapping, blueprinting, co-creation, prototyping, frontline validation, implementation planning, training, and measurement separately.
 - For accounting, bookkeeping, ERP finance, POS/accounting integration, finance dashboards, Excel model, or management-accounting assignments, price discovery of source documents, chart-of-accounts review, reconciliation sampling, control walkthroughs, data cleanup, model audit, configuration review, and validation workshops explicitly.
 - For finance transformation, accounting cleanup, ERP/POS finance, grant finance, revenue assurance, cost-control, financial-modelling, or management-accounting proposals, run `../accounting-finance-advisory/SKILL.md` before final pricing so scope, methodology, deliverables, risks, and level of effort agree.
 - For premium-client, executive, enterprise, luxury/affluent, high-ticket, or strategic transformation proposals, run `../premium-client-proposal-strategy/SKILL.md` before final pricing so fees reflect value, risk, seniority, proof, governance, and service quality rather than low-cost positioning.
@@ -213,6 +220,9 @@ This is useful when presenting optional scope, alternative commercial options, o
 | `../consulting-frameworks/references/accounting-finance-systems-diagnostics.md` | Accounting/bookkeeping diagnostics, ERP finance controls, reconciliations, management accounting, source-document review, Excel model audit, and finance-system deliverables |
 | `../accounting-finance-advisory/references/accounting-finance-proposal-gate.md` | Proposal workstreams, deliverables, pricing drivers, acceptance criteria, and red flags for accounting, ERP finance, financial-modelling, controls, and finance-transformation assignments |
 | `../premium-client-proposal-strategy/references/premium-proposal-gate.md` | Executive, enterprise, affluent, high-ticket, and premium proposal positioning, methodology, proof, and commercial discipline |
+| `../references/premium-rate-justification-framework.md` | Premium value stack, proof ladder, commercial options, discount rules, and price defence |
+| `../references/proposal-objection-handling.md` | Ethical objection handling for price, risk, timeline, staffing, technology, AI, local context, support, and procurement |
+| `../references/website-software-maintenance-support-language.md` | Support categories, SLA language, client responsibilities, and maintenance pricing notes |
 | `../website-design-proposal-strategy/references/website-design-proposal-gate.md` | Website philosophy, UX/content/SEO methodology, stack explanation, deliverables, costing drivers, acceptance criteria, launch, handover, and red flags |
 | `../references/world-class-proposal-patterns.md` | Proposal architecture and commercial positioning patterns |
 | `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Cost drivers for industrial diagnostics, including site work, data cleansing, material-flow mapping, scheduling analysis, warehouse review, and sustainability measurement |

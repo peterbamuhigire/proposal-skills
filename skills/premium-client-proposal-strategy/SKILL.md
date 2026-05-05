@@ -4,6 +4,7 @@ description: Use when writing proposals, EOIs, executive summaries, methodologie
 ---
 
 # Premium Client Proposal Strategy
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 
@@ -15,10 +16,12 @@ description: Use when writing proposals, EOIs, executive summaries, methodologie
 
 1. Identify the buyer level and decision path: executive sponsor, technical reviewers, procurement, finance, users, and political or reputational risks.
 2. Frame the problem in executive terms: cost of delay, lost revenue, risk exposure, operational drag, missed opportunity, customer experience, or strategic control.
-3. Position the firm as the premium answer: specialist insight, method, proof, comparable results, senior team, governance, and service quality.
-4. Write the value case before the activity list: outcomes, evidence, risk controls, delivery path, and what changes for the client.
-5. Price with confidence: tie fees to value, scope, seniority, assurance, speed, and risk transfer; trade price only for scope or terms.
-6. Run the premium proposal gate before final submission.
+3. Build the evaluator journey: what the buyer must understand, believe, trust, and defend before awarding at a premium rate.
+4. Position the firm as the premium answer: specialist insight, method, proof, comparable results, senior team, governance, service quality, and implementation support.
+5. Write the value case before the activity list: outcomes, evidence, risk controls, delivery path, and what changes for the client.
+6. Defend the price through value, risk reduction, seniority, quality gates, total cost of ownership, and support rather than broad prestige language.
+7. Prepare ethical objection responses for price, risk, timeline, staffing, technology, local context, and post-launch support.
+8. Run the premium proposal gate before final submission.
 
 ## Quality Bar
 
@@ -26,14 +29,24 @@ description: Use when writing proposals, EOIs, executive summaries, methodologie
 - Premium value is proven through method, team, proof, governance, and commercial logic.
 - The methodology makes invisible work visible through phases, artefacts, controls, and decision gates.
 - The financial proposal is aligned with the promised level of seniority, quality, and risk control.
+- The proposal explains the premium choice in terms the evaluator can defend internally.
+- Persuasion remains ethical: no false urgency, exaggerated scarcity, unsupported authority, or fear-based selling.
 
 ## Outputs
 
 - Premium proposal strategy.
 - Executive-summary and methodology improvements.
 - High-ticket pricing and negotiation guidance.
+- Evaluator journey and objection-handling notes.
+- Support, maintenance, and service-quality commitments for premium delivery.
 - Proposal review findings and fix list.
 
 ## References
 
 - `references/premium-proposal-gate.md` - executive, enterprise, affluent, high-ticket proposal quality gate.
+- `../premium-pricing-and-value-defense/SKILL.md` - premium fee logic, options, value stack, and price defence.
+- `../sales-discovery-and-objection-handling/SKILL.md` - buyer discovery and ethical objection handling.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` - evaluator journey and narrative spine.
+- `../customer-service-and-maintenance-proposals/SKILL.md` - support and service commitments for premium delivery.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` - ethical persuasion and evaluator psychology checks.
+- `../references/technical-strategy-credibility-checklist.md` - technical strategy and SaaS/software credibility checks where technology is central.

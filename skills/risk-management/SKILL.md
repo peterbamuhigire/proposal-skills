@@ -20,9 +20,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Workflow
 1. Identify where risk-management logic matters in the assignment.
-2. Read the local references only where they materially improve the output.
-3. Convert the guidance into proposal-ready risks, controls, and response mechanisms.
-4. Integrate the result into the target section and check for consistency.
+2. Separate actual delivery risks from evaluator objections so both are answered properly.
+3. Read the local references only where they materially improve the output.
+4. Convert the guidance into proposal-ready risks, controls, and response mechanisms.
+5. Integrate the result into the target section and check for consistency.
 
 ## Quality Standards
 - Translate risk frameworks into practical proposal language, scoring, and mitigation logic.
@@ -39,6 +40,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/proposal-objection-handling.md` for price, risk, timeline, staffing, technology, local-context, support, AI, and procurement concerns.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for risk perception and ethical risk framing.
+- `../references/technical-strategy-credibility-checklist.md` for technical, SaaS, AI, software, cloud, API, operations, and maintainability risks.
 
 A strong risk section demonstrates that the firm has thought beyond the ideal scenario. Proposals that identify specific, credible risks — and propose practical mitigations — show maturity and experience. Generic risk tables ("risk: delays; mitigation: monitor closely") signal that the firm has not thought deeply about the assignment.
 
