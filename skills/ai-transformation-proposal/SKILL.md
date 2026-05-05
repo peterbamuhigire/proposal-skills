@@ -3,11 +3,6 @@ name: ai-transformation-proposal
 description: Use when writing proposals, EOIs, methodologies, technical approaches,
   work plans, or financial proposals for AI-powered applications, agentic workflows,
   AI analytics, automation, or digital transformation with AI components.
-metadata:
-  portable: true
-  compatible_with:
-  - claude-code
-  - codex
 ---
 
 # AI Transformation Proposal
@@ -29,6 +24,8 @@ Position AI as a disciplined business capability:
 
 Avoid promising generic "AI transformation" without measurable use cases, data readiness, and operating ownership.
 
+For premium AI work, lead with the value system being improved: decision quality, cycle time, service resolution, risk detection, staff productivity, customer experience, compliance, or revenue. Then show the evidence path: use-case hypothesis, data access, prototype, evaluation threshold, human oversight, deployment, support, and optimisation.
+
 ## Methodology Structure
 
 1. **Discovery and value mapping**: Stakeholders, workflows, pain points, baseline metrics, use-case scorecard, and ROI assumptions.
@@ -38,6 +35,22 @@ Avoid promising generic "AI transformation" without measurable use cases, data r
 5. **Implementation**: Agile delivery, integrations, data pipelines, model gateway, monitoring, audit logs, and documentation.
 6. **Deployment and adoption**: Pilot rollout, training, change management, support, feedback loops, and governance handover.
 7. **Maintenance and optimization**: Prompt/model updates, eval refresh, cost review, incident response, performance tuning, and roadmap expansion.
+
+## Technical Strategy Rules
+
+- Start from validated use cases, not model fashion. Prioritise by value, feasibility, data readiness, risk, and adoption.
+- State the architecture decision logic: build, buy, configure, integrate, or defer.
+- Include data flow, system boundaries, access control, audit logs, monitoring, fallback, and incident response.
+- Define evaluation before build: representative test cases, acceptance thresholds, review cadence, and release gates.
+- Treat AI as an operating capability with ownership, maintenance budget, support roles, and continuous improvement.
+- For SaaS or multi-client platforms, address tenant isolation, configuration, scalability, measured usage, upgrades, and support cost.
+
+## Objection Handling
+
+- If the evaluator questions AI accuracy, respond with evaluation thresholds, human review, monitoring, fallback, and controlled release.
+- If the evaluator questions cost, separate discovery, build, model/API usage, evaluation, governance, support, and optimisation so the price is defensible.
+- If the evaluator questions risk, state the specific risk, its trigger, mitigation, owner, and escalation path.
+- If the evaluator questions data readiness, propose a discovery or pilot phase that tests assumptions before full implementation.
 
 ## Sections to Include
 
@@ -64,3 +77,11 @@ Avoid promising generic "AI transformation" without measurable use cases, data r
 - No human approval for high-risk actions.
 - No maintenance budget for model, prompt, data, and platform drift.
 - Client expects a fully autonomous system where policy, law, or operational risk requires oversight.
+
+## References
+
+- `../references/technical-strategy-credibility-checklist.md` - technical strategy, SaaS, cloud, AI, roadmap, and operations credibility checks.
+- `../references/discovery-question-bank-for-proposals.md` - AI use-case, data, workflow, governance, and support discovery.
+- `../references/proposal-objection-handling.md` - responses to AI quality, cost, risk, data, support, and procurement objections.
+- `../premium-pricing-and-value-defense/SKILL.md` - premium AI fee justification and commercial options.
+- `../customer-service-and-maintenance-proposals/SKILL.md` - AI operations, support, maintenance, and escalation language.

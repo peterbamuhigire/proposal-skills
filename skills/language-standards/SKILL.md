@@ -40,6 +40,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - Use the local language sections as the primary guide.
 - `../blog-writer/references/human-voice-standards.md` when stronger anti-AI voice checks are needed.
+- `../references/customer-service-and-escalation-commitments.md` when wording support, complaint handling, follow-up, or escalation commitments.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` when persuasion, risk, premium value, or objection language must remain ethical and measured.
 
 All website copy, headings, calls to action, descriptions, and microcopy must follow this style guide for their respective language. This is a cross-cutting standard applied throughout every content-writing step.
 

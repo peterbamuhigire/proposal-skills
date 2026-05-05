@@ -20,9 +20,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Workflow
 1. Identify where project-management logic matters in the assignment.
-2. Read the local references only where they materially improve the output.
-3. Convert the guidance into proposal-ready governance, controls, and reporting mechanisms.
-4. Integrate the result into the target section and check for consistency.
+2. Identify decision gates, support windows, incident escalations, prototype reviews, and technical strategy checkpoints where relevant.
+3. Read the local references only where they materially improve the output.
+4. Convert the guidance into proposal-ready governance, controls, and reporting mechanisms.
+5. Integrate the result into the target section and check for consistency.
 
 ## Quality Standards
 - Translate PM frameworks into practical proposal language, outputs, and escalation logic.
@@ -40,6 +41,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/technical-strategy-credibility-checklist.md` for software, SaaS, AI, cloud, API, operations, and roadmap governance.
+- `../references/customer-service-and-escalation-commitments.md` for issue escalation, incident updates, and service recovery commitments.
+- `../references/website-software-maintenance-support-language.md` for support windows, maintenance cycles, and SLA planning.
 
 This skill provides the PM knowledge base that proposal sections draw from — particularly methodology (06), work plan (08), and team composition (07). It covers the frameworks, governance models, and reporting standards that make proposals credible on project delivery.
 

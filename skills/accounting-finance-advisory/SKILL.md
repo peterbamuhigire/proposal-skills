@@ -1,9 +1,10 @@
 ---
-name: proposal-writing/accounting-finance-advisory
+name: accounting-finance-advisory
 description: Use for proposals involving accounting, bookkeeping, ERP finance, POS-accounting integration, financial diagnostics, financial modelling, budgets, cost estimation, management accounting, controls, audits, revenue assurance, grant finance, tax, or finance transformation. Produces accountant-grade scope, methodology, deliverables, risks, work plans, and pricing assumptions.
 ---
 
 # Accounting Finance Advisory
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Use When
 

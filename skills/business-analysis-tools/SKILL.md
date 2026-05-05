@@ -21,9 +21,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Workflow
 1. Identify which analytical question the proposal actually needs to answer.
 2. Decide whether the assignment needs business value assessment, business analysis planning, solution refinement, or solution evaluation support.
-3. Read the local references only where they materially improve the output.
-4. Select the tools that fit the assignment and convert them into proposal-ready logic, not academic summary.
-5. Integrate the output into the relevant proposal section and check for consistency.
+3. Use discovery questions where the brief is unclear on outcomes, users, data, workflows, support, or decision criteria.
+4. Read the local references only where they materially improve the output.
+5. Select the tools that fit the assignment and convert them into proposal-ready logic, not academic summary.
+6. Integrate the output into the relevant proposal section and check for consistency.
 
 ## Quality Standards
 - Translate analysis into practical proposal language, decisions, and outputs.
@@ -41,6 +42,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/discovery-question-bank-for-proposals.md` when elicitation must clarify proposal assumptions.
+- `../references/service-design-methodology-module.md` when business analysis must cover journeys, touchpoints, service blueprints, or support experience.
+- `../references/technical-strategy-credibility-checklist.md` when analysis affects software, SaaS, AI, cloud, integrations, or operations decisions.
 
 Top-tier proposals reference named analytical frameworks and tools — they show the evaluator how the firm thinks, not just what it will do. This skill provides a library of business analysis tools that proposal sections draw from, particularly methodology (06), understanding of assignment (03), and executive summary (02).
 
@@ -265,6 +269,8 @@ Business events are the triggers that cause work to be performed. They are often
 - what rules and exceptions must be handled
 
 Use business events to organise discovery workshops and then convert the prioritised events into use cases, stories, process maps, or functional requirements.
+
+For service design and support-heavy assignments, pair business events with journey stages and service blueprint layers so requirements show both the user's visible experience and the backstage work needed to fulfil it.
 
 ### Context Diagram
 **Use for**: clarifying scope before detailed analysis.

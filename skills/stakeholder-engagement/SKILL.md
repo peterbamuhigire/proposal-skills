@@ -20,9 +20,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Workflow
 1. Identify where stakeholder logic matters in the assignment.
-2. Read the local references only where they materially improve the output.
-3. Convert the guidance into proposal-ready stakeholder, consultation, and feedback mechanisms.
-4. Integrate the result into the target section and check for consistency.
+2. Map the evaluator, sponsor, frontline, user, support, and approval groups separately where their concerns differ.
+3. Read the local references only where they materially improve the output.
+4. Convert the guidance into proposal-ready stakeholder, consultation, and feedback mechanisms.
+5. Integrate the result into the target section and check for consistency.
 
 ## Quality Standards
 - Translate stakeholder theory into practical proposal language, activities, and governance.
@@ -39,6 +40,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for evaluator concerns, risk perception, and ethical influence.
+- `../references/service-design-methodology-module.md` for stakeholder mapping across service journeys, touchpoints, and backstage roles.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` for audience-specific narrative and sign-off logic.
 
 Every consulting assignment involves multiple stakeholders with different interests, influence, and expectations. Proposals that demonstrate a structured approach to stakeholder engagement — not just a list of "consultation meetings" — score higher because they show the firm understands the political and institutional landscape.
 

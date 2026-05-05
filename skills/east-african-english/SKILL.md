@@ -39,6 +39,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - `../language-standards/SKILL.md` when the work spans multiple languages.
+- `../references/customer-service-and-escalation-commitments.md` when wording support, complaint handling, follow-up, or escalation commitments.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` when premium, risk, persuasion, or objection language needs a measured professional tone.
 
 All proposal text — cover letters, executive summaries, methodology sections, CVs, financial submissions, and supporting documents — must follow this style guide. This is the foundational language standard applied before and during every content-writing step.
 

@@ -1,5 +1,5 @@
 ---
-name: proposal-writing/05-relevant-experience
+name: proposal-writing-05-relevant-experience
 description: Write the relevant experience section of a consulting proposal. Use when the user asks to draft past projects, project spotlights, similar assignments, or the experience section of a proposal.
 ---
 
@@ -23,8 +23,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Read the bid requirements and determine what kinds of experience matter most.
 2. Load the proposer profile and any procurement or sector context that shapes relevance.
 3. Select the strongest comparable assignments and structure them using the guidance below.
-4. Emphasize outcomes, relevance, and evaluator-fit rather than raw volume.
-5. Verify consistency with the profile, team, and methodology sections.
+4. Convert each selected assignment into a proof story: context, challenge, role, intervention, result, and relevance.
+5. Emphasize outcomes, relevance, and evaluator-fit rather than raw volume.
+6. Verify consistency with the profile, team, and methodology sections.
 
 ## Quality Standards
 - Keep examples directly relevant to the assignment and evaluation criteria.
@@ -42,6 +43,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` and `../references/proposal-narrative-patterns-and-case-story-spine.md` for case-story structure and evaluator relevance.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 This section is typically the most heavily weighted in evaluation scoring. It is where the firm proves — not claims — that it has done this before and can do it again.
@@ -88,6 +90,8 @@ REFERENCE:  [Name, Title, Phone/Email]
 ```
 
 Order project cards by relevance to the current bid, not by date.
+
+For premium, digital, AI, website, service-design, or support-heavy proposals, add one line after each project card: **Relevance to this assignment:** [specific parallel in outcome, user group, technology, service journey, risk, operating context, or support model]. This helps evaluators see why the example matters, not only that it exists.
 
 ## The Outcomes Rule
 

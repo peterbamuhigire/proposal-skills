@@ -1,5 +1,5 @@
 ---
-name: proposal-writing/08-work-plan
+name: proposal-writing-08-work-plan
 description: Write the work plan and timeline section of a consulting proposal. Use when the user asks to draft the work plan, Gantt chart, project schedule, milestone table, or staffing schedule.
 ---
 
@@ -23,8 +23,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Read the assignment materials and confirm the timeline, milestones, and required planning outputs.
 2. Load the proposer profile and any relevant procurement, sector, and methodology context.
 3. Use the structure below to build a realistic sequence of activities, deliverables, dependencies, and staffing effort.
-4. Check the work plan against the methodology, team, and financial assumptions.
-5. Verify that durations, overlaps, milestones, and approval logic are credible before finalising.
+4. Add explicit review, prototype, support, launch, escalation, and optimisation windows where the scope requires them.
+5. Check the work plan against the methodology, team, and financial assumptions.
+6. Verify that durations, overlaps, milestones, and approval logic are credible before finalising.
 
 ## Quality Standards
 - Keep the plan realistic, readable, and tied to the actual scope.
@@ -42,6 +43,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../service-design-proposal-strategy/SKILL.md` for journey research, blueprinting, co-creation, prototype, pilot, and implementation sequencing.
+- `../customer-service-and-maintenance-proposals/SKILL.md` for support windows, incident response, maintenance cycles, and post-launch optimisation scheduling.
+- `../references/technical-strategy-credibility-checklist.md` for SaaS, AI, software, API, cloud, and operations roadmap checks.
 - Root and local `references/` files for delivery logic and scheduling support.
 
 The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable; overly compressed or suspiciously padded plans both raise concerns.
@@ -140,6 +144,7 @@ This links the schedule to named accountability and reduces the risk that timeli
 - **Time-cost trade-off:** There is an optimum project duration where costs are minimised. Compressing below this increases costs through overtime, coordination overhead, and rework.
 - **Decision gates matter:** Client reviews, approvals, and access decisions are part of the actual schedule. Treat them as explicit timeline events, not hidden assumptions.
 - **Industrial site work:** For manufacturing, warehouse, ERP/MES/WMS/TMS, or inventory assignments, schedule data extraction, site walk-throughs, stock or record sampling, process observation, validation workshops, and client review gates as separate activities. Do not hide site access, system access, or stock-reconciliation dependencies inside generic "assessment" rows.
+- **Service and digital work:** Schedule journey research, prototype validation, content approval, QA, security review, launch readiness, support window, incident review, and optimisation backlog as separate activities where relevant.
 
 ## Reference Library
 
@@ -147,6 +152,8 @@ This links the schedule to named accountability and reduces the risk that timeli
 |---|---|
 | `../project-management/references/project-controls-and-earned-value.md` | WBS construction, WBS dictionary, task responsibility matrices, PERT estimation, CPM/critical path, schedule hierarchy, resource levelling, earned value tracking, change control, and stagegate process |
 | `../consulting-frameworks/references/industrial-operations-diagnostics.md` | Industrial assessment work packages for material planning, capacity, warehouse, facility flow, quality, and green-production assignments |
+| `../references/service-design-methodology-module.md` | Service design work packages, artefacts, prototypes, implementation steps, and acceptance criteria |
+| `../references/website-software-maintenance-support-language.md` | Maintenance cycles, SLA windows, support responsibilities, incident handling, and optimisation backlog planning |
 
 ## Tone Rules
 

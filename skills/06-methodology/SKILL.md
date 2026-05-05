@@ -44,6 +44,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../premium-client-proposal-strategy/SKILL.md` when the assignment targets premium clients, executives, enterprise buyers, affluent markets, strategic growth, pricing, sales, or high-ticket transformation.
 - `../website-design-proposal-strategy/SKILL.md` when the methodology includes website design, redesign, SEO, content architecture, ecommerce, landing pages, portals, web frontends, launch, training, or support.
+- `../service-design-proposal-strategy/SKILL.md` when the methodology includes journeys, service blueprints, co-creation, support redesign, citizen/customer experience, or touchpoint improvement.
+- `../customer-service-and-maintenance-proposals/SKILL.md` when post-launch support, SLAs, maintenance, incident response, or optimisation are part of delivery.
+- `../sales-discovery-and-objection-handling/SKILL.md` when methodology assumptions or evaluator objections need to be anticipated.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` when phase logic needs a stronger narrative, storyboard, or design-rationale explanation.
+- `../references/technical-strategy-credibility-checklist.md` when the methodology includes SaaS, AI, software, cloud, APIs, integrations, architecture, or operations.
 - Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
 
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.
@@ -108,6 +113,15 @@ Break the assignment into clear phases. For each phase, write:
 8. Launch: redirects, DNS/hosting, backups, Search Console/Bing, social previews, and go-live report
 9. Training, handover, support window, and optimisation backlog
 
+**Standard phases for service design assignments:**
+1. Framing, outcomes, actors, and service-success measures
+2. Current-state journey research, touchpoint inventory, support-log review, and stakeholder interviews
+3. Service blueprint covering frontstage experience, backstage processes, data, policies, systems, and handoffs
+4. Co-creation workshops with users, frontline staff, managers, and technical or policy owners
+5. Prototype and validation of the riskiest service moments
+6. Target service model, implementation roadmap, training, content, governance, and measurement plan
+7. Pilot support, issue handling, and continuous-improvement backlog
+
 **Standard phases for DevOps, CI/CD, cloud, SaaS, or PHP/LAMP assignments:**
 1. Inception and value-stream mapping
 2. Current-state delivery, release, and operations assessment
@@ -116,6 +130,8 @@ Break the assignment into clear phases. For each phase, write:
 5. Target operating model and roadmap design
 6. Pilot implementation or quick-win hardening
 7. Knowledge transfer, runbook handover, and improvement backlog
+
+For AI, SaaS, and software strategy assignments, include an early strategy-quality gate: diagnosis, guiding policy, coherent actions, assumptions to test first, operations model, and speed-cost-impact trade-offs.
 
 **Standard phases for management consulting assignments:**
 1. Inception and Scoping
@@ -209,6 +225,15 @@ Every methodology should include a knowledge transfer component, not as an after
 
 Signal this in the methodology: "Our approach embeds knowledge transfer in every phase, not as a separate activity but as a way of working. The client's team will be equipped to maintain and extend all outputs independently after the engagement concludes."
 
+### Support, Maintenance, and Service Recovery
+
+For website, software, SaaS, AI, service-design, and transformation assignments, include a support and maintenance subsection when post-launch operation matters. State:
+
+- support channels, cover hours, severity levels, response targets, and escalation path
+- what is included in warranty, maintenance, optimisation, hosting, licence, and enhancement work
+- incident communication, client update cadence, workaround handling, and closure verification
+- handover artefacts: runbook, admin guide, content guide, training materials, support register, and improvement backlog
+
 ## Reference Library
 
 | Reference File | Contents |
@@ -222,6 +247,9 @@ Signal this in the methodology: "Our approach embeds knowledge transfer in every
 | `../consulting-frameworks/references/devops-delivery-diagnostics.md` | DevOps, CI/CD, PHP/LAMP, cloud-native, observability, incident response, DevSecOps, GitOps, and release-engineering diagnostics for software-delivery proposals |
 | `../consulting-frameworks/references/communication-structures.md` | SCORE storytelling, top-down recommendations, exhibit interpretation, action titles, sense-checking, Hero's Journey narrative, Tufte's visualisation rules, Comma Effect |
 | `../data-management/references/data-analytics-methodology-for-proposals.md` | Data analytics workstream for dashboards, MIS, BI, AI analytics, survey analysis, forecasting, data-quality profiling, method selection, and handover |
+| `../references/service-design-methodology-module.md` | Service design phases, journey mapping, service blueprints, co-creation, prototyping, implementation, acceptance criteria, and red flags |
+| `../references/website-software-maintenance-support-language.md` | Website/software/AI maintenance categories, SLA language, support commitments, client responsibilities, and pricing notes |
+| `../references/technical-strategy-credibility-checklist.md` | Technical strategy diagnosis, architecture, SaaS/cloud, AI, operations, roadmap, governance, and maintainability checks |
 | `../references/consulting-delivery-excellence.md` | McKinsey problem-solving process, 6-Step Workflow, VRM, Done-Done standard, Drucker's frameworks, Design Thinking, EUR Framework, F.A.A.S.T., Triple Constraints, frontloading, engagement kick-off, SCAMPER, Design Sprint, SOSTAC, SECI Knowledge Spiral |
 | `../references/proposal-strategy-and-persuasion.md` | S1→S2→B logic, P-I-P structure, buyer psychology, theme architecture, SCQA narrative spine, SCORE framework, Cialdini's principles, Red Team review |
 | `../references/world-class-proposal-patterns.md` | McKinsey and Deloitte methodology patterns, storyboarding, ghost packs, elevator test, budget proposal architecture, Sweet Spot positioning, prewiring |

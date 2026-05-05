@@ -20,9 +20,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Workflow
 1. Identify which analytical problem the proposal needs to structure.
-2. Read the local references only where they materially improve the output.
-3. Select the frameworks that fit the assignment and turn them into proposal-ready logic.
-4. Integrate the result into the relevant section and check for consistency.
+2. Decide whether the assignment also needs premium pricing, service design, technical strategy, or evaluator-story framing.
+3. Read the local references only where they materially improve the output.
+4. Select the frameworks that fit the assignment and turn them into proposal-ready logic.
+5. Integrate the result into the relevant section and check for consistency.
 
 ## Quality Standards
 - Translate frameworks into practical proposal language, sequence, and decisions.
@@ -39,6 +40,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/technical-strategy-credibility-checklist.md` for software, SaaS, AI, cloud, API, roadmap, operations, and architecture strategy.
+- `../references/service-design-methodology-module.md` for journey mapping, blueprints, co-creation, and service implementation frameworks.
+- `../references/proposal-narrative-patterns-and-case-story-spine.md` for evaluator journey, proof stories, and design rationale.
 
 A library of structured analytical frameworks drawn from top-tier consulting practice. These frameworks are the building blocks of methodology sections — they determine how problems are decomposed, how analysis is structured, and how recommendations are developed.
 

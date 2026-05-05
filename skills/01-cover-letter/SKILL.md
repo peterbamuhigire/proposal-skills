@@ -1,5 +1,5 @@
 ---
-name: proposal-writing/01-cover-letter
+name: proposal-writing-01-cover-letter
 description: Write the cover letter for a consulting proposal or EoI submission. Use when the user asks to draft or generate a proposal cover letter, opening letter, or transmittal letter.
 ---
 
@@ -22,9 +22,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Workflow
 1. Read the assignment materials and confirm what the cover letter must signal to the evaluator.
 2. Load the proposer profile and any relevant procurement framework before drafting.
-3. Use the structure below to draft a client-specific letter rather than generic boilerplate.
-4. Cross-check the letter against the rest of the proposal for consistency of tone, facts, and commitments.
-5. Verify signatory details, validity statements, and any submission-sheet requirements.
+3. Identify the evaluator's first concern: fit, credibility, value, risk, compliance, or price confidence.
+4. Use the structure below to draft a client-specific letter rather than generic boilerplate.
+5. Cross-check the letter against the rest of the proposal for consistency of tone, facts, and commitments.
+6. Verify signatory details, validity statements, and any submission-sheet requirements.
 
 ## Quality Standards
 - Keep the letter specific, courteous, and evaluator-aware.
@@ -42,6 +43,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../proposal-storytelling-and-evaluator-journey/SKILL.md` when the cover letter needs a stronger first-impression narrative.
+- `../premium-client-proposal-strategy/SKILL.md` and `../premium-pricing-and-value-defense/SKILL.md` for premium, executive, enterprise, high-ticket, or value-defence proposals.
+- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for ethical persuasion checks.
 - Root `references/` files for persuasion and proposal-wide positioning.
 
 The cover letter is the first thing an evaluator reads. It must be personal, specific to the client, and demonstrate that the firm has already understood the assignment — before the proposal body is read.
@@ -83,6 +87,7 @@ The cover letter is the first impression of service quality. It should signal:
 - **Measurable-results orientation** — even in the cover letter, hint at quantified value: "Our experience in similar engagements suggests [X% improvement] is achievable."
 - **The TRUST framework** (Wickham): Truthful (honest about what is achievable), Responsive (acknowledge the ToR's specific concerns), Uniform (consistent with the tone of the full proposal), Safe (mention confidentiality and data protection if relevant), Trained (one sentence of quantified credential).
 - **Compatibility signal** — demonstrate cultural awareness and alignment with the client's values and operating context.
+- **Service confidence** — where the assignment includes support, maintenance, implementation, or digital service delivery, signal responsiveness, follow-through, and clear escalation without overpromising.
 
 ## Tone Rules
 

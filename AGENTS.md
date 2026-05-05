@@ -17,10 +17,23 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Proposal sections: use the numbered section skills under `skills/01-` through `skills/10-`
 - Supporting proposal domains: use unnumbered skills such as `skills/project-management/`, `skills/monitoring-and-evaluation/`, `skills/risk-management/`, `skills/stakeholder-engagement/`, and related folders when the ToR or methodology needs that domain
 - Website design and development proposals: use `skills/website-design-proposal-strategy/` whenever a proposal includes a website, SEO-ready site, landing page, ecommerce, portal, web app frontend, content hub, or website costing component
+- AI and technical transformation proposals: use `skills/ai-transformation-proposal/` plus `skills/references/technical-strategy-credibility-checklist.md` for AI, SaaS, software, cloud, API, integration, data, or operations claims
+- Premium, executive, and high-ticket proposals: use `skills/premium-client-proposal-strategy/` and `skills/premium-pricing-and-value-defense/` when value, proof, pricing confidence, or premium-rate defence matters
+- Discovery and objections: use `skills/sales-discovery-and-objection-handling/` when buyer assumptions, clarification questions, price objections, risk concerns, timeline objections, or follow-up logic matter
+- Service design and support: use `skills/service-design-proposal-strategy/` for journeys, blueprints, co-creation, and service implementation; use `skills/customer-service-and-maintenance-proposals/` for SLAs, support, escalation, maintenance, and post-launch optimisation
+- Proposal narrative: use `skills/proposal-storytelling-and-evaluator-journey/` when the proposal needs an evaluator journey, case-story spine, design rationale, or presentation/sign-off flow
 - Serious analysis and business logic: use [skills/critical-analysis-business-logic/SKILL.md](/C:/wamp64/www/proposal-skills/skills/critical-analysis-business-logic/SKILL.md) before methodology, work plan, financial, transformation, and final-review outputs
 - Language and tone: use [skills/east-african-english/SKILL.md](/C:/wamp64/www/proposal-skills/skills/east-african-english/SKILL.md) and [skills/language-standards/SKILL.md](/C:/wamp64/www/proposal-skills/skills/language-standards/SKILL.md) as cross-cutting review layers
 - Skill maintenance: use [skills/skill-writing/SKILL.md](/C:/wamp64/www/proposal-skills/skills/skill-writing/SKILL.md), [skills/skill-safety-audit/SKILL.md](/C:/wamp64/www/proposal-skills/skills/skill-safety-audit/SKILL.md), and [skills/update-claude-documentation/SKILL.md](/C:/wamp64/www/proposal-skills/skills/update-claude-documentation/SKILL.md)
 - Blog workflows: use `skills/blog-idea-generator/` and `skills/blog-writer/` only for content publishing tasks, not for proposal work
+
+## Cross-Engine Handoffs
+
+- Proposal to SRS: when a bid is won or a proposal becomes delivery scope, hand off the ToR, final technical proposal, methodology, assumptions, exclusions, support promises, pricing options, evaluation criteria, and clarification responses to the SRS engine for PRD/SRS, governance, acceptance criteria, evidence, and rollout planning.
+- Proposal to website delivery: for website-only or website-led work, hand off approved scope, discovery notes, sitemap/content/SEO assumptions, design rationale, launch commitments, acceptance criteria, support package, and commercial boundaries to the website engine.
+- Proposal to implementation: route software, SaaS, AI, cloud, integration, API, security, data, and operations promises through the SRS engine first where formal requirements are needed, then to the master engineering engine for production implementation.
+- Implementation to maintenance/support: ensure the proposal's support, SLA, escalation, warranty, maintenance, and optimisation language matches the final runbooks, release evidence, incident process, and retainer model.
+- Website launch to growth/retention: renewal, QBR, experimentation, observability, retention, and support findings can become proposal inputs for retainers, enhancements, and change requests.
 
 ## Working Model
 1. Identify the user's actual deliverable.
