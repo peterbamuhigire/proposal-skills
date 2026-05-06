@@ -21,6 +21,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 4. Create options where useful: essential, recommended, and enhanced, with clear trade-offs and acceptance criteria.
 5. Defend fees by explaining what lower-cost approaches remove: discovery, QA, senior review, adoption, support, documentation, or risk controls.
 6. Handle price objections by comparing price with total cost, cost of delay, rework risk, adoption failure, and long-term ownership.
+7. Use premium commercial writing standards when fee logic must appear in cover letters, summaries, case studies, commercial documents, or public positioning.
 
 ## Quality Standards
 
@@ -40,5 +41,6 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - `../references/premium-rate-justification-framework.md` - premium fee proof ladder and commercial options.
 - `../references/proposal-objection-handling.md` - ethical responses to pricing and risk objections.
+- `../premium-commercial-writing/SKILL.md` - turns value defence into clear, proof-led, premium-fee-worthy prose.
 - `../10-financial-proposal/SKILL.md` - financial proposal owner and costing discipline.
 - `../premium-client-proposal-strategy/SKILL.md` - executive and premium-buyer proposal positioning.

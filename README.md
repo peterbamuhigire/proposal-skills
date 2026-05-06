@@ -53,6 +53,7 @@ Recent strengthening includes:
 - Project control artefacts such as WBS dictionaries, responsibility matrices, decision gates, staffing schedules, and work plan hierarchies.
 - Manufacturing, industrial production, inventory, capacity, material handling, MRP, scheduling, and green production diagnostics for bids involving operations-heavy businesses.
 - Premium proposal strategy, ethical evaluator psychology, sales discovery, objection handling, premium-rate defence, service design, technical strategy, and support/maintenance language derived from local HTML study materials.
+- Premium commercial writing patterns for proof-led proposals, cover letters, executive summaries, case studies, business documents, and SEO/AI-search friendly thought leadership.
 
 ## Repository Structure
 
@@ -92,6 +93,7 @@ proposal-skills/
     ├── risk-management/
     ├── east-african-english/
     ├── language-standards/
+    ├── premium-commercial-writing/
     ├── blog-writer/
     ├── blog-idea-generator/
     ├── skill-writing/
@@ -130,6 +132,7 @@ proposal-skills/
 | `skills/website-design-proposal-strategy/SKILL.md` | Website design/development strategy, UX/content/SEO methodology, stack explanation, launch, handover, costing, and support |
 | `skills/premium-client-proposal-strategy/SKILL.md` | Executive, enterprise, affluent, high-ticket, premium, and strategic transformation proposal positioning |
 | `skills/premium-pricing-and-value-defense/SKILL.md` | Premium fee justification, commercial options, value stack, total-cost-of-ownership logic, and price defence |
+| `skills/premium-commercial-writing/SKILL.md` | Cross-cutting premium commercial writing for proposals, cover letters, executive summaries, case studies, business documents, public content, and SEO/AI-search friendly thought leadership |
 | `skills/sales-discovery-and-objection-handling/SKILL.md` | Discovery questions, qualification, buyer concerns, objection handling, and follow-up logic |
 | `skills/service-design-proposal-strategy/SKILL.md` | Service design, customer/citizen experience, journey maps, blueprints, co-creation, and implementation evidence |
 | `skills/proposal-storytelling-and-evaluator-journey/SKILL.md` | Narrative spine, evaluator journey, case-study story structure, design rationale, and presentation flow |
@@ -164,6 +167,10 @@ proposal-skills/
 | `skills/references/proposal-narrative-patterns-and-case-story-spine.md` | Evaluator journey, narrative spine, case-study story cards, design rationale, and storyboard use |
 | `skills/references/technical-strategy-credibility-checklist.md` | Software, SaaS, AI, cloud, API, operations, roadmap, governance, and maintainability checks |
 | `skills/references/customer-service-and-escalation-commitments.md` | Service communication, escalation, complaint recovery, known-problem updates, and support boundaries |
+| `skills/premium-commercial-writing/references/premium-writing-quality-gate.md` | Cross-cutting gate for professional, persuasive, premium-fee-worthy writing |
+| `skills/premium-commercial-writing/references/document-section-patterns.md` | Patterns for cover letters, executive summaries, proposal sections, case studies, business documents, and blogs |
+| `skills/premium-commercial-writing/references/seo-ai-search-writing.md` | Search-intent, SEO, and AI-search guidance for public-facing content |
+| `skills/premium-commercial-writing/references/book-extractions-audit-synthesis.md` | Copyright-safe book and EPUB inspiration rules plus current audit status |
 | `skills/critical-analysis-business-logic/references/reasoning-and-business-sense-gate.md` | Essential questions, argument map, mental-model pass, business-sense checks, and achievability gate |
 | `skills/consulting-frameworks/references/` | Problem structuring, financial analysis, strategy, operations, communication |
 | `skills/business-analysis-tools/references/` | SWOT, PESTLE, gap analysis, requirements planning, fit criteria, transition evaluation, maturity models |

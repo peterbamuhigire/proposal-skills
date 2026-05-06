@@ -22,7 +22,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Determine the target language, audience, and communication purpose.
 2. Apply the relevant language-specific rules from this skill.
 3. Check for awkward phrasing, poor localization, and culturally weak wording.
-4. Return wording that matches the target market and content purpose.
+4. When the content must support premium fees, evaluator confidence, public trust, or commercial conversion, apply the premium commercial writing gate after language cleanup.
+5. Return wording that matches the target market and content purpose.
 
 ## Quality Standards
 - Prefer clarity, courtesy, and natural local phrasing over flashy copy.
@@ -40,6 +41,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - Use the local language sections as the primary guide.
 - `../blog-writer/references/human-voice-standards.md` when stronger anti-AI voice checks are needed.
+- `../premium-commercial-writing/SKILL.md` when language review must also improve commercial argument, premium value, case-study proof, or search-aware public writing.
 - `../references/customer-service-and-escalation-commitments.md` when wording support, complaint handling, follow-up, or escalation commitments.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` when persuasion, risk, premium value, or objection language must remain ethical and measured.
 

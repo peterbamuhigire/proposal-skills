@@ -26,6 +26,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 4. Convert each selected assignment into a proof story: context, challenge, role, intervention, result, and relevance.
 5. Emphasize outcomes, relevance, and evaluator-fit rather than raw volume.
 6. Verify consistency with the profile, team, and methodology sections.
+7. For premium proposals or public case studies, apply the premium commercial writing case-study pattern before finalising.
 
 ## Quality Standards
 - Keep examples directly relevant to the assignment and evaluation criteria.
@@ -44,6 +45,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../proposal-storytelling-and-evaluator-journey/SKILL.md` and `../references/proposal-narrative-patterns-and-case-story-spine.md` for case-story structure and evaluator relevance.
+- `../premium-commercial-writing/SKILL.md` for premium proof discipline, case-study relevance, and public-facing case-study polish.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 This section is typically the most heavily weighted in evaluation scoring. It is where the firm proves — not claims — that it has done this before and can do it again.
