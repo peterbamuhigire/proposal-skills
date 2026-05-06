@@ -26,6 +26,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 4. Build the evaluator journey: understanding, confidence, proof, control, and defensible decision.
 5. Cross-check the summary against the rest of the proposal so the themes and facts match.
 6. Verify that the opening, differentiators, scope logic, and close all reinforce the same win story.
+7. For premium, executive, enterprise, strategic, or public-facing summaries, run the premium commercial writing quality gate before finalising.
 
 ## Quality Standards
 - Keep the section client-specific, scannable, and strategically persuasive.
@@ -44,6 +45,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../premium-client-proposal-strategy/SKILL.md` for executive, enterprise, affluent, luxury, high-ticket, or premium-priced proposals where value, proof, and pricing confidence matter.
+- `../premium-commercial-writing/SKILL.md` for premium commercial polish, proof-led argument, evaluator-friendly structure, and search-aware public summaries where relevant.
 - `../website-design-proposal-strategy/SKILL.md` when the proposal includes website design, redesign, SEO-ready content, ecommerce, landing pages, portals, web applications, or website costing.
 - `../proposal-storytelling-and-evaluator-journey/SKILL.md` when the summary needs a stronger narrative spine, case-story logic, or evaluator journey.
 - `../premium-pricing-and-value-defense/SKILL.md` when the summary must justify premium fees, total cost of ownership, service quality, or risk reduction.

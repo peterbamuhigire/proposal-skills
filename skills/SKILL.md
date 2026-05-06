@@ -27,9 +27,10 @@ This parent skill covers the full range of consulting proposal documents. All ac
 3. Load the relevant numbered section skill, then add procurement, sector, and supporting domain skills only where they materially improve the output.
 4. Load `skills/website-design-proposal-strategy/SKILL.md` whenever the proposal includes website design, redesign, SEO, web content, ecommerce, portal, landing page, web frontend, hosting, maintenance, or website costing.
 5. Load premium, discovery, service-design, storytelling, support, and pricing skills where the buyer context, value defence, implementation credibility, or post-launch operation requires them.
-6. Load `skills/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
-7. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
-8. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
+6. Load `skills/premium-commercial-writing/SKILL.md` when the proposal, cover letter, executive summary, case study, business document, or public-facing content needs premium commercial polish, evaluator-friendly structure, stronger proof, or search-aware writing.
+7. Load `skills/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
+8. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
+9. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
 
 ## Quality Standards
 - Treat each `SKILL.md` as the portable unit and load it from the `skills/` folder.
@@ -82,6 +83,7 @@ Read the relevant supporting skill when the proposal requires that domain. Each 
 | `skills/ai-transformation-proposal/SKILL.md` | AI applications, automation, agents, analytics, governance, evaluation, operations, and maintenance proposals |
 | `skills/premium-client-proposal-strategy/SKILL.md` | Executive, enterprise, affluent, high-ticket, premium, and strategic transformation proposal positioning |
 | `skills/premium-pricing-and-value-defense/SKILL.md` | Premium fee justification, value stack, commercial options, and price defence |
+| `skills/premium-commercial-writing/SKILL.md` | Premium commercial writing quality for proposals, cover letters, executive summaries, case studies, business documents, and public content |
 | `skills/sales-discovery-and-objection-handling/SKILL.md` | Discovery questions, qualification, buyer concerns, objection handling, and follow-up logic |
 | `skills/service-design-proposal-strategy/SKILL.md` | Journey mapping, service blueprints, co-creation, service implementation, and experience redesign |
 | `skills/proposal-storytelling-and-evaluator-journey/SKILL.md` | Narrative spine, evaluator journey, case stories, design rationale, and presentation logic |
@@ -117,6 +119,8 @@ Use the shared references in `skills/references/` when a proposal needs deeper b
 - `proposal-narrative-patterns-and-case-story-spine.md`
 - `technical-strategy-credibility-checklist.md`
 - `customer-service-and-escalation-commitments.md`
+
+Use `skills/premium-commercial-writing/SKILL.md` as the cross-cutting writing layer when those strategy references must become sharper client-facing prose, case studies, executive summaries, public documents, or thought leadership.
 
 ## Reference - Consulting Delivery Excellence
 

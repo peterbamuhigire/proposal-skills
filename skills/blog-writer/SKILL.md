@@ -22,7 +22,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Plan the article before drafting: audience, buyer stage, outline, and format.
 2. Gather or process the supporting assets and context the article needs.
 3. Use the workflow below to draft, structure, and package the article for publication.
-4. Run quality, SEO, design, and publication checks before final delivery.
+4. For premium thought leadership or commercial articles, load `../premium-commercial-writing/SKILL.md` to strengthen the argument, proof, reader journey, and AI-search discoverability.
+5. Run quality, SEO, design, and publication checks before final delivery.
 
 ## Quality Standards
 - Keep the article human-sounding, useful, and structurally strong.
@@ -40,6 +41,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 - Local `references/` files for writing craft, strategy, voice, and design.
 - `../blog-idea-generator/SKILL.md` if ideation is still needed before drafting.
+- `../premium-commercial-writing/SKILL.md` for premium commercial articles, public case studies, thought leadership, and SEO/AI-search friendly expertise content.
 
 Generate detailed, rich, educating, and captivating blog articles with authentic human voice, professional photography, and full SEO optimisation. Each article is a marketing asset — a demonstration of expertise that builds trust and attracts clients through organic search.
 

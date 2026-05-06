@@ -21,6 +21,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 4. Turn case studies into proof stories: context, stakes, intervention, decision logic, result, and relevance to this bid.
 5. Explain design decisions through audience-specific rationale: client goal, user need, evidence, trade-off, and approval point.
 6. Use storyboards or journey examples where they make a method concrete and help evaluators imagine the delivered service.
+7. For premium or public-facing writing, run the commercial writing gate so the story supports value, proof, risk control, and reader discoverability where relevant.
 
 ## Quality Standards
 
@@ -40,4 +41,5 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - `../references/proposal-narrative-patterns-and-case-story-spine.md` - evaluator journey, case story structure, and design rationale patterns.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` - ethical persuasion and evaluator psychology checks.
+- `../premium-commercial-writing/SKILL.md` - premium commercial writing quality gate for evaluator-friendly prose, case studies, documents, and public content.
 - `../05-relevant-experience/SKILL.md` - relevant experience section owner.
