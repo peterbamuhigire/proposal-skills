@@ -26,6 +26,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 4. Use the structure below to draft a client-specific letter rather than generic boilerplate.
 5. Cross-check the letter against the rest of the proposal for consistency of tone, facts, and commitments.
 6. Verify signatory details, validity statements, and any submission-sheet requirements.
+7. For premium or high-stakes submissions, run the premium commercial writing quality gate so the first impression signals value, proof, service quality, and risk control.
 
 ## Quality Standards
 - Keep the letter specific, courteous, and evaluator-aware.
@@ -44,6 +45,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../proposal-storytelling-and-evaluator-journey/SKILL.md` when the cover letter needs a stronger first-impression narrative.
+- `../premium-commercial-writing/SKILL.md` for premium first-impression polish, proof-led positioning, and evaluator-friendly commercial writing.
 - `../premium-client-proposal-strategy/SKILL.md` and `../premium-pricing-and-value-defense/SKILL.md` for premium, executive, enterprise, high-ticket, or value-defence proposals.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for ethical persuasion checks.
 - Root `references/` files for persuasion and proposal-wide positioning.

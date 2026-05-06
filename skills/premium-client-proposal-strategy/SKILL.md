@@ -22,6 +22,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 6. Defend the price through value, risk reduction, seniority, quality gates, total cost of ownership, and support rather than broad prestige language.
 7. Prepare ethical objection responses for price, risk, timeline, staffing, technology, local context, and post-launch support.
 8. Run the premium proposal gate before final submission.
+9. Use the premium commercial writing layer to turn the strategy into concise, proof-led, evaluator-friendly prose.
 
 ## Quality Bar
 
@@ -44,6 +45,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## References
 
 - `references/premium-proposal-gate.md` - executive, enterprise, affluent, high-ticket proposal quality gate.
+- `../premium-commercial-writing/SKILL.md` - cross-cutting premium writing gate for proposals, executive documents, case studies, and public content.
 - `../premium-pricing-and-value-defense/SKILL.md` - premium fee logic, options, value stack, and price defence.
 - `../sales-discovery-and-objection-handling/SKILL.md` - buyer discovery and ethical objection handling.
 - `../proposal-storytelling-and-evaluator-journey/SKILL.md` - evaluator journey and narrative spine.
