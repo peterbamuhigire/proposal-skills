@@ -93,6 +93,31 @@ Read the relevant supporting skill when the proposal requires that domain. Each 
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, cost-benefit analysis, maturity models, prioritisation matrices |
 | `skills/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy frameworks, operations frameworks, communication structures |
 | `skills/critical-analysis-business-logic/SKILL.md` | Cross-cutting serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
+| `skills/saas-discovery-and-qualification/SKILL.md` | SaaS discovery: ICP, Critical Event, pain chain, impact per role, decision process (consensus vs hierarchy), MEDDPICC qualification gate |
+| `skills/saas-business-case-and-roi-modeling/SKILL.md` | SaaS business case: TCO vs on-premise, time-to-value, CAC payback, LTV uplift, ROI, NPV, sensitivity, Rule of 40 for investor-grade buyers |
+| `skills/saas-pricing-and-packaging-proposal/SKILL.md` | SaaS pricing and packaging: subscription, usage, hybrid, enterprise tiering, expansion, freemium, paid trial, price-increase clauses |
+| `skills/saas-implementation-methodology/SKILL.md` | End-to-end SaaS implementation methodology: control plane, application plane, tenant isolation, data partitioning, observability, billing integration, cost attribution, onboarding automation |
+| `skills/saas-poc-and-pilot-scoping/SKILL.md` | SaaS POC and pilot scoping: hypothesis, success criteria, exit criteria, time-box, decision gate |
+| `skills/saas-procurement-and-security-questionnaire/SKILL.md` | Procurement path, security questionnaire pack, DPA / MSA / SLA, data residency, sub-processors, exit clauses |
+| `skills/saas-customer-success-and-adoption-proposal/SKILL.md` | Customer success engagement package: onboarding, activation, success plan, QBR, expansion plays, save plays, health scoring |
+| `skills/saas-mutual-action-planning-and-close-plans/SKILL.md` | Mutual Action Plan from selection to go-live to value realisation; close plan from BAFO to signature |
+| `skills/saas-vertical-positioning/SKILL.md` | Vertical positioning for financial services, insurance, public sector, healthcare, education, and other priority verticals |
+| `skills/saas-objection-handling-and-competitive-displacement/SKILL.md` | Objections (price, risk, vendor lock, build-in-house, AI, adoption) and competitive displacement (incumbent renewal, point solution, build, open-source, do-nothing) |
+| `skills/saas-lifecycle-communications-as-deliverable/SKILL.md` | Lifecycle programs (acquisition, activation, engagement, expansion, retention, advocacy) as priced workstreams |
+| `skills/saas-trust-and-compliance-credentials-section/SKILL.md` | Trust and Compliance section: security, privacy, certifications, sub-processors, BCDR, audit, exit clauses, insurance |
+| `skills/saas-multi-tenant-architecture-credibility-block/SKILL.md` | Methodology-grade content block proving SaaS architectural literacy: control plane, application plane, tenant isolation, tenant context, cost attribution |
+| `skills/saas-pilot-to-rollout-change-management/SKILL.md` | SaaS mindset transition: per-tenant operations, continuous release, customer success replaces installation services, recurring revenue model |
+| `skills/ai-on-saas-combined-methodology/SKILL.md` | Headline AI-on-SaaS methodology: three planes (control / application / AI), phases, gates, binary AI acceptance criteria, Responsible-AI commitment hook |
+| `skills/ai-on-saas-discovery-and-qualification/SKILL.md` | Eight AI-on-SaaS qualifying lines: workflow-AI fit, data, hallucination tolerance, AI maturity, change-readiness, regulator, model-provider posture, tenant variation |
+| `skills/ai-on-saas-business-case-and-roi/SKILL.md` | AI ROI that resists hype: AI Value Stack, AI Cost Stack, eval-margin, cost-of-tokens P50/P90/P99, three-scenario ROI, downside scenarios |
+| `skills/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` | Five AI pricing patterns, model-by-tier, fair-use, price-increase indexed and capped, FX clause, worked examples |
+| `skills/ai-on-saas-poc-and-pilot-scoping/SKILL.md` | AI POC with binary eval criteria, golden dataset, model-selection matrix, hallucination ceiling, abstain logic, exit gates, abort fee |
+| `skills/ai-on-saas-risk-and-responsible-ai/SKILL.md` | Ten-entry AI risk register and Responsible-AI commitment with named accountable role (AI Safety Lead) |
+| `skills/ai-on-saas-compliance-credentials/SKILL.md` | AI Trust and Compliance subsection: EU AI Act, NCAIS, NAIS, AI Policy KE/NG/ZA/UG/RW, ISO 42001/23894, NIST AI RMF, model cards, eval CI, hallucination SLO, red-team, sub-processor disclosure, region routing, sovereign-AI |
+| `skills/ai-on-saas-procurement-and-questionnaire/SKILL.md` | Eight-domain AI procurement answer pack: model providers and sub-processors, training-data posture, retention and deletion, region routing, sovereign-AI, eval and hallucination, safety and abuse, governance and redress |
+| `skills/ai-on-saas-change-management-and-adoption/SKILL.md` | AI mindset transition: trust staging (shadow → confirm → supervised → auto), augment-vs-replace framing, HITL design with named human authority, retraining cadence communications, union / regulator communications |
+| `skills/ai-on-saas-team-composition/SKILL.md` | AI-on-SaaS roster: irreducible AI trio (AI Safety Lead, Eval Engineer, MLOps) plus ML Lead, Prompt Engineer, RAG Engineer, Data Engineer (AI), AI Change Lead, with RACI, ramp curve, blended-rate considerations |
+| `skills/ai-on-saas-vertical-positioning/SKILL.md` | Vertical AI plays: financial services (model-risk management), insurance (claims-AI HITL), public sector (sovereign-AI), healthcare (non-diagnostic clinician-in-the-loop), education (minor-data + instructor-in-the-loop), customer support (containment honesty + agent-assist) |
 
 ## Reference - Proposal Strategy and Persuasion
 
@@ -121,6 +146,34 @@ Use the shared references in `skills/references/` when a proposal needs deeper b
 - `customer-service-and-escalation-commitments.md`
 
 Use `skills/premium-commercial-writing/SKILL.md` as the cross-cutting writing layer when those strategy references must become sharper client-facing prose, case studies, executive summaries, public documents, or thought leadership.
+
+## Reference - SaaS Implementation and SaaS Product-Development Proposals
+
+For SaaS-specific bids, the engine carries dedicated skills and references. The SaaS-specific reference library in `skills/references/` includes:
+
+- `saas-discovery-question-bank.md` - SaaS discovery (ICP, Critical Event, pain chain, impact, decision process).
+- `meddic-and-command-of-message-for-saas.md` - MEDDPICC qualification gate and Six-Lens Value Claim.
+- `saas-mutual-action-plan-template.md` - MAP from selection to value realisation.
+- `saas-demo-script-template.md` - discovery-tuned demo script.
+- `saas-poc-scoping-template.md` - POC and pilot scoping.
+- `saas-business-case-and-roi-template.md` - TCO / unit economics / ROI / NPV / sensitivity.
+- `saas-pricing-models-reference.md` - subscription / usage / hybrid / tiering / expansion / freemium.
+- `saas-procurement-and-security-questionnaire-playbook.md` - procurement path and security questionnaire pack.
+- `saas-msa-dpa-sla-template-language.md` - contract-grade language patterns.
+- `saas-customer-success-engagement-package.md` - customer success scope.
+- `saas-lifecycle-email-program-proposal-template.md` - six lifecycle programs.
+- `saas-implementation-methodology-blocks.md` - reusable methodology blocks.
+- `saas-multi-tenant-architecture-block.md` - architectural credibility paragraphs.
+- `saas-risk-register-for-proposals.md` - SaaS risk register.
+- `vertical-saas-positioning-financial-services.md`, `vertical-saas-positioning-insurance.md`, `vertical-saas-positioning-public-sector.md`, `vertical-saas-positioning-healthcare.md`, `vertical-saas-positioning-education.md` - vertical positioning briefs.
+- `saas-objection-handling-playbook.md` - objection-handling library.
+- `saas-vendor-vs-build-narrative.md` - build-vs-buy framing.
+- `saas-win-themes-and-discriminators.md` - SaaS win themes.
+- `saas-gtm-motion-design-reference.md` - GTM motion design.
+- `saas-metrics-glossary-for-proposals.md` - SaaS vocabulary.
+- `saas-trust-and-compliance-section-template.md` - Trust and Compliance section template.
+
+Load the SaaS skills and references when the engagement is SaaS implementation, SaaS product development, multi-tenant platform build, SaaS migration from installed software, SaaS commercial launch, or SaaS-on-AI work. The audit synthesis in `book-extractions/saas-proposal-skills-audit-2026.md` documents how these skills and references were derived from the seven SaaS books processed in 2026.
 
 ## Reference - Consulting Delivery Excellence
 

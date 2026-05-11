@@ -37,10 +37,26 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Price-objection response.
 - Financial proposal assumptions and exclusions.
 
+## SaaS Lens
+
+For SaaS implementation and SaaS product-development engagements, the value defence anchors on different commercial logic:
+
+- **Internal-Use SaaS** (client adopts SaaS to run operations): defend with five-year TCO comparison vs on-premise / legacy, time-to-value reduction, and risk-reduction quantification (compliance, outage, breach, audit, key-person).
+- **Resale SaaS** (client builds or implements SaaS to sell to its own customers): defend with unit economics — CAC payback, LTV:CAC, gross margin, net dollar retention, Rule of 40 (investor-grade buyers only), magic number, professional services attach rate (PSAR).
+- **Commercial options**: subscription, usage-based, hybrid, enterprise tiering, outcome-based, capacity-based. Each option carries different risk-and-cost shape for the agency.
+- **Pricing structure inside the financial proposal**: never bundle customer success, lifecycle communications, or trust-and-compliance work invisibly inside the implementation fee — they are named workstreams that defend the premium.
+- **Trade discipline**: in BAFO, trade scope, term, payment milestones, or assurance level — never pure discount on a properly priced SaaS engagement.
+
 ## References
 
 - `../references/premium-rate-justification-framework.md` - premium fee proof ladder and commercial options.
 - `../references/proposal-objection-handling.md` - ethical responses to pricing and risk objections.
+- `../references/saas-pricing-models-reference.md` - subscription, usage, hybrid, tiering, expansion, freemium, paid trial, price-increase clauses.
+- `../references/saas-business-case-and-roi-template.md` - TCO vs on-prem (Flavour A) and unit economics (Flavour B).
+- `../references/saas-metrics-glossary-for-proposals.md` - vocabulary for investor-grade conversations.
+- `../references/saas-objection-handling-playbook.md` - price, risk, timeline, vendor lock-in, build-in-house responses.
 - `../premium-commercial-writing/SKILL.md` - turns value defence into clear, proof-led, premium-fee-worthy prose.
 - `../10-financial-proposal/SKILL.md` - financial proposal owner and costing discipline.
 - `../premium-client-proposal-strategy/SKILL.md` - executive and premium-buyer proposal positioning.
+- `../saas-pricing-and-packaging-proposal/SKILL.md` - SaaS pricing and packaging skill.
+- `../saas-business-case-and-roi-modeling/SKILL.md` - SaaS business case skill.

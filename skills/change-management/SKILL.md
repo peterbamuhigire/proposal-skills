@@ -38,11 +38,40 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - Domain-informed change-management content aligned to this skill.
 
+## SaaS Mindset Transition
+
+For SaaS implementation engagements, the change management workstream must address four substantive operating-model shifts beyond the standard ADKAR/Kotter material:
+
+- **Per-customer to per-tenant operations**: operations no longer manages dedicated environments per customer; it manages tenant lifecycles inside a shared platform.
+- **Scheduled per-customer releases to continuous releases for all tenants**: release management becomes continuous; per-customer release waivers are not granted.
+- **Installation services to customer success engagement**: the team that used to install software for each new customer becomes the customer-success team that engineers adoption, value realisation, and expansion.
+- **Perpetual licence to recurring subscription**: finance, sales, and contracts reorganise around recurring revenue, deferred revenue recognition, renewal forecasting, and expansion planning.
+
+Each shift is named, measured, communicated, trained, and reinforced through the change-management workstream. Reference `../saas-pilot-to-rollout-change-management/SKILL.md` for the SaaS-specific change skill.
+
+## AI Mindset Transition
+
+For AI-on-SaaS engagements, layer on the AI mindset transition alongside the SaaS shifts:
+
+- **Trust before authority**: AI authority is staged — shadow, confirm, supervised auto, full auto — not granted at launch. Trust-building activities are designed into adoption.
+- **Augment vs replace, honestly**: the framing is agreed before user communications. Honest framing protects adoption; sugar-coated "augment" framing breaks trust irreversibly when the intent is to replace.
+- **Human-in-the-loop is engineered, not promised**: HITL names the human, the authority (approve, decline, modify), the SLA, the queue, the audit, and the escalation. "Human review" is not HITL.
+- **Retraining cadence is communicated**: when models / prompts are updated, what users see change, what the rollback path is, who signed off. Silent retraining destroys trust.
+- **Override and abstain are measured, not feared**: override rate (5–25 % healthy) and abstain-correctness (≥ 0.95) are dashboard metrics signed off at the AI Governance Forum.
+
+Reference `../ai-on-saas-change-management-and-adoption/SKILL.md` for the companion skill and `../references/ai-on-saas-change-management-playbook.md` for the long-form playbook.
+
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
 - `../references/service-design-methodology-module.md` for co-creation, prototype validation, service implementation, and frontline adoption.
 - `../references/discovery-question-bank-for-proposals.md` for change-readiness, adoption, and implementation assumption questions.
+- `../references/saas-multi-tenant-architecture-block.md` for the SaaS mindset paragraph and the four substantive shifts.
+- `../references/saas-customer-success-engagement-package.md` for the customer-success function that replaces installation services.
+- `../references/saas-lifecycle-email-program-proposal-template.md` for the lifecycle communications that support adoption.
 - `../customer-service-and-maintenance-proposals/SKILL.md` when adoption depends on support, issue handling, and post-launch confidence.
+- `../saas-pilot-to-rollout-change-management/SKILL.md` - SaaS-specific change management skill.
+- `../ai-on-saas-change-management-and-adoption/SKILL.md` - AI-on-SaaS change and adoption skill.
+- `../references/ai-on-saas-change-management-playbook.md` - AI adoption playbook (trust staging, augment-vs-replace, HITL, retraining cadence).
 
 Most consulting assignments — ICT implementations, institutional reform, process improvement — require people to change how they work. Proposals that address this explicitly score higher than those that treat change as an afterthought. This skill provides the OCM frameworks and structures that proposal sections draw from.
 
