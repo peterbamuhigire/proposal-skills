@@ -47,9 +47,30 @@ When the bid is a SaaS implementation or SaaS product-development engagement, la
 - Use trade discipline: never give a concession (discount, scope, terms) without receiving one (scope, term, references, payment, expansion commitment).
 - Prepare competitive-displacement narratives for the realistic alternatives (incumbent renewal, point solution, build-in-house, free/open-source, do-nothing) — not vendor-by-vendor.
 
+## AI-Agent Commercial Objections Lens
+
+When the engagement is agentic and the procurement, legal, or finance team raises commercial objections, layer on the ten common agent procurement asks and the trade-not-give responses:
+
+- "We don't pay for failed tasks" — Intervention Credit Clause.
+- "We want a price floor below unit price" — Performance Corridor with Floor.
+- "We want a price corridor on the SLA" — SLA Class Credit Schedule.
+- "We want to audit the audit log" — Audit Rights with allowance and Evidence-Pack Fee.
+- "We want a refund if the agent fails" — Abort-and-Refund Triggers (five named).
+- "We want unlimited liability for agentic action" — General cap + Irreversible-Action Sub-Cap.
+- "We want indemnity for regulator action" — Indemnity for named obligations only.
+- "We want the model-cost increase absorbed by you" — Vendor-Cost-Pass-Through with Cap and Margin Floor.
+- "We want unlimited audit-log retention" — 7 years + regulator-mandated.
+- "We want to terminate without cause at any time, no refund clawback" — 90-day notice + pro-rata of unused subscription.
+
+Every concession is traded for term, scope, volume guarantee, payment terms, SLA-class movement, or price. The agency does not give a default away under pressure; it trades it. Things the agency declines even at the cost of the deal: uncapped liability, open-ended regulator indemnity, no floor on per-resolution, full absorption of model-cost increases, refund as "good faith" instead of formula.
+
+Use `../ai-agent-procurement-objections-on-commercials/SKILL.md` for the full ten-objection playbook and `../references/ai-agent-commercial-objection-handling.md` for long-form responses.
+
 ## References
 
 - `../references/discovery-question-bank-for-proposals.md` - reusable question bank for buyer discovery and proposal clarification.
+- `../references/ai-agent-commercial-objection-handling.md` - agent commercial objection playbook.
+- `../ai-agent-procurement-objections-on-commercials/SKILL.md` - agent commercial objection skill.
 - `../references/proposal-objection-handling.md` - ethical objection handling for price, risk, timeline, staffing, technology, local context, support, AI, and procurement.
 - `../references/saas-discovery-question-bank.md` - SaaS-specific discovery (ICP, Critical Event, pain chain, impact per role, decision process).
 - `../references/meddic-and-command-of-message-for-saas.md` - SaaS qualification overlay and Six-Lens Value Claim.

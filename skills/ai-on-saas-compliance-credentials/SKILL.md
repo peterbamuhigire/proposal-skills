@@ -77,6 +77,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - AI Sub-Processor Disclosure subsection.
 - Region Routing and Sovereign-AI Options subsection.
 
+## Agent Overlay
+
+For agentic engagements, the Trust and Compliance section gains agent-specific subsections: **action audit log practice** with 99 % completeness SLA, **irreversibility gating** with named approvers, **intervention SLO**, **kill-switch architecture and quarterly drill** with drill log, **agent-specific red-team catalogue** (prompt injection via tool output, scope manipulation, memory poisoning, identity confusion, multi-agent collusion), **agent identity and impersonation policy**, **action-scope attestation**, **multi-agent governance** (where applicable), and **transparency-to-affected-party UX**. Sub-processor disclosure expands to name tool-call APIs as well as model providers. Load `../ai-agent-compliance-credentials/SKILL.md` for the agent trust template.
+
 ## References
 
 - `../references/ai-on-saas-trust-and-compliance-section-template.md` — full template.

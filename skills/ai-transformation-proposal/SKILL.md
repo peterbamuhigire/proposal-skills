@@ -106,6 +106,20 @@ When the engagement is specifically the build of AI features inside a multi-tena
 
 This skill (`ai-transformation-proposal`) remains the right entry point for **generic AI strategy** engagements where there is no SaaS layer (AI consulting, AI agents in a single-tenant context, AI automation in the buyer's own software estate). Once a SaaS layer is in scope, the AI-on-SaaS family takes over.
 
+## Agent Branch
+
+When the engagement delivers one or more AI agents (autonomous LLM systems that plan, call tools, decide, and act on the buyer's behalf), or a multi-agent system, route to the AI-agent family:
+
+- Headline: `../ai-agent-methodology/SKILL.md` — eight-phase agentic methodology (Discover → Action-Catalogue → Architecture for Autonomy → Build → Shadow → Supervised → Agentic → Operate).
+- Discovery: `../ai-agent-discovery-and-qualification/SKILL.md` — Agent-vs-Workflow Filter; autonomy ladder L0–L5; irreversibility tolerance; oversight model.
+- Business case: `../ai-agent-business-case-and-roi/SKILL.md` — tasks-per-FTE with intervention discount; three-scenario ROI keyed to autonomy ramp.
+- Pricing: `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — six agent pricing patterns; intervention credit; vendor cost pass-through.
+- Risk and Responsible-AI: `../ai-agent-risk-and-responsible-ai/SKILL.md` — twelve-entry agent register; Responsible-AI Agent Commitment with named Agent Safety Lead.
+- Procurement: `../ai-agent-procurement-and-questionnaire/SKILL.md` — ten-domain agent answer pack.
+- Vertical: `../ai-agent-vertical-positioning/SKILL.md` — agent plays per vertical with autonomy stance.
+
+Use the AI-agent family **with** the AI-on-SaaS family when the agent lives inside a multi-tenant SaaS product.
+
 ## References
 
 - `../references/technical-strategy-credibility-checklist.md` - technical strategy, SaaS, cloud, AI, roadmap, and operations credibility checks.

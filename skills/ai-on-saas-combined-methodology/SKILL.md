@@ -90,6 +90,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Responsible-AI commitment hook (link to `ai-on-saas-responsible-ai-commitment.md`).
 - ToR phase-name mapping where required.
 
+## Agent Overlay
+
+When the AI features include autonomous agents (LLM systems that plan, call tools, decide, and act on the buyer's behalf), overlay the AI plane with the **eight-phase agent methodology** from `../ai-agent-methodology/SKILL.md`: Discover → Action-Catalogue Design → Architecture for Autonomy → Build → Shadow → Supervised → Agentic → Operate. The AI plane gains an Action Catalogue with reversibility classification, an autonomy commitment per action class, a kill-switch architecture with named authority and quarterly drill, an action audit log with 99 % completeness SLA, an agent-specific red-team catalogue, and a Responsible-AI Agent Commitment with a named Agent Safety Lead. Load `../ai-agent-methodology/SKILL.md` alongside this skill for agentic engagements.
+
 ## References
 
 - `../references/ai-on-saas-methodology-blocks.md` — reusable Methodology section content.

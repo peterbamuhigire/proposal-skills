@@ -108,6 +108,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Training-Data Posture statement per provider.
 - Retention and Deletion table.
 
+## Agent Overlay
+
+For agentic engagements, the answer pack extends from eight to **ten domains** by adding **autonomy level and action scope** (per-action-class autonomy commitment; published action catalogue; reversibility classification) and **irreversibility gating, kill-switch and drill, multi-agent governance**. Sub-processor disclosure expands to tool-call APIs alongside model providers. Load `../ai-agent-procurement-and-questionnaire/SKILL.md` for the agent procurement answer pack.
+
 ## References
 
 - `../references/ai-on-saas-procurement-questionnaire-pack.md` — long-form answer pack with sample language.

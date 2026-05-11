@@ -46,9 +46,29 @@ For SaaS implementation engagements, support and maintenance is part of a broade
 - **Health Scoring** drives proactive engagement: composite score (usage, adoption breadth, support sentiment, sponsor stability, renewal posture, expansion progress) with Red/Amber/Green response actions.
 - **Save Plays** for the predictable churn signals: sponsor change, active-user drop, support spike, QBR dissatisfaction, stalled renewal.
 
+## AI-Agent Lens
+
+When the engagement delivers an AI agent that operates after go-live, the support, SLA, and maintenance commitments take an agent-specific shape that the generic SaaS SLA does not capture:
+
+- **Four-metric SLA** — availability, task-success, intervention rate, time-to-resolve, against a Bronze / Silver / Gold / Platinum class table. Single-metric uptime is not sufficient.
+- **Three operational guardrails** — kill-switch SLA (time-to-stop), audit-log completeness SLA (with retention and replay), intervention SLA (time-to-human escalation). These remain in force during model-provider force-majeure.
+- **Credit schedule** per metric, with aggregate Service-Credit Cap by class (10 / 25 / 50 / 100 %).
+- **Intervention Credit Clause** on Unit Fees — buyer does not pay full price when intervention rate exceeds the ceiling. Customer-facing monthly statement shows the credit applied with evidence-link to the Audit Log.
+- **Abort-and-Refund** triggers — Irreversible-Action Incident at agency fault, Intervention overshoot 60 days, Regulator Action, Model-provider sustained outage, Audit-Log Breach. Pro-rata refund of unused subscription.
+- **Maintenance scope specific to agents** — eval and red-team cadence, drift watch, supervisor retraining, kill-switch drills (quarterly minimum), prompt regression in CI, model-routing posture and fallback, sub-processor change-notification, action catalogue change-control.
+- **Vertical SLA variants** — financial services (regulator-aware, customer-detriment SLA), public sector (no outcome pricing on citizens, sovereign-AI default), healthcare (no autonomous clinical decision, admin-only).
+
+Use `../ai-agent-sla-and-credit-schedule/SKILL.md` to commit the SLA class; `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` for the intervention credit and abort mechanics; `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` for the MSA addendum.
+
 ## References
 
 - `../references/website-software-maintenance-support-language.md` - proposal-ready support and maintenance language.
+- `../references/ai-agent-sla-class-table.md` - agent SLA class and credit schedule.
+- `../references/ai-agent-sla-exhibit-template.md` - drop-in agent SLA exhibit.
+- `../references/ai-agent-credit-and-refund-clauses.md` - agent credit and refund clauses.
+- `../ai-agent-sla-and-credit-schedule/SKILL.md` - agent SLA skill.
+- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` - intervention credit and abort.
+- `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` - MSA addendum.
 - `../references/customer-service-and-escalation-commitments.md` - escalation, complaint handling, warm handoff, and follow-up commitments.
 - `../references/saas-customer-success-engagement-package.md` - SaaS customer success engagement scope: onboarding, activation, success plan, QBR, expansion, save plays, health scoring.
 - `../references/saas-lifecycle-email-program-proposal-template.md` - lifecycle communications backbone.

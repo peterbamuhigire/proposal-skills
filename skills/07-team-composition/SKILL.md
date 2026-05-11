@@ -59,6 +59,29 @@ For AI-on-SaaS engagements (multi-tenant SaaS + AI features), the SaaS roster is
 
 Beyond the trio, the AI roster names: AI Solution Architect / ML Lead, Prompt Engineer, Data Engineer (AI), RAG / Retrieval Engineer, AI Change and Adoption Lead. The two-of-everything rule applies to client-side counterparts (Eval Owner, Prompt Owner, AI Safety Sponsor, Model Gateway Operator). AI safety, eval, and red-team roles ramp at Phase 1, not at hardening. Reference `../ai-on-saas-team-composition/SKILL.md` and `../references/ai-on-saas-team-composition-template.md` for the full roster, RACI, ramp curve, and blended-rate considerations.
 
+## Embedded Accounting Engine Team Patterns
+
+For embedded accounting-engine engagements, add finance-qualified roles early rather than treating accounting as late QA:
+
+- **Accounting Solution Architect**: owns ledger architecture, chart of accounts design, posting-rule model, and report traceability.
+- **Finance SME / Accountant**: validates accounting treatment, posting matrices, close workflow, report outputs, and statutory caveats.
+- **Data Migration Lead**: owns opening balances, customer/supplier balances, stock values, fixed assets, and historical source-document migration.
+- **Integration Lead**: owns bank, mobile-money, tax, payroll, inventory, and payment-provider interfaces.
+- **QA/Test Lead**: owns invariant tests for balanced journals, period locks, idempotency, reversals, report rebuilds, and subledger reconciliation.
+- **Reporting Lead**: owns financial statements, management reports, drill-down, exports, and audit evidence pack.
+- **Client-side Finance Owner**: approves mappings, opening balances, reports, and first-close acceptance.
+
+## Finance And Accounting Section Team Patterns
+
+When a proposal includes project financial management, donor/grant finance, accounting controls, audit evidence, or financial reporting, name the finance capability explicitly:
+
+- **Finance Lead / Financial Management Specialist**: owns budget governance, funds-flow controls, reporting cadence, and financial close-out.
+- **Accountant / Bookkeeping Specialist**: owns transaction recording, reconciliations, supporting schedules, and source-document discipline.
+- **Grants / Donor Compliance Specialist** where restricted funds, donor formats, advance liquidation, or eligible-cost rules apply.
+- **Tax / Statutory Compliance Adviser** where VAT, WHT, PAYE/NSSF, LST, duties, or local filing obligations affect the assignment.
+- **Internal Controls / Audit Readiness Specialist** where the proposal must withstand board, donor, government, or auditor review.
+- **Client-side Finance Focal Person**: approves budget reallocations, expenditure evidence, financial reports, and audit-file handover.
+
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
@@ -67,6 +90,8 @@ Beyond the trio, the AI roster names: AI Solution Architect / ML Lead, Prompt En
 - `../references/saas-implementation-methodology-blocks.md` for engineering-role naming inside Methodology.
 - `../references/ai-on-saas-team-composition-template.md` for the AI-on-SaaS roster, RACI, ramp curve, and blended-rate table.
 - `../ai-on-saas-team-composition/SKILL.md` for the companion AI-on-SaaS team-composition skill.
+- `../embedded-accounting-engine-proposal/SKILL.md` for accounting-engine staffing, caveats, and acceptance criteria.
+- `../accounting-finance-advisory/SKILL.md` for finance/accounting section staffing and financial-management roles.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 Evaluators assess whether the proposed team has the qualifications, experience, and availability to deliver the assignment. This section typically carries 30–40% of the technical score in QCBS evaluations. Every person named must be credible for the role assigned.
