@@ -36,9 +36,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Post-launch optimisation scope.
 - Maintenance pricing assumptions.
 
+## SaaS Lens
+
+For SaaS implementation engagements, support and maintenance is part of a broader Customer Success and Adoption engagement that distinguishes premium SaaS bids:
+
+- **Support** handles tickets, incidents, and severity-based response. Tier-appropriate SLA (Starter / Pro / Enterprise) with credit mechanisms.
+- **Customer Success** owns adoption, value realisation, expansion, and renewal posture. CSM-led, with QBR cadence and named save plays for predictable churn signals.
+- **Lifecycle Communications** is the operational backbone of customer success: acquisition, activation, engagement, expansion, retention, advocacy programs.
+- **Health Scoring** drives proactive engagement: composite score (usage, adoption breadth, support sentiment, sponsor stability, renewal posture, expansion progress) with Red/Amber/Green response actions.
+- **Save Plays** for the predictable churn signals: sponsor change, active-user drop, support spike, QBR dissatisfaction, stalled renewal.
+
 ## References
 
 - `../references/website-software-maintenance-support-language.md` - proposal-ready support and maintenance language.
 - `../references/customer-service-and-escalation-commitments.md` - escalation, complaint handling, warm handoff, and follow-up commitments.
+- `../references/saas-customer-success-engagement-package.md` - SaaS customer success engagement scope: onboarding, activation, success plan, QBR, expansion, save plays, health scoring.
+- `../references/saas-lifecycle-email-program-proposal-template.md` - lifecycle communications backbone.
+- `../references/saas-msa-dpa-sla-template-language.md` - SLA, severity, credits, exit clauses.
 - `../website-design-proposal-strategy/SKILL.md` - website launch, handover, and support context.
 - `../ai-transformation-proposal/SKILL.md` - AI monitoring, evaluation refresh, and operational support context.
+- `../saas-customer-success-and-adoption-proposal/SKILL.md` - SaaS customer success skill.
+- `../saas-lifecycle-communications-as-deliverable/SKILL.md` - lifecycle communications skill.

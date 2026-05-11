@@ -44,8 +44,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../references/discovery-question-bank-for-proposals.md` for clarification questions and assumption discovery.
+- `../references/saas-discovery-question-bank.md` for SaaS-specific discovery (ICP, Critical Event, pain chain, impact per role, decision process).
+- `../references/meddic-and-command-of-message-for-saas.md` for SaaS qualification logic and Six-Lens Value Claim.
 - `../service-design-proposal-strategy/SKILL.md` when the assignment involves journeys, touchpoints, support, citizen/customer experience, or service quality.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for evaluator concern, risk perception, and ethical persuasion checks.
+- `../saas-discovery-and-qualification/SKILL.md` for SaaS-specific Understanding of the Assignment content (pain chain, Critical Event, ICP, decision process).
 - Root `references/` files for persuasion, logic structure, and proposal patterns.
 
 This section proves the firm has read, analysed, and thought critically about the Terms of Reference. It is not a paraphrase of the ToR — evaluators wrote the ToR and will notice if it is simply copied back at them. The firm must restate the assignment in its own words and add professional insight.

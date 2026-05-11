@@ -37,11 +37,28 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - Domain-informed data-management content aligned to this skill.
 
+## SaaS Data Implementation Plan
+
+For SaaS lifecycle-communications scope and for any SaaS implementation that depends on segmentation, behavioural triggers, identity resolution, and operating-rule governance, scope and price a dedicated Data Implementation Plan workstream:
+
+- **Identify schema**: customer, account, user, role, segment, lifecycle stage, lifecycle program flags.
+- **Event schema**: signup, activation, in-product actions, billing events, support events, customer-success events.
+- **Custom fields**: vertical-specific fields (insurance: policy count; banking: customer count, transaction volume; healthcare: facility, provider category).
+- **Identity resolution**: linking the same user across product, marketing automation, CRM, support.
+- **Consent and preference management**: lawful basis, opt-in records, channel preferences, frequency caps.
+- **Segmentation**: standard segments at launch (by tier, lifecycle stage, health, industry).
+- **Data hygiene**: bounce handling, suppression, decay, re-verification.
+
+This is engineering-grade work — price it as such, not inside a bundled "email setup" line.
+
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
 - Use `references/data-analytics-methodology-for-proposals.md` when the proposal
   involves dashboards, MIS analytics, BI, AI analytics, survey analysis, data platforms,
   routine monitoring, forecasting, or evidence-based decision support.
+- `../references/saas-lifecycle-email-program-proposal-template.md` for the Data Implementation Plan workstream framing.
+- `../references/saas-multi-tenant-architecture-block.md` for tenant-context and data-partitioning concerns.
+- `../saas-lifecycle-communications-as-deliverable/SKILL.md` for the lifecycle communications skill.
 
 Assignments involving system implementations, M&E frameworks, surveys, or institutional assessments all require a data management component. Proposals that demonstrate a structured approach to data collection, storage, quality, governance, and protection score higher — particularly with donors who have been burned by projects that produced unusable data.
 

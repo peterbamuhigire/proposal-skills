@@ -142,6 +142,31 @@ proposal-skills/
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
 | `skills/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy, operations, and communication frameworks |
 | `skills/critical-analysis-business-logic/SKILL.md` | Serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
+| `skills/saas-discovery-and-qualification/SKILL.md` | SaaS discovery: ICP, Critical Event, pain chain, impact per role, decision process, MEDDPICC qualification gate |
+| `skills/saas-business-case-and-roi-modeling/SKILL.md` | CFO-grade SaaS business case: TCO, time-to-value, payback, LTV / CAC, NPV, sensitivity |
+| `skills/saas-pricing-and-packaging-proposal/SKILL.md` | Subscription, usage, hybrid, enterprise tiering, expansion, freemium, paid trial, price-increase |
+| `skills/saas-implementation-methodology/SKILL.md` | End-to-end SaaS implementation methodology with control plane and application plane build |
+| `skills/saas-poc-and-pilot-scoping/SKILL.md` | POC and pilot scoping with explicit success criteria and decision gates |
+| `skills/saas-procurement-and-security-questionnaire/SKILL.md` | Procurement, security review, DPA / MSA / SLA, data residency, exit clauses |
+| `skills/saas-customer-success-and-adoption-proposal/SKILL.md` | Customer success engagement: onboarding, success plan, QBR, expansion / save plays, health scoring |
+| `skills/saas-mutual-action-planning-and-close-plans/SKILL.md` | MAP from selection to value realisation; close plan from BAFO to signature |
+| `skills/saas-vertical-positioning/SKILL.md` | Vertical positioning for financial services, insurance, public sector, healthcare, education |
+| `skills/saas-objection-handling-and-competitive-displacement/SKILL.md` | Objection handling and competitive displacement |
+| `skills/saas-lifecycle-communications-as-deliverable/SKILL.md` | Six lifecycle programs as priced workstreams |
+| `skills/saas-trust-and-compliance-credentials-section/SKILL.md` | Trust and Compliance section template |
+| `skills/saas-multi-tenant-architecture-credibility-block/SKILL.md` | Methodology block proving SaaS architectural literacy |
+| `skills/saas-pilot-to-rollout-change-management/SKILL.md` | SaaS mindset transition and change management |
+| `skills/ai-on-saas-combined-methodology/SKILL.md` | Headline AI-on-SaaS methodology: three planes, gates, binary AI acceptance criteria |
+| `skills/ai-on-saas-discovery-and-qualification/SKILL.md` | Eight AI-on-SaaS qualifying lines and the qualification scorecard |
+| `skills/ai-on-saas-business-case-and-roi/SKILL.md` | AI Value Stack + AI Cost Stack + eval-margin + cost-of-tokens + three-scenario ROI |
+| `skills/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` | Five AI pricing patterns, model-by-tier, fair-use, price-increase, FX |
+| `skills/ai-on-saas-poc-and-pilot-scoping/SKILL.md` | AI POC with binary eval criteria, golden dataset, model-selection matrix, exit gates |
+| `skills/ai-on-saas-risk-and-responsible-ai/SKILL.md` | Ten-entry AI risk register and Responsible-AI commitment with named accountable role |
+| `skills/ai-on-saas-compliance-credentials/SKILL.md` | AI Trust and Compliance subsection (EU AI Act, NCAIS, NAIS, AI Policy KE/NG/ZA/UG/RW, ISO/NIST) |
+| `skills/ai-on-saas-procurement-and-questionnaire/SKILL.md` | Eight-domain AI procurement answer pack |
+| `skills/ai-on-saas-change-management-and-adoption/SKILL.md` | AI mindset transition: trust staging, augment-vs-replace, HITL design |
+| `skills/ai-on-saas-team-composition/SKILL.md` | AI-on-SaaS roster: AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI |
+| `skills/ai-on-saas-vertical-positioning/SKILL.md` | Vertical AI plays for FS, insurance, public sector, healthcare, education, customer support |
 
 ## Proposer Profiles
 

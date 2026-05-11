@@ -42,6 +42,19 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Support, maintenance, and service-quality commitments for premium delivery.
 - Proposal review findings and fix list.
 
+## SaaS Premium-Buyer Lens
+
+For premium SaaS implementation and SaaS product-development bids, the buyer-level map is more specific than generic premium:
+
+- **CEO / MD**: cares about value at stake, time to value, strategic control, board defensibility.
+- **CFO / Finance Director**: cares about TCO, payback, sensitivity, NRR (for resale SaaS), Rule of 40 / magic number (for investor-grade buyers).
+- **CIO / CTO**: cares about tenant isolation, integration realism, operating model change, exit and portability.
+- **CISO**: cares about regulator alignment, sub-processors, BCDR, incident response, audit posture.
+- **COO**: cares about adoption capacity, change-management staffing, operating-model shifts.
+- **Sponsor (sector executive)**: cares about vertical depth, comparable engagement evidence, and after-go-live commitment.
+
+Tune the proposal's themes, evidence, and tone to the dominant buyer level. For investor-grade buyers (PE-owned SaaS targets, VC-backed clients), the investor-grade vocabulary opt-in (Rule of 40, magic number, burn multiple, NRR, ARR) signals the agency speaks the buyer's commercial language.
+
 ## References
 
 - `references/premium-proposal-gate.md` - executive, enterprise, affluent, high-ticket proposal quality gate.
@@ -52,3 +65,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../customer-service-and-maintenance-proposals/SKILL.md` - support and service commitments for premium delivery.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` - ethical persuasion and evaluator psychology checks.
 - `../references/technical-strategy-credibility-checklist.md` - technical strategy and SaaS/software credibility checks where technology is central.
+- `../references/meddic-and-command-of-message-for-saas.md` - MEDDPICC qualification and Six-Lens Value Claim for SaaS.
+- `../references/saas-win-themes-and-discriminators.md` - SaaS-specific themes tuned by buyer level.
+- `../references/saas-business-case-and-roi-template.md` - CFO-grade business case structure.
+- `../references/saas-metrics-glossary-for-proposals.md` - investor-grade vocabulary opt-in.
+- `../references/vertical-saas-positioning-financial-services.md` and related vertical positioning files.
+- `../saas-discovery-and-qualification/SKILL.md`, `../saas-business-case-and-roi-modeling/SKILL.md`, `../saas-vertical-positioning/SKILL.md` - SaaS-specific skills.

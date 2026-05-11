@@ -42,12 +42,19 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - A financial proposal narrative or pricing structure aligned to the bid instructions.
 
+## AI Commercial Structure Block
+
+When the engagement contains AI features, the financial proposal includes an AI commercial structure block: cost-of-tokens calculation (tokens-in × price + tokens-out × price + embedding cost + ancillary, per call, scaled to projected production volume); AI-tier credits (included allowance per tier + overage rate); fair-use clause (per-tenant call ceiling, abuse trigger, commercial conversation language); FX clause where revenue is local and model costs are USD; price-increase clause indexed to CPI + 3 pp or model-provider list-price index plus a margin floor. Worked examples at P50 / P90 / P99 tenant volume confirm margin under heavy-user economics. See `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md`, `../references/ai-on-saas-pricing-models-reference.md`, and `../references/ai-on-saas-business-case-template.md` for the formulas, clauses, and worked examples.
+
 ## References
 - `../sectors/SKILL.md` for procurement routing.
 - `../premium-pricing-and-value-defense/SKILL.md` for premium fee logic, options, and value defence.
 - `../sales-discovery-and-objection-handling/SKILL.md` for price, risk, timeline, staffing, technology, and local-context objections.
 - `../customer-service-and-maintenance-proposals/SKILL.md` for support, maintenance, SLA, and post-launch optimisation pricing.
 - `../references/technical-strategy-credibility-checklist.md` for SaaS, AI, software, cloud, API, operations, and maintainability cost drivers.
+- `../references/ai-on-saas-pricing-models-reference.md` for AI pricing patterns, fair-use, price-increase, and FX clauses.
+- `../references/ai-on-saas-business-case-template.md` for cost-of-tokens and three-scenario AI ROI.
+- `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md` for the companion pricing skill.
 - Root and local `references/` files for budgeting, estimation, and commercial framing.
 - Relevant proposal sections so pricing remains consistent with delivery assumptions.
 
@@ -203,6 +210,10 @@ This is useful when presenting optional scope, alternative commercial options, o
 - For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
 - For website design, redesign, SEO-ready website, ecommerce, landing page, portal, or web frontend assignments, run `../website-design-proposal-strategy/SKILL.md` before final pricing. Price discovery, UX, content, SEO, design system, development, CMS, integrations, QA, launch, hosting/licences, training, handover, support, and post-launch optimisation explicitly.
 - For software, SaaS, AI, website, or digital-service assignments, price operations explicitly: monitoring, backups, updates, incident response, model/prompt evaluation, usage review, analytics review, documentation, handover, support channels, and optimisation backlog.
+- For SaaS implementation engagements specifically, price these workstreams as named lines, not bundled inside implementation: control plane (onboarding, identity, billing, observability, cost attribution); application plane build and integration; trust and compliance hardening; customer success engagement (tier-appropriate intensity); lifecycle communications (per program); change management and adoption; ongoing managed service or retainer. Reference `../saas-pricing-and-packaging-proposal/SKILL.md` for client-owned SaaS commercial model design when in scope.
+- For resale SaaS bids (where the client owns the SaaS revenue model), include the tier-ladder design, expansion path, freemium / paid-trial decision, and price-increase clause. Reference `../references/saas-pricing-models-reference.md`.
+- Use Professional Services Attach Rate (PSAR) framing to defend the implementation fee against the subscription cost. Reference `../references/saas-metrics-glossary-for-proposals.md`.
+- Tie payment milestones to SaaS-relevant value events where possible: contract signature, security review cleared, tenant model decision, first end-to-end integration, UAT entry, pilot go-live, full cutover, 60-day adoption review, first QBR. Reference `../references/saas-mutual-action-plan-template.md`.
 - For service design or customer-experience assignments, price research, touchpoint inventory, journey mapping, blueprinting, co-creation, prototyping, frontline validation, implementation planning, training, and measurement separately.
 - For accounting, bookkeeping, ERP finance, POS/accounting integration, finance dashboards, Excel model, or management-accounting assignments, price discovery of source documents, chart-of-accounts review, reconciliation sampling, control walkthroughs, data cleanup, model audit, configuration review, and validation workshops explicitly.
 - For finance transformation, accounting cleanup, ERP/POS finance, grant finance, revenue assurance, cost-control, financial-modelling, or management-accounting proposals, run `../accounting-finance-advisory/SKILL.md` before final pricing so scope, methodology, deliverables, risks, and level of effort agree.

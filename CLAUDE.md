@@ -57,6 +57,45 @@ These cross-cutting knowledge bases support proposal sections and can also gener
 - `skills/consulting-frameworks/` - problem structuring, financial analysis, strategy, operations, and communication frameworks
 - `skills/critical-analysis-business-logic/` - cross-cutting reasoning, evaluator logic, business sense, feasibility, and achievability gate
 
+### SaaS Implementation and SaaS Product-Development Skills
+
+These skills bring the engine to Bain/EY/McKinsey-grade quality for SaaS implementation and SaaS product-development engagements. Load when the bid is SaaS-related.
+
+- `skills/saas-discovery-and-qualification/` - SaaS discovery (ICP, Critical Event, pain chain, impact per role, decision process, MEDDPICC qualification).
+- `skills/saas-business-case-and-roi-modeling/` - TCO, time-to-value, CAC payback, LTV, ROI, NPV, sensitivity; Rule of 40 for investor-grade buyers.
+- `skills/saas-pricing-and-packaging-proposal/` - subscription, usage, hybrid, enterprise tiering, expansion, freemium, price-increase clauses.
+- `skills/saas-implementation-methodology/` - end-to-end SaaS implementation methodology: control plane, application plane, tenant isolation, observability, billing integration, onboarding automation.
+- `skills/saas-poc-and-pilot-scoping/` - POC and pilot scoping with explicit success criteria, exit criteria, and time-box.
+- `skills/saas-procurement-and-security-questionnaire/` - procurement path, security questionnaire pack, DPA / MSA / SLA, data residency, exit clauses.
+- `skills/saas-customer-success-and-adoption-proposal/` - customer success engagement package: onboarding, activation, success plan, QBR, expansion plays, save plays, health scoring.
+- `skills/saas-mutual-action-planning-and-close-plans/` - MAP from selection to value realisation; close plan from BAFO to signature.
+- `skills/saas-vertical-positioning/` - vertical positioning for financial services, insurance, public sector, healthcare, education.
+- `skills/saas-objection-handling-and-competitive-displacement/` - objection handling and competitive displacement plays.
+- `skills/saas-lifecycle-communications-as-deliverable/` - six lifecycle programs as priced workstreams.
+- `skills/saas-trust-and-compliance-credentials-section/` - Trust and Compliance section template.
+- `skills/saas-multi-tenant-architecture-credibility-block/` - architectural credibility paragraphs for Methodology.
+- `skills/saas-pilot-to-rollout-change-management/` - SaaS mindset transition and change management.
+
+The supporting reference library lives under `skills/references/` with file names starting `saas-` and `vertical-saas-`. See `book-extractions/saas-proposal-skills-audit-2026.md` for the full inventory and derivation from the seven SaaS books processed in 2026.
+
+### AI-on-SaaS Skills
+
+These skills bring the engine to Bain/EY/McKinsey-grade quality for engagements that build AI features (RAG, copilots, agents, AI analytics, AI-assisted decisioning) into a multi-tenant SaaS product. Load when the bid is AI-on-SaaS. Use `ai-on-saas-combined-methodology` as the headline; layer the rest on top.
+
+- `skills/ai-on-saas-combined-methodology/` — three-plane methodology (control / application / AI); phases, gates, deliverables with binary AI acceptance criteria.
+- `skills/ai-on-saas-discovery-and-qualification/` — eight AI-on-SaaS qualifying lines (workflow-AI fit, data, hallucination tolerance, maturity, change-readiness, regulator, model-provider, tenant variation).
+- `skills/ai-on-saas-business-case-and-roi/` — AI Value Stack, AI Cost Stack, eval-margin, cost-of-tokens at P50/P90/P99, three-scenario ROI, downside scenarios.
+- `skills/ai-on-saas-pricing-and-packaging-proposal/` — five AI pricing patterns, model-by-tier, fair-use, price-increase, FX clauses, worked examples.
+- `skills/ai-on-saas-poc-and-pilot-scoping/` — AI POC with binary eval criteria, golden dataset, model-selection matrix, hallucination ceiling, abstain logic, exit gates.
+- `skills/ai-on-saas-risk-and-responsible-ai/` — AI risk register (ten core risks) and Responsible-AI commitment with named accountable role.
+- `skills/ai-on-saas-compliance-credentials/` — AI Trust and Compliance subsection (EU AI Act, NCAIS, NAIS, AI Policy KE/NG/ZA/UG/RW, ISO 42001/23894, NIST AI RMF, sectoral).
+- `skills/ai-on-saas-procurement-and-questionnaire/` — eight-domain AI procurement answer pack.
+- `skills/ai-on-saas-change-management-and-adoption/` — AI mindset transition, trust staging, augment-vs-replace, HITL design.
+- `skills/ai-on-saas-team-composition/` — AI-on-SaaS roster (AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI) with RACI and ramp curve.
+- `skills/ai-on-saas-vertical-positioning/` — vertical AI plays (FS, insurance, public sector, healthcare, education, customer support).
+
+The supporting reference library lives under `skills/references/` with file names starting `ai-on-saas-` and `vertical-ai-on-saas-`. See `book-extractions/ai-on-saas-proposal-audit-2026.md` for the full audit and rationale.
+
 ### Profiles, References, Sectors, and Meta Skills
 - `skills/profiles/SKILL.md` - profile routing and selection rules. Load exactly one profile before generating proposal content.
 - `skills/profiles/peter-bamuhigire.md` - individual consultant profile.
