@@ -78,10 +78,43 @@ For premium AI work, lead with the value system being improved: decision quality
 - No maintenance budget for model, prompt, data, and platform drift.
 - Client expects a fully autonomous system where policy, law, or operational risk requires oversight.
 
+## SaaS-on-AI and AI-on-SaaS Lens
+
+When the AI engagement runs on or builds a SaaS platform, layer on SaaS-specific concerns:
+
+- **Tenant isolation for AI features**: per-tenant context propagation in prompts, RAG indexes, model gateways, and eval suites. Cross-tenant data leakage in AI features is a security incident, not a feature gap.
+- **Per-tenant cost attribution for AI usage**: model and API costs must be attributable per tenant; tier-aware throttling protects shared infrastructure.
+- **Tenant-aware evaluation**: golden test sets per tenant or per regulator, not just per use case.
+- **AI lifecycle communications**: the agency proposes lifecycle communications around new AI features (activation nudges, value reinforcement, opt-out flows) as a priced workstream.
+- **AI commercial models inside SaaS pricing**: usage-based pricing for AI features, hybrid floor + overage, or tier-gated for premium tiers.
+
+## When AI Is Delivered as a SaaS Feature
+
+When the engagement is specifically the build of AI features inside a multi-tenant SaaS product — RAG, copilots, agents, AI analytics, AI-assisted decisioning, AI-generated artefacts inside the SaaS — **branch out of this skill** and use the AI-on-SaaS family:
+
+- `../ai-on-saas-combined-methodology/SKILL.md` — headline methodology (three planes: control, application, AI).
+- `../ai-on-saas-discovery-and-qualification/SKILL.md` — discovery and qualification overlay.
+- `../ai-on-saas-business-case-and-roi/SKILL.md` — AI ROI that resists hype.
+- `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md` — AI pricing patterns inside SaaS pricing.
+- `../ai-on-saas-poc-and-pilot-scoping/SKILL.md` — POC with binary eval criteria.
+- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — AI risk register and Responsible-AI commitment.
+- `../ai-on-saas-compliance-credentials/SKILL.md` — Trust and Compliance for AI.
+- `../ai-on-saas-procurement-and-questionnaire/SKILL.md` — AI procurement questionnaire pack.
+- `../ai-on-saas-change-management-and-adoption/SKILL.md` — AI adoption and HITL design.
+- `../ai-on-saas-team-composition/SKILL.md` — AI-on-SaaS roster (AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI).
+- `../ai-on-saas-vertical-positioning/SKILL.md` — vertical AI plays.
+
+This skill (`ai-transformation-proposal`) remains the right entry point for **generic AI strategy** engagements where there is no SaaS layer (AI consulting, AI agents in a single-tenant context, AI automation in the buyer's own software estate). Once a SaaS layer is in scope, the AI-on-SaaS family takes over.
+
 ## References
 
 - `../references/technical-strategy-credibility-checklist.md` - technical strategy, SaaS, cloud, AI, roadmap, and operations credibility checks.
 - `../references/discovery-question-bank-for-proposals.md` - AI use-case, data, workflow, governance, and support discovery.
 - `../references/proposal-objection-handling.md` - responses to AI quality, cost, risk, data, support, and procurement objections.
+- `../references/saas-multi-tenant-architecture-block.md` - tenant isolation for AI features.
+- `../references/saas-implementation-methodology-blocks.md` - methodology blocks where AI workstreams slot in.
+- `../references/saas-trust-and-compliance-section-template.md` - trust posture for AI-on-SaaS.
 - `../premium-pricing-and-value-defense/SKILL.md` - premium AI fee justification and commercial options.
 - `../customer-service-and-maintenance-proposals/SKILL.md` - AI operations, support, maintenance, and escalation language.
+- `../saas-implementation-methodology/SKILL.md` - SaaS implementation methodology that AI workstreams slot into.
+- `../saas-multi-tenant-architecture-credibility-block/SKILL.md` - architectural literacy for AI-on-SaaS bids.

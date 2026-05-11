@@ -37,8 +37,41 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - Domain-informed monitoring and evaluation content aligned to this skill.
 
+## SaaS Health Dashboard Pattern
+
+For SaaS implementation and SaaS product-development engagements, layer on a SaaS health dashboard alongside the standard donor-grade logframe / theory of change:
+
+- **Three growth metrics** (track high): activation rate, expansion ARR, net dollar retention.
+- **Three drag metrics** (track low): gross churn, time-to-first-value, support cost per active account.
+- **Adoption metrics**: DAU/MAU, feature-adoption breadth, business-unit-rollout count.
+- **Trust metrics**: SLA performance, security incidents, regulator findings.
+- **Value-realisation metrics**: against the value-at-stake baseline (Flavour A) or against the unit-economics plan (Flavour B).
+
+Use internal-control measurement (A/B for content and feature variants, holdout for incrementality, propensity-matched for cohort programs) rather than industry-benchmark comparisons — benchmarks signal weak measurement and rarely survive CFO scrutiny.
+
+## AI-on-SaaS Dashboard Pattern
+
+For AI-on-SaaS engagements, layer on an AI dashboard alongside the SaaS health dashboard:
+
+- **Eval drift**: change in eval score between two consecutive refreshes; threshold breach > 5 pp triggers AI Governance Forum.
+- **Hallucination rate per feature**: production-measured rate against the stated ceiling per feature; monthly cadence; weekly alerting.
+- **Abstain-correctness in production**: should-abstain cases where the system abstained; healthy ≥ 0.95.
+- **Cost-per-call and cost-per-tenant at P50 / P90 / P99**: weekly operational telemetry; quarterly tenant-cost-attribution review.
+- **p95 latency** per feature: daily; SLO-bound.
+- **Cross-tenant probe pass rate**: per probe run; 100 % is required, anything else is an incident.
+- **Adoption metrics**: feature adoption, override rate (5–25 % healthy), user trust score (trend up), redress events (trend stable / down).
+- **AI incidents per quarter**: hallucination liability, prompt-injection success, data leakage, sensitive-output, sub-processor incident; target zero critical.
+- **Retraining cadence**: monthly eval refresh; quarterly golden-set refresh; quarterly red-team; annual independent red-team.
+
+The AI dashboard is signed at the AI Governance Forum monthly and the SteerCo quarterly; an annual board-level Responsible-AI declaration consolidates it. See `../references/ai-on-saas-metrics-glossary.md` for metric definitions and `../ai-on-saas-risk-and-responsible-ai/SKILL.md` for the governance framing.
+
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
+- `../references/saas-metrics-glossary-for-proposals.md` for SaaS vocabulary (ARR, MRR, NRR, magic number, Rule of 40, PSAR).
+- `../references/ai-on-saas-metrics-glossary.md` for AI vocabulary (eval, hallucination, abstain, citation, cost-per-call, drift).
+- `../references/saas-business-case-and-roi-template.md` for the value-realisation review template.
+- `../references/saas-customer-success-engagement-package.md` for the customer-success health-scoring composite.
+- `../references/saas-lifecycle-email-program-proposal-template.md` for per-program measurement standards.
 
 Donor-funded and government assignments almost always require an M&E component. Proposals that present a clear results framework with measurable indicators score significantly higher than those offering vague "monitoring activities". This skill provides the M&E structures that proposal sections draw from.
 

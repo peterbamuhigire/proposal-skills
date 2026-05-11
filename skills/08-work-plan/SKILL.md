@@ -40,12 +40,27 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - A proposal-ready work plan, timeline, and related staffing or milestone structures.
 
+## SaaS Work Plan Patterns
+
+For SaaS implementation engagements, the work plan must reflect:
+
+- **Mutual Action Plan integration**: the work plan is the operational view of the MAP, with phases (selection, contract/security/mobilisation, build, pilot, cutover, adoption, optimisation) and named decision gates.
+- **Recurring-meeting discipline**: every recurring meeting in the SaaS implementation has a stated purpose, a named artefact produced, and a decision required by close. Status meetings without artefact or decision are removed.
+- **Pilot-to-rollout sequencing**: pilot cohort, 30-day pilot review, go/no-go to full rollout, waved rollout by business unit or region, stabilisation.
+- **Lifecycle program build cadence**: data implementation plan, content production, automation engineering, operating rules sign-off, measurement plan — sequenced before each lifecycle program goes live.
+- **Customer success operating cadence**: weekly during implementation, monthly during stabilisation, quarterly QBR, annual renewal review.
+
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../service-design-proposal-strategy/SKILL.md` for journey research, blueprinting, co-creation, prototype, pilot, and implementation sequencing.
 - `../customer-service-and-maintenance-proposals/SKILL.md` for support windows, incident response, maintenance cycles, and post-launch optimisation scheduling.
 - `../references/technical-strategy-credibility-checklist.md` for SaaS, AI, software, API, cloud, and operations roadmap checks.
+- `../references/saas-mutual-action-plan-template.md` for the MAP that the work plan operationalises.
+- `../references/saas-implementation-methodology-blocks.md` for the SaaS implementation phases.
+- `../references/saas-poc-scoping-template.md` for POC / pilot time-boxing.
+- `../references/saas-customer-success-engagement-package.md` for operating cadence.
+- `../saas-mutual-action-planning-and-close-plans/SKILL.md` for the SaaS MAP skill.
 - Root and local `references/` files for delivery logic and scheduling support.
 
 The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable; overly compressed or suspiciously padded plans both raise concerns.

@@ -38,11 +38,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - Domain-informed risk-management content aligned to this skill.
 
+## SaaS-Specific Risks
+
+For SaaS implementation and SaaS product-development engagements, the standard risk categories must include SaaS-specific entries: tenant isolation failure, noisy-neighbour, data residency change, sub-processor rejection, data-migration reconciliation breaks, regulator stance shift, sponsor change before signature, BAFO pressure, security questionnaire pass time, penetration test late finding, adoption miss at 60 days, operating-model not adopted, cloud-provider outage, exit-clause dispute, custom-configuration portability. Reference `../references/saas-risk-register-for-proposals.md` for the full register.
+
+## AI-on-SaaS Risks
+
+For engagements that build AI features into a multi-tenant SaaS, layer the ten-entry AI risk register on top of the SaaS register: model risk, hallucination liability, prompt injection, data leakage into model providers, sub-processor exposure (model providers), regulatory shift (AI Act, NCAIS, NAIS, sectoral), vendor lock-in to a single model family, training-data contamination, drift (eval / performance / cost), and reputational. Each entry carries trigger, mitigation, owner, escalation. Reference `../references/ai-on-saas-risk-register-for-proposals.md` for the full register and `../ai-on-saas-risk-and-responsible-ai/SKILL.md` for the companion skill (risk register + Responsible-AI commitment).
+
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
 - `../references/proposal-objection-handling.md` for price, risk, timeline, staffing, technology, local-context, support, AI, and procurement concerns.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for risk perception and ethical risk framing.
 - `../references/technical-strategy-credibility-checklist.md` for technical, SaaS, AI, software, cloud, API, operations, and maintainability risks.
+- `../references/saas-risk-register-for-proposals.md` for the SaaS-specific risk register (architecture, data, commercial, security, adoption, vendor, exit).
+- `../references/saas-procurement-and-security-questionnaire-playbook.md` for security and compliance risks.
+- `../references/saas-msa-dpa-sla-template-language.md` for contractual mitigations.
+- `../references/ai-on-saas-risk-register-for-proposals.md` for the AI-on-SaaS risk register.
+- `../references/ai-on-saas-responsible-ai-commitment.md` for the Responsible-AI commitment that pairs with the AI risk register.
 
 A strong risk section demonstrates that the firm has thought beyond the ideal scenario. Proposals that identify specific, credible risks — and propose practical mitigations — show maturity and experience. Generic risk tables ("risk: delays; mitigation: monitor closely") signal that the firm has not thought deeply about the assignment.
 

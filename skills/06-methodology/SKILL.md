@@ -131,6 +131,19 @@ Break the assignment into clear phases. For each phase, write:
 6. Pilot implementation or quick-win hardening
 7. Knowledge transfer, runbook handover, and improvement backlog
 
+**Standard phases for SaaS implementation and SaaS product-development assignments:**
+1. Inception, Discovery, and SaaS Strategy Gate — pain chain, value at stake, ICP, Critical Event, tenant model and isolation decision, integration discovery, data residency and regulator map.
+2. Control Plane Build — tenant onboarding automation, tenant management, identity, billing integration, per-tenant observability, cost attribution, audit logging.
+3. Application Plane Build — configuration, integration build, tenant-context propagation, data partitioning, performance and scale testing under realistic multi-tenant patterns.
+4. Trust, Compliance, and Operations Hardening — SAST/SCA/DAST, independent penetration test, compliance evidence pack, BCDR design and test, incident response runbook tested.
+5. User Acceptance, Pilot, and Go-Live — UAT entry gate, pilot cohort, 30-day pilot review, cutover plan with rollback, cutover, stabilisation.
+6. Adoption and Value Realisation — customer success engagement, lifecycle communications launch, 30/60/90-day adoption and value reviews, QBR cadence established, first expansion conversation.
+7. Optimisation and Ongoing Operations — continuous improvement backlog, quarterly tenant-cost-attribution review, annual tier-pricing review, annual security and compliance refresh, renewal and expansion proposals.
+
+For SaaS implementation engagements, use `../saas-implementation-methodology/SKILL.md` and `../references/saas-implementation-methodology-blocks.md` for the full block library, and `../references/saas-multi-tenant-architecture-block.md` for the architectural credibility paragraphs that open the section.
+
+For AI-on-SaaS engagements — where the deliverable is a multi-tenant SaaS that contains AI features (RAG, copilots, agents, AI analytics, AI-assisted decisioning) — use `../ai-on-saas-combined-methodology/SKILL.md` and `../references/ai-on-saas-methodology-blocks.md`. The combined methodology layers an AI plane (model gateway, model registry, eval harness, RAG indexes per tenant, red-team harness, drift watch) on the control plane and application plane; gates AI workstreams in every phase; and introduces binary AI acceptance criteria (golden-set pass, hallucination ceiling, abstain-correctness, cost-per-call, tenant-isolation probe pass). For the AI risk register and Responsible-AI commitment, use `../ai-on-saas-risk-and-responsible-ai/SKILL.md`.
+
 For AI, SaaS, and software strategy assignments, include an early strategy-quality gate: diagnosis, guiding policy, coherent actions, assumptions to test first, operations model, and speed-cost-impact trade-offs.
 
 **Standard phases for management consulting assignments:**
