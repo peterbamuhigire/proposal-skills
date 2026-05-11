@@ -74,6 +74,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Downside Scenarios section with mitigations.
 - AI Business Case Memo in the buyer's preferred shape.
 
+## Agent Overlay
+
+For agentic engagements, the AI Value Stack adds **tasks-per-FTE saved with intervention discount**, **AHT reduction with quality cap**, **deflection rate**, and **time-to-resolution**; the AI Cost Stack adds **oversight cost per task**, **scope-creep cost**, **intervention overhead**, and **insurance differential for agentic actions**; and the downside scenarios add **irreversible-action incident**, **regulator action on agentic system**, and **escalation overload**. Three scenarios are keyed to **autonomy ramp**, not just demand variation. Load `../ai-agent-business-case-and-roi/SKILL.md` for the agent-specific formulas and worked examples.
+
 ## References
 
 - `../references/ai-on-saas-business-case-template.md` — formulas, worked examples, FX handling.

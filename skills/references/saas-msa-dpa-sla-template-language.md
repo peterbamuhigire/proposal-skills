@@ -162,6 +162,22 @@ This file is *not legal advice* and does not replace counsel. It is reusable lan
 - Mismatched MSA / DPA / SLA: the DPA promises a 24-hour breach notice, the SLA says 72 hours.
 - Insurance limits stated but no certificate ever produced when asked.
 
+## Agent Engagement Extension
+
+Where the engagement delivers AI agents (autonomous LLM systems that plan, call tools, decide, and act), this base SaaS MSA / DPA / SLA reference is supplemented by an Agent Addendum and an Agent SLA Exhibit. The agent overlay carries clauses absent from the SaaS base — action accountability, audit-log retention and replay availability, kill-switch SLA, fee-for-evidence-pack on dispute, sub-cap for irreversible-action liability, model-provider force-majeure, agent-identity warranty, intervention SLA — and an SLA table on four metrics (availability + task-success + intervention rate + time-to-resolve) instead of the single availability metric used above.
+
+See:
+- `ai-agent-msa-addendum-template.md` — drop-in MSA addendum.
+- `ai-agent-sla-exhibit-template.md` — drop-in SLA exhibit (replaces the SaaS SLA section where the engagement is agentic).
+- `ai-agent-sla-class-table.md` — Bronze / Silver / Gold / Platinum table with the four agent metrics.
+- `ai-agent-credit-and-refund-clauses.md` — credit and refund clauses.
+- `ai-agent-dispute-resolution-and-audit-rights.md` — agent dispute and audit-log audit rights.
+- `ai-agent-vendor-cost-pass-through.md` — model-provider and sovereign-AI pass-through.
+- `ai-agent-renewal-and-true-up-clauses.md` — autonomy-progression price-step at renewal.
+- `ai-agent-sla-financial-services.md`, `ai-agent-sla-public-sector.md`, `ai-agent-sla-healthcare.md` — vertical variants.
+- `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` — the skill that orchestrates the addendum.
+- `../ai-agent-sla-and-credit-schedule/SKILL.md` — the skill that commits the SLA classes and credit schedule.
+
 ## See Also
 
 - `saas-procurement-and-security-questionnaire-playbook.md` for the security questions these clauses answer.

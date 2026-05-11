@@ -47,9 +47,31 @@ For SaaS implementation and SaaS product-development engagements, the value defe
 - **Pricing structure inside the financial proposal**: never bundle customer success, lifecycle communications, or trust-and-compliance work invisibly inside the implementation fee — they are named workstreams that defend the premium.
 - **Trade discipline**: in BAFO, trade scope, term, payment milestones, or assurance level — never pure discount on a properly priced SaaS engagement.
 
+## AI-Agent Lens
+
+When the engagement is agentic, the value defence has agent-specific levers that do not exist in generic consulting or SaaS:
+
+- **Outcome pricing as premium defence** — gain-share (Pattern B) or success-fee (Pattern F) demonstrates skin-in-the-game and defends a premium because the agency carries the autonomy-ramp risk. Outcome pricing is not a discount; it is the agency saying "we will earn our fee against your business result". Use `../ai-agent-success-fee-and-outcome-pricing/SKILL.md`.
+- **Service credits as real value** — the SLA Class credit schedule (Bronze / Silver / Gold / Platinum) is not boilerplate; it is the agency's commitment to give the buyer money back if it misses. Credits visible on the Monthly Statement defend the premium because the buyer can see, every month, the SLA being honoured. Use `../ai-agent-sla-and-credit-schedule/SKILL.md`.
+- **Intervention credit as fairness** — the buyer does not pay full price when the human did the work. The Intervention Credit Clause translates the autonomy ramp into a fair invoice. This is a discriminator against vendors who quote per-resolution with no intervention sensitivity. Use `../ai-agent-intervention-credit-and-abort-refund/SKILL.md`.
+- **Abort-and-refund as honesty** — the agency offers a pro-rata exit if the agent fails the autonomy ramp, an irreversible incident occurs at agency fault, the regulator intervenes, or the model provider sustains outage. This commitment is the agency's most powerful premium defence: it shows the price is for the agent that works, not the agent that tries.
+- **Vendor-cost-pass-through as discipline, not a tax** — the pass-through clause exists because agents fan out many model calls per task; an invisible provider hike is catastrophic. The clause is capped, evidenced, and notice-bound. It demonstrates commercial maturity, not nickel-and-diming. Use `../references/ai-agent-vendor-cost-pass-through.md`.
+- **Autonomy-progression price-step** — the price falls as the agent matures. The buyer is not locked into immature-agent prices forever. This defends the premium at signature by promising better unit economics as autonomy proves out. Use `../ai-agent-renewal-and-true-up/SKILL.md`.
+- **Premium SLA Class** (Gold / Platinum) — Platinum SLA is not a slide; it is kill-switch ≤ 30 seconds, audit-log completeness ≥ 99.9 %, intervention SLA ≤ 60 seconds 24x7, full Abort-and-Refund. The premium price recovers the cost of operating to that standard. Vendors who quote Platinum at Silver prices are not telling the truth.
+
+In every agent commercial conversation, the premium is defended by **moving the buyer up the commercial-maturity stack** — from "per resolution, undefined" to a SLA-class, packaging-shape, credit-schedule, intervention-credit, abort-refund, pass-through, FX-corridor, renewal-mechanics conversation. The conversation is itself the differentiator.
+
 ## References
 
 - `../references/premium-rate-justification-framework.md` - premium fee proof ladder and commercial options.
+- `../references/ai-agent-pricing-exhibit-template.md` - agent pricing exhibit (premium structure).
+- `../references/ai-agent-sla-class-table.md` - agent SLA class table.
+- `../references/ai-agent-outcome-pricing-clauses.md` - outcome-pricing structures.
+- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` - agent pricing patterns.
+- `../ai-agent-sla-and-credit-schedule/SKILL.md` - agent SLA class.
+- `../ai-agent-success-fee-and-outcome-pricing/SKILL.md` - agent outcome-pricing.
+- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` - intervention credit.
+- `../ai-agent-renewal-and-true-up/SKILL.md` - agent renewal mechanics.
 - `../references/proposal-objection-handling.md` - ethical responses to pricing and risk objections.
 - `../references/saas-pricing-models-reference.md` - subscription, usage, hybrid, tiering, expansion, freemium, paid trial, price-increase clauses.
 - `../references/saas-business-case-and-roi-template.md` - TCO vs on-prem (Flavour A) and unit economics (Flavour B).

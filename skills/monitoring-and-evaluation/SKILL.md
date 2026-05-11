@@ -65,10 +65,31 @@ For AI-on-SaaS engagements, layer on an AI dashboard alongside the SaaS health d
 
 The AI dashboard is signed at the AI Governance Forum monthly and the SteerCo quarterly; an annual board-level Responsible-AI declaration consolidates it. See `../references/ai-on-saas-metrics-glossary.md` for metric definitions and `../ai-on-saas-risk-and-responsible-ai/SKILL.md` for the governance framing.
 
+## AI-Agent Dashboard Pattern
+
+For agentic engagements, layer on an agent dashboard alongside (or replacing) the AI-on-SaaS dashboard:
+
+- **Task-success rate** per use case per agent — binary at task level; trend signal.
+- **Intervention rate** — primary autonomy signal; sustained breach for two weeks triggers Agent Safety Council.
+- **Irreversible-action incidents** — target zero per quarter; any incident is a Class 1 alert.
+- **Scope breaches** — target zero per quarter; any breach is a Class 2 alert.
+- **Audit-log completeness** — measured monthly; SLA ≥ 99 %.
+- **Kill-switch drill log** — quarterly drill executed and recorded with time-to-stop.
+- **Abstain-correctness** on should-abstain subset — ≥ 0.95 healthy.
+- **Override rate** — supervisor changes after the fact; trend signal for drift.
+- **Cost per outcome** at P50 / P90 / P99 — weekly operational; quarterly tenant-attribution.
+- **Supervisor CSAT and queue headroom** — adoption signals; floor 4.0 / 5 and 20 % headroom.
+- **Contestability case load and redress SLA performance** — affected-party signal.
+- **Red-team scorecard** — quarterly refresh.
+- **Multi-agent metrics** (where applicable) — loop-detection events; orchestrator pause events; inter-agent disagreement clusters.
+
+The agent dashboard is signed at the Agent Safety Council monthly and the SteerCo quarterly; an annual Responsible-AI Agent Commitment sign-off consolidates it. See `../references/ai-agent-metrics-glossary.md` for definitions and `../ai-agent-risk-and-responsible-ai/SKILL.md` for governance framing.
+
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
 - `../references/saas-metrics-glossary-for-proposals.md` for SaaS vocabulary (ARR, MRR, NRR, magic number, Rule of 40, PSAR).
 - `../references/ai-on-saas-metrics-glossary.md` for AI vocabulary (eval, hallucination, abstain, citation, cost-per-call, drift).
+- `../references/ai-agent-metrics-glossary.md` for agent vocabulary (task-success, intervention, irreversibility, scope-confinement, audit completeness, kill-switch drill, supervisor CSAT).
 - `../references/saas-business-case-and-roi-template.md` for the value-realisation review template.
 - `../references/saas-customer-success-engagement-package.md` for the customer-success health-scoring composite.
 - `../references/saas-lifecycle-email-program-proposal-template.md` for per-program measurement standards.

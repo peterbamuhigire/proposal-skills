@@ -50,6 +50,32 @@ For SaaS implementation engagements, the work plan must reflect:
 - **Lifecycle program build cadence**: data implementation plan, content production, automation engineering, operating rules sign-off, measurement plan — sequenced before each lifecycle program goes live.
 - **Customer success operating cadence**: weekly during implementation, monthly during stabilisation, quarterly QBR, annual renewal review.
 
+## Embedded Accounting Engine Work Plan Patterns
+
+For embedded accounting-engine engagements, the work plan must show accounting-specific dependencies:
+
+- Posting-rule workshops before build of money-moving workflows.
+- Chart-of-accounts and mapping sign-off before UAT.
+- Opening-balance migration, customer/supplier balance migration, stock valuation, and fixed-asset migration as explicit activities.
+- Parallel run against existing books or sample periods before go-live where feasible.
+- Reconciliation gates for AR, AP, inventory, payroll, tax, bank/mobile money, and fixed assets.
+- Month-end close simulation before production cutover.
+- First-close support after go-live.
+- Client finance-owner approval at mapping, migration, report, and close gates.
+
+## Finance And Accounting Work Plan Patterns
+
+When the assignment must manage accounts, budgets, donor funds, project advances, reimbursements, taxes, or audit evidence, schedule finance activities explicitly:
+
+- Inception finance-control setup: budget lines, approval thresholds, bank/mobile-money handling, procurement/payment evidence, reporting format.
+- Monthly or milestone financial reporting cycles.
+- Bank/mobile-money reconciliation windows.
+- Advance/imprest liquidation checkpoints.
+- Budget-variance review and approval gates.
+- Tax/statutory verification checkpoints.
+- Donor/client financial report review cycles.
+- Audit-file assembly and close-out financial report.
+
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
@@ -61,6 +87,8 @@ For SaaS implementation engagements, the work plan must reflect:
 - `../references/saas-poc-scoping-template.md` for POC / pilot time-boxing.
 - `../references/saas-customer-success-engagement-package.md` for operating cadence.
 - `../saas-mutual-action-planning-and-close-plans/SKILL.md` for the SaaS MAP skill.
+- `../embedded-accounting-engine-proposal/SKILL.md` for posting-rule, migration, reconciliation, close-simulation, and first-close work-plan patterns.
+- `../accounting-finance-advisory/SKILL.md` for project financial-management, donor/grant finance, budget-control, and audit-file work-plan patterns.
 - Root and local `references/` files for delivery logic and scheduling support.
 
 The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable; overly compressed or suspiciously padded plans both raise concerns.

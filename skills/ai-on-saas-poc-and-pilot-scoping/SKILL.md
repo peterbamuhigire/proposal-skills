@@ -75,6 +75,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Abort Gate Criteria with fee.
 - POC Proposal Section.
 
+## Agent Overlay
+
+For agentic engagements, the pilot is staged in **three modes** rather than a single POC: **Shadow** (agent proposes, does not act; agreement rate measured), **Supervised** (agent acts on reversibles, humans confirm irreversibles; intervention SLA measured), and **Agentic** (agent acts on reversibles without confirmation; irreversibles remain HITL). Binary thresholds gate each stage. Production exit requires zero irreversibility incidents cumulative, two passed kill-switch drills, full agent red-team pass, and audit-log completeness verified. Load `../ai-agent-poc-and-pilot-scoping/SKILL.md` for the agent pilot template.
+
 ## References
 
 - `../references/ai-on-saas-poc-scoping-template.md` — full template with worked examples.
