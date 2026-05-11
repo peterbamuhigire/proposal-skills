@@ -96,6 +96,39 @@ These skills bring the engine to Bain/EY/McKinsey-grade quality for engagements 
 
 The supporting reference library lives under `skills/references/` with file names starting `ai-on-saas-` and `vertical-ai-on-saas-`. See `book-extractions/ai-on-saas-proposal-audit-2026.md` for the full audit and rationale.
 
+### AI-Agent / Multi-Agent Product Skills
+
+These skills bring the engine to Bain/EY/McKinsey-grade quality for engagements that design, build, or operate AI agents (LLM systems that plan, call tools, decide, and act) — as stand-alone products, multi-agent systems, or agentic layers inside SaaS products. Load when the bid is agentic. Use `ai-agent-methodology` as the headline; layer the rest on top. Load alongside the `ai-on-saas-*` family when the agent lives inside a multi-tenant SaaS product.
+
+- `skills/ai-agent-discovery-and-qualification/` — Agent-vs-Workflow Filter; L0–L5 Autonomy Ladder; ten agent-specific discovery lines; Agentic Qualification Scorecard.
+- `skills/ai-agent-business-case-and-roi/` — Agent Value Stack + Agent Cost Stack + tasks-per-FTE with intervention discount + three-scenario ROI keyed to autonomy ramp + downside (irreversible-incident, regulator action, intervention overshoot, scope-creep).
+- `skills/ai-agent-pricing-and-packaging-proposal/` — Six agent pricing patterns (per-resolution / per-outcome / per-step / per-agent / hybrid / success-based); intervention credit; vendor cost pass-through; abort-and-refund; autonomy-ramp clause; FX.
+- `skills/ai-agent-poc-and-pilot-scoping/` — Three-stage pilot (Shadow / Supervised / Agentic) with binary thresholds; irreversibility ceiling; intervention ceiling; kill-switch drill; abort conditions.
+- `skills/ai-agent-methodology/` — Headline agentic methodology: eight phases (Discover → Action-Catalogue → Architecture → Build → Shadow → Supervised → Agentic → Operate); gates per phase; eval and red-team strategy; kill-switch and drill; multi-agent orchestration.
+- `skills/ai-agent-risk-and-responsible-ai/` — Twelve-entry agent risk register; Responsible-AI Agent Commitment template with named Agent Safety Lead; regulator mapping.
+- `skills/ai-agent-compliance-credentials/` — Trust and Compliance for Agents: action audit log, irreversibility gating, intervention SLO, kill-switch architecture and drill, agent red-team catalogue, identity policy, action-scope attestation, multi-agent governance, transparency-to-affected-party, sovereign-AI option.
+- `skills/ai-agent-procurement-and-questionnaire/` — Ten-domain agent procurement answer pack.
+- `skills/ai-agent-change-management-and-adoption/` — Trust staging with named evidence; augment / redeploy / retrain framing; funded supervisor retraining curriculum; agent-on-your-behalf disclosure UX; adoption metrics specific to agents.
+- `skills/ai-agent-team-composition/` — Agent roster: Agent Architect, Tool Engineer, Agent Safety Lead, Eval Engineer, Red-Team Lead, Human-in-the-loop Designer, Multi-Agent Orchestrator Engineer (where applicable), Agent Ops Lead, plus buyer-side counterparts (Two-of-Everything).
+- `skills/ai-agent-vertical-positioning/` — Vertical agent plays for customer support (resolution agents), financial services (compliance / reconciliation), insurance (claims triage), public sector (extreme caution, sovereign-AI), healthcare (admin-only), legal (drafting / review with lawyer-final), operations (alerting / triage / coding agents).
+
+The supporting reference library lives under `skills/references/` with file names starting `ai-agent-` and `vertical-ai-agent-`. See `book-extractions/agent-products-proposal-audit-2026.md` for the full audit and rationale.
+
+### AI-Agent Commercial / SLA / Contract Skills
+
+These skills carry the **contractual and commercial layer** for agentic engagements — SLA classes with credit schedules, refund and abort mechanics, MSA / SLA addendums, outcome-pricing structures, packaging shapes, procurement-objection responses on commercials, renewal mechanics. Load alongside the `ai-agent-*` product family when the proposal moves from value narrative to contract-grade exhibits.
+
+- `skills/ai-agent-sla-and-credit-schedule/` — Bronze / Silver / Gold / Platinum SLA class table on four metrics (availability + task-success + intervention rate + time-to-resolve) plus three guardrails (kill-switch, audit-log completeness, intervention SLA), with credit schedule, service-credit cap, and out-clauses.
+- `skills/ai-agent-commercial-packaging/` — Agent Included in Pro vs Add-on vs Standalone shapes with worked decision matrix, SLA-class alignment, renewal posture, cost recovery shape.
+- `skills/ai-agent-contract-language-pack/` — Drop-in exhibit assembly — pricing exhibit, SLA exhibit, credit and refund exhibit, MSA addendum, abandonment-and-refund policy, dispute resolution, audit rights — with trade-not-give discipline.
+- `skills/ai-agent-success-fee-and-outcome-pricing/` — Gain-share, success-fee, hybrid base-plus-success, performance-corridor structures with success-definition discipline (counter-example rule, cooling-off, attribution test) and downside protection.
+- `skills/ai-agent-intervention-credit-and-abort-refund/` — Intervention-credit formula, credit cap, customer-facing monthly statement, five abort-and-refund triggers, pro-rata refund formula.
+- `skills/ai-agent-msa-and-sla-addendum-templates/` — Eight agent-specific MSA clauses (action accountability, audit-log retention, kill-switch SLA, fee-for-evidence-pack, irreversible-action sub-cap, model-provider force-majeure, agent-identity warranty, intervention SLA) plus SLA addendum.
+- `skills/ai-agent-procurement-objections-on-commercials/` — Ten common procurement asks with trade-not-give responses; ethical commercial-objection discipline.
+- `skills/ai-agent-renewal-and-true-up/` — Auto / express / hybrid renewal, true-up, ramp-down protection, autonomy-progression price-step, index-linked renewal, FX corridor.
+
+The commercial layer references live under `skills/references/` with names starting `ai-agent-sla-`, `ai-agent-pricing-exhibit-`, `ai-agent-credit-`, `ai-agent-msa-addendum-`, `ai-agent-outcome-pricing-`, `ai-agent-abandonment-`, `ai-agent-packaging-`, `ai-agent-dispute-`, `ai-agent-commercial-objection-`, `ai-agent-renewal-`, `ai-agent-success-definition-`, `ai-agent-vendor-cost-pass-through`. See `book-extractions/agent-sla-commercial-proposal-audit-2026.md` for the full audit and rationale.
+
 ### Profiles, References, Sectors, and Meta Skills
 - `skills/profiles/SKILL.md` - profile routing and selection rules. Load exactly one profile before generating proposal content.
 - `skills/profiles/peter-bamuhigire.md` - individual consultant profile.

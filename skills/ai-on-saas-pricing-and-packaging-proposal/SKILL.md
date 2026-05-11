@@ -69,6 +69,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Price-Increase Clause language.
 - Worked examples for P50 / P90 / P99 tenants.
 
+## Agent Overlay
+
+For agentic engagements, the pattern library expands from five to **six agent-specific patterns**: per-resolution, per-outcome, per-step, per-agent, hybrid (base + usage), and success-based (outcome-linked bonus). Two clauses become essential: **intervention credit** (if intervention rate exceeds the agreed ceiling, the buyer receives a credit) and **vendor cost pass-through** (agents fan out 10–100 model calls per task; a model-price increase invisible in a copilot can be catastrophic in an agent). Load `../ai-agent-pricing-and-packaging-proposal/SKILL.md` for the agent pricing patterns and clauses.
+
 ## References
 
 - `../references/ai-on-saas-pricing-models-reference.md` — pattern library, worked examples, clauses.

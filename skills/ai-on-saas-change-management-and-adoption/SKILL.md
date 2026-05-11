@@ -68,6 +68,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Union / Works-Council / Regulator Communications Plan (where applicable).
 - AI Adoption Metrics dashboard specification.
 
+## Agent Overlay
+
+For agentic engagements, trust staging is sharper: each stage has **named action-class evidence** (agreement rate in Shadow; confirmation latency and override rate in Confirm; intervention rate and zero irreversibility in Supervised; task-success and contestability cases in Agentic). The augment / replace framing extends to **augment / redeploy / retrain** per role, with a funded six-module supervisor retraining curriculum. An **agent-on-your-behalf disclosure UX** becomes a named deliverable. Adoption metrics add intervention rate, override rate, supervisor CSAT, queue headroom, and contestability case load. Load `../ai-agent-change-management-and-adoption/SKILL.md` for the agent playbook.
+
 ## References
 
 - `../references/ai-on-saas-change-management-playbook.md` — full playbook.
