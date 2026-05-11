@@ -46,6 +46,9 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../sectors/SKILL.md` for procurement and sector routing.
 - `../proposal-storytelling-and-evaluator-journey/SKILL.md` and `../references/proposal-narrative-patterns-and-case-story-spine.md` for case-story structure and evaluator relevance.
 - `../premium-commercial-writing/SKILL.md` for premium proof discipline, case-study relevance, and public-facing case-study polish.
+- `../references/saas-win-themes-and-discriminators.md` for SaaS-specific differentiator language to apply to project cards.
+- `../references/vertical-saas-positioning-financial-services.md`, `../references/vertical-saas-positioning-insurance.md`, `../references/vertical-saas-positioning-public-sector.md`, `../references/vertical-saas-positioning-healthcare.md`, `../references/vertical-saas-positioning-education.md` for vertical-specific proof anchors.
+- For SaaS engagements, project cards should anchor outcomes on SaaS-relevant figures: time-to-value, activation rate, NRR / gross retention uplift, churn reduction, expansion revenue uplift, time-to-first-paying-customer, regulator dry-run outcomes, and tenant-isolation evidence.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 This section is typically the most heavily weighted in evaluation scoring. It is where the firm proves — not claims — that it has done this before and can do it again.

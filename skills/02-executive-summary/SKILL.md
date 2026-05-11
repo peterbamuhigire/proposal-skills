@@ -51,6 +51,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - `../premium-pricing-and-value-defense/SKILL.md` when the summary must justify premium fees, total cost of ownership, service quality, or risk reduction.
 - `../sales-discovery-and-objection-handling/SKILL.md` when likely buyer objections should be anticipated in the executive summary.
 - `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for high-stakes persuasion and risk-perception checks.
+- `../references/saas-discovery-question-bank.md` and `../references/meddic-and-command-of-message-for-saas.md` when the bid is a SaaS implementation; lead the summary with the Critical Event and pain chain rather than vendor biography.
+- `../references/saas-business-case-and-roi-template.md` for the Value at Stake block leadership in SaaS summaries.
+- `../references/saas-win-themes-and-discriminators.md` for SaaS-specific differentiator selection.
+- `../references/saas-metrics-glossary-for-proposals.md` for investor-grade vocabulary opt-in (Rule of 40, magic number) — for the right buyers only.
+- `../saas-discovery-and-qualification/SKILL.md` for SaaS-specific buyer-logic content.
 - Root `references/` files for persuasion, story structure, and proposal patterns.
 
 The executive summary is the most heavily read section after the cover letter. Many evaluators form their first impression here. It must communicate the firm's understanding, approach, differentiation, and value in two to three pages — without requiring the reader to look at any other section.

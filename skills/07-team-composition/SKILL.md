@@ -39,9 +39,34 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Outputs
 - A proposal-ready team composition section, including role logic and CV framing guidance.
 
+## SaaS Engagement Team Patterns
+
+For SaaS implementation and SaaS product-development engagements, layer on these team-shape patterns:
+
+- **Two-of-everything principle**: for client-side critical operating roles after handover (admin, support, customer success, billing operations), the engagement designs in redundancy from day one. Single-point-of-failure operating roles after cutover are unacceptable.
+- **Customer success roles**: name the Customer Success Manager (CSM), Customer Success Engineer (CSE), Account Director, Executive Sponsor (Agency Side), and Customer Success Operations function — separate from the Support function (different goals, different staffing).
+- **SaaS sales roles** (when in scope): never propose a one-rep sales team; minimum viable is two AEs + one SDR + shared Sales Engineering.
+- **Sales capacity plan** (when in scope): AEs × quota × productivity factor; productivity factor in year 1 typically 0.5–0.7 of stated quota.
+- **Architecture and engineering roles**: name an Architecture Lead, a Solution Lead, an Integration Lead, a Data Lead, a Reliability Lead, a Configuration Lead, and a Security Lead for premium SaaS bids.
+
+## AI-on-SaaS Engagement Team Patterns
+
+For AI-on-SaaS engagements (multi-tenant SaaS + AI features), the SaaS roster is supplemented with the AI-side roster. The irreducible AI trio is:
+
+- **AI Safety Lead** — Responsible-AI commitment owner; chairs the AI Governance Forum on the agency side; quarterly Responsible-AI report; red-team scorecard owner.
+- **Eval Engineer** — golden-dataset owner; metric-threshold owner; eval CI gate; monthly eval refresh; drift watch.
+- **MLOps Engineer** — model gateway operator; model registry; region routing; fallback; AI observability.
+
+Beyond the trio, the AI roster names: AI Solution Architect / ML Lead, Prompt Engineer, Data Engineer (AI), RAG / Retrieval Engineer, AI Change and Adoption Lead. The two-of-everything rule applies to client-side counterparts (Eval Owner, Prompt Owner, AI Safety Sponsor, Model Gateway Operator). AI safety, eval, and red-team roles ramp at Phase 1, not at hardening. Reference `../ai-on-saas-team-composition/SKILL.md` and `../references/ai-on-saas-team-composition-template.md` for the full roster, RACI, ramp curve, and blended-rate considerations.
+
 ## References
 - `../profiles/SKILL.md` for proposer selection and voice.
 - `../sectors/SKILL.md` for procurement and sector routing.
+- `../references/saas-customer-success-engagement-package.md` for customer success role definitions and effort allocations.
+- `../references/saas-gtm-motion-design-reference.md` for sales-team design and capacity planning.
+- `../references/saas-implementation-methodology-blocks.md` for engineering-role naming inside Methodology.
+- `../references/ai-on-saas-team-composition-template.md` for the AI-on-SaaS roster, RACI, ramp curve, and blended-rate table.
+- `../ai-on-saas-team-composition/SKILL.md` for the companion AI-on-SaaS team-composition skill.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 Evaluators assess whether the proposed team has the qualifications, experience, and availability to deliver the assignment. This section typically carries 30–40% of the technical score in QCBS evaluations. Every person named must be credible for the role assigned.
