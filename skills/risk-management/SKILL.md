@@ -46,6 +46,10 @@ For SaaS implementation and SaaS product-development engagements, the standard r
 
 For engagements that build AI features into a multi-tenant SaaS, layer the ten-entry AI risk register on top of the SaaS register: model risk, hallucination liability, prompt injection, data leakage into model providers, sub-processor exposure (model providers), regulatory shift (AI Act, NCAIS, NAIS, sectoral), vendor lock-in to a single model family, training-data contamination, drift (eval / performance / cost), and reputational. Each entry carries trigger, mitigation, owner, escalation. Reference `../references/ai-on-saas-risk-register-for-proposals.md` for the full register and `../ai-on-saas-risk-and-responsible-ai/SKILL.md` for the companion skill (risk register + Responsible-AI commitment).
 
+## AI-Agent Risks
+
+For agentic engagements (LLM systems that plan, call tools, decide, and act on the buyer's behalf), use the twelve-entry agent risk register from `../references/ai-agent-risk-register-for-proposals.md` and the companion skill `../ai-agent-risk-and-responsible-ai/SKILL.md`. The agent register adds: autonomy-action incident; irreversibility incident; accountability dispute; scope-creep; multi-agent collusion / failure cascade; prompt injection via tool output; memory poisoning; regulator action on agentic system; kill-switch failure; identity / impersonation breach; escalation overload; legacy-system damage. Mitigations are anchored in the action catalogue, autonomy commitment, kill-switch architecture with quarterly drill, action audit log with 99 % completeness SLA, and the Responsible-AI Agent Commitment with a named Agent Safety Lead.
+
 ## References
 - Local `references/` files when detailed frameworks or examples are needed.
 - `../references/proposal-objection-handling.md` for price, risk, timeline, staffing, technology, local-context, support, AI, and procurement concerns.
@@ -56,6 +60,8 @@ For engagements that build AI features into a multi-tenant SaaS, layer the ten-e
 - `../references/saas-msa-dpa-sla-template-language.md` for contractual mitigations.
 - `../references/ai-on-saas-risk-register-for-proposals.md` for the AI-on-SaaS risk register.
 - `../references/ai-on-saas-responsible-ai-commitment.md` for the Responsible-AI commitment that pairs with the AI risk register.
+- `../references/ai-agent-risk-register-for-proposals.md` for the agent risk register (twelve entries).
+- `../references/ai-agent-responsible-ai-commitment.md` for the Responsible-AI Agent Commitment.
 
 A strong risk section demonstrates that the firm has thought beyond the ideal scenario. Proposals that identify specific, credible risks — and propose practical mitigations — show maturity and experience. Generic risk tables ("risk: delays; mitigation: monitor closely") signal that the firm has not thought deeply about the assignment.
 

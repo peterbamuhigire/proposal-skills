@@ -87,6 +87,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Responsible-AI Commitment subsection — drop into proposal `06-methodology` close or a standalone section.
 - Regulator Mapping table.
 
+## Agent Addendum
+
+For agentic engagements, add the twelve agent-specific risks from `../ai-agent-risk-and-responsible-ai/SKILL.md`: autonomy-action incident, irreversibility incident, accountability dispute, scope-creep, multi-agent collusion / failure cascade, prompt-injection via tool output, memory poisoning, regulator action on agentic system, kill-switch failure, identity / impersonation breach, escalation overload, legacy-system damage. The Responsible-AI commitment extends to include **human-final on irreversibility**, **full audit log with 99 % completeness SLA**, **contestability**, **transparency-to-affected-party** (AI Act Article 50-style), and **quarterly kill-switch drill cadence**. The accountable role becomes **Agent Safety Lead**.
+
 ## References
 
 - `../references/ai-on-saas-risk-register-for-proposals.md` — full risk register template.

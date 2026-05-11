@@ -141,6 +141,8 @@ proposal-skills/
 | `skills/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
 | `skills/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
 | `skills/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy, operations, and communication frameworks |
+| `skills/accounting-finance-advisory/SKILL.md` | World-class finance/accounting proposal sections, project financial management, accounting, bookkeeping, ERP finance, controls, audit evidence, tax, donor/grant finance, financial modelling, and finance transformation |
+| `skills/embedded-accounting-engine-proposal/SKILL.md` | Embedded ledger/accounting engine proposals that replace routine external bookkeeping software and produce audit-ready reports |
 | `skills/critical-analysis-business-logic/SKILL.md` | Serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
 | `skills/saas-discovery-and-qualification/SKILL.md` | SaaS discovery: ICP, Critical Event, pain chain, impact per role, decision process, MEDDPICC qualification gate |
 | `skills/saas-business-case-and-roi-modeling/SKILL.md` | CFO-grade SaaS business case: TCO, time-to-value, payback, LTV / CAC, NPV, sensitivity |
@@ -167,6 +169,25 @@ proposal-skills/
 | `skills/ai-on-saas-change-management-and-adoption/SKILL.md` | AI mindset transition: trust staging, augment-vs-replace, HITL design |
 | `skills/ai-on-saas-team-composition/SKILL.md` | AI-on-SaaS roster: AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI |
 | `skills/ai-on-saas-vertical-positioning/SKILL.md` | Vertical AI plays for FS, insurance, public sector, healthcare, education, customer support |
+| `skills/ai-agent-methodology/SKILL.md` | Headline AI-agent methodology: eight phases (Discover → Action-Catalogue → Architecture → Build → Shadow → Supervised → Agentic → Operate); gates per phase; eval, red-team, kill-switch, multi-agent governance |
+| `skills/ai-agent-discovery-and-qualification/SKILL.md` | Agent-vs-Workflow Filter; L0–L5 Autonomy Ladder; ten agent-specific discovery lines; Agentic Qualification Scorecard |
+| `skills/ai-agent-business-case-and-roi/SKILL.md` | Agent ROI: tasks-per-FTE with intervention discount; cost per outcome at P50/P90/P99; three scenarios keyed to autonomy ramp; irreversible-incident downside |
+| `skills/ai-agent-pricing-and-packaging-proposal/SKILL.md` | Six agent pricing patterns (per-resolution / per-outcome / per-step / per-agent / hybrid / success-based); intervention credit; vendor cost pass-through; autonomy-ramp clause |
+| `skills/ai-agent-poc-and-pilot-scoping/SKILL.md` | Three-stage pilot (Shadow / Supervised / Agentic); binary thresholds; irreversibility ceiling; kill-switch drill; abort conditions |
+| `skills/ai-agent-risk-and-responsible-ai/SKILL.md` | Twelve-entry agent risk register; Responsible-AI Agent Commitment with named Agent Safety Lead |
+| `skills/ai-agent-compliance-credentials/SKILL.md` | Trust and Compliance for Agents: action audit log, irreversibility gating, intervention SLO, kill-switch and drill, red-team catalogue, identity policy, transparency-to-affected-party, sovereign-AI |
+| `skills/ai-agent-procurement-and-questionnaire/SKILL.md` | Ten-domain agent procurement answer pack |
+| `skills/ai-agent-change-management-and-adoption/SKILL.md` | Trust staging with named evidence per stage; augment / redeploy / retrain framing; funded supervisor retraining; agent-on-your-behalf disclosure UX |
+| `skills/ai-agent-team-composition/SKILL.md` | Agent roster: Agent Architect, Tool Engineer, Agent Safety Lead, Eval Engineer, Red-Team Lead, HITL Designer, Multi-Agent Orchestrator (where applicable), Agent Ops; Two-of-Everything buyer-side |
+| `skills/ai-agent-vertical-positioning/SKILL.md` | Vertical agent plays: customer support, FS (compliance / reconciliation), insurance (claims triage), public sector (extreme caution, sovereign-AI), healthcare (admin-only), legal (lawyer-final), operations (sandbox-first, coding agents) |
+| `skills/ai-agent-sla-and-credit-schedule/SKILL.md` | Bronze / Silver / Gold / Platinum SLA classes on four agent metrics + three guardrails; credit schedule; service-credit cap; out-clauses (model-provider force-majeure, customer-fault, regulator-pause) |
+| `skills/ai-agent-commercial-packaging/SKILL.md` | Agent Included in Pro vs Add-on vs Standalone packaging shapes; SLA-class alignment; renewal posture; cost recovery shape |
+| `skills/ai-agent-contract-language-pack/SKILL.md` | Drop-in exhibit assembly — pricing exhibit, SLA exhibit, credit and refund exhibit, MSA addendum, abandonment-and-refund policy, dispute resolution, audit rights — with trade-not-give discipline |
+| `skills/ai-agent-success-fee-and-outcome-pricing/SKILL.md` | Gain-share, success-fee, hybrid base-plus-success, performance-corridor; success-definition discipline (counter-example rule, cooling-off, attribution); downside protection |
+| `skills/ai-agent-intervention-credit-and-abort-refund/SKILL.md` | Intervention-credit formula and customer-facing statement; five abort-and-refund triggers; pro-rata refund formula |
+| `skills/ai-agent-msa-and-sla-addendum-templates/SKILL.md` | Eight agent-specific MSA clauses (action accountability, audit-log retention, kill-switch SLA, fee-for-evidence-pack, irreversible-action sub-cap, model-provider force-majeure, agent-identity warranty, intervention SLA) plus SLA addendum |
+| `skills/ai-agent-procurement-objections-on-commercials/SKILL.md` | Ten common procurement asks on commercials with trade-not-give responses; ethical commercial-objection discipline |
+| `skills/ai-agent-renewal-and-true-up/SKILL.md` | Auto / express / hybrid renewal, true-up, ramp-down protection, autonomy-progression price-step, index-linked renewal, FX corridor |
 
 ## Proposer Profiles
 

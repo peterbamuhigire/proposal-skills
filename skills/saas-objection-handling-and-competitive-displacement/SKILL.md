@@ -65,10 +65,15 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 When the SaaS contains AI features, the objection set expands: price ("your AI tier is too expensive"; "why pay for tokens?"; "will price increase?"), accuracy / hallucination ("how do we know it will not be wrong?"; "what if it hallucinates and we are sued?"; "AI can be biased"), vendor lock-in ("what if your provider raises prices or disappears?"), regulator ("what about the EU AI Act / NCAIS / NAIS?"; "will the regulator approve this?"), ethics ("this will replace people"; "what if our customers find out we use AI?"), jobs ("will this lead to layoffs?"), ban ("what if AI is banned in our market?"), and existential / scandal ("what if AI causes a sector scandal?"). Each objection has a named-control answer anchored in the methodology, the risk register, and the Responsible-AI commitment. See `../references/ai-on-saas-objection-handling-playbook.md`.
 
+## Agent Objection Playbook
+
+When the engagement delivers an AI agent or a multi-agent system, additional objections become first-rank: **autonomy** ("we are not comfortable with autonomy — why should we let AI act on its own?"), **jobs** ("if the agent does the work, what happens to our staff?"), **irreversibility** ("what if the agent does something irreversible and wrong?"), **accountability** ("who is liable if the agent harms a customer?"), **regulator action** ("our regulator has not approved agents"), **failed prior agent vendor** ("we tried an agent before; it demoed well and failed in production"), **prompt injection via tool output**, **supervisor role** ("are we just renaming jobs?"), **hidden agents** ("we do not want the agent to pretend to be a human"), **unpredictable costs** ("the agent makes many model calls per task"), **multi-agent failure cascades**, and **drift** ("how do we know the agent is not getting worse over time?"). Each objection has a named-control answer anchored in the action catalogue, autonomy commitment, kill-switch drill log, Responsible-AI Agent Commitment, audit log, and pricing-pattern clauses. See `../references/ai-agent-objection-handling-playbook.md`.
+
 ## References
 
 - `../references/saas-objection-handling-playbook.md` — primary library.
 - `../references/ai-on-saas-objection-handling-playbook.md` — AI-specific objections (price, accuracy, lock-in, regulator, ethics, jobs, ban).
+- `../references/ai-agent-objection-handling-playbook.md` — agent-specific objections (autonomy, jobs, irreversibility, accountability, regulator, prompt injection via tool output, supervisor role, hidden agents, costs, multi-agent failure, drift).
 - `../references/saas-vendor-vs-build-narrative.md` — build-vs-buy depth.
 - `../references/saas-win-themes-and-discriminators.md` — positioning that prevents objections.
 - `../references/proposal-objection-handling.md` — broader objection-handling reference.

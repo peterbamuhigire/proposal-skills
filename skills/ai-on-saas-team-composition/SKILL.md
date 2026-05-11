@@ -92,6 +92,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - TECH-6 (or equivalent) mapping (where required).
 - Two-of-Everything Plan for client-side counterparts.
 
+## Agent Overlay
+
+For agentic engagements, add three roles not present in the AI-on-SaaS roster: **Agent Architect** (agent loop, planner / actor / critic, autonomy architecture), **Tool Engineer** (tool layer, allowlist, parameter bounds, dry-run, post-call assertions, rollback), and **Human-in-the-loop Designer** (oversight queue, intervention SLA, escalation tree, contestability channel). In multi-agent engagements add **Multi-Agent Orchestrator Engineer**. The AI Safety Lead becomes **Agent Safety Lead** with kill-switch authority. Two-of-Everything extends to **buyer-side Action-Catalogue Owner, Eval Owner, Kill-Switch Operator, Oversight-Queue Lead, Agent Safety Lead**. Load `../ai-agent-team-composition/SKILL.md` for the agent roster.
+
 ## References
 
 - `../references/ai-on-saas-team-composition-template.md` — full roster template with sample CV bullets.
