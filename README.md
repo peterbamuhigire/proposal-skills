@@ -2,6 +2,20 @@
 
 A Claude Code and Codex skills repository for generating professional consulting proposals tailored for the East and Central African consulting market.
 
+## SaaS + AI-on-SaaS + Agent Proposal Stack (May 2026)
+
+Bain/EY/McKinsey-grade proposal arsenal for SaaS implementation, AI-on-SaaS engagements, and agentic product engagements.
+
+**SaaS proposals (14 skills + 19 enhancements + 25 references):** discovery & qualification, business case / ROI modeling, pricing & packaging proposal, implementation methodology, POC / pilot scoping, procurement & security questionnaire, customer success & adoption proposal, mutual action planning & close plans, vertical positioning (5 verticals: financial services, insurance, public sector, healthcare, education), objection handling & competitive displacement, lifecycle communications as deliverable, trust & compliance credentials section, multi-tenant architecture credibility block, pilot-to-rollout change management.
+
+**AI-on-SaaS proposals (11 skills + 13 enhancements + 20 references):** combined methodology (three-plane: control, application, AI), discovery & qualification (8 qualifying lines + scorecard), AI business case & ROI (Value Stack + Cost Stack + cost-of-tokens P50/P90/P99), AI pricing & packaging, AI POC scoping (binary eval thresholds, hallucination ceiling), AI risk & responsible-AI, AI compliance credentials, AI procurement questionnaire, AI implementation methodology blocks, AI change management, AI team composition (irreducible AI trio: AI Safety Lead + Eval Engineer + MLOps), AI vertical positioning.
+
+**Agent proposals (11 skills + 15 enhancements + 21 references):** discovery & qualification (Agent-vs-Workflow Filter, L0–L5 autonomy ladder), agent business case & ROI (Tasks-per-FTE-Saved with Intervention Discount), agent pricing & packaging (six patterns: per-resolution / per-outcome / per-step / per-agent / hybrid / success-based), agent POC scoping (Shadow → Supervised → Agentic), agent methodology (8 phases), agent risk & responsible-AI (12-entry register, named Agent Safety Lead), agent compliance credentials, agent procurement, agent change management (trust staging, supervisor retraining), agent team composition, agent vertical positioning (7 verticals).
+
+**Agent SLA + commercial (8 skills + 16 references):** SLA class table (Bronze/Silver/Gold/Platinum on four agent metrics + three guardrails), commercial packaging (Included / Add-on / Standalone), contract language pack, success-fee & outcome pricing structures (gain-share, success-fee, hybrid, performance-corridor), intervention-credit and abort-refund mechanics, MSA + SLA addendum templates, procurement objection handling (10 common asks), renewal & true-up clauses. Vertical SLA variants for financial services, public sector, healthcare.
+
+**Book extractions** (in `book-extractions/`): 7 SaaS books distilled through the proposal lens, plus 4 audit documents.
+
 ## How It Works
 
 A consultant clones this repo, opens a terminal, navigates to `proposal-skills/`, and starts Claude Code or another compatible agent. Active skills live under `skills/`; the parent router is `skills/SKILL.md`.
