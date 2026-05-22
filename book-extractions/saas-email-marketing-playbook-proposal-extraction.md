@@ -42,11 +42,11 @@ This book reinforces what the AE and Fundamentals books also imply: SaaS impleme
 
 ## Repository Changes Driven
 
-- New skill: `skills/saas-lifecycle-communications-as-deliverable/` — scopes the six lifecycle programs as priced workstreams inside SaaS implementation engagements.
+- New skill: `skills/saas-proposals/saas-lifecycle-communications-as-deliverable/` — scopes the six lifecycle programs as priced workstreams inside SaaS implementation engagements.
 - New reference: `saas-lifecycle-email-program-proposal-template.md` — six-program structure, data implementation plan, operating rules, measurement plan, and pricing drivers.
-- Enhancement: `skills/customer-service-and-maintenance-proposals/` adds lifecycle-communication scope language for post-launch.
-- Enhancement: `skills/monitoring-and-evaluation/` adds internal-control measurement guidance for SaaS lifecycle programs.
-- Enhancement: `skills/data-management/` adds the data-implementation-plan workstream framing.
+- Enhancement: `skills/strategy-positioning/customer-service-and-maintenance-proposals/` adds lifecycle-communication scope language for post-launch.
+- Enhancement: `skills/domain-delivery/monitoring-and-evaluation/` adds internal-control measurement guidance for SaaS lifecycle programs.
+- Enhancement: `skills/domain-delivery/data-management/` adds the data-implementation-plan workstream framing.
 
 ## Quality Guardrails
 

@@ -25,6 +25,6 @@ The parent session received and verified ten EPUBs on copywriting, persuasion, d
 
 ## Repository Changes Driven
 
-- Added `skills/premium-commercial-writing/` as the cross-cutting writing layer.
+- Added `skills/writing-content/premium-commercial-writing/` as the cross-cutting writing layer.
 - Added reference gates for proposal document polish, proof discipline, section patterns, and AI-search-aware public writing.
 - Wired the new layer into evaluator-journey, premium strategy, pricing, cover letter, executive summary, relevant experience, blog, and language skills.
