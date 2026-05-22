@@ -50,13 +50,13 @@ The book opens with the SaaS mindset chapter precisely because the architecture 
 
 ## Repository Changes Driven
 
-- New skill: `skills/saas-multi-tenant-architecture-credibility-block/` — methodology-grade content block that proves SaaS architectural literacy in proposals.
-- New skill: `skills/saas-implementation-methodology/` — end-to-end SaaS implementation methodology with control plane / application plane / tenant isolation / data partitioning / cost attribution / onboarding workstreams.
+- New skill: `skills/saas-proposals/saas-multi-tenant-architecture-credibility-block/` — methodology-grade content block that proves SaaS architectural literacy in proposals.
+- New skill: `skills/saas-proposals/saas-implementation-methodology/` — end-to-end SaaS implementation methodology with control plane / application plane / tenant isolation / data partitioning / cost attribution / onboarding workstreams.
 - New reference: `saas-implementation-methodology-blocks.md` — reusable Methodology section content for SaaS implementation engagements.
 - New reference: `saas-multi-tenant-architecture-block.md` — credibility-block paragraphs and tables.
-- Enhancement: `skills/06-methodology/` adds SaaS-specific standard phases including control plane, application plane, tenant isolation, data partitioning, observability, billing integration, and noisy-neighbour management.
-- Enhancement: `skills/risk-management/` adds tenant-isolation, noisy-neighbour, data-residency, and migration risks.
-- Enhancement: `skills/change-management/` adds the SaaS-mindset transition pattern (per-tenant operations, continuous release, customer success replaces install services).
+- Enhancement: `skills/pipeline/06-methodology/` adds SaaS-specific standard phases including control plane, application plane, tenant isolation, data partitioning, observability, billing integration, and noisy-neighbour management.
+- Enhancement: `skills/domain-delivery/risk-management/` adds tenant-isolation, noisy-neighbour, data-residency, and migration risks.
+- Enhancement: `skills/domain-delivery/change-management/` adds the SaaS-mindset transition pattern (per-tenant operations, continuous release, customer success replaces install services).
 
 ## Quality Guardrails
 

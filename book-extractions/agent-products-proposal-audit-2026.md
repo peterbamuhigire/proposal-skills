@@ -18,19 +18,19 @@ The audit covers engagements with at least three of these characteristics:
 
 | Existing asset | What it covers | Gap for agentic engagements |
 |---|---|---|
-| `skills/ai-transformation-proposal/SKILL.md` | AI strategy, agentic workflows hook, governance, evaluation, maintenance | No agent-specific methodology, no autonomy-level taxonomy, no agent ROI, no agent risk register, no agent pricing patterns, no agent objections |
-| `skills/ai-on-saas-combined-methodology/SKILL.md` | Three-plane methodology (control, application, AI) with eval, model gateway, RAG, red-team | Treats agents as a feature class inside the AI plane; does not stage shadow → supervised → agentic; no action-catalogue design; no irreversibility gating; no kill-switch drill |
-| `skills/ai-on-saas-discovery-and-qualification/SKILL.md` | Workflow-AI fit, hallucination tolerance, AI maturity | No "is this really an agent vs a workflow?" filter; no autonomy-level discovery; no irreversibility-tolerance discovery; no oversight-model discovery; no accountability discovery |
-| `skills/ai-on-saas-business-case-and-roi/SKILL.md` | AI Value Stack + AI Cost Stack + eval-margin + cost-of-tokens + downside | Hallucination liability sized but **agentic incident liability, irreversibility cost, intervention overhead, scope-creep cost** not modelled; tasks-per-FTE saved with intervention discount missing |
-| `skills/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` | Bundled, tier upsell, usage credits, hybrid, fair-use | No per-resolution, per-outcome, per-step, per-agent, intervention-credit, vendor-cost-pass-through patterns |
-| `skills/ai-on-saas-poc-and-pilot-scoping/SKILL.md` | Binary eval criteria, golden dataset, abstain logic, exit gates | No shadow-mode pilot, supervised-mode pilot, agentic-mode pilot staging; no irreversible-action ceiling; no intervention-rate ceiling; no abort condition specific to autonomy |
-| `skills/ai-on-saas-risk-and-responsible-ai/SKILL.md` | Ten-entry AI risk register (model, hallucination, injection, leakage, sub-processor, regulatory, lock-in, contamination, drift, reputational) | Missing: autonomy-action incident, irreversibility incident, action accountability, scope-creep, multi-agent collusion, prompt-injection-via-tool-output, agent persistent memory poisoning, regulator action on agentic systems |
-| `skills/ai-on-saas-compliance-credentials/SKILL.md` | EU AI Act, NCAIS/NAIS/AI Policy KE/NG/ZA/UG/RW, ISO 42001/23894, NIST AI RMF, model cards, eval CI, hallucination SLO, red-team, sub-processor disclosure, region routing, sovereign-AI | Missing: agent action audit log, irreversibility gating, intervention SLO, kill-switch drill, agent red-team catalogue, agent identity, action-scope attestation |
-| `skills/ai-on-saas-procurement-and-questionnaire/SKILL.md` | Eight-domain AI questionnaire (providers, training, retention, region, sovereign, eval, safety, governance) | Missing: autonomy level, action catalogue, irreversibility classification, kill-switch evidence, scope-confinement evidence, agent identity / impersonation policy, action audit log access |
-| `skills/ai-on-saas-change-management-and-adoption/SKILL.md` | Trust staging (shadow → confirm → supervised → auto), augment-vs-replace, HITL | Trust staging applied generically; for agents the stages, evidence, communications and union impact are sharper — also missing "agent-on-your-behalf" disclosure UX |
-| `skills/ai-on-saas-team-composition/SKILL.md` | AI roster (Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data, ML Lead) | Missing: Agent Architect, Tool Engineer, Human-in-the-loop Designer, Agent Safety Lead, Agent Ops; operations after go-live distinct from non-agent AI ops |
-| `skills/ai-on-saas-vertical-positioning/SKILL.md` | FS, insurance, public sector, healthcare, education, customer support | Vertical agent plays not specialised (resolution agents, compliance/reconciliation agents, claims triage, citizen-service caution, admin-only healthcare, legal drafting/review, ops triage) |
-| `skills/saas-objection-handling-and-competitive-displacement/SKILL.md` | Price, risk, vendor lock, build-in-house, AI accuracy, adoption | Missing: autonomy, jobs displacement, irreversibility, accountability "who is liable if the agent is wrong?", regulator action, agent-on-agent failure cascades |
+| `skills/strategy-positioning/ai-transformation-proposal/SKILL.md` | AI strategy, agentic workflows hook, governance, evaluation, maintenance | No agent-specific methodology, no autonomy-level taxonomy, no agent ROI, no agent risk register, no agent pricing patterns, no agent objections |
+| `skills/ai-on-saas-proposals/ai-on-saas-combined-methodology/SKILL.md` | Three-plane methodology (control, application, AI) with eval, model gateway, RAG, red-team | Treats agents as a feature class inside the AI plane; does not stage shadow → supervised → agentic; no action-catalogue design; no irreversibility gating; no kill-switch drill |
+| `skills/ai-on-saas-proposals/ai-on-saas-discovery-and-qualification/SKILL.md` | Workflow-AI fit, hallucination tolerance, AI maturity | No "is this really an agent vs a workflow?" filter; no autonomy-level discovery; no irreversibility-tolerance discovery; no oversight-model discovery; no accountability discovery |
+| `skills/ai-on-saas-proposals/ai-on-saas-business-case-and-roi/SKILL.md` | AI Value Stack + AI Cost Stack + eval-margin + cost-of-tokens + downside | Hallucination liability sized but **agentic incident liability, irreversibility cost, intervention overhead, scope-creep cost** not modelled; tasks-per-FTE saved with intervention discount missing |
+| `skills/ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` | Bundled, tier upsell, usage credits, hybrid, fair-use | No per-resolution, per-outcome, per-step, per-agent, intervention-credit, vendor-cost-pass-through patterns |
+| `skills/ai-on-saas-proposals/ai-on-saas-poc-and-pilot-scoping/SKILL.md` | Binary eval criteria, golden dataset, abstain logic, exit gates | No shadow-mode pilot, supervised-mode pilot, agentic-mode pilot staging; no irreversible-action ceiling; no intervention-rate ceiling; no abort condition specific to autonomy |
+| `skills/ai-on-saas-proposals/ai-on-saas-risk-and-responsible-ai/SKILL.md` | Ten-entry AI risk register (model, hallucination, injection, leakage, sub-processor, regulatory, lock-in, contamination, drift, reputational) | Missing: autonomy-action incident, irreversibility incident, action accountability, scope-creep, multi-agent collusion, prompt-injection-via-tool-output, agent persistent memory poisoning, regulator action on agentic systems |
+| `skills/ai-on-saas-proposals/ai-on-saas-compliance-credentials/SKILL.md` | EU AI Act, NCAIS/NAIS/AI Policy KE/NG/ZA/UG/RW, ISO 42001/23894, NIST AI RMF, model cards, eval CI, hallucination SLO, red-team, sub-processor disclosure, region routing, sovereign-AI | Missing: agent action audit log, irreversibility gating, intervention SLO, kill-switch drill, agent red-team catalogue, agent identity, action-scope attestation |
+| `skills/ai-on-saas-proposals/ai-on-saas-procurement-and-questionnaire/SKILL.md` | Eight-domain AI questionnaire (providers, training, retention, region, sovereign, eval, safety, governance) | Missing: autonomy level, action catalogue, irreversibility classification, kill-switch evidence, scope-confinement evidence, agent identity / impersonation policy, action audit log access |
+| `skills/ai-on-saas-proposals/ai-on-saas-change-management-and-adoption/SKILL.md` | Trust staging (shadow → confirm → supervised → auto), augment-vs-replace, HITL | Trust staging applied generically; for agents the stages, evidence, communications and union impact are sharper — also missing "agent-on-your-behalf" disclosure UX |
+| `skills/ai-on-saas-proposals/ai-on-saas-team-composition/SKILL.md` | AI roster (Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data, ML Lead) | Missing: Agent Architect, Tool Engineer, Human-in-the-loop Designer, Agent Safety Lead, Agent Ops; operations after go-live distinct from non-agent AI ops |
+| `skills/ai-on-saas-proposals/ai-on-saas-vertical-positioning/SKILL.md` | FS, insurance, public sector, healthcare, education, customer support | Vertical agent plays not specialised (resolution agents, compliance/reconciliation agents, claims triage, citizen-service caution, admin-only healthcare, legal drafting/review, ops triage) |
+| `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/SKILL.md` | Price, risk, vendor lock, build-in-house, AI accuracy, adoption | Missing: autonomy, jobs displacement, irreversibility, accountability "who is liable if the agent is wrong?", regulator action, agent-on-agent failure cascades |
 
 The hooks point at the right concerns. They do not give the proposal writer methodology, deliverables, gates, acceptance criteria, risk entries, pricing patterns, compliance subsections, procurement answers, or objection handling specific to agents.
 
@@ -69,23 +69,23 @@ Create the following under `skills/<skill-name>/` with `SKILL.md` and `reference
 
 These existing skills receive an "agent branch" or "agent overlay" — not a duplication, just a pointer and a short addition so a writer working in the parent skill is routed to the agent stack when the engagement is agentic.
 
-- `skills/ai-transformation-proposal/SKILL.md` — add agent branch in the routing close.
-- `skills/ai-on-saas-combined-methodology/SKILL.md` — agent-phases overlay sentence.
-- `skills/ai-on-saas-business-case-and-roi/SKILL.md` — agent ROI patterns reference pointer.
-- `skills/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` — agent pricing patterns reference pointer.
-- `skills/ai-on-saas-risk-and-responsible-ai/SKILL.md` — agent risk addendum pointer.
-- `skills/ai-on-saas-compliance-credentials/SKILL.md` — agent audit / kill-switch evidence pointer.
-- `skills/ai-on-saas-procurement-and-questionnaire/SKILL.md` — agent procurement Q&A pointer.
-- `skills/ai-on-saas-poc-and-pilot-scoping/SKILL.md` — agent shadow / supervised / agentic stages pointer.
-- `skills/saas-objection-handling-and-competitive-displacement/SKILL.md` — agent objections (autonomy, jobs, irreversibility, accountability, regulator) pointer.
-- `skills/ai-on-saas-change-management-and-adoption/SKILL.md` — trust-staging detail for agents pointer.
-- `skills/ai-on-saas-team-composition/SKILL.md` — agent roles added pointer.
-- `skills/monitoring-and-evaluation/SKILL.md` — agent dashboards (task success, intervention, irreversible-action incidents) pointer.
-- `skills/risk-management/SKILL.md` — agent risk register pointer.
-- `skills/06-methodology/SKILL.md` and `skills/10-financial-proposal/SKILL.md` — agent pointer.
+- `skills/strategy-positioning/ai-transformation-proposal/SKILL.md` — add agent branch in the routing close.
+- `skills/ai-on-saas-proposals/ai-on-saas-combined-methodology/SKILL.md` — agent-phases overlay sentence.
+- `skills/ai-on-saas-proposals/ai-on-saas-business-case-and-roi/SKILL.md` — agent ROI patterns reference pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` — agent pricing patterns reference pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-risk-and-responsible-ai/SKILL.md` — agent risk addendum pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-compliance-credentials/SKILL.md` — agent audit / kill-switch evidence pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-procurement-and-questionnaire/SKILL.md` — agent procurement Q&A pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-poc-and-pilot-scoping/SKILL.md` — agent shadow / supervised / agentic stages pointer.
+- `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/SKILL.md` — agent objections (autonomy, jobs, irreversibility, accountability, regulator) pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-change-management-and-adoption/SKILL.md` — trust-staging detail for agents pointer.
+- `skills/ai-on-saas-proposals/ai-on-saas-team-composition/SKILL.md` — agent roles added pointer.
+- `skills/domain-delivery/monitoring-and-evaluation/SKILL.md` — agent dashboards (task success, intervention, irreversible-action incidents) pointer.
+- `skills/domain-delivery/risk-management/SKILL.md` — agent risk register pointer.
+- `skills/pipeline/06-methodology/SKILL.md` and `skills/pipeline/10-financial-proposal/SKILL.md` — agent pointer.
 - Parent routing — `CLAUDE.md`, `README.md`, `AGENTS.md`, `skills/SKILL.md` — list the agent family.
 
-## NEW REFERENCES UNDER `skills/references/`
+## NEW REFERENCES UNDER `skills/profiles-sectors/references/`
 
 - `ai-agent-discovery-question-bank.md` — long-form question bank covering ten agent dimensions.
 - `ai-agent-business-case-template.md` — formulas (tasks-saved × intervention-discount; downside scenarios), worked examples.
