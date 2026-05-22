@@ -31,10 +31,10 @@ Follow-up is treated as a system, not a virtue. The implication for SaaS proposa
 ## Repository Changes Driven
 
 - New reference: `saas-discovery-conversation-script.md` — discovery conversation structure, RRR-style relevance principle, objection vs rejection separation.
-- Enhancement: `skills/sales-discovery-and-objection-handling/SKILL.md` adds SaaS conversation discipline.
-- Enhancement: `skills/saas-lifecycle-communications-as-deliverable/` (new) — proposes lifecycle email and in-app comms as a paid deliverable inside the implementation engagement, with cadence, content type, and measurement.
-- Enhancement: `skills/customer-service-and-maintenance-proposals/` adds SaaS account-management cadence and customer-success communication rhythm.
-- Enhancement: `skills/08-work-plan/` adds disciplined recurring-meeting language (purpose, artefact, decision).
+- Enhancement: `skills/strategy-positioning/sales-discovery-and-objection-handling/SKILL.md` adds SaaS conversation discipline.
+- Enhancement: `skills/saas-proposals/saas-lifecycle-communications-as-deliverable/` (new) — proposes lifecycle email and in-app comms as a paid deliverable inside the implementation engagement, with cadence, content type, and measurement.
+- Enhancement: `skills/strategy-positioning/customer-service-and-maintenance-proposals/` adds SaaS account-management cadence and customer-success communication rhythm.
+- Enhancement: `skills/pipeline/08-work-plan/` adds disciplined recurring-meeting language (purpose, artefact, decision).
 
 ## Quality Guardrails
 

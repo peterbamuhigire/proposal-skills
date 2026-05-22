@@ -42,14 +42,14 @@ For African-context proposals where many clients are capital-light, Walling's bo
 
 ## Repository Changes Driven
 
-- New skill: `skills/saas-vertical-positioning/` — vertical positioning briefs for financial services, insurance, public sector, healthcare, education.
+- New skill: `skills/saas-proposals/saas-vertical-positioning/` — vertical positioning briefs for financial services, insurance, public sector, healthcare, education.
 - New reference: `vertical-saas-positioning-financial-services.md`.
 - New reference: `vertical-saas-positioning-insurance.md`.
 - New reference: `vertical-saas-positioning-public-sector.md`.
 - New reference: `saas-pricing-models-reference.md` — tiering, expansion, freemium, paid trial, price increases.
-- New skill: `skills/saas-pricing-and-packaging-proposal/` — applies pricing-model guidance for client-owned SaaS commercial models inside implementation engagements.
-- Enhancement: `skills/monitoring-and-evaluation/` adds the SaaS health-dashboard pattern.
-- Enhancement: `skills/premium-pricing-and-value-defense/` adds SaaS-specific commercial options.
+- New skill: `skills/saas-proposals/saas-pricing-and-packaging-proposal/` — applies pricing-model guidance for client-owned SaaS commercial models inside implementation engagements.
+- Enhancement: `skills/domain-delivery/monitoring-and-evaluation/` adds the SaaS health-dashboard pattern.
+- Enhancement: `skills/strategy-positioning/premium-pricing-and-value-defense/` adds SaaS-specific commercial options.
 
 ## Quality Guardrails
 

@@ -52,11 +52,11 @@ For premium SaaS proposals to investor-backed clients or PE-owned SaaS targets, 
 
 ## Repository Changes Driven
 
-- New skill: `skills/saas-business-case-and-roi-modeling/` — TCO, ROI, payback, LTV/CAC, Rule of 40, business-case template.
+- New skill: `skills/saas-proposals/saas-business-case-and-roi-modeling/` — TCO, ROI, payback, LTV/CAC, Rule of 40, business-case template.
 - New reference: `saas-business-case-and-roi-template.md` — TCO vs on-prem, CAC payback, LTV uplift, retention uplift, sensitivity.
 - New reference: `saas-metrics-glossary-for-proposals.md` — ARR, MRR, ACV, TCV, RPO, NRR, gross churn, magic number, Rule of 40, PSAR, etc., explained in the engine's own words for proposal use.
-- Enhancement: `skills/10-financial-proposal/` adds SaaS pricing model variants (subscription, usage, hybrid, enterprise tiering) and PSAR framing.
-- Enhancement: `skills/02-executive-summary/` and `skills/premium-client-proposal-strategy/` add Rule-of-40 / magic-number language for investor-grade clients.
+- Enhancement: `skills/pipeline/10-financial-proposal/` adds SaaS pricing model variants (subscription, usage, hybrid, enterprise tiering) and PSAR framing.
+- Enhancement: `skills/pipeline/02-executive-summary/` and `skills/strategy-positioning/premium-client-proposal-strategy/` add Rule-of-40 / magic-number language for investor-grade clients.
 
 ## Quality Guardrails
 

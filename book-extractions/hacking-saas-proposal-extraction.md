@@ -35,9 +35,9 @@ Wherever the book argues against single-rep teams, the proposal should mirror th
 
 - New reference: `saas-gtm-motion-design-reference.md` — PLG / inside-sales / field / hybrid motion selection, channel-decay monitoring, pricing-experimentation register, sales enablement workstream.
 - New reference: `saas-vendor-vs-build-narrative.md` — build-vs-buy framing that the agency uses when defending vendor-managed SaaS over on-prem or in-house build.
-- Enhancement: `skills/06-methodology/` adds an experimentation-register block for SaaS proposals.
-- Enhancement: `skills/07-team-composition/` adds the two-of-everything redundancy principle for client-side operating roles after handover.
-- Enhancement: `skills/ai-transformation-proposal/` and the new SaaS implementation methodology skill add pricing-experimentation guidance for client-owned SaaS revenue models.
+- Enhancement: `skills/pipeline/06-methodology/` adds an experimentation-register block for SaaS proposals.
+- Enhancement: `skills/pipeline/07-team-composition/` adds the two-of-everything redundancy principle for client-side operating roles after handover.
+- Enhancement: `skills/strategy-positioning/ai-transformation-proposal/` and the new SaaS implementation methodology skill add pricing-experimentation guidance for client-owned SaaS revenue models.
 
 ## Quality Guardrails
 
