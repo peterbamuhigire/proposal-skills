@@ -51,16 +51,16 @@ A premium proposal explicitly states the conditions under which the engagement s
 
 ## Repository Changes Driven
 
-- New skill: `skills/saas-discovery-and-qualification/` — diagnose, impact, decision-process mapping, pain chain.
-- New skill: `skills/saas-mutual-action-planning-and-close-plans/` — MAP, close plan, commit logic.
-- New skill: `skills/saas-objection-handling-and-competitive-displacement/` — competitive strategy, price objections, trade discipline.
+- New skill: `skills/saas-proposals/saas-discovery-and-qualification/` — diagnose, impact, decision-process mapping, pain chain.
+- New skill: `skills/saas-proposals/saas-mutual-action-planning-and-close-plans/` — MAP, close plan, commit logic.
+- New skill: `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/` — competitive strategy, price objections, trade discipline.
 - New reference: `saas-discovery-question-bank.md` — pain chain, impact, decision process.
 - New reference: `meddic-and-command-of-message-for-saas.md` — qualification overlay.
 - New reference: `saas-mutual-action-plan-template.md`.
 - New reference: `saas-business-case-and-roi-template.md`.
 - New reference: `saas-objection-handling-playbook.md`.
-- Enhancement: `skills/sales-discovery-and-objection-handling/SKILL.md` adds SaaS lens.
-- Enhancement: `skills/02-executive-summary/` and `skills/03-understanding-of-assignment/` get pain-chain and critical-event guidance.
+- Enhancement: `skills/strategy-positioning/sales-discovery-and-objection-handling/SKILL.md` adds SaaS lens.
+- Enhancement: `skills/pipeline/02-executive-summary/` and `skills/pipeline/03-understanding-of-assignment/` get pain-chain and critical-event guidance.
 
 ## Quality Guardrails
 

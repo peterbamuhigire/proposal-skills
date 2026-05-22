@@ -24,15 +24,15 @@ The audit covers engagements with at least three of these characteristics:
 
 | Existing asset | What it covers | Gap for the commercial / contractual layer |
 |---|---|---|
-| `skills/ai-agent-pricing-and-packaging-proposal/SKILL.md` | Six pricing patterns; intervention credit, vendor pass-through, fair-use, abort and refund, autonomy ramp, FX (all named) | The clauses are named, not drafted as ready-to-paste contract language. No SLA class table. No packaging-pattern decision matrix. No outcome-definition rigour. No success-fee structures. |
-| `skills/references/ai-agent-pricing-models-reference.md` | Worked examples per pattern; one-paragraph sample clause per pattern; cross-pattern clauses (pass-through, fair-use, abort and refund, autonomy ramp, FX) | Sample clauses are illustrative, not exhibit-grade. No pricing exhibit template. No outcome-pricing exhibit. No success-definition rigour. No FX corridor / sovereign-AI pass-through depth. |
-| `skills/references/saas-msa-dpa-sla-template-language.md` | MSA / DPA / SLA clause themes; SLA tier table (Starter / Pro / Enterprise) on availability only; severity table; credit mechanism; carve-outs | Agent-specific dimensions absent: task-success, intervention rate, time-to-resolve, kill-switch SLA, audit-log completeness, replay availability, fee-for-evidence-pack on dispute, action accountability, model-provider force-majeure. No agent SLA class table. No agent MSA addendum template. |
-| `skills/ai-agent-business-case-and-roi/SKILL.md` | Cost stack and downside scenarios | Credit cost is not modelled into the downside as a P&L line. Service credits are not stress-tested against margin floor. |
-| `skills/ai-agent-procurement-and-questionnaire/SKILL.md` | Ten agent procurement domains | Commercial/contractual answers (SLA, credits, refund, abort, indemnity sub-cap for agentic action, audit-log fee on dispute) are not surfaced as a domain. |
-| `skills/sales-discovery-and-objection-handling/SKILL.md` | Generic objection handling | No commercial objection map for agents ("we don't pay for failed tasks", "we want a price floor", "we want a price corridor", "we want to audit the audit log", "we want a refund if the agent flops"). |
-| `skills/premium-pricing-and-value-defense/SKILL.md` | Premium fee defence | No agent-specific outcome-pricing defence, no success-fee defence, no "credit is real value" defence. |
-| `skills/10-financial-proposal/SKILL.md` | Financial proposal narrative + AI commercial structure block + AI-agent commercial structure block | The agent block names clauses; the exhibit-grade language to drop into the financial proposal does not exist. |
-| `skills/customer-service-and-maintenance-proposals/SKILL.md` | Support, maintenance, SLA, escalation, severity, credit mechanism | Generic SaaS SLA, not agent SLA. No task-success or intervention-rate commitment. No kill-switch SLA. |
+| `skills/ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md` | Six pricing patterns; intervention credit, vendor pass-through, fair-use, abort and refund, autonomy ramp, FX (all named) | The clauses are named, not drafted as ready-to-paste contract language. No SLA class table. No packaging-pattern decision matrix. No outcome-definition rigour. No success-fee structures. |
+| `skills/profiles-sectors/references/ai-agent-pricing-models-reference.md` | Worked examples per pattern; one-paragraph sample clause per pattern; cross-pattern clauses (pass-through, fair-use, abort and refund, autonomy ramp, FX) | Sample clauses are illustrative, not exhibit-grade. No pricing exhibit template. No outcome-pricing exhibit. No success-definition rigour. No FX corridor / sovereign-AI pass-through depth. |
+| `skills/profiles-sectors/references/saas-msa-dpa-sla-template-language.md` | MSA / DPA / SLA clause themes; SLA tier table (Starter / Pro / Enterprise) on availability only; severity table; credit mechanism; carve-outs | Agent-specific dimensions absent: task-success, intervention rate, time-to-resolve, kill-switch SLA, audit-log completeness, replay availability, fee-for-evidence-pack on dispute, action accountability, model-provider force-majeure. No agent SLA class table. No agent MSA addendum template. |
+| `skills/ai-agent-proposals/ai-agent-business-case-and-roi/SKILL.md` | Cost stack and downside scenarios | Credit cost is not modelled into the downside as a P&L line. Service credits are not stress-tested against margin floor. |
+| `skills/ai-agent-proposals/ai-agent-procurement-and-questionnaire/SKILL.md` | Ten agent procurement domains | Commercial/contractual answers (SLA, credits, refund, abort, indemnity sub-cap for agentic action, audit-log fee on dispute) are not surfaced as a domain. |
+| `skills/strategy-positioning/sales-discovery-and-objection-handling/SKILL.md` | Generic objection handling | No commercial objection map for agents ("we don't pay for failed tasks", "we want a price floor", "we want a price corridor", "we want to audit the audit log", "we want a refund if the agent flops"). |
+| `skills/strategy-positioning/premium-pricing-and-value-defense/SKILL.md` | Premium fee defence | No agent-specific outcome-pricing defence, no success-fee defence, no "credit is real value" defence. |
+| `skills/pipeline/10-financial-proposal/SKILL.md` | Financial proposal narrative + AI commercial structure block + AI-agent commercial structure block | The agent block names clauses; the exhibit-grade language to drop into the financial proposal does not exist. |
+| `skills/strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md` | Support, maintenance, SLA, escalation, severity, credit mechanism | Generic SaaS SLA, not agent SLA. No task-success or intervention-rate commitment. No kill-switch SLA. |
 
 The pricing skill names every clause. The reference file gives one paragraph per pattern. The MSA/DPA/SLA reference handles non-agent SaaS. None of these gives the proposal writer or the agency's legal team a **drop-in pricing exhibit, drop-in SLA exhibit, drop-in MSA addendum, or drop-in refund-policy template** specific to agentic engagements. The financial proposal carries an "AI-Agent Commercial Structure Block" pointer; what it points to is one-paragraph illustrative language. Procurement will reject one-paragraph language.
 
@@ -81,7 +81,7 @@ Create the following under `skills/<skill-name>/` with `SKILL.md` and `reference
 
 ## NEW REFERENCES
 
-Drop into `skills/references/` as ready-to-paste contract language.
+Drop into `skills/profiles-sectors/references/` as ready-to-paste contract language.
 
 | Reference | Purpose |
 |---|---|

@@ -16,18 +16,18 @@ The audit covers engagements with all five of these characteristics:
 
 | Existing asset | What it covers | Gap |
 |---|---|---|
-| `skills/ai-transformation-proposal/SKILL.md` | AI strategy, AI use-case prioritisation, governance, eval, RAG/agent design, maintenance | Not a combined AI-on-SaaS methodology; carries only a single closing block on tenant isolation, cost attribution, lifecycle communications |
-| `skills/saas-implementation-methodology/SKILL.md` | Control plane / application plane / tenant isolation / cost attribution methodology | Silent on AI workstreams (eval harness, model gateway, RAG indexes per tenant, red-team, hallucination SLOs) |
-| `skills/saas-poc-and-pilot-scoping/SKILL.md` | POC time-box, binary success criteria, exit gates | Silent on AI-specific POC criteria (eval metric thresholds, golden dataset, hallucination ceiling, model selection criteria) |
-| `skills/saas-business-case-and-roi-modeling/SKILL.md` | TCO, payback, NPV, Rule of 40 | Silent on cost-of-tokens, eval-margin, AI uplift caveats, AI downside scenarios |
-| `skills/saas-pricing-and-packaging-proposal/SKILL.md` | Subscription / usage / hybrid / tiering | Silent on AI-credit packaging, model-by-tier, fair-use, AI-tier upsell pattern |
-| `skills/saas-procurement-and-security-questionnaire/SKILL.md` | DPA / MSA / SLA / sub-processor / residency / exit | Silent on AI-specific questionnaire (model providers, training-data opt-out, retention, region routing, sovereign-AI) |
-| `skills/saas-trust-and-compliance-credentials-section/SKILL.md` | Security, privacy, BCDR, audit, sub-processors | Silent on AI Act readiness, model-card practice, hallucination SLO, red-team practice, AI sub-processor disclosure |
-| `skills/saas-objection-handling-and-competitive-displacement/SKILL.md` | Price, vendor lock-in, build-vs-buy, do-nothing | Silent on AI-specific objections (accuracy, ethics, jobs, regulator, ban risk) |
-| `skills/risk-management/SKILL.md` | Generic risk registers | No AI risk register (model risk, hallucination liability, prompt injection, regulatory shift, reputational) |
-| `skills/monitoring-and-evaluation/SKILL.md` | M&E / log frames | No AI dashboards (eval drift, hallucination rate, cost per tenant, abstain rate, citation accuracy) |
-| `skills/change-management/SKILL.md` | OCM frameworks | No AI mindset transition (model trust, augment-vs-replace, human-in-the-loop, retraining cadence) |
-| `skills/07-team-composition/SKILL.md` | Team rosters | No AI-specific roster (ML lead, prompt engineer, AI safety lead, eval engineer, MLOps, data engineer) |
+| `skills/strategy-positioning/ai-transformation-proposal/SKILL.md` | AI strategy, AI use-case prioritisation, governance, eval, RAG/agent design, maintenance | Not a combined AI-on-SaaS methodology; carries only a single closing block on tenant isolation, cost attribution, lifecycle communications |
+| `skills/saas-proposals/saas-implementation-methodology/SKILL.md` | Control plane / application plane / tenant isolation / cost attribution methodology | Silent on AI workstreams (eval harness, model gateway, RAG indexes per tenant, red-team, hallucination SLOs) |
+| `skills/saas-proposals/saas-poc-and-pilot-scoping/SKILL.md` | POC time-box, binary success criteria, exit gates | Silent on AI-specific POC criteria (eval metric thresholds, golden dataset, hallucination ceiling, model selection criteria) |
+| `skills/saas-proposals/saas-business-case-and-roi-modeling/SKILL.md` | TCO, payback, NPV, Rule of 40 | Silent on cost-of-tokens, eval-margin, AI uplift caveats, AI downside scenarios |
+| `skills/saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md` | Subscription / usage / hybrid / tiering | Silent on AI-credit packaging, model-by-tier, fair-use, AI-tier upsell pattern |
+| `skills/saas-proposals/saas-procurement-and-security-questionnaire/SKILL.md` | DPA / MSA / SLA / sub-processor / residency / exit | Silent on AI-specific questionnaire (model providers, training-data opt-out, retention, region routing, sovereign-AI) |
+| `skills/saas-proposals/saas-trust-and-compliance-credentials-section/SKILL.md` | Security, privacy, BCDR, audit, sub-processors | Silent on AI Act readiness, model-card practice, hallucination SLO, red-team practice, AI sub-processor disclosure |
+| `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/SKILL.md` | Price, vendor lock-in, build-vs-buy, do-nothing | Silent on AI-specific objections (accuracy, ethics, jobs, regulator, ban risk) |
+| `skills/domain-delivery/risk-management/SKILL.md` | Generic risk registers | No AI risk register (model risk, hallucination liability, prompt injection, regulatory shift, reputational) |
+| `skills/domain-delivery/monitoring-and-evaluation/SKILL.md` | M&E / log frames | No AI dashboards (eval drift, hallucination rate, cost per tenant, abstain rate, citation accuracy) |
+| `skills/domain-delivery/change-management/SKILL.md` | OCM frameworks | No AI mindset transition (model trust, augment-vs-replace, human-in-the-loop, retraining cadence) |
+| `skills/pipeline/07-team-composition/SKILL.md` | Team rosters | No AI-specific roster (ML lead, prompt engineer, AI safety lead, eval engineer, MLOps, data engineer) |
 
 The closing block of `ai-transformation-proposal` ("SaaS-on-AI and AI-on-SaaS Lens") is hooks-only. It points at the right concerns but does not give the proposal writer methodology, deliverables, gates, acceptance criteria, risk register entries, pricing patterns, compliance subsections, or procurement answers.
 
@@ -50,41 +50,41 @@ Create the following under `skills/<skill-name>/` with `SKILL.md` and `reference
 
 | Skill | Purpose |
 |---|---|
-| `skills/ai-on-saas-combined-methodology/` | Headline skill: methodology for a project that simultaneously delivers a multi-tenant SaaS AND its AI features, with phases, gates, deliverables, and acceptance criteria for both layers. |
-| `skills/ai-on-saas-discovery-and-qualification/` | Discovery questions specific to AI features: workflow-AI fit, data readiness for AI, hallucination tolerance, AI maturity, change-readiness for AI, regulatory exposure (AI Act tier, sectoral rules, local AI guidelines). |
-| `skills/ai-on-saas-business-case-and-roi/` | AI ROI that resists hype: cost-of-poor-quality reduction, agent productivity uplift (with caveats), revenue from AI-tier upsell, payback accounting for token costs, downside scenarios (regulator, hallucination liability). |
-| `skills/ai-on-saas-pricing-and-packaging-proposal/` | AI-tier pricing: usage-based credits, hybrid, AI-tier-as-upsell, included-allowance + overage, fair-use, model-selection-by-tier. |
-| `skills/ai-on-saas-poc-and-pilot-scoping/` | AI POC: binary success criteria (eval metric thresholds), golden dataset definition, model selection criteria, hallucination ceiling, exit-to-production gates. |
-| `skills/ai-on-saas-risk-and-responsible-ai/` | Risk register for AI engagements (model risk, vendor lock, hallucination liability, data leakage, prompt injection, regulatory shift, reputational), with mitigations and Responsible-AI commitment section. |
-| `skills/ai-on-saas-compliance-credentials/` | Proposal section showcasing: AI Act readiness, model-card practice, eval-harness CI, hallucination SLO, sub-processor disclosure, red-team practice, vendor governance — Trust & Compliance for AI block. |
-| `skills/ai-on-saas-procurement-and-questionnaire/` | Handling client AI questionnaires (model providers, sub-processor list, training-data exclusion, customer-data-in-training opt-out, retention, deletion, region routing, sovereign-AI options). |
-| `skills/ai-on-saas-change-management-and-adoption/` | AI-specific change management: model trust, AI-replaces-vs-AI-augments framing, escalation paths, human-in-the-loop design, retraining cadence. |
-| `skills/ai-on-saas-team-composition/` | Roster: ML lead, prompt engineer, AI safety lead, data engineer for ingestion, eval engineer, MLOps engineer, plus the SaaS team (control plane, application plane); blended-rate and ramp considerations. |
-| `skills/ai-on-saas-vertical-positioning/` | Vertical AI-on-SaaS plays: financial services (regulator-aware), insurance, public sector (procurement-aware), healthcare (HIPAA-aware), education, customer support — each with discriminators, named use cases, and risk-framing language. |
+| `skills/ai-on-saas-proposals/ai-on-saas-combined-methodology/` | Headline skill: methodology for a project that simultaneously delivers a multi-tenant SaaS AND its AI features, with phases, gates, deliverables, and acceptance criteria for both layers. |
+| `skills/ai-on-saas-proposals/ai-on-saas-discovery-and-qualification/` | Discovery questions specific to AI features: workflow-AI fit, data readiness for AI, hallucination tolerance, AI maturity, change-readiness for AI, regulatory exposure (AI Act tier, sectoral rules, local AI guidelines). |
+| `skills/ai-on-saas-proposals/ai-on-saas-business-case-and-roi/` | AI ROI that resists hype: cost-of-poor-quality reduction, agent productivity uplift (with caveats), revenue from AI-tier upsell, payback accounting for token costs, downside scenarios (regulator, hallucination liability). |
+| `skills/ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/` | AI-tier pricing: usage-based credits, hybrid, AI-tier-as-upsell, included-allowance + overage, fair-use, model-selection-by-tier. |
+| `skills/ai-on-saas-proposals/ai-on-saas-poc-and-pilot-scoping/` | AI POC: binary success criteria (eval metric thresholds), golden dataset definition, model selection criteria, hallucination ceiling, exit-to-production gates. |
+| `skills/ai-on-saas-proposals/ai-on-saas-risk-and-responsible-ai/` | Risk register for AI engagements (model risk, vendor lock, hallucination liability, data leakage, prompt injection, regulatory shift, reputational), with mitigations and Responsible-AI commitment section. |
+| `skills/ai-on-saas-proposals/ai-on-saas-compliance-credentials/` | Proposal section showcasing: AI Act readiness, model-card practice, eval-harness CI, hallucination SLO, sub-processor disclosure, red-team practice, vendor governance — Trust & Compliance for AI block. |
+| `skills/ai-on-saas-proposals/ai-on-saas-procurement-and-questionnaire/` | Handling client AI questionnaires (model providers, sub-processor list, training-data exclusion, customer-data-in-training opt-out, retention, deletion, region routing, sovereign-AI options). |
+| `skills/ai-on-saas-proposals/ai-on-saas-change-management-and-adoption/` | AI-specific change management: model trust, AI-replaces-vs-AI-augments framing, escalation paths, human-in-the-loop design, retraining cadence. |
+| `skills/ai-on-saas-proposals/ai-on-saas-team-composition/` | Roster: ML lead, prompt engineer, AI safety lead, data engineer for ingestion, eval engineer, MLOps engineer, plus the SaaS team (control plane, application plane); blended-rate and ramp considerations. |
+| `skills/ai-on-saas-proposals/ai-on-saas-vertical-positioning/` | Vertical AI-on-SaaS plays: financial services (regulator-aware), insurance, public sector (procurement-aware), healthcare (HIPAA-aware), education, customer support — each with discriminators, named use cases, and risk-framing language. |
 
 ## ENHANCEMENTS TO EXISTING SKILLS
 
 | Skill | What to Add |
 |---|---|
-| `skills/ai-transformation-proposal/SKILL.md` | Cross-link to all new `ai-on-saas-*` skills; add "when AI is delivered as a SaaS feature" branch in the workflow. |
-| `skills/saas-implementation-methodology/SKILL.md` | Add AI overlay reference: where the AI workstreams (eval harness, model gateway, RAG indexes per tenant, red-team, hallucination SLO) slot into the standard phases. |
-| `skills/saas-business-case-and-roi-modeling/SKILL.md` | AI value-and-cost-of-tokens addendum; cross-link to `ai-on-saas-business-case-and-roi`. |
-| `skills/saas-pricing-and-packaging-proposal/SKILL.md` | AI-pricing patterns (credits, included-allowance + overage, model-by-tier, fair-use). |
-| `skills/saas-procurement-and-security-questionnaire/SKILL.md` | AI questionnaire pack reference; sub-processor list now includes model providers. |
-| `skills/saas-trust-and-compliance-credentials-section/SKILL.md` | AI compliance subsection (AI Act readiness, model cards, eval-harness CI, hallucination SLO, red-team). |
-| `skills/saas-objection-handling-and-competitive-displacement/SKILL.md` | AI objection playbook (price/accuracy/lock-in/regulator/ethics/jobs/ban). |
-| `skills/risk-management/SKILL.md` | AI risk register entries. |
-| `skills/06-methodology/SKILL.md` | Point to `ai-on-saas-combined-methodology` when AI features are part of the SaaS build. |
-| `skills/07-team-composition/SKILL.md` | Point to `ai-on-saas-team-composition` for AI-on-SaaS rosters. |
-| `skills/10-financial-proposal/SKILL.md` | AI commercial structure block (cost of tokens, AI-tier credits, fair-use). |
+| `skills/strategy-positioning/ai-transformation-proposal/SKILL.md` | Cross-link to all new `ai-on-saas-*` skills; add "when AI is delivered as a SaaS feature" branch in the workflow. |
+| `skills/saas-proposals/saas-implementation-methodology/SKILL.md` | Add AI overlay reference: where the AI workstreams (eval harness, model gateway, RAG indexes per tenant, red-team, hallucination SLO) slot into the standard phases. |
+| `skills/saas-proposals/saas-business-case-and-roi-modeling/SKILL.md` | AI value-and-cost-of-tokens addendum; cross-link to `ai-on-saas-business-case-and-roi`. |
+| `skills/saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md` | AI-pricing patterns (credits, included-allowance + overage, model-by-tier, fair-use). |
+| `skills/saas-proposals/saas-procurement-and-security-questionnaire/SKILL.md` | AI questionnaire pack reference; sub-processor list now includes model providers. |
+| `skills/saas-proposals/saas-trust-and-compliance-credentials-section/SKILL.md` | AI compliance subsection (AI Act readiness, model cards, eval-harness CI, hallucination SLO, red-team). |
+| `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/SKILL.md` | AI objection playbook (price/accuracy/lock-in/regulator/ethics/jobs/ban). |
+| `skills/domain-delivery/risk-management/SKILL.md` | AI risk register entries. |
+| `skills/pipeline/06-methodology/SKILL.md` | Point to `ai-on-saas-combined-methodology` when AI features are part of the SaaS build. |
+| `skills/pipeline/07-team-composition/SKILL.md` | Point to `ai-on-saas-team-composition` for AI-on-SaaS rosters. |
+| `skills/pipeline/10-financial-proposal/SKILL.md` | AI commercial structure block (cost of tokens, AI-tier credits, fair-use). |
 | `skills/12-risk-analysis` *(if present; otherwise `risk-management`)* | AI risk register. |
-| `skills/monitoring-and-evaluation/SKILL.md` | AI dashboards (eval drift, hallucination rate, cost per tenant, abstain rate, citation accuracy, retraining cadence). |
-| `skills/change-management/SKILL.md` | AI mindset transition: trust, augment-vs-replace, HITL, retraining cadence. |
+| `skills/domain-delivery/monitoring-and-evaluation/SKILL.md` | AI dashboards (eval drift, hallucination rate, cost per tenant, abstain rate, citation accuracy, retraining cadence). |
+| `skills/domain-delivery/change-management/SKILL.md` | AI mindset transition: trust, augment-vs-replace, HITL, retraining cadence. |
 | `skills/SKILL.md` (parent) and `AGENTS.md` and `CLAUDE.md` and `README.md` | Add the new `ai-on-saas-*` skill family to routing tables. |
 
 ## REFERENCE FILES / TEMPLATES TO ADD
 
-Place in `skills/references/` (cross-cutting) unless noted otherwise.
+Place in `skills/profiles-sectors/references/` (cross-cutting) unless noted otherwise.
 
 | Reference | Purpose |
 |---|---|

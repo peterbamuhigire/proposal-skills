@@ -20,45 +20,45 @@ Create the following under `skills/<skill-name>/` with `SKILL.md` and `reference
 
 | Skill | Purpose | Source Books / Chapters |
 |---|---|---|
-| `skills/saas-discovery-and-qualification/` | Discovery for SaaS opportunities: ICP, MEDDIC/CHAMP, pain chain, impact quantification, decision process (consensus vs hierarchy), critical event, sponsor/champion/blocker mapping. | AE book Stage 2 (Diagnose), Fundamentals communication chapters |
-| `skills/saas-business-case-and-roi-modeling/` | Build TCO vs on-prem, time-to-value, CAC payback, LTV uplift, retention uplift, ROI, Rule of 40 framing for investor-grade clients, sensitivity analysis. | Mersch (entire book), AE Stage 5 |
-| `skills/saas-pricing-and-packaging-proposal/` | Subscription, usage-based, hybrid, enterprise tiering; expansion paths; freemium decisions; paid-trial design; price-increase clauses. | Walling Pricing chapters, Mersch on commercial models |
-| `skills/saas-implementation-methodology/` | End-to-end SaaS implementation methodology: control plane, application plane, tenant isolation, data partitioning, observability, billing integration, onboarding automation, cost attribution. | Golding (entire book) |
-| `skills/saas-poc-and-pilot-scoping/` | Tightly scoped POC and pilot proposals: success criteria, exit criteria, time-box, decision-gate to full implementation. | AE Stage 3 Prescribe (Show/Demo), AE Stage 5 Propose |
-| `skills/saas-procurement-and-security-questionnaire/` | Procurement navigation, security questionnaires, DPAs, MSAs, SLAs, exit clauses, escrow, data residency, sub-processors. | Cross-cutting from Golding (tenant isolation, residency), Mersch (enterprise GTM) |
-| `skills/saas-customer-success-and-adoption-proposal/` | Customer success engagement package: onboarding, activation, success plan, QBR, expansion play, churn-risk monitoring, save plays. | Garbugli (lifecycle), Walling (churn / NNR), Mersch (NRR) |
-| `skills/saas-mutual-action-planning-and-close-plans/` | MAP, close plan, commit logic, mutual responsibilities through to go-live. | AE Stage 8 Commit, Stage 7 Trade |
-| `skills/saas-vertical-positioning/` | Vertical positioning briefs for African + global priority verticals: financial services, insurance, public sector, healthcare, education, agribusiness, NGO operations. | Walling (vertical SaaS), Mersch (vertical chapter) |
-| `skills/saas-objection-handling-and-competitive-displacement/` | Competitive displacement plays (incumbent renewal, point solution, build-in-house, do-nothing), trade discipline, premium price objections. | AE Stages 4 and 7 |
-| `skills/saas-lifecycle-communications-as-deliverable/` | Scopes six lifecycle communication programs (acquisition, activation, engagement, expansion, retention, advocacy) as priced workstreams inside SaaS engagements. | Garbugli (entire book) |
-| `skills/saas-trust-and-compliance-credentials-section/` | Proposal section template covering security, compliance, certifications, sub-processors, BCDR, audit posture, regulator alignment. | Golding (tenant isolation, identity), procurement realities |
-| `skills/saas-multi-tenant-architecture-credibility-block/` | Methodology-grade content block proving SaaS architectural literacy. | Golding (entire book) |
-| `skills/saas-pilot-to-rollout-change-management/` | SaaS adoption change-management: per-tenant operations mindset, continuous-release culture, customer-success-replaces-install services. | Golding chapter 1 (SaaS mindset), AE Commit |
+| `skills/saas-proposals/saas-discovery-and-qualification/` | Discovery for SaaS opportunities: ICP, MEDDIC/CHAMP, pain chain, impact quantification, decision process (consensus vs hierarchy), critical event, sponsor/champion/blocker mapping. | AE book Stage 2 (Diagnose), Fundamentals communication chapters |
+| `skills/saas-proposals/saas-business-case-and-roi-modeling/` | Build TCO vs on-prem, time-to-value, CAC payback, LTV uplift, retention uplift, ROI, Rule of 40 framing for investor-grade clients, sensitivity analysis. | Mersch (entire book), AE Stage 5 |
+| `skills/saas-proposals/saas-pricing-and-packaging-proposal/` | Subscription, usage-based, hybrid, enterprise tiering; expansion paths; freemium decisions; paid-trial design; price-increase clauses. | Walling Pricing chapters, Mersch on commercial models |
+| `skills/saas-proposals/saas-implementation-methodology/` | End-to-end SaaS implementation methodology: control plane, application plane, tenant isolation, data partitioning, observability, billing integration, onboarding automation, cost attribution. | Golding (entire book) |
+| `skills/saas-proposals/saas-poc-and-pilot-scoping/` | Tightly scoped POC and pilot proposals: success criteria, exit criteria, time-box, decision-gate to full implementation. | AE Stage 3 Prescribe (Show/Demo), AE Stage 5 Propose |
+| `skills/saas-proposals/saas-procurement-and-security-questionnaire/` | Procurement navigation, security questionnaires, DPAs, MSAs, SLAs, exit clauses, escrow, data residency, sub-processors. | Cross-cutting from Golding (tenant isolation, residency), Mersch (enterprise GTM) |
+| `skills/saas-proposals/saas-customer-success-and-adoption-proposal/` | Customer success engagement package: onboarding, activation, success plan, QBR, expansion play, churn-risk monitoring, save plays. | Garbugli (lifecycle), Walling (churn / NNR), Mersch (NRR) |
+| `skills/saas-proposals/saas-mutual-action-planning-and-close-plans/` | MAP, close plan, commit logic, mutual responsibilities through to go-live. | AE Stage 8 Commit, Stage 7 Trade |
+| `skills/saas-proposals/saas-vertical-positioning/` | Vertical positioning briefs for African + global priority verticals: financial services, insurance, public sector, healthcare, education, agribusiness, NGO operations. | Walling (vertical SaaS), Mersch (vertical chapter) |
+| `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/` | Competitive displacement plays (incumbent renewal, point solution, build-in-house, do-nothing), trade discipline, premium price objections. | AE Stages 4 and 7 |
+| `skills/saas-proposals/saas-lifecycle-communications-as-deliverable/` | Scopes six lifecycle communication programs (acquisition, activation, engagement, expansion, retention, advocacy) as priced workstreams inside SaaS engagements. | Garbugli (entire book) |
+| `skills/saas-proposals/saas-trust-and-compliance-credentials-section/` | Proposal section template covering security, compliance, certifications, sub-processors, BCDR, audit posture, regulator alignment. | Golding (tenant isolation, identity), procurement realities |
+| `skills/saas-proposals/saas-multi-tenant-architecture-credibility-block/` | Methodology-grade content block proving SaaS architectural literacy. | Golding (entire book) |
+| `skills/saas-proposals/saas-pilot-to-rollout-change-management/` | SaaS adoption change-management: per-tenant operations mindset, continuous-release culture, customer-success-replaces-install services. | Golding chapter 1 (SaaS mindset), AE Commit |
 
 ## ENHANCEMENTS TO EXISTING SKILLS
 
 | Skill | What to Add | Source |
 |---|---|---|
-| `skills/sales-discovery-and-objection-handling/SKILL.md` | SaaS lens: ICP, MEDDIC/CHAMP overlay, pain-chain articulation, decision-process mapping (consensus vs hierarchy), trade discipline. | AE book + Fundamentals |
-| `skills/premium-pricing-and-value-defense/SKILL.md` | SaaS commercial options (subscription, usage, hybrid, enterprise tier), expansion path, PSAR framing, TCO vs on-prem. | Mersch + Walling |
-| `skills/ai-transformation-proposal/SKILL.md` | Cross-link to SaaS implementation methodology; tenant isolation requirements for AI-feature SaaS; lifecycle communications around AI features. | Golding + Garbugli |
-| `skills/06-methodology/SKILL.md` | Standard phases for SaaS implementation: control plane, application plane, tenant isolation, data partitioning, observability, billing integration, cost attribution, onboarding automation, customer success. | Golding |
-| `skills/08-work-plan/SKILL.md` | Recurring-meeting purpose-artefact-decision rule; lifecycle program build cadence; pilot-to-rollout gates. | Fundamentals + Garbugli |
-| `skills/10-financial-proposal/SKILL.md` | SaaS pricing model variants and bundling (licence vs services vs implementation vs success); PSAR; payment schedule tied to SaaS go-live and first-paying-customer milestones; usage-based commercial structures. | Mersch + Walling |
-| `skills/02-executive-summary/SKILL.md` | Critical event and pain-chain leadership; investor-grade vocabulary opt-in (Rule of 40, magic number) for the right buyers. | AE + Mersch |
-| `skills/03-understanding-of-assignment/SKILL.md` | Pain chain articulation; ICP declaration; decision-process mapping. | AE |
-| `skills/customer-service-and-maintenance-proposals/SKILL.md` | SaaS customer success engagement package; QBR cadence; expansion plays; save plays; lifecycle communications; churn-risk telemetry. | Walling + Garbugli + Mersch |
-| `skills/change-management/SKILL.md` | SaaS mindset transition: per-tenant operations, continuous release, customer-success-replaces-install services. | Golding |
-| `skills/monitoring-and-evaluation/SKILL.md` | SaaS health dashboard pattern (3 growth metrics, 3 drag metrics); NRR/GRR; internal-control measurement; lifecycle program A/B and holdout discipline. | Walling + Garbugli |
-| `skills/risk-management/SKILL.md` | Tenant-isolation failure, noisy-neighbour, data-residency, sub-processor, exit-clause, SLA-penalty, migration risks. | Golding + procurement realities |
-| `skills/data-management/SKILL.md` | Data implementation plan (custom fields, identify events, segmentation, journey mapping) as a SaaS lifecycle workstream. | Garbugli |
-| `skills/05-relevant-experience/SKILL.md` | SaaS-implementation outcome anchors: time-to-value, activation rate, NRR uplift, churn reduction, expansion revenue, time-to-first-paying-customer. | Mersch + Walling |
-| `skills/premium-client-proposal-strategy/SKILL.md` | SaaS-specific buyer level mapping (CRO, CFO, CIO, CISO, COO, head of digital), investor-grade vocabulary opt-in, vertical-SaaS positioning. | Mersch + Walling |
-| `skills/07-team-composition/SKILL.md` | Two-of-everything redundancy principle for client-side critical roles after handover. | Cotton (Hacking SaaS) |
+| `skills/strategy-positioning/sales-discovery-and-objection-handling/SKILL.md` | SaaS lens: ICP, MEDDIC/CHAMP overlay, pain-chain articulation, decision-process mapping (consensus vs hierarchy), trade discipline. | AE book + Fundamentals |
+| `skills/strategy-positioning/premium-pricing-and-value-defense/SKILL.md` | SaaS commercial options (subscription, usage, hybrid, enterprise tier), expansion path, PSAR framing, TCO vs on-prem. | Mersch + Walling |
+| `skills/strategy-positioning/ai-transformation-proposal/SKILL.md` | Cross-link to SaaS implementation methodology; tenant isolation requirements for AI-feature SaaS; lifecycle communications around AI features. | Golding + Garbugli |
+| `skills/pipeline/06-methodology/SKILL.md` | Standard phases for SaaS implementation: control plane, application plane, tenant isolation, data partitioning, observability, billing integration, cost attribution, onboarding automation, customer success. | Golding |
+| `skills/pipeline/08-work-plan/SKILL.md` | Recurring-meeting purpose-artefact-decision rule; lifecycle program build cadence; pilot-to-rollout gates. | Fundamentals + Garbugli |
+| `skills/pipeline/10-financial-proposal/SKILL.md` | SaaS pricing model variants and bundling (licence vs services vs implementation vs success); PSAR; payment schedule tied to SaaS go-live and first-paying-customer milestones; usage-based commercial structures. | Mersch + Walling |
+| `skills/pipeline/02-executive-summary/SKILL.md` | Critical event and pain-chain leadership; investor-grade vocabulary opt-in (Rule of 40, magic number) for the right buyers. | AE + Mersch |
+| `skills/pipeline/03-understanding-of-assignment/SKILL.md` | Pain chain articulation; ICP declaration; decision-process mapping. | AE |
+| `skills/strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md` | SaaS customer success engagement package; QBR cadence; expansion plays; save plays; lifecycle communications; churn-risk telemetry. | Walling + Garbugli + Mersch |
+| `skills/domain-delivery/change-management/SKILL.md` | SaaS mindset transition: per-tenant operations, continuous release, customer-success-replaces-install services. | Golding |
+| `skills/domain-delivery/monitoring-and-evaluation/SKILL.md` | SaaS health dashboard pattern (3 growth metrics, 3 drag metrics); NRR/GRR; internal-control measurement; lifecycle program A/B and holdout discipline. | Walling + Garbugli |
+| `skills/domain-delivery/risk-management/SKILL.md` | Tenant-isolation failure, noisy-neighbour, data-residency, sub-processor, exit-clause, SLA-penalty, migration risks. | Golding + procurement realities |
+| `skills/domain-delivery/data-management/SKILL.md` | Data implementation plan (custom fields, identify events, segmentation, journey mapping) as a SaaS lifecycle workstream. | Garbugli |
+| `skills/pipeline/05-relevant-experience/SKILL.md` | SaaS-implementation outcome anchors: time-to-value, activation rate, NRR uplift, churn reduction, expansion revenue, time-to-first-paying-customer. | Mersch + Walling |
+| `skills/strategy-positioning/premium-client-proposal-strategy/SKILL.md` | SaaS-specific buyer level mapping (CRO, CFO, CIO, CISO, COO, head of digital), investor-grade vocabulary opt-in, vertical-SaaS positioning. | Mersch + Walling |
+| `skills/pipeline/07-team-composition/SKILL.md` | Two-of-everything redundancy principle for client-side critical roles after handover. | Cotton (Hacking SaaS) |
 
 ## REFERENCE FILES / TEMPLATES TO ADD
 
-Place in `skills/references/` (cross-cutting) unless noted otherwise.
+Place in `skills/profiles-sectors/references/` (cross-cutting) unless noted otherwise.
 
 | Reference | Purpose |
 |---|---|
