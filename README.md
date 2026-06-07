@@ -86,7 +86,7 @@ All sub-skills live under `skills/<category>/<skill-name>/`. The 12 thematic cat
 | `skills/finance/` | 18 | Finance and accounting module skills (IFRS, IAS, reconciliation, controls) |
 | `skills/writing-content/` | 3 | Blog and premium commercial writing |
 | `skills/language/` | 2 | East African English and language standards |
-| `skills/meta/` | 3 | Skill maintenance: skill-writing, skill-safety-audit, update-claude-documentation |
+| `skills/meta/` | 5 | Skill maintenance plus anti-slop quality: skill-writing, skill-safety-audit, update-claude-documentation, anti-ai-slop (real-time guardrail), ai-slop-audit (per-section auditor that blocks on grade F) |
 
 ## Repository Structure
 
@@ -158,6 +158,8 @@ proposal-skills/
 | `skills/domain-delivery/accounting-finance-advisory/SKILL.md` | World-class finance/accounting proposal sections, project financial management, accounting, bookkeeping, ERP finance, controls, audit evidence, tax, donor/grant finance, financial modelling, and finance transformation |
 | `skills/strategy-positioning/embedded-accounting-engine-proposal/SKILL.md` | Embedded ledger/accounting engine proposals that replace routine external bookkeeping software and produce audit-ready reports |
 | `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` | Serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
+| `skills/meta/anti-ai-slop/SKILL.md` | Real-time anti-slop guardrail applied while writing every section: specificity floor, verify-before-write, authored voice, cover the hard parts, banned vocabulary |
+| `skills/meta/ai-slop-audit/SKILL.md` | Per-section and per-iteration slop auditor that grades A/B/C/F with evidence and fixes; grade F blocks submission |
 | `skills/saas-proposals/saas-discovery-and-qualification/SKILL.md` | SaaS discovery: ICP, Critical Event, pain chain, impact per role, decision process, MEDDPICC qualification gate |
 | `skills/saas-proposals/saas-business-case-and-roi-modeling/SKILL.md` | CFO-grade SaaS business case: TCO, time-to-value, payback, LTV / CAC, NPV, sensitivity |
 | `skills/saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md` | Subscription, usage, hybrid, enterprise tiering, expansion, freemium, paid trial, price-increase |
