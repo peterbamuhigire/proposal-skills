@@ -30,8 +30,10 @@ This parent skill covers the full range of consulting proposal documents. All ac
 6. Load `skills/domain-delivery/accounting-finance-advisory/SKILL.md` whenever the proposal needs a finance/accounting section, project financial management section, accounting controls, budget governance, donor/grant finance, statutory/tax handling, audit evidence, financial modelling, bookkeeping, ERP/POS finance, revenue assurance, cost controls, or management reporting. Also load `skills/strategy-positioning/embedded-accounting-engine-proposal/SKILL.md` when the proposal includes embedded accounting, finance automation, inventory accounting, payroll accounting, tax/VAT automation, or a claim that the system replaces QuickBooks/Sage/Pastel/Tally-class workflows.
 7. Load `skills/writing-content/premium-commercial-writing/SKILL.md` when the proposal, cover letter, executive summary, case study, business document, or public-facing content needs premium commercial polish, evaluator-friendly structure, stronger proof, or search-aware writing.
 8. Load `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
-9. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
-10. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
+9. Apply `skills/meta/anti-ai-slop/SKILL.md` as a REAL-TIME gate on every section while you write it, so slop never enters the draft in the first place.
+10. After each section or major iteration, run `skills/meta/ai-slop-audit/SKILL.md` on what was just produced. The audit grades A/B/C/F; a grade of F (Blocked) blocks submission, so fix the blocking findings before moving to the next section. Run it again as the final gate before assembly or submission.
+11. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
+12. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
 
 ## Quality Standards
 - Treat each `SKILL.md` as the portable unit and load it from the `skills/` folder.
@@ -96,6 +98,8 @@ Read the relevant supporting skill when the proposal requires that domain. Each 
 | `skills/domain-delivery/accounting-finance-advisory/SKILL.md` | World-class finance/accounting proposal sections, project financial management, accounting, bookkeeping, ERP finance, controls, audit evidence, tax, donor/grant finance, financial modelling, and finance transformation |
 | `skills/strategy-positioning/embedded-accounting-engine-proposal/SKILL.md` | Embedded ledger/accounting engine proposals that replace routine external bookkeeping software and produce audit-ready reports |
 | `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` | Cross-cutting serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
+| `skills/meta/anti-ai-slop/SKILL.md` | Real-time anti-slop guardrail on every section while writing: specificity floor, verify-before-write, authored voice, cover the hard parts, banned vocabulary |
+| `skills/meta/ai-slop-audit/SKILL.md` | Per-section and per-iteration slop audit; grades A/B/C/F with evidence and fixes; grade F blocks submission; also the final gate before assembly |
 | `skills/saas-proposals/saas-discovery-and-qualification/SKILL.md` | SaaS discovery: ICP, Critical Event, pain chain, impact per role, decision process (consensus vs hierarchy), MEDDPICC qualification gate |
 | `skills/saas-proposals/saas-business-case-and-roi-modeling/SKILL.md` | SaaS business case: TCO vs on-premise, time-to-value, CAC payback, LTV uplift, ROI, NPV, sensitivity, Rule of 40 for investor-grade buyers |
 | `skills/saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md` | SaaS pricing and packaging: subscription, usage, hybrid, enterprise tiering, expansion, freemium, paid trial, price-increase clauses |

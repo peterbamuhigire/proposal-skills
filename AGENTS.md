@@ -8,6 +8,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Load `skills/profiles-sectors/profiles/SKILL.md` before drafting any proposal text so voice, signatory, and proposer identity stay consistent.
 - Use `skills/profiles-sectors/sectors/SKILL.md` to decide which procurement framework and industry sector skills apply.
 - Use `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` as the reasoning, business-sense, feasibility, and achievability gate for high-stakes proposal content and final review.
+- Apply `skills/meta/anti-ai-slop/SKILL.md` as a real-time guardrail while writing every proposal section, then run `skills/meta/ai-slop-audit/SKILL.md` after each section or major iteration and as the final gate before submission; a grade of F (Blocked) blocks submission until the blocking findings are fixed.
 - Keep technical and financial proposal content separate when the procurement process requires separate envelopes or forms.
 
 ## Task Routing
@@ -30,6 +31,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Serious analysis and business logic: use [skills/strategy-positioning/critical-analysis-business-logic/SKILL.md](/C:/wamp64/www/proposal-skills/skills/strategy-positioning/critical-analysis-business-logic/SKILL.md) before methodology, work plan, financial, transformation, and final-review outputs
 - Language and tone: use [skills/language/east-african-english/SKILL.md](/C:/wamp64/www/proposal-skills/skills/language/east-african-english/SKILL.md), [skills/language/language-standards/SKILL.md](/C:/wamp64/www/proposal-skills/skills/language/language-standards/SKILL.md), and `skills/writing-content/premium-commercial-writing/` as cross-cutting review layers when commercial polish, proof, or premium value matters
 - Skill maintenance: use [skills/meta/skill-writing/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/skill-writing/SKILL.md), [skills/meta/skill-safety-audit/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/skill-safety-audit/SKILL.md), and [skills/meta/update-claude-documentation/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/update-claude-documentation/SKILL.md)
+- Anti-slop quality gate: use `skills/meta/anti-ai-slop/SKILL.md` as a real-time guardrail on every section while writing, and `skills/meta/ai-slop-audit/SKILL.md` to grade each section or iteration (A/B/C/F) and as the final gate before submission; grade F blocks submission. These pair with `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md`, which tests the reasoning
 - Blog workflows: use `skills/writing-content/blog-idea-generator/` and `skills/writing-content/blog-writer/` only for content publishing tasks, not for proposal work
 
 ## Cross-Engine Handoffs
