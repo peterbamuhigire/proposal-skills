@@ -31,7 +31,7 @@ All sub-skills are grouped into 12 thematic categories under `skills/<category>/
 | `skills/finance/` | 18 | Finance and accounting module skills (IFRS, IAS, reconciliation, controls, audit) |
 | `skills/writing-content/` | 3 | Blog and premium commercial writing |
 | `skills/language/` | 2 | East African English and language standards |
-| `skills/meta/` | 3 | Skill maintenance: skill-writing, skill-safety-audit, update-claude-documentation |
+| `skills/meta/` | 5 | Skill maintenance plus anti-slop quality: skill-writing, skill-safety-audit, update-claude-documentation, anti-ai-slop (real-time guardrail), ai-slop-audit (per-section auditor; blocks on grade F) |
 
 Router `skills/SKILL.md` and per-skill `skills/<category>/<skill>/SKILL.md` paths are canonical throughout this repo (CLAUDE.md, AGENTS.md, README.md, book-extractions). When adding a new skill, place it in the right category directory and update routing files accordingly.
 
@@ -161,6 +161,8 @@ The commercial layer references live under `skills/profiles-sectors/references/`
 - `skills/writing-content/blog-idea-generator/` and `skills/writing-content/blog-writer/` - content creation skills, used only for publishing tasks.
 - `skills/language/east-african-english/` and `skills/language/language-standards/` - cross-cutting language and tone standards.
 - `skills/meta/skill-writing/`, `skills/meta/skill-safety-audit/`, and `skills/meta/update-claude-documentation/` - maintenance skills.
+- `skills/meta/anti-ai-slop/` - real-time anti-slop guardrail applied while writing every proposal section.
+- `skills/meta/ai-slop-audit/` - per-section and per-iteration slop auditor that grades A/B/C/F and blocks submission on grade F.
 
 ## Proposal Workspace
 
@@ -211,6 +213,14 @@ Status values in `proposals/INDEX.md`: `Brainstorming`, `Drafting`, `Review`, `F
 - Every past project card must state what was achieved, not just what was done.
 - Every high-stakes claim must have visible logic: evidence, warrant, assumptions, countercase, and practical implication.
 - Methodology, staffing, timeline, financial proposal, risk controls, and M&E must be mutually achievable, not merely well written.
+
+## Anti-Slop Quality Gate
+
+Two paired skills under `skills/meta/` keep proposal output free of AI slop. They sit alongside the reasoning gate at `skills/strategy-positioning/critical-analysis-business-logic/`: the critical-analysis gate tests whether the logic is sound, and the anti-slop pair tests whether the writing reads as authored, specific, and verified.
+
+- `skills/meta/anti-ai-slop/` applies in REAL TIME on every proposal section. Use it as a live constraint while drafting each cover letter, executive summary, understanding-of-assignment, methodology, work plan, team composition, procurement response, and financial proposal, so slop is corrected in place rather than in a cleanup pass. It carries the specificity floor, verify-before-write, authored-voice, cover-the-hard-parts rules and the merged banned-vocabulary list.
+- `skills/meta/ai-slop-audit/` runs AFTER EACH section or major iteration, and AUTO-RUNS whenever the user asks to analyse, review, evaluate, audit, critique, or de-slop any proposal artefact. It also runs as the final gate before assembly or submission. It produces a graded report (A/B/C/F) with per-marker evidence and a concrete fix for each finding.
+- Grade **F (Blocked)** blocks submission. Do not progress to the next section or assemble the proposal until the blocking findings are fixed.
 
 ## Adding a New Sub-Skill
 
