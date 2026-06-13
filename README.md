@@ -83,7 +83,7 @@ All sub-skills live under `skills/<category>/<skill-name>/`. The 12 thematic cat
 | `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS methodology and supporting skills |
 | `skills/ai-agent-proposals/` | 11 | Agent / multi-agent product proposal skills |
 | `skills/ai-agent-commercial/` | 8 | Agent SLA, packaging, contract, outcome pricing, MSA, renewals |
-| `skills/finance/` | 18 | Finance and accounting module skills (IFRS, IAS, reconciliation, controls) |
+| `doctrine/skills/` | Current doctrine catalog | Canonical finance and accounting module skills (IFRS, IAS, reconciliation, controls) loaded from the doctrine submodule |
 | `skills/writing-content/` | 3 | Blog and premium commercial writing |
 | `skills/language/` | 2 | East African English and language standards |
 | `skills/meta/` | 5 | Skill maintenance plus anti-slop quality: skill-writing, skill-safety-audit, update-claude-documentation, anti-ai-slop (real-time guardrail), ai-slop-audit (per-section auditor that blocks on grade F) |
