@@ -17,6 +17,8 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Procurement and sector routing: [skills/profiles-sectors/sectors/SKILL.md](/C:/wamp64/www/proposal-skills/skills/profiles-sectors/sectors/SKILL.md)
 - Proposal sections: use the numbered section skills under `skills/01-` through `skills/10-`
 - Supporting proposal domains: use unnumbered skills such as `skills/domain-delivery/project-management/`, `skills/domain-delivery/monitoring-and-evaluation/`, `skills/domain-delivery/risk-management/`, `skills/domain-delivery/stakeholder-engagement/`, and related folders when the ToR or methodology needs that domain
+- GIZ / EU / BMZ local procurement responses: use `skills/domain-delivery/giz-eu-local-procurement-response/` when a tender includes GIZ AVB/local application requirements, two technical/financial zip folders, a GIZ assessment grid, self-declaration, price schedule, technical threshold, or GIZ clarification protocol.
+- EAC e-commerce BDS / digital trade programme design: use `skills/domain-delivery/eac-ecommerce-bds-programme-design/` for donor-funded company selection, needs assessments, tailored technical assistance, expert-pool deployment, results-based monitoring, and lessons-learned/scaling methods.
 - Website design and development proposals: use `skills/strategy-positioning/website-design-proposal-strategy/` whenever a proposal includes a website, SEO-ready site, landing page, ecommerce, portal, web app frontend, content hub, or website costing component
 - AI and technical transformation proposals: use `skills/strategy-positioning/ai-transformation-proposal/` plus `skills/profiles-sectors/references/technical-strategy-credibility-checklist.md` for AI, SaaS, software, cloud, API, integration, data, or operations claims
 - Premium, executive, and high-ticket proposals: use `skills/strategy-positioning/premium-client-proposal-strategy/` and `skills/strategy-positioning/premium-pricing-and-value-defense/` when value, proof, pricing confidence, or premium-rate defence matters
@@ -33,6 +35,14 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Skill maintenance: use [skills/meta/skill-writing/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/skill-writing/SKILL.md), [skills/meta/skill-safety-audit/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/skill-safety-audit/SKILL.md), and [skills/meta/update-claude-documentation/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/update-claude-documentation/SKILL.md)
 - Anti-slop quality gate: use `skills/meta/anti-ai-slop/SKILL.md` as a real-time guardrail on every section while writing, and `skills/meta/ai-slop-audit/SKILL.md` to grade each section or iteration (A/B/C/F) and as the final gate before submission; grade F blocks submission. These pair with `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md`, which tests the reasoning
 - Blog workflows: use `skills/writing-content/blog-idea-generator/` and `skills/writing-content/blog-writer/` only for content publishing tasks, not for proposal work
+
+## Document and Spreadsheet Tooling
+
+- Before promising `.docx`, `.pdf`, `.xlsx`, application registers, scoring matrices, price schedules, budgets, dashboards, CV packs, or annexes, check whether document and spreadsheet tooling is available on the machine.
+- Prefer available Codex/Claude document and spreadsheet plugins. If unavailable, use local Python libraries such as `openpyxl`, `XlsxWriter`, `pandas`, `python-docx`, `docxtpl`, `docxcompose`, `pypandoc`, `markdown`, `PyMuPDF`, `pypdf`, `pdfplumber`, and `reportlab`.
+- Check binaries such as `pandoc`, LibreOffice/`soffice`, `wkhtmltopdf`, and `tesseract` where the output route needs them.
+- Run a minimal DOCX/XLSX smoke test on a new machine before production export.
+- Never claim a generated Word, PDF, or Excel file exists unless it was actually written and opened or validated.
 
 ## Cross-Engine Handoffs
 
