@@ -75,7 +75,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 
 ## Finance & Accounting Trigger
 
-Load `doctrine/doctrine/accounting-finance-doctrine.md` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
+For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
 
 - Money flows: sales, purchases, payments, refunds, credit notes, expenses
 - Stock and inventory
@@ -92,12 +92,11 @@ Load `doctrine/doctrine/accounting-finance-doctrine.md` whenever the user's requ
 
 When the trigger fires:
 
-1. Ensure the submodule is present and current with `git submodule update --init --remote doctrine`.
-2. Read `doctrine/doctrine/accounting-finance-doctrine.md`.
-3. Read the relevant doctrine reference file under `doctrine/doctrine/references/`.
-4. Read the relevant finance skill `SKILL.md` under `doctrine/skills/`.
-5. Apply the **finance & accounting quality gate** from `doctrine/governance/finance-accounting-quality-gate.md`.
+1. For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+2. Read the relevant doctrine reference file in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
+3. Read the corresponding finance skill `SKILL.md` in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
+4. Apply the **finance & accounting quality gate** from the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
 6. Record the gate run in the artefact manifest.
 
-The `finance-module-audit` skill (at `doctrine/skills/finance-module-audit/`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
+The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
