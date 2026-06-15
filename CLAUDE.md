@@ -28,7 +28,7 @@ All sub-skills are grouped into 12 thematic categories under `skills/<category>/
 | `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS combined methodology and supporting skills |
 | `skills/ai-agent-proposals/` | 11 | Agent / multi-agent product proposal skills |
 | `skills/ai-agent-commercial/` | 8 | Agent SLA, packaging, contract, outcome pricing, MSA addendums, renewals |
-| `skills/finance/` | 18 | Finance and accounting module skills (IFRS, IAS, reconciliation, controls, audit) |
+| finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`) | — | Finance and accounting module skills (IFRS, IAS, reconciliation, controls, audit) — for finance/accounting/IFRS/IAS work, use the finance engine |
 | `skills/writing-content/` | 3 | Blog and premium commercial writing |
 | `skills/language/` | 2 | East African English and language standards |
 | `skills/meta/` | 5 | Skill maintenance plus anti-slop quality: skill-writing, skill-safety-audit, update-claude-documentation, anti-ai-slop (real-time guardrail), ai-slop-audit (per-section auditor; blocks on grade F) |
@@ -236,7 +236,7 @@ PPDA Uganda, World Bank TECH-1 through TECH-6 and FIN-1 through FIN-4, AfDB, UND
 
 ## Finance & Accounting Trigger
 
-Load `doctrine/accounting-finance-doctrine.md` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
+For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
 
 - Money flows: sales, purchases, payments, refunds, credit notes, expenses
 - Stock and inventory
@@ -253,11 +253,11 @@ Load `doctrine/accounting-finance-doctrine.md` whenever the user's request, the 
 
 When the trigger fires:
 
-1. Read `doctrine/accounting-finance-doctrine.md`.
-2. Read the relevant doctrine reference file under `doctrine/references/`.
-3. Read the relevant skill `SKILL.md` under `skills/finance/`.
-4. Apply the **finance & accounting quality gate** from `doctrine/governance/finance-accounting-quality-gate.md`.
+1. For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+2. Read the relevant doctrine reference file in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
+3. Read the corresponding skill `SKILL.md` in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
+4. Apply the **finance & accounting quality gate** from the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
 5. Record the gate run in the artefact manifest.
 
-The `finance-module-audit` skill (at `skills/finance/finance-module-audit/`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
+The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
