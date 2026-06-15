@@ -97,7 +97,6 @@ proposal-skills/
 ├── README.md
 ├── .gitignore
 ├── book-extractions/
-├── doctrine/
 ├── docs/
 └── skills/
     ├── SKILL.md
