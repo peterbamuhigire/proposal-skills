@@ -2,9 +2,9 @@
 
 Reference material for the ppda-uganda sector skill. Covers how procurement works at district, municipal, city, sub-county, and town-council level, where it varies from the central PPDA process, and where the financial-control regime intersects with procurement. Use when the Procuring and Disposing Entity (PDE) is a local government rather than a central ministry or agency.
 
-Sources: Local Governments (PPDA) Regulations 2006 (procurement at LG level); Local Governments (Financial and Accounting) Regulations 2007, SI 25/2007 (financial-control interface) under the Local Governments Act 1997; PPDA Act (Cap. 205, as amended). Procurement thresholds and methods live in the LG (PPDA) Regulations and the PPDA Regulations — **not** in SI 25/2007.
+Sources: PPDA Act (Cap. 205, as amended by the PPDA (Amendment) Act 2021) and the **PPDA Regulations 2023**, which since **5 February 2024** govern procurement for BOTH central and local government (the former Local Governments (PPDA) Regulations 2006 were revoked); the Local Governments (Financial and Accounting) Regulations 2007, SI 25/2007 (financial-control interface) under the Local Governments Act 1997. Procurement thresholds and methods live in the PPDA Regulations — **not** in SI 25/2007.
 
-**Verification note:** The status of the LG (PPDA) Regulations 2006 has been in flux. Some guidance treats them as revoked and folded into the consolidated PPDA Regulations 2023; other guidance still cites the 2006 instrument for LG-specific structures. Do not assert which instrument governs from memory — confirm against the current PPDA Regulations and any LG-specific instrument in force at bid date, and cite the instrument actually relied upon.
+**Status note:** The Local Governments (PPDA) Regulations 2006 were **revoked**. Since **5 February 2024**, local-government procurement is governed by the same consolidated **PPDA Regulations 2023** (gazetted 8 December 2023) as central government, under the PPDA Act 2003 (as amended by the PPDA (Amendment) Act 2021), with the retained PPDA Regulations 2014 and the PPDA Guidelines 2024. Do not cite the 2006 instrument as operative. Statutory monetary thresholds change by regulation/guideline — verify the current bands against the PPDA instrument in force at bid date and cite the one relied upon.
 
 ---
 
