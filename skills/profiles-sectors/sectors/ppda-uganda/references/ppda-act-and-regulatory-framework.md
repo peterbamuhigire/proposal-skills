@@ -311,4 +311,4 @@ A PDE shall NOT enter into a contract with:
 7. **Check the Financing Agreement** for donor-funded procurements — donor rules may override PPDA
 8. **The 2023 Regulations are now in effect** — ensure compliance with current law (2006 Local Government regulations were revoked February 2024)
 9. **Sign ethical conduct declarations** — required at every evaluation
-10. **Know your complaint rights** — 10 working days to file, clear three-tier escalation path
+10. **Know your complaint rights** — 10 working days to file; two-tier administrative review since the PPDA (Amendment) Act 2021 (Accounting Officer, then the PPDA Appeals Tribunal — the former three-tier route no longer applies)
