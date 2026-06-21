@@ -261,3 +261,20 @@ When the trigger fires:
 
 The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
+
+<!-- design-system-skills:trigger v1 -->
+### Design / typography / UI/UX (cross-cutting — consult IN ADDITION)
+
+Any work touching how an artifact LOOKS — font/typeface choice, type scale, colour, layout/grid,
+visual identity, web/desktop/mobile UI screens, or the visual formatting of a DOCX/PPTX/PDF/XLSX
+— routes to the **`design-system-skills`** engine, the single home for ALL design/UI/UX skills
+and the anti-AI-slop doctrine.
+
+**Resolve its location on THIS device from your global engine-routing table** (`~/.claude/CLAUDE.md`,
+or `AGENTS.md` for Codex) — never assume an absolute path; it varies per machine. Then read its
+`README.md` → `doctrine/design-doctrine.md` → glob `skills/**/SKILL.md` fresh and route by
+frontmatter (read SKILL.md directly, not via the Skill tool). Content and structure stay in THIS
+engine; presentation comes from design-system-skills. Hard rule: never use a banned AI-slop font
+(Inter, Geist, Roboto, Arial, Open Sans, Lato, Space Grotesk, bare system stacks) as primary
+type — state the chosen typeface and reason before producing any artifact.
+<!-- /design-system-skills:trigger -->
