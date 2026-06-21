@@ -2,6 +2,13 @@
 
 A Claude Code and Codex skills repository for generating professional consulting proposals tailored for the East and Central African consulting market.
 
+## Architecture & cross-cutting engines (updated 2026-06-21)
+
+This is the **content, structure, and compliance** engine for proposals. It is one of several sibling skill engines on the host, and none is natively discovered any more — every engine, including this one, is consulted through the global routing table by globbing `SKILL.md` directly and reading the matched file(s). Cross-cutting engines are **referenced** (path resolved per device from the global router), never mirrored into this repo.
+
+- **Design / visual layer → `design-system-skills`** (`C:\wamp64\www\design-system-skills`). The single home for all design, typography, UI/UX, and visual-formatting skills plus the anti-AI-slop visual doctrine. No design skills were moved out of this engine — it never held any. Consult the design engine **in addition** whenever a proposal document needs visual formatting or typographic polish (cover pages, decks, layout of the compiled `.docx`). The persuasion, narrative, methodology, pricing, and section content stay here.
+- **Finance / accounting → `chwezi-accounting-doctrine`** (referenced, not mirrored). Finance/accounting/IFRS/IAS work routes to the finance engine source (it already appears as a routed row in the Skill Categories table below). The old finance mirror was never populated — the empty `skills/finance/` shells were removed on 2026-06-21. Finance skills do **not** live inside this engine; the local `accounting-finance-advisory` and `embedded-accounting-engine-proposal` skills cover proposal *positioning* of finance work, not the accounting doctrine itself.
+
 ## SaaS + AI-on-SaaS + Agent Proposal Stack (May 2026)
 
 Bain/EY/McKinsey-grade proposal arsenal for SaaS implementation, AI-on-SaaS engagements, and agentic product engagements.
