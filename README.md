@@ -84,7 +84,7 @@ All sub-skills live under `skills/<category>/<skill-name>/`. The 12 thematic cat
 |---|---|---|
 | `skills/pipeline/` | 10 | Numbered proposal section skills (01-cover-letter through 10-financial-proposal) |
 | `skills/profiles-sectors/` | 3 | `profiles/`, `sectors/`, and shared `references/` |
-| `skills/domain-delivery/` | 13 | Cross-cutting delivery domains (PM, change, M&E, stakeholder, capacity, GESI, ESS, data, sustainability, risk, BA tools, consulting frameworks, accounting-finance-advisory) |
+| `skills/domain-delivery/` | 14 | Cross-cutting delivery domains (PM, change, M&E, stakeholder, capacity, GESI, ESS, data, sustainability, risk, BA tools, consulting frameworks, accounting-finance-advisory, retail transformation) |
 | `skills/strategy-positioning/` | 10 | Positioning, premium, discovery, storytelling, service design, AI transformation, website, embedded accounting, critical analysis, support/maintenance |
 | `skills/saas-proposals/` | 14 | SaaS implementation and product-development proposal skills |
 | `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS methodology and supporting skills |
@@ -161,6 +161,7 @@ proposal-skills/
 | `skills/domain-delivery/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
 | `skills/domain-delivery/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy, operations, and communication frameworks |
 | `skills/domain-delivery/accounting-finance-advisory/SKILL.md` | World-class finance/accounting proposal sections, project financial management, accounting, bookkeeping, ERP finance, controls, audit evidence, tax, donor/grant finance, financial modelling, and finance transformation |
+| `skills/domain-delivery/retail-transformation-proposal/SKILL.md` | Retail transformation, omnichannel, e-commerce operations, POS, merchandising, pricing, promotions, markdowns, loyalty, CRM, fulfilment, returns, store operations, shrink, vendor funding, private label, planogram, new-store opening, and retail KPI/WBR proposals |
 | `skills/strategy-positioning/embedded-accounting-engine-proposal/SKILL.md` | Embedded ledger/accounting engine proposals that replace routine external bookkeeping software and produce audit-ready reports |
 | `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` | Serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
 | `skills/meta/anti-ai-slop/SKILL.md` | Real-time anti-slop guardrail applied while writing every section: specificity floor, verify-before-write, authored voice, cover the hard parts, banned vocabulary |
