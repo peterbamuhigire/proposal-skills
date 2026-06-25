@@ -22,7 +22,7 @@ All sub-skills are grouped into 12 thematic categories under `skills/<category>/
 |---|---|---|
 | `skills/pipeline/` | 10 | Numbered proposal section skills (01-cover-letter through 10-financial-proposal) |
 | `skills/profiles-sectors/` | 3 | `profiles/`, `sectors/`, and shared `references/` libraries |
-| `skills/domain-delivery/` | 13 | Cross-cutting delivery domains (PM, change, M&E, stakeholder, capacity, GESI, ESS, data, sustainability, risk, BA tools, consulting frameworks, accounting-finance-advisory) |
+| `skills/domain-delivery/` | 14 | Cross-cutting delivery domains (PM, change, M&E, stakeholder, capacity, GESI, ESS, data, sustainability, risk, BA tools, consulting frameworks, accounting-finance-advisory, retail transformation) |
 | `skills/strategy-positioning/` | 10 | Positioning, premium, discovery/objection, storytelling, service design, AI transformation, website, embedded accounting, critical analysis, support/maintenance |
 | `skills/saas-proposals/` | 14 | SaaS implementation and SaaS product-development proposal skills |
 | `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS combined methodology and supporting skills |
@@ -76,6 +76,7 @@ These cross-cutting knowledge bases support proposal sections and can also gener
 - `skills/domain-delivery/risk-management/` - risk registers, mitigation frameworks, escalation triggers
 - `skills/domain-delivery/business-analysis-tools/` - SWOT, PESTLE, gap analysis, benchmarking, CBA, maturity models, prioritisation matrices
 - `skills/domain-delivery/consulting-frameworks/` - problem structuring, financial analysis, strategy, operations, and communication frameworks
+- `skills/domain-delivery/retail-transformation-proposal/` - retail transformation, omnichannel, e-commerce operations, POS, merchandising, pricing, promotions, markdowns, loyalty, CRM, fulfilment, returns, store operations, shrink, vendor terms, private label, planogram, new-store opening, and retail KPI/WBR proposals
 - `skills/strategy-positioning/critical-analysis-business-logic/` - cross-cutting reasoning, evaluator logic, business sense, feasibility, and achievability gate
 
 ### SaaS Implementation and SaaS Product-Development Skills
