@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda Education Sector Profile
 
+Parent skill: [Education and Capacity Building](../SKILL.md).
+
 ## 1. Primary Education
 
 - **Gross enrolment ratio (GER)**: 120%, reflecting over-age and under-age learners in the system.

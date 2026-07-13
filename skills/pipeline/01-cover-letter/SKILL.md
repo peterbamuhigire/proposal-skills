@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-01-cover-letter
-description: Write the cover letter for a consulting proposal or EoI submission. Use when the user asks to draft or generate a proposal cover letter, opening letter, or transmittal letter.
+name: 01-cover-letter
+description: Use when drafting a signed proposal transmittal or cover letter that confirms the assignment, authority, validity, and submission intent. Route bid synopsis to 02-executive-summary and shortlisting narratives to 09-expression-of-interest.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Cover Letter
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the proposal cover letter or transmittal letter.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile and any signature details.
 - Any client-specific differentiators, past-project evidence, and validity requirements.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Client, reference, signatory, validity, submission, and proposer facts | Official pack and authorised records | required | Use visible placeholders and do not sign or invent. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and confirm what the cover letter must signal to the evaluator.
 2. Load the proposer profile and any relevant procurement framework before drafting.
 3. Identify the evaluator's first concern: fit, credibility, value, risk, compliance, or price confidence.
@@ -34,20 +47,54 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer concrete relevance and measurable evidence over generic claims.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not open with generic boilerplate that could fit any client.
 - Do not contradict the proposer profile, the proposal body, or the procurement instructions.
 - Do not omit mandatory validity, enclosure, or signatory details.
+- Do not invent authority or a signature. Fix: identify the authorised signatory and leave execution to them.
+- Do not add new commitments. Fix: reconcile every promise with methodology, work plan, and price.
 
 ## Outputs
-- A proposal-ready cover letter and, where needed, a submission sheet aligned to the bid format.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Cover letter and optional submission sheet | Evaluator and signatory | Correctly names procurement, proposer, enclosures, validity, authority, and commitments. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Cover-letter fact check | Checklist | Every name, reference, date, enclosure, and commitment is sourced. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Read and draft only. Do not sign, send, submit, or represent authority without explicit authorisation.
+
+## Degraded Mode
+If the tender pack or signatory details are unavailable, provide a marked draft and missing-input register. Do not infer validity or authority.
+
+## Decision Rules
+| Condition | Action | Risk avoided |
+|---|---|---|
+| Mandatory form controls wording | Complete it without restructuring | Non-compliance |
+| No mandated form | Use a tailored one-page transmittal | Boilerplate opening |
+| Commitment differs from proposal | Stop and reconcile | Contractual contradiction |
+
+## Worked Example
+A compliant letter names the tender reference, confirms enclosures, states the verified validity period, and leaves signature execution to the authorised director.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../proposal-storytelling-and-evaluator-journey/SKILL.md` when the cover letter needs a stronger first-impression narrative.
-- `../premium-commercial-writing/SKILL.md` for premium first-impression polish, proof-led positioning, and evaluator-friendly commercial writing.
-- `../premium-client-proposal-strategy/SKILL.md` and `../premium-pricing-and-value-defense/SKILL.md` for premium, executive, enterprise, high-ticket, or value-defence proposals.
-- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for ethical persuasion checks.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) when the cover letter needs a stronger first-impression narrative.
+- [../premium-commercial-writing/SKILL.md](../../writing-content/premium-commercial-writing/SKILL.md) for premium first-impression polish, proof-led positioning, and evaluator-friendly commercial writing.
+- [../premium-client-proposal-strategy/SKILL.md](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) and [../premium-pricing-and-value-defense/SKILL.md](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) for premium, executive, enterprise, high-ticket, or value-defence proposals.
+- [../references/ethical-persuasion-and-evaluator-psychology-gate.md](../../profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md) for ethical persuasion checks.
 - Root `references/` files for persuasion and proposal-wide positioning.
 
 The cover letter is the first thing an evaluator reads. It must be personal, specific to the client, and demonstrate that the firm has already understood the assignment — before the proposal body is read.

@@ -1,5 +1,7 @@
 # Evaluation Design, Methods, and Data Collection
 
+Parent skill: [Monitoring and Evaluation](../SKILL.md).
+
 Reference material for the monitoring-and-evaluation skill. Provides detailed guidance on evaluation types, research methods (qualitative, quantitative, and mixed), data collection approaches, sampling, and evaluation quality standards. Use when designing evaluation components for proposals or when the ToR requires a standalone evaluation.
 
 Sources: UNDP Handbook (2009), Seasons (2020), Civicus/Shapiro, IFRC Handbook (2002), ILO Basic Principles.

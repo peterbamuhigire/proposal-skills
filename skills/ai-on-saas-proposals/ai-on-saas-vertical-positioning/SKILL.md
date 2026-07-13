@@ -1,11 +1,17 @@
 ---
 name: ai-on-saas-vertical-positioning
-description: Use when the AI-on-SaaS proposal must position the agency for a specific vertical — financial services, insurance, public sector, healthcare, education, customer support. Provides vertical-specific AI plays, regulator stance, discriminators, named use cases, risk-framing language, and competitive displacement angles. Extends `saas-vertical-positioning` with the AI overlay.
+description: Use when AI-on-SaaS positioning must reflect a named vertical's use cases, regulator stance, evidence expectations, and risk language; use SaaS vertical positioning when AI-specific buyer concerns are absent.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # AI-on-SaaS Vertical Positioning
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 
 - The AI-on-SaaS bid is in a defined vertical and the proposal must demonstrate vertical literacy.
@@ -20,11 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Required Inputs
 
-- The buyer's vertical and sub-vertical.
-- The regulator(s) and stance.
-- The candidate AI use cases.
-- The competitive set (named or inferred).
-- The buyer's hallucination tolerance and HITL appetite.
+| Artefact or fact | Required? | Source/provider | If absent |
+|---|---|---|---|
+| The buyer's vertical and sub-vertical. | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The regulator(s) and stance. | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The candidate AI use cases. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The competitive set (named or inferred). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's hallucination tolerance and HITL appetite. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
 
 ## Workflow
 
@@ -34,6 +42,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 4. Frame **risk and regulator** language using the vertical's vocabulary, not generic AI language (financial-services: model-risk management, SR 11-7-style governance; healthcare: clinical decision support classification; public-sector: procurement-grade AI, sovereignty; education: minor data, exam integrity).
 5. Choose the **win themes** from `ai-on-saas-win-themes-and-discriminators.md` that fit the vertical.
 6. Draft the **vertical positioning paragraph** for Executive Summary, the **vertical case studies** (or comparable references) for Relevant Experience, and the **vertical methodology variations** for `06-methodology`.
+
+
+**Stop condition:** Stop before asserting scope, compliance, value, acceptance, or readiness when a load-bearing input is missing or contradicted.
+
+**Recovery:** Record the gap, owner, and next evidence step; then return the narrowest qualified proposal content that remains supportable.
 
 ## Vertical Library (Brief)
 
@@ -77,31 +90,64 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Anti-Patterns
 
-- "AI for banking" with no named use case.
-- Regulator framed as "applicable laws."
-- Discriminators copy-pasted across verticals.
-- Healthcare AI claimed as diagnostic where the regulator requires non-diagnostic.
-- Public-sector AI without a sovereignty or sovereignty-option position.
-- Education AI without a minor-data stance.
+- "AI for banking" with no named use case. **Fix:** Name the banking workflow, user, decision, data, measurable value, human control, and regulated failure mode.
+- Regulator framed as "applicable laws." **Fix:** Cite the named regulator and applicable rule or guidance, its relevance, current verification date, and required evidence.
+- Discriminators copy-pasted across verticals. **Fix:** Build each discriminator from a vertical-specific constraint, proven capability, evidence, and buyer consequence.
+- Healthcare AI claimed as diagnostic where the regulator requires non-diagnostic. **Fix:** Limit the claim to the authorised decision-support boundary and state clinical oversight, validation, and regulator requirements.
+- Public-sector AI without a sovereignty or sovereignty-option position. **Fix:** State hosting, data residency, model-provider, support-access, audit, exit, and sovereign deployment options.
+- Education AI without a minor-data stance. **Fix:** Define the minor-data lawful basis, consent, safeguarding, content controls, retention, access, and human escalation.
 
 ## Outputs
 
-- Vertical positioning paragraph for Executive Summary.
-- Vertical-specific use-case list with hallucination tolerance per case.
-- Vertical discriminators block.
-- Vertical risk and regulator language.
-- Vertical methodology variations for `06-methodology`.
-- Vertical case studies or comparable-reference selection.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Vertical positioning paragraph for Executive Summary. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Vertical-specific use-case list with hallucination tolerance per case. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Vertical discriminators block. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Vertical risk and regulator language. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Vertical methodology variations for `06-methodology`. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Vertical case studies or comparable-reference selection. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Input-and-assumption record | Proposal lead and reviewer | Every load-bearing claim maps to a source, approved assumption, or explicit gap. |
+| Decision and review record | Buyer owner and delivery lead | The selected option, rationale, owner, stop condition, and approval status are visible. |
+| Section acceptance check | Evaluator-readiness reviewer | Each output meets its stated acceptance condition and unresolved checks are not presented as passed. |
+
+## Capability and Permission Boundaries
+
+This skill may read supplied tender, discovery, architecture, commercial, security, and operating evidence and draft proposal artefacts within the authorised workspace. It must not publish, send, certify compliance, accept contractual terms, change production systems, spend funds, or disclose confidential evidence without explicit authority. Review and analysis remain read-only by default.
+
+## Degraded Mode
+
+If files, current legal or technical evidence, calculation tools, network access, or reviewers are unavailable, produce the narrowest useful qualified draft. Label assumptions and checks as **not assessed**, omit unsupported assurances or figures, and state the exact evidence and owner needed to complete the work. An unavailable check never becomes a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Jurisdiction or sector rule | Verify the named requirement and qualify applicability before citing it | Generic or legally inaccurate positioning |
+| Missing load-bearing evidence | Stop the affected claim, record the gap and owner, and continue only with separable supported content. | Fabricated assurance or hidden dependency |
+| Conflicting buyer and supplier evidence | Surface the conflict for decision; do not silently choose the favourable version. | Misaligned scope, price, or acceptance |
+| Irreversible, contractual, publishing, or production action | Obtain explicit authority and preserve an approval record before acting. | Unauthorised commitment or mutation |
+
+## Worked Example
+
+For an insurer, connect the AI use case to the claims workflow, governed data, review authority, customer-harm controls, and regulator expectations; do not rely on generic industry language.
 
 ## References
 
-- `../references/vertical-ai-on-saas-financial-services.md`
-- `../references/vertical-ai-on-saas-insurance.md`
-- `../references/vertical-ai-on-saas-public-sector.md`
-- `../references/vertical-ai-on-saas-healthcare.md`
-- `../references/vertical-ai-on-saas-education.md`
-- `../references/vertical-ai-on-saas-customer-support.md`
-- `../references/ai-on-saas-win-themes-and-discriminators.md`
-- `../saas-vertical-positioning/SKILL.md` — base SaaS vertical positioning.
-- `../ai-on-saas-combined-methodology/SKILL.md` — methodology that the vertical variations sit inside.
-- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — risk register with vertical-specific entries.
+- [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+<!-- dual-compat-end -->
+- [../references/vertical-ai-on-saas-financial-services.md](../../profiles-sectors/references/vertical-ai-on-saas-financial-services.md)
+- [../references/vertical-ai-on-saas-insurance.md](../../profiles-sectors/references/vertical-ai-on-saas-insurance.md)
+- [../references/vertical-ai-on-saas-public-sector.md](../../profiles-sectors/references/vertical-ai-on-saas-public-sector.md)
+- [../references/vertical-ai-on-saas-healthcare.md](../../profiles-sectors/references/vertical-ai-on-saas-healthcare.md)
+- [../references/vertical-ai-on-saas-education.md](../../profiles-sectors/references/vertical-ai-on-saas-education.md)
+- [../references/vertical-ai-on-saas-customer-support.md](../../profiles-sectors/references/vertical-ai-on-saas-customer-support.md)
+- [../references/ai-on-saas-win-themes-and-discriminators.md](../../profiles-sectors/references/ai-on-saas-win-themes-and-discriminators.md)
+- [../saas-vertical-positioning/SKILL.md](../../saas-proposals/saas-vertical-positioning/SKILL.md) — base SaaS vertical positioning.
+- [../ai-on-saas-combined-methodology/SKILL.md](../ai-on-saas-combined-methodology/SKILL.md) — methodology that the vertical variations sit inside.
+- [../ai-on-saas-risk-and-responsible-ai/SKILL.md](../ai-on-saas-risk-and-responsible-ai/SKILL.md) — risk register with vertical-specific entries.

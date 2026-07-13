@@ -1,11 +1,17 @@
 ---
-name: sectors/ppda-uganda
-description: Uganda PPDA procurement framework covering evaluation methods, scoring procedures, contract management, and bidding requirements under the Public Procurement and Disposal of Public Assets Act, 2003. Read this skill whenever the proposal responds to a Uganda government procurement managed under PPDA regulations.
+name: ppda-uganda
+description: Use when a Uganda public procurement follows PPDA rules for consultancy, supplies, works, or non-consultancy services; use donor-framework skills when the solicitation explicitly makes donor rules controlling.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Uganda PPDA Procurement Framework
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when the solicitation follows Uganda PPDA procurement rules.
 - Load it before drafting when you need form, scoring, threshold, or compliance guidance.
@@ -15,16 +21,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - A different procurement framework clearly applies.
 
 ## Required Inputs
-- The solicitation package, especially instructions, forms, and evaluation criteria.
-- Any known selection method and technical threshold.
-- The target proposal sections that must comply with the framework.
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---|---|
+| The solicitation package, especially instructions, forms, and evaluation criteria. | Buyer solicitation, ToR, or approved brief | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| Any known selection method and technical threshold. | Buyer, verified sector source, or discovery | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| The target proposal sections that must comply with the framework. | Buyer, verified sector source, or discovery | Conditional | Stop the affected claim, request or verify the input, and label the resulting gap. |
 
 ## Workflow
+
 1. Confirm that PPDA procurement applies from explicit cues in the solicitation.
 2. Read this skill and the local references to understand forms, scoring, procedures, and constraints.
 3. Map those requirements into the numbered proposal section skills before drafting.
 4. Draft to maximize technical quality without creating compliance risk.
 5. Check the final output against thresholds, form placement, and submission rules.
+
+**Stop condition:** Stop when proposer identity, controlling framework, mandatory form, sector fit, current rule, or load-bearing evidence remains unresolved.
+
+**Recovery:** Record the gap and owner, seek clarification or current evidence, and return only the separable proposal content that remains supportable.
 
 ## Quality Standards
 - Treat PPDA instructions as hard constraints, not optional style guidance.
@@ -32,16 +46,57 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Optimize for evaluator behavior where the framework supports it.
 
 ## Anti-Patterns
+
 - Do not rely on generic public-procurement assumptions when the PPDA materials give exact instructions.
 - Do not ignore eligibility checks, pass/fail gates, or form requirements.
 - Do not mix PPDA assumptions with World Bank, AfDB, or UN rules.
+- Treating a neighbouring sector or framework as interchangeable. **Fix:** identify the controlling rule and primary outcome.
+- Adding terminology without changing a delivery choice. **Fix:** link each term to method, risk, output, or evaluation criterion.
+- Presenting an unverified current rule or statistic as settled. **Fix:** cite and date the source or mark it not assessed.
+- Ignoring a missing mandatory input. **Fix:** stop the affected claim and assign an evidence owner.
+- Letting sector or identity framing contradict methodology, staffing, schedule, or price. **Fix:** reconcile all affected sections before release.
 
 ## Outputs
-- A PPDA-compliant drafting and scoring approach for the relevant proposal sections.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| A PPDA-compliant drafting and scoring approach for the relevant proposal sections. | Proposal lead, section writer, and evaluator-readiness reviewer | Applied consistently, traceable to the selected source, and free of unsupported identity, framework, or sector claims. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Routing and source record | Proposal lead and reviewer | Selected identity, framework, sector, source, date, and material gaps are recorded. |
+| Decision record | Section writer and delivery lead | Each material choice has rationale, owner, evidence, and a review or stop condition. |
+| Conformance check | Release reviewer | Mandatory forms, identity rules, sector logic, and unresolved checks are explicitly assessed. |
+
+## Capability Contract
+
+This skill may read supplied profiles, solicitations, ToRs, approved references, and proposal drafts and may prepare routing guidance or draft content within the authorised workspace. Review is read-only by default. It must not invent credentials, certify compliance, submit a bid, accept terms, publish, disclose confidential information, or change source records without explicit authority.
+
+## Degraded Mode
+
+If the solicitation, profile, current procurement source, sector evidence, network, or reviewer is unavailable, provide the narrowest useful qualified routing or draft. Mark the missing check **not assessed**, omit unsupported credentials, thresholds, dates, or compliance claims, and identify the evidence owner. An unassessed requirement is never a pass.
+
+## Decision Rules
+
+| Decision | Action | Failure/risk avoided |
+|---|---|---|
+| PPDA evaluation route | Use the solicitation's method, mandatory documents, evaluation stages, forms, and approvals; flag any ambiguity for clarification. | Administrative rejection or incorrect scoring response |
+| Conflicting solicitation and background guidance | Follow the solicitation while recording the conflict for formal clarification. | Non-responsive interpretation |
+| Missing mandatory evidence | Stop the affected claim or form, record the owner and deadline, and continue only with independent supported content. | Fabricated evidence or silent omission |
+| Submission, certification, or contractual commitment | Obtain explicit authority and preserve approval evidence before acting. | Unauthorised external commitment |
+
+## Worked Example
+
+A solicitation requires **ppda evaluation route**, but one controlling input is missing. The proposal team applies this rule: Use the solicitation's method, mandatory documents, evaluation stages, forms, and approvals; flag any ambiguity for clarification. It records the gap and owner, withholds the affected assurance, and proceeds only with content that can be verified. This avoids **administrative rejection or incorrect scoring response**.
 
 ## References
+
+- [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+<!-- dual-compat-end -->
 - Local `references/` files for the PPDA Act, forms, procedures, and evaluation mechanics.
-- `../SKILL.md` to combine framework and sector context.
+- [../SKILL.md](../SKILL.md) to combine framework and sector context.
 
 This skill provides the evaluation methodology, scoring rules, form structures, and procedural requirements that govern all public procurement in Uganda under the PPDA Act (Cap 205). Read this before writing any section of a Uganda government-funded proposal.
 
@@ -221,4 +276,3 @@ Load these references for detailed procedural requirements:
 | `references/local-government-procurement.md` | Local-government procurement — Accounting Officer = CAO / Town Clerk; LG Contracts Committee (no lawyer requirement); the Commitment Control System (no LPO/contract without an approved commitment requisition and an uncommitted balance in the quarter's limit); vote control; contract certificates and LPOs paid by crossed cheque; internal audit confirming value for money; no councillor signs council financial documents; how local-government procurement now sits under the consolidated PPDA Regulations 2023 (the former LG (PPDA) Regulations 2006 were revoked, 5 Feb 2024) while the LG (Financial and Accounting) Regulations 2007 govern the financial-control interface |
 | `references/ngo-and-donor-procurement.md` | NGO/CSO and donor-funded procurement — NGOs are not bound by PPDA; the common pattern (≥3 quotations on a bid-analysis form above an org-set threshold, a Procurement Committee that is not the end user, requester cannot approve or pay, lowest responsive bid with documented exception); the Reasonable/Allocable/Allowable test and unallowable-cost list; records retention; how donor rules (World Bank, USAID ADS, EU/GIZ, AfDB, UN) layer on top with the stricter rule winning |
 | `references/contract-management-and-payment-linkage.md` | Contract-management and payment linkage for Form 49 — milestone-based payment schedules tied to certified deliverables, retention, performance security and advance-payment guarantees (30% advance ceiling), and funds-flow reconciliation (delivered = certified = committed = paid) against the quarter's commitment limit |
-

@@ -1,10 +1,17 @@
 ---
 name: capacity-building
-description: Capacity building, training, and knowledge transfer frameworks for consulting proposals. Use as a reference when drafting methodology sections that include training components, skills development, or institutional strengthening. Can generate a standalone capacity building plan when a ToR requires one.
+description: Use when a proposal requires training, coaching, mentoring, knowledge transfer, Training of Trainers, or institutional capacity development. Unlike change-management, this skill designs learning outcomes, delivery, assessment, and post-training transfer.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Capacity Building
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs capacity-building, training, knowledge transfer, or institutional strengthening content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| ToR, learner groups, and target competencies | Client or proposal lead | required | Draft only a TNA plan; do not invent learner needs. |
+| Baseline capability and delivery constraints | Client records or verified discovery | conditional | Record the gap and make delivery mode provisional. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where capacity-building or transfer of knowledge matters in the assignment.
 2. Read the local references only where they materially improve the output.
 3. Convert the guidance into proposal-ready activities, deliverables, and sustainability logic.
@@ -30,14 +41,45 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not treat training as a generic add-on with no delivery logic.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Treating training as a generic workshop. Fix: define learner groups, competencies, practice, and assessment.
+- Counting attendance as learning. Fix: add pre/post assessment or observed performance evidence.
+- Using one method for all roles. Fix: segment by task, baseline, language, access, and responsibility.
+- Promising ToT without trainer practice. Fix: specify eligibility, teach-backs, and coaching.
+- Ending at course delivery. Fix: include workplace transfer, supervision, and refresher support.
 
 ## Outputs
-- Domain-informed capacity-building content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Capacity-building plan | Evaluator, client training lead, delivery team | Links diagnosed gaps to outcomes, methods, assessment, logistics, ownership, and transfer. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| TNA and learning-assessment design | Matrix | Each target competency has a baseline method and observable completion measure. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Read and search are required; drafting requires explicit authority. Do not claim accreditation, certification, participant competence, or training completion without responsible-body evidence.
+
+## Degraded Mode
+Fallback: if learner or delivery evidence is unavailable, produce a TNA-first plan and provisional delivery options. Mark assessment and logistics as unassessed.
+
+## Decision Rules
+| Condition | Action | Risk avoided |
+|---|---|---|
+| Unknown competency gap | Run TNA before curriculum design | Irrelevant training |
+| Capability must persist across units | Use ToT with coached practice | Consultant dependence |
+| Task is performed in the workplace | Use simulation and observed assessment | Attendance-only success claims |
+
+## Worked Example
+For district MIS officers, test data-quality tasks before training, teach through the actual reporting workflow, assess a corrected submission, and schedule supervisor follow-up.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
 
 Almost every East African consulting assignment includes a training or capacity building component — clients and donors want sustainable outcomes, not dependency on consultants. Proposals must show a structured approach to building the client's internal capability to maintain and build on the project's results after the consultants leave.

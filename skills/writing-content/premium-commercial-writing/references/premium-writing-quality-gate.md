@@ -1,5 +1,7 @@
 # Premium Writing Quality Gate
 
+Parent skill: [Premium Commercial Writing](../SKILL.md).
+
 Use this gate before releasing premium proposals, executive writing, case studies, public documents, and commercial articles.
 
 ## Strategic Fit

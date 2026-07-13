@@ -2,6 +2,19 @@
 
 A Claude Code and Codex skills repository for generating professional consulting proposals tailored for the East and Central African consulting market.
 
+## Current engine state
+
+As at 13 July 2026, the live `skills/` tree contains 107 active `SKILL.md` entrypoints: one parent router and 106 category skills. Active inventory is discovered from the filesystem; templates and documentation are not counted as skills.
+
+The engine uses a zero-debt release gate. Every active skill must pass the local July 2026 contract, the canonical scanner, canonical quick validation, and routing smoke tests. The local suite is:
+
+```powershell
+python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
+python -X utf8 scripts\routing_smoke_test.py
+```
+
+See [the authoring standard](docs/skill-authoring-standard.md), [contribution and release procedure](CONTRIBUTING.md), and [July 2026 conformance record](docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md). CI runs the local validator and routing suite on pushes to `main` and on pull requests.
+
 ## Architecture & cross-cutting engines (updated 2026-06-21)
 
 This is the **content, structure, and compliance** engine for proposals. It is one of several sibling skill engines on the host, and none is natively discovered any more — every engine, including this one, is consulted through the global routing table by globbing `SKILL.md` directly and reading the matched file(s). Cross-cutting engines are **referenced** (path resolved per device from the global router), never mirrored into this repo.
@@ -83,8 +96,8 @@ All sub-skills live under `skills/<category>/<skill-name>/`. The 12 thematic cat
 | Category | Count | Purpose |
 |---|---|---|
 | `skills/pipeline/` | 10 | Numbered proposal section skills (01-cover-letter through 10-financial-proposal) |
-| `skills/profiles-sectors/` | 3 | `profiles/`, `sectors/`, and shared `references/` |
-| `skills/domain-delivery/` | 14 | Cross-cutting delivery domains (PM, change, M&E, stakeholder, capacity, GESI, ESS, data, sustainability, risk, BA tools, consulting frameworks, accounting-finance-advisory, retail transformation) |
+| `skills/profiles-sectors/` | 16 | Profile router, sector router, procurement frameworks, and sector skills; shared references are not active skills |
+| `skills/domain-delivery/` | 16 | Cross-cutting delivery domains including PM, change, M&E, GESI, safeguards, data, risk, GIZ/EU response, EAC e-commerce BDS, finance advisory, and retail transformation |
 | `skills/strategy-positioning/` | 10 | Positioning, premium, discovery, storytelling, service design, AI transformation, website, embedded accounting, critical analysis, support/maintenance |
 | `skills/saas-proposals/` | 14 | SaaS implementation and product-development proposal skills |
 | `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS methodology and supporting skills |

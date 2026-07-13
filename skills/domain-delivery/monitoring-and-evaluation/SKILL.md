@@ -1,10 +1,17 @@
 ---
 name: monitoring-and-evaluation
-description: Monitoring and evaluation frameworks for consulting proposals. Use as a reference when drafting methodology sections that require M&E components, results frameworks, logical frameworks, or KPIs. Can generate a standalone M&E plan or framework when a ToR requires one.
+description: Use when a proposal requires a theory of change, logframe, results framework, indicators, baselines, targets, learning, or evaluation. Unlike data-management, this skill defines performance questions and evidence use rather than the full data lifecycle.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Monitoring and Evaluation
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs monitoring, evaluation, results, indicators, or learning content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Programme logic, decisions, deliverables, and reporting obligations | ToR, logframe, donor framework | required | Stop indicator design and reconstruct the results chain. |
+| Baselines, targets, sources, frequency, and owners | Client records and verified evidence | conditional | Mark values TBD and specify a baseline method. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where monitoring, evaluation, or results logic matters in the assignment.
 2. Read the local references only where they materially improve the output.
 3. Convert the guidance into proposal-ready frameworks, indicators, and reporting logic.
@@ -30,12 +41,39 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not mention results frameworks without showing how they will be used.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Creating indicators that available data cannot measure. Fix: name source, method, frequency, and owner.
+- Counting activities as outcomes. Fix: distinguish inputs, outputs, outcomes, and impact.
+- Inventing baselines or targets. Fix: mark TBD and specify how they will be set.
+- Using averages that hide excluded groups. Fix: disaggregate where ethical and decision-useful.
+- Reporting metrics with no decision. Fix: attach thresholds and response actions.
 
 ## Outputs
-- Domain-informed monitoring and evaluation content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| M&E framework or plan | Evaluator, programme manager, donor | Links results, indicators, definitions, sources, baselines, targets, frequency, ownership, learning, and decisions. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Indicator reference sheet and results chain | Controlled tables | Every indicator is reproducible, owned, and tied to a management question. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Default to read-only analysis. Data collection, respondent contact, dashboard publication, target approval, and evaluation certification require explicit authority and ethical controls.
+
+## Degraded Mode
+Without baseline, system, respondent, or verification access, produce an evaluability assessment and data plan. Mark measures unassessed; do not convert missing evidence into positive performance.
+
+## Decision Rules
+| Need | Action | Risk avoided |
+|---|---|---|
+| Causal pathway is unclear | Build a theory of change first | Indicator shopping |
+| Donor requires formal hierarchy | Build a logframe with assumptions | Untraceable reporting |
+| Operational action is required | Add threshold and response owner | Passive dashboards |
+
+## Worked Example
+For an e-commerce BDS programme, link selection and assistance to adoption and sales outcomes; baseline each company; define evidence windows; separate reach from attributable change.
 
 ## SaaS Health Dashboard Pattern
 
@@ -85,14 +123,18 @@ For agentic engagements, layer on an agent dashboard alongside (or replacing) th
 
 The agent dashboard is signed at the Agent Safety Council monthly and the SteerCo quarterly; an annual Responsible-AI Agent Commitment sign-off consolidates it. See `../references/ai-agent-metrics-glossary.md` for definitions and `../ai-agent-risk-and-responsible-ai/SKILL.md` for governance framing.
 
+<!-- dual-compat-end -->
+
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- `../references/saas-metrics-glossary-for-proposals.md` for SaaS vocabulary (ARR, MRR, NRR, magic number, Rule of 40, PSAR).
-- `../references/ai-on-saas-metrics-glossary.md` for AI vocabulary (eval, hallucination, abstain, citation, cost-per-call, drift).
-- `../references/ai-agent-metrics-glossary.md` for agent vocabulary (task-success, intervention, irreversibility, scope-confinement, audit completeness, kill-switch drill, supervisor CSAT).
-- `../references/saas-business-case-and-roi-template.md` for the value-realisation review template.
-- `../references/saas-customer-success-engagement-package.md` for the customer-success health-scoring composite.
-- `../references/saas-lifecycle-email-program-proposal-template.md` for per-program measurement standards.
+- [../references/saas-metrics-glossary-for-proposals.md](../../profiles-sectors/references/saas-metrics-glossary-for-proposals.md) for SaaS vocabulary (ARR, MRR, NRR, magic number, Rule of 40, PSAR).
+- [../references/ai-on-saas-metrics-glossary.md](../../profiles-sectors/references/ai-on-saas-metrics-glossary.md) for AI vocabulary (eval, hallucination, abstain, citation, cost-per-call, drift).
+- [../references/ai-agent-metrics-glossary.md](../../profiles-sectors/references/ai-agent-metrics-glossary.md) for agent vocabulary (task-success, intervention, irreversibility, scope-confinement, audit completeness, kill-switch drill, supervisor CSAT).
+- [../references/saas-business-case-and-roi-template.md](../../profiles-sectors/references/saas-business-case-and-roi-template.md) for the value-realisation review template.
+- [../references/saas-customer-success-engagement-package.md](../../profiles-sectors/references/saas-customer-success-engagement-package.md) for the customer-success health-scoring composite.
+- [../references/saas-lifecycle-email-program-proposal-template.md](../../profiles-sectors/references/saas-lifecycle-email-program-proposal-template.md) for per-program measurement standards.
 
 Donor-funded and government assignments almost always require an M&E component. Proposals that present a clear results framework with measurable indicators score significantly higher than those offering vague "monitoring activities". This skill provides the M&E structures that proposal sections draw from.
 
@@ -174,11 +216,11 @@ When the proposal includes primary data collection:
 
 Load these reference files for deeper guidance when writing M&E sections:
 
-- `references/results-frameworks-and-indicators.md` — results chain, problem tree method, theory of change vs logframe, CREAM indicator criteria, indicator reference sheets, process/outcome/progression indicators (ILO), baselines and targets (four-step process), disaggregation requirements, results and resources framework (UNDG), performance management cycle, sector-specific indicator frameworks
-- `references/evaluation-design-and-methods.md` — evaluation types (formative/summative/ex-post/real-time), four evaluation approaches (Civicus), OECD-DAC criteria (six), four-step evaluation design process (Seasons), evaluation matrix, impact evaluation designs (RCT, quasi-experimental, contribution analysis, outcome harvesting, Most Significant Change), quantitative and qualitative methods, mixed methods designs, sampling (probability and non-probability), sample size, data quality assurance (five dimensions), evaluation quality standards (UNDP), evaluation report structure, management response, joint evaluations, evaluation ethics
-- `references/monitoring-systems-and-reporting.md` — monitoring vs evaluation distinction, monitoring plan development (six steps), M&E governance and working groups (UNDG), roles and responsibilities (IFRC), M&E capacity assessment, routine and periodic data collection systems, digital data collection tools, reporting hierarchy, traffic light (RAG) system, adaptive management and learning loop, decision triggers, periodic reviews, costed M&E plan (3–5% budget rule), open data and FAIR principles, common M&E pitfalls
-- `references/impact-evaluation-and-economic-analysis.md` — impact evaluation core concepts (ATE/ITT/ATT/LATE), theory of change for IE (seven steps, funnel of attrition), RCT designs (nine types including cluster, pipeline, encouragement, factorial), quasi-experimental methods (DiD, synthetic controls, PSM, RDD, ITS, IV), design selection decision tree, power calculations (formula, cluster adjustment, software), data collection (six survey types, electronic platforms), IE process management (timeline, budget benchmarks, team composition), IE quality checklists (12-point design, 10-point data collection), cost-benefit analysis (NPV/B-C/IRR, shadow pricing, non-market valuation), discount rate selection, risk and uncertainty in CBA, distributional analysis (incidence matrix, five equity methods), multi-criteria evaluation frameworks (Planning Balance Sheet, Goals Achievement Matrix)
-- `../data-management/references/data-analytics-methodology-for-proposals.md` — analytics workstream for dashboards, BI, AI-assisted reporting, forecasts, data quality profiling, method selection, and handover.
+- [references/results-frameworks-and-indicators.md](references/results-frameworks-and-indicators.md) — results chain, problem tree method, theory of change vs logframe, CREAM indicator criteria, indicator reference sheets, process/outcome/progression indicators (ILO), baselines and targets (four-step process), disaggregation requirements, results and resources framework (UNDG), performance management cycle, sector-specific indicator frameworks
+- [references/evaluation-design-and-methods.md](references/evaluation-design-and-methods.md) — evaluation types (formative/summative/ex-post/real-time), four evaluation approaches (Civicus), OECD-DAC criteria (six), four-step evaluation design process (Seasons), evaluation matrix, impact evaluation designs (RCT, quasi-experimental, contribution analysis, outcome harvesting, Most Significant Change), quantitative and qualitative methods, mixed methods designs, sampling (probability and non-probability), sample size, data quality assurance (five dimensions), evaluation quality standards (UNDP), evaluation report structure, management response, joint evaluations, evaluation ethics
+- [references/monitoring-systems-and-reporting.md](references/monitoring-systems-and-reporting.md) — monitoring vs evaluation distinction, monitoring plan development (six steps), M&E governance and working groups (UNDG), roles and responsibilities (IFRC), M&E capacity assessment, routine and periodic data collection systems, digital data collection tools, reporting hierarchy, traffic light (RAG) system, adaptive management and learning loop, decision triggers, periodic reviews, costed M&E plan (3–5% budget rule), open data and FAIR principles, common M&E pitfalls
+- [references/impact-evaluation-and-economic-analysis.md](references/impact-evaluation-and-economic-analysis.md) — impact evaluation core concepts (ATE/ITT/ATT/LATE), theory of change for IE (seven steps, funnel of attrition), RCT designs (nine types including cluster, pipeline, encouragement, factorial), quasi-experimental methods (DiD, synthetic controls, PSM, RDD, ITS, IV), design selection decision tree, power calculations (formula, cluster adjustment, software), data collection (six survey types, electronic platforms), IE process management (timeline, budget benchmarks, team composition), IE quality checklists (12-point design, 10-point data collection), cost-benefit analysis (NPV/B-C/IRR, shadow pricing, non-market valuation), discount rate selection, risk and uncertainty in CBA, distributional analysis (incidence matrix, five equity methods), multi-criteria evaluation frameworks (Planning Balance Sheet, Goals Achievement Matrix)
+- [../data-management/references/data-analytics-methodology-for-proposals.md](../data-management/references/data-analytics-methodology-for-proposals.md) — analytics workstream for dashboards, BI, AI-assisted reporting, forecasts, data quality profiling, method selection, and handover.
 
 ## Generating a Standalone Section
 

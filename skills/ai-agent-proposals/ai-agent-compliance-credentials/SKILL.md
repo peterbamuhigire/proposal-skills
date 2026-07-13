@@ -1,10 +1,15 @@
 ---
 name: ai-agent-compliance-credentials
-description: Use when the AI-agent proposal must showcase Trust and Compliance credentials specific to agentic systems. Provides the Trust-and-Compliance-for-Agents subsection template covering action audit log, irreversibility gating, intervention SLO, kill-switch architecture and drill evidence, agent red-team catalogue, agent identity and impersonation policy, action-scope attestation, multi-agent governance evidence, transparency-to-affected-party posture, and sovereign-AI options. Extends `ai-on-saas-compliance-credentials` with the agent overlay.
+description: Use when presenting verified agent-specific trust and compliance credentials, including action logs, irreversibility gates, kill-switch drills, identity controls, and scope attestations.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Compliance Credentials
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - The engagement is non-agent (use `ai-on-saas-compliance-credentials` or `saas-trust-and-compliance-credentials-section`).
 
-## Required Inputs
+## Domain Inputs
 
 - The Trust and Compliance posture from the AI-on-SaaS or SaaS skill.
 - The action catalogue with reversibility classification.
@@ -29,7 +34,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The agent identity and impersonation policy.
 - The transparency-to-affected-party posture per jurisdiction.
 
-## Workflow
+## Domain Method
 
 1. Open with the **Agentic Trust Posture** paragraph: the agency operates agents under an explicit action catalogue, with reversibility classification, with autonomy levels committed per action class, with kill-switch authority named, with audit completeness measured, under a Responsible-AI agent commitment with a named accountable role.
 2. Populate the **Agentic Compliance Map** — for each regulator and standard the bid touches, state the agency's posture (ready, in-progress, not-in-scope) with evidence references:
@@ -67,7 +72,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Transparency-to-affected-party references applicable rule.
 - Sub-processor disclosure names tool-call APIs as well as model providers.
 
-## Anti-Patterns
+## Domain Risks
 
 - "We comply with all applicable AI laws".
 - "Agents are audit-logged" with no completeness SLA.
@@ -80,7 +85,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Transparency-to-affected-party deferred to a future review.
 - Sub-processor list omits tool-call APIs.
 
-## Outputs
+## Domain Outputs
 
 - Agentic Trust Posture paragraph.
 - Agentic Compliance Map table.
@@ -96,12 +101,68 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Sub-Processor Disclosure (models + tool-call APIs).
 - Sovereign-AI / On-Prem Option subsection.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| credential register, control evidence, action catalogue, and jurisdiction | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Verified agent trust-and-compliance section | CISO, DPO, legal counsel, and evaluator | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| verified agent trust-and-compliance section | CISO, DPO, legal counsel, and evaluator | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| State or omit a credential claim | Publish only current, scoped evidence tied to the proposed system and entity. | Misrepresentation or scope ambiguity. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+The supplier has a current audit report covering its platform but not the buyer-specific tools. State the platform scope, list buyer-specific controls as planned, and attach only approved evidence.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-trust-and-compliance-template.md` — full template.
-- `../references/ai-agent-procurement-questionnaire-pack.md` — questionnaire answers consistent with these credentials.
-- `../references/ai-agent-responsible-ai-commitment.md` — commitment that this section makes visible.
-- `../references/ai-on-saas-trust-and-compliance-section-template.md` — AI-on-SaaS trust base.
-- `../ai-on-saas-compliance-credentials/SKILL.md` — load alongside for SaaS-embedded agents.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — risk register and commitment.
-- `../ai-agent-procurement-and-questionnaire/SKILL.md` — procurement answers.
+- [ai-agent-trust-and-compliance-template](../../profiles-sectors/references/ai-agent-trust-and-compliance-template.md) — full template.
+- [ai-agent-procurement-questionnaire-pack](../../profiles-sectors/references/ai-agent-procurement-questionnaire-pack.md) — questionnaire answers consistent with these credentials.
+- [ai-agent-responsible-ai-commitment](../../profiles-sectors/references/ai-agent-responsible-ai-commitment.md) — commitment that this section makes visible.
+- [ai-on-saas-trust-and-compliance-section-template](../../profiles-sectors/references/ai-on-saas-trust-and-compliance-section-template.md) — AI-on-SaaS trust base.
+- [ai-on-saas-compliance-credentials](../../ai-on-saas-proposals/ai-on-saas-compliance-credentials/SKILL.md) — load alongside for SaaS-embedded agents.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — risk register and commitment.
+- [ai-agent-procurement-and-questionnaire](../ai-agent-procurement-and-questionnaire/SKILL.md) — procurement answers.

@@ -1,5 +1,7 @@
 # Change Process Models and Diagnostic Frameworks
 
+Parent skill: [Change Management](../SKILL.md).
+
 Reference material for the change-management skill. Provides the theoretical and diagnostic models that underpin how change unfolds in organisations. Use when designing the conceptual approach for a change management methodology or when explaining *why* you have chosen a particular change approach.
 
 Sources: Hayes (2002), Hearsum (2024), Little (2014), Adams & Straw (2016).

@@ -1,5 +1,7 @@
 # Hard and Soft Sides of Change — Integrated Tools and Practices
 
+Parent skill: [Change Management](../SKILL.md).
+
 Reference material for the change-management skill. Provides the practical tools that integrate the "hard" (project management, process) and "soft" (people, communication, resistance) sides of change management. These are the tools you include in a proposal's change management methodology.
 
 Sources: Zukof (2021), Hayes (2002), Adams & Straw (2016).

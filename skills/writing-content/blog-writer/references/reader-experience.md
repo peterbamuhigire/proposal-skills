@@ -1,5 +1,7 @@
 # Reader Experience — Touchpoints, Clarity, and Value Delivery
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 How to treat every article as a product experience. Synthesised from Webb (What Customers Crave), Rowse (Problogger), Hargis et al. (Developing Quality Technical Information), and Whitmell (Business Writing Essentials).
 
 ---

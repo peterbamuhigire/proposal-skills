@@ -1,5 +1,7 @@
 # Blog Content Formats — 20 Types
 
+Parent skill: [Blog Idea Generator](../SKILL.md).
+
 Every topic can be expressed through different formats. Choose the format that best serves the reader's needs and the content's purpose. The blog-idea-generator specifies a format for each idea; the blog-writer uses format-specific structural templates from `blog-writer/references/writing-craft.md`.
 
 Sources: Danny Iny (Blog Post Ideas), Rebecca Livermore (Blogger's Quick Guide), Eddy (Blog It Right), Kothand (One Hour Content Plan).

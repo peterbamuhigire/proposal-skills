@@ -1,5 +1,7 @@
 # Data Protection and Privacy
 
+Parent skill: [Data Management](../SKILL.md).
+
 Reference material for the data-management skill. Provides detailed guidance on data protection principles, African and East African data protection legislation, Data Protection Impact Assessments, cross-border data transfers, special data categories, practical compliance for development projects, and proposal strategy notes. Use when proposals involve personal data collection, data governance, MIS design, digital platforms, health information systems, or any processing of personally identifiable information.
 
 Sources: African Union Data Policy Framework (February 2022); AU Convention on Cyber Security and Personal Data Protection (Malabo Convention, 2014; entered into force June 2023); Uganda Data Protection and Privacy Act 2019; Kenya Data Protection Act 2019; Rwanda Law Relating to the Protection of Personal Data and Privacy 2021; Uganda Data Governance Study (2023); GDPR comparative analysis literature (2024-2025).

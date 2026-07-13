@@ -1,10 +1,17 @@
 ---
 name: data-management
-description: Data management, data governance, and data collection frameworks for consulting proposals. Use as a reference when drafting methodology sections that involve MIS design, data systems, surveys, data quality, or data protection compliance. Can generate a standalone data management plan when a ToR requires one.
+description: Use when a proposal covers data collection, quality, governance, MIS, surveys, protection, retention, or migration. Route outcome measurement to monitoring-and-evaluation; this skill governs the data lifecycle and controls.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Data Management
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs data-management, governance, privacy, or information-system content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Data purpose, sources, subjects, flows, and outputs | ToR and system owners | required | Stop detailed design and issue a data-discovery request. |
+| Law, consent, retention, access, and quality evidence | Authoritative rules and client controls | conditional | Mark compliance and quality controls unassessed. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where data collection, governance, quality, or protection matters in the assignment.
 2. Read the local references only where they materially improve the output.
 3. Convert the guidance into proposal-ready controls, activities, and ownership logic.
@@ -30,12 +41,39 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not mention governance or privacy frameworks without showing how they apply.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Naming governance or privacy frameworks without operational controls. Fix: name sources, owners, flows, access, and outputs.
+- Collecting data without a decision use. Fix: map every dataset to a stated purpose.
+- Promising compliance from memory. Fix: verify the jurisdiction and client policy.
+- Treating missing values as zero. Fix: define validation, exception, and remediation rules.
+- Migrating before reconciliation. Fix: profile, map, test, reconcile, and approve before cutover.
 
 ## Outputs
-- Domain-informed data-management content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Data management plan | Evaluator, data owner, delivery team | Covers flows, ownership, quality, protection, retention, access, migration, and acceptance. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Data inventory and quality-control matrix | Traceable register | Every material source has owner, purpose, checks, exceptions, and disposition. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Default to read-only inspection. Editing requires authority; personal or client data access must be least-privilege. Do not move, delete, publish, or certify data without explicit approval.
+
+## Degraded Mode
+Without datasets, system access, or verified law, return a data-discovery and control plan with unassessed items. Never report unavailable quality or compliance checks as passed.
+
+## Decision Rules
+| Condition | Action | Risk avoided |
+|---|---|---|
+| Existing data may answer the question | Profile and assess fitness first | Unnecessary collection |
+| Decision needs new primary data | Design proportionate collection and consent | Data without purpose |
+| Migration changes records | Reconcile samples and require owner sign-off | Silent loss or duplication |
+
+## Worked Example
+For a beneficiary MIS, inventory enrolment, service, and outcome data; assign stewards; validate identifiers and dates; and reconcile migrated totals before acceptance.
 
 ## SaaS Data Implementation Plan
 
@@ -51,14 +89,18 @@ For SaaS lifecycle-communications scope and for any SaaS implementation that dep
 
 This is engineering-grade work — price it as such, not inside a bundled "email setup" line.
 
+<!-- dual-compat-end -->
+
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- Use `references/data-analytics-methodology-for-proposals.md` when the proposal
+- Use [references/data-analytics-methodology-for-proposals.md](references/data-analytics-methodology-for-proposals.md) when the proposal
   involves dashboards, MIS analytics, BI, AI analytics, survey analysis, data platforms,
   routine monitoring, forecasting, or evidence-based decision support.
-- `../references/saas-lifecycle-email-program-proposal-template.md` for the Data Implementation Plan workstream framing.
-- `../references/saas-multi-tenant-architecture-block.md` for tenant-context and data-partitioning concerns.
-- `../saas-lifecycle-communications-as-deliverable/SKILL.md` for the lifecycle communications skill.
+- [../references/saas-lifecycle-email-program-proposal-template.md](../../profiles-sectors/references/saas-lifecycle-email-program-proposal-template.md) for the Data Implementation Plan workstream framing.
+- [../references/saas-multi-tenant-architecture-block.md](../../profiles-sectors/references/saas-multi-tenant-architecture-block.md) for tenant-context and data-partitioning concerns.
+- [../saas-lifecycle-communications-as-deliverable/SKILL.md](../../saas-proposals/saas-lifecycle-communications-as-deliverable/SKILL.md) for the lifecycle communications skill.
 
 Assignments involving system implementations, M&E frameworks, surveys, or institutional assessments all require a data management component. Proposals that demonstrate a structured approach to data collection, storage, quality, governance, and protection score higher — particularly with donors who have been burned by projects that produced unusable data.
 

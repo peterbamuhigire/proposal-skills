@@ -1,5 +1,7 @@
 # Premium Proposal Gate
 
+Parent skill: [Premium Client Proposal Strategy](../SKILL.md).
+
 Use this gate for high-value proposals where the firm must win on value, trust, and strategic fit rather than low price.
 
 ## Buyer Logic

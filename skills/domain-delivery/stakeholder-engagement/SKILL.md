@@ -1,10 +1,17 @@
 ---
 name: stakeholder-engagement
-description: Stakeholder engagement frameworks for consulting proposals. Use as a reference when drafting methodology sections that require stakeholder analysis, consultation plans, or communication strategies. Can generate a standalone stakeholder engagement plan when a ToR requires one.
+description: Use when a proposal needs stakeholder mapping, consultation, participation, feedback, grievance handling, or engagement planning. Unlike change-management, this skill governs who must be heard and how their input is recorded, not adoption of a defined change.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Stakeholder Engagement
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs stakeholder mapping, engagement, consultation, or communication content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Stakeholder groups, decisions, impacts, and engagement obligations | ToR and client records | required | Produce a discovery map; do not claim representation. |
+| Access, language, accessibility, safeguarding, and grievance constraints | Client and stakeholder evidence | conditional | Flag participation risks and provisional channels. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where stakeholder logic matters in the assignment.
 2. Map the evaluator, sponsor, frontline, user, support, and approval groups separately where their concerns differ.
 3. Read the local references only where they materially improve the output.
@@ -31,18 +42,49 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not describe stakeholder engagement as a vague communications add-on.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Describing engagement as communications. Fix: name decisions, influence, methods, and feedback closure.
+- Consulting only senior stakeholders. Fix: include frontline users and affected groups.
+- Treating one representative as the whole group. Fix: test representation and dissent.
+- Using inaccessible channels. Fix: adapt language, timing, venue, format, and support.
+- Collecting feedback without response. Fix: log, decide, communicate disposition, and preserve grievances.
 
 ## Outputs
-- Domain-informed stakeholder-engagement content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Stakeholder engagement plan and register | Evaluator, engagement lead, client sponsor | Maps groups to interests, influence, decisions, methods, cadence, access measures, owners, and feedback closure. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Consultation and feedback register | Traceable log | Records who was engaged, method, issue, response, owner, and unresolved matter. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Mapping is read-only by default. Contacting people, recording personal data, publishing views, resolving grievances, or making commitments requires explicit authority and safeguarding controls.
+
+## Degraded Mode
+Without stakeholder access or verified representation, return a provisional map and engagement plan. Do not claim consultation, consent, or consensus.
+
+## Decision Rules
+| Stakeholder position | Action | Risk avoided |
+|---|---|---|
+| High influence and high impact | Engage in decisions and close feedback | Late veto or harm |
+| Low formal power but high impact | Use accessible direct consultation | Elite-only evidence |
+| Complaint alleges harm or retaliation | Activate protected grievance route | Unsafe public handling |
+
+## Worked Example
+For a municipal service redesign, separately engage officials, frontline staff, vendors, residents, and persons with disabilities; record conflicting needs and show which design decision each informed.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for evaluator concerns, risk perception, and ethical influence.
-- `../references/service-design-methodology-module.md` for stakeholder mapping across service journeys, touchpoints, and backstage roles.
-- `../proposal-storytelling-and-evaluator-journey/SKILL.md` for audience-specific narrative and sign-off logic.
+- [../references/ethical-persuasion-and-evaluator-psychology-gate.md](../../profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md) for evaluator concerns, risk perception, and ethical influence.
+- [../references/service-design-methodology-module.md](../../profiles-sectors/references/service-design-methodology-module.md) for stakeholder mapping across service journeys, touchpoints, and backstage roles.
+- [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) for audience-specific narrative and sign-off logic.
 
 Every consulting assignment involves multiple stakeholders with different interests, influence, and expectations. Proposals that demonstrate a structured approach to stakeholder engagement — not just a list of "consultation meetings" — score higher because they show the firm understands the political and institutional landscape.
 
@@ -96,9 +138,9 @@ Classify each stakeholder group to determine engagement strategy:
 
 Load these reference files for deeper guidance when writing stakeholder engagement sections:
 
-- `references/stakeholder-analysis-and-mapping.md` — stakeholder identification methods (role-based, agenda-based, snowball), classification systems (primary/secondary/key, voluntary/involuntary, normative/derivative), hidden stakeholders (sleepers, spoilers, lurkers), analysis frameworks (power-interest matrix, Mitchell-Agle-Wood salience model with 7 types, sociodynamics model with 8 attitudes, expectations matrix), stakeholder project continuum (neutral/sensitive/led), sources of power (overt/influence/covert), RACI as stakeholder tool, sustainable development integration
-- `references/stakeholder-engagement-and-communication.md` — engagement life cycle (4 stages), relationship management process (Huemann), engagement journey (resistant→indifferent→supportive→proactive), whispering evolution (Shander), engagement formula, purposeful communication framework (6 types), communication by quadrant, 10 engagement techniques, expectation alignment, consultation design (6 requirements), questioning techniques (Five Whys, Six Ws, diverge/converge, premortem), facilitation and meetings, group engagement, 7 principles of engagement
-- `references/stakeholder-dynamics-and-influence.md` — resistance management (indicators, root causes, 10 strategies), Thomas-Kilmann conflict modes, 6-step conflict resolution, difficult stakeholder protocol, barriers to engagement (13 types), Cialdini's 6 principles applied to stakeholders, cognitive biases catalogue (17 biases), active listening framework, emotional intelligence model, 10 competencies, relationship building (8 practices), Freeman's 10 ethical principles, systemic constellation methods, Ashby's Law of Requisite Variety
+- [references/stakeholder-analysis-and-mapping.md](references/stakeholder-analysis-and-mapping.md) — stakeholder identification methods (role-based, agenda-based, snowball), classification systems (primary/secondary/key, voluntary/involuntary, normative/derivative), hidden stakeholders (sleepers, spoilers, lurkers), analysis frameworks (power-interest matrix, Mitchell-Agle-Wood salience model with 7 types, sociodynamics model with 8 attitudes, expectations matrix), stakeholder project continuum (neutral/sensitive/led), sources of power (overt/influence/covert), RACI as stakeholder tool, sustainable development integration
+- [references/stakeholder-engagement-and-communication.md](references/stakeholder-engagement-and-communication.md) — engagement life cycle (4 stages), relationship management process (Huemann), engagement journey (resistant→indifferent→supportive→proactive), whispering evolution (Shander), engagement formula, purposeful communication framework (6 types), communication by quadrant, 10 engagement techniques, expectation alignment, consultation design (6 requirements), questioning techniques (Five Whys, Six Ws, diverge/converge, premortem), facilitation and meetings, group engagement, 7 principles of engagement
+- [references/stakeholder-dynamics-and-influence.md](references/stakeholder-dynamics-and-influence.md) — resistance management (indicators, root causes, 10 strategies), Thomas-Kilmann conflict modes, 6-step conflict resolution, difficult stakeholder protocol, barriers to engagement (13 types), Cialdini's 6 principles applied to stakeholders, cognitive biases catalogue (17 biases), active listening framework, emotional intelligence model, 10 competencies, relationship building (8 practices), Freeman's 10 ethical principles, systemic constellation methods, Ashby's Law of Requisite Variety
 
 ## Grievance and Feedback Mechanism
 

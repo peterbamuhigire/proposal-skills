@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda ICT and Digital Economy Profile
 
+Parent skill: [ICT and Digital Transformation](../SKILL.md).
+
 ## 1. National Backbone Infrastructure
 
 Uganda has invested significantly in digital infrastructure through the National Backbone Infrastructure (NBI) project, which comprises 4,387 km of fibre-optic cable. The network connects 53 districts, 11 border posts, and 1,480 government offices, providing the foundational connectivity layer for public-sector digital services and commercial internet service provision.

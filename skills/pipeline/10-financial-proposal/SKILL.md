@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-10-financial-proposal
-description: Write the financial proposal for a consulting bid. Use when the user asks to draft a financial proposal, budget, cost breakdown, fee schedule, or pricing for a consulting assignment.
+name: 10-financial-proposal
+description: Use when drafting a bid budget, fee schedule, reimbursables, payment schedule, price form, or commercial assumptions. Unlike accounting-finance-advisory, this skill prices the proposed delivery and preserves any required technical-financial envelope separation.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Financial Proposal
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the financial proposal narrative, pricing logic, or cost structure.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The methodology, work plan, and staffing assumptions that drive the pricing logic.
 - Any taxes, reimbursables, validity, and currency rules that apply.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Official price form, currency/tax rules, technical scope, work plan, person-days, rates, costs, and approvals | Tender pack and authorised commercial model | required | Stop final pricing and issue a cost/input reconciliation request. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the commercial instructions and identify the required pricing structure, forms, and constraints.
 2. Load any relevant procurement framework before drafting or structuring the response.
 3. Build the budget from delivery drivers: scope, team, level of effort, timing, travel, and approvals.
@@ -35,12 +48,42 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Show that the price is workable operationally, not merely arithmetically.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not price work that the technical proposal does not actually support.
 - Do not ignore donor or client form requirements, currency rules, or tax assumptions.
 - Do not mix financial content into the technical proposal where separation is required.
+- Do not invent tax treatment or rates. Fix: route to external finance doctrine and verify current authoritative sources.
+- Do not force the target total by hiding effort or margin. Fix: show driver changes and obtain an authorised scope/price decision.
 
 ## Outputs
-- A financial proposal narrative or pricing structure aligned to the bid instructions.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Completed financial proposal and assumption schedule | Evaluator, bid lead, finance approver | Arithmetic, forms, scope, days, rates, taxes, currency, cash flow, envelope, and approvals reconcile. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Price reconciliation and finance-doctrine gate | Checked workbook/register | Totals recalculate, technical scope is fully costed, and tax/accounting assumptions show source and reviewer status. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Review is read-only by default. Editing requires commercial authority; changing rates, margins, tax, discounts, payment terms, or submitting the price requires the named approver. Do not certify tax treatment.
+
+## Degraded Mode
+Without price forms, verified costs, finance doctrine, spreadsheet execution, or tax evidence, return a driver-based model structure and unassessed checks. Never present unchecked arithmetic or tax as final.
+
+## Decision Rules
+| Condition | Action | Risk avoided |
+|---|---|---|
+| Technical and financial envelopes are separate | Block all price content from technical files | Rejection |
+| Tax or accounting treatment is load-bearing | Apply external finance doctrine and current source review | Incorrect statutory price |
+| Price fails cash-flow or margin floor | Re-scope, rephase, or seek approval | Unworkable bid |
+
+## Worked Example
+For a donor bid, reconcile expert days to the work plan, separate reimbursables, apply the verified tax basis, test payment timing against delivery costs, and scan the technical archive for price leakage.
 
 ## AI Commercial Structure Block
 
@@ -53,33 +96,37 @@ When the engagement delivers AI agents (autonomous LLM systems that act on the b
 The agent commercial structure is delivered as **drop-in exhibits** in the financial proposal annexes — Pricing Exhibit, SLA Exhibit, Credit and Refund Exhibit, MSA Addendum, Abandonment-and-Refund Policy, Dispute Resolution and Audit Rights Annex, Vendor Cost Pass-Through, Renewal and True-Up Clauses, Outcome-Pricing Clauses (where applicable). The exhibits reference the same numbers, same definitions, and same evidence trail. Assembly is orchestrated by `../ai-agent-contract-language-pack/SKILL.md`.
 
 See:
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — six patterns and packaging.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA class and credit schedule.
-- `../ai-agent-commercial-packaging/SKILL.md` — packaging shape (Included / Add-on / Standalone).
-- `../ai-agent-success-fee-and-outcome-pricing/SKILL.md` — outcome and success-fee structures.
-- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` — intervention-credit and abort-refund.
-- `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` — MSA / SLA addendum.
-- `../ai-agent-renewal-and-true-up/SKILL.md` — renewal and true-up.
-- `../ai-agent-contract-language-pack/SKILL.md` — exhibit assembly.
-- `../references/ai-agent-pricing-models-reference.md` — pattern library.
-- `../references/ai-agent-pricing-exhibit-template.md` — drop-in pricing exhibit.
-- `../references/ai-agent-sla-exhibit-template.md` — drop-in SLA exhibit.
-- `../references/ai-agent-credit-and-refund-clauses.md` — credit and refund clauses.
-- `../references/ai-agent-msa-addendum-template.md` — MSA addendum.
-- `../references/ai-agent-business-case-template.md` — business case inputs.
+- [../ai-agent-pricing-and-packaging-proposal/SKILL.md](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) — six patterns and packaging.
+- [../ai-agent-sla-and-credit-schedule/SKILL.md](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) — SLA class and credit schedule.
+- [../ai-agent-commercial-packaging/SKILL.md](../../ai-agent-commercial/ai-agent-commercial-packaging/SKILL.md) — packaging shape (Included / Add-on / Standalone).
+- [../ai-agent-success-fee-and-outcome-pricing/SKILL.md](../../ai-agent-commercial/ai-agent-success-fee-and-outcome-pricing/SKILL.md) — outcome and success-fee structures.
+- [../ai-agent-intervention-credit-and-abort-refund/SKILL.md](../../ai-agent-commercial/ai-agent-intervention-credit-and-abort-refund/SKILL.md) — intervention-credit and abort-refund.
+- [../ai-agent-msa-and-sla-addendum-templates/SKILL.md](../../ai-agent-commercial/ai-agent-msa-and-sla-addendum-templates/SKILL.md) — MSA / SLA addendum.
+- [../ai-agent-renewal-and-true-up/SKILL.md](../../ai-agent-commercial/ai-agent-renewal-and-true-up/SKILL.md) — renewal and true-up.
+- [../ai-agent-contract-language-pack/SKILL.md](../../ai-agent-commercial/ai-agent-contract-language-pack/SKILL.md) — exhibit assembly.
+- [../references/ai-agent-pricing-models-reference.md](../../profiles-sectors/references/ai-agent-pricing-models-reference.md) — pattern library.
+- [../references/ai-agent-pricing-exhibit-template.md](../../profiles-sectors/references/ai-agent-pricing-exhibit-template.md) — drop-in pricing exhibit.
+- [../references/ai-agent-sla-exhibit-template.md](../../profiles-sectors/references/ai-agent-sla-exhibit-template.md) — drop-in SLA exhibit.
+- [../references/ai-agent-credit-and-refund-clauses.md](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — credit and refund clauses.
+- [../references/ai-agent-msa-addendum-template.md](../../profiles-sectors/references/ai-agent-msa-addendum-template.md) — MSA addendum.
+- [../references/ai-agent-business-case-template.md](../../profiles-sectors/references/ai-agent-business-case-template.md) — business case inputs.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../sectors/SKILL.md` for procurement routing.
-- `../premium-pricing-and-value-defense/SKILL.md` for premium fee logic, options, and value defence.
-- `../sales-discovery-and-objection-handling/SKILL.md` for price, risk, timeline, staffing, technology, and local-context objections.
-- `../customer-service-and-maintenance-proposals/SKILL.md` for support, maintenance, SLA, and post-launch optimisation pricing.
-- `../references/technical-strategy-credibility-checklist.md` for SaaS, AI, software, cloud, API, operations, and maintainability cost drivers.
-- `../references/ai-on-saas-pricing-models-reference.md` for AI pricing patterns, fair-use, price-increase, and FX clauses.
-- `../references/ai-on-saas-business-case-template.md` for cost-of-tokens and three-scenario AI ROI.
-- `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md` for the companion pricing skill.
-- `../references/ai-agent-pricing-models-reference.md` for the six agent pricing patterns, intervention credit, vendor cost pass-through, abort-and-refund, and autonomy-ramp clauses.
-- `../references/ai-agent-business-case-template.md` for tasks-per-FTE with intervention discount and three-scenario agent ROI.
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` for the companion agent pricing skill.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement routing.
+- [../premium-pricing-and-value-defense/SKILL.md](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) for premium fee logic, options, and value defence.
+- [../sales-discovery-and-objection-handling/SKILL.md](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) for price, risk, timeline, staffing, technology, and local-context objections.
+- [../customer-service-and-maintenance-proposals/SKILL.md](../../strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md) for support, maintenance, SLA, and post-launch optimisation pricing.
+- [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) for SaaS, AI, software, cloud, API, operations, and maintainability cost drivers.
+- [../references/ai-on-saas-pricing-models-reference.md](../../profiles-sectors/references/ai-on-saas-pricing-models-reference.md) for AI pricing patterns, fair-use, price-increase, and FX clauses.
+- [../references/ai-on-saas-business-case-template.md](../../profiles-sectors/references/ai-on-saas-business-case-template.md) for cost-of-tokens and three-scenario AI ROI.
+- [../ai-on-saas-pricing-and-packaging-proposal/SKILL.md](../../ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/SKILL.md) for the companion pricing skill.
+- [../references/ai-agent-pricing-models-reference.md](../../profiles-sectors/references/ai-agent-pricing-models-reference.md) for the six agent pricing patterns, intervention credit, vendor cost pass-through, abort-and-refund, and autonomy-ramp clauses.
+- [../references/ai-agent-business-case-template.md](../../profiles-sectors/references/ai-agent-business-case-template.md) for tasks-per-FTE with intervention discount and three-scenario agent ROI.
+- [../ai-agent-pricing-and-packaging-proposal/SKILL.md](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) for the companion agent pricing skill.
 - Root and local `references/` files for budgeting, estimation, and commercial framing.
 - Relevant proposal sections so pricing remains consistent with delivery assumptions.
 
@@ -233,18 +280,18 @@ This is useful when presenting optional scope, alternative commercial options, o
 - State currency explicitly on every table.
 - Keep the financial proposal separate from the technical proposal where required.
 - For ICT or infrastructure assignments, include life-cycle or total-cost-of-ownership logic when relevant.
-- For website design, redesign, SEO-ready website, ecommerce, landing page, portal, or web frontend assignments, run `../website-design-proposal-strategy/SKILL.md` before final pricing. Price discovery, UX, content, SEO, design system, development, CMS, integrations, QA, launch, hosting/licences, training, handover, support, and post-launch optimisation explicitly.
+- For website design, redesign, SEO-ready website, ecommerce, landing page, portal, or web frontend assignments, run [../website-design-proposal-strategy/SKILL.md](../../strategy-positioning/website-design-proposal-strategy/SKILL.md) before final pricing. Price discovery, UX, content, SEO, design system, development, CMS, integrations, QA, launch, hosting/licences, training, handover, support, and post-launch optimisation explicitly.
 - For software, SaaS, AI, website, or digital-service assignments, price operations explicitly: monitoring, backups, updates, incident response, model/prompt evaluation, usage review, analytics review, documentation, handover, support channels, and optimisation backlog.
-- For SaaS implementation engagements specifically, price these workstreams as named lines, not bundled inside implementation: control plane (onboarding, identity, billing, observability, cost attribution); application plane build and integration; trust and compliance hardening; customer success engagement (tier-appropriate intensity); lifecycle communications (per program); change management and adoption; ongoing managed service or retainer. Reference `../saas-pricing-and-packaging-proposal/SKILL.md` for client-owned SaaS commercial model design when in scope.
-- For resale SaaS bids (where the client owns the SaaS revenue model), include the tier-ladder design, expansion path, freemium / paid-trial decision, and price-increase clause. Reference `../references/saas-pricing-models-reference.md`.
-- Use Professional Services Attach Rate (PSAR) framing to defend the implementation fee against the subscription cost. Reference `../references/saas-metrics-glossary-for-proposals.md`.
-- Tie payment milestones to SaaS-relevant value events where possible: contract signature, security review cleared, tenant model decision, first end-to-end integration, UAT entry, pilot go-live, full cutover, 60-day adoption review, first QBR. Reference `../references/saas-mutual-action-plan-template.md`.
+- For SaaS implementation engagements specifically, price these workstreams as named lines, not bundled inside implementation: control plane (onboarding, identity, billing, observability, cost attribution); application plane build and integration; trust and compliance hardening; customer success engagement (tier-appropriate intensity); lifecycle communications (per program); change management and adoption; ongoing managed service or retainer. Reference [../saas-pricing-and-packaging-proposal/SKILL.md](../../saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md) for client-owned SaaS commercial model design when in scope.
+- For resale SaaS bids (where the client owns the SaaS revenue model), include the tier-ladder design, expansion path, freemium / paid-trial decision, and price-increase clause. Reference [../references/saas-pricing-models-reference.md](../../profiles-sectors/references/saas-pricing-models-reference.md).
+- Use Professional Services Attach Rate (PSAR) framing to defend the implementation fee against the subscription cost. Reference [../references/saas-metrics-glossary-for-proposals.md](../../profiles-sectors/references/saas-metrics-glossary-for-proposals.md).
+- Tie payment milestones to SaaS-relevant value events where possible: contract signature, security review cleared, tenant model decision, first end-to-end integration, UAT entry, pilot go-live, full cutover, 60-day adoption review, first QBR. Reference [../references/saas-mutual-action-plan-template.md](../../profiles-sectors/references/saas-mutual-action-plan-template.md).
 - For service design or customer-experience assignments, price research, touchpoint inventory, journey mapping, blueprinting, co-creation, prototyping, frontline validation, implementation planning, training, and measurement separately.
 - For accounting, bookkeeping, ERP finance, POS/accounting integration, finance dashboards, Excel model, or management-accounting assignments, price discovery of source documents, chart-of-accounts review, reconciliation sampling, control walkthroughs, data cleanup, model audit, configuration review, and validation workshops explicitly.
 - For proposals that include project financial management, donor/grant finance, budget governance, audit evidence, tax/statutory handling, or financial reporting, price finance-management effort explicitly: financial controls setup, report preparation, reconciliations, advance liquidation, audit-file maintenance, finance review meetings, tax verification, and close-out reporting.
 - For embedded accounting-engine builds, price posting-rule workshops, accountant validation, chart-of-accounts templates, mapping configuration, opening-balance migration, inventory/payroll/fixed-asset/tax posting tests, reconciliation gates, report testing, parallel run, and first-close support as separate workstreams.
-- For finance transformation, accounting cleanup, ERP/POS finance, grant finance, revenue assurance, cost-control, financial-modelling, or management-accounting proposals, run `../accounting-finance-advisory/SKILL.md` before final pricing so scope, methodology, deliverables, risks, and level of effort agree.
-- For premium-client, executive, enterprise, luxury/affluent, high-ticket, or strategic transformation proposals, run `../premium-client-proposal-strategy/SKILL.md` before final pricing so fees reflect value, risk, seniority, proof, governance, and service quality rather than low-cost positioning.
+- For finance transformation, accounting cleanup, ERP/POS finance, grant finance, revenue assurance, cost-control, financial-modelling, or management-accounting proposals, run [../accounting-finance-advisory/SKILL.md](../../domain-delivery/accounting-finance-advisory/SKILL.md) before final pricing so scope, methodology, deliverables, risks, and level of effort agree.
+- For premium-client, executive, enterprise, luxury/affluent, high-ticket, or strategic transformation proposals, run [../premium-client-proposal-strategy/SKILL.md](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) before final pricing so fees reflect value, risk, seniority, proof, governance, and service quality rather than low-cost positioning.
 - For manufacturing, warehousing, logistics, ERP/MES/WMS/TMS, and industrial operations assignments, price site visits, data extraction, stock sampling, process observation, layout mapping, validation workshops, and specialist modelling effort explicitly.
 - For multi-year assignments, include NPV or cash-flow logic where the commercial form allows it.
 - Categorise costs clearly as direct, indirect, fixed, variable, or reimbursable where that adds clarity.

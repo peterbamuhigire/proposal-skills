@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-02-executive-summary
-description: Write the executive summary of a consulting proposal. Use when the user asks to draft the executive summary, management summary, or proposal overview section.
+name: 02-executive-summary
+description: "Use when drafting the evaluator-facing summary of a full proposal: client problem, response, differentiators, scope, timing, and value. Unlike 01-cover-letter, this section synthesises the technical offer rather than transmitting it."
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Executive Summary
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the executive summary of a proposal or similar bid response.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile and the proposal’s core themes.
 - Any priority differentiators, timeline, scope, and value evidence.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Near-final methodology, team, work plan, experience, and win themes | Proposal source sections | required | Produce an outline and evidence gaps; do not invent a finished summary. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and confirm what the summary must persuade the evaluator to believe.
 2. Load the proposer profile and any relevant procurement, sector, or domain skills.
 3. Use the structure below to create a concise, benefits-forward summary tied to the actual assignment.
@@ -34,28 +47,62 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer quantified relevance and clear value logic over broad claims.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not write a generic corporate overview instead of an assignment-specific summary.
 - Do not overstate capabilities that are not supported elsewhere in the proposal.
 - Do not let the section drift out of alignment with the methodology, timeline, or team.
+- Do not lead with bidder history. Fix: open with the client's decision and consequence.
+- Do not invent figures or differentiators. Fix: source every load-bearing claim.
 
 ## Outputs
-- A proposal-ready executive summary aligned to the assignment, proposer, and evaluation context.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Executive summary | Evaluator and decision-maker | Synthesises problem, response, proof, scope, timing, controls, and value without contradiction. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Claim-to-section trace | Checklist | Every differentiator and number points to verified proposal evidence. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Read and draft only unless editing is authorised. Do not create new commercial, staffing, legal, or delivery commitments.
+
+## Degraded Mode
+If mature source sections are unavailable, return a skeleton and contradiction/evidence register. Do not polish assumptions into commitments.
+
+## Decision Rules
+| Situation | Action | Risk avoided |
+|---|---|---|
+| Criteria are explicit | Mirror their decision order | Unscored narrative |
+| Proof is weak | Qualify or remove the claim | Evidence-free persuasion |
+| Summary conflicts with detail | Correct source sections first | Executive contradiction |
+
+## Worked Example
+For a six-month MIS assignment, state verified phases, team fit, adoption control, and handover outcome; avoid a corporate-history opening.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../premium-client-proposal-strategy/SKILL.md` for executive, enterprise, affluent, luxury, high-ticket, or premium-priced proposals where value, proof, and pricing confidence matter.
-- `../premium-commercial-writing/SKILL.md` for premium commercial polish, proof-led argument, evaluator-friendly structure, and search-aware public summaries where relevant.
-- `../website-design-proposal-strategy/SKILL.md` when the proposal includes website design, redesign, SEO-ready content, ecommerce, landing pages, portals, web applications, or website costing.
-- `../proposal-storytelling-and-evaluator-journey/SKILL.md` when the summary needs a stronger narrative spine, case-story logic, or evaluator journey.
-- `../premium-pricing-and-value-defense/SKILL.md` when the summary must justify premium fees, total cost of ownership, service quality, or risk reduction.
-- `../sales-discovery-and-objection-handling/SKILL.md` when likely buyer objections should be anticipated in the executive summary.
-- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for high-stakes persuasion and risk-perception checks.
-- `../references/saas-discovery-question-bank.md` and `../references/meddic-and-command-of-message-for-saas.md` when the bid is a SaaS implementation; lead the summary with the Critical Event and pain chain rather than vendor biography.
-- `../references/saas-business-case-and-roi-template.md` for the Value at Stake block leadership in SaaS summaries.
-- `../references/saas-win-themes-and-discriminators.md` for SaaS-specific differentiator selection.
-- `../references/saas-metrics-glossary-for-proposals.md` for investor-grade vocabulary opt-in (Rule of 40, magic number) — for the right buyers only.
-- `../saas-discovery-and-qualification/SKILL.md` for SaaS-specific buyer-logic content.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../premium-client-proposal-strategy/SKILL.md](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) for executive, enterprise, affluent, luxury, high-ticket, or premium-priced proposals where value, proof, and pricing confidence matter.
+- [../premium-commercial-writing/SKILL.md](../../writing-content/premium-commercial-writing/SKILL.md) for premium commercial polish, proof-led argument, evaluator-friendly structure, and search-aware public summaries where relevant.
+- [../website-design-proposal-strategy/SKILL.md](../../strategy-positioning/website-design-proposal-strategy/SKILL.md) when the proposal includes website design, redesign, SEO-ready content, ecommerce, landing pages, portals, web applications, or website costing.
+- [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) when the summary needs a stronger narrative spine, case-story logic, or evaluator journey.
+- [../premium-pricing-and-value-defense/SKILL.md](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) when the summary must justify premium fees, total cost of ownership, service quality, or risk reduction.
+- [../sales-discovery-and-objection-handling/SKILL.md](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) when likely buyer objections should be anticipated in the executive summary.
+- [../references/ethical-persuasion-and-evaluator-psychology-gate.md](../../profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md) for high-stakes persuasion and risk-perception checks.
+- [../references/saas-discovery-question-bank.md](../../profiles-sectors/references/saas-discovery-question-bank.md) and [../references/meddic-and-command-of-message-for-saas.md](../../profiles-sectors/references/meddic-and-command-of-message-for-saas.md) when the bid is a SaaS implementation; lead the summary with the Critical Event and pain chain rather than vendor biography.
+- [../references/saas-business-case-and-roi-template.md](../../profiles-sectors/references/saas-business-case-and-roi-template.md) for the Value at Stake block leadership in SaaS summaries.
+- [../references/saas-win-themes-and-discriminators.md](../../profiles-sectors/references/saas-win-themes-and-discriminators.md) for SaaS-specific differentiator selection.
+- [../references/saas-metrics-glossary-for-proposals.md](../../profiles-sectors/references/saas-metrics-glossary-for-proposals.md) for investor-grade vocabulary opt-in (Rule of 40, magic number) — for the right buyers only.
+- [../saas-discovery-and-qualification/SKILL.md](../../saas-proposals/saas-discovery-and-qualification/SKILL.md) for SaaS-specific buyer-logic content.
 - Root `references/` files for persuasion, story structure, and proposal patterns.
 
 The executive summary is the most heavily read section after the cover letter. Many evaluators form their first impression here. It must communicate the firm's understanding, approach, differentiation, and value in two to three pages — without requiring the reader to look at any other section.

@@ -1,5 +1,7 @@
 # SEO And AI-Search Writing
 
+Parent skill: [Premium Commercial Writing](../SKILL.md).
+
 Use this only for public-facing articles, web documents, knowledge pages, landing-page copy, case studies, and thought leadership. Do not force SEO into confidential procurement submissions unless the proposal is for SEO, content, or discoverability work.
 
 ## Search Intent First

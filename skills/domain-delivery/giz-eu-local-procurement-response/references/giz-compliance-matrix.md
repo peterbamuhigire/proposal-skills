@@ -1,5 +1,7 @@
 # GIZ Compliance Matrix
 
+Parent skill: [GIZ EU Local Procurement Response](../SKILL.md).
+
 Use this reference when building the mandatory and scored matrix for a GIZ local tender.
 
 ## Matrix Fields
