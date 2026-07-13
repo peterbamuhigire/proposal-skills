@@ -1,11 +1,17 @@
 ---
-name: sectors/afdb
-description: African Development Bank procurement framework covering consultant selection methods, evaluation criteria, environmental and social safeguards (ISS 2023), project cycle, and financial terms. Read this skill whenever the proposal responds to an AfDB-funded assignment or an assignment funded by any AfDB lending window (ADB, ADF, NTF).
+name: afdb
+description: Use when an assignment is funded or governed by African Development Bank procurement, including ADB, ADF, or NTF windows; use World Bank, UNDP, or PPDA skills when those rules control.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # African Development Bank Procurement Framework
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when the solicitation follows African Development Bank consulting procurement rules.
 - Load it before drafting when you need form, scoring, threshold, or compliance guidance.
@@ -15,16 +21,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - A different procurement framework clearly applies.
 
 ## Required Inputs
-- The solicitation package, especially instructions, forms, and evaluation criteria.
-- Any known selection method and technical threshold.
-- The target proposal sections that must comply with the framework.
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---|---|
+| The solicitation package, especially instructions, forms, and evaluation criteria. | Buyer solicitation, ToR, or approved brief | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| Any known selection method and technical threshold. | Buyer, verified sector source, or discovery | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| The target proposal sections that must comply with the framework. | Buyer, verified sector source, or discovery | Conditional | Stop the affected claim, request or verify the input, and label the resulting gap. |
 
 ## Workflow
+
 1. Confirm that AfDB procurement applies from explicit cues in the solicitation.
 2. Read this skill and the local references to understand forms, scoring, safeguards, and constraints.
 3. Map those requirements into the numbered proposal section skills before drafting.
 4. Draft to maximize technical quality without creating compliance risk.
 5. Check the final output against thresholds, form placement, and submission rules.
+
+**Stop condition:** Stop when proposer identity, controlling framework, mandatory form, sector fit, current rule, or load-bearing evidence remains unresolved.
+
+**Recovery:** Record the gap and owner, seek clarification or current evidence, and return only the separable proposal content that remains supportable.
 
 ## Quality Standards
 - Treat AfDB instructions as hard constraints, not optional style guidance.
@@ -32,16 +46,57 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Optimize for evaluator behavior where the framework supports it.
 
 ## Anti-Patterns
+
 - Do not rely on generic donor assumptions when the AfDB solicitation gives exact instructions.
 - Do not ignore minimum thresholds, safeguards expectations, or eligibility rules.
 - Do not mix AfDB assumptions with World Bank, PPDA, or UN rules.
+- Treating a neighbouring sector or framework as interchangeable. **Fix:** identify the controlling rule and primary outcome.
+- Adding terminology without changing a delivery choice. **Fix:** link each term to method, risk, output, or evaluation criterion.
+- Presenting an unverified current rule or statistic as settled. **Fix:** cite and date the source or mark it not assessed.
+- Ignoring a missing mandatory input. **Fix:** stop the affected claim and assign an evidence owner.
+- Letting sector or identity framing contradict methodology, staffing, schedule, or price. **Fix:** reconcile all affected sections before release.
 
 ## Outputs
-- An AfDB-compliant drafting and scoring approach for the relevant proposal sections.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| An AfDB-compliant drafting and scoring approach for the relevant proposal sections. | Proposal lead, section writer, and evaluator-readiness reviewer | Applied consistently, traceable to the selected source, and free of unsupported identity, framework, or sector claims. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Routing and source record | Proposal lead and reviewer | Selected identity, framework, sector, source, date, and material gaps are recorded. |
+| Decision record | Section writer and delivery lead | Each material choice has rationale, owner, evidence, and a review or stop condition. |
+| Conformance check | Release reviewer | Mandatory forms, identity rules, sector logic, and unresolved checks are explicitly assessed. |
+
+## Capability Contract
+
+This skill may read supplied profiles, solicitations, ToRs, approved references, and proposal drafts and may prepare routing guidance or draft content within the authorised workspace. Review is read-only by default. It must not invent credentials, certify compliance, submit a bid, accept terms, publish, disclose confidential information, or change source records without explicit authority.
+
+## Degraded Mode
+
+If the solicitation, profile, current procurement source, sector evidence, network, or reviewer is unavailable, provide the narrowest useful qualified routing or draft. Mark the missing check **not assessed**, omit unsupported credentials, thresholds, dates, or compliance claims, and identify the evidence owner. An unassessed requirement is never a pass.
+
+## Decision Rules
+
+| Decision | Action | Failure/risk avoided |
+|---|---|---|
+| AfDB selection method | Map the notice and RFP to the stated selection method, forms, technical threshold, and financial treatment. | Non-responsive AfDB submission |
+| Conflicting solicitation and background guidance | Follow the solicitation while recording the conflict for formal clarification. | Non-responsive interpretation |
+| Missing mandatory evidence | Stop the affected claim or form, record the owner and deadline, and continue only with independent supported content. | Fabricated evidence or silent omission |
+| Submission, certification, or contractual commitment | Obtain explicit authority and preserve approval evidence before acting. | Unauthorised external commitment |
+
+## Worked Example
+
+A solicitation requires **afdb selection method**, but one controlling input is missing. The proposal team applies this rule: Map the notice and RFP to the stated selection method, forms, technical threshold, and financial treatment. It records the gap and owner, withholds the affected assurance, and proceeds only with content that can be verified. This avoids **non-responsive afdb submission**.
 
 ## References
+
+- [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+<!-- dual-compat-end -->
 - Local `references/` files for selection methods, safeguards, project cycle, and financial terms.
-- `../SKILL.md` to combine framework and sector context.
+- [../SKILL.md](../SKILL.md) to combine framework and sector context.
 
 This skill provides the procurement rules, evaluation methodology, safeguard requirements, and scoring intelligence that every AfDB-funded proposal must be built around. Read this before writing any section of an AfDB-funded proposal.
 
@@ -222,4 +277,3 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: AfDB Procurement Policy for Bank Group Funded Operations (2015, revised 2023), Rules and Procedures for Procurement of Goods, Works, and Non-Consulting Services (2023), Rules and Procedures for the Use of Consultants (2023), Integrated Safeguards System (ISS, 2023), Independent Evaluation Policy (IDEV), AfDB Financial Products and Terms.*
-

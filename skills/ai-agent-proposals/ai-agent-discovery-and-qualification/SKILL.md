@@ -1,10 +1,15 @@
 ---
 name: ai-agent-discovery-and-qualification
-description: Use during discovery, qualification, and proposal shaping for an engagement that will design, build, or operate one or more AI agents — autonomous LLM-driven software that plans, calls tools, and acts on the buyer's behalf. Provides the "agent vs workflow" filter, the autonomy-level taxonomy (L0–L5), irreversibility-tolerance discovery, oversight-model discovery, success-metric discovery (task-success vs intervention vs deflection), accountability discovery, and regulatory-exposure discovery for agentic actions. Extends `ai-on-saas-discovery-and-qualification` with the agent overlay; replaces it when the engagement is stand-alone agentic.
+description: Use when qualifying an AI-agent opportunity by testing agent-versus-workflow fit, autonomy level, action reversibility, oversight, accountability, success measures, and regulatory exposure.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Discovery and Qualification
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -19,7 +24,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The bid is for generic AI strategy without an action-taking deliverable (use `ai-transformation-proposal` + `sales-discovery-and-objection-handling`).
 - The "agent" in the brief is a chatbot with no tool access and no action capability — qualify the term and route to copilot discovery.
 
-## Required Inputs
+## Domain Inputs
 
 - The buyer's brief, including the verbs the buyer uses ("resolve", "triage", "draft", "post", "deploy", "execute") that imply action.
 - The candidate workflow(s) the agent will inhabit, with current owner, volume, and average handling time.
@@ -28,7 +33,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The buyer's incident history with AI, RPA, automation, or chatbots.
 - An initial hypothesis of the action surface (which systems will the agent call, with what authority).
 
-## Workflow
+## Domain Method
 
 1. Run the **Agent-vs-Workflow Filter** first. If three or more of the five tests fail, the bid is not agentic — push back politely and re-scope.
 2. Run the **Autonomy-Level Discovery** — place the candidate use case on the **L0–L5 Agentic Autonomy Ladder**. Buyers who want L4 or L5 for a high-stakes process need a paid feasibility study first.
@@ -142,7 +147,7 @@ Score the engagement on each row. Any **do-not-bid** is sufficient to decline po
 - The action catalogue exists in the win-room file before pricing.
 - The Discovery Findings paragraph in Understanding-of-Assignment shows the evaluator the audit trail.
 
-## Anti-Patterns
+## Domain Risks
 
 - Accepting "we want an AI agent" as a scope.
 - Skipping the Agent-vs-Workflow Filter and pricing a workflow as an agent.
@@ -154,7 +159,7 @@ Score the engagement on each row. Any **do-not-bid** is sufficient to decline po
 - Naming a kill-switch without naming who holds the authority to fire it.
 - Quoting "the agent will run autonomously" in customer-facing workflows.
 
-## Outputs
+## Domain Outputs
 
 - Agent-vs-Workflow Filter result (3-of-5 minimum to proceed).
 - Autonomy-Level Decision per action class (L0–L5).
@@ -165,14 +170,70 @@ Score the engagement on each row. Any **do-not-bid** is sufficient to decline po
 - Agentic Discovery Findings paragraph for Understanding-of-Assignment.
 - Go / no-go / paid-discovery / shadow-pilot decision.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| buyer process, action inventory, affected parties, systems, constraints, and success measures | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Agent qualification record and discovery decision | Opportunity owner and solution architect | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| agent qualification record and discovery decision | Opportunity owner and solution architect | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Agent, workflow, or no-go | Use agency need, action authority, reversibility, oversight, economics, and regulatory exposure to classify the opportunity. | Building an agent where deterministic automation or no automation is safer. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+A refund process has fixed rules and no planning need. Route it to workflow automation; reserve agent discovery for exception triage that requires tool use and supervised judgement.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-discovery-question-bank.md` — long-form question bank.
-- `../references/ai-agent-metrics-glossary.md` — definitions for task-success, intervention, deflection, irreversibility.
-- `../references/ai-on-saas-discovery-question-bank.md` — AI-on-SaaS discovery base.
-- `../ai-on-saas-discovery-and-qualification/SKILL.md` — AI-on-SaaS discovery skill; load alongside when the agent lives inside a SaaS product.
-- `../ai-agent-methodology/SKILL.md` — methodology that this discovery feeds.
-- `../ai-agent-business-case-and-roi/SKILL.md` — business case inputs.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — agent risk register.
-- `../ai-agent-poc-and-pilot-scoping/SKILL.md` — shadow / supervised / agentic pilot.
-- `../sales-discovery-and-objection-handling/SKILL.md` — base discovery discipline.
+- [ai-agent-discovery-question-bank](../../profiles-sectors/references/ai-agent-discovery-question-bank.md) — long-form question bank.
+- [ai-agent-metrics-glossary](../../profiles-sectors/references/ai-agent-metrics-glossary.md) — definitions for task-success, intervention, deflection, irreversibility.
+- [ai-on-saas-discovery-question-bank](../../profiles-sectors/references/ai-on-saas-discovery-question-bank.md) — AI-on-SaaS discovery base.
+- [ai-on-saas-discovery-and-qualification](../../ai-on-saas-proposals/ai-on-saas-discovery-and-qualification/SKILL.md) — AI-on-SaaS discovery skill; load alongside when the agent lives inside a SaaS product.
+- [ai-agent-methodology](../ai-agent-methodology/SKILL.md) — methodology that this discovery feeds.
+- [ai-agent-business-case-and-roi](../ai-agent-business-case-and-roi/SKILL.md) — business case inputs.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — agent risk register.
+- [ai-agent-poc-and-pilot-scoping](../ai-agent-poc-and-pilot-scoping/SKILL.md) — shadow / supervised / agentic pilot.
+- [sales-discovery-and-objection-handling](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) — base discovery discipline.

@@ -1,5 +1,7 @@
 # Article Design Reference — Blog Writer Skill
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Every blog article must be visually distinctive, match the tone of its content, and feel like a natural extension of the website's brand. Use the **frontend-design plugin** throughout article page creation for high-quality design decisions.
 
 ---

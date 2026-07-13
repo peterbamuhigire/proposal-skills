@@ -1,5 +1,7 @@
 # Results Frameworks, Indicators, and Theories of Change
 
+Parent skill: [Monitoring and Evaluation](../SKILL.md).
+
 Reference material for the monitoring-and-evaluation skill. Provides detailed guidance on designing results frameworks, selecting and defining indicators, setting baselines and targets, and constructing theories of change. These are the building blocks of any M&E plan.
 
 Sources: UNDP Handbook on Planning, Monitoring and Evaluating for Development Results (2009), ILO Basic Principles of Monitoring and Evaluation, IFRC Handbook for Monitoring and Evaluation (2002), Seasons (2020), Uzbekistan M&E Guide (2025).

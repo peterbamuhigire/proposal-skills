@@ -1,5 +1,7 @@
 # Impact Evaluation and Economic Analysis
 
+Parent skill: [Monitoring and Evaluation](../SKILL.md).
+
 Reference material for the monitoring-and-evaluation skill. Provides detailed guidance on impact evaluation designs, counterfactual analysis, statistical methods, power calculations, data collection, cost-benefit analysis, and economic impact assessment. Use when proposals require impact evaluation components, economic analysis, or rigorous evaluation methodology.
 
 Sources: White & Raitzer (Impact Evaluation of Development Interventions, ADB, 2017), Davis (Regional Economic Impact Analysis and Project Evaluation, UBC Press, 2001).

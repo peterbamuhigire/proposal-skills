@@ -1,10 +1,17 @@
 ---
-name: proposal-writing/07-team-composition
-description: Write the team composition section of a consulting proposal. Use when the user asks to draft the staffing plan, team structure, organogram, CVs, or personnel section of a proposal.
+name: 07-team-composition
+description: Use when drafting staffing, roles, organograms, expert fit, CV framing, availability, or responsibility allocation. Unlike 08-work-plan, this skill proves that the proposed people can execute the methodology; it does not schedule their effort.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Team Composition
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the team composition, staffing, role-allocation, or CV framing section.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile.
 - Verified role definitions, expert biographies, availability, and staffing assumptions.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Staffing criteria, verified CVs, roles, availability, effort, and permissions | Tender pack and authorised expert records | required | Use role requirements only; do not nominate or claim availability. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and identify which roles, qualifications, and forms matter most.
 2. Load the proposer profile and any relevant procurement framework before drafting.
 3. Use the structure below to align the proposed team with the actual work and scoring logic.
@@ -32,12 +45,42 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer clear role logic, evidence of fit, and credible staffing assumptions.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not propose roles that are disconnected from the methodology or work plan.
 - Do not overstate qualifications, availability, or organizational depth.
 - Do not ignore mandatory CV formats or staffing forms.
+- Do not hide role overlap or gaps. Fix: map every methodology workstream and approval to an accountable role.
+- Do not expose unnecessary personal data. Fix: include only authorised, bid-relevant CV evidence.
 
 ## Outputs
-- A proposal-ready team composition section, including role logic and CV framing guidance.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Team structure, role matrix, and CV framing | Evaluator and mobilisation lead | Every role maps to work, effort, qualification evidence, accountability, and verified availability. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Role-to-task and CV evidence map | Traceability matrix | No task lacks accountable ownership and no scored CV claim lacks evidence. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Read and draft only. Do not nominate, publish personal data, promise availability, or commit subcontractors without explicit authority and consent.
+
+## Degraded Mode
+Without verified CVs or availability, return the required team shape and evidence gaps. Do not attach names to unconfirmed roles.
+
+## Decision Rules
+| Need | Action | Risk avoided |
+|---|---|---|
+| Criterion mandates a qualification | Evidence it in the assigned CV | Unsupported score claim |
+| Critical role has no backup | Add deputy or continuity control | Single-person dependency |
+| Effort conflicts with work plan | Reconcile allocation before release | Paper team |
+
+## Worked Example
+For a data-system assignment, map the team lead, data lead, change lead, trainer, and QA reviewer to phases and days; verify CV evidence and avoid double-booked critical roles.
 
 ## SaaS Engagement Team Patterns
 
@@ -82,16 +125,20 @@ When a proposal includes project financial management, donor/grant finance, acco
 - **Internal Controls / Audit Readiness Specialist** where the proposal must withstand board, donor, government, or auditor review.
 - **Client-side Finance Focal Person**: approves budget reallocations, expenditure evidence, financial reports, and audit-file handover.
 
+<!-- dual-compat-end -->
+
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../references/saas-customer-success-engagement-package.md` for customer success role definitions and effort allocations.
-- `../references/saas-gtm-motion-design-reference.md` for sales-team design and capacity planning.
-- `../references/saas-implementation-methodology-blocks.md` for engineering-role naming inside Methodology.
-- `../references/ai-on-saas-team-composition-template.md` for the AI-on-SaaS roster, RACI, ramp curve, and blended-rate table.
-- `../ai-on-saas-team-composition/SKILL.md` for the companion AI-on-SaaS team-composition skill.
-- `../embedded-accounting-engine-proposal/SKILL.md` for accounting-engine staffing, caveats, and acceptance criteria.
-- `../accounting-finance-advisory/SKILL.md` for finance/accounting section staffing and financial-management roles.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../references/saas-customer-success-engagement-package.md](../../profiles-sectors/references/saas-customer-success-engagement-package.md) for customer success role definitions and effort allocations.
+- [../references/saas-gtm-motion-design-reference.md](../../profiles-sectors/references/saas-gtm-motion-design-reference.md) for sales-team design and capacity planning.
+- [../references/saas-implementation-methodology-blocks.md](../../profiles-sectors/references/saas-implementation-methodology-blocks.md) for engineering-role naming inside Methodology.
+- [../references/ai-on-saas-team-composition-template.md](../../profiles-sectors/references/ai-on-saas-team-composition-template.md) for the AI-on-SaaS roster, RACI, ramp curve, and blended-rate table.
+- [../ai-on-saas-team-composition/SKILL.md](../../ai-on-saas-proposals/ai-on-saas-team-composition/SKILL.md) for the companion AI-on-SaaS team-composition skill.
+- [../embedded-accounting-engine-proposal/SKILL.md](../../strategy-positioning/embedded-accounting-engine-proposal/SKILL.md) for accounting-engine staffing, caveats, and acceptance criteria.
+- [../accounting-finance-advisory/SKILL.md](../../domain-delivery/accounting-finance-advisory/SKILL.md) for finance/accounting section staffing and financial-management roles.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 Evaluators assess whether the proposed team has the qualifications, experience, and availability to deliver the assignment. This section typically carries 30–40% of the technical score in QCBS evaluations. Every person named must be credible for the role assigned.

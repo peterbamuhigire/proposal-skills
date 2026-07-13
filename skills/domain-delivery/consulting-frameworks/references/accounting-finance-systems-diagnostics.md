@@ -1,5 +1,7 @@
 # Accounting and Finance Systems Diagnostics
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Use this reference when a proposal concerns bookkeeping improvement, ERP finance, accounting software, POS-to-accounting integration, school fees, healthcare billing, inventory accounting, payroll, tax compliance, finance dashboards, Excel models, or management accounts.
 
 ## Diagnostic Domains

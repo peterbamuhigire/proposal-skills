@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "standard": "Proposal Skills July 2026 zero-debt contract",
+  "expected_active_skill_count": 107,
+  "routing_fixture_count": 18,
+  "routing_top_three_threshold": 1.0,
+  "failure_counts": {}
+}

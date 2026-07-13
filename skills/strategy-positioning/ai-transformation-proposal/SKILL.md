@@ -1,12 +1,15 @@
 ---
 name: ai-transformation-proposal
-description: Use when writing proposals, EOIs, methodologies, technical approaches,
-  work plans, or financial proposals for AI-powered applications, agentic workflows,
-  AI analytics, automation, or digital transformation with AI components.
+description: Use when shaping a proposal for AI applications, analytics, automation, or transformation; use the AI-on-SaaS or AI-agent families when multi-tenancy or autonomous action is the primary deliverable.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI Transformation Proposal
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -92,17 +95,17 @@ When the AI engagement runs on or builds a SaaS platform, layer on SaaS-specific
 
 When the engagement is specifically the build of AI features inside a multi-tenant SaaS product — RAG, copilots, agents, AI analytics, AI-assisted decisioning, AI-generated artefacts inside the SaaS — **branch out of this skill** and use the AI-on-SaaS family:
 
-- `../ai-on-saas-combined-methodology/SKILL.md` — headline methodology (three planes: control, application, AI).
-- `../ai-on-saas-discovery-and-qualification/SKILL.md` — discovery and qualification overlay.
-- `../ai-on-saas-business-case-and-roi/SKILL.md` — AI ROI that resists hype.
-- `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md` — AI pricing patterns inside SaaS pricing.
-- `../ai-on-saas-poc-and-pilot-scoping/SKILL.md` — POC with binary eval criteria.
-- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — AI risk register and Responsible-AI commitment.
-- `../ai-on-saas-compliance-credentials/SKILL.md` — Trust and Compliance for AI.
-- `../ai-on-saas-procurement-and-questionnaire/SKILL.md` — AI procurement questionnaire pack.
-- `../ai-on-saas-change-management-and-adoption/SKILL.md` — AI adoption and HITL design.
-- `../ai-on-saas-team-composition/SKILL.md` — AI-on-SaaS roster (AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI).
-- `../ai-on-saas-vertical-positioning/SKILL.md` — vertical AI plays.
+- [ai-on-saas-combined-methodology](../../ai-on-saas-proposals/ai-on-saas-combined-methodology/SKILL.md) — headline methodology (three planes: control, application, AI).
+- [ai-on-saas-discovery-and-qualification](../../ai-on-saas-proposals/ai-on-saas-discovery-and-qualification/SKILL.md) — discovery and qualification overlay.
+- [ai-on-saas-business-case-and-roi](../../ai-on-saas-proposals/ai-on-saas-business-case-and-roi/SKILL.md) — AI ROI that resists hype.
+- [ai-on-saas-pricing-and-packaging-proposal](../../ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/SKILL.md) — AI pricing patterns inside SaaS pricing.
+- [ai-on-saas-poc-and-pilot-scoping](../../ai-on-saas-proposals/ai-on-saas-poc-and-pilot-scoping/SKILL.md) — POC with binary eval criteria.
+- [ai-on-saas-risk-and-responsible-ai](../../ai-on-saas-proposals/ai-on-saas-risk-and-responsible-ai/SKILL.md) — AI risk register and Responsible-AI commitment.
+- [ai-on-saas-compliance-credentials](../../ai-on-saas-proposals/ai-on-saas-compliance-credentials/SKILL.md) — Trust and Compliance for AI.
+- [ai-on-saas-procurement-and-questionnaire](../../ai-on-saas-proposals/ai-on-saas-procurement-and-questionnaire/SKILL.md) — AI procurement questionnaire pack.
+- [ai-on-saas-change-management-and-adoption](../../ai-on-saas-proposals/ai-on-saas-change-management-and-adoption/SKILL.md) — AI adoption and HITL design.
+- [ai-on-saas-team-composition](../../ai-on-saas-proposals/ai-on-saas-team-composition/SKILL.md) — AI-on-SaaS roster (AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI).
+- [ai-on-saas-vertical-positioning](../../ai-on-saas-proposals/ai-on-saas-vertical-positioning/SKILL.md) — vertical AI plays.
 
 This skill (`ai-transformation-proposal`) remains the right entry point for **generic AI strategy** engagements where there is no SaaS layer (AI consulting, AI agents in a single-tenant context, AI automation in the buyer's own software estate). Once a SaaS layer is in scope, the AI-on-SaaS family takes over.
 
@@ -110,25 +113,95 @@ This skill (`ai-transformation-proposal`) remains the right entry point for **ge
 
 When the engagement delivers one or more AI agents (autonomous LLM systems that plan, call tools, decide, and act on the buyer's behalf), or a multi-agent system, route to the AI-agent family:
 
-- Headline: `../ai-agent-methodology/SKILL.md` — eight-phase agentic methodology (Discover → Action-Catalogue → Architecture for Autonomy → Build → Shadow → Supervised → Agentic → Operate).
-- Discovery: `../ai-agent-discovery-and-qualification/SKILL.md` — Agent-vs-Workflow Filter; autonomy ladder L0–L5; irreversibility tolerance; oversight model.
-- Business case: `../ai-agent-business-case-and-roi/SKILL.md` — tasks-per-FTE with intervention discount; three-scenario ROI keyed to autonomy ramp.
-- Pricing: `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — six agent pricing patterns; intervention credit; vendor cost pass-through.
-- Risk and Responsible-AI: `../ai-agent-risk-and-responsible-ai/SKILL.md` — twelve-entry agent register; Responsible-AI Agent Commitment with named Agent Safety Lead.
-- Procurement: `../ai-agent-procurement-and-questionnaire/SKILL.md` — ten-domain agent answer pack.
-- Vertical: `../ai-agent-vertical-positioning/SKILL.md` — agent plays per vertical with autonomy stance.
+- Headline: [ai-agent-methodology](../../ai-agent-proposals/ai-agent-methodology/SKILL.md) — eight-phase agentic methodology (Discover → Action-Catalogue → Architecture for Autonomy → Build → Shadow → Supervised → Agentic → Operate).
+- Discovery: [ai-agent-discovery-and-qualification](../../ai-agent-proposals/ai-agent-discovery-and-qualification/SKILL.md) — Agent-vs-Workflow Filter; autonomy ladder L0–L5; irreversibility tolerance; oversight model.
+- Business case: [ai-agent-business-case-and-roi](../../ai-agent-proposals/ai-agent-business-case-and-roi/SKILL.md) — tasks-per-FTE with intervention discount; three-scenario ROI keyed to autonomy ramp.
+- Pricing: [ai-agent-pricing-and-packaging-proposal](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) — six agent pricing patterns; intervention credit; vendor cost pass-through.
+- Risk and Responsible-AI: [ai-agent-risk-and-responsible-ai](../../ai-agent-proposals/ai-agent-risk-and-responsible-ai/SKILL.md) — twelve-entry agent register; Responsible-AI Agent Commitment with named Agent Safety Lead.
+- Procurement: [ai-agent-procurement-and-questionnaire](../../ai-agent-proposals/ai-agent-procurement-and-questionnaire/SKILL.md) — ten-domain agent answer pack.
+- Vertical: [ai-agent-vertical-positioning](../../ai-agent-proposals/ai-agent-vertical-positioning/SKILL.md) — agent plays per vertical with autonomy stance.
 
 Use the AI-agent family **with** the AI-on-SaaS family when the agent lives inside a multi-tenant SaaS product.
 
+## Do Not Use When
+
+- Do not use this skill when a neighbouring specialist named in the description owns the primary decision; route there first and use this skill only as a supporting layer.
+- Do not use it to invent buyer facts, evidence, legal positions, statutory rules, delivery capacity, or current external claims.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| AI brief, use cases, data constraints, operating context, and decision criteria | Buyer, ToR, approved project record, accountable owner, or verified evidence source | Yes | Stop the affected decision, name the missing source, and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| AI proposal strategy and method block | Evaluator and delivery lead | Claims trace to supplied evidence; assumptions, owners, exclusions, decisions, and observable acceptance tests are explicit. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Decision and source trace for the output | Reviewer and release owner | Each load-bearing choice identifies its source, rationale, accountable owner, and any unassessed check. |
+
+## Capability Contract
+
+Default to read-only for analysis, critique, discovery, and review. Minimum capability is access to the supplied artefacts and permission to inspect or calculate relevant evidence. Edit only the requested working copy. Do not publish, send, spend, change production systems, certify compliance, make a statutory claim, or approve a commercial concession without explicit authority.
+
+## Degraded Mode
+
+If required files, interviews, finance doctrine, search evidence, calculation tools, network access, or specialist review are unavailable, return the narrowest useful qualified result. Mark unavailable checks as not assessed, separate facts from assumptions, and state what is needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure/risk avoided |
+|---|---|---|
+| Choose generic AI, AI-on-SaaS, or AI-agent route | Classify by tenancy and autonomous-action scope before drafting. | Using a generic AI method for a multi-tenant or action-taking system. |
+| Evidence conflicts or authority is absent | Stop the affected recommendation, record the conflict, and seek the named owner’s decision. | Invented facts or unauthorised commitments. |
+| Evidence and approval are complete | Proceed within scope and retain the decision trace. | Irreproducible approval or scope drift. |
+
+## Workflow
+
+1. Confirm the consumer, decision, neighbouring-skill route, authority, and required inputs; stop if the primary route or accountable owner is unknown.
+2. Inspect supplied evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a load-bearing contradiction.
+3. Apply the domain method and decision rules, preserving the repository’s proposal voice and specialist constraints.
+4. Draft the contracted output with observable acceptance conditions and an evidence trace.
+5. Review alignment with scope, work plan, team, pricing, risk, and dependent proposal sections; recover by revising the affected choice and rerunning the check.
+6. Run the critical-analysis and anti-slop gates; block release on unsupported claims, failed safety or finance gates, or an F slop grade.
+
+## Quality Standards
+
+- Every load-bearing claim is verified or explicitly qualified, and the output distinguishes fact, assumption, recommendation, and commitment.
+- Scope, method, work plan, staffing, pricing, risks, dependencies, and acceptance conditions remain mutually consistent.
+- The output preserves domain constraints, names accountable owners, covers failure paths, and blocks unsupported or unauthorised promises.
+- British English and the repository’s East African professional tone are used unless the buyer requires another standard.
+- The critical-analysis and anti-slop gates pass before release, with no unassessed check represented as passed.
+
+## Anti-Patterns
+
+- Inventing a buyer fact or proof point. Fix: cite the supplied source or mark the statement as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and name the evidence needed to resume.
+- Copying a neighbouring skill’s method without routing. Fix: use the specialist for the primary decision and retain only the supporting layer here.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: state an observable measure, evidence record, and decision owner.
+- Adding premium or technical claims without delivery capacity. Fix: reconcile the claim with named people, time, budget, dependencies, and authority.
+
+## Worked Example
+
+A buyer wants document classification and a supervisor copilot, with no autonomous actions. Use this skill, define evaluation and human review, and do not import agentic autonomy claims.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/technical-strategy-credibility-checklist.md` - technical strategy, SaaS, cloud, AI, roadmap, and operations credibility checks.
-- `../references/discovery-question-bank-for-proposals.md` - AI use-case, data, workflow, governance, and support discovery.
-- `../references/proposal-objection-handling.md` - responses to AI quality, cost, risk, data, support, and procurement objections.
-- `../references/saas-multi-tenant-architecture-block.md` - tenant isolation for AI features.
-- `../references/saas-implementation-methodology-blocks.md` - methodology blocks where AI workstreams slot in.
-- `../references/saas-trust-and-compliance-section-template.md` - trust posture for AI-on-SaaS.
-- `../premium-pricing-and-value-defense/SKILL.md` - premium AI fee justification and commercial options.
-- `../customer-service-and-maintenance-proposals/SKILL.md` - AI operations, support, maintenance, and escalation language.
-- `../saas-implementation-methodology/SKILL.md` - SaaS implementation methodology that AI workstreams slot into.
-- `../saas-multi-tenant-architecture-credibility-block/SKILL.md` - architectural literacy for AI-on-SaaS bids.
+- [technical-strategy-credibility-checklist](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) - technical strategy, SaaS, cloud, AI, roadmap, and operations credibility checks.
+- [discovery-question-bank-for-proposals](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) - AI use-case, data, workflow, governance, and support discovery.
+- [proposal-objection-handling](../../profiles-sectors/references/proposal-objection-handling.md) - responses to AI quality, cost, risk, data, support, and procurement objections.
+- [saas-multi-tenant-architecture-block](../../profiles-sectors/references/saas-multi-tenant-architecture-block.md) - tenant isolation for AI features.
+- [saas-implementation-methodology-blocks](../../profiles-sectors/references/saas-implementation-methodology-blocks.md) - methodology blocks where AI workstreams slot in.
+- [saas-trust-and-compliance-section-template](../../profiles-sectors/references/saas-trust-and-compliance-section-template.md) - trust posture for AI-on-SaaS.
+- [premium-pricing-and-value-defense](../premium-pricing-and-value-defense/SKILL.md) - premium AI fee justification and commercial options.
+- [customer-service-and-maintenance-proposals](../customer-service-and-maintenance-proposals/SKILL.md) - AI operations, support, maintenance, and escalation language.
+- [saas-implementation-methodology](../../saas-proposals/saas-implementation-methodology/SKILL.md) - SaaS implementation methodology that AI workstreams slot into.
+- [saas-multi-tenant-architecture-credibility-block](../../saas-proposals/saas-multi-tenant-architecture-credibility-block/SKILL.md) - architectural literacy for AI-on-SaaS bids.

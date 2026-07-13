@@ -1,3 +1,5 @@
+Parent skill: [Energy and Environment](../SKILL.md).
+
 ---
 name: uganda-energy-sector
 description: Uganda energy sector profile from AfDB CDN 2025 and UN Country Analysis 2025 — generation capacity, access rates, demand projections, clean cooking, constraints, and reform priorities

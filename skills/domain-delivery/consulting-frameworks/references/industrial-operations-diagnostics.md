@@ -1,5 +1,7 @@
 # Industrial Operations Diagnostics
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Use this reference when a proposal concerns manufacturing, food processing, warehousing, inventory management, ERP/MES/WMS/TMS, production planning, distribution, facilities layout, material handling, or operational sustainability.
 
 ## Diagnostic Domains

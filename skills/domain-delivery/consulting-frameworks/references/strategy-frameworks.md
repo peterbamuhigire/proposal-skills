@@ -1,5 +1,7 @@
 # Strategy Frameworks
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Frameworks for strategy, market entry, growth, competitive positioning, and acquisition assignments. Use when the ToR involves strategic advisory, market analysis, or institutional transformation.
 
 ---

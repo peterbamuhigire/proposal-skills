@@ -1,5 +1,7 @@
 # Accounting Engine Positioning
 
+Parent skill: [Embedded Accounting Engine Proposal](../SKILL.md).
+
 ## Why It Matters
 
 Most operating systems create transactions first and ask finance to reconcile later. The proposed architecture removes that gap: the operational event and the accounting consequence are one controlled workflow.

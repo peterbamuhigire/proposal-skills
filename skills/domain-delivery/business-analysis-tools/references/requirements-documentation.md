@@ -1,5 +1,7 @@
 # Requirements Documentation
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Standards, formats, and quality criteria for documenting requirements. Relevant to proposal sections that describe how the firm will capture, test, trace, and package client requirements for delivery teams and decision-makers.
 
 Synthesised from PMI business analysis guidance and Robertson & Robertson's requirements practice.

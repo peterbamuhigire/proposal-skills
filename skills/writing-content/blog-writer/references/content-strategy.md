@@ -1,5 +1,7 @@
 # Content Strategy Reference — Blog Writer Skill
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Principles distilled from *Faster, Smarter, Louder* (Agius/Clancey) and *7 Steps to Better Writing* (Maxwell). This reference governs the strategic purpose behind every article — why we write, who we write for, and how each article serves Peter's business.
 
 ---

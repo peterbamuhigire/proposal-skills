@@ -1,3 +1,5 @@
+Parent skill: [Governance and Public Sector Reform](../SKILL.md).
+
 ---
 name: uganda-governance-sector
 description: Uganda governance sector profile from AfDB CDN 2025 — PFM reforms, governance indicators, SOEs, fiscal management, procurement, fragility, and reform priorities

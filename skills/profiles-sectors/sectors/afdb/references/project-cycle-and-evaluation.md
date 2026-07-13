@@ -1,5 +1,7 @@
 # AfDB Project Cycle and Evaluation
 
+Parent skill: [African Development Bank Procurement Framework](../SKILL.md).
+
 Reference material for the afdb sector skill. Covers the AfDB project cycle, Project Completion Report (PCR) structure, Independent Development Evaluation (IDEV) framework, OECD-DAC evaluation criteria, the 4-point rating scale, sustainability assessment, and the Project Assessment Report (PAR) template.
 
 Sources: AfDB Operations Manual, IDEV Evaluation Policy, IDEV Evaluation Guidelines, AfDB PCR Guidelines, OECD-DAC Evaluation Criteria (2019 revision).

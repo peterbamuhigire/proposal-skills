@@ -1,5 +1,7 @@
 # Prompting Patterns for Skill Creation
 
+Parent skill: [Skill Writing](../SKILL.md).
+
 **Purpose:** When creating new skills, incorporate prompting patterns to make skills that generate better instructions/plans for AI agents.
 
 **Applies to:** Skills that create plans, specifications, or instructions for Claude to follow

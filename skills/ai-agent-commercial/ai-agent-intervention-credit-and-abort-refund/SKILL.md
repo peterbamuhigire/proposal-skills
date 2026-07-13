@@ -1,10 +1,15 @@
 ---
 name: ai-agent-intervention-credit-and-abort-refund
-description: Use when drafting the intervention-credit logic and the abort-and-refund clauses of an agent commercial structure. Provides the intervention-credit formula (per-resolution price reduced when intervention rate exceeds the agreed ceiling), the credit cap, the customer-facing monthly statement format, and the abort-and-refund triggers (irreversible-action incident at agency fault, intervention overshoot, regulator action, model-provider sustained outage). Pairs with `ai-agent-sla-and-credit-schedule` and `ai-agent-success-fee-and-outcome-pricing`.
+description: Use when defining intervention credits, abort rights, or refund mechanics for an agent engagement; use the SLA skill for broader credits and the outcome-pricing skill for success fees.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Intervention Credit and Abort-Refund
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -19,7 +24,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The pricing pattern is per-step or per-agent with included volume and no intervention sensitivity.
 - The engagement is a fixed-fee build with no operational agent.
 
-## Required Inputs
+## Domain Inputs
 
 - The intervention rate ceiling (from the autonomy ramp curve).
 - The pricing pattern and the unit price.
@@ -29,7 +34,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The list of refund triggers the agency is willing to commit to.
 - The pro-rata refund formula.
 
-## Workflow
+## Domain Method
 
 1. Set the **intervention rate ceiling** per the autonomy ramp curve. The ceiling should be a number the agent is expected to be inside of, with margin — not a stretch number.
 2. Write the **intervention-credit formula** — when monthly intervention rate exceeds the ceiling, the buyer receives a credit on the units billed for that month.
@@ -113,7 +118,7 @@ For multi-tenant engagements, refunds are computed per affected tenant. For mult
 - The audit log is the evidence source for every trigger.
 - The agency has stress-tested the credit exposure against margin floor.
 
-## Anti-Patterns
+## Domain Risks
 
 - "We will work with the Buyer in good faith on intervention" — buyer reads no credit.
 - Credit formula with no cap — margin floor blown.
@@ -124,7 +129,7 @@ For multi-tenant engagements, refunds are computed per affected tenant. For mult
 - Audit log absent as evidence — disputes default to the louder party.
 - Intervention rate ceiling set at the autonomy stretch target — agency credit-bleeds while the ramp is still climbing.
 
-## Outputs
+## Domain Outputs
 
 - Intervention Credit Clause (drop-in).
 - Abort-and-Refund Clause (drop-in).
@@ -133,12 +138,70 @@ For multi-tenant engagements, refunds are computed per affected tenant. For mult
 - Customer-Facing Monthly Statement Template.
 - Stress-test memo against margin floor.
 
+## Anti-Patterns
+
+- Quoting an unverified commercial term. Fix: trace it to the approved brief or contract record and label any unresolved variable.
+- Billing an attempted task as a completed outcome. Fix: define the eligible event, exclusions, reversal window, and evidence source.
+- Leaving credits, refunds, or liability uncapped. Fix: state the eligible fee base, cap, trigger, exclusions, and approval owner.
+- Updating one exhibit while dependent terms still conflict. Fix: reconcile pricing, SLA, credit, refund, renewal, and liability provisions together.
+- Removing a legal placeholder without authority. Fix: retain the marker, name the decision owner, and require qualified review before issue.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| priced task definition, intervention evidence, and fault allocation | Buyer, proposal owner, approved contract record, or measured operating evidence | Yes | Stop before making a commitment; list the missing evidence and provide only a qualified option set. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Intervention-credit schedule and abort/refund clause | Finance, legal, and contract operations | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| intervention-credit schedule and abort/refund clause | Finance, legal, and contract operations | Assumptions, measures, authority, exclusions, and acceptance tests are explicit and traceable to the supplied evidence. |
+
+## Capability Contract
+
+Minimum capability is read access to the approved commercial record and calculation support for any stated formula. Drafting authority permits edits only inside the requested proposal or contract working copy. Do not sign, publish, spend, change production configuration, concede liability, or represent legal approval without explicit authority. Legal and tax conclusions require qualified review.
+
+## Degraded Mode
+
+Fallback when tools are unavailable: use the qualified path below.
+
+If source terms, telemetry, calculation tools, or legal review are unavailable, return the narrowest useful marked draft: identify unverified variables, preserve placeholders, show the calculation method where possible, and mark each unavailable check as not assessed. Never convert missing evidence into approval.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Apply credit or abort remedy | Test measured intervention and incident evidence against agreed triggers and caps. | Double recovery or an unsupported refund. |
+| Evidence is incomplete or positions conflict | Stop commitment drafting, record the conflict, and request the named owner’s decision. | Invented terms, double recovery, or an unauthorised concession. |
+| Evidence and authority are complete | Draft, cross-check dependent exhibits, and retain the calculation or clause trace. | An internally inconsistent commercial package. |
+
+## Workflow
+
+1. Confirm the consumer, authority, controlling commercial record, and required inputs; stop when a baseline or accountable owner is missing.
+2. Reproduce relevant calculations and identify conflicts across pricing, SLA, credit, refund, renewal, liability, and scope; stop when a formula cannot be reproduced.
+3. Apply the domain method and decision rules within delegated authority, recording assumptions and exclusions.
+4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
+5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+Monthly intervention is 14% against a 10% ceiling. Apply the agreed formula to the eligible fee base, cap the credit, and retain the evidence line used in the customer statement.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-credit-and-refund-clauses.md` — drop-in language.
-- `../references/ai-agent-abandonment-and-refund-policy-template.md` — customer-facing policy.
-- `../references/ai-agent-pricing-models-reference.md` — pattern-by-pattern intervention credit examples.
-- `../references/ai-agent-sla-exhibit-template.md` — SLA exhibit alignment.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA class and credit cap consistency.
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — patterns.
-- `../ai-agent-business-case-and-roi/SKILL.md` — downside scenario sizing.
+- [ai-agent-credit-and-refund-clauses](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — drop-in language.
+- [ai-agent-abandonment-and-refund-policy-template](../../profiles-sectors/references/ai-agent-abandonment-and-refund-policy-template.md) — customer-facing policy.
+- [ai-agent-pricing-models-reference](../../profiles-sectors/references/ai-agent-pricing-models-reference.md) — pattern-by-pattern intervention credit examples.
+- [ai-agent-sla-exhibit-template](../../profiles-sectors/references/ai-agent-sla-exhibit-template.md) — SLA exhibit alignment.
+- [ai-agent-sla-and-credit-schedule](../ai-agent-sla-and-credit-schedule/SKILL.md) — SLA class and credit cap consistency.
+- [ai-agent-pricing-and-packaging-proposal](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) — patterns.
+- [ai-agent-business-case-and-roi](../../ai-agent-proposals/ai-agent-business-case-and-roi/SKILL.md) — downside scenario sizing.

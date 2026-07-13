@@ -1,11 +1,17 @@
 ---
 name: ai-on-saas-business-case-and-roi
-description: Use when the AI-on-SaaS proposal must present an AI ROI that survives a sceptical CFO. Provides cost-of-poor-quality reduction, agent-productivity uplift with caveats, AI-tier upsell revenue, payback that accounts for token costs, eval-margin, and downside scenarios including regulator and hallucination liability. Extends `saas-business-case-and-roi-modeling` with the AI overlay (cost-of-tokens, eval-margin, AI uplift, payback, downside).
+description: Use when an AI-on-SaaS proposal needs a CFO-grade ROI model that includes model usage, evaluation cost, risk-adjusted benefits, and downside scenarios; use the base SaaS ROI skill when no AI cost or quality variables apply.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # AI-on-SaaS Business Case and ROI
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 
 - The proposal must present an AI business case to a CFO, board, or investment committee.
@@ -21,15 +27,17 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Required Inputs
 
-- Baseline operating metric per affected workflow (cycle time, error rate, cost per case).
-- Volume of the affected workflow per month and per tenant.
-- Cost of poor quality today (rework, escalation, refund, fine, churn).
-- Headcount cost and ramp curve for the AI-augmented workflow.
-- Token / model-call price for the candidate model providers (and the fallback).
-- Eval set size, labelling cost, and refresh cadence.
-- The AI-tier upsell hypothesis (price, attach rate, churn delta).
-- The buyer's regulator exposure (downside).
-- FX assumptions where relevant (KES, NGN, ZAR, UGX, RWF, USD billing).
+| Artefact or fact | Required? | Source/provider | If absent |
+|---|---|---|---|
+| Baseline operating metric per affected workflow (cycle time, error rate, cost per case). | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| Volume of the affected workflow per month and per tenant. | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| Cost of poor quality today (rework, escalation, refund, fine, churn). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| Headcount cost and ramp curve for the AI-augmented workflow. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| Token / model-call price for the candidate model providers (and the fallback). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| Eval set size, labelling cost, and refresh cadence. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The AI-tier upsell hypothesis (price, attach rate, churn delta). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's regulator exposure (downside). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| FX assumptions where relevant (KES, NGN, ZAR, UGX, RWF, USD billing). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
 
 ## Workflow
 
@@ -43,6 +51,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 8. Write the **Downside Scenarios**: (a) regulator changes tier classification; (b) hallucination liability event; (c) model-provider price increase or ban; (d) eval drift not caught; (e) AI-tier upsell flops; (f) sovereign-AI mandate. Each has a financial number and a mitigation that ties back to the methodology and Responsible-AI commitment.
 9. Output the **AI Business Case Memo** in the buyer's preferred shape (CFO one-pager, board memo, investment-committee deck).
 
+
+**Stop condition:** Stop before asserting scope, compliance, value, acceptance, or readiness when a load-bearing input is missing or contradicted.
+
+**Recovery:** Record the gap, owner, and next evidence step; then return the narrowest qualified proposal content that remains supportable.
+
 ## Quality Standards
 
 - The value stack and the cost stack are presented side by side; the net is computed transparently.
@@ -55,36 +68,69 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Anti-Patterns
 
-- "AI will save you 30 %" with no scenario, no cost stack, no caveat.
-- Token cost omitted because "it is a cloud cost."
-- Eval cost omitted because "the model will be fine."
-- Payback computed without the cost of running the model.
-- AI-tier upsell modelled at 100 % attach rate.
-- Hallucination liability treated as "we will display a disclaimer," not as a downside dollar figure.
-- FX assumption left implicit when revenue is local and costs are USD.
+- "AI will save you 30 %" with no scenario, no cost stack, no caveat. **Fix:** Model low, base, and high benefit scenarios from a named baseline, and include operating and risk costs.
+- Token cost omitted because "it is a cloud cost." **Fix:** Attribute model, embedding, storage, and gateway cost per tenant and include P50, P90, and P99 usage.
+- Eval cost omitted because "the model will be fine." **Fix:** Budget golden-set maintenance, regression runs, red-team work, and human review as recurring evaluation cost.
+- Payback computed without the cost of running the model. **Fix:** Recalculate payback using implementation cost plus model, evaluation, MLOps, support, and change costs.
+- AI-tier upsell modelled at 100 % attach rate. **Fix:** Use evidence-backed attach-rate scenarios and show the break-even attach rate rather than assuming universal uptake.
+- Hallucination liability treated as "we will display a disclaimer," not as a downside dollar figure. **Fix:** Estimate exposure by incident frequency, severity, redress cost, and mitigation; do not treat a disclaimer as control.
+- FX assumption left implicit when revenue is local and costs are USD. **Fix:** State the pricing currency, model-cost currency, FX source, sensitivity band, and contractual adjustment rule.
 
 ## Outputs
 
-- AI Value Stack table.
-- AI Cost Stack table.
-- Eval-Margin calculation.
-- Cost-of-Tokens per Tenant table (P50, P90, P99).
-- Three-scenario ROI table (downside, base, upside) with caveats.
-- Payback (months) and NPV (36 months) with sensitivity.
-- Downside Scenarios section with mitigations.
-- AI Business Case Memo in the buyer's preferred shape.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| AI Value Stack table. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| AI Cost Stack table. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Eval-Margin calculation. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Cost-of-Tokens per Tenant table (P50, P90, P99). | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Three-scenario ROI table (downside, base, upside) with caveats. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Payback (months) and NPV (36 months) with sensitivity. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Downside Scenarios section with mitigations. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| AI Business Case Memo in the buyer's preferred shape. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
 
 ## Agent Overlay
 
 For agentic engagements, the AI Value Stack adds **tasks-per-FTE saved with intervention discount**, **AHT reduction with quality cap**, **deflection rate**, and **time-to-resolution**; the AI Cost Stack adds **oversight cost per task**, **scope-creep cost**, **intervention overhead**, and **insurance differential for agentic actions**; and the downside scenarios add **irreversible-action incident**, **regulator action on agentic system**, and **escalation overload**. Three scenarios are keyed to **autonomy ramp**, not just demand variation. Load `../ai-agent-business-case-and-roi/SKILL.md` for the agent-specific formulas and worked examples.
 
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Input-and-assumption record | Proposal lead and reviewer | Every load-bearing claim maps to a source, approved assumption, or explicit gap. |
+| Decision and review record | Buyer owner and delivery lead | The selected option, rationale, owner, stop condition, and approval status are visible. |
+| Section acceptance check | Evaluator-readiness reviewer | Each output meets its stated acceptance condition and unresolved checks are not presented as passed. |
+
+## Capability and Permission Boundaries
+
+This skill may read supplied tender, discovery, architecture, commercial, security, and operating evidence and draft proposal artefacts within the authorised workspace. It must not publish, send, certify compliance, accept contractual terms, change production systems, spend funds, or disclose confidential evidence without explicit authority. Review and analysis remain read-only by default.
+
+## Degraded Mode
+
+If files, current legal or technical evidence, calculation tools, network access, or reviewers are unavailable, produce the narrowest useful qualified draft. Label assumptions and checks as **not assessed**, omit unsupported assurances or figures, and state the exact evidence and owner needed to complete the work. An unavailable check never becomes a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Baseline evidence | Use ranges and label assumptions; request source data before claiming ROI | False precision and indefensible payback |
+| Missing load-bearing evidence | Stop the affected claim, record the gap and owner, and continue only with separable supported content. | Fabricated assurance or hidden dependency |
+| Conflicting buyer and supplier evidence | Surface the conflict for decision; do not silently choose the favourable version. | Misaligned scope, price, or acceptance |
+| Irreversible, contractual, publishing, or production action | Obtain explicit authority and preserve an approval record before acting. | Unauthorised commitment or mutation |
+
+## Worked Example
+
+If assisted-resolution volume is known but baseline accuracy and review time are not, show the value formula and sensitivity range without claiming savings; assign the missing measurements to the pilot owner.
+
 ## References
 
-- `../references/ai-on-saas-business-case-template.md` — formulas, worked examples, FX handling.
-- `../references/ai-on-saas-metrics-glossary.md` — definitions used in the case.
-- `../references/saas-business-case-and-roi-template.md` — base SaaS business case template.
-- `../saas-business-case-and-roi-modeling/SKILL.md` — base SaaS business case skill.
-- `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md` — pricing patterns that drive revenue inputs.
-- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — risks that drive downside scenarios.
-- `../10-financial-proposal/SKILL.md` — financial proposal placement.
-- `../premium-pricing-and-value-defense/SKILL.md` — fee defence at the close.
+- [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+<!-- dual-compat-end -->
+- [../references/ai-on-saas-business-case-template.md](../../profiles-sectors/references/ai-on-saas-business-case-template.md) — formulas, worked examples, FX handling.
+- [../references/ai-on-saas-metrics-glossary.md](../../profiles-sectors/references/ai-on-saas-metrics-glossary.md) — definitions used in the case.
+- [../references/saas-business-case-and-roi-template.md](../../profiles-sectors/references/saas-business-case-and-roi-template.md) — base SaaS business case template.
+- [../saas-business-case-and-roi-modeling/SKILL.md](../../saas-proposals/saas-business-case-and-roi-modeling/SKILL.md) — base SaaS business case skill.
+- [../ai-on-saas-pricing-and-packaging-proposal/SKILL.md](../ai-on-saas-pricing-and-packaging-proposal/SKILL.md) — pricing patterns that drive revenue inputs.
+- [../ai-on-saas-risk-and-responsible-ai/SKILL.md](../ai-on-saas-risk-and-responsible-ai/SKILL.md) — risks that drive downside scenarios.
+- [../10-financial-proposal/SKILL.md](../../pipeline/10-financial-proposal/SKILL.md) — financial proposal placement.
+- [../premium-pricing-and-value-defense/SKILL.md](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) — fee defence at the close.

@@ -1,10 +1,15 @@
 ---
 name: ai-agent-sla-and-credit-schedule
-description: Use when the AI-agent proposal must commit to a Service Level Agreement with a credit schedule, tied to availability, task-success, intervention rate, and time-to-resolve. Provides the Bronze / Silver / Gold / Platinum SLA class table, credit formulas, service-credit cap, out-clauses for upstream model-provider force-majeure, customer-fault exclusions, and the kill-switch and audit-log SLAs. Extends `customer-service-and-maintenance-proposals` and `saas-msa-dpa-sla-template-language` with the agent overlay.
+description: Use when defining an agent SLA and service-credit schedule for availability, task success, intervention rate, resolution time, kill-switch response, or audit-log access.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent SLA and Credit Schedule
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -19,7 +24,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The engagement is non-agent SaaS (use the SaaS SLA section of `saas-msa-dpa-sla-template-language`).
 - The engagement is a fixed-fee consulting study with no operational agent.
 
-## Required Inputs
+## Domain Inputs
 
 - The four operational metrics the agent will be measured against (availability, task-success, intervention rate, time-to-resolve) with baseline observed in pilot.
 - The autonomy ramp curve from `ai-agent-pricing-and-packaging-proposal` and `ai-agent-methodology`.
@@ -30,7 +35,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Model-provider concentration (which providers, what their own SLAs are, what their force-majeure terms are).
 - Regulator-specific SLA constraints (e.g. CBK / CBN / SARB conduct rules, public-sector citizen-redress timelines, clinical-safety rules in healthcare).
 
-## Workflow
+## Domain Method
 
 1. Decide the **SLA class** the buyer is buying — Bronze (entry), Silver (standard), Gold (regulated), Platinum (mission-critical). The class drives the metric thresholds, the credit percentages, the report cadence, and the termination right.
 2. Commit each of the **four agent SLA metrics** to a number per class:
@@ -66,7 +71,7 @@ Plus three operational guardrails:
 | Audit-log completeness | ≥ 99.9 % for Platinum, ≥ 99.5 % for Gold, ≥ 99 % for Silver. Replay available within 15 min for Platinum, 1 hr for Gold. |
 | Intervention SLA | Time-to-human ≤ 60 s for Platinum, ≤ 5 min for Gold, ≤ 15 min for Silver. |
 
-See `../references/ai-agent-sla-class-table.md` for the full thresholds and credit schedule.
+See [ai-agent-sla-class-table](../../profiles-sectors/references/ai-agent-sla-class-table.md) for the full thresholds and credit schedule.
 
 ## The Three Out-Clauses
 
@@ -98,7 +103,7 @@ The default is stepped with a class cap. Linear looks fair but lets large misses
 - The monthly statement shape is described — the buyer can see what would be reported every month before signature.
 - The SLA does not promise an availability number the agent's infrastructure cannot prove; the methodology, the audit-log, the kill-switch, and the model-routing posture support every commitment.
 
-## Anti-Patterns
+## Domain Risks
 
 - "99.9 % uptime" as the only SLA on an agent — uptime is the floor, not the product.
 - Task-success rate without a binary definition per task class.
@@ -109,26 +114,84 @@ The default is stepped with a class cap. Linear looks fair but lets large misses
 - Credit cap absent or unbounded — margin floor blown.
 - Discretionary credits ("we will work with you in good faith") — procurement reads this as no credit.
 
-## Outputs
+## Domain Outputs
 
-- **Agent SLA Exhibit** for the MSA / SoW (drop-in from `../references/ai-agent-sla-exhibit-template.md`).
-- **SLA Class Table** populated for this engagement (from `../references/ai-agent-sla-class-table.md`).
+- **Agent SLA Exhibit** for the MSA / SoW (drop-in from [ai-agent-sla-exhibit-template](../../profiles-sectors/references/ai-agent-sla-exhibit-template.md)).
+- **SLA Class Table** populated for this engagement (from [ai-agent-sla-class-table](../../profiles-sectors/references/ai-agent-sla-class-table.md)).
 - **Credit Schedule** drafted per metric.
 - **Out-Clauses** drafted (force-majeure, customer-fault, regulator-pause).
 - **Monthly SLA Statement** template the buyer will receive.
 - **Termination-Right** clause.
 
+## Anti-Patterns
+
+- Quoting an unverified commercial term. Fix: trace it to the approved brief or contract record and label any unresolved variable.
+- Billing an attempted task as a completed outcome. Fix: define the eligible event, exclusions, reversal window, and evidence source.
+- Leaving credits, refunds, or liability uncapped. Fix: state the eligible fee base, cap, trigger, exclusions, and approval owner.
+- Updating one exhibit while dependent terms still conflict. Fix: reconcile pricing, SLA, credit, refund, renewal, and liability provisions together.
+- Removing a legal placeholder without authority. Fix: retain the marker, name the decision owner, and require qualified review before issue.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| service scope, telemetry definitions, dependencies, and risk appetite | Buyer, proposal owner, approved contract record, or measured operating evidence | Yes | Stop before making a commitment; list the missing evidence and provide only a qualified option set. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| SLA schedule and credit model | Operations, legal, and procurement | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| SLA schedule and credit model | Operations, legal, and procurement | Assumptions, measures, authority, exclusions, and acceptance tests are explicit and traceable to the supplied evidence. |
+
+## Capability Contract
+
+Minimum capability is read access to the approved commercial record and calculation support for any stated formula. Drafting authority permits edits only inside the requested proposal or contract working copy. Do not sign, publish, spend, change production configuration, concede liability, or represent legal approval without explicit authority. Legal and tax conclusions require qualified review.
+
+## Degraded Mode
+
+Fallback when tools are unavailable: use the qualified path below.
+
+If source terms, telemetry, calculation tools, or legal review are unavailable, return the narrowest useful marked draft: identify unverified variables, preserve placeholders, show the calculation method where possible, and mark each unavailable check as not assessed. Never convert missing evidence into approval.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Set SLA class and remedy | Choose measurable commitments supported by telemetry, staffing, exclusions, and credit affordability. | Unmeasurable promise or uncapped exposure. |
+| Evidence is incomplete or positions conflict | Stop commitment drafting, record the conflict, and request the named owner’s decision. | Invented terms, double recovery, or an unauthorised concession. |
+| Evidence and authority are complete | Draft, cross-check dependent exhibits, and retain the calculation or clause trace. | An internally inconsistent commercial package. |
+
+## Workflow
+
+1. Confirm the consumer, authority, controlling commercial record, and required inputs; stop when a baseline or accountable owner is missing.
+2. Reproduce relevant calculations and identify conflicts across pricing, SLA, credit, refund, renewal, liability, and scope; stop when a formula cannot be reproduced.
+3. Apply the domain method and decision rules within delegated authority, recording assumptions and exclusions.
+4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
+5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+The buyer needs 99.5% availability and a 15-minute kill-switch response. Select the supported class, define measurement windows and exclusions, then model the worst credit month.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-sla-class-table.md` — full Bronze / Silver / Gold / Platinum thresholds and credit schedule.
-- `../references/ai-agent-sla-exhibit-template.md` — drop-in SLA exhibit.
-- `../references/ai-agent-credit-and-refund-clauses.md` — credit and refund clauses.
-- `../references/ai-agent-dispute-resolution-and-audit-rights.md` — SLA dispute mechanics and audit rights.
-- `../references/ai-agent-sla-financial-services.md` — FS variant.
-- `../references/ai-agent-sla-public-sector.md` — public-sector variant.
-- `../references/ai-agent-sla-healthcare.md` — healthcare variant.
-- `../references/saas-msa-dpa-sla-template-language.md` — base SaaS MSA / DPA / SLA.
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — pricing patterns the credits attach to.
-- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` — intervention-credit mechanics.
-- `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` — MSA addendum.
-- `../customer-service-and-maintenance-proposals/SKILL.md` — generic SLA frame.
+- [ai-agent-sla-class-table](../../profiles-sectors/references/ai-agent-sla-class-table.md) — full Bronze / Silver / Gold / Platinum thresholds and credit schedule.
+- [ai-agent-sla-exhibit-template](../../profiles-sectors/references/ai-agent-sla-exhibit-template.md) — drop-in SLA exhibit.
+- [ai-agent-credit-and-refund-clauses](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — credit and refund clauses.
+- [ai-agent-dispute-resolution-and-audit-rights](../../profiles-sectors/references/ai-agent-dispute-resolution-and-audit-rights.md) — SLA dispute mechanics and audit rights.
+- [ai-agent-sla-financial-services](../../profiles-sectors/references/ai-agent-sla-financial-services.md) — FS variant.
+- [ai-agent-sla-public-sector](../../profiles-sectors/references/ai-agent-sla-public-sector.md) — public-sector variant.
+- [ai-agent-sla-healthcare](../../profiles-sectors/references/ai-agent-sla-healthcare.md) — healthcare variant.
+- [saas-msa-dpa-sla-template-language](../../profiles-sectors/references/saas-msa-dpa-sla-template-language.md) — base SaaS MSA / DPA / SLA.
+- [ai-agent-pricing-and-packaging-proposal](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) — pricing patterns the credits attach to.
+- [ai-agent-intervention-credit-and-abort-refund](../ai-agent-intervention-credit-and-abort-refund/SKILL.md) — intervention-credit mechanics.
+- [ai-agent-msa-and-sla-addendum-templates](../ai-agent-msa-and-sla-addendum-templates/SKILL.md) — MSA addendum.
+- [customer-service-and-maintenance-proposals](../../strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md) — generic SLA frame.

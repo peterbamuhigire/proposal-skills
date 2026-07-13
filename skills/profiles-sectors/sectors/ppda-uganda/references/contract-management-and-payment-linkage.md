@@ -1,5 +1,7 @@
 # Contract-Management and Payment Linkage
 
+Parent skill: [Uganda PPDA Procurement Framework](../SKILL.md).
+
 Reference material for the ppda-uganda sector skill. Closes the financial-accountability gap in a Form 49 Contract Management Plan: how milestone payments, retention, performance and advance-payment security, and funds-flow reconciliation are structured so that what is delivered, what is certified, and what is paid stay aligned. Applies to PPDA central, local-government, and (in adapted form) donor-funded contracts.
 
 Sources: PPDA Act (Cap. 205, as amended) and Regulations; PPDA Form 49 (Contract Management Plan); Local Governments (Financial and Accounting) Regulations 2007 (SI 25/2007) commitment/vote control; donor disbursement and fiduciary frameworks. For underlying finance substance see the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.

@@ -1,5 +1,7 @@
 # Project Controls and Earned Value Reference
 
+Parent skill: [Project Management](../SKILL.md).
+
 Synthesised from: Lewis (*Project Planning, Scheduling & Control*, 6th ed.), Weiler & Serna (*Practical Strategies for Applied Budgeting and Fiscal Administration*, 2016).
 
 This reference covers project tracking, performance measurement, scheduling techniques, and control frameworks for use in methodology sections, work plans, and project management plans.

@@ -1,5 +1,7 @@
 # TECH and FIN Forms Guide — World Bank Standard RFP for Consulting Services
 
+Parent skill: [World Bank Procurement Framework — Consulting Services](../SKILL.md).
+
 Complete guide to each standard form in a World Bank consulting proposal. Each form maps to a proposal section skill; this reference covers the World Bank-specific requirements and best practices for each form.
 
 ---

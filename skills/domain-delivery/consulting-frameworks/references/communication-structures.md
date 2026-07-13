@@ -1,5 +1,7 @@
 # Communication and Presentation Structures
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Frameworks for structuring deliverables, recommendations, experience narratives, data interpretation, and qualitative analysis. Use when designing how consulting outputs will be presented to clients.
 
 ---

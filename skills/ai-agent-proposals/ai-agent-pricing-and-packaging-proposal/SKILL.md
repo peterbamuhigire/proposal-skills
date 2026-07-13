@@ -1,10 +1,15 @@
 ---
 name: ai-agent-pricing-and-packaging-proposal
-description: Use when the AI-agent proposal must price and package agent capability. Provides the six agent pricing patterns (per-resolution / per-outcome / per-step / per-agent / hybrid / success-based) with worked examples, intervention-credit reductions, vendor-cost-pass-through clauses, fair-use specific to agentic actions, model-price-volatility protection, abort and refund triggers, and FX clauses. Extends `ai-on-saas-pricing-and-packaging-proposal` with the agent overlay; replaces it when the engagement is stand-alone agentic.
+description: Use when selecting and presenting per-resolution, per-outcome, per-step, per-agent, hybrid, or success-based pricing for an AI agent; use commercial-layer skills for contract exhibits.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Pricing and Packaging Proposal
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -19,7 +24,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The pricing is for a non-agent SaaS or AI feature (use `saas-pricing-and-packaging-proposal` or `ai-on-saas-pricing-and-packaging-proposal`).
 - The engagement is fee-for-service AI consulting with no recurring agentic operations.
 
-## Required Inputs
+## Domain Inputs
 
 - The Agent Value Stack and Agent Cost Stack from `ai-agent-business-case-and-roi`.
 - The buyer's commercial instinct (subscription, usage, outcome, hybrid).
@@ -30,7 +35,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The intervention-rate target curve from the pilot.
 - The reversibility classification of each action class.
 
-## Workflow
+## Domain Method
 
 1. Decide the **agent pricing pattern** from the six patterns (below).
 2. Map the pattern to the buyer's tolerance, the cost stack, and the intervention-rate target. Per-resolution looks attractive but is dangerous if intervention rate stays high. Per-step is conservative for the agency but invites scope-creep games.
@@ -115,7 +120,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - FX is named.
 - The pricing protects both sides against model-price volatility and against intervention overshoot.
 
-## Anti-Patterns
+## Domain Risks
 
 - Per-resolution pricing with "resolution" undefined.
 - "Outcome-based pricing" with no attribution clause.
@@ -127,7 +132,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - No intervention credit (buyer carries all the supervisor cost).
 - Scope-creep ignored — buyer adds use cases at no extra price and the agency drowns.
 
-## Outputs
+## Domain Outputs
 
 - Agent Pricing Proposal subsection of the financial proposal.
 - Agent Pricing Pattern Decision Memo (win-room file).
@@ -141,7 +146,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Packaging-Pattern Decision Matrix
 
-The pricing pattern is paired with a **packaging shape** — Included in Pro, Add-on, or Standalone — that constrains the SLA class achievable, the credit cap, the renewal posture, and the cost recovery shape. Use `../ai-agent-commercial-packaging/SKILL.md` to choose the shape before finalising the pattern. The reference matrix `../references/ai-agent-packaging-pattern-decision-matrix.md` shows pattern × shape combinations with worked examples.
+The pricing pattern is paired with a **packaging shape** — Included in Pro, Add-on, or Standalone — that constrains the SLA class achievable, the credit cap, the renewal posture, and the cost recovery shape. Use [ai-agent-commercial-packaging](../../ai-agent-commercial/ai-agent-commercial-packaging/SKILL.md) to choose the shape before finalising the pattern. The reference matrix [ai-agent-packaging-pattern-decision-matrix](../../profiles-sectors/references/ai-agent-packaging-pattern-decision-matrix.md) shows pattern × shape combinations with worked examples.
 
 | Shape | Recommended patterns | Default SLA class | Credit cap |
 |---|---|---|---|
@@ -151,32 +156,88 @@ The pricing pattern is paired with a **packaging shape** — Included in Pro, Ad
 
 ## SLA-Tier Alignment with Pricing Tier
 
-Every pricing pattern attaches to an SLA Class. The SLA Class drives the metric thresholds, the credit schedule, the kill-switch and audit-log SLAs, and the credit cap. The pricing exhibit and the SLA exhibit must reference the same numbers, same definitions, and same evidence trail. Load `../ai-agent-sla-and-credit-schedule/SKILL.md` after choosing the pattern.
+Every pricing pattern attaches to an SLA Class. The SLA Class drives the metric thresholds, the credit schedule, the kill-switch and audit-log SLAs, and the credit cap. The pricing exhibit and the SLA exhibit must reference the same numbers, same definitions, and same evidence trail. Load [ai-agent-sla-and-credit-schedule](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) after choosing the pattern.
 
 ## Commercial Layer Cross-Links
 
 The pricing pattern is one of nine commercial artefacts the proposal carries. The others are produced by the dedicated commercial-layer skills:
 
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA class and credit schedule.
-- `../ai-agent-commercial-packaging/SKILL.md` — packaging shape decision.
-- `../ai-agent-contract-language-pack/SKILL.md` — drop-in exhibit assembly.
-- `../ai-agent-success-fee-and-outcome-pricing/SKILL.md` — outcome and success-fee structures (Patterns B, F, E with success component).
-- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` — intervention-credit formula and abort-refund triggers.
-- `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` — MSA / SLA addendum.
-- `../ai-agent-procurement-objections-on-commercials/SKILL.md` — commercial objection handling.
-- `../ai-agent-renewal-and-true-up/SKILL.md` — renewal, true-up, autonomy price-step.
-- `../references/ai-agent-pricing-exhibit-template.md` — drop-in pricing exhibit.
+- [ai-agent-sla-and-credit-schedule](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) — SLA class and credit schedule.
+- [ai-agent-commercial-packaging](../../ai-agent-commercial/ai-agent-commercial-packaging/SKILL.md) — packaging shape decision.
+- [ai-agent-contract-language-pack](../../ai-agent-commercial/ai-agent-contract-language-pack/SKILL.md) — drop-in exhibit assembly.
+- [ai-agent-success-fee-and-outcome-pricing](../../ai-agent-commercial/ai-agent-success-fee-and-outcome-pricing/SKILL.md) — outcome and success-fee structures (Patterns B, F, E with success component).
+- [ai-agent-intervention-credit-and-abort-refund](../../ai-agent-commercial/ai-agent-intervention-credit-and-abort-refund/SKILL.md) — intervention-credit formula and abort-refund triggers.
+- [ai-agent-msa-and-sla-addendum-templates](../../ai-agent-commercial/ai-agent-msa-and-sla-addendum-templates/SKILL.md) — MSA / SLA addendum.
+- [ai-agent-procurement-objections-on-commercials](../../ai-agent-commercial/ai-agent-procurement-objections-on-commercials/SKILL.md) — commercial objection handling.
+- [ai-agent-renewal-and-true-up](../../ai-agent-commercial/ai-agent-renewal-and-true-up/SKILL.md) — renewal, true-up, autonomy price-step.
+- [ai-agent-pricing-exhibit-template](../../profiles-sectors/references/ai-agent-pricing-exhibit-template.md) — drop-in pricing exhibit.
+
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| scope, action volumes, cost stack, outcome definition, intervention forecast, and buyer buying model | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Agent pricing and packaging exhibit | Buyer CFO, procurement, and proposal evaluator | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| agent pricing and packaging exhibit | Buyer CFO, procurement, and proposal evaluator | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Choose pricing pattern | Match the billable unit to measurable buyer value, cost drivers, attribution, and auditability. | Pricing that rewards attempts, hides cost, or cannot be reconciled. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+For a resolution agent, bill qualified resolutions with an intervention credit and minimum commitment; separate upstream model-cost pass-through and define disputed-resolution handling.
+
+<!-- dual-compat-end -->
 
 ## References
 
-- `../references/ai-agent-pricing-models-reference.md` — pattern library with worked examples and clauses.
-- `../references/ai-agent-pricing-exhibit-template.md` — drop-in pricing exhibit.
-- `../references/ai-agent-packaging-pattern-decision-matrix.md` — packaging decision matrix.
-- `../references/ai-agent-sla-class-table.md` — SLA class thresholds and credit schedule.
-- `../references/ai-on-saas-pricing-models-reference.md` — AI-on-SaaS pricing patterns.
-- `../ai-on-saas-pricing-and-packaging-proposal/SKILL.md` — AI-on-SaaS pricing when the agent lives inside a SaaS product.
-- `../ai-agent-business-case-and-roi/SKILL.md` — cost stack input.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA class and credit schedule.
-- `../ai-agent-commercial-packaging/SKILL.md` — packaging shape.
-- `../10-financial-proposal/SKILL.md` — financial proposal placement.
-- `../premium-pricing-and-value-defense/SKILL.md` — premium-fee defence.
+- [ai-agent-pricing-models-reference](../../profiles-sectors/references/ai-agent-pricing-models-reference.md) — pattern library with worked examples and clauses.
+- [ai-agent-pricing-exhibit-template](../../profiles-sectors/references/ai-agent-pricing-exhibit-template.md) — drop-in pricing exhibit.
+- [ai-agent-packaging-pattern-decision-matrix](../../profiles-sectors/references/ai-agent-packaging-pattern-decision-matrix.md) — packaging decision matrix.
+- [ai-agent-sla-class-table](../../profiles-sectors/references/ai-agent-sla-class-table.md) — SLA class thresholds and credit schedule.
+- [ai-on-saas-pricing-models-reference](../../profiles-sectors/references/ai-on-saas-pricing-models-reference.md) — AI-on-SaaS pricing patterns.
+- [ai-on-saas-pricing-and-packaging-proposal](../../ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/SKILL.md) — AI-on-SaaS pricing when the agent lives inside a SaaS product.
+- [ai-agent-business-case-and-roi](../ai-agent-business-case-and-roi/SKILL.md) — cost stack input.
+- [ai-agent-sla-and-credit-schedule](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) — SLA class and credit schedule.
+- [ai-agent-commercial-packaging](../../ai-agent-commercial/ai-agent-commercial-packaging/SKILL.md) — packaging shape.
+- [10-financial-proposal](../../pipeline/10-financial-proposal/SKILL.md) — financial proposal placement.
+- [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) — premium-fee defence.

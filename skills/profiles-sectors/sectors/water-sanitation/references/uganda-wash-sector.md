@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda Water, Sanitation, and Hygiene (WASH) Sector Profile
 
+Parent skill: [Water, Sanitation, and Hygiene](../SKILL.md).
+
 ## 1. Water Access
 
 ### National Coverage

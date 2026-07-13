@@ -1,5 +1,7 @@
 # GESI Mainstreaming and Inclusion
 
+Parent skill: [Gender and Social Inclusion](../SKILL.md).
+
 Reference material for the gender-and-social-inclusion skill. Provides frameworks, donor requirements, and practical guidance for integrating gender equality and social inclusion into consulting proposals and project design. East African consulting context (Uganda, Kenya, Rwanda, Tanzania).
 
 Sources: UN Women Intersectionality Resource Guide (2022), Oxfam Gender Analysis Frameworks (1999), King (The Fix, 2020), Painter-Morland (Leadership, Gender, and Organization, 2012), Bohnet (What Works, 2016), ECOSOC (1997), World Bank/AfDB/UNDP/EU gender policies, East African national gender policies.

@@ -1,5 +1,7 @@
 # World Bank ESS6: Biodiversity Conservation and Sustainable Management of Living Natural Resources
 
+Parent skill: [Environmental and Social Safeguards](../SKILL.md).
+
 > Dense practitioner reference for proposal methodology sections. Paragraph numbers reference the World Bank Environmental and Social Framework (2018, updated 2024).
 
 ---

@@ -1,5 +1,7 @@
 # Expert Pool and Scoring Model
 
+Parent skill: [EAC E-Commerce BDS Programme Design](../SKILL.md).
+
 ## Expert-Pool Allocation Logic
 
 | Step | Control |

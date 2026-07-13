@@ -1,11 +1,17 @@
 ---
 name: east-african-english
-description: Language and tone standard for all proposal content. Enforces authentic East African English as used in Uganda, Kenya, and Tanzania — formal, clear, respectful, British-influenced, and professionally courteous. Apply to every proposal section, cover letter, EoI, and supporting document.
+description: Use when drafting or reviewing English proposal content for Uganda, Kenya, Tanzania, or regional East African audiences; use language-standards when French or Kiswahili routing is also required.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # East African English — Language & Tone Skill
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when English-language output needs East African professional tone and British spelling.
 - Load it as a cross-cutting review or drafting standard for proposals and related business writing.
@@ -14,15 +20,38 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The task is purely about procurement mechanics or domain frameworks with no language work.
 - Another loaded skill already defines the exact language treatment and there is no conflict.
 
-## Required Inputs
-- The target audience and communication purpose.
-- The content being drafted or reviewed.
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| Draft or planned English text | Proposal workflow | Yes | Stop language review until the text or section purpose is available. |
+| Country, institution, and procurement context | Client brief and `sectors` | Yes | Use neutral regional English and state the missing locale context. |
+| Proposer voice | `profiles` | Yes for proposal drafting | Do not infer first-person voice or signatory identity. |
 
 ## Workflow
 1. Determine the audience, purpose, and level of formality.
 2. Apply the relevant tone, spelling, vocabulary, and courtesy rules from this skill.
 3. Check for hype, awkward phrasing, and non-local wording patterns.
-4. Return wording that sounds natural in East African professional English.
+4. Stop when an institutional title, official programme name, or local term cannot be verified.
+5. Recover by retaining the source wording, flagging it for review, or using neutral qualified wording.
+6. Return wording that sounds natural in East African professional English.
+
+## Capability Contract
+
+Read and search are required. Editing is allowed only for authorised drafting or language correction. Network verification, publishing, submission, and certification of local usage require explicit authority.
+
+## Degraded Mode
+
+Fallback: when the country context, proposer profile, approved wording, or verification source is unavailable, return the narrowest useful neutral regional version, mark the affected choice `not assessed`, and do not claim country-specific authenticity.
+
+## Decision Rules
+
+| Condition or choice | Action | Failure or risk avoided |
+|---|---|---|
+| Ugandan, Kenyan, Tanzanian, or regional professional audience | Use British spelling and formal East African courtesy | Imported US or sales-heavy register |
+| Buyer supplies official wording | Preserve it exactly even if house style differs | Procurement non-compliance |
+| Country-specific term is uncertain | Use neutral regional wording and flag review | Invented localism |
+| French or Kiswahili is also required | Route through `language-standards` | Inconsistent multilingual handling |
 
 ## Quality Standards
 - Prefer clarity, courtesy, and natural local phrasing over flashy copy.
@@ -30,17 +59,29 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not use American spelling where British English is expected.
-- Do not use exaggerated marketing language or obviously synthetic phrasing.
-- Do not overwrite project-specific terminology without reason.
+- Mixing American and British spelling in one document. Fix: select British English and run a consistency pass.
+- Using startup slang in a formal procurement response. Fix: replace it with precise professional wording.
+- Forcing regional idioms into a neutral institutional document. Fix: prefer clear standard English.
+- Claiming country-specific authenticity without context. Fix: use neutral regional tone and mark the locale not assessed.
+- Rewriting official programme names for style. Fix: reproduce the buyer's wording exactly.
 
 ## Outputs
-- English wording and tone decisions aligned to this skill.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| East African English proposal text | Evaluator and proposal editor | Spelling, register, courtesy, proposer voice, dates, and official names are consistent and traceable. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Language review record | Proposal release owner | Locale, applied standard, preserved official wording, and unresolved choices are recorded. |
 
 ## References
-- `../language-standards/SKILL.md` when the work spans multiple languages.
-- `../references/customer-service-and-escalation-commitments.md` when wording support, complaint handling, follow-up, or escalation commitments.
-- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` when premium, risk, persuasion, or objection language needs a measured professional tone.
+- [Multilingual language standards](../language-standards/SKILL.md)
+- [Proposer profile router](../../profiles-sectors/profiles/SKILL.md)
+- [Proposal parent router](../../SKILL.md)
+<!-- dual-compat-end -->
 
 All proposal text — cover letters, executive summaries, methodology sections, CVs, financial submissions, and supporting documents — must follow this style guide. This is the foundational language standard applied before and during every content-writing step.
 

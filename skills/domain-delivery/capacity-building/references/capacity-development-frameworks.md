@@ -1,5 +1,7 @@
 # Capacity Development Frameworks — Practitioner Reference
 
+Parent skill: [Capacity Building](../SKILL.md).
+
 > Synthesised from Ubels, Acquaye-Baddoo & Fowler (2010), USAID HICD Handbook (2010), Senge (2006), and Senge et al. (1994). British English throughout.
 
 ---

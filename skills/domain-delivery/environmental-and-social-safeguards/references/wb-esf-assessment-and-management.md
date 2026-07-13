@@ -1,5 +1,7 @@
 # World Bank ESF: Assessment, Resource Efficiency, and Stakeholder Engagement
 
+Parent skill: [Environmental and Social Safeguards](../SKILL.md).
+
 Reference covering ESS1 (Assessment and Management of E&S Risks and Impacts), ESS3 (Resource Efficiency and Pollution Prevention), and ESS10 (Stakeholder Engagement and Information Disclosure) under the World Bank Environmental and Social Framework (ESF, effective 1 October 2018).
 
 ---

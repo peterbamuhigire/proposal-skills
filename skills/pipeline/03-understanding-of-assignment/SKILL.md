@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-03-understanding-of-assignment
-description: Write the understanding of the assignment section of a consulting proposal. Use when the user asks to draft the background, objectives, scope interpretation, or ToR comments section.
+name: 03-understanding-of-assignment
+description: Use when drafting the proposal's interpretation of context, objectives, scope, constraints, stakeholders, or ToR gaps. Unlike 06-methodology, this skill proves understanding of the problem before prescribing the delivery approach.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Understanding of the Assignment
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the assignment-understanding section of a proposal.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile and any client or sector context already gathered.
 - Any explicit evaluator expectations about ToR comments, assumptions, or observations.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Complete ToR, criteria, clarifications, and verified context | Official tender sources | required | Return questions and a bounded interpretation; do not fill gaps as fact. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and identify the real problem, scope, and evaluator concerns.
 2. Load relevant profile, sector, procurement, and supporting domain skills before drafting.
 3. Use discovery questions to expose missing assumptions on outcomes, users, data, support, budget, approvals, and decision criteria.
@@ -33,22 +46,56 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Show insight, structure, and practical judgement rather than simply rephrasing the ToR.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not restate the ToR mechanically with no interpretation.
 - Do not make comments on the ToR that create unnecessary compliance risk or contradict later sections.
 - Do not describe problems, assumptions, or scope elements that the proposal does not address.
+- Do not add unsourced context. Fix: cite or label each external premise.
+- Do not hide material ambiguity. Fix: state the assumption, consequence, and clarification need.
 
 ## Outputs
-- A proposal-ready understanding section, including ToR comments where appropriate.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Understanding and ToR-comment section | Evaluator and methodology writer | Distinguishes facts, interpretation, assumptions, constraints, stakeholders, and delivery implications. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Requirement and assumption map | Traceability table | Each interpretation points to ToR evidence or is explicitly labelled. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Default to read-only analysis. Do not alter official requirements or submit clarifications without authority.
+
+## Degraded Mode
+Without the complete ToR or clarification record, provide a qualified interpretation and missing-evidence register. Never treat ambiguity as agreement.
+
+## Decision Rules
+| Finding | Action | Risk avoided |
+|---|---|---|
+| Requirement is explicit | Explain its implication | Mechanical paraphrase |
+| Ambiguity changes scope or price | Raise clarification or assumption | Hidden exposure |
+| Insight has no method response | Remove it or repair methodology | Orphan diagnosis |
+
+## Worked Example
+If national rollout has no site count, state the planning consequence and request or price a site assumption rather than inventing locations.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../references/discovery-question-bank-for-proposals.md` for clarification questions and assumption discovery.
-- `../references/saas-discovery-question-bank.md` for SaaS-specific discovery (ICP, Critical Event, pain chain, impact per role, decision process).
-- `../references/meddic-and-command-of-message-for-saas.md` for SaaS qualification logic and Six-Lens Value Claim.
-- `../service-design-proposal-strategy/SKILL.md` when the assignment involves journeys, touchpoints, support, citizen/customer experience, or service quality.
-- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for evaluator concern, risk perception, and ethical persuasion checks.
-- `../saas-discovery-and-qualification/SKILL.md` for SaaS-specific Understanding of the Assignment content (pain chain, Critical Event, ICP, decision process).
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../references/discovery-question-bank-for-proposals.md](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) for clarification questions and assumption discovery.
+- [../references/saas-discovery-question-bank.md](../../profiles-sectors/references/saas-discovery-question-bank.md) for SaaS-specific discovery (ICP, Critical Event, pain chain, impact per role, decision process).
+- [../references/meddic-and-command-of-message-for-saas.md](../../profiles-sectors/references/meddic-and-command-of-message-for-saas.md) for SaaS qualification logic and Six-Lens Value Claim.
+- [../service-design-proposal-strategy/SKILL.md](../../strategy-positioning/service-design-proposal-strategy/SKILL.md) when the assignment involves journeys, touchpoints, support, citizen/customer experience, or service quality.
+- [../references/ethical-persuasion-and-evaluator-psychology-gate.md](../../profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md) for evaluator concern, risk perception, and ethical persuasion checks.
+- [../saas-discovery-and-qualification/SKILL.md](../../saas-proposals/saas-discovery-and-qualification/SKILL.md) for SaaS-specific Understanding of the Assignment content (pain chain, Critical Event, ICP, decision process).
 - Root `references/` files for persuasion, logic structure, and proposal patterns.
 
 This section proves the firm has read, analysed, and thought critically about the Terms of Reference. It is not a paraphrase of the ToR — evaluators wrote the ToR and will notice if it is simply copied back at them. The firm must restate the assignment in its own words and add professional insight.

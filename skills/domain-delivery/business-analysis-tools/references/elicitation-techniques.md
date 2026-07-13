@@ -1,5 +1,7 @@
 # Elicitation Techniques
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Techniques for drawing information from stakeholders, documents, and other sources. Elicitation is not requirements "gathering" — stakeholders have wants, needs, and information, but not ready-made requirements. The analyst's job is to help define the problem and determine what should be done.
 
 ---

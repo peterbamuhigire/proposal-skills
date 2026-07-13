@@ -1,5 +1,7 @@
 # Accounting Finance Proposal Gate
 
+Parent skill: [Accounting Finance Advisory](../SKILL.md).
+
 Use this gate when building or reviewing proposal sections for accounting, finance systems, controls, or financial modelling work.
 
 ## Methodology Workstreams

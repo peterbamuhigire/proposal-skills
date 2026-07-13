@@ -1,12 +1,90 @@
 ---
 name: anti-ai-slop
-description: Non-negotiable real-time guardrail. Apply while writing EVERY proposal section, cover letter, executive summary, Expression of Interest, methodology, procurement response, or financial proposal, so the output cannot be recognised as AI slop. Carries the verified definition, the seven universal slop markers each paired with an avoidance rule, the merged banned-vocabulary list, and a ship-gate checklist. Load first; it overrides stylistic preferences.
+description: Use when producing any proposal or bid content to prevent generic, unverified, template-like writing in real time; use ai-slop-audit instead to grade an existing artefact after a major iteration.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Anti AI Slop
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 The guardrail that governs production. You write, structure, and price proposal content so slop never appears in the first place. Detection lives in the companion `ai-slop-audit` skill, and the reasoning gate lives in `critical-analysis-business-logic`.
+
+<!-- dual-compat-start -->
+## Use When
+
+- Apply while drafting or revising every proposal section, table, price narrative, or procurement response.
+- Apply before an artefact reaches the separate `ai-slop-audit` checkpoint.
+
+## Do Not Use When
+
+- Use `ai-slop-audit` when the job is to inspect and grade an existing artefact rather than produce it.
+- Do not use this guardrail to fabricate missing client evidence, figures, citations, or proposer credentials.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| Draft or planned proposal content | Proposal workflow | Yes | Stop drafting the affected unit until its purpose and audience are known. |
+| Claims and supporting facts | ToR, proposer profile, verified sources | Conditional | Remove or qualify an unsupported claim; never invent evidence. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Guarded proposal content | Evaluator and proposal lead | Every section is specific, purposeful, verified or qualified, and covers material constraints. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Completed anti-slop ship gate | `ai-slop-audit` and release reviewer | Each item records pass, block, or an explicit unassessed verification gap. |
+
+## Capability Contract
+
+Read access to the draft and relevant sources is required. Search or network verification may be used when authorised. Editing is allowed only within the parent drafting task; publishing, external submission, spending, and certification claims require explicit authority.
+
+## Degraded Mode
+
+Fallback: when a source, network check, or named fact is unavailable, return the narrowest useful qualified wording and mark the check `not assessed`. Do not turn unavailable verification into a pass.
+
+## Decision Rules
+
+| Finding | Action | Failure or risk avoided |
+|---|---|---|
+| Unsupported load-bearing claim | Remove, source, or qualify it before continuing | Fabricated evaluator evidence |
+| Generic but non-essential paragraph | Cut it or replace it with an assignment-specific decision | Superficial competence |
+| Specific, verified, purposeful content | Preserve it and continue | Destructive over-editing |
+
+## Workflow
+
+1. Identify the proposal unit, evaluator purpose, and evidence-bearing claims.
+2. Apply the seven guardrails while drafting, not as a later cosmetic pass.
+3. Stop when a required fact, price, credential, or citation cannot be supported.
+4. Recover by verifying, qualifying, or removing the affected claim.
+5. Complete the ship gate and hand the artefact to `ai-slop-audit`.
+
+## Quality Standards
+
+- Every section earns its place through a named decision, fact, example, risk, or evaluator need.
+- No fabricated evidence, repetitive template language, or hidden verification gap reaches the audit stage.
+
+## Anti-Patterns
+
+- Adding specificity by inventing a number or client name. Fix: verify it or remove it.
+- Keeping a polished paragraph that changes no evaluator decision. Fix: add substance or cut it.
+- Waiting for the final audit before correcting filler. Fix: apply the controls while drafting each unit.
+- Removing an unusual but intentional proposer phrase. Fix: preserve authored voice unless it harms clarity or compliance.
+- Hiding an unavailable check. Fix: mark it `not assessed` and state the consequence.
+
+## References
+
+- [AI slop audit companion](../ai-slop-audit/SKILL.md)
+- [Critical analysis and business logic gate](../../strategy-positioning/critical-analysis-business-logic/SKILL.md)
+<!-- dual-compat-end -->
 
 ## Real-time application (this is a LIVE constraint, not only a final gate)
 

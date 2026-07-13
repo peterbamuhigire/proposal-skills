@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda Health Sector Profile
 
+Parent skill: [Health and Pharmaceutical Systems](../SKILL.md).
+
 ## 1. Disease Burden
 
 Uganda faces a persistent triple burden of communicable diseases, non-communicable diseases (NCDs), and epidemic vulnerability.

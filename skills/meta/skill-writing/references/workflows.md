@@ -1,5 +1,7 @@
 # Workflow Patterns
 
+Parent skill: [Skill Writing](../SKILL.md).
+
 ## Sequential Workflows
 
 For complex tasks, break operations into clear, sequential steps. It is often helpful to give Claude an overview of the process towards the beginning of SKILL.md:

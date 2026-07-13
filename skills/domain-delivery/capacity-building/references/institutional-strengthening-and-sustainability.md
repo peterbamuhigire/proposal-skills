@@ -1,5 +1,7 @@
 # Institutional Strengthening and Sustainability
 
+Parent skill: [Capacity Building](../SKILL.md).
+
 > Synthesised from Ubels et al. (Capacity Development in Practice, 2010), USAID HICD Handbook (2010), Senge (The Fifth Discipline, 2006), and standard development practice frameworks (UNDP, OECD-DAC).
 
 ---

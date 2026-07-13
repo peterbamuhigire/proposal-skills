@@ -1,5 +1,7 @@
 # Accounting Caveats And Claims
 
+Parent skill: [Embedded Accounting Engine Proposal](../SKILL.md).
+
 ## Claims Allowed When In Scope
 
 - The system replaces routine bookkeeping workflows.

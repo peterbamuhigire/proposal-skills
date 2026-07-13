@@ -1,11 +1,17 @@
 ---
 name: saas-mutual-action-planning-and-close-plans
-description: Use when a SaaS proposal needs a Mutual Action Plan (MAP) from selection through go-live to value realisation, with named tasks, owners on both sides, dates, and decision gates. Also covers the close plan from BAFO to signature. Differentiates premium SaaS bids that engineer the path to award from those that merely respond to an RFP.
+description: Use when a SaaS bid needs a buyer-and-supplier Mutual Action Plan from selection through signature, go-live, and value realisation, with owners and decision gates; use implementation methodology for delivery activities after award.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # SaaS Mutual Action Planning and Close Plans
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 
 - The buyer values predictability and shared accountability through the award and implementation journey.
@@ -20,11 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Required Inputs
 
-- The expected procurement path (dates, owners, gates).
-- The expected implementation phases and durations.
-- The expected adoption and value-realisation cadence.
-- The named buyer owners on each side (where the agency knows them).
-- The agency's bid manager, account director, solution lead, delivery lead, and customer success lead.
+| Artefact or fact | Required? | Source/provider | If absent |
+|---|---|---|---|
+| The expected procurement path (dates, owners, gates). | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The expected implementation phases and durations. | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The expected adoption and value-realisation cadence. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The named buyer owners on each side (where the agency knows them). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The agency's bid manager, account director, solution lead, delivery lead, and customer success lead. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
 
 ## Workflow
 
@@ -41,6 +49,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 6. Build a separate Close Plan covering the path from BAFO to signature.
 7. Brief the agency team and the buyer's owner on the MAP before submission.
 
+
+**Stop condition:** Stop before asserting scope, compliance, value, acceptance, or readiness when a load-bearing input is missing or contradicted.
+
+**Recovery:** Record the gap, owner, and next evidence step; then return the narrowest qualified proposal content that remains supportable.
+
 ## Quality Standards
 
 - Every task names a buyer owner and an agency owner.
@@ -51,24 +64,57 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Anti-Patterns
 
-- A MAP that lists only the agency's tasks.
-- Dates without owners.
-- Decision gates without evidence (turns the gate into a meeting).
-- "Passed conditionally" status that becomes forgotten technical debt.
-- Phases without outcome statements.
+- A MAP that lists only the agency's tasks. **Fix:** Include buyer and supplier tasks, dependencies, owners, dates, evidence, and consequences in one jointly maintained plan.
+- Dates without owners. **Fix:** Assign one accountable owner for every date and record the escalation path for missed dependencies.
+- Decision gates without evidence (turns the gate into a meeting). **Fix:** Define the document, approval, test result, or decision record required to pass each gate.
+- "Passed conditionally" status that becomes forgotten technical debt. **Fix:** Time-box conditional status, assign remediation and owner, and block the dependent gate until evidence closes it.
+- Phases without outcome statements. **Fix:** State the buyer-visible outcome and acceptance evidence for every phase, not only its activities.
 
 ## Outputs
 
-- Mutual Action Plan (table per phase + operating rules).
-- Close Plan (BAFO to signature).
-- Decision-gate register with deciders, evidence, and escalation rules.
-- Brief for the agency team and the buyer's owner.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Mutual Action Plan (table per phase + operating rules). | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Close Plan (BAFO to signature). | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Decision-gate register with deciders, evidence, and escalation rules. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Brief for the agency team and the buyer's owner. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Input-and-assumption record | Proposal lead and reviewer | Every load-bearing claim maps to a source, approved assumption, or explicit gap. |
+| Decision and review record | Buyer owner and delivery lead | The selected option, rationale, owner, stop condition, and approval status are visible. |
+| Section acceptance check | Evaluator-readiness reviewer | Each output meets its stated acceptance condition and unresolved checks are not presented as passed. |
+
+## Capability and Permission Boundaries
+
+This skill may read supplied tender, discovery, architecture, commercial, security, and operating evidence and draft proposal artefacts within the authorised workspace. It must not publish, send, certify compliance, accept contractual terms, change production systems, spend funds, or disclose confidential evidence without explicit authority. Review and analysis remain read-only by default.
+
+## Degraded Mode
+
+If files, current legal or technical evidence, calculation tools, network access, or reviewers are unavailable, produce the narrowest useful qualified draft. Label assumptions and checks as **not assessed**, omit unsupported assurances or figures, and state the exact evidence and owner needed to complete the work. An unavailable check never becomes a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Buyer dependency | Name the buyer owner, due date, evidence, and consequence in the shared plan | Supplier-only schedule that cannot reach award |
+| Missing load-bearing evidence | Stop the affected claim, record the gap and owner, and continue only with separable supported content. | Fabricated assurance or hidden dependency |
+| Conflicting buyer and supplier evidence | Surface the conflict for decision; do not silently choose the favourable version. | Misaligned scope, price, or acceptance |
+| Irreversible, contractual, publishing, or production action | Obtain explicit authority and preserve an approval record before acting. | Unauthorised commitment or mutation |
+
+## Worked Example
+
+If legal review has no named owner or date, show it as an unresolved dependency in the mutual action plan and do not present the target signature date as committed.
 
 ## References
 
-- `../references/saas-mutual-action-plan-template.md` — primary template.
-- `../references/saas-procurement-and-security-questionnaire-playbook.md` — Phase 2 detail.
-- `../references/saas-customer-success-engagement-package.md` — Phase 5 detail.
-- `../references/meddic-and-command-of-message-for-saas.md` — qualification logic.
-- `../08-work-plan/SKILL.md` — work plan section discipline.
-- `../saas-discovery-and-qualification/SKILL.md` — inputs to the MAP from discovery.
+- [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+<!-- dual-compat-end -->
+- [../references/saas-mutual-action-plan-template.md](../../profiles-sectors/references/saas-mutual-action-plan-template.md) — primary template.
+- [../references/saas-procurement-and-security-questionnaire-playbook.md](../../profiles-sectors/references/saas-procurement-and-security-questionnaire-playbook.md) — Phase 2 detail.
+- [../references/saas-customer-success-engagement-package.md](../../profiles-sectors/references/saas-customer-success-engagement-package.md) — Phase 5 detail.
+- [../references/meddic-and-command-of-message-for-saas.md](../../profiles-sectors/references/meddic-and-command-of-message-for-saas.md) — qualification logic.
+- [../08-work-plan/SKILL.md](../../pipeline/08-work-plan/SKILL.md) — work plan section discipline.
+- [../saas-discovery-and-qualification/SKILL.md](../saas-discovery-and-qualification/SKILL.md) — inputs to the MAP from discovery.

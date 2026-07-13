@@ -1,10 +1,15 @@
 ---
 name: ai-agent-success-fee-and-outcome-pricing
-description: Use when the AI-agent commercial structure is outcome-based — gain-share, success fee, hybrid base-plus-success, or performance-corridor pricing. Provides the structure, the success-definition discipline (counter-example rule, cooling-off, attribution, reversal), the downside protection for the agency (base covers cost, cap on success fee, floor on units billed), and the audit and dispute mechanics that make outcome pricing safe to commit to.
+description: Use when structuring agent gain-share, success-fee, base-plus-success, or performance-corridor pricing; use the general pricing skill for per-step, per-agent, or usage rates.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Success-Fee and Outcome-Pricing
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -20,7 +25,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The outcome cannot be attributed cleanly to the agent (attribution disputes will destroy the relationship).
 - The agency's autonomy ramp and intervention rate are unproven (do the POC first; commit to outcome pricing afterwards).
 
-## Required Inputs
+## Domain Inputs
 
 - The candidate outcome — what the agent delivers that the buyer measures.
 - The buyer's baseline performance on that outcome (without the agent).
@@ -32,7 +37,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The success-fee cap and the unit floor.
 - The dispute mechanism.
 
-## Workflow
+## Domain Method
 
 1. Decide the **structure** — gain-share (share of value delivered above baseline), success fee (fee triggered on threshold), hybrid base-plus-success (base covers cost; success bonus adds margin), performance-corridor (price slides on a band of performance).
 2. Write the **success definition** with the discipline below — a one-paragraph definition that names the unit, the event, the cooling-off, the reversal, the attribution test, and one counter-example.
@@ -81,7 +86,7 @@ Examples:
 - Recovered debt = "payment received". Counter-example: payment received and then chargeback within 60 days. Redraft to include 60-day cooling-off.
 - Renewed policy = "policy active on the renewal date". Counter-example: policy active but in collection-default. Redraft to require premium paid.
 
-The counter-example rule is the single biggest protection against attribution disputes. Build it into every definition. See `../references/ai-agent-success-definition-language.md` for the library of definitions and counter-examples.
+The counter-example rule is the single biggest protection against attribution disputes. Build it into every definition. See [ai-agent-success-definition-language](../../profiles-sectors/references/ai-agent-success-definition-language.md) for the library of definitions and counter-examples.
 
 ## Downside Protections the Agency Always Reserves
 
@@ -106,7 +111,7 @@ The counter-example rule is the single biggest protection against attribution di
 - The structure has been stress-tested at three intervention rates and three volumes.
 - The structure is in the financial proposal as an exhibit, not buried in prose.
 
-## Anti-Patterns
+## Domain Risks
 
 - Outcome defined without a counter-example.
 - "We share in the value created" with no attribution rule.
@@ -117,7 +122,7 @@ The counter-example rule is the single biggest protection against attribution di
 - Public-sector outcome pricing on citizen services — politically inappropriate; use Pattern D instead.
 - Outcome pricing committed before the autonomy ramp and intervention rate are proven in the POC.
 
-## Outputs
+## Domain Outputs
 
 - Outcome-Pricing Structure (one of four), with rationale.
 - Success Definition with counter-example rule applied.
@@ -126,12 +131,70 @@ The counter-example rule is the single biggest protection against attribution di
 - Stress-test memo at three intervention rates and three volumes.
 - Dispute mechanism specification.
 
+## Anti-Patterns
+
+- Quoting an unverified commercial term. Fix: trace it to the approved brief or contract record and label any unresolved variable.
+- Billing an attempted task as a completed outcome. Fix: define the eligible event, exclusions, reversal window, and evidence source.
+- Leaving credits, refunds, or liability uncapped. Fix: state the eligible fee base, cap, trigger, exclusions, and approval owner.
+- Updating one exhibit while dependent terms still conflict. Fix: reconcile pricing, SLA, credit, refund, renewal, and liability provisions together.
+- Removing a legal placeholder without authority. Fix: retain the marker, name the decision owner, and require qualified review before issue.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| baseline outcome data, attribution rules, costs, and risk limits | Buyer, proposal owner, approved contract record, or measured operating evidence | Yes | Stop before making a commitment; list the missing evidence and provide only a qualified option set. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Outcome-pricing schedule | CFO, procurement, and legal | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| outcome-pricing schedule | CFO, procurement, and legal | Assumptions, measures, authority, exclusions, and acceptance tests are explicit and traceable to the supplied evidence. |
+
+## Capability Contract
+
+Minimum capability is read access to the approved commercial record and calculation support for any stated formula. Drafting authority permits edits only inside the requested proposal or contract working copy. Do not sign, publish, spend, change production configuration, concede liability, or represent legal approval without explicit authority. Legal and tax conclusions require qualified review.
+
+## Degraded Mode
+
+Fallback when tools are unavailable: use the qualified path below.
+
+If source terms, telemetry, calculation tools, or legal review are unavailable, return the narrowest useful marked draft: identify unverified variables, preserve placeholders, show the calculation method where possible, and mark each unavailable check as not assessed. Never convert missing evidence into approval.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Select outcome-pricing structure | Use a measurable attributed outcome with reversal, cooling-off, floor, and cap rules. | Paying for noise or carrying uncapped delivery cost. |
+| Evidence is incomplete or positions conflict | Stop commitment drafting, record the conflict, and request the named owner’s decision. | Invented terms, double recovery, or an unauthorised concession. |
+| Evidence and authority are complete | Draft, cross-check dependent exhibits, and retain the calculation or clause trace. | An internally inconsistent commercial package. |
+
+## Workflow
+
+1. Confirm the consumer, authority, controlling commercial record, and required inputs; stop when a baseline or accountable owner is missing.
+2. Reproduce relevant calculations and identify conflicts across pricing, SLA, credit, refund, renewal, liability, and scope; stop when a formula cannot be reproduced.
+3. Apply the domain method and decision rules within delegated authority, recording assumptions and exclusions.
+4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
+5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+For recovered arrears, charge a base covering operating cost plus a capped share of net cash retained after the cooling-off period, excluding disputed and reversed recoveries.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-outcome-pricing-clauses.md` — gain-share, success-fee, hybrid base-plus-success, performance-corridor language.
-- `../references/ai-agent-success-definition-language.md` — outcome-definition library with counter-examples.
-- `../references/ai-agent-pricing-models-reference.md` — patterns B, E, F.
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — the six patterns.
-- `../ai-agent-business-case-and-roi/SKILL.md` — cost stack and downside scenarios.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA interaction with success fee.
-- `../premium-pricing-and-value-defense/SKILL.md` — premium fee defence.
+- [ai-agent-outcome-pricing-clauses](../../profiles-sectors/references/ai-agent-outcome-pricing-clauses.md) — gain-share, success-fee, hybrid base-plus-success, performance-corridor language.
+- [ai-agent-success-definition-language](../../profiles-sectors/references/ai-agent-success-definition-language.md) — outcome-definition library with counter-examples.
+- [ai-agent-pricing-models-reference](../../profiles-sectors/references/ai-agent-pricing-models-reference.md) — patterns B, E, F.
+- [ai-agent-pricing-and-packaging-proposal](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) — the six patterns.
+- [ai-agent-business-case-and-roi](../../ai-agent-proposals/ai-agent-business-case-and-roi/SKILL.md) — cost stack and downside scenarios.
+- [ai-agent-sla-and-credit-schedule](../ai-agent-sla-and-credit-schedule/SKILL.md) — SLA interaction with success fee.
+- [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) — premium fee defence.

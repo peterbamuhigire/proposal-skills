@@ -1,10 +1,15 @@
 ---
 name: blog-idea-generator
-description: Generate 15-25 targeted blog post ideas with 200-word summaries for any client website. Reads website content, assesses available information, adaptively selects from 20 ideation methods, and conducts a guided interview. Each idea includes a narrative brief + structured specs. Use when the user says "generate blog ideas", "what should I blog about", "blog topic ideas", "content ideas", or wants to populate topic-ideas.md.
+description: Use when generating and prioritising blog topics, editorial angles, or a topic-ideas file from client, audience, search, and website context; use blog-writer only after an idea is selected.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Blog Idea Generator
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the user wants blog topics, editorial angles, or content ideas.
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The topic area, audience, and publishing objective.
 - Any company, sector, geography, or SEO context that should shape the ideas.
 
-## Workflow
+## Domain Method
 1. Gather the business context, audience, and publishing purpose.
 2. Assess what information is already available and what ideation gaps remain.
 3. Use the workflow below to generate, refine, and prioritize candidate ideas.
@@ -29,24 +34,92 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Balance SEO usefulness with authority-building and originality.
 - Preserve compatibility with existing repository workflows and file paths.
 
-## Anti-Patterns
+## Domain Risks
 - Do not return generic topic lists with no angle or audience fit.
 - Do not skip summary or prioritization when the user needs a working shortlist.
 - Do not treat ideation as if it were the full article-writing workflow.
 
-## Outputs
+## Existing Deliverables
 - A prioritized list of blog ideas and short article-ready summaries.
+
+## Do Not Use When
+
+- Do not use this skill when a neighbouring specialist named in the description owns the primary decision; route there first and use this skill only as a supporting layer.
+- Do not use it to invent buyer facts, evidence, legal positions, statutory rules, delivery capacity, or current external claims.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| website or brand context, audience, goals, existing content, search evidence, and editorial constraints | Buyer, ToR, approved project record, accountable owner, or verified evidence source | Yes | Stop the affected decision, name the missing source, and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| prioritised blog idea set with narrative briefs | Editor, subject-matter expert, and blog writer | Claims trace to supplied evidence; assumptions, owners, exclusions, decisions, and observable acceptance tests are explicit. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Decision and source trace for the output | Reviewer and release owner | Each load-bearing choice identifies its source, rationale, accountable owner, and any unassessed check. |
+
+## Capability Contract
+
+Default to read-only for analysis, critique, discovery, and review. Minimum capability is access to the supplied artefacts and permission to inspect or calculate relevant evidence. Edit only the requested working copy. Do not publish, send, spend, change production systems, certify compliance, make a statutory claim, or approve a commercial concession without explicit authority.
+
+## Degraded Mode
+
+If required files, interviews, finance doctrine, search evidence, calculation tools, network access, or specialist review are unavailable, return the narrowest useful qualified result. Mark unavailable checks as not assessed, separate facts from assumptions, and state what is needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure/risk avoided |
+|---|---|---|
+| Generate, merge, reject, or prioritise an idea | Score audience relevance, evidence availability, differentiation, search intent, and editorial fit. | A high-volume list of generic topics. |
+| Evidence conflicts or authority is absent | Stop the affected recommendation, record the conflict, and seek the named owner’s decision. | Invented facts or unauthorised commitments. |
+| Evidence and approval are complete | Proceed within scope and retain the decision trace. | Irreproducible approval or scope drift. |
+
+## Workflow
+
+1. Confirm the consumer, decision, neighbouring-skill route, authority, and required inputs; stop if the primary route or accountable owner is unknown.
+2. Inspect supplied evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a load-bearing contradiction.
+3. Apply the domain method and decision rules, preserving the repository’s proposal voice and specialist constraints.
+4. Draft the contracted output with observable acceptance conditions and an evidence trace.
+5. Review alignment with scope, work plan, team, pricing, risk, and dependent proposal sections; recover by revising the affected choice and rerunning the check.
+6. Run the critical-analysis and anti-slop gates; block release on unsupported claims, failed safety or finance gates, or an F slop grade.
+
+## Quality Standards
+
+- Every load-bearing claim is verified or explicitly qualified, and the output distinguishes fact, assumption, recommendation, and commitment.
+- Scope, method, work plan, staffing, pricing, risks, dependencies, and acceptance conditions remain mutually consistent.
+- The output preserves domain constraints, names accountable owners, covers failure paths, and blocks unsupported or unauthorised promises.
+- British English and the repository’s East African professional tone are used unless the buyer requires another standard.
+- The critical-analysis and anti-slop gates pass before release, with no unassessed check represented as passed.
+
+## Anti-Patterns
+
+- Inventing a buyer fact or proof point. Fix: cite the supplied source or mark the statement as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and name the evidence needed to resume.
+- Copying a neighbouring skill’s method without routing. Fix: use the specialist for the primary decision and retain only the supporting layer here.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: state an observable measure, evidence record, and decision owner.
+- Adding premium or technical claims without delivery capacity. Fix: reconcile the claim with named people, time, budget, dependencies, and authority.
+
+## Worked Example
+
+For an East African accounting SaaS, reject “Benefits of Technology” and prioritise a sourced article on reconciling mobile-money settlements, with a named audience, evidence plan, and distinct angle.
+
+<!-- dual-compat-end -->
 
 ## References
 - Local `references/` files for ideation frameworks and content formats.
-- `../blog-writer/SKILL.md` when an idea moves into drafting.
+- [blog-writer](../blog-writer/SKILL.md) when an idea moves into drafting.
 
 Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid summary with narrative brief + structured specs. The system adapts its ideation methods to the specific client and available information.
 
-**Read `references/ideation-frameworks.md`** for the full 20-method library and selection logic.
-**Read `references/content-formats.md`** for 20 content formats with structural templates.
-**Read `sales-copywriting/references/headline-mastery.md`** for headline formulas and 4 U's scoring.
-
+**Read [ideation-frameworks](references/ideation-frameworks.md)** for the full 20-method library and selection logic.
+**Read [content-formats](references/content-formats.md)** for 20 content formats with structural templates.
 ---
 
 ## Step 1: Gather Context
@@ -60,7 +133,7 @@ Read every available file to build a complete picture:
 3. `docs/en/pages.md` — existing website pages and content
 4. `docs/sector-brief.md` — industry context (if present)
 5. `docs/style-brief.md` — brand voice and tone
-6. `blog-writer/references/topic-ideas.md` — existing topics (avoid duplicates)
+6. [topic-ideas](../blog-writer/references/topic-ideas.md) — existing topics (avoid duplicates)
 7. `src/pages/en/blog/` — existing articles (avoid overlap)
 8. All other `docs/en/` files — testimonials, FAQ, portfolio, about-story
 
@@ -144,7 +217,7 @@ Announce: "Based on available information, I'm using methods: [list]. Here's why
 
 Run selected methods sequentially. Aim for 25-35 raw ideas, then filter to the best 15-25.
 
-For each method, consult `references/ideation-frameworks.md` for detailed instructions and examples.
+For each method, consult [ideation-frameworks](references/ideation-frameworks.md) for detailed instructions and examples.
 
 ### Quality Filters
 
@@ -203,7 +276,7 @@ captures the creative direction and emotional tone.]
 - Key points must be specific enough to outline section headings from
 - Keywords must be realistic long-tail phrases someone would search
 - The angle must be genuinely different from what a Google search would surface
-- Every title must pass the 4 U's test (see `sales-copywriting/references/headline-mastery.md`): Useful, Unique, Urgent, Ultra-specific — score 3+ on at least 3 dimensions
+- Every title must pass the 4 U's test: Useful, Unique, Urgent, and Ultra-specific; score 3+ on at least three dimensions.
 
 ---
 
@@ -223,7 +296,7 @@ Refine based on feedback. The user's input overrides the assessment.
 
 ## Step 7: Save Output
 
-Save the final approved list to `blog-writer/references/topic-ideas.md`:
+Save the final approved list to [topic-ideas](../blog-writer/references/topic-ideas.md):
 
 ```markdown
 # Blog Topic Ideas — [Client Name]

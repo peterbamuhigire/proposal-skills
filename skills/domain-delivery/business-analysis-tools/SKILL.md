@@ -1,10 +1,17 @@
 ---
 name: business-analysis-tools
-description: Business analysis frameworks, diagnostic tools, and analytical models for consulting proposals. Use as a reference when drafting methodology sections that require structured analysis, diagnostic approaches, or strategic frameworks. Can generate a standalone analysis section or tool description when a ToR requires one.
+description: Use when a proposal needs diagnostic, requirements, options-appraisal, process, or decision-support tools. Unlike consulting-frameworks, this skill selects and applies business-analysis techniques to a defined analytical question and deliverable.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Business Analysis Tools
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment needs business-analysis tools, diagnostics, or decision-support methods.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Assignment brief and analytical question | Client or proposal lead | required | Stop tool selection and state the unresolved question. |
+| Decision criteria, evidence, and constraints | ToR, client records, verified research | conditional | Use a labelled hypothesis; do not present a diagnosis as fact. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify which analytical question the proposal actually needs to answer.
 2. Decide whether the assignment needs business value assessment, business analysis planning, solution refinement, or solution evaluation support.
 3. Use discovery questions where the brief is unclear on outcomes, users, data, workflows, support, or decision criteria.
@@ -33,18 +44,49 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not dump framework names without explaining how they apply.
-- Do not overload the proposal with jargon or marginal tools.
-- Do not ignore referenced files when they are needed for accuracy.
+- Dumping framework names without application. Fix: state the question, evidence, analysis, and decision for each tool.
+- Using SWOT where causal diagnosis is needed. Fix: use root-cause analysis or an issue tree.
+- Treating assumptions as findings. Fix: label hypotheses and name the validation source.
+- Selecting tools before reading evaluation criteria. Fix: map each tool to a scored deliverable.
+- Producing analysis with no consequence. Fix: state what the client can choose or change from the result.
 
 ## Outputs
-- Domain-informed analysis content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Analysis method block or standalone analysis plan | Evaluator and delivery team | Names the question, tool, evidence, steps, output, and decision use. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Tool-selection rationale and assumption register | Traceable table | Every method maps to a ToR requirement and unsupported claims are labelled. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Read and search are required. Default to read-only analysis. Edit proposal files only when drafting is authorised; do not alter client source data or certify findings.
+
+## Degraded Mode
+If client data or verification capability is unavailable or missing, return the narrowest qualified analysis plan, hypotheses, and evidence gaps. Mark the diagnosis not assessed.
+
+## Decision Rules
+| Analytical need | Action | Risk avoided |
+|---|---|---|
+| Cause of a defined problem | Root-cause analysis or issue tree | Symptom-level recommendations |
+| Compare feasible choices | Options appraisal or MCDA | Predetermined selection |
+| Describe operating gaps | Process map plus gap analysis | Abstract framework dumping |
+
+## Worked Example
+A revenue-leakage assignment uses a process map to locate control breaks, then an options appraisal to rank fixes by value, cost, and implementation risk; it does not substitute a generic SWOT.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- `../references/discovery-question-bank-for-proposals.md` when elicitation must clarify proposal assumptions.
-- `../references/service-design-methodology-module.md` when business analysis must cover journeys, touchpoints, service blueprints, or support experience.
-- `../references/technical-strategy-credibility-checklist.md` when analysis affects software, SaaS, AI, cloud, integrations, or operations decisions.
+- [../references/discovery-question-bank-for-proposals.md](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) when elicitation must clarify proposal assumptions.
+- [../references/service-design-methodology-module.md](../../profiles-sectors/references/service-design-methodology-module.md) when business analysis must cover journeys, touchpoints, service blueprints, or support experience.
+- [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) when analysis affects software, SaaS, AI, cloud, integrations, or operations decisions.
 
 Top-tier proposals reference named analytical frameworks and tools — they show the evaluator how the firm thinks, not just what it will do. This skill provides a library of business analysis tools that proposal sections draw from, particularly methodology (06), understanding of assignment (03), and executive summary (02).
 

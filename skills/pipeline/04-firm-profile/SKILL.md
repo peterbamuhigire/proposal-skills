@@ -1,10 +1,17 @@
 ---
-name: proposal-writing/04-firm-profile
-description: Write the firm profile or consultant profile section of a consulting proposal. Use when the user asks to draft the company profile, firm overview, organisational capability, or individual consultant profile.
+name: 04-firm-profile
+description: Use when drafting the proposer or individual consultant profile, service areas, geographic presence, organisation, or credentials. Unlike 05-relevant-experience, this skill establishes enduring capability rather than assignment-by-assignment proof.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Firm Profile
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the firm profile or consultant profile section of a proposal.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The assignment brief and any relevant procurement-form constraints.
 - Current credential, service, footprint, and differentiator information for the proposer.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Legal identity, services, footprint, credentials, capacity, and authorised profile | Proposer records | required | Omit or mark unverified; do not fabricate organisational facts. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Confirm who is proposing before drafting anything in this section.
 2. Read the assignment materials and determine which profile elements matter most to the evaluator.
 3. Use the structure below to tailor the profile to the actual bid instead of reusing a generic corporate description.
@@ -32,16 +45,50 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Emphasize evidence, capability fit, and credibility over broad marketing language.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not write a generic company brochure in place of a bid-specific profile.
 - Do not mix individual and company identities or voice.
 - Do not include claims that the rest of the proposal cannot support.
+- Do not confuse memberships with certification. Fix: use the exact verified status.
+- Do not mix firm and individual experience. Fix: attribute every capability to its proper owner.
 
 ## Outputs
-- A proposal-ready firm or consultant profile aligned to the selected proposer.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Firm or consultant profile | Evaluator and compliance reviewer | Correct identity and only relevant, verified capability evidence. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Profile claim register | Source map | Legal, credential, footprint, staffing, and service claims each have evidence. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Read and draft only. Do not alter legal identity, claim certification, publish personal data, or represent the entity without authority.
+
+## Degraded Mode
+If verified profile records are unavailable, return a structured draft with omissions and evidence requests. Do not fill gaps from memory.
+
+## Decision Rules
+| Profile fact | Action | Risk avoided |
+|---|---|---|
+| Directly relevant and verified | Include with concise proof | Generic brochure |
+| Relevant but unverified | Hold or qualify | Misrepresentation |
+| Belongs to a partner or expert | Attribute explicitly | False firm capability |
+
+## Worked Example
+A profile states the verified legal entity, three relevant service lines, actual regional presence, and evidenced delivery capacity; project outcomes remain in relevant experience.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 This section establishes the firm's credentials and eligibility. It must convince the evaluator that the firm is legally registered, technically capable, financially stable, and experienced in the relevant sector and geography.

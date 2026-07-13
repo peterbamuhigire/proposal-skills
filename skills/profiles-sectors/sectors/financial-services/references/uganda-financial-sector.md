@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda Financial Sector Profile
 
+Parent skill: [Financial Services](../SKILL.md).
+
 ## 1. Sector Overview
 
 Uganda's financial sector comprises 22 commercial banks, 4 microfinance deposit-taking institutions (MDIs), 5 credit institutions, approximately 900 savings and credit cooperative organisations (SACCOs), 143 insurance companies, 63 pension funds, 203 forex bureaus, and 58 money remitters. The sector is regulated primarily by the Bank of Uganda (BoU), the Capital Markets Authority (CMA), the Insurance Regulatory Authority (IRA), and the Uganda Retirement Benefits Regulatory Authority (URBRA).

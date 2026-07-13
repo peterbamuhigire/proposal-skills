@@ -1,5 +1,7 @@
 # UN Trust Funds Guide — Project Proposals Through UNDP
 
+Parent skill: [United Nations System Procurement Framework — Consulting Services and Grants](../SKILL.md).
+
 Detailed guide for preparing project proposals to United Nations Trust Funds administered through UNDP channels. Covers the five-part project document pro forma, budget line numbering, government endorsement requirements, and appraisal criteria.
 
 ---

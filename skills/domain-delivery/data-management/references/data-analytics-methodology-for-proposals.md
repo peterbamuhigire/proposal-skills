@@ -1,5 +1,7 @@
 # Data Analytics Methodology for Proposals
 
+Parent skill: [Data Management](../SKILL.md).
+
 Use this reference when a proposal involves dashboards, MIS, surveys, routine monitoring,
 business intelligence, AI analytics, data platforms, financial analysis, operational
 analytics, or evidence-based decision support.

@@ -1,5 +1,7 @@
 # Blog Ideation & Research Reference
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Techniques for generating blog topic ideas and researching articles, distilled from Lima (*Fundamentals of Writing*), Bly (*How to Write and Sell Simple Information*), and Graves (*Writing for Profit*).
 
 ---

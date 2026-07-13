@@ -1,10 +1,15 @@
 ---
 name: ai-agent-procurement-and-questionnaire
-description: Use when responding to a buyer's AI-agent procurement questionnaire, or when the proposal must pre-empt the agent questionnaire with a procurement-grade answer pack. Covers autonomy level per use case, action catalogue, irreversibility classification, kill-switch architecture and drill cadence, scope-confinement evidence, agent identity and impersonation, audit-log access, sub-processor exposure for tool calls, multi-agent governance, and transparency-to-affected-party posture. Extends `ai-on-saas-procurement-and-questionnaire` with the agent overlay.
+description: Use when answering or pre-empting an AI-agent procurement questionnaire on autonomy, action scope, reversibility, kill switches, audit logs, identity, subprocessors, and governance.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Procurement and Questionnaire
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -17,7 +22,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - The questionnaire is non-agent (use `ai-on-saas-procurement-and-questionnaire`).
 
-## Required Inputs
+## Domain Inputs
 
 - The buyer's questionnaire (if issued).
 - The compliance credentials posture from `ai-agent-compliance-credentials`.
@@ -27,7 +32,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The agent identity policy and red-team catalogue.
 - The sub-processor list (models + tool-call APIs).
 
-## Workflow
+## Domain Method
 
 1. Read the questionnaire. Categorise each question into one of the **ten agent procurement domains** (below). Where a domain is unaddressed, **volunteer the answer** — procurement teams reward proactivity on agentic concerns.
 2. Where a question cannot be answered affirmatively, give the **honest staged answer** — today / in-progress with date / committed for this engagement / out of scope with rationale. Do not fabricate.
@@ -110,7 +115,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Vendor Cost Pass-Through: trigger, notice, cap, evidence, Margin Floor.
 - FX Corridor for the local currency / USD pair.
 - Renewal: auto / express / hybrid; Ramp-Down Protection; Autonomy-Progression Price-Step; Index-Linked Renewal.
-- See `../ai-agent-procurement-objections-on-commercials/SKILL.md` for trade-not-give responses to common procurement asks on these commercial dimensions.
+- See [ai-agent-procurement-objections-on-commercials](../../ai-agent-commercial/ai-agent-procurement-objections-on-commercials/SKILL.md) for trade-not-give responses to common procurement asks on these commercial dimensions.
 
 ## Quality Standards
 
@@ -125,7 +130,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Redress mechanism names an owner and SLA.
 - Answers are internally consistent with the risk register and the compliance credentials.
 
-## Anti-Patterns
+## Domain Risks
 
 - "Our agents comply with all applicable laws".
 - Autonomy stated globally without per-action-class commitment.
@@ -136,7 +141,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Multi-agent governance skipped in multi-agent engagements.
 - Liability allocation deferred to MSA negotiation without a starting position.
 
-## Outputs
+## Domain Outputs
 
 - Agent Questionnaire Response Pack — ten-domain answer pack, drop-in ready.
 - Action Catalogue (annex).
@@ -148,17 +153,73 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Multi-Agent Governance statement (where applicable).
 - Liability Allocation and Redress statement.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| buyer questionnaire, proposed architecture, action catalogue, control evidence, and subprocessor register | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Procurement answer pack and evidence index | Procurement, CISO, DPO, and legal counsel | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| procurement answer pack and evidence index | Procurement, CISO, DPO, and legal counsel | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Answer, qualify, or decline | Tie each answer to current scoped evidence; mark planned controls and owner-approved exceptions. | Fabricated compliance or ambiguous control ownership. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+For a question on kill-switch testing, cite the dated drill record and recovery result. If no drill exists for the proposed environment, answer planned, name the owner, and state the gate before go-live.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-procurement-questionnaire-pack.md` — long-form answer pack with sample language.
-- `../references/ai-agent-trust-and-compliance-template.md` — trust section consistency.
-- `../references/ai-agent-responsible-ai-commitment.md` — commitment consistency.
-- `../references/ai-agent-sla-class-table.md` — SLA class and credit schedule (domain 11 evidence).
-- `../references/ai-agent-credit-and-refund-clauses.md` — credit and refund language (domain 11 evidence).
-- `../references/ai-agent-commercial-objection-handling.md` — procurement-objection responses.
-- `../references/ai-on-saas-procurement-questionnaire-pack.md` — AI-on-SaaS questionnaire base.
-- `../ai-on-saas-procurement-and-questionnaire/SKILL.md` — AI-on-SaaS procurement (load alongside for SaaS-embedded agents).
-- `../ai-agent-compliance-credentials/SKILL.md` — credentials matching the answers.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — risk consistency.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — domain 11 SLA answers.
-- `../ai-agent-procurement-objections-on-commercials/SKILL.md` — commercial objection handling.
+- [ai-agent-procurement-questionnaire-pack](../../profiles-sectors/references/ai-agent-procurement-questionnaire-pack.md) — long-form answer pack with sample language.
+- [ai-agent-trust-and-compliance-template](../../profiles-sectors/references/ai-agent-trust-and-compliance-template.md) — trust section consistency.
+- [ai-agent-responsible-ai-commitment](../../profiles-sectors/references/ai-agent-responsible-ai-commitment.md) — commitment consistency.
+- [ai-agent-sla-class-table](../../profiles-sectors/references/ai-agent-sla-class-table.md) — SLA class and credit schedule (domain 11 evidence).
+- [ai-agent-credit-and-refund-clauses](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — credit and refund language (domain 11 evidence).
+- [ai-agent-commercial-objection-handling](../../profiles-sectors/references/ai-agent-commercial-objection-handling.md) — procurement-objection responses.
+- [ai-on-saas-procurement-questionnaire-pack](../../profiles-sectors/references/ai-on-saas-procurement-questionnaire-pack.md) — AI-on-SaaS questionnaire base.
+- [ai-on-saas-procurement-and-questionnaire](../../ai-on-saas-proposals/ai-on-saas-procurement-and-questionnaire/SKILL.md) — AI-on-SaaS procurement (load alongside for SaaS-embedded agents).
+- [ai-agent-compliance-credentials](../ai-agent-compliance-credentials/SKILL.md) — credentials matching the answers.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — risk consistency.
+- [ai-agent-sla-and-credit-schedule](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) — domain 11 SLA answers.
+- [ai-agent-procurement-objections-on-commercials](../../ai-agent-commercial/ai-agent-procurement-objections-on-commercials/SKILL.md) — commercial objection handling.

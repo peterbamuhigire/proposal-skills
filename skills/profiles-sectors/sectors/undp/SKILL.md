@@ -1,11 +1,17 @@
 ---
-name: sectors/un-system
-description: United Nations system procurement framework for consulting services, grants, and project proposals. Read this skill whenever the proposal responds to any UN agency assignment — UNDP, UNICEF, UNFCCC, UNEP, UN Women, FAO, WHO, UNIDO, ILO, or any other UN body. Covers grant modalities (competitive grants, GEF SGP, UN Trust Funds), UN consulting services RFPs (UNICEF, UNFCCC-style), proposal templates, evaluation criteria, and strategies for maximising scores across different UN instruments.
+name: undp
+description: Use when a consulting, grant, or project proposal follows UNDP or wider UN-system procurement and evaluation rules; use AfDB, World Bank, or PPDA skills when their framework controls.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # United Nations System Procurement Framework — Consulting Services and Grants
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when the solicitation follows UNDP or wider UN-system procurement rules.
 - Load it before drafting when you need form, scoring, threshold, or compliance guidance.
@@ -15,16 +21,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - A different procurement framework clearly applies.
 
 ## Required Inputs
-- The solicitation package, especially instructions, forms, and evaluation criteria.
-- Any known selection method and technical threshold.
-- The target proposal sections that must comply with the framework.
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---|---|
+| The solicitation package, especially instructions, forms, and evaluation criteria. | Buyer solicitation, ToR, or approved brief | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| Any known selection method and technical threshold. | Buyer, verified sector source, or discovery | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| The target proposal sections that must comply with the framework. | Buyer, verified sector source, or discovery | Conditional | Stop the affected claim, request or verify the input, and label the resulting gap. |
 
 ## Workflow
+
 1. Confirm that UNDP or UN-system procurement applies from explicit cues in the solicitation.
 2. Read this skill and the local references to understand forms, scoring, administrative compliance, and constraints.
 3. Map those requirements into the numbered proposal section skills before drafting.
 4. Draft to maximize technical quality without creating compliance risk.
 5. Check the final output against thresholds, form placement, and submission rules.
+
+**Stop condition:** Stop when proposer identity, controlling framework, mandatory form, sector fit, current rule, or load-bearing evidence remains unresolved.
+
+**Recovery:** Record the gap and owner, seek clarification or current evidence, and return only the separable proposal content that remains supportable.
 
 ## Quality Standards
 - Treat UN instructions as hard constraints, not optional style guidance.
@@ -32,16 +46,57 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Optimize for evaluator behavior where the framework supports it.
 
 ## Anti-Patterns
+
 - Do not rely on generic donor assumptions when the UN materials give exact instructions.
 - Do not ignore administrative compliance gates, thresholds, or mandatory declarations.
 - Do not mix UN assumptions with World Bank, AfDB, or PPDA rules.
+- Treating a neighbouring sector or framework as interchangeable. **Fix:** identify the controlling rule and primary outcome.
+- Adding terminology without changing a delivery choice. **Fix:** link each term to method, risk, output, or evaluation criterion.
+- Presenting an unverified current rule or statistic as settled. **Fix:** cite and date the source or mark it not assessed.
+- Ignoring a missing mandatory input. **Fix:** stop the affected claim and assign an evidence owner.
+- Letting sector or identity framing contradict methodology, staffing, schedule, or price. **Fix:** reconcile all affected sections before release.
 
 ## Outputs
-- A UNDP- or UN-compliant drafting and scoring approach for the relevant proposal sections.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| A UNDP- or UN-compliant drafting and scoring approach for the relevant proposal sections. | Proposal lead, section writer, and evaluator-readiness reviewer | Applied consistently, traceable to the selected source, and free of unsupported identity, framework, or sector claims. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Routing and source record | Proposal lead and reviewer | Selected identity, framework, sector, source, date, and material gaps are recorded. |
+| Decision record | Section writer and delivery lead | Each material choice has rationale, owner, evidence, and a review or stop condition. |
+| Conformance check | Release reviewer | Mandatory forms, identity rules, sector logic, and unresolved checks are explicitly assessed. |
+
+## Capability Contract
+
+This skill may read supplied profiles, solicitations, ToRs, approved references, and proposal drafts and may prepare routing guidance or draft content within the authorised workspace. Review is read-only by default. It must not invent credentials, certify compliance, submit a bid, accept terms, publish, disclose confidential information, or change source records without explicit authority.
+
+## Degraded Mode
+
+If the solicitation, profile, current procurement source, sector evidence, network, or reviewer is unavailable, provide the narrowest useful qualified routing or draft. Mark the missing check **not assessed**, omit unsupported credentials, thresholds, dates, or compliance claims, and identify the evidence owner. An unassessed requirement is never a pass.
+
+## Decision Rules
+
+| Decision | Action | Failure/risk avoided |
+|---|---|---|
+| UN instrument type | Classify the opportunity as consulting procurement, grant, or other UN instrument before applying forms and scoring logic. | Wrong template, eligibility claim, or cost treatment |
+| Conflicting solicitation and background guidance | Follow the solicitation while recording the conflict for formal clarification. | Non-responsive interpretation |
+| Missing mandatory evidence | Stop the affected claim or form, record the owner and deadline, and continue only with independent supported content. | Fabricated evidence or silent omission |
+| Submission, certification, or contractual commitment | Obtain explicit authority and preserve approval evidence before acting. | Unauthorised external commitment |
+
+## Worked Example
+
+A solicitation requires **un instrument type**, but one controlling input is missing. The proposal team applies this rule: Classify the opportunity as consulting procurement, grant, or other UN instrument before applying forms and scoring logic. It records the gap and owner, withholds the affected assurance, and proceeds only with content that can be verified. This avoids **wrong template, eligibility claim, or cost treatment**.
 
 ## References
+
+- [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+<!-- dual-compat-end -->
 - Local `references/` files for UN procurement variants, scoring logic, and programme-specific requirements.
-- `../SKILL.md` to combine framework and sector context.
+- [../SKILL.md](../SKILL.md) to combine framework and sector context.
 
 This skill covers procurement across the entire UN system: UNDP, UNICEF, UNFCCC, UNEP, UN Women, FAO, WHO, UNIDO, ILO, and all other UN bodies. While each agency has its own procedures, they share common patterns in proposal structure, evaluation, and compliance requirements. Read this before writing any UN-funded proposal.
 
@@ -377,4 +432,3 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: UNDP/EU "Guidelines for Submitting Project Proposals for Civil Society Organizations" (January 2025), GEF Small Grants Programme "Project Proposal Template" (GEF-7 Operational Phase), United Nations "Guidelines for Preparing and Submitting Project Proposals" for UN Trust Funds, UNICEF "Format of Technical and Financial Proposal" (Annex E, 2021), and UNFCCC "Technical Proposal Template" (Annex 9, ITL RFP).*
-

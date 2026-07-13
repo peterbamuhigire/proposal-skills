@@ -1,5 +1,7 @@
 # Skill Authoring Best Practices
 
+Parent skill: [Skill Writing](../SKILL.md).
+
 This guide covers practical decisions for writing concise, reliable Skills that Claude can discover and use effectively.
 
 ## Contents
@@ -241,9 +243,9 @@ with pdfplumber.open("file.pdf") as pdf:
 
 ## Advanced features
 
-**Form filling**: See [FORMS.md](FORMS.md) for complete guide
-**API reference**: See [REFERENCE.md](REFERENCE.md) for all methods
-**Examples**: See [EXAMPLES.md](EXAMPLES.md) for common patterns
+**Form filling**: an illustrative skill may link to `FORMS.md` for the complete guide.
+**API reference**: an illustrative skill may link to `REFERENCE.md` for all methods.
+**Examples**: an illustrative skill may link to `EXAMPLES.md` for common patterns.
 
 Claude loads FORMS.md, REFERENCE.md, or EXAMPLES.md only when needed.
 
@@ -267,10 +269,10 @@ SKILL.md:
 
 ## Available datasets
 
-**Finance**: Revenue, ARR, billing → See [reference/finance.md](reference/finance.md)
-**Sales**: Opportunities, pipeline, accounts → See [reference/sales.md](reference/sales.md)
-**Product**: API usage, features → See [reference/product.md](reference/product.md)
-**Marketing**: Campaigns, attribution → See [reference/marketing.md](reference/marketing.md)
+**Finance**: Revenue, ARR, billing; illustrative path `reference/finance.md`.
+**Sales**: Opportunities, pipeline, accounts; illustrative path `reference/sales.md`.
+**Product**: API usage, features; illustrative path `reference/product.md`.
+**Marketing**: Campaigns, attribution; illustrative path `reference/marketing.md`.
 
 ## Quick search
 
@@ -290,14 +292,14 @@ Show basic content and link to advanced content:
 
 ## Creating documents
 
-Use docx-js for new documents. See [DOCX-JS.md](DOCX-JS.md).
+Use docx-js for new documents. An illustrative package may keep detail in `DOCX-JS.md`.
 
 ## Editing documents
 
 For simple edits, modify the XML directly.
 
-**For tracked changes**: See [REDLINING.md](REDLINING.md)
-**For OOXML details**: See [OOXML.md](OOXML.md)
+**For tracked changes**: an illustrative package may use `REDLINING.md`.
+**For OOXML details**: an illustrative package may use `OOXML.md`.
 
 ## Avoid deeply nested references
 

@@ -1,5 +1,7 @@
 # Data Governance Frameworks
 
+Parent skill: [Data Management](../SKILL.md).
+
 > Synthesised from Ladley (Data Governance, 2nd ed.), Ladley (Advanced Data Governance, 2024), African Union Data Policy Framework (2022), Ndemo et al. (Data Governance and Policy in Africa, 2023), and Ford Foundation Uganda DG Study (2023).
 
 ---
