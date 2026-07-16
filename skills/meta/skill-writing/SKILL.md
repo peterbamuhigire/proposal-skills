@@ -32,6 +32,7 @@ Create concise, portable proposal procedures that another agent can route, execu
 | Repeatable problem and representative prompts | User or catalogue evidence | Yes | Stop; do not invent a trigger without a demonstrated workflow. |
 | Neighbouring skill descriptions | Live `skills/**/SKILL.md` catalogue | Yes | Search the catalogue before defining scope or routing. |
 | Capability and permission boundary | Parent task and repository policy | Yes | Default to read-only and identify the missing authority. |
+| Third-party source notes, if used | Temporary workspace outside the repository | No | Apply the source-distillation policy; never ingest a raw book or reconstructive extract. |
 
 ## Outputs
 
@@ -70,13 +71,15 @@ Without editing or execution, return the narrowest useful scored contract gap an
 3. Stop if the change would create unjustified scope, remove domain knowledge, or alter active count without authority.
 4. Write the contracts first, then preserve and reorganise the useful domain workflow around them.
 5. Recover from validator or routing failure by correcting the smallest responsible contract, not weakening the gate.
-6. Run local validation, routing fixtures, the canonical scanner, canonical quick validation, safety review, and anti-slop audit.
+6. When a book or other copyrighted source informs the work, apply [the source-distillation policy](references/source-distillation-and-copyright.md) and retain only independently written, task-specific synthesis.
+7. Run local validation, routing fixtures, `python -X utf8 scripts/source_ingestion_guardrail.py`, the canonical scanner, canonical quick validation, safety review, and anti-slop audit.
 
 ## Quality Standards
 
 - [SKILL.md](SKILL.md) stays within 500 lines, uses British English, and keeps deep detail in directly linked references.
 - Frontmatter, acknowledgement, inputs, outputs, evidence, decisions, permissions, degraded mode, workflow, and acceptance conditions are independently checkable.
 - Examples clarify domain judgement; they do not contain invented client facts, prices, credentials, or citations.
+- Source-derived guidance is independently expressed, minimally quoted, attributed where appropriate, and cannot reconstruct the source.
 
 ## Anti-Patterns
 
@@ -86,6 +89,7 @@ Without editing or execution, return the narrowest useful scored contract gap an
 - Treating a missing tool as a pass. Fix: mark the check not assessed and return a qualified degraded result.
 - Adding generic sections only to satisfy a counter. Fix: write domain inputs, decisions, evidence, outputs, and acceptance conditions.
 - Moving routing or safety rules into a deep reference. Fix: keep load-bearing execution logic in [SKILL.md](SKILL.md).
+- Retaining ebooks, scans, OCR output, full conversions, chapter dumps, or disguised/split copies. Fix: remove the source from the repository and keep only concise independent synthesis.
 
 ## Worked Example
 
@@ -97,5 +101,6 @@ When `financial-proposal` overlaps `work-plan`, keep pricing, reimbursables, fee
 - [Authoring workflows](references/workflows.md)
 - [Output patterns](references/output-patterns.md)
 - [Skill authoring practices](references/skill-authoring-best-practices.md)
+- [Source distillation and copyright boundary](references/source-distillation-and-copyright.md)
 - [Skill safety audit](../skill-safety-audit/SKILL.md)
 <!-- dual-compat-end -->
