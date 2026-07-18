@@ -1,10 +1,15 @@
 ---
 name: ai-agent-renewal-and-true-up
-description: Use when drafting the renewal mechanics for an agentic engagement — auto-renewal, true-up clauses for volume divergence, ramp-down protection, autonomy-progression price-step, and index-linked renewal anchored to model-provider price index and FX. Pairs with `ai-agent-pricing-and-packaging-proposal` and `ai-agent-sla-and-credit-schedule`. Designed for autonomy ramps that change the price as the agent matures.
+description: Use when defining renewal, volume true-up, ramp-down protection, autonomy-linked price steps, or indexation for an agent engagement; use the pricing skill for initial rates.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Renewal and True-Up
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -19,7 +24,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The engagement is a one-off fixed-fee build with no recurring component.
 - The engagement is month-to-month with no renewal commitment.
 
-## Required Inputs
+## Domain Inputs
 
 - The base term, the renewal term, and the notice period.
 - The autonomy ramp curve with named milestones and price-steps.
@@ -29,7 +34,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The ramp-down protection the buyer expects.
 - The agency's renewal posture (auto vs express).
 
-## Workflow
+## Domain Method
 
 1. Set the **base term** (typically 12 / 24 / 36 months) and the **renewal term** (typically annual).
 2. Decide **auto-renewal vs express-renewal** — auto with 90-day notice is the default; regulated buyers often require express renewal.
@@ -84,7 +89,7 @@ Where the buyer's fees are in local currency (KES, NGN, UGX, RWF, ZAR) and the m
 - FX corridor is named with reference rate and percentage.
 - Renewal exhibit is internally consistent with the pricing exhibit and the SLA exhibit.
 
-## Anti-Patterns
+## Domain Risks
 
 - Auto-renewal hidden in fine print at the end of the contract.
 - True-up that refunds under-use — the agency absorbs the under-commitment.
@@ -94,7 +99,7 @@ Where the buyer's fees are in local currency (KES, NGN, UGX, RWF, ZAR) and the m
 - FX corridor absent in an Africa-context engagement.
 - "Subject to annual review" — procurement reads this as no commitment.
 
-## Outputs
+## Domain Outputs
 
 - Renewal Exhibit (drop-in).
 - True-Up Schedule.
@@ -103,12 +108,70 @@ Where the buyer's fees are in local currency (KES, NGN, UGX, RWF, ZAR) and the m
 - Index-Linked Renewal Clause.
 - FX Corridor Clause.
 
+## Anti-Patterns
+
+- Quoting an unverified commercial term. Fix: trace it to the approved brief or contract record and label any unresolved variable.
+- Billing an attempted task as a completed outcome. Fix: define the eligible event, exclusions, reversal window, and evidence source.
+- Leaving credits, refunds, or liability uncapped. Fix: state the eligible fee base, cap, trigger, exclusions, and approval owner.
+- Updating one exhibit while dependent terms still conflict. Fix: reconcile pricing, SLA, credit, refund, renewal, and liability provisions together.
+- Removing a legal placeholder without authority. Fix: retain the marker, name the decision owner, and require qualified review before issue.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| signed commercial baseline, usage history, and forecast | Buyer, proposal owner, approved contract record, or measured operating evidence | Yes | Stop before making a commitment; list the missing evidence and provide only a qualified option set. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Renewal and true-up schedule | Finance, customer success, and legal | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| renewal and true-up schedule | Finance, customer success, and legal | Assumptions, measures, authority, exclusions, and acceptance tests are explicit and traceable to the supplied evidence. |
+
+## Capability Contract
+
+Minimum capability is read access to the approved commercial record and calculation support for any stated formula. Drafting authority permits edits only inside the requested proposal or contract working copy. Do not sign, publish, spend, change production configuration, concede liability, or represent legal approval without explicit authority. Legal and tax conclusions require qualified review.
+
+## Degraded Mode
+
+Fallback when tools are unavailable: use the qualified path below.
+
+If source terms, telemetry, calculation tools, or legal review are unavailable, return the narrowest useful marked draft: identify unverified variables, preserve placeholders, show the calculation method where possible, and mark each unavailable check as not assessed. Never convert missing evidence into approval.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Renew, true up, or rebase | Compare actual volume, autonomy, upstream cost, FX, and service performance with contractual bands. | Surprise invoice or uneconomic renewal. |
+| Evidence is incomplete or positions conflict | Stop commitment drafting, record the conflict, and request the named owner’s decision. | Invented terms, double recovery, or an unauthorised concession. |
+| Evidence and authority are complete | Draft, cross-check dependent exhibits, and retain the calculation or clause trace. | An internally inconsistent commercial package. |
+
+## Workflow
+
+1. Confirm the consumer, authority, controlling commercial record, and required inputs; stop when a baseline or accountable owner is missing.
+2. Reproduce relevant calculations and identify conflicts across pricing, SLA, credit, refund, renewal, liability, and scope; stop when a formula cannot be reproduced.
+3. Apply the domain method and decision rules within delegated authority, recording assumptions and exclusions.
+4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
+5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+Actual volume is 30% above the contracted band and autonomy advanced one stage. Calculate the contractual true-up, show the next-period band, and apply only the agreed index.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-renewal-and-true-up-clauses.md` — drop-in language.
-- `../references/ai-agent-vendor-cost-pass-through.md` — model-provider price-index handling.
-- `../references/ai-agent-pricing-exhibit-template.md` — pricing exhibit consistency.
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — pricing patterns.
-- `../ai-agent-commercial-packaging/SKILL.md` — packaging-shape renewal posture.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA-class renewal interaction.
-- `../ai-agent-msa-and-sla-addendum-templates/SKILL.md` — MSA addendum.
+- [ai-agent-renewal-and-true-up-clauses](../../profiles-sectors/references/ai-agent-renewal-and-true-up-clauses.md) — drop-in language.
+- [ai-agent-vendor-cost-pass-through](../../profiles-sectors/references/ai-agent-vendor-cost-pass-through.md) — model-provider price-index handling.
+- [ai-agent-pricing-exhibit-template](../../profiles-sectors/references/ai-agent-pricing-exhibit-template.md) — pricing exhibit consistency.
+- [ai-agent-pricing-and-packaging-proposal](../../ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md) — pricing patterns.
+- [ai-agent-commercial-packaging](../ai-agent-commercial-packaging/SKILL.md) — packaging-shape renewal posture.
+- [ai-agent-sla-and-credit-schedule](../ai-agent-sla-and-credit-schedule/SKILL.md) — SLA-class renewal interaction.
+- [ai-agent-msa-and-sla-addendum-templates](../ai-agent-msa-and-sla-addendum-templates/SKILL.md) — MSA addendum.

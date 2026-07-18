@@ -1,28 +1,38 @@
 ---
 name: update-claude-documentation
-description: "Update project documentation files (README.md, PROJECT_BRIEF.md, TECH_STACK.md, ARCHITECTURE.md, docs/API.md, docs/DATABASE.md, CLAUDE.md) when significant changes occur. Use for feature additions, architecture changes, dependency updates, API/database modifications. Ensures consistency across all docs."
+description: Use when repository behaviour, routing, counts, validation, or release procedures change and README, AGENTS, CLAUDE, CONTRIBUTING, or focused docs must be synchronised; not for ordinary copy edits.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Update Claude Documentation
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
-- Use this skill when repository documentation such as `README.md`, `CLAUDE.md`, or repo docs must be updated after skill changes.
+- Use this skill when repository documentation such as [README.md](../../../README.md), [CLAUDE.md](../../../CLAUDE.md), or repo docs must be updated after skill changes.
 - Load it when repository behavior has changed and the Claude-facing docs are now incomplete or stale.
 
 ## Do Not Use When
 - The task does not change repository behavior or documentation-relevant structure.
 - The work is unrelated to repository documentation.
 
-## Required Inputs
-- The changed files and the user-visible behavior they introduce or modify.
-- The documentation files that describe the repository, workflows, or skill inventory.
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| Implemented change and complete diff | Repository | Yes | Stop and inspect the change before describing it. |
+| Affected documentation | Repository routers and docs | Yes | Mark inaccessible documents not assessed; do not claim consistency. |
 
 ## Workflow
-1. Review the repository changes and determine which docs they affect.
-2. Update the relevant documentation files using the mapping rules below.
-3. Check for consistency across overview docs, routing docs, and maintenance docs.
-4. Return concise documentation updates that match the current repository state.
+1. Review the implemented change and map facts to affected documents.
+2. Update specific technical or contract documentation before general summaries.
+3. Stop if machine output and a documented count or command disagree.
+4. Recover by rerunning the source check, correcting stale claims, and reconciling terminology.
+5. Verify links, paths, commands, counts, and release instructions across the affected documents.
 
 ## Quality Standards
 - Keep documentation factual, current, and aligned to actual file paths and workflows.
@@ -30,16 +40,44 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not leave routing tables or workflow instructions stale after structural or skill changes.
-- Do not describe workflows that the repository no longer supports.
-- Do not duplicate the same long explanation in multiple files without need.
+- Updating README while leaving AGENTS routing stale. Fix: map the change to every governing document.
+- Describing a validator that was not run. Fix: quote only commands and results supported by execution evidence.
+- Copying the same long procedure into three routers. Fix: keep the procedure in one focused document and link to it.
+- Preserving a stale skill count after filesystem changes. Fix: derive counts from the live catalogue.
+- Claiming a breaking change is harmless. Fix: state the migration or compatibility consequence explicitly.
 
 ## Outputs
-- Updated repository documentation that reflects the current skill system and operating rules.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Updated repository documentation | Maintainers and agents | Counts, paths, terminology, commands, and release rules match the implemented state. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Documentation consistency check | Release owner | Affected files and verified facts are listed with no unresolved contradiction. |
+
+## Capability Contract
+
+Read and search are required. Editing is permitted only when documentation updates are authorised by the parent task. Publishing, external messaging, deletion, and release claims require explicit authority and validation evidence.
+
+## Degraded Mode
+
+Fallback: when a source document, diff, command, or machine result is unavailable, update only verified facts, mark the remainder `not assessed`, and do not claim repository-wide consistency.
+
+## Decision Rules
+
+| Change | Action | Failure or risk avoided |
+|---|---|---|
+| Routing or active-count change | Update agent routers and catalogue documentation | Agents loading stale paths |
+| Validator or release-gate change | Update authoring, contribution, and CI instructions | Unreproducible releases |
+| Copy-only correction with no behavioural effect | Edit the owning document only | Unnecessary documentation churn |
 
 ## References
-- `README.md`, `CLAUDE.md`, and repo docs under `docs/`.
-- The changed skills and directories the documentation must describe.
+- [Repository authoring standard](../../../docs/skill-authoring-standard.md)
+- [Contribution and release procedure](../../../CONTRIBUTING.md)
+<!-- dual-compat-end -->
 
 Update project documentation systematically after significant changes. Keep all files consistent and accurate.
 

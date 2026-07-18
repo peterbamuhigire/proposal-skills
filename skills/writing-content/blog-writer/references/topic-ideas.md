@@ -1,5 +1,7 @@
 # Blog Topic Ideas (Project-Specific)
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 This file is project-specific — each client website should have its own version. These topics are curated from the author's expertise and target specific search keywords that potential clients are using.
 
 **For techguypeter.com:** Drawn from Peter Bamuhigire's 15+ years of experience across East and West Africa. Topics can cover any subject relevant to the author's expertise — not limited to those listed here.

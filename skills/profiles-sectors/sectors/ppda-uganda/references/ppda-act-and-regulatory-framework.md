@@ -1,5 +1,7 @@
 # PPDA Act and Regulatory Framework
 
+Parent skill: [Uganda PPDA Procurement Framework](../SKILL.md).
+
 Reference material for the ppda-uganda sector skill. Provides the legal and regulatory framework governing all public procurement in Uganda — institutional structures, procurement methods, preference schemes, contract types, complaints mechanisms, and compliance requirements. Use when understanding the legal basis for procurement decisions or when proposals need to demonstrate PPDA compliance.
 
 Sources: Public Procurement and Disposal of Public Assets Act (Cap. 205, as amended through Act 15/2021 and S.I. 96/2023), PPDA Frequently Asked Questions.

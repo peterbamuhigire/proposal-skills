@@ -1,5 +1,7 @@
 # Stakeholder Analysis, Mapping, and Classification
 
+Parent skill: [Stakeholder Engagement](../SKILL.md).
+
 Reference material for the stakeholder-engagement skill. Provides detailed guidance on stakeholder identification, classification models, analysis frameworks, and mapping techniques. Use when designing stakeholder analysis components for proposals or when the ToR requires a stakeholder engagement plan.
 
 Sources: Worsley (Stakeholder-led Project Management, 2nd ed., 2020), Harrin (Engaging Stakeholders on Projects, 2020), Rendtorff (Stakeholder Theory, 2016), Huemann (Rethink Project Stakeholder Management, 2016), Bosenberg (Stakeholder Mapping Deep Dive, 2023).

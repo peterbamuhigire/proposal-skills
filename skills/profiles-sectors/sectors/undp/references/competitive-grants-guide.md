@@ -1,5 +1,7 @@
 # Competitive Grants Guide — UNDP-Managed Re-Granting to CSOs
 
+Parent skill: [United Nations System Procurement Framework — Consulting Services and Grants](../SKILL.md).
+
 Detailed guide for UNDP-managed competitive grant calls where UNDP acts as fund manager for a donor (EU, bilateral, etc.) and re-grants to civil society organisations. This is the most structured UNDP grant modality, with published scoring criteria and numerical evaluation.
 
 ---

@@ -1,5 +1,7 @@
 # Storytelling and Human Touch Reference — Blog Writer Skill
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Every article must feel like it was written by a real person — a Ugandan IT consultant with 15 years of experience across East and West Africa. This reference ensures articles are authentic, captivating, and unmistakably human.
 
 ---

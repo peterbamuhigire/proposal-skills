@@ -1,5 +1,7 @@
 # Stakeholder Dynamics, Influence, and Conflict Resolution
 
+Parent skill: [Stakeholder Engagement](../SKILL.md).
+
 Reference material for the stakeholder-engagement skill. Provides detailed guidance on resistance management, conflict resolution, influence without authority, cognitive biases affecting stakeholder interactions, difficult stakeholder management, and ethical principles. Use when designing stakeholder risk management, resistance strategies, or governance components for proposals.
 
 Sources: Harrin (Engaging Stakeholders on Projects, 2020), Worsley (Stakeholder-led Project Management, 2nd ed., 2020), Shander (Stakeholder Whispering, 2025), Rendtorff (Stakeholder Theory, 2016), Huemann (Rethink Project Stakeholder Management, 2016), Bosenberg (Stakeholder Mapping Deep Dive, 2023).

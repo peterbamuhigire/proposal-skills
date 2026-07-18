@@ -1,5 +1,7 @@
 # Solution Evaluation
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Tools and methods for validating that a solution (implemented or about to be implemented) delivers expected business value and meets stakeholder needs. Relevant to methodology sections covering acceptance, testing, benefits realisation, and post-implementation review.
 
 ---

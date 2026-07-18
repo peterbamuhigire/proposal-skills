@@ -1,10 +1,15 @@
 ---
 name: website-design-proposal-strategy
-description: Website design and development proposal strategy. Use when a proposal must explain website philosophy, UX/content/SEO approach, technology stack, methodology, deliverables, costing, quality gates, launch, and support.
+description: Use when a proposal includes a website, ecommerce site, portal, landing page, content hub, or web frontend and must align UX, content, SEO, technology, delivery, launch, costing, and support.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # Website Design Proposal Strategy
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -24,7 +29,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Existing website URL, analytics, brand assets, content inventory, SEO baseline, and stakeholder approval path where available.
 - Commercial assumptions: timeline, support period, content responsibility, hosting/licence rules, and whether the work is premium/high-trust.
 
-## Workflow
+## Domain Method
 
 1. Define the website's role in the assignment: marketing, lead generation, service delivery, information access, ecommerce, investor confidence, stakeholder communication, or public accountability.
 2. Select the proposal posture: premium authority site, growth/lead-generation site, institutional information site, ecommerce system, campaign landing page, or web application interface.
@@ -47,7 +52,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The proposal shows how the website supports the wider service journey, conversion path, support model, or institutional mandate.
 - The support model is specific enough to manage expectations after launch.
 
-## Anti-Patterns
+## Domain Risks
 
 - "We will design a modern website" with no content, SEO, UX, analytics, or launch logic.
 - Costing by page count only.
@@ -55,7 +60,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Treating hosting, domain, copywriting, photography, licences, content migration, SEO, maintenance, or training as implied freebies.
 - Using technical jargon where the evaluator needs business value.
 
-## Outputs
+## Existing Deliverables
 
 - Website proposal win theme.
 - Technical approach and methodology text.
@@ -66,14 +71,84 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Maintenance, support, and optimisation assumptions.
 - Website design proposal quality review.
 
+## Do Not Use When
+
+- Do not use this skill when a neighbouring specialist named in the description owns the primary decision; route there first and use this skill only as a supporting layer.
+- Do not use it to invent buyer facts, evidence, legal positions, statutory rules, delivery capacity, or current external claims.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| website brief, audiences, content, SEO evidence, integrations, governance, budget, and launch constraints | Buyer, ToR, approved project record, accountable owner, or verified evidence source | Yes | Stop the affected decision, name the missing source, and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| website proposal strategy, scope, and quality gates | Buyer, evaluator, and website delivery team | Claims trace to supplied evidence; assumptions, owners, exclusions, decisions, and observable acceptance tests are explicit. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Decision and source trace for the output | Reviewer and release owner | Each load-bearing choice identifies its source, rationale, accountable owner, and any unassessed check. |
+
+## Capability Contract
+
+Default to read-only for analysis, critique, discovery, and review. Minimum capability is access to the supplied artefacts and permission to inspect or calculate relevant evidence. Edit only the requested working copy. Do not publish, send, spend, change production systems, certify compliance, make a statutory claim, or approve a commercial concession without explicit authority.
+
+## Degraded Mode
+
+If required files, interviews, finance doctrine, search evidence, calculation tools, network access, or specialist review are unavailable, return the narrowest useful qualified result. Mark unavailable checks as not assessed, separate facts from assumptions, and state what is needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure/risk avoided |
+|---|---|---|
+| Select website scope and delivery route | Align audience jobs, content readiness, search evidence, technology, integrations, and operating ownership. | A visually ambitious proposal with no content or launch feasibility. |
+| Evidence conflicts or authority is absent | Stop the affected recommendation, record the conflict, and seek the named owner’s decision. | Invented facts or unauthorised commitments. |
+| Evidence and approval are complete | Proceed within scope and retain the decision trace. | Irreproducible approval or scope drift. |
+
+## Workflow
+
+1. Confirm the consumer, decision, neighbouring-skill route, authority, and required inputs; stop if the primary route or accountable owner is unknown.
+2. Inspect supplied evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a load-bearing contradiction.
+3. Apply the domain method and decision rules, preserving the repository’s proposal voice and specialist constraints.
+4. Draft the contracted output with observable acceptance conditions and an evidence trace.
+5. Review alignment with scope, work plan, team, pricing, risk, and dependent proposal sections; recover by revising the affected choice and rerunning the check.
+6. Run the critical-analysis and anti-slop gates; block release on unsupported claims, failed safety or finance gates, or an F slop grade.
+
+## Quality Standards
+
+- Every load-bearing claim is verified or explicitly qualified, and the output distinguishes fact, assumption, recommendation, and commitment.
+- Scope, method, work plan, staffing, pricing, risks, dependencies, and acceptance conditions remain mutually consistent.
+- The output preserves domain constraints, names accountable owners, covers failure paths, and blocks unsupported or unauthorised promises.
+- British English and the repository’s East African professional tone are used unless the buyer requires another standard.
+- The critical-analysis and anti-slop gates pass before release, with no unassessed check represented as passed.
+
+## Anti-Patterns
+
+- Inventing a buyer fact or proof point. Fix: cite the supplied source or mark the statement as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and name the evidence needed to resume.
+- Copying a neighbouring skill’s method without routing. Fix: use the specialist for the primary decision and retain only the supporting layer here.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: state an observable measure, evidence record, and decision owner.
+- Adding premium or technical claims without delivery capacity. Fix: reconcile the claim with named people, time, budget, dependencies, and authority.
+
+## Worked Example
+
+A membership portal needs public content, payments, and restricted resources. Separate website and application scope, name content owners, verify integration assumptions, and define launch acceptance and support.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `references/website-design-proposal-gate.md` - proposal-ready philosophy, methodology, stack, deliverables, costing drivers, and red flags.
-- `../06-methodology/SKILL.md` - proposal methodology section owner.
-- `../10-financial-proposal/SKILL.md` - financial proposal and costing owner.
-- `../premium-client-proposal-strategy/SKILL.md` - use for premium, executive, enterprise, affluent, or high-ticket website proposals.
-- `../service-design-proposal-strategy/SKILL.md` - use when the website is part of a wider customer, citizen, or staff service journey.
-- `../proposal-storytelling-and-evaluator-journey/SKILL.md` - design rationale, evaluator journey, and case-story support.
-- `../customer-service-and-maintenance-proposals/SKILL.md` - post-launch support, SLA, maintenance, and escalation language.
-- `../premium-pricing-and-value-defense/SKILL.md` - premium website pricing and value defence.
-- `../references/technical-strategy-credibility-checklist.md` - architecture, maintainability, operations, SaaS, and roadmap checks.
+- [website-design-proposal-gate](references/website-design-proposal-gate.md) - proposal-ready philosophy, methodology, stack, deliverables, costing drivers, and red flags.
+- [06-methodology](../../pipeline/06-methodology/SKILL.md) - proposal methodology section owner.
+- [10-financial-proposal](../../pipeline/10-financial-proposal/SKILL.md) - financial proposal and costing owner.
+- [premium-client-proposal-strategy](../premium-client-proposal-strategy/SKILL.md) - use for premium, executive, enterprise, affluent, or high-ticket website proposals.
+- [service-design-proposal-strategy](../service-design-proposal-strategy/SKILL.md) - use when the website is part of a wider customer, citizen, or staff service journey.
+- [proposal-storytelling-and-evaluator-journey](../proposal-storytelling-and-evaluator-journey/SKILL.md) - design rationale, evaluator journey, and case-story support.
+- [customer-service-and-maintenance-proposals](../customer-service-and-maintenance-proposals/SKILL.md) - post-launch support, SLA, maintenance, and escalation language.
+- [premium-pricing-and-value-defense](../premium-pricing-and-value-defense/SKILL.md) - premium website pricing and value defence.
+- [technical-strategy-credibility-checklist](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) - architecture, maintainability, operations, SaaS, and roadmap checks.

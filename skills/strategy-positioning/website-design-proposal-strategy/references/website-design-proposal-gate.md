@@ -1,5 +1,7 @@
 # Website Design Proposal Gate
 
+Parent skill: [Website Design Proposal Strategy](../SKILL.md).
+
 Use this gate when a proposal includes website design, website development, SEO, web content, ecommerce, landing pages, portals, or web application frontends.
 
 ## 1. Win Theme

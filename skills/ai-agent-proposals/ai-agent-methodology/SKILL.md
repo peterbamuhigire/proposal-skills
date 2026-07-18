@@ -1,10 +1,15 @@
 ---
 name: ai-agent-methodology
-description: Use when the engagement delivers one or more AI agents (or a multi-agent system) and the Methodology section must demonstrate end-to-end agentic discipline. Provides phases (Discover → Action-Catalogue Design → Architecture for Autonomy → Build → Shadow → Supervised → Agentic → Operate), gates per phase, deliverables with binary acceptance, eval and red-team strategy, kill-switch and drill cadence, and multi-agent orchestration treatment. Headline skill of the AI-agent family. Drops into proposal `06-methodology` for agentic engagements. Replaces `ai-on-saas-combined-methodology` for stand-alone agentic builds; overlays it when the agent lives inside a multi-tenant SaaS product.
+description: Use when drafting the end-to-end delivery methodology for an AI agent or multi-agent system, from discovery and action-catalogue design through staged autonomy and operations.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Methodology
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -20,7 +25,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The engagement is generic AI strategy with no agentic deliverable (use `ai-transformation-proposal`).
 - The engagement is a pure consulting assignment without software delivery.
 
-## Required Inputs
+## Domain Inputs
 
 - ToR / RFP with the agentic scope (use cases, outcomes, volume, regulators, languages).
 - Discovery outputs from `ai-agent-discovery-and-qualification`.
@@ -31,7 +36,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Buyer's regulator stance and sub-processor expectations.
 - Engagement length and phasing constraints.
 
-## Workflow
+## Domain Method
 
 1. Open the Methodology with the **Agentic Mental Model** paragraph: an agent is a system that **plans, calls tools, decides, and acts** within an explicit action catalogue, under an explicit autonomy level, with explicit oversight, with explicit kill-switch authority, and with full audit. The methodology engineers the four parts as named disciplines.
 2. State the **Conceptual Approach** paragraph: action catalogues are designed before agents are built; autonomy levels are committed per action class; oversight model and intervention SLA are designed not improvised; kill-switch authority is named; audit completeness is a measured discipline; the Responsible-AI agent commitment (`ai-agent-risk-and-responsible-ai`) is signed by a named accountable role.
@@ -108,7 +113,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Responsible-AI agent commitment is named, sectioned, and signed by a named accountable role (Agent Safety Lead).
 - Two-of-everything for client-side critical agent operating roles by go-live (eval owner, action-catalogue owner, kill-switch operator, oversight-queue lead).
 
-## Anti-Patterns
+## Domain Risks
 
 - "Agent architecture" stated without an action catalogue.
 - "Human-in-the-loop" stated without naming the human's authority and the intervention SLA.
@@ -120,7 +125,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Operate phase collapsed to "support tickets"; drift watch, drill cadence, refresh cadence skipped.
 - Phase gates collapsed into one production gate; partial-pass leakage.
 
-## Outputs
+## Domain Outputs
 
 - Methodology section for agent engagements, drop-in ready for proposal `06-methodology`.
 - Agentic Mental Model paragraph.
@@ -135,17 +140,73 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Operate subsection.
 - ToR phase-name mapping where required.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| ToR, qualified use cases, action catalogue, constraints, acceptance criteria, and delivery authority | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Phased agent methodology and gate register | Evaluator, delivery team, and governance board | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| phased agent methodology and gate register | Evaluator, delivery team, and governance board | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Advance delivery phase | Require the prior phase's evidence, acceptance gate, owner approval, and reversible rollback path. | Skipping from prototype to unsafe autonomy. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+After build, run shadow evaluation against agreed task sets. Advance to supervised action only when scope confinement, audit logging, kill switch, and task-success gates are evidenced.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-methodology-blocks.md` — reusable Methodology section content.
-- `../references/ai-agent-risk-register-for-proposals.md` — agent risk entries.
-- `../references/ai-agent-responsible-ai-commitment.md` — Responsible-AI agent commitment template.
-- `../references/ai-agent-trust-and-compliance-template.md` — trust and compliance for agents.
-- `../references/ai-agent-metrics-glossary.md` — definitions.
-- `../references/ai-agent-poc-scoping-template.md` — POC inside Phase 1.
-- `../ai-on-saas-combined-methodology/SKILL.md` — load alongside when the agent lives inside a SaaS product.
-- `../06-methodology/SKILL.md` — methodology section discipline.
-- `../ai-agent-discovery-and-qualification/SKILL.md` — discovery inputs.
-- `../ai-agent-poc-and-pilot-scoping/SKILL.md` — pilot-stage detail.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — risk and commitment.
-- `../ai-agent-team-composition/SKILL.md` — staffing this methodology assumes.
+- [ai-agent-methodology-blocks](../../profiles-sectors/references/ai-agent-methodology-blocks.md) — reusable Methodology section content.
+- [ai-agent-risk-register-for-proposals](../../profiles-sectors/references/ai-agent-risk-register-for-proposals.md) — agent risk entries.
+- [ai-agent-responsible-ai-commitment](../../profiles-sectors/references/ai-agent-responsible-ai-commitment.md) — Responsible-AI agent commitment template.
+- [ai-agent-trust-and-compliance-template](../../profiles-sectors/references/ai-agent-trust-and-compliance-template.md) — trust and compliance for agents.
+- [ai-agent-metrics-glossary](../../profiles-sectors/references/ai-agent-metrics-glossary.md) — definitions.
+- [ai-agent-poc-scoping-template](../../profiles-sectors/references/ai-agent-poc-scoping-template.md) — POC inside Phase 1.
+- [ai-on-saas-combined-methodology](../../ai-on-saas-proposals/ai-on-saas-combined-methodology/SKILL.md) — load alongside when the agent lives inside a SaaS product.
+- [06-methodology](../../pipeline/06-methodology/SKILL.md) — methodology section discipline.
+- [ai-agent-discovery-and-qualification](../ai-agent-discovery-and-qualification/SKILL.md) — discovery inputs.
+- [ai-agent-poc-and-pilot-scoping](../ai-agent-poc-and-pilot-scoping/SKILL.md) — pilot-stage detail.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — risk and commitment.
+- [ai-agent-team-composition](../ai-agent-team-composition/SKILL.md) — staffing this methodology assumes.

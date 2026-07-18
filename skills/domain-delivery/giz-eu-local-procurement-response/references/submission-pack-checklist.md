@@ -1,5 +1,7 @@
 # GIZ Submission Pack Checklist
 
+Parent skill: [GIZ EU Local Procurement Response](../SKILL.md).
+
 Use this as the final mechanical check before a GIZ submission leaves the control room.
 
 ## Technical Folder

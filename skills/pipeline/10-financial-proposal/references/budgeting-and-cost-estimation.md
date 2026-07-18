@@ -1,5 +1,7 @@
 # Budgeting and Cost Estimation Reference
 
+Parent skill: [Financial Proposal](../SKILL.md).
+
 This reference supports two closely related uses:
 1. writing financial proposals with disciplined pricing logic
 2. advising clients on budgeting, fiscal administration, and cost management

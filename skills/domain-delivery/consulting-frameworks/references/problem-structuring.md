@@ -1,5 +1,7 @@
 # Problem Structuring Frameworks
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Frameworks for decomposing consulting problems into structured, MECE analytical components. These are the foundational tools for designing any methodology's conceptual framework.
 
 ---

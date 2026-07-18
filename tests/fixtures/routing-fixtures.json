@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "threshold": {"metric": "expected_skill_in_top_three", "minimum": 1.0},
+  "fixtures": [
+    {"id": "full-proposal", "kind": "positive", "prompt": "Draft and assemble a complete consulting proposal response to this tender", "expected": "skills"},
+    {"id": "cover-letter", "kind": "neighbour", "prompt": "Write the bid cover letter, not the executive summary", "expected": "skills/pipeline/01-cover-letter"},
+    {"id": "executive-summary", "kind": "neighbour", "prompt": "Draft the evaluator-facing executive summary, not the cover letter", "expected": "skills/pipeline/02-executive-summary"},
+    {"id": "methodology", "kind": "positive", "prompt": "Develop the technical approach and methodology with phases, deliverables and acceptance", "expected": "skills/pipeline/06-methodology"},
+    {"id": "financial", "kind": "negative", "prompt": "Prepare the separate financial proposal price schedule and fee assumptions, not the work plan", "expected": "skills/pipeline/10-financial-proposal"},
+    {"id": "giz-local", "kind": "positive", "prompt": "Respond to a GIZ AVB local procurement tender with separate technical and financial zip folders", "expected": "skills/domain-delivery/giz-eu-local-procurement-response"},
+    {"id": "retail", "kind": "positive", "prompt": "Propose a retail omnichannel transformation covering POS, merchandising, promotions, fulfilment and shrink", "expected": "skills/domain-delivery/retail-transformation-proposal"},
+    {"id": "saas-method", "kind": "collision", "prompt": "Design a multi-tenant SaaS implementation methodology without AI agents", "expected": "skills/saas-proposals/saas-implementation-methodology"},
+    {"id": "ai-saas-method", "kind": "collision", "prompt": "Create a three-plane AI-on-SaaS methodology for RAG and copilots in a multi-tenant product", "expected": "skills/ai-on-saas-proposals/ai-on-saas-combined-methodology"},
+    {"id": "agent-method", "kind": "collision", "prompt": "Propose an autonomous AI agent methodology with action catalogue, shadow mode, kill switch and supervised autonomy", "expected": "skills/ai-agent-proposals/ai-agent-methodology"},
+    {"id": "agent-sla", "kind": "positive", "prompt": "Draft agent SLA classes, task-success measures, intervention credits and service credit schedule", "expected": "skills/ai-agent-commercial/ai-agent-sla-and-credit-schedule"},
+    {"id": "profile", "kind": "failure", "prompt": "Select the proposer identity and voice but stop if the company or consultant profile is missing", "expected": "skills/profiles-sectors/profiles"},
+    {"id": "ppda", "kind": "positive", "prompt": "Prepare a Uganda PPDA procurement response under the 2023 regulations", "expected": "skills/profiles-sectors/sectors/ppda-uganda"},
+    {"id": "anti-slop", "kind": "limited-capability", "prompt": "Prevent generic AI slop while drafting even when external verification is unavailable", "expected": "skills/meta/anti-ai-slop"},
+    {"id": "slop-audit", "kind": "negative", "prompt": "Audit this completed proposal section for AI slop in read-only mode and grade it A B C or F", "expected": "skills/meta/ai-slop-audit"},
+    {"id": "website", "kind": "collision", "prompt": "Build the proposal strategy and costing for a website redesign, SEO and content migration", "expected": "skills/strategy-positioning/website-design-proposal-strategy"},
+    {"id": "critical-logic", "kind": "positive", "prompt": "Stress-test proposal feasibility, assumptions, countercase, business logic and achievability", "expected": "skills/strategy-positioning/critical-analysis-business-logic"},
+    {"id": "premium-writing", "kind": "neighbour", "prompt": "Polish proposal copy for evaluator clarity and commercial proof without changing the strategy", "expected": "skills/writing-content/premium-commercial-writing"}
+  ]
+}

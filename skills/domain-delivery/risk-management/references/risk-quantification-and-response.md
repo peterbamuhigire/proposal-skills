@@ -1,5 +1,7 @@
 # Risk Quantification and Response Reference
 
+Parent skill: [Risk Management](../SKILL.md).
+
 Synthesised from: Lewis (*Project Planning, Scheduling & Control*, 6th ed.), Bielefeld & Schneider (*Basics Budgeting*, 2014).
 
 This reference provides quantitative risk assessment tools for use in proposal methodology sections, risk management plans, and financial proposals that require risk-adjusted budgeting.

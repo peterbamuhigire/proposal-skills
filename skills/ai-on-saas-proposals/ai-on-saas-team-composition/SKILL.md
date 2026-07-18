@@ -1,11 +1,17 @@
 ---
 name: ai-on-saas-team-composition
-description: Use when the AI-on-SaaS proposal must present the team composition. Provides the AI-on-SaaS roster (ML lead, prompt engineer, AI safety lead, eval engineer, MLOps engineer, data engineer for AI, RAG engineer) layered on the SaaS roster (control plane lead, application plane lead, SRE, security lead, customer-success lead), with blended-rate and ramp considerations. Extends `07-team-composition` with the AI overlay.
+description: Use when an AI-on-SaaS proposal must justify the combined AI, data, safety, evaluation, platform, security, SRE, and customer-success roles required for delivery; use the standard team skill when no AI specialist roles are needed.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # AI-on-SaaS Team Composition
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 
 - The Team Composition section of an AI-on-SaaS proposal must demonstrate that the agency understands both SaaS and AI staffing.
@@ -20,11 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Required Inputs
 
-- The methodology phases and workstreams from `ai-on-saas-combined-methodology`.
-- The buyer's procurement framework (TECH-6, AfDB, UNDP, RFP).
-- The buyer's blended-rate tolerance.
-- The buyer's local-content / sovereign-staffing requirements (if any).
-- The agency's bench and named CV pool.
+| Artefact or fact | Required? | Source/provider | If absent |
+|---|---|---|---|
+| The methodology phases and workstreams from `ai-on-saas-combined-methodology`. | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's procurement framework (TECH-6, AfDB, UNDP, RFP). | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's blended-rate tolerance. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's local-content / sovereign-staffing requirements (if any). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The agency's bench and named CV pool. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
 
 ## Workflow
 
@@ -35,6 +43,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 5. Build the **Blended-Rate Table** if procurement requires it, with AI roles separately costed.
 6. Map to **TECH-6** (or equivalent) format if required.
 7. Output the **Team Composition** section.
+
+
+**Stop condition:** Stop before asserting scope, compliance, value, acceptance, or readiness when a load-bearing input is missing or contradicted.
+
+**Recovery:** Record the gap, owner, and next evidence step; then return the narrowest qualified proposal content that remains supportable.
 
 ## Standard AI-on-SaaS Roster
 
@@ -75,32 +88,65 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Anti-Patterns
 
-- "AI lead" as the only AI role on the roster.
-- AI Safety as a shared duty of the solution architect.
-- Eval Engineer collapsed into QA.
-- MLOps collapsed into DevOps in a regulated engagement.
-- Ramp curve that puts AI safety into hardening (too late).
-- Roster larger than the budget can support.
-- Local-content / sovereign-staffing requirement ignored.
+- "AI lead" as the only AI role on the roster. **Fix:** Map distinct AI architecture, data, evaluation, safety, MLOps, and product responsibilities to named roles or justified combined roles.
+- AI Safety as a shared duty of the solution architect. **Fix:** Assign AI safety to a named accountable lead with independent escalation and release-gate authority.
+- Eval Engineer collapsed into QA. **Fix:** Staff evaluation as a model-quality discipline with golden-set ownership, statistical analysis, regression gates, and evidence retention.
+- MLOps collapsed into DevOps in a regulated engagement. **Fix:** Provide explicit MLOps ownership for model gateway, versioning, evaluation deployment, drift, cost, and rollback even if one person covers both roles.
+- Ramp curve that puts AI safety into hardening (too late). **Fix:** Place safety leadership in discovery and architecture, with continuing authority through pilot, rollout, and operations.
+- Roster larger than the budget can support. **Fix:** Reconcile every role's allocation and ramp with deliverables, workload, rate, budget, and substitution plan.
+- Local-content / sovereign-staffing requirement ignored. **Fix:** Map local-content, residency, clearance, language, and sovereign staffing requirements to named personnel and evidence.
 
 ## Outputs
 
-- AI-on-SaaS Team Roster table (role, name, allocation, ramp).
-- RACI across SaaS and AI workstreams.
-- Ramp Curve.
-- Blended-Rate Table (where required).
-- TECH-6 (or equivalent) mapping (where required).
-- Two-of-Everything Plan for client-side counterparts.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| AI-on-SaaS Team Roster table (role, name, allocation, ramp). | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| RACI across SaaS and AI workstreams. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Ramp Curve. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Blended-Rate Table (where required). | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| TECH-6 (or equivalent) mapping (where required). | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Two-of-Everything Plan for client-side counterparts. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
 
 ## Agent Overlay
 
 For agentic engagements, add three roles not present in the AI-on-SaaS roster: **Agent Architect** (agent loop, planner / actor / critic, autonomy architecture), **Tool Engineer** (tool layer, allowlist, parameter bounds, dry-run, post-call assertions, rollback), and **Human-in-the-loop Designer** (oversight queue, intervention SLA, escalation tree, contestability channel). In multi-agent engagements add **Multi-Agent Orchestrator Engineer**. The AI Safety Lead becomes **Agent Safety Lead** with kill-switch authority. Two-of-Everything extends to **buyer-side Action-Catalogue Owner, Eval Owner, Kill-Switch Operator, Oversight-Queue Lead, Agent Safety Lead**. Load `../ai-agent-team-composition/SKILL.md` for the agent roster.
 
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Input-and-assumption record | Proposal lead and reviewer | Every load-bearing claim maps to a source, approved assumption, or explicit gap. |
+| Decision and review record | Buyer owner and delivery lead | The selected option, rationale, owner, stop condition, and approval status are visible. |
+| Section acceptance check | Evaluator-readiness reviewer | Each output meets its stated acceptance condition and unresolved checks are not presented as passed. |
+
+## Capability and Permission Boundaries
+
+This skill may read supplied tender, discovery, architecture, commercial, security, and operating evidence and draft proposal artefacts within the authorised workspace. It must not publish, send, certify compliance, accept contractual terms, change production systems, spend funds, or disclose confidential evidence without explicit authority. Review and analysis remain read-only by default.
+
+## Degraded Mode
+
+If files, current legal or technical evidence, calculation tools, network access, or reviewers are unavailable, produce the narrowest useful qualified draft. Label assumptions and checks as **not assessed**, omit unsupported assurances or figures, and state the exact evidence and owner needed to complete the work. An unavailable check never becomes a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Role necessity | Tie every role and allocation to a deliverable, gate, or risk owner | Inflated roster or missing accountable specialist |
+| Missing load-bearing evidence | Stop the affected claim, record the gap and owner, and continue only with separable supported content. | Fabricated assurance or hidden dependency |
+| Conflicting buyer and supplier evidence | Surface the conflict for decision; do not silently choose the favourable version. | Misaligned scope, price, or acceptance |
+| Irreversible, contractual, publishing, or production action | Obtain explicit authority and preserve an approval record before acting. | Unauthorised commitment or mutation |
+
+## Worked Example
+
+If the proposal names an AI safety lead but no evaluation owner or tenant-security owner, show the staffing gap and mobilisation dependency instead of claiming the team is deployment-ready.
+
 ## References
 
-- `../references/ai-on-saas-team-composition-template.md` — full roster template with sample CV bullets.
-- `../07-team-composition/SKILL.md` — base team composition skill.
-- `../ai-on-saas-combined-methodology/SKILL.md` — workstreams that the roster covers.
-- `../ai-on-saas-change-management-and-adoption/SKILL.md` — change roles overlap.
-- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — AI Safety Lead role.
-- `../10-financial-proposal/SKILL.md` — fee schedule that the roster drives.
+- [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+<!-- dual-compat-end -->
+- [../references/ai-on-saas-team-composition-template.md](../../profiles-sectors/references/ai-on-saas-team-composition-template.md) — full roster template with sample CV bullets.
+- [../07-team-composition/SKILL.md](../../pipeline/07-team-composition/SKILL.md) — base team composition skill.
+- [../ai-on-saas-combined-methodology/SKILL.md](../ai-on-saas-combined-methodology/SKILL.md) — workstreams that the roster covers.
+- [../ai-on-saas-change-management-and-adoption/SKILL.md](../ai-on-saas-change-management-and-adoption/SKILL.md) — change roles overlap.
+- [../ai-on-saas-risk-and-responsible-ai/SKILL.md](../ai-on-saas-risk-and-responsible-ai/SKILL.md) — AI Safety Lead role.
+- [../10-financial-proposal/SKILL.md](../../pipeline/10-financial-proposal/SKILL.md) — fee schedule that the roster drives.

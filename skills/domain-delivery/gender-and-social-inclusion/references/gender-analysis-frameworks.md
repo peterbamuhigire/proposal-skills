@@ -1,5 +1,7 @@
 # Gender Analysis Frameworks — Practitioner Reference
 
+Parent skill: [Gender and Social Inclusion](../SKILL.md).
+
 > Synthesised from March, Smyth & Mukhopadhyay (Oxfam, 1999), UN Women Intersectionality Toolkit (2022), and Bohnet (Harvard, 2016). Oriented to East African consulting proposals (Uganda, Kenya, Rwanda, Tanzania).
 
 ---

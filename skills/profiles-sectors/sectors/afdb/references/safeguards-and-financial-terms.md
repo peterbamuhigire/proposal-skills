@@ -1,5 +1,7 @@
 # AfDB Safeguards and Financial Terms
 
+Parent skill: [African Development Bank Procurement Framework](../SKILL.md).
+
 Reference material for the afdb sector skill. Covers the Integrated Safeguards System (ISS 2023), all 10 Operational Safeguards, project categorisation, ESIA requirements, ADB/ADF lending terms, climate finance, and gender mainstreaming requirements.
 
 Sources: AfDB Integrated Safeguards System (ISS, 2023), AfDB Environmental and Social Assessment Procedures (ESAP), AfDB Financial Products factsheets, AfDB Climate Change and Green Growth Strategy.

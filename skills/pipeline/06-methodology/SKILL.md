@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-06-methodology
-description: Write the approach and methodology section of a consulting proposal. Use when the user asks to draft the methodology, approach, technical approach, work approach, or phased plan section of a proposal.
+name: 06-methodology
+description: Use when drafting the technical approach, conceptual model, phases, methods, QA, deliverables, or implementation logic. Unlike 03-understanding-of-assignment, this skill explains how the work will be executed and verified.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Approach and Methodology
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the approach and methodology section of a proposal.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile and any relevant procurement or sector context.
 - Deliverables, constraints, schedule assumptions, and any required frameworks.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| ToR requirements, outputs, constraints, evidence, team, schedule, and acceptance | Official pack and aligned proposal sections | required | Return a methodology outline and missing-decision register. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and define the delivery problem this section must solve.
 2. Load the proposer profile plus any relevant procurement, sector, and supporting domain skills.
 3. Use the structure below to design a tailored methodology with clear phases, deliverables, controls, and logic.
@@ -32,23 +45,57 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer named methods, explicit deliverables, and realistic controls over generic process language.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not submit a recycled generic methodology with no tie to the actual brief.
 - Do not describe activities without deliverables, sequence logic, or client value.
 - Do not make commitments the work plan, team, or budget cannot support.
+- Do not name methods without evidence flow. Fix: state inputs, action, decision, output, and acceptance.
+- Do not hide client dependencies. Fix: assign inputs, approvals, due dates, and recovery.
 
 ## Outputs
-- A proposal-ready methodology section with phases, deliverables, governance, quality, and risk logic.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Technical methodology | Evaluator and delivery team | Each phase links inputs, method, decision, deliverable, owner, dependency, risk, and acceptance. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Requirement-to-method trace | Matrix | Every scored requirement is addressed and every commitment appears in work plan, team, and price. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Analysis is read-only by default; drafting requires authority. Methodology does not authorise production changes, client decisions, fieldwork, data access, spending, or certification.
+
+## Degraded Mode
+Without complete scope, evidence, schedule, or team data, return a bounded outline, assumptions, and clarification list. Do not claim feasibility or acceptance.
+
+## Decision Rules
+| Assignment state | Action | Risk avoided |
+|---|---|---|
+| Problem and evidence are uncertain | Diagnose before design | Predetermined solution |
+| Irreversible or high-risk change | Pilot with stop/go gate | Premature rollout |
+| Deliverable has no acceptance test | Define observable review and approval | Completion by assertion |
+
+## Worked Example
+For an ERP bid, sequence discovery, posting-rule design, configured prototype, migrated-data rehearsal, UAT, cutover, and first close, each with finance-owner approval and recovery conditions.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../premium-client-proposal-strategy/SKILL.md` when the assignment targets premium clients, executives, enterprise buyers, affluent markets, strategic growth, pricing, sales, or high-ticket transformation.
-- `../website-design-proposal-strategy/SKILL.md` when the methodology includes website design, redesign, SEO, content architecture, ecommerce, landing pages, portals, web frontends, launch, training, or support.
-- `../service-design-proposal-strategy/SKILL.md` when the methodology includes journeys, service blueprints, co-creation, support redesign, citizen/customer experience, or touchpoint improvement.
-- `../customer-service-and-maintenance-proposals/SKILL.md` when post-launch support, SLAs, maintenance, incident response, or optimisation are part of delivery.
-- `../sales-discovery-and-objection-handling/SKILL.md` when methodology assumptions or evaluator objections need to be anticipated.
-- `../proposal-storytelling-and-evaluator-journey/SKILL.md` when phase logic needs a stronger narrative, storyboard, or design-rationale explanation.
-- `../references/technical-strategy-credibility-checklist.md` when the methodology includes SaaS, AI, software, cloud, APIs, integrations, architecture, or operations.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../premium-client-proposal-strategy/SKILL.md](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) when the assignment targets premium clients, executives, enterprise buyers, affluent markets, strategic growth, pricing, sales, or high-ticket transformation.
+- [../website-design-proposal-strategy/SKILL.md](../../strategy-positioning/website-design-proposal-strategy/SKILL.md) when the methodology includes website design, redesign, SEO, content architecture, ecommerce, landing pages, portals, web frontends, launch, training, or support.
+- [../service-design-proposal-strategy/SKILL.md](../../strategy-positioning/service-design-proposal-strategy/SKILL.md) when the methodology includes journeys, service blueprints, co-creation, support redesign, citizen/customer experience, or touchpoint improvement.
+- [../customer-service-and-maintenance-proposals/SKILL.md](../../strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md) when post-launch support, SLAs, maintenance, incident response, or optimisation are part of delivery.
+- [../sales-discovery-and-objection-handling/SKILL.md](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) when methodology assumptions or evaluator objections need to be anticipated.
+- [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) when phase logic needs a stronger narrative, storyboard, or design-rationale explanation.
+- [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) when the methodology includes SaaS, AI, software, cloud, APIs, integrations, architecture, or operations.
 - Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
 
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.

@@ -1,10 +1,17 @@
 ---
 name: change-management
-description: Change management and organisational change frameworks for consulting proposals. Use as a reference when drafting methodology sections for assignments that involve process change, system adoption, institutional reform, or organisational restructuring. Can generate a standalone change management plan when a ToR requires one.
+description: Use when a proposal must address adoption, resistance, readiness, communications, transition, or organisational reform. Unlike capacity-building, this skill governs behaviour and operating-model change rather than teaching competencies alone.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Change Management
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs change-management, adoption, transition, or resistance-management content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Defined change, affected groups, sponsor, and implementation plan | Client or proposal lead | required | Stop detailed planning and return discovery questions. |
+| Readiness, incentives, constraints, and prior-change evidence | Interviews, surveys, client records | conditional | State hypotheses and propose a readiness assessment. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where change-management logic matters in the assignment.
 2. Identify adoption risks across leaders, managers, frontline staff, users, customers, beneficiaries, and support teams.
 3. Read the local references only where they materially improve the output.
@@ -31,12 +42,39 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not mention change-management frameworks without showing how they apply.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Naming ADKAR or Kotter without actions. Fix: map each activity to a group, owner, timing, and measure.
+- Treating communication as adoption. Fix: add readiness, practice, reinforcement, and support.
+- Describing resistance as a staff defect. Fix: identify incentives, workload, trust, and process causes.
+- Launching all users at once without evidence. Fix: stage pilots and define go/no-go criteria.
+- Promising human review without an accountable queue. Fix: name authority, SLA, escalation, and audit evidence.
 
 ## Outputs
-- Domain-informed change-management content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Change and adoption plan | Evaluator, sponsor, line managers | Identifies groups, readiness, interventions, owners, measures, decision gates, and reinforcement. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Readiness and adoption register | Segmented table | Each material adoption risk has evidence, owner, response, indicator, and review point. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Analysis is read-only by default. Draft or edit artefacts only when authorised; do not send staff communications, change access, or activate operational changes without named client approval.
+
+## Degraded Mode
+If interviews, surveys, usage data, or sponsor access are unavailable, provide a provisional stakeholder hypothesis and readiness-assessment plan. Do not claim readiness or adoption.
+
+## Decision Rules
+| Change condition | Action | Risk avoided |
+|---|---|---|
+| Individual system or process adoption | Apply ADKAR by affected group | Generic organisation-wide activity |
+| Institution-wide reform | Apply Kotter with governance gates | Sponsor-free programme |
+| High uncertainty or trust risk | Pilot, measure, and stage authority | Premature full rollout |
+
+## Worked Example
+For a case-management system, segment clerks, supervisors, and administrators; pilot one office; measure task completion and override causes; then expand after support capacity is evidenced.
 
 ## SaaS Mindset Transition
 
@@ -61,17 +99,21 @@ For AI-on-SaaS engagements, layer on the AI mindset transition alongside the Saa
 
 Reference `../ai-on-saas-change-management-and-adoption/SKILL.md` for the companion skill and `../references/ai-on-saas-change-management-playbook.md` for the long-form playbook.
 
+<!-- dual-compat-end -->
+
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- `../references/service-design-methodology-module.md` for co-creation, prototype validation, service implementation, and frontline adoption.
-- `../references/discovery-question-bank-for-proposals.md` for change-readiness, adoption, and implementation assumption questions.
-- `../references/saas-multi-tenant-architecture-block.md` for the SaaS mindset paragraph and the four substantive shifts.
-- `../references/saas-customer-success-engagement-package.md` for the customer-success function that replaces installation services.
-- `../references/saas-lifecycle-email-program-proposal-template.md` for the lifecycle communications that support adoption.
-- `../customer-service-and-maintenance-proposals/SKILL.md` when adoption depends on support, issue handling, and post-launch confidence.
-- `../saas-pilot-to-rollout-change-management/SKILL.md` - SaaS-specific change management skill.
-- `../ai-on-saas-change-management-and-adoption/SKILL.md` - AI-on-SaaS change and adoption skill.
-- `../references/ai-on-saas-change-management-playbook.md` - AI adoption playbook (trust staging, augment-vs-replace, HITL, retraining cadence).
+- [../references/service-design-methodology-module.md](../../profiles-sectors/references/service-design-methodology-module.md) for co-creation, prototype validation, service implementation, and frontline adoption.
+- [../references/discovery-question-bank-for-proposals.md](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) for change-readiness, adoption, and implementation assumption questions.
+- [../references/saas-multi-tenant-architecture-block.md](../../profiles-sectors/references/saas-multi-tenant-architecture-block.md) for the SaaS mindset paragraph and the four substantive shifts.
+- [../references/saas-customer-success-engagement-package.md](../../profiles-sectors/references/saas-customer-success-engagement-package.md) for the customer-success function that replaces installation services.
+- [../references/saas-lifecycle-email-program-proposal-template.md](../../profiles-sectors/references/saas-lifecycle-email-program-proposal-template.md) for the lifecycle communications that support adoption.
+- [../customer-service-and-maintenance-proposals/SKILL.md](../../strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md) when adoption depends on support, issue handling, and post-launch confidence.
+- [../saas-pilot-to-rollout-change-management/SKILL.md](../../saas-proposals/saas-pilot-to-rollout-change-management/SKILL.md) - SaaS-specific change management skill.
+- [../ai-on-saas-change-management-and-adoption/SKILL.md](../../ai-on-saas-proposals/ai-on-saas-change-management-and-adoption/SKILL.md) - AI-on-SaaS change and adoption skill.
+- [../references/ai-on-saas-change-management-playbook.md](../../profiles-sectors/references/ai-on-saas-change-management-playbook.md) - AI adoption playbook (trust staging, augment-vs-replace, HITL, retraining cadence).
 
 Most consulting assignments — ICT implementations, institutional reform, process improvement — require people to change how they work. Proposals that address this explicitly score higher than those that treat change as an afterthought. This skill provides the OCM frameworks and structures that proposal sections draw from.
 
@@ -156,9 +198,9 @@ When to use: as a complementary lens alongside ADKAR or Kotter, particularly whe
 
 Load these reference files for deeper guidance when writing change management sections:
 
-- `references/change-process-models.md` — Satir Change Model, Lewin, Kübler-Ross change curve, force field analysis, Nadler-Tushman congruence model, Burke-Litwin diagnostic, complexity and emergence (Hearsum), Silver Bullet lifecycle, Adams and Straw's Seven Fundamental Shifts, types-of-change classification
-- `references/hard-and-soft-integration.md` — hard/soft integration principle, project charter for change, four-team model (core project, change management, transition monitoring, red team), RACI matrix, communication plan framework, training plan framework (four-level evaluation), resistance management plan (seven sources of resistance, change saturation analysis, resistance patterns), action review, organisational readiness assessment (eight dimensions with scoring)
-- `references/lean-and-adaptive-change.md` — Lean Change Management cycle (Insights→Options→Experiments), improvement canvas, strategic change canvas, one-page change plan, change agent network design, digital change management (adoption curve, six practices), feedback-driven vs plan-driven comparison, measuring change success (qualitative, quantitative, leading vs lagging indicators)
+- [references/change-process-models.md](references/change-process-models.md) — Satir Change Model, Lewin, Kübler-Ross change curve, force field analysis, Nadler-Tushman congruence model, Burke-Litwin diagnostic, complexity and emergence (Hearsum), Silver Bullet lifecycle, Adams and Straw's Seven Fundamental Shifts, types-of-change classification
+- [references/hard-and-soft-integration.md](references/hard-and-soft-integration.md) — hard/soft integration principle, project charter for change, four-team model (core project, change management, transition monitoring, red team), RACI matrix, communication plan framework, training plan framework (four-level evaluation), resistance management plan (seven sources of resistance, change saturation analysis, resistance patterns), action review, organisational readiness assessment (eight dimensions with scoring)
+- [references/lean-and-adaptive-change.md](references/lean-and-adaptive-change.md) — Lean Change Management cycle (Insights→Options→Experiments), improvement canvas, strategic change canvas, one-page change plan, change agent network design, digital change management (adoption curve, six practices), feedback-driven vs plan-driven comparison, measuring change success (qualitative, quantitative, leading vs lagging indicators)
 
 ## Generating a Standalone Section
 

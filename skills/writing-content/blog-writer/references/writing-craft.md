@@ -1,5 +1,7 @@
 # Writing Craft Reference — Blog Writer Skill
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Principles distilled from *7 Steps to Better Writing* (Maxwell), *Developing Quality Technical Information* (Hargis, Carey et al.), *Fundamentals of Writing* (Lima), *How to Write and Sell Simple Information* (Bly), and *Writing for Profit* (Graves).
 
 ---

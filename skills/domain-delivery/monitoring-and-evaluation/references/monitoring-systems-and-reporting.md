@@ -1,5 +1,7 @@
 # Monitoring Systems, Reporting, and Adaptive Management
 
+Parent skill: [Monitoring and Evaluation](../SKILL.md).
+
 Reference material for the monitoring-and-evaluation skill. Provides detailed guidance on designing monitoring systems, developing monitoring plans, reporting frameworks, data management, and using M&E information for adaptive management. Use when designing the ongoing monitoring component of a programme or when the ToR requires an M&E system.
 
 Sources: UNDP Handbook (2009), UNDG UNDAF Companion Guidance, IFRC Handbook (2002), Uzbekistan M&E Guide (2025), Civicus/Shapiro.

@@ -1,5 +1,7 @@
 # Editorial Standards Reference — Blog Writer Skill
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Rules distilled from *The Chicago Manual of Style* (17th edition) and *Developing Quality Technical Information* (Hargis/Carey). Apply these during the proofing pass (Step 7 of the writing process).
 
 ---

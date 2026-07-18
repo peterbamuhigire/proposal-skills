@@ -1,10 +1,15 @@
 ---
 name: ai-agent-team-composition
-description: Use when the AI-agent proposal must present team composition. Provides the agent roster (Agent Architect, Tool Engineer, Eval Engineer, Agent Safety Lead, Human-in-the-loop Designer, Agent Ops, plus orchestration and customer-success roles) with RACI across agentic workstreams, ramp curve that puts safety early, blended-rate considerations, two-of-everything for client-side critical roles, and TECH-6 mapping. Extends `ai-on-saas-team-composition` with the agent overlay.
+description: Use when defining an AI-agent delivery team, role accountabilities, RACI, mobilisation curve, safety coverage, client counterparts, or evaluator-facing staffing evidence.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Team Composition
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -17,7 +22,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - The engagement is non-agent (use `ai-on-saas-team-composition` or `07-team-composition`).
 
-## Required Inputs
+## Domain Inputs
 
 - The methodology phases and workstreams from `ai-agent-methodology`.
 - The buyer's procurement framework (TECH-6, AfDB, UNDP, RFP).
@@ -26,7 +31,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The agency's bench and named CV pool.
 - Whether the engagement is multi-agent (additional orchestration roles required).
 
-## Workflow
+## Domain Method
 
 1. Build the **Agent Roster** from the standard role library (below), tuned to the engagement's workstreams and phases.
 2. Decide the **Two-of-Everything** rule for client-side critical agent operating roles by go-live — eval owner, action-catalogue owner, kill-switch operator, oversight-queue lead. The proposal explicitly trains a buyer-side counterpart per agency-side role.
@@ -86,7 +91,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - TECH-6 mapping is exact where required (key vs non-key experts).
 - Local-content / sovereign-staffing requirement honoured.
 
-## Anti-Patterns
+## Domain Risks
 
 - "Agent lead" as the only agent role.
 - Agent Safety as a shared duty of the architect.
@@ -98,7 +103,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Roster larger than the budget can sustain.
 - No buyer-side counterparts named.
 
-## Outputs
+## Domain Outputs
 
 - Agent Roster table (role, name, allocation, ramp).
 - RACI across phases.
@@ -108,13 +113,69 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Two-of-Everything Plan for client-side counterparts.
 - Buyer-Side Counterparts list with named owners.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| scope, work plan, role requirements, availability, CV evidence, and buyer counterparts | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Staffing plan, RACI, and mobilisation schedule | Evaluator, delivery lead, and client sponsor | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| staffing plan, RACI, and mobilisation schedule | Evaluator, delivery lead, and client sponsor | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Assign or leave a role unfilled | Use verified competence, availability, segregation of duties, and phase demand; expose gaps instead of inflating CV claims. | A paper team with unavailable or conflicted personnel. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+The Agent Safety Lead also authored the runtime. Assign an independent gate reviewer for release evidence, confirm availability, and show the client counterpart for kill-switch authority.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-team-composition-template.md` — full roster template with sample CV bullets.
-- `../references/ai-on-saas-team-composition-template.md` — AI-on-SaaS roster base.
-- `../ai-on-saas-team-composition/SKILL.md` — AI-on-SaaS roster (load alongside for SaaS-embedded agents).
-- `../07-team-composition/SKILL.md` — base team composition.
-- `../ai-agent-methodology/SKILL.md` — workstreams the roster covers.
-- `../ai-agent-change-management-and-adoption/SKILL.md` — change roles overlap.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — Agent Safety Lead role.
-- `../10-financial-proposal/SKILL.md` — fee schedule.
+- [ai-agent-team-composition-template](../../profiles-sectors/references/ai-agent-team-composition-template.md) — full roster template with sample CV bullets.
+- [ai-on-saas-team-composition-template](../../profiles-sectors/references/ai-on-saas-team-composition-template.md) — AI-on-SaaS roster base.
+- [ai-on-saas-team-composition](../../ai-on-saas-proposals/ai-on-saas-team-composition/SKILL.md) — AI-on-SaaS roster (load alongside for SaaS-embedded agents).
+- [07-team-composition](../../pipeline/07-team-composition/SKILL.md) — base team composition.
+- [ai-agent-methodology](../ai-agent-methodology/SKILL.md) — workstreams the roster covers.
+- [ai-agent-change-management-and-adoption](../ai-agent-change-management-and-adoption/SKILL.md) — change roles overlap.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — Agent Safety Lead role.
+- [10-financial-proposal](../../pipeline/10-financial-proposal/SKILL.md) — fee schedule.

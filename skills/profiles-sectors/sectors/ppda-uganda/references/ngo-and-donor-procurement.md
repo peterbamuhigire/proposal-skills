@@ -1,5 +1,7 @@
 # NGO / CSO and Donor-Funded Procurement
 
+Parent skill: [Uganda PPDA Procurement Framework](../SKILL.md).
+
 Reference material for the ppda-uganda sector skill. Covers procurement by NGOs, CSOs, faith-based and member-based organisations, and procurement under donor fiduciary rules. Use when the buyer is **not** a public PDE bound by the PPDA Act — that is, an NGO/CSO buyer or a donor-funded grant — so the PPDA mechanics do not apply but a different fiduciary discipline does.
 
 Sources: observed Ugandan NGO finance-and-accounting manuals (illustrative sector practice, not statute); donor fiduciary frameworks — World Bank Procurement Regulations for IPF Borrowers, USAID ADS (notably ADS 302/303 and the cost principles in 2 CFR 200), EU/GIZ grant and procurement rules (PRAG-style), AfDB and UN/UNDP procurement rules.

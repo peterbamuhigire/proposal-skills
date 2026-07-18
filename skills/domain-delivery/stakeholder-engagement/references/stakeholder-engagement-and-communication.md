@@ -1,5 +1,7 @@
 # Stakeholder Engagement, Communication, and Consultation
 
+Parent skill: [Stakeholder Engagement](../SKILL.md).
+
 Reference material for the stakeholder-engagement skill. Provides detailed guidance on engagement lifecycles, communication frameworks, consultation methods, facilitation techniques, and group engagement approaches. Use when designing stakeholder engagement and communication components for proposals.
 
 Sources: Harrin (Engaging Stakeholders on Projects, 2020), Worsley (Stakeholder-led Project Management, 2nd ed., 2020), Huemann (Rethink Project Stakeholder Management, 2016), Shander (Stakeholder Whispering, 2025), Bosenberg (Stakeholder Mapping Deep Dive, 2023).

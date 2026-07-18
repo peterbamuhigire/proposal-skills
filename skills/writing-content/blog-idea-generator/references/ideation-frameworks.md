@@ -1,5 +1,7 @@
 # Blog Ideation Frameworks — 20-Method Library
 
+Parent skill: [Blog Idea Generator](../SKILL.md).
+
 Adaptive ideation system. The blog-idea-generator selects 5-7 methods based on available client information. Methods 1-2 always run. Methods 3-20 activate based on assessment scores.
 
 Sources: Kothand (One Hour Content Plan), Graves (Writing for Profit), Aaron (Profitable Blog Topics), Lima (Fundamentals of Writing), Bly (How to Write Simple Information), Danny Iny (Blog Post Ideas: 21 Proven Ways), Rebecca Livermore (Blogger's Quick Guide), Eddy (Blog It Right).

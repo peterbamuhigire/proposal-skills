@@ -1,10 +1,17 @@
 ---
 name: project-management
-description: Project management frameworks, governance structures, and reporting standards for consulting proposals. Use as a reference when drafting methodology, work plan, or team composition sections. Can also generate a standalone project management plan when a ToR explicitly requires one.
+description: Use when a proposal needs delivery governance, reporting, RACI, change control, escalation, or a project management plan. Unlike 08-work-plan, this skill governs how delivery is controlled, not merely when activities occur.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Project Management
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs project-management, governance, controls, or reporting content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Scope, deliverables, timeline, team, approvals, and reporting rules | ToR and proposal sections | required | Stop governance design and reconcile scope first. |
+| Client decision rights and escalation contacts | Client governance evidence | conditional | Use role placeholders and flag them for mobilisation. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where project-management logic matters in the assignment.
 2. Identify decision gates, support windows, incident escalations, prototype reviews, and technical strategy checkpoints where relevant.
 3. Read the local references only where they materially improve the output.
@@ -32,18 +43,49 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not mention PM frameworks without showing how they apply.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Naming PRINCE2, PMBoK, or Agile without controls. Fix: specify decisions, owners, artefacts, and cadence.
+- Scheduling status meetings with no output. Fix: require an artefact and decision from each forum.
+- Giving every issue to the steering committee. Fix: set thresholds and delegated authority.
+- Omitting client dependencies. Fix: register inputs, due dates, owners, and schedule consequences.
+- Treating change control as bureaucracy. Fix: connect scope decisions to time, cost, quality, and acceptance.
 
 ## Outputs
-- Domain-informed project-management content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Project management and governance plan | Evaluator, sponsor, project manager | Defines forums, decision rights, RACI, reporting, change, escalation, acceptance, and records. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Governance, decision, and reporting register | Controlled tables | Every recurring control has an owner, cadence, artefact, threshold, and decision route. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Planning and review default to read-only. Editing plans requires authority; approving scope, cost, schedule, access, production changes, or client communications requires the named decision owner.
+
+## Degraded Mode
+When confirmed governance or client contacts are unavailable or missing, return a narrow, qualified governance model with unresolved gaps. Mark decision rights not assessed; do not treat silence as approval.
+
+## Decision Rules
+| Delivery condition | Action | Risk avoided |
+|---|---|---|
+| Donor/government assignment with formal stage gates | Use controlled stage governance | Informal acceptance |
+| Iterative technical delivery | Use hybrid cadence with fixed approval gates | Uncontrolled iteration |
+| Issue exceeds delegated threshold | Escalate with options and consequence | Decision drift |
+
+## Worked Example
+A monthly steering committee approves material scope and risk decisions; the weekly delivery forum resolves operational blockers and updates the RAID log rather than forwarding every issue.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- `../references/technical-strategy-credibility-checklist.md` for software, SaaS, AI, cloud, API, operations, and roadmap governance.
-- `../references/customer-service-and-escalation-commitments.md` for issue escalation, incident updates, and service recovery commitments.
-- `../references/website-software-maintenance-support-language.md` for support windows, maintenance cycles, and SLA planning.
+- [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) for software, SaaS, AI, cloud, API, operations, and roadmap governance.
+- [../references/customer-service-and-escalation-commitments.md](../../profiles-sectors/references/customer-service-and-escalation-commitments.md) for issue escalation, incident updates, and service recovery commitments.
+- [../references/website-software-maintenance-support-language.md](../../profiles-sectors/references/website-software-maintenance-support-language.md) for support windows, maintenance cycles, and SLA planning.
 
 This skill provides the PM knowledge base that proposal sections draw from — particularly methodology (06), work plan (08), and team composition (07). It covers the frameworks, governance models, and reporting standards that make proposals credible on project delivery.
 

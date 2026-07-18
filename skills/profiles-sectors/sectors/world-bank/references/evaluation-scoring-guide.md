@@ -1,5 +1,7 @@
 # World Bank Evaluation Scoring Guide
 
+Parent skill: [World Bank Procurement Framework — Consulting Services](../SKILL.md).
+
 How World Bank evaluators actually score consulting proposals. Use this to write every section with scoring awareness — know what earns a 2 (meets) vs. a 4 (significantly exceeds).
 
 ---

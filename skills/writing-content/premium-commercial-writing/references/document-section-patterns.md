@@ -1,5 +1,7 @@
 # Document And Section Patterns
 
+Parent skill: [Premium Commercial Writing](../SKILL.md).
+
 Use these patterns to upgrade common commercial writing outputs without changing the document owner's skill.
 
 ## Cover Letters

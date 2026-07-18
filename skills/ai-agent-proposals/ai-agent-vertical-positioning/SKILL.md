@@ -1,10 +1,15 @@
 ---
 name: ai-agent-vertical-positioning
-description: Use when the AI-agent proposal must position the agency for a specific vertical — customer support (resolution agents), financial services (compliance, reconciliation, KYC), insurance (claims triage), public sector (citizen-service agents — extreme caution and sovereign-AI), healthcare (admin-only, non-clinical), legal (drafting and review under bar rules), operations (alerting, triage, coding agents). Provides vertical autonomy-and-irreversibility stances, named use cases, regulator framing, discriminators, risk language, and competitive displacement angles. Extends `ai-on-saas-vertical-positioning` with the agent overlay.
+description: Use when adapting an AI-agent proposal to customer support, finance, insurance, public sector, healthcare administration, legal support, or operations with a sector-specific autonomy stance.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Vertical Positioning
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The engagement is horizontal and the vertical is not a discriminator.
 - The vertical is non-agent (use `ai-on-saas-vertical-positioning`).
 
-## Required Inputs
+## Domain Inputs
 
 - The buyer's vertical and sub-vertical.
 - The regulator(s) and stance on autonomous decisioning.
@@ -27,13 +32,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The buyer's irreversibility tolerance and HITL stance.
 - Local-content / sovereign requirements.
 
-## Workflow
+## Domain Method
 
 1. Identify the vertical and load the matching vertical reference (`vertical-ai-agent-<vertical>.md`).
 2. Choose two to four **named agent use cases** appropriate to the vertical, each with autonomy level and reversibility profile.
 3. Position the agency's **discriminators** for the vertical: regulator literacy, autonomy discipline, irreversibility gating, kill-switch readiness, action audit log, redress mechanism, sovereign-AI option, language coverage, supervisor retraining capability.
 4. Frame **risk and regulator** language using the vertical's vocabulary, not generic agent language (FS: model-risk management and adverse-decisioning rights; healthcare: clinical decision support classification and non-diagnostic agentic; legal: bar rules and lawyer responsibility; public sector: administrative-law fairness and sovereign-AI).
-5. Choose the **win themes** from `ai-agent-win-themes-and-discriminators.md` that fit the vertical.
+5. Choose the **win themes** from [ai-agent-win-themes-and-discriminators](../../profiles-sectors/references/ai-agent-win-themes-and-discriminators.md) that fit the vertical.
 6. Draft the **vertical positioning paragraph** for Executive Summary, the **vertical case studies** for Relevant Experience, and the **vertical methodology variations** for `06-methodology`.
 
 ## Vertical Library (Brief)
@@ -102,7 +107,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Honesty principle is applied — promises the regulator would not accept are not made.
 - Case studies or comparable references are in the vertical or transferable with stated rationale.
 
-## Anti-Patterns
+## Domain Risks
 
 - "Agents for banking" with no named use case.
 - L4 / L5 autonomy promised for citizen-service or healthcare clinical decisioning.
@@ -112,7 +117,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Customer-support agents that close tickets without resolution evidence (containment masquerading as deflection).
 - Operations agents that act on production without a sandbox or merge gate.
 
-## Outputs
+## Domain Outputs
 
 - Vertical positioning paragraph for Executive Summary.
 - Vertical-specific use-case list with autonomy and reversibility profile.
@@ -121,16 +126,72 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Vertical methodology variations for `06-methodology`.
 - Vertical case studies or comparable references.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| target sector, buyer problem, jurisdiction, affected parties, proof, and autonomy constraints | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Sector-positioned proposal narrative | Buyer evaluator and account lead | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| sector-positioned proposal narrative | Buyer evaluator and account lead | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Select sector stance and use case | Use verified sector evidence and set autonomy by consequence, reversibility, and regulatory exposure. | Generic positioning or unsafe cross-sector reuse. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+For healthcare, position an administrative scheduling agent with human review and no clinical decision authority; do not reuse the customer-support autonomy stance without a fresh risk assessment.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/vertical-ai-agent-customer-support.md`
-- `../references/vertical-ai-agent-financial-services.md`
-- `../references/vertical-ai-agent-insurance.md`
-- `../references/vertical-ai-agent-public-sector.md`
-- `../references/vertical-ai-agent-healthcare.md`
-- `../references/vertical-ai-agent-legal.md`
-- `../references/vertical-ai-agent-operations.md`
-- `../references/ai-agent-win-themes-and-discriminators.md`
-- `../ai-on-saas-vertical-positioning/SKILL.md` — AI-on-SaaS verticals (load alongside for SaaS-embedded agents).
-- `../ai-agent-methodology/SKILL.md` — methodology that variations sit inside.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — vertical-specific risk entries.
+- [vertical-ai-agent-customer-support](../../profiles-sectors/references/vertical-ai-agent-customer-support.md)
+- [vertical-ai-agent-financial-services](../../profiles-sectors/references/vertical-ai-agent-financial-services.md)
+- [vertical-ai-agent-insurance](../../profiles-sectors/references/vertical-ai-agent-insurance.md)
+- [vertical-ai-agent-public-sector](../../profiles-sectors/references/vertical-ai-agent-public-sector.md)
+- [vertical-ai-agent-healthcare](../../profiles-sectors/references/vertical-ai-agent-healthcare.md)
+- [vertical-ai-agent-legal](../../profiles-sectors/references/vertical-ai-agent-legal.md)
+- [vertical-ai-agent-operations](../../profiles-sectors/references/vertical-ai-agent-operations.md)
+- [ai-agent-win-themes-and-discriminators](../../profiles-sectors/references/ai-agent-win-themes-and-discriminators.md)
+- [ai-on-saas-vertical-positioning](../../ai-on-saas-proposals/ai-on-saas-vertical-positioning/SKILL.md) — AI-on-SaaS verticals (load alongside for SaaS-embedded agents).
+- [ai-agent-methodology](../ai-agent-methodology/SKILL.md) — methodology that variations sit inside.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — vertical-specific risk entries.

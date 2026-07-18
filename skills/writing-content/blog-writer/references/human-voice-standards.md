@@ -1,5 +1,7 @@
 # Human Voice Standards — Anti-AI Writing Reference
 
+Parent skill: [Blog Writer](../SKILL.md).
+
 Every piece of content must read as if a specific human wrote it. Not a generic professional. Not a language model. A person with opinions, experience, and a way of seeing the world that shows in their sentences.
 
 This reference applies to all content-generating skills: blog-writer, page-builder, language-standards, brand-alignment.

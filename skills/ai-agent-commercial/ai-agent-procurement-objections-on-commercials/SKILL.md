@@ -1,10 +1,15 @@
 ---
 name: ai-agent-procurement-objections-on-commercials
-description: Use when procurement, legal, or finance raises commercial objections specific to agentic engagements — "we don't pay for failed tasks", "we want a price floor", "we want a price corridor", "we want to audit the audit log", "we want a refund if the agent fails", "we want unlimited liability", "we want indemnity for regulator action", and similar. Provides the ten common procurement asks with ethical, trade-not-give responses that protect margin without breaking the relationship.
+description: Use when procurement, legal, or finance challenges agent pricing, failed-task billing, audit rights, refunds, liability, indemnities, or price corridors; use the contract pack for final clauses.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Procurement Objections on Commercials
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -19,7 +24,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The objection is on price level (use `premium-pricing-and-value-defense`).
 - The objection is on scope (use `sales-discovery-and-objection-handling`).
 
-## Required Inputs
+## Domain Inputs
 
 - The procurement objection in the buyer's own words.
 - The agency's commercial floor (margin floor, SLA-credit cap, liability sub-cap).
@@ -27,7 +32,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The buyer's competitive references (what they have heard from competitors).
 - The agency's legal-team starting positions on liability and indemnity.
 
-## Workflow
+## Domain Method
 
 1. **Categorise** the objection to one of the ten common asks (below).
 2. **Acknowledge** the concern in the buyer's frame (what they are protecting).
@@ -124,7 +129,7 @@ Things the agency trades:
 - No commercial concession is given without a trade.
 - The buyer sees principled discipline, not stonewalling.
 
-## Anti-Patterns
+## Domain Risks
 
 - Folding on liability because the deal is large.
 - Agreeing to "good faith" credits instead of formulas.
@@ -134,20 +139,78 @@ Things the agency trades:
 - Trading away the audit-log retention floor.
 - Stonewalling without offering a trade.
 
-## Outputs
+## Domain Outputs
 
 - Objection map for the engagement.
 - Trade ledger for the negotiation.
 - Updated contract pack reflecting the agreed positions.
 
+## Anti-Patterns
+
+- Quoting an unverified commercial term. Fix: trace it to the approved brief or contract record and label any unresolved variable.
+- Billing an attempted task as a completed outcome. Fix: define the eligible event, exclusions, reversal window, and evidence source.
+- Leaving credits, refunds, or liability uncapped. Fix: state the eligible fee base, cap, trigger, exclusions, and approval owner.
+- Updating one exhibit while dependent terms still conflict. Fix: reconcile pricing, SLA, credit, refund, renewal, and liability provisions together.
+- Removing a legal placeholder without authority. Fix: retain the marker, name the decision owner, and require qualified review before issue.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| recorded objection, buyer rationale, and approved trade boundaries | Buyer, proposal owner, approved contract record, or measured operating evidence | Yes | Stop before making a commitment; list the missing evidence and provide only a qualified option set. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Objection response and concession-ledger entry | Commercial lead and negotiator | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| objection response and concession ledger entry | Commercial lead and negotiator | Assumptions, measures, authority, exclusions, and acceptance tests are explicit and traceable to the supplied evidence. |
+
+## Capability Contract
+
+Minimum capability is read access to the approved commercial record and calculation support for any stated formula. Drafting authority permits edits only inside the requested proposal or contract working copy. Do not sign, publish, spend, change production configuration, concede liability, or represent legal approval without explicit authority. Legal and tax conclusions require qualified review.
+
+## Degraded Mode
+
+Fallback when tools are unavailable: use the qualified path below.
+
+If source terms, telemetry, calculation tools, or legal review are unavailable, return the narrowest useful marked draft: identify unverified variables, preserve placeholders, show the calculation method where possible, and mark each unavailable check as not assessed. Never convert missing evidence into approval.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Respond, trade, or escalate | Tie each concession to a reciprocal change in scope, price, term, or risk. | Uncontrolled margin or liability concession. |
+| Evidence is incomplete or positions conflict | Stop commitment drafting, record the conflict, and request the named owner’s decision. | Invented terms, double recovery, or an unauthorised concession. |
+| Evidence and authority are complete | Draft, cross-check dependent exhibits, and retain the calculation or clause trace. | An internally inconsistent commercial package. |
+
+## Workflow
+
+1. Confirm the consumer, authority, controlling commercial record, and required inputs; stop when a baseline or accountable owner is missing.
+2. Reproduce relevant calculations and identify conflicts across pricing, SLA, credit, refund, renewal, liability, and scope; stop when a formula cannot be reproduced.
+3. Apply the domain method and decision rules within delegated authority, recording assumptions and exclusions.
+4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
+5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+Procurement rejects billing for failed tasks. Offer billing only for qualified completions, provided the buyer accepts a minimum monthly commitment and an agreed failure taxonomy.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-commercial-objection-handling.md` — long-form objection responses.
-- `../references/ai-agent-credit-and-refund-clauses.md` — credit and refund clauses.
-- `../references/ai-agent-msa-addendum-template.md` — MSA addendum.
-- `../references/ai-agent-vendor-cost-pass-through.md` — pass-through.
-- `../references/ai-agent-dispute-resolution-and-audit-rights.md` — audit rights.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA class.
-- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` — intervention credit and abort.
-- `../sales-discovery-and-objection-handling/SKILL.md` — generic objection handling.
-- `../premium-pricing-and-value-defense/SKILL.md` — fee defence.
+- [ai-agent-commercial-objection-handling](../../profiles-sectors/references/ai-agent-commercial-objection-handling.md) — long-form objection responses.
+- [ai-agent-credit-and-refund-clauses](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — credit and refund clauses.
+- [ai-agent-msa-addendum-template](../../profiles-sectors/references/ai-agent-msa-addendum-template.md) — MSA addendum.
+- [ai-agent-vendor-cost-pass-through](../../profiles-sectors/references/ai-agent-vendor-cost-pass-through.md) — pass-through.
+- [ai-agent-dispute-resolution-and-audit-rights](../../profiles-sectors/references/ai-agent-dispute-resolution-and-audit-rights.md) — audit rights.
+- [ai-agent-sla-and-credit-schedule](../ai-agent-sla-and-credit-schedule/SKILL.md) — SLA class.
+- [ai-agent-intervention-credit-and-abort-refund](../ai-agent-intervention-credit-and-abort-refund/SKILL.md) — intervention credit and abort.
+- [sales-discovery-and-objection-handling](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) — generic objection handling.
+- [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) — fee defence.

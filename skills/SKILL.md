@@ -1,6 +1,11 @@
 ---
-name: proposal-writing
-description: Use this skill whenever the user asks to write, draft, review, or generate any part of a consulting proposal, Expression of Interest, bid document, or tender response. Routes to the correct sub-skill based on the required section or document type.
+name: skills
+description: Use when routing, drafting, reviewing, or assembling a complete consulting proposal, EoI, bid, or tender response; use a numbered pipeline skill when only one known section is required.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # Proposal Writing - Parent Skill
@@ -8,6 +13,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 This parent skill covers the full range of consulting proposal documents. All active proposal skills live under the repository `skills/` directory. Paths below are repository-root-relative so agents and project documentation refer to the same layout.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when the user needs to draft, review, or assemble any consulting proposal, bid, or Expression of Interest.
 - Load it when you need routing guidance to the correct numbered section skill or supporting skill.
@@ -16,10 +22,13 @@ This parent skill covers the full range of consulting proposal documents. All ac
 - The task is only about blog writing or skill maintenance.
 - The work is unrelated to proposals, tenders, or bid responses.
 
-## Required Inputs
-- The ToR, RFP, advert, or proposal brief.
-- The proposer identity and any known procurement or sector context.
-- Any mandatory templates, deadlines, or submission constraints.
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| ToR, RFP, advert, or proposal brief | Client or procurement portal | Yes | Stop section drafting and request the governing terms or return a qualified routing-only result. |
+| Proposer identity | `profiles` skill and approved profile file | Yes for drafting | Load exactly one profile; do not infer credentials or signatory authority. |
+| Procurement, sector, template, deadline, and envelope constraints | Client instructions and `sectors` skill | Conditional | State the gap and avoid compliance or submission claims until verified. |
 
 ## Workflow
 1. Identify the requested document or proposal section.
@@ -35,24 +44,64 @@ This parent skill covers the full range of consulting proposal documents. All ac
 10. After each section or major iteration, run `skills/meta/ai-slop-audit/SKILL.md` on what was just produced. The audit grades A/B/C/F; a grade of F (Blocked) blocks submission, so fix the blocking findings before moving to the next section. Run it again as the final gate before assembly or submission.
 11. Draft the requested content and keep proposal-wide themes, evidence, terminology, methodology, work plan, and pricing aligned.
 12. Verify compliance, logic, feasibility, section order, and separation between technical and financial content before finalizing.
+13. Stop when a mandatory form, proposer fact, authority, price basis, or evidence source is missing.
+14. Recover by obtaining the source, narrowing the deliverable, or returning an explicitly qualified gap rather than inventing content.
+
+## Capability Contract
+
+Read and search are required for the ToR, profile, sector rules, and existing proposal artefacts. Editing is permitted only when drafting or revision is authorised. External submission, publishing, spending, destructive file changes, legal certification, and claims on behalf of the proposer require explicit authority.
+
+## Degraded Mode
+
+Fallback: when files, network sources, rendering, spreadsheet tooling, or evidence are unavailable, return the narrowest useful routing decision or qualified draft, mark affected checks `not assessed`, and never present missing compliance evidence as passed.
+
+## Decision Rules
+
+| Condition or choice | Action | Failure or risk avoided |
+|---|---|---|
+| Full bid or several interdependent sections | Use this parent router, profile, sector, reasoning, and quality gates | Cross-section contradiction |
+| One known proposal section only | Route to the matching numbered pipeline skill | Loading the whole catalogue unnecessarily |
+| Technical and financial envelopes are separate | Produce and validate them independently | Procurement disqualification |
+| Software, finance, website, SaaS, or agentic scope appears | Add the named domain engine or specialist skill | Unsupported technical or commercial claims |
 
 ## Quality Standards
-- Treat each `SKILL.md` as the portable unit and load it from the `skills/` folder.
+- Treat each [SKILL.md](SKILL.md) as the portable unit and load it from the `skills/` folder.
 - Maintain British English, East African professional tone, and proposer-specific voice.
 - Keep the proposal client-specific, evaluator-aware, and measurable where evidence exists.
 
 ## Anti-Patterns
-- Do not draft proposal text before selecting the proposer profile.
-- Do not generate a full proposal from memory without reading the relevant section skill.
-- Do not merge technical and financial content when the procurement process separates them.
+- Drafting before selecting the proposer profile. Fix: load exactly one approved profile first.
+- Generating a full proposal from memory. Fix: inspect the ToR and load each relevant section skill.
+- Mixing technical and financial envelopes. Fix: produce separate artefacts and run separate compliance checks.
+- Claiming compliance without the governing form or instruction. Fix: mark the requirement not assessed until verified.
+- Allowing methodology, staffing, schedule, and price to diverge. Fix: reconcile them against one deliverables and effort model.
 
 ## Outputs
-- The requested proposal section, routing decision, or proposal component.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Routing decision or proposal component | Proposal lead and downstream section skills | Correct profile, sector, section, quality, and domain routes are named with no unresolved collision. |
+| Assembled proposal set | Evaluator and submission owner | Required sections, forms, evidence, cross-section consistency, and envelope separation pass their gates. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Routing and compliance record | Proposal release owner | Loaded skills, source documents, unassessed requirements, and blocking findings are traceable. |
 
 ## Core Routing References
-- `skills/profiles-sectors/profiles/SKILL.md` for proposer selection.
-- `skills/profiles-sectors/sectors/SKILL.md` for procurement and sector routing.
+- [skills/profiles-sectors/profiles/SKILL.md](profiles-sectors/profiles/SKILL.md) for proposer selection.
+- [skills/profiles-sectors/sectors/SKILL.md](profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
 - `skills/profiles-sectors/references/` for persuasion, delivery, and proposal patterns.
+
+## References
+
+- [Proposer profile router](profiles-sectors/profiles/SKILL.md)
+- [Procurement and sector router](profiles-sectors/sectors/SKILL.md)
+- [Critical analysis and business logic](strategy-positioning/critical-analysis-business-logic/SKILL.md)
+- [Anti-slop production guardrail](meta/anti-ai-slop/SKILL.md)
+- [AI slop audit gate](meta/ai-slop-audit/SKILL.md)
+<!-- dual-compat-end -->
 
 ## Sub-Skills - Proposal Sections
 
@@ -163,15 +212,15 @@ Read `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` bef
 
 Use the shared references in `skills/profiles-sectors/references/` when a proposal needs deeper buyer insight, ethical persuasion, premium value defence, service design, support language, narrative structure, or technical strategy:
 
-- `ethical-persuasion-and-evaluator-psychology-gate.md`
-- `premium-rate-justification-framework.md`
-- `discovery-question-bank-for-proposals.md`
-- `proposal-objection-handling.md`
-- `service-design-methodology-module.md`
-- `website-software-maintenance-support-language.md`
-- `proposal-narrative-patterns-and-case-story-spine.md`
-- `technical-strategy-credibility-checklist.md`
-- `customer-service-and-escalation-commitments.md`
+- [ethical-persuasion-and-evaluator-psychology-gate.md](profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md)
+- [premium-rate-justification-framework.md](profiles-sectors/references/premium-rate-justification-framework.md)
+- [discovery-question-bank-for-proposals.md](profiles-sectors/references/discovery-question-bank-for-proposals.md)
+- [proposal-objection-handling.md](profiles-sectors/references/proposal-objection-handling.md)
+- [service-design-methodology-module.md](profiles-sectors/references/service-design-methodology-module.md)
+- [website-software-maintenance-support-language.md](profiles-sectors/references/website-software-maintenance-support-language.md)
+- [proposal-narrative-patterns-and-case-story-spine.md](profiles-sectors/references/proposal-narrative-patterns-and-case-story-spine.md)
+- [technical-strategy-credibility-checklist.md](profiles-sectors/references/technical-strategy-credibility-checklist.md)
+- [customer-service-and-escalation-commitments.md](profiles-sectors/references/customer-service-and-escalation-commitments.md)
 
 Use `skills/writing-content/premium-commercial-writing/SKILL.md` as the cross-cutting writing layer when those strategy references must become sharper client-facing prose, case studies, executive summaries, public documents, or thought leadership.
 
@@ -179,27 +228,27 @@ Use `skills/writing-content/premium-commercial-writing/SKILL.md` as the cross-cu
 
 For SaaS-specific bids, the engine carries dedicated skills and references. The SaaS-specific reference library in `skills/profiles-sectors/references/` includes:
 
-- `saas-discovery-question-bank.md` - SaaS discovery (ICP, Critical Event, pain chain, impact, decision process).
-- `meddic-and-command-of-message-for-saas.md` - MEDDPICC qualification gate and Six-Lens Value Claim.
-- `saas-mutual-action-plan-template.md` - MAP from selection to value realisation.
-- `saas-demo-script-template.md` - discovery-tuned demo script.
-- `saas-poc-scoping-template.md` - POC and pilot scoping.
-- `saas-business-case-and-roi-template.md` - TCO / unit economics / ROI / NPV / sensitivity.
-- `saas-pricing-models-reference.md` - subscription / usage / hybrid / tiering / expansion / freemium.
-- `saas-procurement-and-security-questionnaire-playbook.md` - procurement path and security questionnaire pack.
-- `saas-msa-dpa-sla-template-language.md` - contract-grade language patterns.
-- `saas-customer-success-engagement-package.md` - customer success scope.
-- `saas-lifecycle-email-program-proposal-template.md` - six lifecycle programs.
-- `saas-implementation-methodology-blocks.md` - reusable methodology blocks.
-- `saas-multi-tenant-architecture-block.md` - architectural credibility paragraphs.
-- `saas-risk-register-for-proposals.md` - SaaS risk register.
-- `vertical-saas-positioning-financial-services.md`, `vertical-saas-positioning-insurance.md`, `vertical-saas-positioning-public-sector.md`, `vertical-saas-positioning-healthcare.md`, `vertical-saas-positioning-education.md` - vertical positioning briefs.
-- `saas-objection-handling-playbook.md` - objection-handling library.
-- `saas-vendor-vs-build-narrative.md` - build-vs-buy framing.
-- `saas-win-themes-and-discriminators.md` - SaaS win themes.
-- `saas-gtm-motion-design-reference.md` - GTM motion design.
-- `saas-metrics-glossary-for-proposals.md` - SaaS vocabulary.
-- `saas-trust-and-compliance-section-template.md` - Trust and Compliance section template.
+- [saas-discovery-question-bank.md](profiles-sectors/references/saas-discovery-question-bank.md) - SaaS discovery (ICP, Critical Event, pain chain, impact, decision process).
+- [meddic-and-command-of-message-for-saas.md](profiles-sectors/references/meddic-and-command-of-message-for-saas.md) - MEDDPICC qualification gate and Six-Lens Value Claim.
+- [saas-mutual-action-plan-template.md](profiles-sectors/references/saas-mutual-action-plan-template.md) - MAP from selection to value realisation.
+- [saas-demo-script-template.md](profiles-sectors/references/saas-demo-script-template.md) - discovery-tuned demo script.
+- [saas-poc-scoping-template.md](profiles-sectors/references/saas-poc-scoping-template.md) - POC and pilot scoping.
+- [saas-business-case-and-roi-template.md](profiles-sectors/references/saas-business-case-and-roi-template.md) - TCO / unit economics / ROI / NPV / sensitivity.
+- [saas-pricing-models-reference.md](profiles-sectors/references/saas-pricing-models-reference.md) - subscription / usage / hybrid / tiering / expansion / freemium.
+- [saas-procurement-and-security-questionnaire-playbook.md](profiles-sectors/references/saas-procurement-and-security-questionnaire-playbook.md) - procurement path and security questionnaire pack.
+- [saas-msa-dpa-sla-template-language.md](profiles-sectors/references/saas-msa-dpa-sla-template-language.md) - contract-grade language patterns.
+- [saas-customer-success-engagement-package.md](profiles-sectors/references/saas-customer-success-engagement-package.md) - customer success scope.
+- [saas-lifecycle-email-program-proposal-template.md](profiles-sectors/references/saas-lifecycle-email-program-proposal-template.md) - six lifecycle programs.
+- [saas-implementation-methodology-blocks.md](profiles-sectors/references/saas-implementation-methodology-blocks.md) - reusable methodology blocks.
+- [saas-multi-tenant-architecture-block.md](profiles-sectors/references/saas-multi-tenant-architecture-block.md) - architectural credibility paragraphs.
+- [saas-risk-register-for-proposals.md](profiles-sectors/references/saas-risk-register-for-proposals.md) - SaaS risk register.
+- [vertical-saas-positioning-financial-services.md](profiles-sectors/references/vertical-saas-positioning-financial-services.md), [vertical-saas-positioning-insurance.md](profiles-sectors/references/vertical-saas-positioning-insurance.md), [vertical-saas-positioning-public-sector.md](profiles-sectors/references/vertical-saas-positioning-public-sector.md), [vertical-saas-positioning-healthcare.md](profiles-sectors/references/vertical-saas-positioning-healthcare.md), [vertical-saas-positioning-education.md](profiles-sectors/references/vertical-saas-positioning-education.md) - vertical positioning briefs.
+- [saas-objection-handling-playbook.md](profiles-sectors/references/saas-objection-handling-playbook.md) - objection-handling library.
+- [saas-vendor-vs-build-narrative.md](profiles-sectors/references/saas-vendor-vs-build-narrative.md) - build-vs-buy framing.
+- [saas-win-themes-and-discriminators.md](profiles-sectors/references/saas-win-themes-and-discriminators.md) - SaaS win themes.
+- [saas-gtm-motion-design-reference.md](profiles-sectors/references/saas-gtm-motion-design-reference.md) - GTM motion design.
+- [saas-metrics-glossary-for-proposals.md](profiles-sectors/references/saas-metrics-glossary-for-proposals.md) - SaaS vocabulary.
+- [saas-trust-and-compliance-section-template.md](profiles-sectors/references/saas-trust-and-compliance-section-template.md) - Trust and Compliance section template.
 
 Load the SaaS skills and references when the engagement is SaaS implementation, SaaS product development, multi-tenant platform build, SaaS migration from installed software, SaaS commercial launch, or SaaS-on-AI work. The audit synthesis in `book-extractions/saas-proposal-skills-audit-2026.md` documents how these skills and references were derived from the seven SaaS books processed in 2026.
 
@@ -225,7 +274,7 @@ All proposals are developed in the local `proposals/` directory, which is gitign
 
 ## Standards That Apply to All Sub-Skills
 
-- Follow `skills/language/east-african-english/SKILL.md` for tone, spelling, and courteous phrasing throughout.
+- Follow [skills/language/east-african-english/SKILL.md](language/east-african-english/SKILL.md) for tone, spelling, and courteous phrasing throughout.
 - Use British English spelling: organisation, programme, centre, colour.
 - Let the loaded proposer profile determine voice: first-person singular for individual consultants and first-person plural for companies.
 - Never use exaggerated marketing language. Confident, measured, professional writing is preferred.

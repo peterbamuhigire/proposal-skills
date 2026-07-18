@@ -1,5 +1,7 @@
 # Reasoning and Business-Sense Gate
 
+Parent skill: [Critical Analysis Business Logic](../SKILL.md).
+
 Use this gate before drafting high-stakes proposal content and again before final review. It distils critical-thinking, essential-question, mental-model, design-thinking, and strategic-thinking material into proposal practice.
 
 ## 1. Essential Questions

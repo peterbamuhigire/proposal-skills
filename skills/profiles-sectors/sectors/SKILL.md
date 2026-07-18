@@ -1,11 +1,17 @@
 ---
 name: sectors
-description: Sector and procurement framework reference index. Use when writing proposals to load sector-specific requirements, terminology, evaluation criteria, and compliance rules. Read this index first, then read the relevant sector file before drafting any proposal section.
+description: Use when routing a proposal to the correct procurement-framework and industry-sector skills before drafting; use profiles separately to determine proposer identity and voice.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Sectors — Index
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when a proposal needs both procurement-framework guidance and sector-domain context.
 - Load it when you must decide which procurement and sector skills to read before drafting.
@@ -15,16 +21,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - A specific sector and framework skill have already been chosen and no routing help is needed.
 
 ## Required Inputs
-- The ToR, RFP, advert, or client brief.
-- Known donor, geography, industry, and form requirements.
-- Any clues about evaluation criteria, selection method, and terminology.
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---|---|
+| The ToR, RFP, advert, or client brief. | Buyer solicitation, ToR, or approved brief | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| Known donor, geography, industry, and form requirements. | Buyer, verified sector source, or discovery | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| Any clues about evaluation criteria, selection method, and terminology. | Buyer, verified sector source, or discovery | Conditional | Stop the affected claim, request or verify the input, and label the resulting gap. |
 
 ## Workflow
+
 1. Identify the procurement framework first because it controls forms, scoring, and compliance rules.
 2. Identify the industry sector next because it shapes terminology, methodology, and evaluator expectations.
 3. Load one procurement skill and one or more sector skills as needed for the assignment.
 4. Read country context where it materially improves the proposal.
 5. Carry those assumptions into the numbered proposal section skills.
+
+**Stop condition:** Stop when proposer identity, controlling framework, mandatory form, sector fit, current rule, or load-bearing evidence remains unresolved.
+
+**Recovery:** Record the gap and owner, seek clarification or current evidence, and return only the separable proposal content that remains supportable.
 
 ## Quality Standards
 - Use procurement skills for compliance logic and sector skills for domain logic.
@@ -32,16 +46,57 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Treat sector references as evidence and framing support, not text to paste verbatim.
 
 ## Anti-Patterns
+
 - Do not assume the donor framework from sector keywords alone.
 - Do not load every sector reference when only one or two are relevant.
 - Do not ignore country context when the bid is explicitly country-specific.
+- Treating a neighbouring sector or framework as interchangeable. **Fix:** identify the controlling rule and primary outcome.
+- Adding terminology without changing a delivery choice. **Fix:** link each term to method, risk, output, or evaluation criterion.
+- Presenting an unverified current rule or statistic as settled. **Fix:** cite and date the source or mark it not assessed.
+- Ignoring a missing mandatory input. **Fix:** stop the affected claim and assign an evidence owner.
+- Letting sector or identity framing contradict methodology, staffing, schedule, or price. **Fix:** reconcile all affected sections before release.
 
 ## Outputs
-- A routing decision to the relevant procurement and sector skills.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| A routing decision to the relevant procurement and sector skills. | Proposal lead, section writer, and evaluator-readiness reviewer | Applied consistently, traceable to the selected source, and free of unsupported identity, framework, or sector claims. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Routing and source record | Proposal lead and reviewer | Selected identity, framework, sector, source, date, and material gaps are recorded. |
+| Decision record | Section writer and delivery lead | Each material choice has rationale, owner, evidence, and a review or stop condition. |
+| Conformance check | Release reviewer | Mandatory forms, identity rules, sector logic, and unresolved checks are explicitly assessed. |
+
+## Capability Contract
+
+This skill may read supplied profiles, solicitations, ToRs, approved references, and proposal drafts and may prepare routing guidance or draft content within the authorised workspace. Review is read-only by default. It must not invent credentials, certify compliance, submit a bid, accept terms, publish, disclose confidential information, or change source records without explicit authority.
+
+## Degraded Mode
+
+If the solicitation, profile, current procurement source, sector evidence, network, or reviewer is unavailable, provide the narrowest useful qualified routing or draft. Mark the missing check **not assessed**, omit unsupported credentials, thresholds, dates, or compliance claims, and identify the evidence owner. An unassessed requirement is never a pass.
+
+## Decision Rules
+
+| Decision | Action | Failure/risk avoided |
+|---|---|---|
+| Controlling framework | Use the solicitation's stated rules; pair one procurement framework with every materially relevant industry sector. | Wrong forms, thresholds, terminology, or evaluation strategy |
+| Conflicting solicitation and background guidance | Follow the solicitation while recording the conflict for formal clarification. | Non-responsive interpretation |
+| Missing mandatory evidence | Stop the affected claim or form, record the owner and deadline, and continue only with independent supported content. | Fabricated evidence or silent omission |
+| Submission, certification, or contractual commitment | Obtain explicit authority and preserve approval evidence before acting. | Unauthorised external commitment |
+
+## Worked Example
+
+A solicitation requires **controlling framework**, but one controlling input is missing. The proposal team applies this rule: Use the solicitation's stated rules; pair one procurement framework with every materially relevant industry sector. It records the gap and owner, withholds the affected assurance, and proceeds only with content that can be verified. This avoids **wrong forms, thresholds, terminology, or evaluation strategy**.
 
 ## References
+
+- [Proposal skill router](../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+<!-- dual-compat-end -->
 - Local framework and sector subdirectories.
-- `uganda-country-profile.md` when Uganda context matters.
+- [uganda-country-profile.md](uganda-country-profile.md) when Uganda context matters.
 
 This directory contains reference documentation for procurement frameworks and industry sectors. Each file defines the specifics that apply when writing proposals for that context — mandatory forms, evaluation weightings, compliance requirements, terminology, and sector-specific content expectations.
 
@@ -124,4 +179,3 @@ Not every directory needs every file from day one. Start with a `README.md` and 
 2. Add a `README.md` with an overview, key requirements, and a compliance checklist
 3. Add reference files as needed (terminology, evaluation criteria, methodology notes)
 4. Update this INDEX.md with the new entry
-

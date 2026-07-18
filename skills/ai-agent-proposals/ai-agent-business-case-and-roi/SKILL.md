@@ -1,10 +1,15 @@
 ---
 name: ai-agent-business-case-and-roi
-description: Use when the AI-agent proposal must present an ROI that survives a sceptical CFO and a sceptical head of operations. Provides task-based ROI (tasks-per-FTE-saved with intervention discount; AHT reduction with quality cap; deflection rate; time-to-resolution), agent cost stack (model calls per task × tasks; oversight cost; eval and red-team; integration and ops), three-scenario model accounting for autonomy-level, downside scenarios (regulator action, irreversible-incident cost, intervention overhead, scope-creep cost), and payback with autonomy ramp. Extends `ai-on-saas-business-case-and-roi` with the agent overlay; replaces it when the engagement is stand-alone agentic.
+description: Use when building a task-based business case for an AI agent, including intervention-adjusted benefits, the full agent cost stack, downside scenarios, and autonomy-ramp payback.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Business Case and ROI
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The case is for a non-agent AI feature (use `ai-on-saas-business-case-and-roi`).
 - The case is for generic AI strategy with no measurable outcome workflow (use `ai-transformation-proposal`).
 
-## Required Inputs
+## Domain Inputs
 
 - Baseline cost per outcome today (cost per resolved ticket, per triaged claim, per reconciled batch, per drafted document).
 - Volume per month per tenant.
@@ -32,7 +37,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Buyer regulator exposure (downside).
 - FX assumptions (USD model costs, local revenue).
 
-## Workflow
+## Domain Method
 
 1. Build the **Agent Value Stack** for each agent or use case: cost per outcome saved (volume × baseline cost − agent cost), AHT reduction monetised, deflection-rate monetised (work that never reached a human), time-to-resolution monetised (revenue cycle effect or SLA-breach avoidance), capacity unlock (volume the buyer can now handle without hiring), revenue from agent-tier upsell where the agent is a product feature.
 2. Build the **Agent Cost Stack**: model calls per task × tasks per month (this is the biggest line and the most overlooked), embedding cost, tool-call cost (search, third-party API), oversight cost (supervisor headcount or on-call), eval cost (golden set + LLM-as-judge + human review), red-team cost, drift-watch cost, engineering cost, integration cost, vendor liability / insurance differential, cloud compute, vector store / memory.
@@ -57,7 +62,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
    - (e) **Model-price shock** — provider raises prices or restricts use. Mitigation links to model-gateway and fallback.
    - (f) **Adoption stall** — staff resist; volume routed to agent stays low; payback delays. Mitigation links to change management.
    - (g) **Liability event** — a court / regulator / contract holds the buyer or agency liable. Mitigation links to insurance, contract, audit log.
-   - (h) **Service-credit cost** — credits issued under the SLA Class credit schedule and intervention-credit clause reduce realised revenue. Model the worst-credit-month at P90 / P99 intervention, P90 / P99 task-success miss, and a kill-switch breach. Stress-test margin floor against the aggregate credit cap. See `../ai-agent-sla-and-credit-schedule/SKILL.md` and `../ai-agent-intervention-credit-and-abort-refund/SKILL.md`.
+   - (h) **Service-credit cost** — credits issued under the SLA Class credit schedule and intervention-credit clause reduce realised revenue. Model the worst-credit-month at P90 / P99 intervention, P90 / P99 task-success miss, and a kill-switch breach. Stress-test margin floor against the aggregate credit cap. See [ai-agent-sla-and-credit-schedule](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) and [ai-agent-intervention-credit-and-abort-refund](../../ai-agent-commercial/ai-agent-intervention-credit-and-abort-refund/SKILL.md).
    - (i) **Refund-trigger event** — model the engagement-level loss if an Abort-and-Refund trigger fires (Irreversible-Action Incident at agency fault; intervention overshoot for 60 consecutive days; regulator action). The contingency reserve should cover at least the worst single-trigger refund scenario.
 9. Output the **Agent Business Case Memo** in the buyer's shape (CFO one-pager, board memo, investment-committee deck).
 
@@ -92,7 +97,7 @@ The CFO is buying a curve, not a step change. The proposal commits to the curve.
 - The discount rate is the buyer's stated rate.
 - The proposal does not quote tasks-per-FTE without subtracting intervention.
 
-## Anti-Patterns
+## Domain Risks
 
 - "The agent saves 10 FTE" with no intervention rate.
 - "Cost per ticket falls 80 %" with no model-call cost subtracted.
@@ -103,7 +108,7 @@ The CFO is buying a curve, not a step change. The proposal commits to the curve.
 - Scope-creep cost ignored; the case assumes the catalogue does not grow.
 - Liability event excluded because "the buyer accepts the risk".
 
-## Outputs
+## Domain Outputs
 
 - Agent Value Stack table.
 - Agent Cost Stack table.
@@ -115,17 +120,73 @@ The CFO is buying a curve, not a step change. The proposal commits to the curve.
 - Downside Scenarios with mitigations.
 - Agent Business Case Memo in the buyer's preferred shape.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| task baseline, loaded labour cost, intervention data, agent cost stack, and buyer discount rate | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Agent business-case model and decision memo | Buyer CFO and proposal evaluator | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| agent business-case model and decision memo | Buyer CFO and proposal evaluator | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Select investment case | Model downside, base, and upside using measured task and intervention inputs. | A persuasive but uneconomic ROI. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+A service team handles 40,000 tasks monthly. Model benefit after supervisor intervention, model calls, evaluation, operations, and credits; show payback at the buyer's discount rate and flag any unverified baseline.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-business-case-template.md` — formulas, worked examples, FX handling.
-- `../references/ai-agent-metrics-glossary.md` — definitions used in the case.
-- `../references/ai-agent-pricing-models-reference.md` — pricing patterns that change the revenue / cost split.
-- `../references/ai-agent-sla-class-table.md` — SLA class credit schedule (downside modelling).
-- `../references/ai-agent-credit-and-refund-clauses.md` — credit and refund clauses (worst-credit-month inputs).
-- `../ai-agent-pricing-and-packaging-proposal/SKILL.md` — pricing inputs.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — credit-cost into downside.
-- `../ai-agent-intervention-credit-and-abort-refund/SKILL.md` — intervention-credit exposure.
-- `../ai-on-saas-business-case-and-roi/SKILL.md` — AI-on-SaaS business case when the agent lives inside a SaaS product.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — downside scenarios.
-- `../10-financial-proposal/SKILL.md` — financial proposal placement.
-- `../premium-pricing-and-value-defense/SKILL.md` — fee defence at the close.
+- [ai-agent-business-case-template](../../profiles-sectors/references/ai-agent-business-case-template.md) — formulas, worked examples, FX handling.
+- [ai-agent-metrics-glossary](../../profiles-sectors/references/ai-agent-metrics-glossary.md) — definitions used in the case.
+- [ai-agent-pricing-models-reference](../../profiles-sectors/references/ai-agent-pricing-models-reference.md) — pricing patterns that change the revenue / cost split.
+- [ai-agent-sla-class-table](../../profiles-sectors/references/ai-agent-sla-class-table.md) — SLA class credit schedule (downside modelling).
+- [ai-agent-credit-and-refund-clauses](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — credit and refund clauses (worst-credit-month inputs).
+- [ai-agent-pricing-and-packaging-proposal](../ai-agent-pricing-and-packaging-proposal/SKILL.md) — pricing inputs.
+- [ai-agent-sla-and-credit-schedule](../../ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md) — credit-cost into downside.
+- [ai-agent-intervention-credit-and-abort-refund](../../ai-agent-commercial/ai-agent-intervention-credit-and-abort-refund/SKILL.md) — intervention-credit exposure.
+- [ai-on-saas-business-case-and-roi](../../ai-on-saas-proposals/ai-on-saas-business-case-and-roi/SKILL.md) — AI-on-SaaS business case when the agent lives inside a SaaS product.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — downside scenarios.
+- [10-financial-proposal](../../pipeline/10-financial-proposal/SKILL.md) — financial proposal placement.
+- [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) — fee defence at the close.

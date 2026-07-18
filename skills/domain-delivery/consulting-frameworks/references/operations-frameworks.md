@@ -1,5 +1,7 @@
 # Operations and Diagnostic Frameworks
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Frameworks for operations improvement, process reengineering, multi-stakeholder assignments, and option appraisal. Use when the ToR involves operational efficiency, institutional assessment, or structured decision-making among alternatives.
 
 ---

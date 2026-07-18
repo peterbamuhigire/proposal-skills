@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda Transport and Infrastructure Sector Profile
 
+Parent skill: [Transport and Infrastructure](../SKILL.md).
+
 ## 1. Road Network
 
 ### Network Overview

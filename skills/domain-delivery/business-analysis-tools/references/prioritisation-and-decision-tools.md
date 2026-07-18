@@ -1,5 +1,7 @@
 # Prioritisation and Decision Tools
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Tools for ranking options, prioritising requirements or recommendations, and making transparent, auditable decisions. These tools appear in methodology sections (options appraisal, recommendation development) and in work plans (phasing decisions).
 
 ---

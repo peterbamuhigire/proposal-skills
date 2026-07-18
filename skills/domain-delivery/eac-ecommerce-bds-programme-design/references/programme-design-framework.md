@@ -1,5 +1,7 @@
 # Programme Design Framework
 
+Parent skill: [EAC E-Commerce BDS Programme Design](../SKILL.md).
+
 ## Results Chain
 
 | Layer | Design question | Evidence required |

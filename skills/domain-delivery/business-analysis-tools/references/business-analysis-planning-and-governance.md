@@ -1,5 +1,7 @@
 # Business Analysis Planning and Governance
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Additional guidance for assignments where the proposal must show how analysis work will be governed, sequenced, and converted into a usable solution definition. This is most useful for diagnostic studies, process redesign, digital transformation, service improvement, and requirements-heavy system assignments.
 
 Synthesised from PMI's *Business Analysis for Practitioners* and Robertson & Robertson's *Mastering the Requirements Process*.

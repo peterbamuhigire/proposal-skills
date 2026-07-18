@@ -1,10 +1,15 @@
 ---
 name: ai-agent-msa-and-sla-addendum-templates
-description: Use when the MSA and SLA need agent-specific addendums. Extends `saas-msa-dpa-sla-template-language` with the agent overlay — action accountability, audit-log retention and replay availability, kill-switch SLA, fee-for-evidence-pack on dispute, sub-cap for irreversible-action liability, model-provider force-majeure, agent-identity warranty, intervention SLA, and the SLA-credit interaction with the base SaaS SLA. Provides drop-in MSA addendum and drop-in SLA addendum.
+description: Use when drafting agent-specific MSA and SLA addendums covering action accountability, audit logs, kill switches, intervention, liability, and upstream-provider dependencies.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent MSA and SLA Addendum Templates
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The engagement is non-agent (use `saas-msa-dpa-sla-template-language`).
 - The engagement is a one-off study with no operational deliverable.
 
-## Required Inputs
+## Domain Inputs
 
 - The base MSA (the agency's or the buyer's).
 - The chosen pricing pattern and packaging shape.
@@ -30,7 +35,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The agency's legal-team starting positions on liability, indemnity, insurance.
 - The buyer's regulator and the regulator's expectations on automated decisioning.
 
-## Workflow
+## Domain Method
 
 1. Read the base MSA and identify which standard clauses need an agent overlay — Scope of Services, Fees and Payment, Warranties, Liability, Indemnity, Insurance, Term and Termination, IP, Confidentiality, Sub-Processors, Audit, Force Majeure, Dispute Resolution.
 2. Draft the **MSA Addendum** with the eight agent-specific clauses (below). The addendum overrides the base MSA only where named.
@@ -67,7 +72,7 @@ The Agency commits to the Intervention SLA — time-to-human escalation — at t
 
 ## The SLA Addendum
 
-The SLA Addendum is `../references/ai-agent-sla-exhibit-template.md`, attached to the MSA. It defines:
+The SLA Addendum is [ai-agent-sla-exhibit-template](../../profiles-sectors/references/ai-agent-sla-exhibit-template.md), attached to the MSA. It defines:
 
 - SLA Class (Bronze / Silver / Gold / Platinum) and the four metric thresholds.
 - Kill-switch, audit-log completeness, intervention SLAs (the three guardrails).
@@ -86,7 +91,7 @@ The SLA Addendum is `../references/ai-agent-sla-exhibit-template.md`, attached t
 - The agent-identity warranty is concrete.
 - The legal team has signed off.
 
-## Anti-Patterns
+## Domain Risks
 
 - Submitting the SaaS MSA without an addendum and hoping the buyer notices.
 - Drafting the addendum without the Trust and Compliance Annex it points at.
@@ -96,21 +101,79 @@ The SLA Addendum is `../references/ai-agent-sla-exhibit-template.md`, attached t
 - Fee-for-evidence-pack absent — the agency drowns in unfunded forensic requests after the first dispute.
 - Agent-identity warranty absent — regulator transparency rules in jeopardy.
 
-## Outputs
+## Domain Outputs
 
 - MSA Addendum (drop-in).
 - SLA Addendum (drop-in).
 - Annexes referenced — Action Catalogue, Trust and Compliance Annex, Pricing Exhibit, SLA Exhibit.
 - Legal-team sign-off record.
 
+## Anti-Patterns
+
+- Quoting an unverified commercial term. Fix: trace it to the approved brief or contract record and label any unresolved variable.
+- Billing an attempted task as a completed outcome. Fix: define the eligible event, exclusions, reversal window, and evidence source.
+- Leaving credits, refunds, or liability uncapped. Fix: state the eligible fee base, cap, trigger, exclusions, and approval owner.
+- Updating one exhibit while dependent terms still conflict. Fix: reconcile pricing, SLA, credit, refund, renewal, and liability provisions together.
+- Removing a legal placeholder without authority. Fix: retain the marker, name the decision owner, and require qualified review before issue.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| base MSA/SLA and approved risk positions | Buyer, proposal owner, approved contract record, or measured operating evidence | Yes | Stop before making a commitment; list the missing evidence and provide only a qualified option set. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Agent-specific MSA and SLA addendums | Legal counsel and procurement | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| agent-specific MSA and SLA addendums | Legal counsel and procurement | Assumptions, measures, authority, exclusions, and acceptance tests are explicit and traceable to the supplied evidence. |
+
+## Capability Contract
+
+Minimum capability is read access to the approved commercial record and calculation support for any stated formula. Drafting authority permits edits only inside the requested proposal or contract working copy. Do not sign, publish, spend, change production configuration, concede liability, or represent legal approval without explicit authority. Legal and tax conclusions require qualified review.
+
+## Degraded Mode
+
+Fallback when tools are unavailable: use the qualified path below.
+
+If source terms, telemetry, calculation tools, or legal review are unavailable, return the narrowest useful marked draft: identify unverified variables, preserve placeholders, show the calculation method where possible, and mark each unavailable check as not assessed. Never convert missing evidence into approval.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Add an agent clause | Insert only clauses needed by the action catalogue, SLA, and liability posture. | Conflict with the base agreement. |
+| Evidence is incomplete or positions conflict | Stop commitment drafting, record the conflict, and request the named owner’s decision. | Invented terms, double recovery, or an unauthorised concession. |
+| Evidence and authority are complete | Draft, cross-check dependent exhibits, and retain the calculation or clause trace. | An internally inconsistent commercial package. |
+
+## Workflow
+
+1. Confirm the consumer, authority, controlling commercial record, and required inputs; stop when a baseline or accountable owner is missing.
+2. Reproduce relevant calculations and identify conflicts across pricing, SLA, credit, refund, renewal, liability, and scope; stop when a formula cannot be reproduced.
+3. Apply the domain method and decision rules within delegated authority, recording assumptions and exclusions.
+4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
+5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+An agent may issue reversible refunds but cannot approve irreversible payments. Add accountability, audit-log, kill-switch, intervention, and provider-dependency clauses; reconcile them with the base SLA.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-msa-addendum-template.md` — drop-in MSA addendum.
-- `../references/ai-agent-sla-exhibit-template.md` — drop-in SLA addendum / exhibit.
-- `../references/ai-agent-credit-and-refund-clauses.md` — credits and refunds.
-- `../references/ai-agent-vendor-cost-pass-through.md` — pass-through language.
-- `../references/ai-agent-dispute-resolution-and-audit-rights.md` — dispute and audit rights.
-- `../references/saas-msa-dpa-sla-template-language.md` — base SaaS MSA / DPA / SLA.
-- `../ai-agent-sla-and-credit-schedule/SKILL.md` — SLA classes.
-- `../ai-agent-contract-language-pack/SKILL.md` — full contract pack assembly.
-- `../ai-agent-compliance-credentials/SKILL.md` — Trust and Compliance Annex.
+- [ai-agent-msa-addendum-template](../../profiles-sectors/references/ai-agent-msa-addendum-template.md) — drop-in MSA addendum.
+- [ai-agent-sla-exhibit-template](../../profiles-sectors/references/ai-agent-sla-exhibit-template.md) — drop-in SLA addendum / exhibit.
+- [ai-agent-credit-and-refund-clauses](../../profiles-sectors/references/ai-agent-credit-and-refund-clauses.md) — credits and refunds.
+- [ai-agent-vendor-cost-pass-through](../../profiles-sectors/references/ai-agent-vendor-cost-pass-through.md) — pass-through language.
+- [ai-agent-dispute-resolution-and-audit-rights](../../profiles-sectors/references/ai-agent-dispute-resolution-and-audit-rights.md) — dispute and audit rights.
+- [saas-msa-dpa-sla-template-language](../../profiles-sectors/references/saas-msa-dpa-sla-template-language.md) — base SaaS MSA / DPA / SLA.
+- [ai-agent-sla-and-credit-schedule](../ai-agent-sla-and-credit-schedule/SKILL.md) — SLA classes.
+- [ai-agent-contract-language-pack](../ai-agent-contract-language-pack/SKILL.md) — full contract pack assembly.
+- [ai-agent-compliance-credentials](../../ai-agent-proposals/ai-agent-compliance-credentials/SKILL.md) — Trust and Compliance Annex.

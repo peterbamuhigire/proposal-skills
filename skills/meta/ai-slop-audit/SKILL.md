@@ -1,12 +1,91 @@
 ---
 name: ai-slop-audit
-description: Analyse, evaluate, and audit any proposal artefact for AI slop and grade it. RUNS AFTER EACH proposal section or major iteration, and AUTO-RUNS whenever the user asks to analyse, review, evaluate, audit, critique, or de-slop any proposal, Expression of Interest, cover letter, executive summary, methodology, procurement response, financial proposal, or other bid content. Produces a graded slop report: per-marker findings with severity, evidence, and a concrete fix. Grade F blocks submission. Pairs with anti-ai-slop, which prevents slop during writing.
+description: Use when auditing an existing proposal artefact for AI slop after a major iteration or before submission; use anti-ai-slop instead as the live drafting guardrail.
+metadata:
+  portable: true
+  compatible_with:
+    - claude-code
+    - codex
 ---
 
 # AI Slop Audit
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 The detector. Given any proposal artefact, it decides how strongly it reads as AI slop, names exactly why, and says how to fix each finding. Production-side prevention is the companion `anti-ai-slop` skill, and the reasoning gate is `critical-analysis-business-logic`.
+
+<!-- dual-compat-start -->
+## Use When
+
+- Audit a completed proposal section, EoI, tender response, price narrative, or full bid after a major iteration.
+- Run the final A/B/C/F gate before assembly or submission.
+
+## Do Not Use When
+
+- Use `anti-ai-slop` while creating content; this skill assesses a concrete artefact in read-only mode.
+- Do not grade material that cannot be inspected; return an unassessed scope instead.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| Proposal artefact and intended audience | Proposal lead | Yes | Stop and request the artefact or identify the inaccessible scope as not assessed. |
+| Sources for factual claims | Bid evidence register or verified provider | Conditional | Mark factual verification not assessed; do not clear a blocking claim. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Graded slop audit | Author and release owner | Verdict, genericness score, evidence, fix, and unassessed checks agree with the grading rules. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Finding register and A/B/C/F verdict | Proposal release gate | Every finding cites a line, phrase, figure, source, or other observable artefact evidence. |
+
+## Capability Contract
+
+Default to read-only. Read and search are required; execution or network checks may verify claims when authorised. Never edit the audited artefact unless remediation is separately requested, and never submit it externally.
+
+## Degraded Mode
+
+When a file, source, renderer, or verification capability is unavailable, mark that check `not assessed` and return the narrowest evidence-backed grade possible. Do not lower risk or invent findings to fill the report.
+
+## Decision Rules
+
+| Evidence | Action or grade | Failure or risk avoided |
+|---|---|---|
+| Fabricated claim, citation, client, statute, or no substantive content | Grade F and block release | Unsupported submission |
+| Multiple non-blocking markers or weak intent | Grade C and require rework | High reviewer burden |
+| Minor isolated markers only | Grade B and list targeted fixes | Unnecessary full rewrite |
+| No blockers, low genericness, clear intent | Grade A and release | Invented audit findings |
+
+## Workflow
+
+1. Classify the artefact and define the inspected scope.
+2. Run applicable mechanical checks, then review substance, intent, specificity, and hard cases.
+3. Stop and grade F when any blocking marker is evidenced.
+4. Recover from incomplete access by marking checks not assessed, not by assuming a pass.
+5. Issue the evidence-backed report and preserve authored material worth keeping.
+
+## Quality Standards
+
+- Findings are traceable, severity is consistent with the rubric, and inaccessible checks remain visible.
+- A clean artefact may receive grade A; the audit never invents debt.
+
+## Anti-Patterns
+
+- Reporting a vague “AI feel”. Fix: cite the exact phrase, line, figure, or formatting pattern.
+- Padding a clean audit with invented defects. Fix: allow a grade A result.
+- Editing during a read-only audit. Fix: separate diagnosis from authorised remediation.
+- Treating an inaccessible citation check as passed. Fix: mark it not assessed.
+- Removing useful authored material during cleanup. Fix: record what must be preserved.
+
+## References
+
+- [Anti-slop production guardrail](../anti-ai-slop/SKILL.md)
+- [Critical analysis and business logic gate](../../strategy-positioning/critical-analysis-business-logic/SKILL.md)
+<!-- dual-compat-end -->
 
 ## When this runs
 

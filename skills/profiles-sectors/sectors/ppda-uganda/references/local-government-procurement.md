@@ -1,5 +1,7 @@
 # Local-Government Procurement (Uganda)
 
+Parent skill: [Uganda PPDA Procurement Framework](../SKILL.md).
+
 Reference material for the ppda-uganda sector skill. Covers how procurement works at district, municipal, city, sub-county, and town-council level, where it varies from the central PPDA process, and where the financial-control regime intersects with procurement. Use when the Procuring and Disposing Entity (PDE) is a local government rather than a central ministry or agency.
 
 Sources: PPDA Act (Cap. 205, as amended by the PPDA (Amendment) Act 2021) and the **PPDA Regulations 2023**, which since **5 February 2024** govern procurement for BOTH central and local government (the former Local Governments (PPDA) Regulations 2006 were revoked); the Local Governments (Financial and Accounting) Regulations 2007, SI 25/2007 (financial-control interface) under the Local Governments Act 1997. Procurement thresholds and methods live in the PPDA Regulations — **not** in SI 25/2007.

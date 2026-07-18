@@ -1,10 +1,17 @@
 ---
-name: proposal-writing/09-expression-of-interest
-description: Write an Expression of Interest for a consulting assignment. Use when the user asks to draft an EoI, letter of interest, pre-qualification submission, or shortlisting response.
+name: 09-expression-of-interest
+description: Use when drafting an EoI, REOI response, prequalification, or shortlisting submission focused on eligibility and relevant capability. Unlike a full proposal pipeline, this skill omits detailed methodology unless the notice explicitly requires it.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Expression of Interest
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise an Expression of Interest or similar short-form prequalification response.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile.
 - Relevant experience, staffing readiness, and qualification evidence suitable for shortlist evaluation.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| REOI criteria, eligibility forms, page rules, verified profile, experience, and key staff evidence | Official notice and proposer records | required | Return a compliance/evidence gap list; do not draft unsupported qualifications. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the EoI requirements and identify what the issuer needs to be convinced of at shortlist stage.
 2. Load the proposer profile and any relevant procurement or sector context.
 3. Use the structure below to produce a concise, evidence-led response tailored to the request.
@@ -32,16 +45,50 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer directly relevant proof and shortlisting logic over broad narrative.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not turn the EoI into an overlong full technical proposal.
 - Do not include unsupported claims or irrelevant experience.
 - Do not ignore page, format, or evidence constraints in the request.
+- Do not include full-proposal detail unless requested. Fix: prioritise shortlisting criteria and proof.
+- Do not merge firm, consortium, and expert experience. Fix: attribute each reference and role accurately.
 
 ## Outputs
-- A shortlist-oriented EoI or similar prequalification response.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| EoI or prequalification response | Shortlisting evaluator and signatory | Meets eligibility, page, form, evidence, attribution, and submission requirements without unnecessary methodology. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Shortlisting criterion-to-evidence map | Compliance matrix | Every criterion has verified evidence, location, owner, and status. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Review and drafting only. Do not sign, contact references, disclose confidential evidence, form a consortium, or submit without explicit authority.
+
+## Degraded Mode
+If the complete REOI or evidence is unavailable, return a shortlist-readiness assessment and exact evidence requests. Do not infer eligibility.
+
+## Decision Rules
+| Requirement | Action | Risk avoided |
+|---|---|---|
+| Pass/fail eligibility | Verify before narrative | Knockout submission |
+| Scored experience | Lead with closest verified assignments | Diluted relevance |
+| Detailed methodology not requested | Omit or summarise | Page-limit waste |
+
+## Worked Example
+A five-page REOI opens with eligibility, presents four verified comparable assignments against the shortlist criteria, names available key roles, and leaves detailed methodology for the RFP stage.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 
 An Expression of Interest is shorter than a full technical proposal. Its purpose is to get the firm shortlisted — not to win the contract. The evaluator is assessing eligibility and relevance, not detailed methodology. Every sentence must demonstrate that the firm meets the stated criteria and has done this type of work before.

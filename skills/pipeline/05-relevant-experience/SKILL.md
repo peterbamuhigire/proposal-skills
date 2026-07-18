@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-05-relevant-experience
-description: Write the relevant experience section of a consulting proposal. Use when the user asks to draft past projects, project spotlights, similar assignments, or the experience section of a proposal.
+name: 05-relevant-experience
+description: Use when drafting project sheets, assignment references, similarity evidence, outcomes, or an experience matrix. Unlike 04-firm-profile, this skill proves fit through verified past work selected against the evaluation criteria.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Relevant Experience
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the relevant experience section of a proposal or EoI.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile.
 - Verified project examples, dates, roles, clients, scope, and outcomes.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Project contracts, references, dates, values where allowed, role, outputs, and outcomes | Authorised proposer evidence | required | Exclude unsupported examples or mark evidence pending. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the bid requirements and determine what kinds of experience matter most.
 2. Load the proposer profile and any procurement or sector context that shapes relevance.
 3. Select the strongest comparable assignments and structure them using the guidance below.
@@ -34,20 +47,54 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer quantified outcomes, named roles, and clear similarity signals.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not list projects with no outcomes or no relevance logic.
 - Do not exaggerate roles, scope, or contracting relationships.
 - Do not overload the section with marginal examples that dilute the strongest evidence.
+- Do not claim team-member work as firm work. Fix: attribute contracting entity and individual role.
+- Do not publish confidential client details. Fix: secure consent or use an accurate permitted description.
 
 ## Outputs
-- A proposal-ready relevant experience section with evaluator-focused project evidence.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Experience matrix and project sheets | Evaluator and reference checker | Each example is verified, comparable, attributed, outcome-led, and mapped to a criterion. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Project evidence and similarity map | Register | Dates, role, client, scope, outcome, consent, and criterion link are traceable. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Default to read-only evidence review. Do not contact references, disclose confidential terms, or change project facts without authority.
+
+## Degraded Mode
+When reference evidence is unavailable or missing, return the narrowest qualified project longlist and evidence gaps. Mark relevance claims not assessed; do not convert anecdotes into verified cases.
+
+## Decision Rules
+| Evidence | Action | Risk avoided |
+|---|---|---|
+| High similarity and verified outcome | Lead with it | Volume over relevance |
+| Similarity is partial | State exact transferable element | Inflated comparability |
+| Role attribution is unclear | Exclude pending verification | Misrepresentation |
+
+## Worked Example
+A project sheet states that the firm led requirements and training for a comparable MIS, names verified outputs and outcomes, and explains the precise relevance to the new ToR.
+
+<!-- dual-compat-end -->
 
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../proposal-storytelling-and-evaluator-journey/SKILL.md` and `../references/proposal-narrative-patterns-and-case-story-spine.md` for case-story structure and evaluator relevance.
-- `../premium-commercial-writing/SKILL.md` for premium proof discipline, case-study relevance, and public-facing case-study polish.
-- `../references/saas-win-themes-and-discriminators.md` for SaaS-specific differentiator language to apply to project cards.
-- `../references/vertical-saas-positioning-financial-services.md`, `../references/vertical-saas-positioning-insurance.md`, `../references/vertical-saas-positioning-public-sector.md`, `../references/vertical-saas-positioning-healthcare.md`, `../references/vertical-saas-positioning-education.md` for vertical-specific proof anchors.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) and [../references/proposal-narrative-patterns-and-case-story-spine.md](../../profiles-sectors/references/proposal-narrative-patterns-and-case-story-spine.md) for case-story structure and evaluator relevance.
+- [../premium-commercial-writing/SKILL.md](../../writing-content/premium-commercial-writing/SKILL.md) for premium proof discipline, case-study relevance, and public-facing case-study polish.
+- [../references/saas-win-themes-and-discriminators.md](../../profiles-sectors/references/saas-win-themes-and-discriminators.md) for SaaS-specific differentiator language to apply to project cards.
+- [../references/vertical-saas-positioning-financial-services.md](../../profiles-sectors/references/vertical-saas-positioning-financial-services.md), [../references/vertical-saas-positioning-insurance.md](../../profiles-sectors/references/vertical-saas-positioning-insurance.md), [../references/vertical-saas-positioning-public-sector.md](../../profiles-sectors/references/vertical-saas-positioning-public-sector.md), [../references/vertical-saas-positioning-healthcare.md](../../profiles-sectors/references/vertical-saas-positioning-healthcare.md), [../references/vertical-saas-positioning-education.md](../../profiles-sectors/references/vertical-saas-positioning-education.md) for vertical-specific proof anchors.
 - For SaaS engagements, project cards should anchor outcomes on SaaS-relevant figures: time-to-value, activation rate, NRR / gross retention uplift, churn reduction, expansion revenue uplift, time-to-first-paying-customer, regulator dry-run outcomes, and tenant-isolation evidence.
 - Relevant proposal-wide references when positioning or proof structure needs reinforcement.
 

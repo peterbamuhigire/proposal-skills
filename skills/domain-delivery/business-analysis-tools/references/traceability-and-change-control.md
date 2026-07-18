@@ -1,5 +1,7 @@
 # Traceability and Change Control
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Tools and processes for tracking requirements from origin to deliverable, managing the requirements lifecycle, and controlling changes. Relevant to methodology sections that describe quality assurance, governance, and requirements management approaches.
 
 ---

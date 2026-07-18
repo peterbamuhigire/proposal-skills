@@ -1,5 +1,7 @@
 # GEF Small Grants Programme (SGP) Guide
 
+Parent skill: [United Nations System Procurement Framework — Consulting Services and Grants](../SKILL.md).
+
 Detailed guide for preparing project proposals under the GEF Small Grants Programme, administered by UNDP globally. Covers the standard project proposal template, mandatory indicators, dual objectives requirement, co-financing, and strategic priorities.
 
 ---

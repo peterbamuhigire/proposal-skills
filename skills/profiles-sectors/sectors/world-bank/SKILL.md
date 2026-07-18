@@ -1,11 +1,17 @@
 ---
-name: sectors/world-bank
-description: World Bank procurement framework for consulting services. Read this skill whenever the proposal responds to a World Bank-funded assignment. Covers selection methods (QCBS, QBS, FBS, LCS, CQS, SSS), TECH/FIN form structure, evaluation criteria and scoring methodology, and strategies for maximising technical scores.
+name: world-bank
+description: Use when a consulting-services proposal follows World Bank procurement, TECH/FIN forms, QCBS or related selection methods; use AfDB, UNDP, or PPDA skills when those rules control.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # World Bank Procurement Framework — Consulting Services
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 - Use this skill when the solicitation clearly follows World Bank consulting procurement rules.
 - Load it before drafting when you need form, scoring, threshold, or compliance guidance.
@@ -15,16 +21,24 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - A different procurement framework clearly applies.
 
 ## Required Inputs
-- The solicitation package, especially instructions, forms, and evaluation criteria.
-- Any known selection method and technical threshold.
-- The target proposal sections that must comply with the framework.
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---|---|
+| The solicitation package, especially instructions, forms, and evaluation criteria. | Buyer solicitation, ToR, or approved brief | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| Any known selection method and technical threshold. | Buyer, verified sector source, or discovery | Required | Stop the affected claim, request or verify the input, and label the resulting gap. |
+| The target proposal sections that must comply with the framework. | Buyer, verified sector source, or discovery | Conditional | Stop the affected claim, request or verify the input, and label the resulting gap. |
 
 ## Workflow
+
 1. Confirm that World Bank procurement applies from explicit cues in the solicitation.
 2. Read this skill and the local references to understand forms, scoring, thresholds, and constraints.
 3. Map those requirements into the numbered proposal section skills before drafting.
 4. Draft to maximize technical quality without creating compliance risk.
 5. Check the final output against thresholds, form placement, and two-envelope rules.
+
+**Stop condition:** Stop when proposer identity, controlling framework, mandatory form, sector fit, current rule, or load-bearing evidence remains unresolved.
+
+**Recovery:** Record the gap and owner, seek clarification or current evidence, and return only the separable proposal content that remains supportable.
 
 ## Quality Standards
 - Treat World Bank instructions as hard constraints, not optional style guidance.
@@ -32,17 +46,58 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Optimize for evaluator behavior where the framework supports it.
 
 ## Anti-Patterns
+
 - Do not infer TECH or FIN form requirements from memory when the solicitation provides exact instructions.
 - Do not ignore minimum technical thresholds, conflict-of-interest rules, or pass/fail gates.
 - Do not mix World Bank assumptions with PPDA, AfDB, or UN rules.
+- Treating a neighbouring sector or framework as interchangeable. **Fix:** identify the controlling rule and primary outcome.
+- Adding terminology without changing a delivery choice. **Fix:** link each term to method, risk, output, or evaluation criterion.
+- Presenting an unverified current rule or statistic as settled. **Fix:** cite and date the source or mark it not assessed.
+- Ignoring a missing mandatory input. **Fix:** stop the affected claim and assign an evidence owner.
+- Letting sector or identity framing contradict methodology, staffing, schedule, or price. **Fix:** reconcile all affected sections before release.
 
 ## Outputs
-- A World Bank-compliant drafting and scoring approach for the relevant proposal sections.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| A World Bank-compliant drafting and scoring approach for the relevant proposal sections. | Proposal lead, section writer, and evaluator-readiness reviewer | Applied consistently, traceable to the selected source, and free of unsupported identity, framework, or sector claims. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Routing and source record | Proposal lead and reviewer | Selected identity, framework, sector, source, date, and material gaps are recorded. |
+| Decision record | Section writer and delivery lead | Each material choice has rationale, owner, evidence, and a review or stop condition. |
+| Conformance check | Release reviewer | Mandatory forms, identity rules, sector logic, and unresolved checks are explicitly assessed. |
+
+## Capability Contract
+
+This skill may read supplied profiles, solicitations, ToRs, approved references, and proposal drafts and may prepare routing guidance or draft content within the authorised workspace. Review is read-only by default. It must not invent credentials, certify compliance, submit a bid, accept terms, publish, disclose confidential information, or change source records without explicit authority.
+
+## Degraded Mode
+
+If the solicitation, profile, current procurement source, sector evidence, network, or reviewer is unavailable, provide the narrowest useful qualified routing or draft. Mark the missing check **not assessed**, omit unsupported credentials, thresholds, dates, or compliance claims, and identify the evidence owner. An unassessed requirement is never a pass.
+
+## Decision Rules
+
+| Decision | Action | Failure/risk avoided |
+|---|---|---|
+| World Bank selection method | Map the RFP to QCBS, QBS, FBS, LCS, CQS, or SSS and follow its TECH/FIN forms and threshold. | Non-responsive forms or misweighted technical strategy |
+| Conflicting solicitation and background guidance | Follow the solicitation while recording the conflict for formal clarification. | Non-responsive interpretation |
+| Missing mandatory evidence | Stop the affected claim or form, record the owner and deadline, and continue only with independent supported content. | Fabricated evidence or silent omission |
+| Submission, certification, or contractual commitment | Obtain explicit authority and preserve approval evidence before acting. | Unauthorised external commitment |
+
+## Worked Example
+
+A solicitation requires **world bank selection method**, but one controlling input is missing. The proposal team applies this rule: Map the RFP to QCBS, QBS, FBS, LCS, CQS, or SSS and follow its TECH/FIN forms and threshold. It records the gap and owner, withholds the affected assurance, and proceeds only with content that can be verified. This avoids **non-responsive forms or misweighted technical strategy**.
 
 ## References
-- `references/evaluation-scoring-guide.md` for scoring behavior.
-- `references/tech-fin-forms-guide.md` for form-level guidance.
-- `../SKILL.md` to combine framework and sector context.
+
+- [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+<!-- dual-compat-end -->
+- [references/evaluation-scoring-guide.md](references/evaluation-scoring-guide.md) for scoring behavior.
+- [references/tech-fin-forms-guide.md](references/tech-fin-forms-guide.md) for form-level guidance.
+- [../SKILL.md](../SKILL.md) to combine framework and sector context.
 
 This skill provides the procurement rules, evaluation methodology, and scoring intelligence that every World Bank proposal must be built around. Read this before writing any section of a World Bank-funded proposal.
 
@@ -269,4 +324,3 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: World Bank "A Beginner's Guide for Borrowers: Procurement under World Bank Investment Project Financing" (November 2023, 2nd Edition) and "Evaluating Bids and Proposals — Including Use of Rated Criteria" (February 2025, 3rd Edition).*
-

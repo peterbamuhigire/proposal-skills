@@ -1,5 +1,7 @@
 # Sustainability Frameworks and Exit Strategies
 
+Parent skill: [Sustainability Planning](../SKILL.md).
+
 Reference material for the sustainability-planning skill. Provides frameworks for ensuring project outcomes persist after external funding ends, covering institutional embedding, financial sustainability, environmental sustainability, agricultural sustainability, scaling, and M&E of sustainability. Use when writing sustainability sections, exit strategies, or standalone sustainability plans in proposals.
 
 Sources: Hester & Harrison eds. (2005) — Pretty, Osborn, Butler, Smith chapters; Levinger & McLeod; Rogers & Coates/FANTA; Cooley & Linn (SUM Framework); Senge (1990); OECD-DAC evaluation criteria; general development practice.

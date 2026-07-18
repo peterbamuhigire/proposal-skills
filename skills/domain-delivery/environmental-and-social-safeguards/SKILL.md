@@ -1,10 +1,17 @@
 ---
 name: environmental-and-social-safeguards
-description: Environmental and social safeguard frameworks for consulting proposals. Use as a reference when drafting methodology sections for assignments that require environmental impact assessments, environmental management plans, or compliance with donor safeguard policies. Can generate a standalone safeguards plan when a ToR requires one.
+description: Use when a proposal requires environmental or social screening, ESIA, ESMP, resettlement, donor safeguards, or national environmental compliance. Unlike gender-and-social-inclusion, this skill governs safeguard instruments, risk controls, and compliance evidence.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Environmental and Social Safeguards
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs safeguards, ESF, ESIA, or environmental and social risk content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Activities, locations, affected people, and funder requirements | ToR and client | required | Stop instrument selection and request screening inputs. |
+| National law and donor safeguard standard | Authoritative current sources | required for compliance claims | Mark legal and policy fit unassessed. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where safeguards logic matters in the assignment and which framework applies.
 2. Read the local references only where they materially improve the output.
 3. Convert the guidance into proposal-ready instruments, controls, and implementation logic.
@@ -30,14 +41,45 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not list standards without showing the practical response they require.
-- Do not understate safeguards obligations or implementation risk.
-- Do not ignore referenced files when they are needed for accuracy.
+- Naming standards without screening activities and receptors. Fix: show risk pathways and evidence needs.
+- Choosing an instrument before categorisation. Fix: screen first against verified rules.
+- Copying legal thresholds from memory. Fix: verify jurisdiction, date, regulator, and funder standard.
+- Treating consultation as one meeting. Fix: plan accessible, documented engagement and grievances.
+- Claiming approval or compliance. Fix: reserve certification for authorised authorities.
 
 ## Outputs
-- Domain-informed safeguards content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Safeguards approach or instrument plan | Evaluator and client safeguards lead | Links screening, instruments, consultations, mitigations, monitoring, ownership, and approvals. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Screening and compliance register | Referenced table | Each risk cites its basis, receptor, instrument, owner, and status. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Assessment defaults to read-only. Site entry, interviews, filing, disclosure, and certification require explicit authority and the responsible professional or institution.
+
+## Degraded Mode
+Without site, stakeholder, legal, or donor-standard evidence, produce a screening plan and provisional risk hypotheses. Mark categorisation and compliance unassessed.
+
+## Decision Rules
+| Screening result | Action | Risk avoided |
+|---|---|---|
+| Material impacts need formal assessment | Specify instrument and approval path | Under-scoped compliance |
+| Displacement is plausible | Trigger resettlement-specialist review | Unaddressed livelihood harm |
+| Standard not verified | Stop compliance claim and research | False legal assurance |
+
+## Worked Example
+For a market redevelopment, screen construction, waste, worker, vendor, and livelihood impacts; verify national and funder rules; then scope ESMP and resettlement work.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
 
 Infrastructure, agriculture, energy, water, and natural resource assignments increasingly require compliance with environmental and social safeguard frameworks. Proposals must demonstrate that the firm understands the applicable framework and can integrate safeguard requirements into the methodology — not treat them as a separate add-on.

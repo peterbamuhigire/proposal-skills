@@ -1,5 +1,7 @@
 # World Bank Environmental and Social Framework — Social Standards
 
+Parent skill: [Environmental and Social Safeguards](../SKILL.md).
+
 Dense practitioner reference covering ESS2, ESS4, ESS5, and ESS7. Paragraph numbers reference the World Bank ESF (2018, updated 2024). Load this file when writing methodology, social management plans, or safeguards sections for World Bank-financed projects.
 
 ---

@@ -1,10 +1,17 @@
 ---
 name: risk-management
-description: Risk management frameworks for consulting proposals. Use as a reference when drafting methodology sections that require risk registers, risk analysis, or mitigation strategies. Can generate a standalone risk management plan when a ToR requires one.
+description: Use when a proposal requires risk identification, scoring, ownership, treatment, monitoring, or a risk register. Unlike project-management, this skill develops the assignment risk model and response thresholds rather than the full governance system.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Risk Management
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs risk-management, mitigation, contingency, or escalation content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Scope, assumptions, dependencies, constraints, and risk appetite | ToR and delivery plan | required | Return a risk-discovery plan rather than a generic register. |
+| Existing incidents and control evidence | Client records and verified research | conditional | Mark likelihood and residual risk provisional. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where risk-management logic matters in the assignment.
 2. Separate actual delivery risks from evaluator objections so both are answered properly.
 3. Read the local references only where they materially improve the output.
@@ -31,12 +42,39 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not present generic risk lists with no assignment-specific relevance.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Copying a generic risk list. Fix: tie cause, event, impact, and response to the assignment.
+- Calling an issue a risk. Fix: track occurred events as issues with recovery actions.
+- Giving every risk a medium score. Fix: define scales and justify ratings from evidence.
+- Naming mitigation without an owner or trigger. Fix: assign ownership, due date, indicator, and contingency.
+- Hiding risk to sound confident. Fix: state material uncertainty and the decision it affects.
 
 ## Outputs
-- Domain-informed risk-management content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Risk management plan and register | Evaluator, project manager, risk owners | Each material risk has cause, event, impact, score, owner, treatment, trigger, contingency, and review date. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Scored risk register and treatment trace | Versioned table | Ratings use declared scales and residual risk reflects evidenced controls. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Risk review is read-only by default. Editing the register requires authority; accepting risk, spending contingency, changing scope, or executing recovery requires the named owner.
+
+## Degraded Mode
+Without incident, control, or stakeholder evidence, provide a provisional risk hypothesis register and evidence requests. Do not report residual risk as assessed.
+
+## Decision Rules
+| State | Action | Risk avoided |
+|---|---|---|
+| Threat has not occurred | Track as risk with trigger | Confusing prevention and recovery |
+| Event has occurred | Move to issue and activate response | Passive monitoring |
+| Residual exposure exceeds appetite | Escalate, redesign, transfer, or stop | Unauthorised acceptance |
+
+## Worked Example
+For delayed client data, record the dependency, early-warning date, responsible client owner, schedule effect, fallback sample, and escalation threshold instead of writing only “data delays”.
 
 ## SaaS-Specific Risks
 
@@ -50,18 +88,22 @@ For engagements that build AI features into a multi-tenant SaaS, layer the ten-e
 
 For agentic engagements (LLM systems that plan, call tools, decide, and act on the buyer's behalf), use the twelve-entry agent risk register from `../references/ai-agent-risk-register-for-proposals.md` and the companion skill `../ai-agent-risk-and-responsible-ai/SKILL.md`. The agent register adds: autonomy-action incident; irreversibility incident; accountability dispute; scope-creep; multi-agent collusion / failure cascade; prompt injection via tool output; memory poisoning; regulator action on agentic system; kill-switch failure; identity / impersonation breach; escalation overload; legacy-system damage. Mitigations are anchored in the action catalogue, autonomy commitment, kill-switch architecture with quarterly drill, action audit log with 99 % completeness SLA, and the Responsible-AI Agent Commitment with a named Agent Safety Lead.
 
+<!-- dual-compat-end -->
+
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
-- `../references/proposal-objection-handling.md` for price, risk, timeline, staffing, technology, local-context, support, AI, and procurement concerns.
-- `../references/ethical-persuasion-and-evaluator-psychology-gate.md` for risk perception and ethical risk framing.
-- `../references/technical-strategy-credibility-checklist.md` for technical, SaaS, AI, software, cloud, API, operations, and maintainability risks.
-- `../references/saas-risk-register-for-proposals.md` for the SaaS-specific risk register (architecture, data, commercial, security, adoption, vendor, exit).
-- `../references/saas-procurement-and-security-questionnaire-playbook.md` for security and compliance risks.
-- `../references/saas-msa-dpa-sla-template-language.md` for contractual mitigations.
-- `../references/ai-on-saas-risk-register-for-proposals.md` for the AI-on-SaaS risk register.
-- `../references/ai-on-saas-responsible-ai-commitment.md` for the Responsible-AI commitment that pairs with the AI risk register.
-- `../references/ai-agent-risk-register-for-proposals.md` for the agent risk register (twelve entries).
-- `../references/ai-agent-responsible-ai-commitment.md` for the Responsible-AI Agent Commitment.
+- [../references/proposal-objection-handling.md](../../profiles-sectors/references/proposal-objection-handling.md) for price, risk, timeline, staffing, technology, local-context, support, AI, and procurement concerns.
+- [../references/ethical-persuasion-and-evaluator-psychology-gate.md](../../profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md) for risk perception and ethical risk framing.
+- [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) for technical, SaaS, AI, software, cloud, API, operations, and maintainability risks.
+- [../references/saas-risk-register-for-proposals.md](../../profiles-sectors/references/saas-risk-register-for-proposals.md) for the SaaS-specific risk register (architecture, data, commercial, security, adoption, vendor, exit).
+- [../references/saas-procurement-and-security-questionnaire-playbook.md](../../profiles-sectors/references/saas-procurement-and-security-questionnaire-playbook.md) for security and compliance risks.
+- [../references/saas-msa-dpa-sla-template-language.md](../../profiles-sectors/references/saas-msa-dpa-sla-template-language.md) for contractual mitigations.
+- [../references/ai-on-saas-risk-register-for-proposals.md](../../profiles-sectors/references/ai-on-saas-risk-register-for-proposals.md) for the AI-on-SaaS risk register.
+- [../references/ai-on-saas-responsible-ai-commitment.md](../../profiles-sectors/references/ai-on-saas-responsible-ai-commitment.md) for the Responsible-AI commitment that pairs with the AI risk register.
+- [../references/ai-agent-risk-register-for-proposals.md](../../profiles-sectors/references/ai-agent-risk-register-for-proposals.md) for the agent risk register (twelve entries).
+- [../references/ai-agent-responsible-ai-commitment.md](../../profiles-sectors/references/ai-agent-responsible-ai-commitment.md) for the Responsible-AI Agent Commitment.
 
 A strong risk section demonstrates that the firm has thought beyond the ideal scenario. Proposals that identify specific, credible risks — and propose practical mitigations — show maturity and experience. Generic risk tables ("risk: delays; mitigation: monitor closely") signal that the firm has not thought deeply about the assignment.
 

@@ -10,6 +10,8 @@ This is a Markdown-based skill repository for generating professional consulting
 
 Every `SKILL.md` in this repository must place this exact line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
 
+The live catalogue contains 107 active entrypoints under `skills/`, including the parent router. Authoring follows `docs/skill-authoring-standard.md`; local release gates are `python -X utf8 scripts/validate_skills.py --baseline quality-baseline.json` and `python -X utf8 scripts/routing_smoke_test.py`.
+
 ## Repository Architecture
 
 Active skills live under `skills/`. Load `skills/SKILL.md` first for full proposal orchestration, then load the specific section, profile, sector, or domain skill required by the task.
@@ -21,8 +23,8 @@ All sub-skills are grouped into 12 thematic categories under `skills/<category>/
 | Category | Count | Purpose |
 |---|---|---|
 | `skills/pipeline/` | 10 | Numbered proposal section skills (01-cover-letter through 10-financial-proposal) |
-| `skills/profiles-sectors/` | 3 | `profiles/`, `sectors/`, and shared `references/` libraries |
-| `skills/domain-delivery/` | 14 | Cross-cutting delivery domains (PM, change, M&E, stakeholder, capacity, GESI, ESS, data, sustainability, risk, BA tools, consulting frameworks, accounting-finance-advisory, retail transformation) |
+| `skills/profiles-sectors/` | 16 | Profile router, sector router, procurement frameworks, and sector skills; shared references are not active skills |
+| `skills/domain-delivery/` | 16 | Cross-cutting delivery domains including GIZ/EU response, EAC e-commerce BDS, finance advisory, and retail transformation |
 | `skills/strategy-positioning/` | 10 | Positioning, premium, discovery/objection, storytelling, service design, AI transformation, website, embedded accounting, critical analysis, support/maintenance |
 | `skills/saas-proposals/` | 14 | SaaS implementation and SaaS product-development proposal skills |
 | `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS combined methodology and supporting skills |
@@ -225,10 +227,12 @@ Two paired skills under `skills/meta/` keep proposal output free of AI slop. The
 
 ## Adding a New Sub-Skill
 
-1. Create a subdirectory under `skills/` with a `SKILL.md` using YAML frontmatter limited to `name` and `description`.
+1. Read `docs/skill-authoring-standard.md`, then create a subdirectory under `skills/` with a `SKILL.md` using frontmatter limited to `name`, `description`, and portable `metadata`.
 2. Include the required acknowledgement line immediately below the first top-level heading.
-3. Add a local `references/` subdirectory only when the skill needs deeper supporting material.
-4. Update `skills/SKILL.md`, `README.md`, `AGENTS.md`, and this file with the new path.
+3. Add input, output, evidence, capability, degraded-mode, decision, stop/recovery, quality, anti-pattern, and reference contracts; use `templates/skill-template.md`.
+4. Add a local `references/` subdirectory only when the skill needs deeper supporting material, and link each reference back to its parent.
+5. Update routing fixtures and run the local validator, routing smoke test, canonical scanner, canonical quick validator, safety gate, and anti-slop gate.
+6. Update `skills/SKILL.md`, `README.md`, `AGENTS.md`, and this file when routing or inventory changes.
 
 ## Supported Procurement Frameworks
 

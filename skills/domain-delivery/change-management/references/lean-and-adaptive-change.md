@@ -1,5 +1,7 @@
 # Lean Change Management and Adaptive Approaches
 
+Parent skill: [Change Management](../SKILL.md).
+
 Reference material for the change-management skill. Provides frameworks for managing change in complex, uncertain, or rapidly evolving environments where traditional plan-driven approaches are insufficient. Use when proposing change management for ICT transformations, agile adoptions, digital solutions, or any assignment where the end state cannot be fully defined at the outset.
 
 Sources: Little (2014), Hattula & Köhler (2023), Hearsum (2024).

@@ -1,10 +1,17 @@
 ---
 name: sustainability-planning
-description: Sustainability and exit strategy frameworks for consulting proposals. Use as a reference when drafting methodology sections that address what happens after the consultants leave. Can generate a standalone sustainability plan when a ToR requires one.
+description: Use when a proposal must explain institutional, technical, financial, or human-resource sustainability, handover, exit, or post-project support. Unlike capacity-building, this skill tests whether results continue after consultant withdrawal across all operating dimensions.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Sustainability Planning
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs sustainability, exit strategy, ownership transfer, or continuity content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Intended post-project outcomes, operating model, owners, and resources | ToR and client | required | Return a sustainability discovery checklist. |
+| Recurrent costs, skills, support, governance, and asset evidence | Client budgets, teams, systems | conditional | Mark continuity assumptions and test them during inception. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where sustainability or exit-planning logic matters in the assignment.
 2. Read the local references only where they materially improve the output.
 3. Convert the guidance into proposal-ready ownership, continuity, and institutionalization mechanisms.
@@ -30,14 +41,45 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not use generic sustainability language with no operational detail.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Saying “the client will sustain it”. Fix: name owner, process, budget, competence, and authority.
+- Treating training as the whole exit strategy. Fix: cover governance, finance, technology, people, and support.
+- Hiding recurrent costs. Fix: quantify or identify cost drivers and funding decisions.
+- Handover without acceptance evidence. Fix: use asset, access, document, competency, and issue registers.
+- Promising indefinite support. Fix: define warranty, support term, SLA, transition, and renewal boundary.
 
 ## Outputs
-- Domain-informed sustainability content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Sustainability and exit plan | Evaluator, client owner, operations team | Covers institutional, technical, financial, human-resource, support, handover, and post-exit controls. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Sustainability test and handover register | Readiness matrix | Every continuing capability has owner, resources, evidence, gap, action, and acceptance status. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Planning is read-only by default. Transferring assets, credentials, licences, contracts, budgets, or operational responsibility requires explicit authority and recorded acceptance.
+
+## Degraded Mode
+When recurrent-cost, owner, or capability evidence is unavailable or missing, return the narrowest qualified exit plan with readiness gaps. Mark sustainability not assessed.
+
+## Decision Rules
+| Readiness | Action | Risk avoided |
+|---|---|---|
+| Owner, funds, skills, and support are evidenced | Proceed to phased handover | Premature exit |
+| Critical capability has one person | Build redundancy and supervised practice | Single-point failure |
+| Recurrent funding is unresolved | Escalate before committing continuity | Unfunded operating promise |
+
+## Worked Example
+For a new MIS, hand over administrator access, configuration records, support runbook, trained backups, licence budget, and a tested incident drill before closing the assignment.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
 
 The question every evaluator asks: "What happens when the consultants leave?" Proposals that answer this convincingly — with specific mechanisms for embedding results into the client's operations — score significantly higher than those that end at "final report delivered". This skill provides the frameworks for demonstrating that the assignment's outcomes will endure.

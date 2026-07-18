@@ -1,5 +1,7 @@
 # AfDB Procurement and Consultant Selection
 
+Parent skill: [African Development Bank Procurement Framework](../SKILL.md).
+
 Reference material for the afdb sector skill. Provides detailed procurement procedures, consultant selection methods, evaluation methodology, contract types, and registration requirements for AfDB-funded operations.
 
 Sources: AfDB Procurement Policy for Bank Group Funded Operations (2015, revised 2023), Rules and Procedures for the Use of Consultants (2023), AfDB Standard Procurement Documents.

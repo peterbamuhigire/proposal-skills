@@ -1,10 +1,15 @@
 ---
 name: ai-agent-risk-and-responsible-ai
-description: Use when the AI-agent proposal must present an agent risk register and a Responsible-AI agent commitment that survives a CISO, DPO, general counsel, regulator, and ethics review. Provides the twelve-entry agent risk register (autonomy-action incident, irreversibility incident, accountability, scope-creep, multi-agent collusion, prompt-injection-via-tool-output, memory poisoning, regulator action on agentics, kill-switch failure, identity / impersonation, escalation overload, legacy-system damage) with triggers, mitigations, owners, escalation; plus the Responsible-AI agent commitment template (human-final for irreversibility, full audit log, contestability, kill-switch drill cadence, transparency-to-affected-party). Extends `ai-on-saas-risk-and-responsible-ai` with the agent overlay.
+description: Use when drafting an AI-agent risk register or responsible-AI commitment covering autonomous actions, irreversibility, scope, tool injection, identity, kill switches, and contestability.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent Risk and Responsible AI
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - The engagement is non-agent (use `ai-on-saas-risk-and-responsible-ai` or `risk-management`).
 
-## Required Inputs
+## Domain Inputs
 
 - The action catalogue with reversibility classification.
 - The autonomy-level commitment per action class.
@@ -29,7 +34,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The sub-processor list (model providers, tool-call APIs).
 - The buyer's escalation expectations.
 
-## Workflow
+## Domain Method
 
 1. Populate the **Twelve-Entry Agent Risk Register** (below). Each entry carries: risk name, description, likelihood, impact, trigger, mitigation, owner, escalation, residual.
 2. Populate the **Responsible-AI Agent Commitment** section: scope, principles, governance forum, accountable role (Agent Safety Lead), human-final for irreversibility, full audit log, contestability, transparency-to-affected-party, kill-switch drill cadence, sign-off frequency.
@@ -94,7 +99,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Audit-log completeness SLA is a number.
 - The commitment is auditable — the buyer's auditor can verify the audit log, the kill-switch drill log, the contestability log, the red-team scorecard.
 
-## Anti-Patterns
+## Domain Risks
 
 - "We follow Responsible AI principles" as the only commitment.
 - Risks listed without triggers, owners, or escalation.
@@ -106,21 +111,77 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Agent Safety Lead role unnamed.
 - Multi-agent risk not addressed in multi-agent engagements.
 
-## Outputs
+## Domain Outputs
 
 - Agent Risk Register (table form) — drop into proposal risk section or `risk-management`.
 - Responsible-AI Agent Commitment subsection — drop into proposal `06-methodology` close or a standalone section.
 - Regulator Mapping table.
 - Kill-Switch Drill Cadence statement.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| use cases, action catalogue, affected parties, threat evidence, jurisdiction, and risk appetite | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Agent risk register and responsible-AI commitment | Risk owner, CISO, DPO, legal counsel, and evaluator | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| agent risk register and responsible-AI commitment | Risk owner, CISO, DPO, legal counsel, and evaluator | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Accept, mitigate, transfer, or avoid | Rate inherent risk, name controls and evidence, assign an owner, then assess residual risk against appetite. | A generic register that hides autonomous-action exposure. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+An agent can alter a legacy account. Classify the action by reversibility and blast radius, require approval and rollback evidence, name the incident owner, and prohibit agentic mode until the residual risk is accepted.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-risk-register-for-proposals.md` — full register template.
-- `../references/ai-agent-responsible-ai-commitment.md` — full commitment template.
-- `../references/ai-agent-trust-and-compliance-template.md` — trust section linkage.
-- `../references/ai-agent-procurement-questionnaire-pack.md` — procurement answers consistent with the register.
-- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — AI-on-SaaS risk register (load alongside for SaaS-embedded agents).
-- `../risk-management/SKILL.md` — generic risk register discipline.
-- `../ai-agent-methodology/SKILL.md` — methodology that anchors mitigations.
-- `../ai-agent-compliance-credentials/SKILL.md` — trust and compliance posture.
-- `../ai-agent-procurement-and-questionnaire/SKILL.md` — procurement answers.
+- [ai-agent-risk-register-for-proposals](../../profiles-sectors/references/ai-agent-risk-register-for-proposals.md) — full register template.
+- [ai-agent-responsible-ai-commitment](../../profiles-sectors/references/ai-agent-responsible-ai-commitment.md) — full commitment template.
+- [ai-agent-trust-and-compliance-template](../../profiles-sectors/references/ai-agent-trust-and-compliance-template.md) — trust section linkage.
+- [ai-agent-procurement-questionnaire-pack](../../profiles-sectors/references/ai-agent-procurement-questionnaire-pack.md) — procurement answers consistent with the register.
+- [ai-on-saas-risk-and-responsible-ai](../../ai-on-saas-proposals/ai-on-saas-risk-and-responsible-ai/SKILL.md) — AI-on-SaaS risk register (load alongside for SaaS-embedded agents).
+- [risk-management](../../domain-delivery/risk-management/SKILL.md) — generic risk register discipline.
+- [ai-agent-methodology](../ai-agent-methodology/SKILL.md) — methodology that anchors mitigations.
+- [ai-agent-compliance-credentials](../ai-agent-compliance-credentials/SKILL.md) — trust and compliance posture.
+- [ai-agent-procurement-and-questionnaire](../ai-agent-procurement-and-questionnaire/SKILL.md) — procurement answers.
