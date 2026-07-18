@@ -1,11 +1,17 @@
 ---
 name: ai-on-saas-discovery-and-qualification
-description: Use during discovery, qualification, and proposal shaping for an engagement that will build AI features into a multi-tenant SaaS product. Provides AI-on-SaaS-specific discovery questions across workflow-AI fit, data readiness for AI, hallucination tolerance, AI maturity, change-readiness for AI, regulator exposure, model-provider posture, and tenant variation. Extends `saas-discovery-and-qualification` with the AI overlay.
+description: Use when qualifying AI features inside a multi-tenant SaaS opportunity across workflow fit, data readiness, hallucination tolerance, regulation, and tenant variation; use SaaS discovery when no AI capability is proposed.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # AI-on-SaaS Discovery and Qualification
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+<!-- dual-compat-start -->
 ## Use When
 
 - An AI-on-SaaS engagement is in discovery, shaping, or qualification.
@@ -20,11 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 ## Required Inputs
 
-- The base SaaS discovery output (ICP, Critical Event, pain chain) from `saas-discovery-and-qualification`.
-- The candidate AI use-case list (RAG, copilot, agent, analytics, decisioning, generation).
-- Access to or a working hypothesis of the buyer's data estate.
-- The buyer's regulator(s) and sector.
-- The buyer's incumbent AI usage (none, point tools, in-house).
+| Artefact or fact | Required? | Source/provider | If absent |
+|---|---|---|---|
+| The base SaaS discovery output (ICP, Critical Event, pain chain) from `saas-discovery-and-qualification`. | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The candidate AI use-case list (RAG, copilot, agent, analytics, decisioning, generation). | Required | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| Access to or a working hypothesis of the buyer's data estate. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's regulator(s) and sector. | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
+| The buyer's incumbent AI usage (none, point tools, in-house). | Conditional | Buyer, ToR, approved records, or discovery | Mark unavailable, request it, and qualify any affected claim or artefact. |
 
 ## Workflow
 
@@ -33,6 +41,11 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 3. Score the engagement against the **AI-on-SaaS Qualification Scorecard** (low, medium, high, do-not-bid). The score determines whether to proceed to proposal or to recommend a paid AI discovery first.
 4. Decide and document: full proposal, paid AI discovery, joint AI-on-SaaS feasibility study, or polite decline.
 5. Write the **Discovery Findings** paragraph into Understanding-of-Assignment so the evaluator sees the discovery audit trail.
+
+
+**Stop condition:** Stop before asserting scope, compliance, value, acceptance, or readiness when a load-bearing input is missing or contradicted.
+
+**Recovery:** Record the gap, owner, and next evidence step; then return the narrowest qualified proposal content that remains supportable.
 
 ## The Eight AI-on-SaaS Qualifying Lines
 
@@ -107,28 +120,61 @@ Score the engagement on each row; one **do-not-bid** row is sufficient to declin
 
 ## Anti-Patterns
 
-- "Tell us about your AI vision" as the only AI discovery question.
-- Skipping the data-readiness line because the buyer "has data."
-- Assuming a hallucination tolerance from the use-case name.
-- Treating AI maturity as binary (have AI / no AI).
-- Failing to ask about regulator tier in AI Act / NCAIS / NAIS jurisdictions.
-- Committing to a model provider in discovery.
+- "Tell us about your AI vision" as the only AI discovery question. **Fix:** Build a use-case inventory covering user, decision, data, action, error cost, human oversight, and measurable outcome.
+- Skipping the data-readiness line because the buyer "has data." **Fix:** Profile data ownership, access, quality, lineage, representativeness, consent, retention, and tenant separation with evidence.
+- Assuming a hallucination tolerance from the use-case name. **Fix:** Ask the buyer to set error and abstention tolerances per use case and identify who accepts residual risk.
+- Treating AI maturity as binary (have AI / no AI). **Fix:** Score maturity across strategy, data, evaluation, governance, operations, adoption, procurement, and incident response.
+- Failing to ask about regulator tier in AI Act / NCAIS / NAIS jurisdictions. **Fix:** Identify jurisdiction and sector classification, then verify the applicable risk tier and evidence obligations.
+- Committing to a model provider in discovery. **Fix:** Keep provider selection open until data residency, evaluation, cost, latency, procurement, and exit criteria are tested.
 
 ## Outputs
 
-- AI-on-SaaS Discovery Findings paragraph for Understanding-of-Assignment.
-- Eight AI-on-SaaS qualifying line answers in `BRIEF.md`.
-- AI-on-SaaS Qualification Scorecard in the win-room file.
-- Go / no-go / paid-discovery / feasibility-study decision.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| AI-on-SaaS Discovery Findings paragraph for Understanding-of-Assignment. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Eight AI-on-SaaS qualifying line answers in `BRIEF.md`. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| AI-on-SaaS Qualification Scorecard in the win-room file. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+| Go / no-go / paid-discovery / feasibility-study decision. | Proposal evaluator, buyer owner, and delivery team | Content is complete, traceable to named inputs, and usable in its stated proposal section without an unsupported claim. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Input-and-assumption record | Proposal lead and reviewer | Every load-bearing claim maps to a source, approved assumption, or explicit gap. |
+| Decision and review record | Buyer owner and delivery lead | The selected option, rationale, owner, stop condition, and approval status are visible. |
+| Section acceptance check | Evaluator-readiness reviewer | Each output meets its stated acceptance condition and unresolved checks are not presented as passed. |
+
+## Capability and Permission Boundaries
+
+This skill may read supplied tender, discovery, architecture, commercial, security, and operating evidence and draft proposal artefacts within the authorised workspace. It must not publish, send, certify compliance, accept contractual terms, change production systems, spend funds, or disclose confidential evidence without explicit authority. Review and analysis remain read-only by default.
+
+## Degraded Mode
+
+If files, current legal or technical evidence, calculation tools, network access, or reviewers are unavailable, produce the narrowest useful qualified draft. Label assumptions and checks as **not assessed**, omit unsupported assurances or figures, and state the exact evidence and owner needed to complete the work. An unavailable check never becomes a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Critical unknown | Pause solution claims and issue a targeted discovery question or no-bid condition | Proposal built on untested AI or buyer assumptions |
+| Missing load-bearing evidence | Stop the affected claim, record the gap and owner, and continue only with separable supported content. | Fabricated assurance or hidden dependency |
+| Conflicting buyer and supplier evidence | Surface the conflict for decision; do not silently choose the favourable version. | Misaligned scope, price, or acceptance |
+| Irreversible, contractual, publishing, or production action | Obtain explicit authority and preserve an approval record before acting. | Unauthorised commitment or mutation |
+
+## Worked Example
+
+If a proposed copilot lacks an approved knowledge source, representative task set, or error tolerance, classify it as unqualified and ask targeted discovery questions before proposing a pilot.
 
 ## References
 
-- `../references/ai-on-saas-discovery-question-bank.md` — long-form question bank.
-- `../references/discovery-question-bank-for-proposals.md` — base discovery patterns.
-- `../references/saas-discovery-question-bank.md` — SaaS discovery overlay.
-- `../saas-discovery-and-qualification/SKILL.md` — base SaaS discovery skill.
-- `../ai-on-saas-combined-methodology/SKILL.md` — how discovery outputs feed methodology.
-- `../ai-on-saas-business-case-and-roi/SKILL.md` — how discovery outputs feed the business case.
-- `../ai-on-saas-poc-and-pilot-scoping/SKILL.md` — when discovery output triggers a paid POC.
-- `../ai-on-saas-risk-and-responsible-ai/SKILL.md` — risk and Responsible-AI register.
-- `../sales-discovery-and-objection-handling/SKILL.md` — discovery and objection handling discipline.
+- [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+<!-- dual-compat-end -->
+- [../references/ai-on-saas-discovery-question-bank.md](../../profiles-sectors/references/ai-on-saas-discovery-question-bank.md) — long-form question bank.
+- [../references/discovery-question-bank-for-proposals.md](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) — base discovery patterns.
+- [../references/saas-discovery-question-bank.md](../../profiles-sectors/references/saas-discovery-question-bank.md) — SaaS discovery overlay.
+- [../saas-discovery-and-qualification/SKILL.md](../../saas-proposals/saas-discovery-and-qualification/SKILL.md) — base SaaS discovery skill.
+- [../ai-on-saas-combined-methodology/SKILL.md](../ai-on-saas-combined-methodology/SKILL.md) — how discovery outputs feed methodology.
+- [../ai-on-saas-business-case-and-roi/SKILL.md](../ai-on-saas-business-case-and-roi/SKILL.md) — how discovery outputs feed the business case.
+- [../ai-on-saas-poc-and-pilot-scoping/SKILL.md](../ai-on-saas-poc-and-pilot-scoping/SKILL.md) — when discovery output triggers a paid POC.
+- [../ai-on-saas-risk-and-responsible-ai/SKILL.md](../ai-on-saas-risk-and-responsible-ai/SKILL.md) — risk and Responsible-AI register.
+- [../sales-discovery-and-objection-handling/SKILL.md](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) — discovery and objection handling discipline.

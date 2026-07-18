@@ -1,10 +1,15 @@
 ---
 name: ai-agent-poc-and-pilot-scoping
-description: Use when scoping a proof-of-concept or pilot for an AI agent or multi-agent system. Provides the three agent-pilot stages (shadow-mode, supervised-mode, agentic-mode) with binary task-success thresholds, intervention-rate ceiling, irreversible-action ceiling, scope-confinement verification, kill-switch drill, abort conditions, and exit-to-production gates. Extends `ai-on-saas-poc-and-pilot-scoping` with agent-specific staging.
+description: Use when scoping an AI-agent proof of concept or pilot with shadow, supervised, and agentic stages, measurable gates, abort conditions, and production-exit criteria.
+metadata:
+  portable: true
+  compatible_with: [claude-code, codex]
 ---
 
 # AI-Agent POC and Pilot Scoping
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 
@@ -18,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The POC is for a non-agent AI feature (use `ai-on-saas-poc-and-pilot-scoping`).
 - The POC is for a copilot with no action-taking (use `ai-on-saas-poc-and-pilot-scoping`).
 
-## Required Inputs
+## Domain Inputs
 
 - The candidate agent use case (named workflow, named outcome, named volume).
 - The action catalogue v0 with reversibility classification.
@@ -28,7 +33,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The kill-switch architecture and the human operator on call.
 - The time-box the buyer accepts (typically 8–16 weeks for agent pilots).
 
-## Workflow
+## Domain Method
 
 1. Write the **Agent POC Charter** in one page: one workflow, one outcome, one production decision the pilot enables, one binary go / no-go question. Name the autonomy-level target and the action catalogue.
 2. Define the **Three Pilot Stages** in sequence: Shadow, Supervised, Agentic. The pilot transitions between stages only when binary thresholds are met.
@@ -88,7 +93,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Abort conditions are named with fee and evidence-pack handover.
 - Exit gates are all-or-nothing; partial pass triggers a pilot extension or a re-scope.
 
-## Anti-Patterns
+## Domain Risks
 
 - "Agentic-mode pilot from day one" with no Shadow stage.
 - Agreeing to act on irreversible actions in pilot to "make the demo impressive".
@@ -100,7 +105,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Multi-agent system tested as a black-box without component-level evaluation.
 - Pilot stretches indefinitely without an abort condition.
 
-## Outputs
+## Domain Outputs
 
 - Agent POC Charter (one page).
 - Three-Stage Pilot Plan (Shadow / Supervised / Agentic) with thresholds.
@@ -113,13 +118,69 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Exit-to-Production Gate Criteria.
 - Agent POC Proposal Section.
 
+## Anti-Patterns
+
+- Inventing a metric, credential, constraint, or buyer position. Fix: cite the supplied source or mark the item as an assumption requiring confirmation.
+- Treating an unavailable check as passed. Fix: mark it not assessed and state the evidence needed to resume.
+- Advancing autonomy without a named gate owner. Fix: require observable evidence, accountable acceptance, and a rollback path.
+- Reusing another sector or use case without reassessment. Fix: retest affected parties, action scope, reversibility, and jurisdiction.
+- Writing acceptance as “satisfactory” or “appropriate”. Fix: define an observable measure, threshold, evidence record, and decision owner.
+
+## Inputs
+
+| Artefact | Source/provider | Required? | Missing-input behaviour |
+|---|---|---:|---|
+| qualified use case, action catalogue, baseline, risk limits, pilot users, and production constraints | Buyer evidence, ToR, approved discovery record, system owner, or measured operating data | Yes | Stop the affected decision; list the missing source and return only a qualified outline or assumption register. |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Pilot charter and exit decision | Sponsor, safety lead, and production owner | Scope, assumptions, exclusions, owners, decision logic, and observable acceptance tests are explicit and traceable to supplied evidence. |
+
+## Evidence Produced
+
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| pilot charter and exit decision | Sponsor, safety lead, and production owner | Every load-bearing claim traces to supplied evidence; assumptions, owners, gates, exclusions, and observable acceptance conditions are explicit. |
+
+## Capability Contract
+
+Default to read-only for discovery, analysis, review, and planning. Minimum capability is access to the supplied artefacts and permission to calculate or inspect evidence. Edit only the requested proposal working copy. Do not change production systems, contact affected parties, publish, spend, certify compliance, or approve autonomous action without explicit authority from the accountable owner.
+
+## Degraded Mode
+
+If files, interviews, telemetry, specialist review, network access, or calculation tools are unavailable, produce the narrowest useful qualified result. Mark each unavailable check as not assessed, separate facts from assumptions, lower confidence, and state the evidence needed to resume. An unassessed gate is never a pass.
+
+## Decision Rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Advance, hold, abort, or exit | Use pre-agreed task success, intervention, irreversible-action, confinement, and kill-switch gates. | A pilot drifting into production without evidence. |
+| Required evidence, authority, or accountable owner is missing | Stop the affected recommendation or commitment and record the gap. | Invented evidence or unauthorised autonomy. |
+| Gate evidence is complete and accepted | Advance only within the approved scope and retain the evidence trace. | Scope drift and irreproducible approval. |
+
+## Workflow
+
+1. Confirm the consumer, authority, neighbouring-skill route, and required inputs; stop when a mandatory source or accountable owner is missing.
+2. Inspect the evidence and record facts, assumptions, conflicts, and unavailable checks; stop on a failed safety, finance, regulatory, or acceptance gate.
+3. Apply the domain method and decision rules within the qualified scope, retaining an evidence trace.
+4. Draft the contracted output and reconcile it with methodology, work plan, staffing, pricing, risk, and governance; recover by revising the affected scope or control and rerunning the failed gate.
+5. Verify acceptance conditions, permission boundaries, direct references, and anti-slop controls; block release until failed checks are corrected.
+
+## Worked Example
+
+A support agent completes shadow evaluation but exceeds the intervention ceiling. Hold it in shadow mode, diagnose the error cohort, and rerun the gate rather than averaging the failure away.
+
+<!-- dual-compat-end -->
+
 ## References
 
-- `../references/ai-agent-poc-scoping-template.md` — full template with worked examples.
-- `../references/ai-agent-metrics-glossary.md` — task-success, intervention, irreversibility, scope-confinement, audit completeness definitions.
-- `../references/ai-on-saas-poc-scoping-template.md` — AI-on-SaaS POC base.
-- `../ai-on-saas-poc-and-pilot-scoping/SKILL.md` — AI-on-SaaS POC skill (load when the agent lives inside a SaaS product).
-- `../ai-agent-methodology/SKILL.md` — production methodology after pilot pass.
-- `../ai-agent-discovery-and-qualification/SKILL.md` — discovery that scopes the pilot.
-- `../ai-agent-risk-and-responsible-ai/SKILL.md` — risk register entries.
-- `../saas-poc-and-pilot-scoping/SKILL.md` — base SaaS POC discipline.
+- [ai-agent-poc-scoping-template](../../profiles-sectors/references/ai-agent-poc-scoping-template.md) — full template with worked examples.
+- [ai-agent-metrics-glossary](../../profiles-sectors/references/ai-agent-metrics-glossary.md) — task-success, intervention, irreversibility, scope-confinement, audit completeness definitions.
+- [ai-on-saas-poc-scoping-template](../../profiles-sectors/references/ai-on-saas-poc-scoping-template.md) — AI-on-SaaS POC base.
+- [ai-on-saas-poc-and-pilot-scoping](../../ai-on-saas-proposals/ai-on-saas-poc-and-pilot-scoping/SKILL.md) — AI-on-SaaS POC skill (load when the agent lives inside a SaaS product).
+- [ai-agent-methodology](../ai-agent-methodology/SKILL.md) — production methodology after pilot pass.
+- [ai-agent-discovery-and-qualification](../ai-agent-discovery-and-qualification/SKILL.md) — discovery that scopes the pilot.
+- [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — risk register entries.
+- [saas-poc-and-pilot-scoping](../../saas-proposals/saas-poc-and-pilot-scoping/SKILL.md) — base SaaS POC discipline.

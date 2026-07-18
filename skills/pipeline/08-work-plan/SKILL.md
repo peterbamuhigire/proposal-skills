@@ -1,10 +1,17 @@
 ---
-name: proposal-writing-08-work-plan
-description: Write the work plan and timeline section of a consulting proposal. Use when the user asks to draft the work plan, Gantt chart, project schedule, milestone table, or staffing schedule.
+name: 08-work-plan
+description: Use when drafting activities, dependencies, milestones, review gates, Gantt tables, or staffing schedules. Unlike 06-methodology, this skill converts the approach into an executable sequence and tests it against staffing and pricing.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Work Plan and Timeline
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill to draft or revise the work plan, schedule, staffing schedule, or timeline section.
@@ -19,7 +26,13 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - The selected proposer profile and any relevant procurement requirements.
 - Staffing assumptions, dependencies, and known schedule constraints.
 
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Methodology activities, deliverables, duration, team effort, dependencies, approvals, and price basis | Aligned proposal sections | required | Return an unresolved dependency map; do not invent dates or effort. |
+
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and confirm the timeline, milestones, and required planning outputs.
 2. Load the proposer profile and any relevant procurement, sector, and methodology context.
 3. Use the structure below to build a realistic sequence of activities, deliverables, dependencies, and staffing effort.
@@ -33,12 +46,42 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Prefer explicit milestones, dependencies, review gates, and staffing logic over vague timetable language.
 
 ## Anti-Patterns
+- Releasing the section with an unresolved mandatory input. Fix: block release and name the evidence owner.
+- Hiding a contradiction with another proposal section. Fix: reconcile the source sections before drafting resumes.
+- Treating an unavailable check as passed. Fix: mark it not assessed and return a qualified draft.
 - Do not create a timeline that ignores deliverables, review cycles, or client inputs.
 - Do not over-compress or over-extend the plan beyond what the assignment supports.
 - Do not let the work plan contradict the methodology, team, or budget.
+- Do not omit client review time. Fix: show submission, review, revision, approval, and recovery windows.
+- Do not overlap one expert impossibly. Fix: reconcile person-days and concurrent tasks.
 
 ## Outputs
-- A proposal-ready work plan, timeline, and related staffing or milestone structures.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Work plan, milestones, dependencies, and staffing schedule | Evaluator and project manager | Dates or periods, owners, effort, gates, client inputs, recovery, and price basis reconcile. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Schedule reconciliation and critical-path trace | Checked tables | All deliverables, person-days, reviews, and dependencies match methodology, team, and budget. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Planning is read-only by default. Do not commit client dates, book resources, alter calendars, or approve schedule changes without authority.
+
+## Degraded Mode
+Without confirmed duration, dependencies, or effort, return a relative sequence with assumptions and decision dates. Do not claim the plan is feasible.
+
+## Decision Rules
+| Constraint | Action | Risk avoided |
+|---|---|---|
+| Approval gates the next phase | Put it on the critical path | Hidden delay |
+| Activities can safely overlap | Show dependency and separate resources | False compression |
+| Delay consumes contingency | Escalate replan or scope decision | Silent schedule failure |
+
+## Worked Example
+A twelve-week diagnostic shows data access in week one, analysis after validated extracts, client review time, revision, approval, and non-overlapping effort for the same specialist.
 
 ## SaaS Work Plan Patterns
 
@@ -76,19 +119,23 @@ When the assignment must manage accounts, budgets, donor funds, project advances
 - Donor/client financial report review cycles.
 - Audit-file assembly and close-out financial report.
 
+<!-- dual-compat-end -->
+
 ## References
-- `../profiles/SKILL.md` for proposer selection and voice.
-- `../sectors/SKILL.md` for procurement and sector routing.
-- `../service-design-proposal-strategy/SKILL.md` for journey research, blueprinting, co-creation, prototype, pilot, and implementation sequencing.
-- `../customer-service-and-maintenance-proposals/SKILL.md` for support windows, incident response, maintenance cycles, and post-launch optimisation scheduling.
-- `../references/technical-strategy-credibility-checklist.md` for SaaS, AI, software, API, cloud, and operations roadmap checks.
-- `../references/saas-mutual-action-plan-template.md` for the MAP that the work plan operationalises.
-- `../references/saas-implementation-methodology-blocks.md` for the SaaS implementation phases.
-- `../references/saas-poc-scoping-template.md` for POC / pilot time-boxing.
-- `../references/saas-customer-success-engagement-package.md` for operating cadence.
-- `../saas-mutual-action-planning-and-close-plans/SKILL.md` for the SaaS MAP skill.
-- `../embedded-accounting-engine-proposal/SKILL.md` for posting-rule, migration, reconciliation, close-simulation, and first-close work-plan patterns.
-- `../accounting-finance-advisory/SKILL.md` for project financial-management, donor/grant finance, budget-control, and audit-file work-plan patterns.
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
+- [../profiles/SKILL.md](../../profiles-sectors/profiles/SKILL.md) for proposer selection and voice.
+- [../sectors/SKILL.md](../../profiles-sectors/sectors/SKILL.md) for procurement and sector routing.
+- [../service-design-proposal-strategy/SKILL.md](../../strategy-positioning/service-design-proposal-strategy/SKILL.md) for journey research, blueprinting, co-creation, prototype, pilot, and implementation sequencing.
+- [../customer-service-and-maintenance-proposals/SKILL.md](../../strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md) for support windows, incident response, maintenance cycles, and post-launch optimisation scheduling.
+- [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) for SaaS, AI, software, API, cloud, and operations roadmap checks.
+- [../references/saas-mutual-action-plan-template.md](../../profiles-sectors/references/saas-mutual-action-plan-template.md) for the MAP that the work plan operationalises.
+- [../references/saas-implementation-methodology-blocks.md](../../profiles-sectors/references/saas-implementation-methodology-blocks.md) for the SaaS implementation phases.
+- [../references/saas-poc-scoping-template.md](../../profiles-sectors/references/saas-poc-scoping-template.md) for POC / pilot time-boxing.
+- [../references/saas-customer-success-engagement-package.md](../../profiles-sectors/references/saas-customer-success-engagement-package.md) for operating cadence.
+- [../saas-mutual-action-planning-and-close-plans/SKILL.md](../../saas-proposals/saas-mutual-action-planning-and-close-plans/SKILL.md) for the SaaS MAP skill.
+- [../embedded-accounting-engine-proposal/SKILL.md](../../strategy-positioning/embedded-accounting-engine-proposal/SKILL.md) for posting-rule, migration, reconciliation, close-simulation, and first-close work-plan patterns.
+- [../accounting-finance-advisory/SKILL.md](../../domain-delivery/accounting-finance-advisory/SKILL.md) for project financial-management, donor/grant finance, budget-control, and audit-file work-plan patterns.
 - Root and local `references/` files for delivery logic and scheduling support.
 
 The work plan translates the methodology into a time-bound schedule. It must be realistic, account for client review periods and approval gates, and show that the firm has thought through the sequencing of activities. Evaluators check whether the timeline is achievable; overly compressed or suspiciously padded plans both raise concerns.

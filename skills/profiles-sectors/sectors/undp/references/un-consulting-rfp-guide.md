@@ -1,5 +1,7 @@
 # UN Consulting Services RFP Guide
 
+Parent skill: [United Nations System Procurement Framework — Consulting Services and Grants](../SKILL.md).
+
 Detailed guide for responding to competitive Request for Proposals (RFPs) issued by UN agencies for consulting services, IT services, technical advisory, and professional services. Synthesised from UNICEF and UNFCCC procurement patterns, with principles applicable across all UN agencies.
 
 ---

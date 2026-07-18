@@ -1,5 +1,7 @@
 # PPDA Evaluation Forms, Contract Management and Procurement Procedures
 
+Parent skill: [Uganda PPDA Procurement Framework](../SKILL.md).
+
 Reference material extracted from official Uganda Public Procurement and Disposal of Public Assets Authority (PPDA) standard forms. All forms are issued under the Public Procurement and Disposal of Public Assets Act, 2003 (Cap 205).
 
 ---

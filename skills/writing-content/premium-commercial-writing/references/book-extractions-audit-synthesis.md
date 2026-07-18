@@ -1,5 +1,7 @@
 # Book Extractions Audit And Synthesis
 
+Parent skill: [Premium Commercial Writing](../SKILL.md).
+
 This file records the copyright-safe handling rules for book and EPUB-derived inspiration used to strengthen premium commercial writing guidance.
 
 ## Current Audit Status

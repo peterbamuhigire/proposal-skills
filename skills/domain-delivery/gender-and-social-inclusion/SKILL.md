@@ -1,10 +1,17 @@
 ---
 name: gender-and-social-inclusion
-description: Gender equality and social inclusion frameworks for consulting proposals. Use as a reference when drafting methodology sections that require GESI integration, gender mainstreaming, or inclusive approaches. Can generate a standalone GESI plan when a ToR requires one.
+description: Use when a proposal needs gender analysis, GESI mainstreaming, disability inclusion, disaggregated indicators, or equitable participation. Unlike environmental-and-social-safeguards, this skill integrates inclusion into design and results rather than safeguard compliance instruments.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 
 # Gender and Social Inclusion
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+<!-- dual-compat-start -->
 
 ## Use When
 - Use this skill when the assignment explicitly needs gender, social inclusion, disability, youth, or GESI content.
@@ -15,10 +22,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Another supporting skill is a closer fit for the assignment.
 
 ## Required Inputs
-- The assignment brief or target proposal section.
-- The sector, client, geography, and any donor or regulatory constraints that matter.
+| Artefact | Source | Required? | If absent |
+|---|---|---|---|
+| Affected groups, barriers, objectives, and donor requirements | ToR and stakeholder evidence | required | Return an inclusion-analysis plan; do not invent needs. |
+| Disaggregated baseline and participation evidence | Client data or verified research | conditional | Label gaps and avoid unsupported targets. |
 
 ## Workflow
+
+Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Identify where GESI or inclusion logic matters in the assignment.
 2. Read the local references only where they materially improve the output.
 3. Convert the guidance into proposal-ready measures, indicators, and delivery logic.
@@ -30,14 +41,45 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Preserve compatibility with existing repository workflows and file paths.
 
 ## Anti-Patterns
-- Do not use generic inclusion language with no operational detail.
-- Do not overload the proposal with jargon or academic summary.
-- Do not ignore referenced files when they are needed for accuracy.
+- Reducing GESI to counting women. Fix: analyse access, agency, safety, disability, age, and intersecting barriers.
+- Setting quotas without evidence. Fix: establish and qualify the baseline and rationale.
+- Consulting only organised representatives. Fix: include accessible routes for less-visible groups.
+- Adding GESI only in one paragraph. Fix: integrate design, staffing, indicators, budget, and risk.
+- Collecting sensitive attributes without controls. Fix: minimise data and apply consent, access, and protection.
 
 ## Outputs
-- Domain-informed GESI content aligned to this skill.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| GESI integration plan | Evaluator, programme lead, M&E team | Names barriers, adaptations, owners, budget implications, indicators, safeguards, and feedback. |
+
+## Evidence Produced
+| Evidence | Consumer | Acceptance condition |
+|---|---|---|
+| Barrier-to-response matrix | Disaggregated table | Each barrier has evidence, affected group, response, owner, and indicator. |
+
+## Capability and Permission Boundaries
+
+Read and search are required; any edit or external action remains within the explicit authority and permission boundary stated below.
+Analysis is read-only by default. Engagement, sensitive-data collection, public claims, and programme mutation require authority, consent, safeguarding controls, and accessible methods.
+
+## Degraded Mode
+Without disaggregated evidence or accessible engagement, return a GESI evidence plan and provisional adaptations. Do not report participation, equity, or safety as assessed.
+
+## Decision Rules
+| Evidence | Action | Risk avoided |
+|---|---|---|
+| Specific barrier is evidenced | Fund and assign a targeted adaptation | Token inclusion |
+| Evidence is absent | Conduct accessible, disaggregated analysis | Invented needs |
+| Indicator could expose people | Aggregate or redesign it | Privacy or safeguarding harm |
+
+## Worked Example
+For digital trade support, test device, literacy, language, care-work, disability, and finance barriers by group; adapt channels and timing; measure access and outcomes separately.
+
+<!-- dual-compat-end -->
 
 ## References
+
+- [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
 - Local `references/` files when detailed frameworks or examples are needed.
 
 World Bank, AfDB, UNDP, EU, and most bilateral donors now require explicit attention to gender equality and social inclusion (GESI) in all assignments. Proposals that treat GESI as a tick-box exercise score poorly — evaluators look for meaningful integration into the methodology, team composition, and data collection. This skill provides the frameworks and language to do this credibly.

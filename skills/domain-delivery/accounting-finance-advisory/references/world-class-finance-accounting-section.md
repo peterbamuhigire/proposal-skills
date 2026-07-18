@@ -1,5 +1,7 @@
 # World-Class Finance And Accounting Proposal Section
 
+Parent skill: [Accounting Finance Advisory](../SKILL.md).
+
 Use this reference whenever a proposal needs a finance/accounting section, project financial management section, grant finance section, fiduciary-risk section, budget-control section, finance-system section, or audit-readiness section.
 
 ## Trigger Conditions

@@ -1,5 +1,7 @@
 # Strategic Analysis Frameworks
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Frameworks for assessing organisational state, diagnosing problems, identifying root causes, and comparing current performance against desired outcomes or external benchmarks. These tools typically feature in Phase 1 (Assessment/Diagnostic) of a consulting methodology.
 
 ---

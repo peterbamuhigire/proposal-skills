@@ -6,6 +6,8 @@ source: African Development Bank — Country Diagnostic Note for Uganda, Decembe
 
 # Uganda Agriculture Sector Profile
 
+Parent skill: [Agriculture and Food Security](../SKILL.md).
+
 ## 1. Sector Overview
 
 Agriculture remains the backbone of Uganda's economy, averaging **24.3% of GDP** over the period 2019–2024. The sector employs **70% of the workforce** (up from 61.4% in 2019), underscoring its centrality to livelihoods and poverty reduction.

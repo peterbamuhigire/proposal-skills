@@ -1,5 +1,7 @@
 # Requirements Analysis Models
 
+Parent skill: [Business Analysis Tools](../SKILL.md).
+
 Structured visual and textual models for examining, decomposing, and clarifying requirements. Models are the analyst's primary tool for turning elicitation results into verified, validated requirements.
 
 ---

@@ -1,5 +1,7 @@
 # DevOps Delivery Diagnostics
 
+Parent skill: [Consulting Frameworks](../SKILL.md).
+
 Use this reference when a proposal concerns software delivery, SaaS operations, digital platforms, cloud migration, PHP/LAMP modernisation, CI/CD, DevSecOps, observability, incident response, or production reliability.
 
 Source set: *Strategic DevOps*, *DevOps for PHP Developers*, *The DevOps Handbook, Second Edition*, and *Modern DevOps Practices*.

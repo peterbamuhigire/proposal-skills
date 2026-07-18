@@ -4,6 +4,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 
 ## Baseline Rules
 - Treat each `SKILL.md` as the execution contract and nearby `references/` files as deeper supporting material loaded only when needed.
+- Books and other copyrighted sources may inform independently written skills, but raw books, OCR output, chapter reconstructions, and long extracts must never be stored in this repository. Keep source files outside the repository, retain only the minimum facts or framework needed, attribute where appropriate, and run `python -X utf8 scripts/source_ingestion_guardrail.py` before accepting skill changes.
 - Every `SKILL.md` must include this exact acknowledgement line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
 - Load `skills/profiles-sectors/profiles/SKILL.md` before drafting any proposal text so voice, signatory, and proposer identity stay consistent.
 - Use `skills/profiles-sectors/sectors/SKILL.md` to decide which procurement framework and industry sector skills apply.
@@ -71,7 +72,17 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 ## Change Safety
 - Keep active skills under `skills/` unless the repository architecture is explicitly changed.
 - Do not duplicate logic into parallel Claude-only and Codex-only files when one `SKILL.md` can serve both.
-- If you modify or add skills, keep frontmatter limited to `name` and `description`, keep the body execution-oriented, and prefer moving heavy detail into `references/`.
+- If you modify or add skills, keep frontmatter limited to `name`, `description`, and portable `metadata` as defined by `docs/skill-authoring-standard.md`; keep the body execution-oriented and move heavy detail into directly linked `references/`.
+
+## July 2026 authoring and release gate
+
+- The active catalogue is every `SKILL.md` under `skills/`, including `skills/SKILL.md`; discover it from the filesystem and keep the documented count aligned with machine output.
+- Follow [the local authoring standard](docs/skill-authoring-standard.md) and start new work from [the skill template](templates/skill-template.md).
+- Every active skill requires neighbour-aware positive and negative triggers, input/output/evidence contracts, capability and permission boundaries, degraded mode, a decision table, stop and recovery workflow, observable quality standards, five corrected anti-patterns, and direct references.
+- Analysis, review, critique, planning, and audit procedures default to read-only. Mutation, publishing, submission, spending, destructive action, and certification claims require explicit authority.
+- Run `python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json` and `python -X utf8 scripts\routing_smoke_test.py` before release. The baseline must stay at zero findings; it is not a waiver.
+- Run the canonical scanner and canonical quick validator for each changed skill directory, then the skill-safety and anti-slop gates. Grade F blocks release.
+- Run `python -X utf8 scripts/source_ingestion_guardrail.py`; any finding blocks release. Do not bypass the gate by renaming, compressing, splitting, or moving source material.
 
 
 ## Finance & Accounting Trigger
