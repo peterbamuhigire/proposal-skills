@@ -101,6 +101,12 @@ Reference `../ai-on-saas-change-management-and-adoption/SKILL.md` for the compan
 
 <!-- dual-compat-end -->
 
+## Continuity, cutover, stabilisation, and lessons gates
+
+When the change includes a site move, system transition, process migration, or service handover, add a continuity gate: charter and decision rights; current-state inventory; readiness evidence; critical-service fallback; timed cutover and rollback; first-day monitoring; stabilisation exit criteria; and closeout lessons. Do not promise go-live readiness because training or procurement is complete; require evidence for access, data, safety, communication, support, acceptance, and residual-risk ownership.
+
+Use PDCA/QC Story during transition. Record the baseline, failure mode, smallest countermeasure, guardrail, owner, result, and standardisation decision. Keep immediate service continuity and longer-term organisational learning as separate workstreams when a disruption is material.
+
 ## References
 
 - [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.

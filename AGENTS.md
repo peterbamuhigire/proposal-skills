@@ -3,6 +3,8 @@
 This repository is a dual-compatible skill system for consulting proposals, procurement responses, and related writing workflows. Active skills live under `skills/`; load the relevant `skills/<skill-name>/SKILL.md` file directly.
 
 ## Baseline Rules
+
+- Kaizen is mandatory across the engine. Load `skills/meta/kaizen-improvement-system/SKILL.md` for engine/product audits and book-driven improvement; cap published audits at 65/100 and make every plan target 95/100 with evidence and re-audit dates.
 - Treat each `SKILL.md` as the execution contract and nearby `references/` files as deeper supporting material loaded only when needed.
 - Books and other copyrighted sources may inform independently written skills, but raw books, OCR output, chapter reconstructions, and long extracts must never be stored in this repository. Keep source files outside the repository, retain only the minimum facts or framework needed, attribute where appropriate, and run `python -X utf8 scripts/source_ingestion_guardrail.py` before accepting skill changes.
 - Every `SKILL.md` must include this exact acknowledgement line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
