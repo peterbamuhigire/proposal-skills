@@ -1,284 +1,293 @@
 # Proposal Skills
 
-A Claude Code and Codex skills repository for generating professional consulting proposals tailored for the East and Central African consulting market.
+Proposal Skills is a dual-compatible Claude Code and Codex skill engine for producing, reviewing, improving, and governing consulting proposals and procurement responses. It supports bids, tenders, Expressions of Interest (EOIs), donor responses, technical and financial proposals, methodologies, implementation plans, monitoring and evaluation plans, change-management plans, and proposal evidence packs.
+
+The engine is designed for East and Central African consulting work and uses British English, an East African professional tone, evaluator-facing reasoning, evidence discipline, and explicit compliance controls.
 
 ## Current engine state
 
-As at 13 July 2026, the live `skills/` tree contains 107 active `SKILL.md` entrypoints: one parent router and 106 category skills. Active inventory is discovered from the filesystem; templates and documentation are not counted as skills.
+As at 4 August 2026, the filesystem contains 108 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
 
-The engine uses a zero-debt release gate. Every active skill must pass the local July 2026 contract, the canonical scanner, canonical quick validation, and routing smoke tests. The local suite is:
+The engine is not a prompt collection. Each `SKILL.md` is an executable routing or production contract with inputs, outputs, evidence, boundaries, degraded mode, decision rules, quality standards, anti-patterns, and references.
+
+## What this engine can produce
+
+- Consulting proposals and full tender responses.
+- Public-sector, donor, NGO, development-partner, and private-sector bids.
+- PPDA Uganda, World Bank, AfDB, UNDP, and UN-system procurement responses, subject to verification against the controlling solicitation.
+- Expressions of Interest and pre-qualification submissions.
+- Technical proposals, separate financial proposals, pricing schedules, budgets, and commercial options.
+- Executive summaries, cover letters, firm profiles, relevant-experience sections, methodologies, work plans, staffing plans, CV packs, risk registers, and implementation plans.
+- Monitoring and evaluation frameworks, results chains, log frames, indicators, reporting plans, learning plans, and sustainability arrangements.
+- Change-management, adoption, capacity-building, stakeholder-engagement, safeguards, GESI, data-management, and service-design sections.
+- Website, software, SaaS, AI, agentic-product, digital-transformation, retail, finance, accounting, and operational transformation proposals.
+- Proposal audits, evaluator simulations, compliance matrices, evidence registers, red-team findings, and improvement plans.
+
+## Core operating principles
+
+### Evidence before persuasion
+
+Every load-bearing claim should be connected to evidence, an evidence owner, a source date, a warrant, an assumption, or an explicit limitation. Persuasive language cannot substitute for mandatory forms, verified credentials, realistic staffing, a feasible work plan, or a defensible price basis.
+
+### Evaluator journey
+
+The proposal should help an evaluator move through a deliberate decision path:
+
+1. Understand the assignment and the buyer's decision context.
+2. See that the proposer has correctly understood the problem.
+3. Recognise the proposed response, its fit, and its differentiators.
+4. Find evidence of capability, relevant experience, and delivery realism.
+5. See how work, people, risks, outputs, outcomes, and measures connect.
+6. Confirm compliance, value for money, safeguards, and manageable dependencies.
+7. Reach a confident, supportable recommendation.
+
+The narrative skill at `skills/strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md` turns this journey into a proposal spine. The compliance matrix and evidence register remain authoritative over the narrative.
+
+### Kaizen is mandatory
+
+Every engine use and every proposal product follows the Kaizen cycle:
+
+`Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure`
+
+The proposal-specific contract is `skills/meta/kaizen-improvement-system/SKILL.md`. It applies to the engine itself and to every bid, tender, EOI, methodology, technical proposal, financial proposal, evidence pack, and consulting artefact it produces.
+
+Audits are deliberately hard-capped:
+
+```text
+published audit score = min(raw audit score, 65)
+```
+
+The cap is a reporting ceiling, not a waiver. Every improvement plan must target 95/100 and must identify the gap, root cause, action, owner, measure, acceptance evidence, risk, rollback, and re-audit date.
+
+## Proposal production workflow
+
+1. **Define the deliverable.** Identify whether the request is a full bid, EOI, proposal section, financial submission, evidence pack, audit, or revision.
+2. **Load proposer identity.** Read `skills/profiles-sectors/profiles/SKILL.md` and load exactly one approved proposer profile before drafting text.
+3. **Route procurement and sector context.** Read `skills/profiles-sectors/sectors/SKILL.md`, identify the controlling framework, and load the smallest relevant framework and sector skills.
+4. **Research what can change.** Route current laws, procurement rules, market facts, standards, country data, technology claims, and other externally verifiable material to `digital-research-skills`.
+5. **Extract the evaluator contract.** Convert the ToR or RFP into requirements, evaluation criteria, mandatory forms, evidence requests, deadlines, assumptions, clarifications, and submission constraints.
+6. **Build the compliance and evidence spine.** Map every requirement to a response location, evidence source, owner, status, and verification date. An unassessed requirement is never a pass.
+7. **Design the evaluator journey.** Establish the problem, consequence, response, proof, delivery logic, risk treatment, value, and decision path before writing sections.
+8. **Draft the proposal sections.** Use the numbered pipeline skills and only the relevant domain and strategy skills.
+9. **Build a learning-oriented methodology.** Use PDCA and QC Story: define the problem, establish the baseline, analyse causes, test countermeasures, check results, standardise what works, and specify how learning will be transferred.
+10. **Connect M&E to delivery.** State the result, indicator, baseline, target, data source, frequency, responsibility, verification method, decision use, and learning response.
+11. **Reconcile the commercial package.** Align scope, deliverables, effort, staffing, schedule, assumptions, exclusions, risks, support, payment terms, and price. Keep technical and financial envelopes separate when required.
+12. **Run quality gates.** Apply critical business-logic review, anti-slop review, AI-slop audit, compliance review, evidence review, document/render review, and the appropriate specialist-engine gates.
+13. **Simulate the evaluator.** Test whether a reviewer can find the mandatory response, proof, methodology, price logic, risk treatment, and decision rationale.
+14. **Release or recover.** Stop if a mandatory input, evidence item, authority, or controlling rule remains unresolved. Narrow the claim, request the source, record the gap, or return the last safe version.
+15. **Capture the learning.** Record findings, standardise successful improvements, update the relevant skill or reference, and schedule re-measurement.
+
+## Capability map
+
+### Proposal pipeline
+
+| Skill | Main use |
+|---|---|
+| `skills/pipeline/01-cover-letter/` | Client-specific opening, proposition, relevant proof, and authorised signatory closing |
+| `skills/pipeline/02-executive-summary/` | Problem, response, differentiators, scope, timeline, value, and decision case |
+| `skills/pipeline/03-understanding-of-assignment/` | Background, objectives, scope interpretation, constraints, and ToR understanding |
+| `skills/pipeline/04-firm-profile/` | Legal identity, service areas, capability, footprint, and certifications |
+| `skills/pipeline/05-relevant-experience/` | Evidence-led project cards, roles, outcomes, references, and relevance |
+| `skills/pipeline/06-methodology/` | Approach, phases, deliverables, governance, QA, risks, learning, and acceptance |
+| `skills/pipeline/07-team-composition/` | Organogram, role-responsibility matrix, CVs, availability, and team narrative |
+| `skills/pipeline/08-work-plan/` | Activities, dependencies, milestones, effort, staffing, buffers, and realistic timing |
+| `skills/pipeline/09-expression-of-interest/` | Concise pre-qualification and EOI responses |
+| `skills/pipeline/10-financial-proposal/` | Fees, reimbursables, payment schedule, assumptions, and commercial separation |
+
+### Procurement, profiles, and sectors
+
+- `skills/profiles-sectors/profiles/` controls proposer identity, voice, signatory, credentials, experience, and branding. Load exactly one primary profile before drafting.
+- `skills/profiles-sectors/sectors/` routes procurement framework and industry context. Current framework coverage includes PPDA Uganda, World Bank, AfDB, and UNDP, with sector routes for agriculture, education, energy, financial services, governance, health, ICT, manufacturing, transport, and water/sanitation.
+- Sector and country material provides framing and decision context; it does not replace verification of the controlling solicitation or current external sources.
+
+### Delivery and consulting domains
+
+The `skills/domain-delivery/` family covers project management, change management, M&E, stakeholder engagement, capacity building, GESI, environmental and social safeguards, data management, risk management, sustainability, business analysis, consulting frameworks, finance/accounting advisory, retail transformation, GIZ/EU local procurement, and EAC e-commerce BDS programme design.
+
+The delivery skills are designed to make the proposal implementable, not merely attractive. They connect outputs to roles, dependencies, risks, acceptance, indicators, reporting, ownership transfer, and post-award transition.
+
+### Strategy and positioning
+
+The `skills/strategy-positioning/` family covers:
+
+- Critical analysis, business logic, feasibility, achievability, and evaluator reasoning.
+- Proposal storytelling and evaluator journey.
+- Premium client positioning and value defence.
+- Sales discovery and objection handling.
+- Service design, customer journeys, blueprints, co-creation, and implementation.
+- Website design and development proposals.
+- AI transformation and responsible-AI proposals.
+- Embedded accounting-engine proposals.
+- Customer service, maintenance, SLAs, escalation, and post-launch optimisation.
+
+### SaaS, AI-on-SaaS, agents, and commercial packaging
+
+The engine contains dedicated proposal families for:
+
+- SaaS discovery, business case, ROI, pricing, implementation, POC, procurement, security, customer success, mutual action planning, vertical positioning, objections, lifecycle communications, trust and compliance, multi-tenant architecture, and pilot-to-rollout change management.
+- AI-on-SaaS three-plane methodology, AI qualification, value and cost stacks, POC evaluation, model selection, hallucination limits, risk, responsible AI, compliance, procurement, change management, team composition, and vertical positioning.
+- Agent discovery, autonomy levels, business case, pricing, POC staging, kill-switches, risk, procurement, change management, team composition, and vertical positioning.
+- Agent SLA classes, commercial packaging, contract language, intervention credits, abort/refund mechanics, outcome pricing, MSA/SLA addenda, commercial objections, renewals, and true-ups.
+
+These skills require explicit boundaries around autonomy, human authority, evaluation, reversibility, intervention, model-provider dependencies, data handling, and operational responsibility.
+
+### Writing and quality controls
+
+- `skills/language/east-african-english/` and `skills/language/language-standards/` maintain British English and appropriate professional tone.
+- `skills/meta/anti-ai-slop/` is a real-time guardrail while drafting.
+- `skills/meta/ai-slop-audit/` audits each section or major iteration and blocks release on grade F.
+- `skills/meta/critical-analysis-business-logic/` is the high-stakes reasoning gate.
+- `skills/meta/skill-writing/` and `skills/meta/skill-safety-audit/` maintain the engine.
+- `skills/meta/kaizen-improvement-system/` governs engine and product improvement.
+
+## Book-informed improvements
+
+The engine has been strengthened using independently synthesised, copyright-safe insights from the 16-book study. Raw books, OCR, chapter reconstructions, and long extracts do not belong in this repository.
+
+| Book cluster | Proposal-engine improvements |
+|---|---|
+| Agile Processes in Software Engineering and XP 2026 | Evidence-led Agile claims, experiment design, retrospectives, AI adoption, UX pilots, decision rights, leadership, and measurable process learning |
+| Platform Enterprise | Platform-as-product positioning, consumer feedback, cognitive-load reduction, sociotechnical ownership, maintenance, technical debt, and sustainable operating models |
+| Designing for AI | Problem-first AI selection, separation of user/system/model/input/output concerns, human control, correction, transparency, drift, and rollback language |
+| Leveling Up as a Tech Lead | Role clarity, ownership transfer, trust, transparent communication, stakeholder relationships, and implement-reflect-adjust learning loops |
+| Digital Storytelling and Video Game Storytelling | Evaluator journey, narrative spine, audience fit, conflict and stakes, modular structure, proof-led case stories, and cross-disciplinary clarity |
+| AI for Game Developers | Careful treatment of algorithmic claims, testable behaviour, deterministic fallbacks, telemetry, and warnings about historical APIs and practices |
+| Lean: Ultimate Collection | Build-Measure-Learn, validated learning, innovation accounting, waste reduction, flow, experiments, metrics, and decision gates |
+| Kaizen and the Art of Creative Thinking; Applying Kaizen in Africa | PDCA, participatory improvement, low-cost experiments, 5S, muda, QC Story, root-cause analysis, standard work, management commitment, and learning transfer |
+| The Nonprofit Guide to Strategic Planning | Mission and stakeholder alignment, readiness, baseline, external scan, option trade-offs, implementation governance, KPI refresh, and quarterly/annual learning cycles |
+| Facility Move Playbook | Charter, decision rights, baseline, readiness, continuity, risk, transition, cutover, stabilisation, closeout, and lessons learned |
+| Paid for Your Perspective | Expert positioning, buyer needs, compliance screening, preparation, call records, boundaries of expertise, follow-up, and durable knowledge products |
+| MSC Software Magazine | Model lineage, assumptions, simulation-to-test correlation, independent verification, engineering evidence, sustainability, and proof of delivery claims |
+| Anatomy for Artists and Dynamic Characters | Visual storytelling, composition, gesture, readability, and design-system handoff for proposal documents and presentation assets; extracted anatomy content remains quarantined where unreadable |
+
+These sources improve proposal reasoning and delivery framing; they do not author client-specific facts, legal claims, procurement thresholds, prices, or technical commitments. Current claims must still be researched and verified.
+
+## Compliance screening and proposal audits
+
+Before release, the engine should be able to answer:
+
+- Which solicitation, ToR, framework, sector, country, and deadline govern the response?
+- Which mandatory forms, declarations, certificates, page limits, file formats, envelopes, and submission rules apply?
+- Who is the authorised proposer and signatory?
+- Which credentials, past-performance claims, staff qualifications, references, and financial statements are supported by evidence?
+- Which requirements are addressed, where are they addressed, and who owns any gap?
+- Do methodology, staffing, work plan, M&E, risk, assumptions, exclusions, support, and price describe the same delivery model?
+- Are current technology, legal, policy, market, financial, and standards claims sourced and dated?
+- Are technical and financial proposals separated where required?
+- Has the proposal passed anti-slop, critical-reasoning, evidence, evaluator, document, and rendering gates?
+
+The engine/product audit must cover at least:
+
+1. Compliance and responsiveness.
+2. Evaluator journey and findability.
+3. Evidence quality and provenance.
+4. Methodology and feasibility.
+5. Staffing, governance, and decision rights.
+6. M&E, learning, and sustainability.
+7. Risk, safeguards, ethics, and responsible AI where relevant.
+8. Budget, commercial assumptions, and envelope separation.
+9. Document fidelity, accessibility, readability, and presentation quality.
+10. Submission readiness, approvals, and rollback/recovery.
+
+The audit produces a capped score, gap register, root-cause analysis, 95/100 improvement plan, experiment result, standardisation record, and re-audit date. Proposal audits are read-only by default. Editing, certification, submission, publishing, external communication, spending, and contractual commitment require explicit authority.
+
+## Cross-engine routing
+
+This repository remains the proposal-content and proposal-structure source of truth. It references sibling engines rather than copying them.
+
+| Need | Route |
+|---|---|
+| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | `C:\wamp64\www\digital-research-skills` |
+| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | `C:\Users\Peter\source\repos\chwezi-accounting-doctrine` |
+| Software, APIs, databases, cloud, security, AI implementation, DevOps, or production engineering | `C:\wamp64\www\skills-web-dev` |
+| Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | `C:\wamp64\www\srs-skills` |
+| Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | `C:\wamp64\www\website-skills` |
+| Typography, visual design, UI/UX, presentation layout, document appearance, and anti-visual-slop review | `C:\wamp64\www\design-system-skills` |
+| Social campaigns, content calendars, community management, and marketing reporting | `C:\Users\Peter\source\repos\social-media-skills` |
+| Linux operations, infrastructure, Bash, hardening, services, and server runbooks | `C:\wamp64\www\linux-skills` |
+| Business plans, feasibility, market sizing, financial projections, bankability, or investor readiness | `C:\Users\Peter\source\repos\business-plan-skills` |
+
+Resolve the canonical path from the current global routing instructions where a device-specific path differs. Use the smallest relevant stack and preserve each engine's source of truth.
+
+## Source limitations and evidence discipline
+
+- The proposal engine does not store raw book content or OCR. Book-derived material is independent synthesis only.
+- The Shigeo Shingo extraction was unusable and is not treated as a source for detailed claims.
+- The Anatomy for Artists extraction was unreadable and is quarantined; no anatomy-specific claims are invented from it.
+- Platform Enterprise, Designing for AI, and Leveling Up as a Tech Lead were early-release/partial extracts. Their incomplete coverage is recorded, and current technology or legal claims require independent verification.
+- AI for Game Developers and MSC Software Magazine are historical sources. Timeless principles may inform framing, but product APIs, tooling, standards, market facts, and implementation claims must be checked against current sources.
+- Applying the Kaizen in Africa and the other readable books inform process patterns, not client-specific evidence.
+- When a source, reviewer, render tool, network, or mandatory input is unavailable, mark the affected item `not assessed`, narrow the claim, identify the evidence owner, and never represent an unassessed requirement as passed.
+
+## Repository structure
+
+```text
+proposal-skills/
+|-- AGENTS.md
+|-- CLAUDE.md
+|-- README.md
+|-- CONTRIBUTING.md
+|-- quality-baseline.json
+|-- scripts/
+|-- book-extractions/        # legacy source records; never add raw books or OCR
+|-- docs/
+|   |-- continuous-improvement/
+|   |-- engine-upgrade-july-2026/
+|   |-- skill-authoring-standard.md
+|   `-- dual-compatibility-report.md
+`-- skills/
+    |-- SKILL.md              # parent router
+    |-- pipeline/
+    |-- profiles-sectors/
+    |-- domain-delivery/
+    |-- strategy-positioning/
+    |-- saas-proposals/
+    |-- ai-on-saas-proposals/
+    |-- ai-agent-proposals/
+    |-- ai-agent-commercial/
+    |-- writing-content/
+    |-- language/
+    `-- meta/
+```
+
+Proposal workspaces are created under a gitignored `proposals/` directory. A typical proposal contains `INDEX.md`, `BRIEF.md`, numbered section files, `terms/`, `sheets/`, `team/`, `research/`, and `output/`.
+
+## Validation and release checks
+
+Run from the repository root before accepting engine changes:
 
 ```powershell
 python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
 python -X utf8 scripts\routing_smoke_test.py
+python -X utf8 scripts\source_ingestion_guardrail.py
+git diff --check
 ```
 
-See [the authoring standard](docs/skill-authoring-standard.md), [contribution and release procedure](CONTRIBUTING.md), and [July 2026 conformance record](docs/engine-upgrade-july-2026/11-conformance-upgrade-record.md). CI runs the local validator and routing suite on pushes to `main` and on pull requests.
+For changed skills, also run the canonical scanner and quick validator for each changed skill directory, the skill-safety audit, the anti-slop audit, and document/render checks when the deliverable has layout or office-file requirements. A grade F from the AI-slop audit blocks release.
 
-## Architecture & cross-cutting engines (updated 2026-06-21)
+The baseline must remain at zero findings. Existing baseline counts are not permission to introduce new debt. Do not bypass source-ingestion checks by renaming, compressing, splitting, or moving raw source material.
 
-This is the **content, structure, and compliance** engine for proposals. It is one of several sibling skill engines on the host, and none is natively discovered any more — every engine, including this one, is consulted through the global routing table by globbing `SKILL.md` directly and reading the matched file(s). Cross-cutting engines are **referenced** (path resolved per device from the global router), never mirrored into this repo.
+## Getting started
 
-- **Design / visual layer → `design-system-skills`** (`C:\wamp64\www\design-system-skills`). The single home for all design, typography, UI/UX, and visual-formatting skills plus the anti-AI-slop visual doctrine. No design skills were moved out of this engine — it never held any. Consult the design engine **in addition** whenever a proposal document needs visual formatting or typographic polish (cover pages, decks, layout of the compiled `.docx`). The persuasion, narrative, methodology, pricing, and section content stay here.
-- **Finance / accounting → `chwezi-accounting-doctrine`** (referenced, not mirrored). Finance/accounting/IFRS/IAS work routes to the finance engine source (it already appears as a routed row in the Skill Categories table below). The old finance mirror was never populated — the empty `skills/finance/` shells were removed on 2026-06-21. Finance skills do **not** live inside this engine; the local `accounting-finance-advisory` and `embedded-accounting-engine-proposal` skills cover proposal *positioning* of finance work, not the accounting doctrine itself.
-
-## SaaS + AI-on-SaaS + Agent Proposal Stack (May 2026)
-
-Bain/EY/McKinsey-grade proposal arsenal for SaaS implementation, AI-on-SaaS engagements, and agentic product engagements.
-
-**SaaS proposals (14 skills + 19 enhancements + 25 references):** discovery & qualification, business case / ROI modeling, pricing & packaging proposal, implementation methodology, POC / pilot scoping, procurement & security questionnaire, customer success & adoption proposal, mutual action planning & close plans, vertical positioning (5 verticals: financial services, insurance, public sector, healthcare, education), objection handling & competitive displacement, lifecycle communications as deliverable, trust & compliance credentials section, multi-tenant architecture credibility block, pilot-to-rollout change management.
-
-**AI-on-SaaS proposals (11 skills + 13 enhancements + 20 references):** combined methodology (three-plane: control, application, AI), discovery & qualification (8 qualifying lines + scorecard), AI business case & ROI (Value Stack + Cost Stack + cost-of-tokens P50/P90/P99), AI pricing & packaging, AI POC scoping (binary eval thresholds, hallucination ceiling), AI risk & responsible-AI, AI compliance credentials, AI procurement questionnaire, AI implementation methodology blocks, AI change management, AI team composition (irreducible AI trio: AI Safety Lead + Eval Engineer + MLOps), AI vertical positioning.
-
-**Agent proposals (11 skills + 15 enhancements + 21 references):** discovery & qualification (Agent-vs-Workflow Filter, L0–L5 autonomy ladder), agent business case & ROI (Tasks-per-FTE-Saved with Intervention Discount), agent pricing & packaging (six patterns: per-resolution / per-outcome / per-step / per-agent / hybrid / success-based), agent POC scoping (Shadow → Supervised → Agentic), agent methodology (8 phases), agent risk & responsible-AI (12-entry register, named Agent Safety Lead), agent compliance credentials, agent procurement, agent change management (trust staging, supervisor retraining), agent team composition, agent vertical positioning (7 verticals).
-
-**Agent SLA + commercial (8 skills + 16 references):** SLA class table (Bronze/Silver/Gold/Platinum on four agent metrics + three guardrails), commercial packaging (Included / Add-on / Standalone), contract language pack, success-fee & outcome pricing structures (gain-share, success-fee, hybrid, performance-corridor), intervention-credit and abort-refund mechanics, MSA + SLA addendum templates, procurement objection handling (10 common asks), renewal & true-up clauses. Vertical SLA variants for financial services, public sector, healthcare.
-
-**Book extractions** (in `book-extractions/`): 7 SaaS books distilled through the proposal lens, plus 4 audit documents.
-
-## How It Works
-
-A consultant clones this repo, opens a terminal, navigates to `proposal-skills/`, and starts Claude Code or another compatible agent. Active skills live under `skills/`; the parent router is `skills/SKILL.md`.
-
-Every `SKILL.md` in this repository must place this exact line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
-
-## Proposal Workflow
-
-1. Start in the repository root and launch the agent.
-2. The agent creates or resumes a local `proposals/` workspace, which is gitignored.
-3. Place ToR, RFP, adverts, and templates in the proposal `terms/` folder, and place CVs or team data in `team/`.
-4. The agent reads `skills/SKILL.md`, loads `skills/profiles-sectors/profiles/SKILL.md`, routes through `skills/profiles-sectors/sectors/SKILL.md`, and then loads the relevant proposal section skills.
-5. For high-stakes content, the agent runs `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` so claims, assumptions, feasibility, budget, and delivery logic are tested before final writing.
-6. Sections are written into the per-proposal markdown files. Tables are generated into `sheets/`, and final `.docx` outputs are compiled into `output/`.
-
-Example proposal workspace:
-
-```text
-proposals/
-├── INDEX.md
-└── 2026-03-15-moh-ict-assessment/
-    ├── BRIEF.md
-    ├── 01-cover-letter.md
-    ├── 02-executive-summary.md
-    ├── 03-understanding-of-assignment.md
-    ├── 04-firm-profile.md
-    ├── 05-relevant-experience.md
-    ├── 06-methodology.md
-    ├── 07-team-composition.md
-    ├── 08-work-plan.md
-    ├── 09-financial-proposal.md
-    ├── terms/
-    ├── sheets/
-    ├── team/
-    ├── research/
-    └── output/
-```
-
-## What Makes This Different
-
-This is not a collection of prompt templates. It is a structured knowledge base synthesised from consulting, strategy, project management, business analysis, manufacturing, production planning, inventory, and proposal-writing references.
-
-Recent strengthening includes:
-
-- Proposal strategy patterns such as S1-S2-B logic, P-I-P structure, SCQA narrative spine, Cialdini persuasion principles, theme architecture, and Red Team review.
-- Critical analysis and business-logic discipline: claim-evidence-warrant reasoning, essential questions, mental-model review, feasibility checks, and achievability gates.
-- Consulting delivery patterns such as McKinsey-style problem solving, Done-Done quality, Value Realisation Method, Design Thinking, SECI, and SOSTAC.
-- Business analysis governance, context-driven requirements discovery, fit criteria, and transition planning.
-- Project control artefacts such as WBS dictionaries, responsibility matrices, decision gates, staffing schedules, and work plan hierarchies.
-- Manufacturing, industrial production, inventory, capacity, material handling, MRP, scheduling, and green production diagnostics for bids involving operations-heavy businesses.
-- Premium proposal strategy, ethical evaluator psychology, sales discovery, objection handling, premium-rate defence, service design, technical strategy, and support/maintenance language derived from local HTML study materials.
-- Premium commercial writing patterns for proof-led proposals, cover letters, executive summaries, case studies, business documents, and SEO/AI-search friendly thought leadership.
-
-## Skill Categories
-
-All sub-skills live under `skills/<category>/<skill-name>/`. The 12 thematic categories are:
-
-| Category | Count | Purpose |
-|---|---|---|
-| `skills/pipeline/` | 10 | Numbered proposal section skills (01-cover-letter through 10-financial-proposal) |
-| `skills/profiles-sectors/` | 16 | Profile router, sector router, procurement frameworks, and sector skills; shared references are not active skills |
-| `skills/domain-delivery/` | 16 | Cross-cutting delivery domains including PM, change, M&E, GESI, safeguards, data, risk, GIZ/EU response, EAC e-commerce BDS, finance advisory, and retail transformation |
-| `skills/strategy-positioning/` | 10 | Positioning, premium, discovery, storytelling, service design, AI transformation, website, embedded accounting, critical analysis, support/maintenance |
-| `skills/saas-proposals/` | 14 | SaaS implementation and product-development proposal skills |
-| `skills/ai-on-saas-proposals/` | 11 | AI-on-SaaS methodology and supporting skills |
-| `skills/ai-agent-proposals/` | 11 | Agent / multi-agent product proposal skills |
-| `skills/ai-agent-commercial/` | 8 | Agent SLA, packaging, contract, outcome pricing, MSA, renewals |
-| finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`) | Current doctrine catalog | Canonical finance and accounting module skills (IFRS, IAS, reconciliation, controls) — for finance/accounting/IFRS/IAS work, use the finance engine |
-| `skills/writing-content/` | 3 | Blog and premium commercial writing |
-| `skills/language/` | 2 | East African English and language standards |
-| `skills/meta/` | 5 | Skill maintenance plus anti-slop quality: skill-writing, skill-safety-audit, update-claude-documentation, anti-ai-slop (real-time guardrail), ai-slop-audit (per-section auditor that blocks on grade F) |
-
-## Repository Structure
-
-```text
-proposal-skills/
-├── AGENTS.md
-├── CLAUDE.md
-├── README.md
-├── .gitignore
-├── book-extractions/
-├── docs/
-└── skills/
-    ├── SKILL.md
-    ├── pipeline/                  # 01-cover-letter ... 10-financial-proposal
-    ├── profiles-sectors/          # profiles/, sectors/, references/
-    ├── domain-delivery/
-    ├── strategy-positioning/
-    ├── saas-proposals/
-    ├── ai-on-saas-proposals/
-    ├── ai-agent-proposals/
-    ├── ai-agent-commercial/
-    ├── writing-content/
-    ├── language/
-    └── meta/
-```
-
-## Proposal Section Skills
-
-| # | Skill Path | What It Produces |
-|---|---|---|
-| 01 | `skills/pipeline/01-cover-letter/SKILL.md` | Client-specific opening, comparable past projects with outcomes, courteous closing |
-| 02 | `skills/pipeline/02-executive-summary/SKILL.md` | Problem statement, four differentiators, scope table, timeline, value proposition |
-| 03 | `skills/pipeline/03-understanding-of-assignment/SKILL.md` | Background, objectives, scope analysis, ToR comments in the firm's own words |
-| 04 | `skills/pipeline/04-firm-profile/SKILL.md` | Legal details, service areas, sector expertise, geographic footprint, certifications |
-| 05 | `skills/pipeline/05-relevant-experience/SKILL.md` | Summary table and project cards with quantified outcomes |
-| 06 | `skills/pipeline/06-methodology/SKILL.md` | Conceptual framework, phased plan, deliverables table, risk register, QA, governance |
-| 07 | `skills/pipeline/07-team-composition/SKILL.md` | Organogram, role-responsibility table, CVs, and team narrative |
-| 08 | `skills/pipeline/08-work-plan/SKILL.md` | Gantt table, milestones, staffing schedule, realistic timelines and buffer |
-| 09 | `skills/pipeline/09-expression-of-interest/SKILL.md` | Shorter pre-qualification document with credentials, experience, and available experts |
-| 10 | `skills/pipeline/10-financial-proposal/SKILL.md` | Fee breakdown, reimbursables, payment schedule, and assumptions |
-
-## Supporting Domain Skills
-
-| Skill Path | Domain |
-|---|---|
-| `skills/domain-delivery/project-management/SKILL.md` | PRINCE2, PMBoK, Agile, governance, reporting, WBS-driven controls, steering committees |
-| `skills/domain-delivery/change-management/SKILL.md` | ADKAR, Kotter, adoption strategies, resistance management |
-| `skills/domain-delivery/monitoring-and-evaluation/SKILL.md` | Log frames, results frameworks, KPIs, theory of change |
-| `skills/domain-delivery/stakeholder-engagement/SKILL.md` | Stakeholder mapping, consultation approaches, communication plans |
-| `skills/domain-delivery/capacity-building/SKILL.md` | Training models, ToT, knowledge transfer, skills sustainability |
-| `skills/domain-delivery/gender-and-social-inclusion/SKILL.md` | GESI frameworks, gender mainstreaming, disability and youth inclusion |
-| `skills/domain-delivery/environmental-and-social-safeguards/SKILL.md` | ESIA, environmental management plans, World Bank ESF, AfDB ISS |
-| `skills/domain-delivery/data-management/SKILL.md` | Data collection, MIS design, data governance, data protection law |
-| `skills/strategy-positioning/ai-transformation-proposal/SKILL.md` | AI-powered applications, agentic workflows, AI analytics, automation, governance, evaluation, and maintenance proposals |
-| `skills/strategy-positioning/website-design-proposal-strategy/SKILL.md` | Website design/development strategy, UX/content/SEO methodology, stack explanation, launch, handover, costing, and support |
-| `skills/strategy-positioning/premium-client-proposal-strategy/SKILL.md` | Executive, enterprise, affluent, high-ticket, premium, and strategic transformation proposal positioning |
-| `skills/strategy-positioning/premium-pricing-and-value-defense/SKILL.md` | Premium fee justification, commercial options, value stack, total-cost-of-ownership logic, and price defence |
-| `skills/writing-content/premium-commercial-writing/SKILL.md` | Cross-cutting premium commercial writing for proposals, cover letters, executive summaries, case studies, business documents, public content, and SEO/AI-search friendly thought leadership |
-| `skills/strategy-positioning/sales-discovery-and-objection-handling/SKILL.md` | Discovery questions, qualification, buyer concerns, objection handling, and follow-up logic |
-| `skills/strategy-positioning/service-design-proposal-strategy/SKILL.md` | Service design, customer/citizen experience, journey maps, blueprints, co-creation, and implementation evidence |
-| `skills/strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md` | Narrative spine, evaluator journey, case-study story structure, design rationale, and presentation flow |
-| `skills/strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md` | Support, maintenance, SLAs, escalation, incident response, managed services, and post-launch optimisation |
-| `skills/domain-delivery/sustainability-planning/SKILL.md` | Exit strategies, institutional embedding, ownership transfer |
-| `skills/domain-delivery/risk-management/SKILL.md` | Risk registers, mitigation frameworks, escalation triggers |
-| `skills/domain-delivery/business-analysis-tools/SKILL.md` | SWOT, PESTLE, gap analysis, benchmarking, requirements analysis, maturity models |
-| `skills/domain-delivery/consulting-frameworks/SKILL.md` | Problem structuring, financial analysis, strategy, operations, and communication frameworks |
-| `skills/domain-delivery/accounting-finance-advisory/SKILL.md` | World-class finance/accounting proposal sections, project financial management, accounting, bookkeeping, ERP finance, controls, audit evidence, tax, donor/grant finance, financial modelling, and finance transformation |
-| `skills/domain-delivery/retail-transformation-proposal/SKILL.md` | Retail transformation, omnichannel, e-commerce operations, POS, merchandising, pricing, promotions, markdowns, loyalty, CRM, fulfilment, returns, store operations, shrink, vendor funding, private label, planogram, new-store opening, and retail KPI/WBR proposals |
-| `skills/strategy-positioning/embedded-accounting-engine-proposal/SKILL.md` | Embedded ledger/accounting engine proposals that replace routine external bookkeeping software and produce audit-ready reports |
-| `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` | Serious analysis, evaluator logic, business sense, feasibility, and achievability gate |
-| `skills/meta/anti-ai-slop/SKILL.md` | Real-time anti-slop guardrail applied while writing every section: specificity floor, verify-before-write, authored voice, cover the hard parts, banned vocabulary |
-| `skills/meta/ai-slop-audit/SKILL.md` | Per-section and per-iteration slop auditor that grades A/B/C/F with evidence and fixes; grade F blocks submission |
-| `skills/saas-proposals/saas-discovery-and-qualification/SKILL.md` | SaaS discovery: ICP, Critical Event, pain chain, impact per role, decision process, MEDDPICC qualification gate |
-| `skills/saas-proposals/saas-business-case-and-roi-modeling/SKILL.md` | CFO-grade SaaS business case: TCO, time-to-value, payback, LTV / CAC, NPV, sensitivity |
-| `skills/saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md` | Subscription, usage, hybrid, enterprise tiering, expansion, freemium, paid trial, price-increase |
-| `skills/saas-proposals/saas-implementation-methodology/SKILL.md` | End-to-end SaaS implementation methodology with control plane and application plane build |
-| `skills/saas-proposals/saas-poc-and-pilot-scoping/SKILL.md` | POC and pilot scoping with explicit success criteria and decision gates |
-| `skills/saas-proposals/saas-procurement-and-security-questionnaire/SKILL.md` | Procurement, security review, DPA / MSA / SLA, data residency, exit clauses |
-| `skills/saas-proposals/saas-customer-success-and-adoption-proposal/SKILL.md` | Customer success engagement: onboarding, success plan, QBR, expansion / save plays, health scoring |
-| `skills/saas-proposals/saas-mutual-action-planning-and-close-plans/SKILL.md` | MAP from selection to value realisation; close plan from BAFO to signature |
-| `skills/saas-proposals/saas-vertical-positioning/SKILL.md` | Vertical positioning for financial services, insurance, public sector, healthcare, education |
-| `skills/saas-proposals/saas-objection-handling-and-competitive-displacement/SKILL.md` | Objection handling and competitive displacement |
-| `skills/saas-proposals/saas-lifecycle-communications-as-deliverable/SKILL.md` | Six lifecycle programs as priced workstreams |
-| `skills/saas-proposals/saas-trust-and-compliance-credentials-section/SKILL.md` | Trust and Compliance section template |
-| `skills/saas-proposals/saas-multi-tenant-architecture-credibility-block/SKILL.md` | Methodology block proving SaaS architectural literacy |
-| `skills/saas-proposals/saas-pilot-to-rollout-change-management/SKILL.md` | SaaS mindset transition and change management |
-| `skills/ai-on-saas-proposals/ai-on-saas-combined-methodology/SKILL.md` | Headline AI-on-SaaS methodology: three planes, gates, binary AI acceptance criteria |
-| `skills/ai-on-saas-proposals/ai-on-saas-discovery-and-qualification/SKILL.md` | Eight AI-on-SaaS qualifying lines and the qualification scorecard |
-| `skills/ai-on-saas-proposals/ai-on-saas-business-case-and-roi/SKILL.md` | AI Value Stack + AI Cost Stack + eval-margin + cost-of-tokens + three-scenario ROI |
-| `skills/ai-on-saas-proposals/ai-on-saas-pricing-and-packaging-proposal/SKILL.md` | Five AI pricing patterns, model-by-tier, fair-use, price-increase, FX |
-| `skills/ai-on-saas-proposals/ai-on-saas-poc-and-pilot-scoping/SKILL.md` | AI POC with binary eval criteria, golden dataset, model-selection matrix, exit gates |
-| `skills/ai-on-saas-proposals/ai-on-saas-risk-and-responsible-ai/SKILL.md` | Ten-entry AI risk register and Responsible-AI commitment with named accountable role |
-| `skills/ai-on-saas-proposals/ai-on-saas-compliance-credentials/SKILL.md` | AI Trust and Compliance subsection (EU AI Act, NCAIS, NAIS, AI Policy KE/NG/ZA/UG/RW, ISO/NIST) |
-| `skills/ai-on-saas-proposals/ai-on-saas-procurement-and-questionnaire/SKILL.md` | Eight-domain AI procurement answer pack |
-| `skills/ai-on-saas-proposals/ai-on-saas-change-management-and-adoption/SKILL.md` | AI mindset transition: trust staging, augment-vs-replace, HITL design |
-| `skills/ai-on-saas-proposals/ai-on-saas-team-composition/SKILL.md` | AI-on-SaaS roster: AI Safety Lead, Eval Engineer, MLOps, Prompt, RAG, Data-for-AI |
-| `skills/ai-on-saas-proposals/ai-on-saas-vertical-positioning/SKILL.md` | Vertical AI plays for FS, insurance, public sector, healthcare, education, customer support |
-| `skills/ai-agent-proposals/ai-agent-methodology/SKILL.md` | Headline AI-agent methodology: eight phases (Discover → Action-Catalogue → Architecture → Build → Shadow → Supervised → Agentic → Operate); gates per phase; eval, red-team, kill-switch, multi-agent governance |
-| `skills/ai-agent-proposals/ai-agent-discovery-and-qualification/SKILL.md` | Agent-vs-Workflow Filter; L0–L5 Autonomy Ladder; ten agent-specific discovery lines; Agentic Qualification Scorecard |
-| `skills/ai-agent-proposals/ai-agent-business-case-and-roi/SKILL.md` | Agent ROI: tasks-per-FTE with intervention discount; cost per outcome at P50/P90/P99; three scenarios keyed to autonomy ramp; irreversible-incident downside |
-| `skills/ai-agent-proposals/ai-agent-pricing-and-packaging-proposal/SKILL.md` | Six agent pricing patterns (per-resolution / per-outcome / per-step / per-agent / hybrid / success-based); intervention credit; vendor cost pass-through; autonomy-ramp clause |
-| `skills/ai-agent-proposals/ai-agent-poc-and-pilot-scoping/SKILL.md` | Three-stage pilot (Shadow / Supervised / Agentic); binary thresholds; irreversibility ceiling; kill-switch drill; abort conditions |
-| `skills/ai-agent-proposals/ai-agent-risk-and-responsible-ai/SKILL.md` | Twelve-entry agent risk register; Responsible-AI Agent Commitment with named Agent Safety Lead |
-| `skills/ai-agent-proposals/ai-agent-compliance-credentials/SKILL.md` | Trust and Compliance for Agents: action audit log, irreversibility gating, intervention SLO, kill-switch and drill, red-team catalogue, identity policy, transparency-to-affected-party, sovereign-AI |
-| `skills/ai-agent-proposals/ai-agent-procurement-and-questionnaire/SKILL.md` | Ten-domain agent procurement answer pack |
-| `skills/ai-agent-proposals/ai-agent-change-management-and-adoption/SKILL.md` | Trust staging with named evidence per stage; augment / redeploy / retrain framing; funded supervisor retraining; agent-on-your-behalf disclosure UX |
-| `skills/ai-agent-proposals/ai-agent-team-composition/SKILL.md` | Agent roster: Agent Architect, Tool Engineer, Agent Safety Lead, Eval Engineer, Red-Team Lead, HITL Designer, Multi-Agent Orchestrator (where applicable), Agent Ops; Two-of-Everything buyer-side |
-| `skills/ai-agent-proposals/ai-agent-vertical-positioning/SKILL.md` | Vertical agent plays: customer support, FS (compliance / reconciliation), insurance (claims triage), public sector (extreme caution, sovereign-AI), healthcare (admin-only), legal (lawyer-final), operations (sandbox-first, coding agents) |
-| `skills/ai-agent-commercial/ai-agent-sla-and-credit-schedule/SKILL.md` | Bronze / Silver / Gold / Platinum SLA classes on four agent metrics + three guardrails; credit schedule; service-credit cap; out-clauses (model-provider force-majeure, customer-fault, regulator-pause) |
-| `skills/ai-agent-commercial/ai-agent-commercial-packaging/SKILL.md` | Agent Included in Pro vs Add-on vs Standalone packaging shapes; SLA-class alignment; renewal posture; cost recovery shape |
-| `skills/ai-agent-commercial/ai-agent-contract-language-pack/SKILL.md` | Drop-in exhibit assembly — pricing exhibit, SLA exhibit, credit and refund exhibit, MSA addendum, abandonment-and-refund policy, dispute resolution, audit rights — with trade-not-give discipline |
-| `skills/ai-agent-commercial/ai-agent-success-fee-and-outcome-pricing/SKILL.md` | Gain-share, success-fee, hybrid base-plus-success, performance-corridor; success-definition discipline (counter-example rule, cooling-off, attribution); downside protection |
-| `skills/ai-agent-commercial/ai-agent-intervention-credit-and-abort-refund/SKILL.md` | Intervention-credit formula and customer-facing statement; five abort-and-refund triggers; pro-rata refund formula |
-| `skills/ai-agent-commercial/ai-agent-msa-and-sla-addendum-templates/SKILL.md` | Eight agent-specific MSA clauses (action accountability, audit-log retention, kill-switch SLA, fee-for-evidence-pack, irreversible-action sub-cap, model-provider force-majeure, agent-identity warranty, intervention SLA) plus SLA addendum |
-| `skills/ai-agent-commercial/ai-agent-procurement-objections-on-commercials/SKILL.md` | Ten common procurement asks on commercials with trade-not-give responses; ethical commercial-objection discipline |
-| `skills/ai-agent-commercial/ai-agent-renewal-and-true-up/SKILL.md` | Auto / express / hybrid renewal, true-up, ramp-down protection, autonomy-progression price-step, index-linked renewal, FX corridor |
-
-## Proposer Profiles
-
-| Profile Path | Voice | Use When |
-|---|---|---|
-| `skills/profiles-sectors/profiles/peter-bamuhigire.md` | First-person singular | Proposing as Peter Bamuhigire |
-| `skills/profiles-sectors/profiles/chwezi-core-systems.md` | First-person plural | Proposing as Chwezi Core Systems |
-| `skills/profiles-sectors/profiles/client-template.md` | Customisable | Ghostwriting on behalf of a client |
-
-## Knowledge Base
-
-| Reference Path | Content |
-|---|---|
-| `skills/profiles-sectors/references/proposal-strategy-and-persuasion.md` | S1-S2-B logic, P-I-P structure, buyer psychology, SCQA, Cialdini, Red Team review |
-| `skills/profiles-sectors/references/world-class-proposal-patterns.md` | McKinsey and Deloitte proposal patterns, storyboarding, ghost packs, elevator test, prewiring |
-| `skills/profiles-sectors/references/consulting-delivery-excellence.md` | McKinsey-style problem solving, Design Sprint, SCAMPER, SOSTAC, SECI, Done-Done standard |
-| `skills/profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md` | Ethical persuasion, evaluator concerns, risk perception, social proof discipline, and persuasion red flags |
-| `skills/profiles-sectors/references/premium-rate-justification-framework.md` | Premium value stack, proof ladder, commercial options, discount rules, and price defence |
-| `skills/profiles-sectors/references/discovery-question-bank-for-proposals.md` | Proposal discovery questions for outcomes, buyers, users, scope, technology, AI, support, and commercial assumptions |
-| `skills/profiles-sectors/references/proposal-objection-handling.md` | Ethical handling of price, risk, timeline, staffing, technology, AI, local-context, support, and procurement objections |
-| `skills/profiles-sectors/references/service-design-methodology-module.md` | Service design phases, journey mapping, blueprints, co-creation, prototypes, implementation, and acceptance criteria |
-| `skills/profiles-sectors/references/website-software-maintenance-support-language.md` | Website/software/AI maintenance categories, SLA language, support commitments, client responsibilities, and pricing notes |
-| `skills/profiles-sectors/references/proposal-narrative-patterns-and-case-story-spine.md` | Evaluator journey, narrative spine, case-study story cards, design rationale, and storyboard use |
-| `skills/profiles-sectors/references/technical-strategy-credibility-checklist.md` | Software, SaaS, AI, cloud, API, operations, roadmap, governance, and maintainability checks |
-| `skills/profiles-sectors/references/customer-service-and-escalation-commitments.md` | Service communication, escalation, complaint recovery, known-problem updates, and support boundaries |
-| `skills/writing-content/premium-commercial-writing/references/premium-writing-quality-gate.md` | Cross-cutting gate for professional, persuasive, premium-fee-worthy writing |
-| `skills/writing-content/premium-commercial-writing/references/document-section-patterns.md` | Patterns for cover letters, executive summaries, proposal sections, case studies, business documents, and blogs |
-| `skills/writing-content/premium-commercial-writing/references/seo-ai-search-writing.md` | Search-intent, SEO, and AI-search guidance for public-facing content |
-| `skills/writing-content/premium-commercial-writing/references/book-extractions-audit-synthesis.md` | Copyright-safe book and EPUB inspiration rules plus current audit status |
-| `skills/strategy-positioning/critical-analysis-business-logic/references/reasoning-and-business-sense-gate.md` | Essential questions, argument map, mental-model pass, business-sense checks, and achievability gate |
-| `skills/domain-delivery/consulting-frameworks/references/` | Problem structuring, financial analysis, strategy, operations, communication |
-| `skills/domain-delivery/business-analysis-tools/references/` | SWOT, PESTLE, gap analysis, requirements planning, fit criteria, transition evaluation, maturity models |
-
-## Supported Procurement Frameworks
-
-PPDA Uganda, World Bank, AfDB, UNDP and UN system procurement, and direct private sector, NGO, and government ministry RFPs.
-
-## Language Standards
-
-- British English throughout: organisation, programme, centre, colour.
-- East African professional tone: formal, respectful, courteous, and free of marketing hype.
-- Dates use day-month-year format, such as 17 February 2026.
-- Avoid AI-sounding vocabulary such as delve, tapestry, landscape as metaphor, leverage, navigate as metaphor, foster, realm, harness, synergy, embark, robust, vibrant, holistic, and seamless.
-
-## Getting Started
-
-```bash
+```powershell
 git clone <repository-url> proposal-skills
 cd proposal-skills
 claude
 ```
 
-Claude reads `CLAUDE.md`, starts with `skills/SKILL.md`, and walks through creating or resuming a proposal.
+Then provide the ToR/RFP/brief, identify the proposer, and state the required deliverable. The agent should start with `skills/SKILL.md`, then load the profile, procurement/sector router, relevant section skill, and the smallest supporting skill stack.
 
-## Adding a New Skill
+## Adding or improving a skill
 
-1. Create a subdirectory under `skills/` with a `SKILL.md`.
-2. Add a local `references/` subdirectory only if needed.
-3. Update `skills/SKILL.md`, `CLAUDE.md`, and this README.
+1. Read `AGENTS.md`, `docs/skill-authoring-standard.md`, and `skills/meta/skill-writing/SKILL.md`.
+2. Define the use case, neighbouring positive and negative triggers, inputs, outputs, evidence, boundaries, degraded mode, decisions, quality standards, anti-patterns, and references.
+3. Apply the Kaizen improvement system: baseline the gap, run a bounded experiment, check evidence, standardise the improvement, and schedule re-measurement.
+4. Keep frontmatter limited to `name`, `description`, and portable metadata.
+5. Keep the exact acknowledgement immediately below the first top-level heading in every active `SKILL.md`.
+6. Do not duplicate sibling-engine doctrine or store raw books/OCR.
+7. Run the validators, routing smoke test, source-ingestion guardrail, safety and anti-slop gates, and relevant document/render checks.
+8. Update the appropriate improvement record and this README when the public capability or routing model changes.
+
+## Authority and safety boundaries
+
+Review, research, audit, critique, routing, and planning are read-only by default. The engine must not invent credentials, certify compliance without evidence, submit a bid, accept contractual terms, publish externally, disclose confidential information, spend money, or change source records without explicit authority. When specialist engineering, finance, research, design, website, Linux, business-plan, or formal SDLC work is required, route it to the canonical sibling engine rather than recreating its doctrine here.

@@ -112,6 +112,14 @@ An evaluator scores feasibility before innovation. Open with the operating const
 
 <!-- dual-compat-end -->
 
+## Evaluator proof and expert-positioning controls
+
+Build an evaluator matrix before polishing the narrative: criterion, evaluator question, proposal location, claim, evidence, accountable source/role, acceptance test, risk, and review status. The journey is complete only when an evaluator can find the mandatory response, understand why the method fits, see credible proof, and identify how delivery will be checked.
+
+When the proposal depends on expert-network, advisory, or interview-based credibility, screen the opportunity before using it: purpose and buyer need, subject-matter fit, conflicts, confidentiality, non-public information, client restrictions, compensation/contract terms, and the boundary between informed perspective and professional advice. Use the strongest relevant profile evidence; never imply experience, access, or authority that the source does not support. Record the screening decision and reviewer.
+
+Run a short reviewer loop after each major revision: independent evaluator read, compliance check, evidence check, narrative consistency check, and decision log. Treat feedback as a hypothesis about evaluator confidence; change the proposal only when the evidence or criterion fit improves, then re-run the affected check.
+
 ## References
 
 - [proposal-narrative-patterns-and-case-story-spine](../../profiles-sectors/references/proposal-narrative-patterns-and-case-story-spine.md) - evaluator journey, case story structure, and design rationale patterns.
