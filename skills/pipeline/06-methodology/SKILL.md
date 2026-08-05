@@ -84,6 +84,12 @@ For an ERP bid, sequence discovery, posting-rule design, configured prototype, m
 
 <!-- dual-compat-end -->
 
+## QC Story, PDCA, compliance screening, and review
+
+For each phase, expose the problem, baseline, target, evidence, countermeasure, owner, acceptance test, and recovery path. This makes the methodology auditable rather than a list of activities. Use PDCA for pilots, M&E, change, and implementation: pre-register the expected signal and guardrail, measure actual behaviour or delivery evidence, then standardise, revise, pause, or stop.
+
+Before release, run a compliance screen against every ToR/RFP instruction, eligibility rule, mandatory form, page/file rule, deadline, separation of technical and financial content, conflict/confidentiality boundary, and evidence claim. Record source, status, owner, reviewer, and unresolved consequence. Run an evaluator simulation after the screen and after material revisions; a persuasive narrative never cures a missing mandatory response. Read `references/proposal-compliance-and-qc-story.md` for the reusable matrix.
+
 ## References
 
 - [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.

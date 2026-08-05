@@ -125,6 +125,12 @@ The agent dashboard is signed at the Agent Safety Council monthly and the SteerC
 
 <!-- dual-compat-end -->
 
+## PDCA/QC Story learning loop
+
+For each material result, write the QC Story in proposal-ready form: problem and scope, baseline, target, evidence/root cause, countermeasure, owner, timebox, result, residual gap, standardisation, and next cycle. Pair every indicator with a decision threshold and response owner. A dashboard is not an M&E system until it changes implementation, resource, safeguarding, quality, or sequencing decisions.
+
+Apply PDCA at the cadence promised in the proposal: plan the result and data method; do the intervention; check observed change against baseline and counter-metrics; act by standardising, revising, escalating, or stopping. Include beneficiary/user feedback and disaggregation where ethical and useful. Preserve a learning register and evidence trail so the evaluator can see how findings are reviewed and converted into corrective action.
+
 ## References
 
 - [Proposal skills router](../../SKILL.md) for repository-wide routing and mandatory quality gates.
