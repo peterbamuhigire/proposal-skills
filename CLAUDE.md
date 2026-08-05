@@ -10,7 +10,7 @@ This is a Markdown-based skill repository for generating professional consulting
 
 Every `SKILL.md` in this repository must place this exact line immediately below the first top-level `# ...` heading, not in frontmatter: `Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.`
 
-The live catalogue contains 107 active entrypoints under `skills/`, including the parent router. Authoring follows `docs/skill-authoring-standard.md`; local release gates are `python -X utf8 scripts/validate_skills.py --baseline quality-baseline.json` and `python -X utf8 scripts/routing_smoke_test.py`.
+The live catalogue contains 108 active entrypoints under `skills/`, including the parent router. Authoring follows `docs/skill-authoring-standard.md`; local release gates are `python -X utf8 scripts/validate_skills.py --baseline quality-baseline.json` and `python -X utf8 scripts/routing_smoke_test.py`.
 
 ## Repository Architecture
 
