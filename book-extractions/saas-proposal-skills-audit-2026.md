@@ -6,13 +6,13 @@ Internal audit produced for the proposal-skills engine to bring it to Bain/EY/Mc
 
 | File | Source | Lens |
 |---|---|---|
-| `saas-sales-method-for-account-executives.md` | Winning by Design, *The SaaS Sales Method for AE* | Closing motion (Identify, Diagnose, Prescribe, Select, Propose, Pause, Trade, Commit), pain chain, decision process, MAP, business case |
-| `saas-sales-method-fundamentals.md` | Winning by Design, *Fundamentals* | Conversation discipline, structured discovery, objection vs rejection, follow-up as system, meeting structure |
-| `saas-email-marketing-playbook.md` | Étienne Garbugli | Six lifecycle email programs, data implementation plan, sequence pacing, operating rules, measurement |
-| `hacking-saas.md` | Ben Cotton, essays | GTM motion design, channel decay/arbitrage, sales-marketing alignment, sales-team design, two-of-everything principle |
-| `the-saas-playbook-walling.md` | Rob Walling | Vertical positioning, pricing tiering, expansion revenue, freemium decisions, raising prices, dual funnels, churn, net negative churn |
-| `how-to-run-a-saas-business.md` | Eric Mersch, CFO perspective | SaaS financial vocabulary (ARR/MRR/ACV/RPO, CAC, LTV, payback, Rule of 40, magic number, PSAR), Enterprise vs SMM vs B2C model, horizontal vs vertical SaaS |
-| `building-multi-tenant-saas-architectures.md` | Tod Golding (O'Reilly) | Control plane vs application plane, tenant isolation, tenant context, data partitioning, cost attribution, onboarding, multi-tenant migration |
+| `saas-sales-method-ae-proposal-extraction.md` | Winning by Design, *The SaaS Sales Method for AE* | Closing motion (Identify, Diagnose, Prescribe, Select, Propose, Pause, Trade, Commit), pain chain, decision process, MAP, business case |
+| `saas-sales-method-fundamentals-proposal-extraction.md` | Winning by Design, *Fundamentals* | Conversation discipline, structured discovery, objection vs rejection, follow-up as system, meeting structure |
+| `saas-email-marketing-playbook-proposal-extraction.md` | Étienne Garbugli | Six lifecycle email programs, data implementation plan, sequence pacing, operating rules, measurement |
+| `hacking-saas-proposal-extraction.md` | Ben Cotton, essays | GTM motion design, channel decay/arbitrage, sales-marketing alignment, sales-team design, two-of-everything principle |
+| `the-saas-playbook-walling-proposal-extraction.md` | Rob Walling | Vertical positioning, pricing tiering, expansion revenue, freemium decisions, raising prices, dual funnels, churn, net negative churn |
+| `how-to-run-a-saas-business-proposal-extraction.md` | Eric Mersch, CFO perspective | SaaS financial vocabulary (ARR/MRR/ACV/RPO, CAC, LTV, payback, Rule of 40, magic number, PSAR), Enterprise vs SMM vs B2C model, horizontal vs vertical SaaS |
+| `building-multi-tenant-saas-architectures-proposal-extraction.md` | Tod Golding (O'Reilly) | Control plane vs application plane, tenant isolation, tenant context, data partitioning, cost attribution, onboarding, multi-tenant migration |
 
 ## NEW SKILLS
 
