@@ -1,5 +1,9 @@
 # Proposal Skills
 
+See [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md) for
+proposal agents, thin commands, submission hooks, evidence, and stop/recovery
+behavior.
+
 Proposal Skills is a dual-compatible Claude Code and Codex skill engine for producing, reviewing, improving, and governing consulting proposals and procurement responses. It supports bids, tenders, Expressions of Interest (EOIs), donor responses, technical and financial proposals, methodologies, implementation plans, monitoring and evaluation plans, change-management plans, and proposal evidence packs.
 
 The engine is designed for East and Central African consulting work and uses British English, an East African professional tone, evaluator-facing reasoning, evidence discipline, and explicit compliance controls.
