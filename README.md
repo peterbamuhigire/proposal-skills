@@ -201,14 +201,14 @@ This repository remains the proposal-content and proposal-structure source of tr
 
 | Need | Route |
 |---|---|
-| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | `C:\wamp64\www\digital-research-engine` |
-| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | `C:\wamp64\www\chwezi-accounting-doctrine` |
-| Software, APIs, databases, cloud, security, AI implementation, DevOps, or production engineering | `C:\wamp64\www\skills-web-dev` |
-| Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | `C:\wamp64\www\srs-skills` |
-| Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | `C:\wamp64\www\website-skills` |
-| Typography, visual design, UI/UX, presentation layout, document appearance, and anti-visual-slop review | `C:\wamp64\www\design-system-skills` |
+| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | [Digital Research Engine](https://github.com/peterbamuhigire/digital-research-skills) |
+| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | [Chwezi Accounting Doctrine](https://github.com/peterbamuhigire/chwezi-accounting-doctrine) |
+| Software, APIs, databases, cloud, security, AI implementation, DevOps, or production engineering | [Chwezi Development Engine](https://github.com/peterbamuhigire/chwezi-dev-engine) |
+| Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | [SRS Skills](https://github.com/peterbamuhigire/srs-skills) |
+| Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | [Website Skills](https://github.com/peterbamuhigire/website-skills) |
+| Typography, visual design, UI/UX, presentation layout, document appearance, and anti-visual-slop review | [Design System Skills](https://github.com/peterbamuhigire/design-system-skills) |
 | Social campaigns, content calendars, community management, and marketing reporting | `C:\Users\Peter\source\repos\social-media-skills` |
-| Linux operations, infrastructure, Bash, hardening, services, and server runbooks | `C:\wamp64\www\linux-skills` |
+| Linux operations, infrastructure, Bash, hardening, services, and server runbooks | [Linux Skills](https://github.com/peterbamuhigire/linux-skills) |
 | Business plans, feasibility, market sizing, financial projections, bankability, or investor readiness | `C:\Users\Peter\source\repos\business-plan-skills` |
 
 Resolve the canonical path from the current global routing instructions where a device-specific path differs. Use the smallest relevant stack and preserve each engine's source of truth.
