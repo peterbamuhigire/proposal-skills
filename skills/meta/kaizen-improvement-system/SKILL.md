@@ -86,6 +86,6 @@ If a draft scores well on narrative but fails two mandatory ToR requirements, ke
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- Portfolio standard: resolve `digital-research-skills` through the global engine-routing table and read its docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md file; if it is unavailable, apply Degraded Mode and mark the portfolio comparison not assessed.
+- Portfolio standard: resolve `digital-research-engine` through the global engine-routing table and read its docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md file; if it is unavailable, apply Degraded Mode and mark the portfolio comparison not assessed.
 - `skills/meta/ai-slop-audit/`
 - `skills/strategy-positioning/critical-analysis-business-logic/`

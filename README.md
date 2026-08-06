@@ -68,7 +68,7 @@ The cap is a reporting ceiling, not a waiver. Every improvement plan must target
 1. **Define the deliverable.** Identify whether the request is a full bid, EOI, proposal section, financial submission, evidence pack, audit, or revision.
 2. **Load proposer identity.** Read `skills/profiles-sectors/profiles/SKILL.md` and load exactly one approved proposer profile before drafting text.
 3. **Route procurement and sector context.** Read `skills/profiles-sectors/sectors/SKILL.md`, identify the controlling framework, and load the smallest relevant framework and sector skills.
-4. **Research what can change.** Route current laws, procurement rules, market facts, standards, country data, technology claims, and other externally verifiable material to `digital-research-skills`.
+4. **Research what can change.** Route current laws, procurement rules, market facts, standards, country data, technology claims, and other externally verifiable material to `digital-research-engine`.
 5. **Extract the evaluator contract.** Convert the ToR or RFP into requirements, evaluation criteria, mandatory forms, evidence requests, deadlines, assumptions, clarifications, and submission constraints.
 6. **Build the compliance and evidence spine.** Map every requirement to a response location, evidence source, owner, status, and verification date. An unassessed requirement is never a pass.
 7. **Design the evaluator journey.** Establish the problem, consequence, response, proof, delivery logic, risk treatment, value, and decision path before writing sections.
@@ -201,8 +201,8 @@ This repository remains the proposal-content and proposal-structure source of tr
 
 | Need | Route |
 |---|---|
-| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | `C:\wamp64\www\digital-research-skills` |
-| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | `C:\Users\Peter\source\repos\chwezi-accounting-doctrine` |
+| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | `C:\wamp64\www\digital-research-engine` |
+| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | `C:\wamp64\www\chwezi-accounting-doctrine` |
 | Software, APIs, databases, cloud, security, AI implementation, DevOps, or production engineering | `C:\wamp64\www\skills-web-dev` |
 | Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | `C:\wamp64\www\srs-skills` |
 | Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | `C:\wamp64\www\website-skills` |
