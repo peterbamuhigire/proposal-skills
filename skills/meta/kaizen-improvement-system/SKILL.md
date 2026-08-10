@@ -71,6 +71,17 @@ If the ToR, evaluation grid, evidence, source, render, or reviewer is unavailabl
 
 A persuasive narrative never substitutes for compliance or proof. Keep technical and financial envelopes separate when required. Expert advice must stay within verified competence and compliance boundaries.
 
+## Mandatory 65-to-95 gate
+
+Treat the first review as an initial analysis: show the raw findings but publish only
+`min(raw_score, 65)`, with missing evidence and mandatory blockers visible. Begin the
+95/100 improvement cycle only after that baseline is frozen. Every action needs a
+root cause, exact artefact or validator, owner, experiment, evaluator-facing measure,
+guardrail, stop/rollback rule, acceptance proof, and re-audit date.
+Run it at engine level (routes, templates, examples, validators, and handoffs) and
+at product level (bid, EOI, methodology, technical/financial proposal, or report).
+The product requires its own evaluator and evidence result.
+
 ## Anti-Patterns
 
 - Storytelling without evaluator evidence. Fix: link each value claim to proof.
