@@ -49,6 +49,8 @@ The narrative skill at `skills/strategy-positioning/proposal-storytelling-and-ev
 
 ### Kaizen is mandatory
 
+For a ready-to-run product or project operation, use [`prompts/full-kaizen-operation.md`](prompts/full-kaizen-operation.md).
+
 Every engine use and every proposal product follows the Kaizen cycle:
 
 `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure`
