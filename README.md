@@ -207,9 +207,9 @@ This repository remains the proposal-content and proposal-structure source of tr
 | Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | [SRS Skills](https://github.com/peterbamuhigire/srs-skills) |
 | Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | [Website Skills](https://github.com/peterbamuhigire/website-skills) |
 | Typography, visual design, UI/UX, presentation layout, document appearance, and anti-visual-slop review | [Design System Skills](https://github.com/peterbamuhigire/design-system-skills) |
-| Social campaigns, content calendars, community management, and marketing reporting | `C:\Users\Peter\source\repos\social-media-skills` |
+| Social campaigns, content calendars, community management, and marketing reporting | [Social Media Skills](https://github.com/peterbamuhigire/social-media-skills) |
 | Linux operations, infrastructure, Bash, hardening, services, and server runbooks | [Linux Skills](https://github.com/peterbamuhigire/linux-skills) |
-| Business plans, feasibility, market sizing, financial projections, bankability, or investor readiness | `C:\Users\Peter\source\repos\business-plan-skills` |
+| Business plans, feasibility, market sizing, financial projections, bankability, or investor readiness | [Business Plan Skills](https://github.com/peterbamuhigire/business-plan-skills) |
 
 Resolve the canonical path from the current global routing instructions where a device-specific path differs. Use the smallest relevant stack and preserve each engine's source of truth.
 
@@ -264,6 +264,7 @@ Run from the repository root before accepting engine changes:
 python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
 python -X utf8 scripts\routing_smoke_test.py
 python -X utf8 scripts\source_ingestion_guardrail.py
+python -X utf8 scripts\encoding_link_gate.py
 git diff --check
 ```
 

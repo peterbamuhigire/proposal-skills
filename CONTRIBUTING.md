@@ -16,6 +16,7 @@ Treat every active `SKILL.md` as executable instruction, not background prose. P
 ```powershell
 python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
 python -X utf8 scripts\routing_smoke_test.py
+python -X utf8 scripts\encoding_link_gate.py
 python -X utf8 C:\Users\Peter\.claude\skills\skills\sdlc-meta\skill-engine-audit\scripts\engine_compliance.py --root . --active-root skills --details
 ```
 

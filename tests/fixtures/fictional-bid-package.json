@@ -1,0 +1,62 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA - not a client tender or submission",
+  "solicitation": {
+    "id": "TEST-RFP-001",
+    "title": "Fictional service-delivery response",
+    "technical_financial_separation_required": true
+  },
+  "requirements": [
+    {
+      "id": "M-TECH-01",
+      "text": "Provide the proposed delivery method",
+      "mandatory": true,
+      "envelope": "technical",
+      "response_location": "technical/methodology.md",
+      "evidence_owner": "technical-lead"
+    },
+    {
+      "id": "M-FIN-01",
+      "text": "Provide the fictional price schedule",
+      "mandatory": true,
+      "envelope": "financial",
+      "response_location": "financial/price-schedule.md",
+      "evidence_owner": "finance-lead"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-TECH-01",
+      "owner": "technical-lead",
+      "status": "available",
+      "label": "fictional methodology note"
+    },
+    {
+      "id": "E-FIN-01",
+      "owner": "finance-lead",
+      "status": "available",
+      "label": "fictional cost-driver note"
+    }
+  ],
+  "responses": [
+    {
+      "requirement_id": "M-TECH-01",
+      "response_location": "technical/methodology.md",
+      "envelope": "technical",
+      "evidence_ids": ["E-TECH-01"]
+    },
+    {
+      "requirement_id": "M-FIN-01",
+      "response_location": "financial/price-schedule.md",
+      "envelope": "financial",
+      "evidence_ids": ["E-FIN-01"]
+    }
+  ],
+  "approvals": [
+    {"envelope": "technical", "status": "approved", "owner": "technical-reviewer"},
+    {"envelope": "financial", "status": "approved", "owner": "finance-reviewer"}
+  ],
+  "envelopes": {
+    "technical": {"files": ["technical/methodology.md"]},
+    "financial": {"files": ["financial/price-schedule.md"]}
+  }
+}
