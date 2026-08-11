@@ -87,6 +87,7 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Every active skill requires neighbour-aware positive and negative triggers, input/output/evidence contracts, capability and permission boundaries, degraded mode, a decision table, stop and recovery workflow, observable quality standards, five corrected anti-patterns, and direct references.
 - Analysis, review, critique, planning, and audit procedures default to read-only. Mutation, publishing, submission, spending, destructive action, and certification claims require explicit authority.
 - Run `python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json` and `python -X utf8 scripts\routing_smoke_test.py` before release. The baseline must stay at zero findings; it is not a waiver.
+- Run `python -X utf8 scripts\encoding_link_gate.py` before release to reject invalid UTF-8, verified mojibake markers, broken local Markdown links, and stale device-specific sibling-engine routes.
 - Run the canonical scanner and canonical quick validator for each changed skill directory, then the skill-safety and anti-slop gates. Grade F blocks release.
 - Run `python -X utf8 scripts/source_ingestion_guardrail.py`; any finding blocks release. Do not bypass the gate by renaming, compressing, splitting, or moving source material.
 
