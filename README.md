@@ -1,12 +1,10 @@
 # Proposal Skills
 
-See [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md) for
-proposal agents, thin commands, submission hooks, evidence, and stop/recovery
-behavior.
+Proposal Skills is a dual-compatible Claude Code and Codex engine for planning, drafting, reviewing, improving, and governing consulting proposals and procurement responses. Its [repository control plane](docs/control-plane-adoption.md) routes work to the smallest relevant skill and makes evidence, quality gates, and stop/recovery behaviour explicit.
 
-Proposal Skills is a dual-compatible Claude Code and Codex skill engine for producing, reviewing, improving, and governing consulting proposals and procurement responses. It supports bids, tenders, Expressions of Interest (EOIs), donor responses, technical and financial proposals, methodologies, implementation plans, monitoring and evaluation plans, change-management plans, and proposal evidence packs.
+Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions of Interest, donor and public-sector responses, technical and financial proposals, methodologies, work plans, staffing, monitoring and evaluation, risk, safeguards, and proposal audits. It addresses incomplete compliance, unsupported claims, disconnected delivery logic, and submissions that are persuasive but difficult to evaluate or implement.
 
-The engine is designed for East and Central African consulting work and uses British English, an East African professional tone, evaluator-facing reasoning, evidence discipline, and explicit compliance controls.
+The engine helps teams keep requirements, evidence, methodology, staffing, schedule, risks, measures, assumptions, exclusions, and price aligned so a response can be checked and handed into delivery. It owns proposal content and structure; current or uncertain external claims route to the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>, while formal requirements and implementation work belong with the relevant companion engines.
 
 ## Current engine state
 
@@ -70,7 +68,7 @@ The cap is a reporting ceiling, not a waiver. Every improvement plan must target
 1. **Define the deliverable.** Identify whether the request is a full bid, EOI, proposal section, financial submission, evidence pack, audit, or revision.
 2. **Load proposer identity.** Read `skills/profiles-sectors/profiles/SKILL.md` and load exactly one approved proposer profile before drafting text.
 3. **Route procurement and sector context.** Read `skills/profiles-sectors/sectors/SKILL.md`, identify the controlling framework, and load the smallest relevant framework and sector skills.
-4. **Research what can change.** Route current laws, procurement rules, market facts, standards, country data, technology claims, and other externally verifiable material to `digital-research-engine`.
+4. **Research what can change.** Route current laws, procurement rules, market facts, standards, country data, technology claims, and other externally verifiable material to the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>.
 5. **Extract the evaluator contract.** Convert the ToR or RFP into requirements, evaluation criteria, mandatory forms, evidence requests, deadlines, assumptions, clarifications, and submission constraints.
 6. **Build the compliance and evidence spine.** Map every requirement to a response location, evidence source, owner, status, and verification date. An unassessed requirement is never a pass.
 7. **Design the evaluator journey.** Establish the problem, consequence, response, proof, delivery logic, risk treatment, value, and decision path before writing sections.
@@ -203,15 +201,15 @@ This repository remains the proposal-content and proposal-structure source of tr
 
 | Need | Route |
 |---|---|
-| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | [Digital Research Engine](https://github.com/peterbamuhigire/digital-research-skills) |
-| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | [Chwezi Accounting Doctrine](https://github.com/peterbamuhigire/chwezi-accounting-doctrine) |
-| Software, APIs, databases, cloud, security, AI implementation, DevOps, or production engineering | [Chwezi Development Engine](https://github.com/peterbamuhigire/chwezi-dev-engine) |
-| Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | [SRS Skills](https://github.com/peterbamuhigire/srs-skills) |
-| Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | [Website Skills](https://github.com/peterbamuhigire/website-skills) |
-| Typography, visual design, UI/UX, presentation layout, document appearance, and anti-visual-slop review | [Design System Skills](https://github.com/peterbamuhigire/design-system-skills) |
-| Social campaigns, content calendars, community management, and marketing reporting | [Social Media Skills](https://github.com/peterbamuhigire/social-media-skills) |
-| Linux operations, infrastructure, Bash, hardening, services, and server runbooks | [Linux Skills](https://github.com/peterbamuhigire/linux-skills) |
-| Business plans, feasibility, market sizing, financial projections, bankability, or investor readiness | [Business Plan Skills](https://github.com/peterbamuhigire/business-plan-skills) |
+| Current web research, source verification, OSINT, due diligence, policy, law, market, standards, or literature review | <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a> |
+| Accounting, IFRS/IAS, tax, controls, reconciliation, audit, budgets, financial statements, or finance-system doctrine | <a href="https://github.com/peterbamuhigire/chwezi-accounting-doctrine" target="_blank" rel="noopener noreferrer">Chwezi Accounting Doctrine</a> |
+| Software, APIs, databases, cloud, security, AI implementation, DevOps, or production engineering | <a href="https://github.com/peterbamuhigire/chwezi-dev-engine" target="_blank" rel="noopener noreferrer">Chwezi Development Engine</a> |
+| Formal requirements, architecture, testing, deployment, governance, SDLC, or standards-driven documentation | <a href="https://github.com/peterbamuhigire/srs-skills" target="_blank" rel="noopener noreferrer">SRS Skills</a> |
+| Premium website strategy, website delivery, SEO, conversion, launch, and website quality gates | <a href="https://github.com/peterbamuhigire/website-skills" target="_blank" rel="noopener noreferrer">Website Skills</a> |
+| Typography, visual design, UI/UX, presentation layout, document appearance, and anti-visual-slop review | <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills</a> |
+| Social campaigns, content calendars, community management, and marketing reporting | <a href="https://github.com/peterbamuhigire/social-media-skills" target="_blank" rel="noopener noreferrer">Social Media Skills</a> |
+| Linux operations, infrastructure, Bash, hardening, services, and server runbooks | <a href="https://github.com/peterbamuhigire/linux-skills" target="_blank" rel="noopener noreferrer">Linux Skills</a> |
+| Business plans, feasibility, market sizing, financial projections, bankability, or investor readiness | <a href="https://github.com/peterbamuhigire/business-plan-skills" target="_blank" rel="noopener noreferrer">Business Plan Skills</a> |
 
 Resolve the canonical path from the current global routing instructions where a device-specific path differs. Use the smallest relevant stack and preserve each engine's source of truth.
 
