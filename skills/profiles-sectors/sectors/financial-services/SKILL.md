@@ -91,8 +91,8 @@ A solicitation requires **regulatory and accounting boundary**, but one controll
 
 - [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
 <!-- dual-compat-end -->
-- [Accounting and finance doctrine](../../../../../chwezi-accounting-doctrine/doctrine/accounting-finance-doctrine.md) — controlling framework for money, ledger, tax, reporting, and accounting claims.
-- [Finance and accounting quality gate](../../../../../chwezi-accounting-doctrine/governance/finance-accounting-quality-gate.md) — blocker and release-state criteria.
+- [Accounting and finance doctrine](https://github.com/peterbamuhigire/chwezi-accounting-doctrine/blob/main/doctrine/accounting-finance-doctrine.md) — controlling framework for money, ledger, tax, reporting, and accounting claims.
+- [Finance and accounting quality gate](https://github.com/peterbamuhigire/chwezi-accounting-doctrine/blob/main/governance/finance-accounting-quality-gate.md) — blocker and release-state criteria.
 - [references/uganda-financial-sector.md](references/uganda-financial-sector.md) for local sector context.
 - [../SKILL.md](../SKILL.md) to combine this sector with procurement context.
 
