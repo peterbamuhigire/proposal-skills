@@ -34,3 +34,10 @@ commercial promise or submit an external package.
   compliance findings, and the next owner.
 
 Missing mandatory evidence or approval is `NOT ASSESSED` and blocks submission.
+
+## Human approval adapter
+
+Commercial and submission controls are detailed in
+[`approval-enforcement.md`](approval-enforcement.md) and catalogued in
+[`approval-adapter.json`](approval-adapter.json). The final package, recipient,
+pricing, terms, and submission method must pass the shared gate.
