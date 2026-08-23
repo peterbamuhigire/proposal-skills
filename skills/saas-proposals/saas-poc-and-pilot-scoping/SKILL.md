@@ -109,6 +109,17 @@ For a claims-processing pilot, define the sample, baseline, error tolerance, use
 ## References
 
 - [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+## Adoption and experience proof
+
+When the POC or pilot changes a user journey, include first-value and adoption
+evidence alongside technical success: named cohort and role, baseline task
+path, activation event, completion/abandonment definition, accessibility and
+support guardrails, and the exit decision. Keep onboarding optional/contextual
+where safe, and treat mandatory identity, consent, or security steps as
+explicit scope with a reason and recovery path.
+
+Practitioner cross-checks: [Eleken mobile onboarding](https://www.eleken.co/blog-posts/mobile-app-onboarding-best-practices) and [SaaS launch](https://www.eleken.co/blog-posts/how-to-launch-a-saas-business). Do not copy their thresholds or case outcomes into a proposal without buyer-specific evidence.
+
 <!-- dual-compat-end -->
 - [../references/saas-poc-scoping-template.md](../../profiles-sectors/references/saas-poc-scoping-template.md) — the template this skill operationalises.
 - [../references/saas-demo-script-template.md](../../profiles-sectors/references/saas-demo-script-template.md) — the demo that precedes the POC.

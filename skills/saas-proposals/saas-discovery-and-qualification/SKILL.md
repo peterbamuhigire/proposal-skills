@@ -112,6 +112,22 @@ Discovery confirms a month-end reporting delay but no measured baseline. Record 
 ## References
 
 - [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+## Product adoption and validation lens
+
+When the proposal includes a new SaaS product, portal, redesign, or adoption
+promise, add the buyer-specific first-value path to discovery: who must do what
+to perceive value, what currently causes hesitation or abandonment, what setup
+is genuinely required, and how success will be observed. Convert design or
+portfolio inspiration into hypotheses and clarification requests; do not use a
+case study, page visit, registration, or stakeholder enthusiasm as proof of
+demand or adoption.
+
+If evidence is missing, keep the claim qualified and route the uncertainty to a
+POC/pilot or a predeclared discovery experiment with a behaviour threshold,
+guardrail, owner, time box, and decision consequence.
+
+Practitioner cross-checks: [Eleken product-idea validation](https://www.eleken.co/blog-posts/how-to-validate-product-ideas), [mobile onboarding](https://www.eleken.co/blog-posts/mobile-app-onboarding-best-practices), and [AI design workflow](https://www.eleken.co/blog-posts/ai-design-workflow). These are prompts, not buyer evidence.
+
 <!-- dual-compat-end -->
 - [../references/saas-discovery-question-bank.md](../../profiles-sectors/references/saas-discovery-question-bank.md) — pain chain, impact, decision process, critical event.
 - [../references/meddic-and-command-of-message-for-saas.md](../../profiles-sectors/references/meddic-and-command-of-message-for-saas.md) — qualification gate and Six-Lens Value Claim.
