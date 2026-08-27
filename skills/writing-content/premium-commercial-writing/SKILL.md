@@ -142,3 +142,4 @@ Replace “our unmatched expertise guarantees success” with the verified team 
 - [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) - commercial options, premium fee logic, and price defence.
 - [proposal-storytelling-and-evaluator-journey](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) - narrative spine, evaluator journey, and case-story logic.
 - [language-standards](../../language/language-standards/SKILL.md) - language, tone, and anti-AI wording standards.
+- [Human English and reader-centred craft](../../../book-extractions/human-english-craft-synthesis-2026.md) - audience-fit register, grammar, collocation, rhythm, and proof/read-aloud.

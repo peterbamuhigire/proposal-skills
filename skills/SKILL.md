@@ -101,6 +101,7 @@ Fallback: when files, network sources, rendering, spreadsheet tooling, or eviden
 - [Critical analysis and business logic](strategy-positioning/critical-analysis-business-logic/SKILL.md)
 - [Anti-slop production guardrail](meta/anti-ai-slop/SKILL.md)
 - [AI slop audit gate](meta/ai-slop-audit/SKILL.md)
+- [Human English and reader-centred craft](../book-extractions/human-english-craft-synthesis-2026.md)
 <!-- dual-compat-end -->
 
 ## Sub-Skills - Proposal Sections

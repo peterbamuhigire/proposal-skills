@@ -142,3 +142,9 @@ engine; presentation comes from design-system-skills. Hard rule: never use a ban
 (Inter, Geist, Roboto, Arial, Open Sans, Lato, Space Grotesk, bare system stacks) as primary
 type — state the chosen typeface and reason before producing any artifact.
 <!-- /design-system-skills:trigger -->
+
+## Human-English editorial standard (2026-08 Kaizen)
+
+Every proposal, bid, EOI, cover letter, executive summary, methodology, case study, and evaluator-facing message must load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) alongside the profile, ToR, section skill, critical-analysis, and anti-slop gates. Apply its five passes and preserve evaluator-specific register, proof, compliance language, and honest delivery constraints.
+
+The required result is readable British English with concrete verbs, accurate grammar and collocation, purposeful rhythm, visible judgement, and no copy-pasted prestige language. Do not simulate a human voice with errors, forced warmth, unsupported claims, or invented credentials. Record the buyer/purpose, claim-proof map, terms checked, revision/proof status, gaps, reviewer, and date.
