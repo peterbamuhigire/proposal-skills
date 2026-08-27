@@ -93,3 +93,7 @@ For a Ugandan technical proposal, write “programme”, “organisation”, and
 - [English-only East African standard](../east-african-english/SKILL.md)
 - [Proposer profile router](../../profiles-sectors/profiles/SKILL.md)
 <!-- dual-compat-end -->
+
+## Human-English overlay
+
+Before drafting or reviewing English, load [`human-english-craft-synthesis-2026.md`](../../../book-extractions/human-english-craft-synthesis-2026.md). It governs reader, purpose, genre, grammar, collocation, rhythm, and proof. Preserve local terminology where it is correct; do not equate formal English with inflated or bureaucratic English.
