@@ -8,7 +8,7 @@ The engine helps teams keep requirements, evidence, methodology, staffing, sched
 
 ## Current engine state
 
-As at 4 August 2026, the filesystem contains 108 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
+As at 1 September 2026, the filesystem contains 109 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
 
 The engine is not a prompt collection. Each `SKILL.md` is an executable routing or production contract with inputs, outputs, evidence, boundaries, degraded mode, decision rules, quality standards, anti-patterns, and references.
 
@@ -165,6 +165,10 @@ The engine has been strengthened using independently synthesised, copyright-safe
 | Anatomy for Artists and Dynamic Characters | Visual storytelling, composition, gesture, readability, and design-system handoff for proposal documents and presentation assets; extracted anatomy content remains quarantined where unreadable |
 
 These sources improve proposal reasoning and delivery framing; they do not author client-specific facts, legal claims, procurement thresholds, prices, or technical commitments. Current claims must still be researched and verified.
+
+## September 2026 book-driven Kaizen wave
+
+See [`docs/continuous-improvement/book-driven-kaizen-2026-09-01.md`](docs/continuous-improvement/book-driven-kaizen-2026-09-01.md) for the new civil-society cyber-resilience route and health/AI proposal references.
 
 ## Compliance screening and proposal audits
 
