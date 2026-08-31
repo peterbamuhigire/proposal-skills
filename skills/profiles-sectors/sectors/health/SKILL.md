@@ -87,6 +87,10 @@ If the solicitation, profile, current procurement source, sector evidence, netwo
 
 A solicitation requires **care or programme pathway**, but one controlling input is missing. The proposal team applies this rule: Identify users, facility or programme level, referral and data flows, safeguards, and outcome measure. It records the gap and owner, withholds the affected assurance, and proceeds only with content that can be verified. This avoids **intervention that ignores patient safety or delivery constraints**.
 
+## Book-derived additions
+
+- [institutional-health-communication.md](references/institutional-health-communication.md) for participatory, evidence-led health communication proposals.
+
 ## References
 
 - [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.

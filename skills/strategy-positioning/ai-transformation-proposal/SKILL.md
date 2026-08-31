@@ -199,6 +199,7 @@ A buyer wants document classification and a supervisor copilot, with no autonomo
 - [discovery-question-bank-for-proposals](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) - AI use-case, data, workflow, governance, and support discovery.
 - [proposal-objection-handling](../../profiles-sectors/references/proposal-objection-handling.md) - responses to AI quality, cost, risk, data, support, and procurement objections.
 - [saas-multi-tenant-architecture-block](../../profiles-sectors/references/saas-multi-tenant-architecture-block.md) - tenant isolation for AI features.
+- [AI-assisted delivery and quality](references/ai-assisted-delivery-and-quality.md) - interaction modes, execution records, validation, and human approval.
 - [saas-implementation-methodology-blocks](../../profiles-sectors/references/saas-implementation-methodology-blocks.md) - methodology blocks where AI workstreams slot in.
 - [saas-trust-and-compliance-section-template](../../profiles-sectors/references/saas-trust-and-compliance-section-template.md) - trust posture for AI-on-SaaS.
 - [premium-pricing-and-value-defense](../premium-pricing-and-value-defense/SKILL.md) - premium AI fee justification and commercial options.
