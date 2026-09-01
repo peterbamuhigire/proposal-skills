@@ -126,3 +126,4 @@ Run a short reviewer loop after each major revision: independent evaluator read,
 - [ethical-persuasion-and-evaluator-psychology-gate](../../profiles-sectors/references/ethical-persuasion-and-evaluator-psychology-gate.md) - ethical persuasion and evaluator psychology checks.
 - [premium-commercial-writing](../../writing-content/premium-commercial-writing/SKILL.md) - premium commercial writing quality gate for evaluator-friendly prose, case studies, documents, and public content.
 - [05-relevant-experience](../../pipeline/05-relevant-experience/SKILL.md) - relevant experience section owner.
+- [Book-driven value story and evaluator journey](../../meta/references/book-driven-value-story-and-evaluator-journey.md) - evidence-first narrative and currentness gate.
