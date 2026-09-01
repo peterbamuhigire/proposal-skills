@@ -94,9 +94,18 @@ The product requires its own evaluator and evidence result.
 
 If a draft scores well on narrative but fails two mandatory ToR requirements, keep the score capped, block release, repair the compliance matrix and evidence, then repeat the evaluator simulation.
 
+## Mandatory Digital Research currentness gate
+
+Every Kaizen cycle must begin with `digital-research-skills` source evaluation
+and source verification. Record scope, dates, freshness class, support status,
+uncertainty, and review date for current procurement, market, legal, policy,
+technology, finance, and lifecycle claims; quarantine unsupported claims as
+`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-skills/docs/continuous-improvement/kaizen-currentness-gate.md).
+
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- Portfolio standard: resolve `digital-research-engine` through the global engine-routing table and read its docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md file; if it is unavailable, apply Degraded Mode and mark the portfolio comparison not assessed.
+- Portfolio standard: resolve `digital-research-skills` through the global engine-routing table and read its docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md file; if it is unavailable, apply Degraded Mode and mark the portfolio comparison not assessed.
 - `skills/meta/ai-slop-audit/`
 - `skills/strategy-positioning/critical-analysis-business-logic/`
+- [Book-driven value story and evaluator journey](../references/book-driven-value-story-and-evaluator-journey.md) - evaluator evidence, human story, delivery system, and currentness.
