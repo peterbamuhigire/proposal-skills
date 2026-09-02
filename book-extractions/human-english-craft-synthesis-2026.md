@@ -37,3 +37,7 @@ Could another consultant submit this paragraph unchanged? Add the ToR’s actual
 ## Evidence record
 
 Record buyer/purpose, ToR and profile, claim-proof map, terms checked, revision and proof status, unresolved gaps, reviewer, and date. Editorial polish never substitutes for compliance or evidence.
+
+## Collocation and lexical-precision overlay (2026-09-02)
+
+Apply [`english-collocations-and-lexical-precision-2026-09-02.md`](../skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for the newly studied collocation, register, spelling, idiom, and synonym checks. The proposal should sound like a highly educated professional who has understood the evaluator, not like a thesaurus or a generic consultancy template.

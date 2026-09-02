@@ -143,3 +143,6 @@ Replace “our unmatched expertise guarantees success” with the verified team 
 - [proposal-storytelling-and-evaluator-journey](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) - narrative spine, evaluator journey, and case-story logic.
 - [language-standards](../../language/language-standards/SKILL.md) - language, tone, and anti-AI wording standards.
 - [Human English and reader-centred craft](../../../book-extractions/human-english-craft-synthesis-2026.md) - audience-fit register, grammar, collocation, rhythm, and proof/read-aloud.
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../../language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) before final proposal polish. Premium writing must be tailored, proof-led, natural, and restrained; never ornate or generic.
