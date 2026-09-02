@@ -109,3 +109,4 @@ technology, finance, and lifecycle claims; quarantine unsupported claims as
 - `skills/meta/ai-slop-audit/`
 - `skills/strategy-positioning/critical-analysis-business-logic/`
 - [Book-driven value story and evaluator journey](../references/book-driven-value-story-and-evaluator-journey.md) - evaluator evidence, human story, delivery system, and currentness.
+- [Book-driven Kaizen Wave 3](references/book-driven-kaizen-wave-3-2026-09-02.md) - evaluator evidence, red-team testing, evidence traceability, and controlled AI-assisted delivery.
