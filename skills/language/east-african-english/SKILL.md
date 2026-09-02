@@ -274,3 +274,6 @@ Use this as a benchmark for tone and rhythm:
 
 This skill runs alongside every other skill. It governs what the text says and how it sounds.
 
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md). Retain genuine East African courtesy while removing inflated formality, stock phrases, unearned certainty, and unnatural synonym substitutions.

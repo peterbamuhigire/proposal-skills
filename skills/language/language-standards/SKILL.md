@@ -97,3 +97,6 @@ For a Ugandan technical proposal, write “programme”, “organisation”, and
 ## Human-English overlay
 
 Before drafting or reviewing English, load [`human-english-craft-synthesis-2026.md`](../../../book-extractions/human-english-craft-synthesis-2026.md). It governs reader, purpose, genre, grammar, collocation, rhythm, and proof. Preserve local terminology where it is correct; do not equate formal English with inflated or bureaucratic English.
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](references/english-collocations-and-lexical-precision-2026-09-02.md) alongside this standard. It strengthens precise word choice, natural collocations, evaluator-fit register, idiom restraint, calibrated claims, and proof.
