@@ -6,6 +6,17 @@ Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions
 
 The engine helps teams keep requirements, evidence, methodology, staffing, schedule, risks, measures, assumptions, exclusions, and price aligned so a response can be checked and handed into delivery. It owns proposal content and structure; current or uncertain external claims route to the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>, while formal requirements and implementation work belong with the relevant companion engines.
 
+## Capability map
+
+| Need | Primary route |
+|---|---|
+| Proposal and tender response | `skills/pipeline/` |
+| Evaluator journey, win themes, and positioning | `skills/strategy-positioning/` |
+| Compliance, evidence, and profiles | `skills/profiles-sectors/` |
+| Methodology, work plan, M&E, risk, and safeguards | `skills/domain-delivery/` |
+| Technical, financial, SaaS, AI, and transformation proposals | Relevant domain routes with finance, research, design, or engineering handoff |
+| Review, red-team, rendering, and release | `skills/meta/`, `skills/quality/`, and the release gates |
+
 ## Current engine state
 
 As at 1 September 2026, the filesystem contains 109 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
@@ -81,7 +92,7 @@ The cap is a reporting ceiling, not a waiver. Every improvement plan must target
 14. **Release or recover.** Stop if a mandatory input, evidence item, authority, or controlling rule remains unresolved. Narrow the claim, request the source, record the gap, or return the last safe version.
 15. **Capture the learning.** Record findings, standardise successful improvements, update the relevant skill or reference, and schedule re-measurement.
 
-## Capability map
+## Detailed capability routes
 
 ### Proposal pipeline
 
