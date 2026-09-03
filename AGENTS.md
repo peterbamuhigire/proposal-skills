@@ -10,7 +10,7 @@ The package may read the router, discover skills, inspect Git, and run only decl
 
 Every Kaizen audit, skill edit, reference update, validator change, and
 standardisation decision MUST begin with the Digital Research Engine at
-`C:\wamp64\www\digital-research-skills`. Read its `source-evaluation` and
+`C:\wamp64\www\digital-research-engine`. Read its `source-evaluation` and
 `source-verification` skills and the currentness gate reference
 `docs/continuous-improvement/kaizen-currentness-gate.md`.
 
@@ -163,3 +163,7 @@ type — state the chosen typeface and reason before producing any artifact.
 Every proposal, bid, EOI, cover letter, executive summary, methodology, case study, and evaluator-facing message must load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) alongside the profile, ToR, section skill, critical-analysis, and anti-slop gates. Apply its five passes and preserve evaluator-specific register, proof, compliance language, and honest delivery constraints.
 
 The required result is readable British English with concrete verbs, accurate grammar and collocation, purposeful rhythm, visible judgement, and no copy-pasted prestige language. Do not simulate a human voice with errors, forced warmth, unsupported claims, or invented credentials. Record the buyer/purpose, claim-proof map, terms checked, revision/proof status, gaps, reviewer, and date.
+
+## PORTFOLIO CRAFT CONTRACT
+
+Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Craft a proposal section by section: frame the decision-maker and win thesis, select one argument or compliance response, inspect the brief and evidence, draft the smallest persuasive unit, test it against the evaluation logic and counter-case, refine the language and layout, and record source, review, and acceptance evidence. Keep delivery proof, assumptions, risks, commercial logic, and next action visible. Do not produce a generic full proposal as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass.

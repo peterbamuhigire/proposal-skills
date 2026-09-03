@@ -61,11 +61,11 @@ Fallback: when a source, network check, or named fact is unavailable, return the
 
 ## Workflow
 
-1. Identify the proposal unit, evaluator purpose, and evidence-bearing claims.
-2. Apply the seven guardrails while drafting, not as a later cosmetic pass.
-3. Stop when a required fact, price, credential, or citation cannot be supported.
-4. Recover by verifying, qualifying, or removing the affected claim.
-5. Complete the ship gate and hand the artefact to `ai-slop-audit`.
+1. Identify one proposal unit, evaluator purpose, decision, and evidence-bearing claims; do not draft the full response as one opaque batch.
+2. Inspect the brief, neighbouring sections, and existing proof before changing the unit.
+3. Apply the seven guardrails while drafting, then test the unit against the evaluator's likely counter-case and make one concrete refinement.
+4. Stop when a required fact, price, credential, or citation cannot be supported; recover by verifying, qualifying, or removing the affected claim.
+5. Complete the ship gate for the revised unit, record the evidence, and hand the artefact to `ai-slop-audit` before selecting the next unit.
 
 ## Quality Standards
 
