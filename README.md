@@ -1,6 +1,6 @@
 # Proposal Skills
 
-Proposal Skills is a dual-compatible Claude Code and Codex engine for planning, drafting, reviewing, improving, and governing consulting proposals and procurement responses. Its [repository control plane](docs/control-plane-adoption.md) routes work to the smallest relevant skill and makes evidence, quality gates, and stop/recovery behaviour explicit.
+Proposal Skills is a dual-compatible engine for turning a real brief, evaluation model, and evidence base into a persuasive, compliant, and deliverable consulting proposal or procurement response. It crafts the response section by section—linking requirements, win thesis, method, people, schedule, risks, measures, price, proof, and authority—so the final document is specific enough to evaluate and grounded enough to deliver.
 
 Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions of Interest, donor and public-sector responses, technical and financial proposals, methodologies, work plans, staffing, monitoring and evaluation, risk, safeguards, and proposal audits. It addresses incomplete compliance, unsupported claims, disconnected delivery logic, and submissions that are persuasive but difficult to evaluate or implement.
 
