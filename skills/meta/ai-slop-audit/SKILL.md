@@ -94,6 +94,14 @@ meaning, not just shared vocabulary. Mark `NOT_ASSESSED` when the Terms of Refer
 register, or source evidence is unavailable. Do not flag required compliance repetition without
 checking whether it carries a distinct trace.
 
+### Impeccable-derived overlay audit
+
+For proposal websites, decks, rendered documents, and visual bid assets, report AS1-AS7 with exact
+evidence and `cli`, `browser`, `llm_only`, or `human_review` mode. Purple gradients, glassmorphism,
+neon glow, AI-beige defaults, decorative editorial scaffolding, and decorative motion are blocking
+visual findings unless a task, state, accessibility, data, or approved brand reason is recorded.
+Mark non-visual checks `not_applicable` and unavailable render evidence `NOT_ASSESSED`.
+
 ## When this runs
 
 **Cadence: run after EACH proposal section or major iteration.** This is the default mode. Whenever a meaningful unit of work is finished, that is a drafted cover letter, an executive summary, an understanding-of-assignment section, a methodology, a work plan, a financial proposal, or a significant revision, run this audit on what was just produced before moving to the next section. Log the verdict. If the verdict is **F (Blocked)**, do not progress to the next section until the blocking findings are fixed. Treat it like a quality gate that runs at every checkpoint, not a one-time review the night before the deadline.
