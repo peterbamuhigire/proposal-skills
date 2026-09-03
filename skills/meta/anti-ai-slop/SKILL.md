@@ -179,6 +179,25 @@ ANTI-SLOP GUARDRAIL (inherit in every proposal section):
 
 If any box is unticked, the section is not ready to submit.
 
+### Impeccable-derived AS overlay
+
+Apply AS1-AS7 to proposal websites, pitch decks, rendered documents, and visual bid assets. In
+ordinary proposal prose use AS1, AS3, AS5, and AS6; mark visual checks `not_applicable`.
+
+| ID | Proposal overlay test |
+|---|---|
+| AS1 | Is the structure, palette, type, or copy pattern specific to this buyer and ToR? |
+| AS2 | Do eyebrows, chips, metrics, badges, or section numbers clarify evaluation or merely stage it? |
+| AS3 | Do win-theme cards and sections distinguish evidence, method, and outcome rather than clone a template? |
+| AS4 | Does any motion, glow, or gradient serve a task, state, or accessibility need? |
+| AS5 | Are examples, images, credentials, and icons verified and assignment-specific? |
+| AS6 | Are buzzwords, em-dash cadence, aphoristic contrasts, and theatrical framing absent? |
+| AS7 | Is the rendered proposal readable, complete, accessible, and free of clipping or overflow? |
+
+For visual proposals and presentations, purple gradients, glassmorphism, neon glow, AI-beige
+defaults, decorative editorial scaffolding, and decorative motion are no-ship choices. Preserve
+mandatory compliance structure and repeated evaluator labels when they carry a traceable function.
+
 ## See also
 
 - `ai-slop-audit` — the detection and audit companion; run it after each section and as the final gate.
