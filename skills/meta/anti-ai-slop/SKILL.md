@@ -86,6 +86,24 @@ Fallback: when a source, network check, or named fact is unavailable, return the
 - [Critical analysis and business logic gate](../../strategy-positioning/critical-analysis-business-logic/SKILL.md)
 <!-- dual-compat-end -->
 
+## Machine-error editorial gate (cross-engine Kaizen)
+
+Apply Digital Research's `docs/continuous-improvement/machine-errors-editorial-gate-2026-09-03.md`
+to every proposal section:
+
+| ID | Proposal adaptation |
+|---|---|
+| ME1 | Does the section add assignment-specific evidence, outcome, or decision rather than repeat the executive summary? |
+| ME2 | Does parallel win-theme language express a real fit, or only balanced rhetoric? |
+| ME3 | Can the evaluator understand the method without another explanation of the heading? |
+| ME4 | Do superlatives stay within the evidence and Terms of Reference? |
+| ME5 | Is each example tied to the named client, sector, assignment, or verified experience? |
+| ME6 | Has the same persuasive device become a proposal tic? |
+| ME7 | Does the section contain a claim, warrant, evidence, risk, assumption, or deliverable decision? |
+
+Merge or cut filler. Preserve repeated compliance wording when it maps to a mandatory requirement,
+but retain the trace to the Terms of Reference.
+
 ## Real-time application (this is a LIVE constraint, not only a final gate)
 
 Apply these rules continuously, as you write, to every sentence, table, claim, and section the moment it is drafted, not only in one pass at the end. The moment you reach for a banned word, a generic value statement, an unverified figure, or a template default, stop and correct it in place. The ship-gate checklist at the end is the final confirmation, not the first time these rules are consulted. If you are mid-draft and notice slop accumulating in an executive summary or a methodology, fix it then. Do not defer to a cleanup pass before submission.
