@@ -87,6 +87,13 @@ When a file, source, renderer, or verification capability is unavailable, mark t
 - [Critical analysis and business logic gate](../../strategy-positioning/critical-analysis-business-logic/SKILL.md)
 <!-- dual-compat-end -->
 
+## Machine-error audit extension
+
+Report ME1-ME7 with exact section, page, table, or paragraph evidence. Compare adjacent sections for
+meaning, not just shared vocabulary. Mark `NOT_ASSESSED` when the Terms of Reference, experience
+register, or source evidence is unavailable. Do not flag required compliance repetition without
+checking whether it carries a distinct trace.
+
 ## When this runs
 
 **Cadence: run after EACH proposal section or major iteration.** This is the default mode. Whenever a meaningful unit of work is finished, that is a drafted cover letter, an executive summary, an understanding-of-assignment section, a methodology, a work plan, a financial proposal, or a significant revision, run this audit on what was just produced before moving to the next section. Log the verdict. If the verdict is **F (Blocked)**, do not progress to the next section until the blocking findings are fixed. Treat it like a quality gate that runs at every checkpoint, not a one-time review the night before the deadline.
