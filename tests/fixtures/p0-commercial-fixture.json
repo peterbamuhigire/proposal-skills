@@ -1,0 +1,8 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA",
+  "requirements": [{"id": "REQ-01", "file_ids": ["FILE-TECH-01"]}],
+  "files": [{"id": "FILE-TECH-01", "envelope": "technical"}, {"id": "FILE-FIN-01", "envelope": "financial"}],
+  "work_packages": [{"id": "WP-01", "acceptance_owner": "delivery-reviewer", "days": 2, "rate": 100, "amount": 200}],
+  "financial_total": 200,
+  "envelopes": {"technical": ["FILE-TECH-01"], "financial": ["FILE-FIN-01"]}
+}

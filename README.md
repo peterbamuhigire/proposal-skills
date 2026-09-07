@@ -311,3 +311,14 @@ Then provide the ToR/RFP/brief, identify the proposer, and state the required de
 ## Authority and safety boundaries
 
 Review, research, audit, critique, routing, and planning are read-only by default. The engine must not invent credentials, certify compliance without evidence, submit a bid, accept contractual terms, publish externally, disclose confidential information, spend money, or change source records without explicit authority. When specialist engineering, finance, research, design, website, Linux, business-plan, or formal SDLC work is required, route it to the canonical sibling engine rather than recreating its doctrine here.
+
+## September 2026 Kaizen execution update
+
+The bounded first wave adds a synthetic commercial fixture and
+`scripts/validate_p0_commercial_fixture.py`. It checks requirement-to-file
+mapping, deliverable acceptance, staffing effort, timeline, price coherence,
+late-envelope handling and approval-state boundaries. The full focused suite
+passes 23 tests. A fixture approval is not a signatory decision, and no bid has
+been submitted or accepted. The next step is independent reconciliation of one
+response fragment before rendering a complete package or starting the
+conditional AI/SaaS pilot.
