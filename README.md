@@ -1,5 +1,7 @@
 # Proposal Skills
 
+For multi-phase proposal work, use the dated [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md). It defines scoped packages, evidence and pricing checkpoints, context hygiene, least agency, and sanitised handling of external content for Claude and Codex without changing runtime capabilities.
+
 Proposal Skills is a dual-compatible engine for turning a real brief, evaluation model, and evidence base into a persuasive, compliant, and deliverable consulting proposal or procurement response. It crafts the response section by section—linking requirements, win thesis, method, people, schedule, risks, measures, price, proof, and authority—so the final document is specific enough to evaluate and grounded enough to deliver.
 
 Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions of Interest, donor and public-sector responses, technical and financial proposals, methodologies, work plans, staffing, monitoring and evaluation, risk, safeguards, and proposal audits. It addresses incomplete compliance, unsupported claims, disconnected delivery logic, and submissions that are persuasive but difficult to evaluate or implement.
