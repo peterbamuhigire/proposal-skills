@@ -37,6 +37,37 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
         financial_files = set(self.package["envelopes"]["financial"]["files"])
         self.assertFalse(technical_files & financial_files)
 
+    def test_duplicate_identifiers_cannot_overwrite_records(self):
+        for collection in ('requirements', 'responses', 'evidence'):
+            with self.subTest(collection=collection):
+                mutated = copy.deepcopy(self.package)
+                mutated[collection].append(copy.deepcopy(mutated[collection][0]))
+                self.assertTrue(any('duplicate' in e for e in validate_bid_package(mutated)))
+
+    def test_missing_mandatory_flag_is_not_optional(self):
+        mutated = copy.deepcopy(self.package)
+        del mutated['requirements'][0]['mandatory']
+        self.assertTrue(any('mandatory must be boolean' in e for e in validate_bid_package(mutated)))
+
+    def test_unavailable_evidence_cannot_support_response(self):
+        mutated = copy.deepcopy(self.package)
+        mutated['evidence'][0]['status'] = 'not-assessed'
+        self.assertTrue(any('is not available' in e for e in validate_bid_package(mutated)))
+
+    def test_approval_needs_named_owner(self):
+        mutated = copy.deepcopy(self.package)
+        mutated['approvals'][0]['owner'] = ' '
+        self.assertIn('technical envelope has no approved review record', validate_bid_package(mutated))
+
+    def test_malformed_shapes_return_findings(self):
+        for value in (None, [], 'text'):
+            self.assertTrue(validate_bid_package(value))
+        for collection in ('requirements', 'responses', 'evidence', 'approvals', 'envelopes'):
+            with self.subTest(collection=collection):
+                mutated = copy.deepcopy(self.package)
+                mutated[collection] = None
+                self.assertTrue(validate_bid_package(mutated))
+
     def test_missing_mandatory_requirement_blocks(self) -> None:
         incomplete = copy.deepcopy(self.package)
         incomplete["responses"] = [
@@ -53,6 +84,39 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
             validate_bid_package(mutated),
             ["requirement M-TECH-01 evidence owner is not technical-lead"],
         )
+
+    def test_evidence_owners_require_nonblank_strings(self) -> None:
+        for owner in (None, '', ' \t', True, 1, ['not-a-name'], {'role': 'not-a-name'}):
+            for target in ('requirements', 'evidence', 'both'):
+                with self.subTest(owner=owner, target=target):
+                    mutated = copy.deepcopy(self.package)
+                    if target in ('requirements', 'both'):
+                        mutated['requirements'][0]['evidence_owner'] = owner
+                    if target in ('evidence', 'both'):
+                        mutated['evidence'][0]['owner'] = owner
+                    errors = validate_bid_package(mutated)
+                    if target in ('requirements', 'both'):
+                        self.assertIn('requirement M-TECH-01 evidence_owner must be a nonblank string', errors)
+                    if target in ('evidence', 'both'):
+                        self.assertIn('evidence E-TECH-01 owner must be a nonblank string', errors)
+
+    def test_parent_traversal_is_rejected_in_all_fixture_paths(self) -> None:
+        for alias in ('technical/../financial/price-schedule.md',
+                      'technical\\..\\financial\\price-schedule.md'):
+            for target in ('files', 'requirements', 'responses', 'all'):
+                with self.subTest(alias=alias, target=target):
+                    mutated = copy.deepcopy(self.package)
+                    if target in ('files', 'all'):
+                        mutated['envelopes']['technical']['files'][0] = alias
+                    for collection in ('requirements', 'responses'):
+                        if target in (collection, 'all'):
+                            mutated[collection][0]['response_location'] = alias
+                    errors = validate_bid_package(mutated)
+                    if target in ('files', 'all'):
+                        self.assertIn('envelope technical files must not contain parent traversal', errors)
+                    for collection in ('requirements', 'responses'):
+                        if target in (collection, 'all'):
+                            self.assertIn(f'{collection} M-TECH-01 response_location must not contain parent traversal', errors)
 
     def test_envelope_file_leakage_blocks_for_location_reason(self) -> None:
         mutated = copy.deepcopy(self.package)
