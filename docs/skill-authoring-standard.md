@@ -1,6 +1,6 @@
 # Proposal skill authoring standard
 
-This repository follows the July 2026 portable skill contract. The canonical engineering source remains `C:\Users\Peter\.claude\skills`; this document translates the applicable contract for proposal skills without copying that engine.
+This repository follows the July 2026 portable skill contract. The canonical engineering source is `C:\wamp64\www\skills-web-dev`; this document translates the applicable contract for proposal skills without copying that engine.
 
 ## Active catalogue
 
@@ -45,7 +45,7 @@ Run these commands from the repository root:
 ```powershell
 python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
 python -X utf8 scripts\routing_smoke_test.py
-python -X utf8 C:\Users\Peter\.claude\skills\skills\sdlc-meta\skill-engine-audit\scripts\engine_compliance.py --root . --active-root skills --details
+python -X utf8 C:\wamp64\www\skills-web-dev\skills\sdlc-meta\skill-engine-audit\scripts\engine_compliance.py --root . --active-root skills --details
 ```
 
 Also run the canonical `quick_validate.py` against every skill directory, repository-specific checks, `git diff --check`, the local safety audit, and the anti-slop audit. A release baseline contains no failure counts; it is not a waiver register.
