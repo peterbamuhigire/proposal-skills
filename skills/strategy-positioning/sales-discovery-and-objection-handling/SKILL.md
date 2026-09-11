@@ -21,11 +21,14 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 ## Domain Method
 
 1. Identify the decision path: sponsor, technical evaluator, procurement, finance, legal, users, and approvers.
-2. Convert vague requirements into discovery questions about outcomes, current pain, decision criteria, constraints, budget logic, and success measures.
-3. Qualify urgency and value: what happens if the client delays, under-scopes, or chooses the cheapest compliant option.
-4. Map likely objections before drafting: price, risk, timeline, staffing, technology, data, maintenance, local delivery, or procurement compliance.
-5. Answer objections ethically: acknowledge the concern, clarify the basis, reframe around value or risk, provide evidence, and define the practical trade-off.
-6. Add follow-up language that makes the next step easy: clarification request, option comparison, presentation agenda, revised scope, or decision memo.
+2. Map open decisions, prerequisites, owners, and proposal sections affected. Resolve facts from the ToR,
+   clarification record, repository, and verified sources instead of asking the buyer to retrieve them.
+3. Ask only the current decision frontier. Batch independent questions, delay dependent commercial or
+   solution choices, accept partial answers, and preserve unresolved dissent.
+4. Qualify urgency and value: what happens if the client delays, under-scopes, or chooses the cheapest compliant option.
+5. Map likely objections before drafting: price, risk, timeline, staffing, technology, data, maintenance, local delivery, or procurement compliance.
+6. Answer objections ethically: acknowledge the concern, clarify the basis, reframe around value or risk, provide evidence, and define the practical trade-off.
+7. Add follow-up language that makes the next step easy: clarification request, option comparison, presentation agenda, revised scope, or decision memo.
 
 ## Quality Standards
 
@@ -143,6 +146,7 @@ The timeline is fixed but data readiness is unknown. Ask who owns data acceptanc
 
 ## References
 
+- Use the SRS engine's `decision-frontier-elicitation` reference as the canonical dependency and shared-understanding method; this skill supplies proposal and buyer-decision fields only.
 - [discovery-question-bank-for-proposals](../../profiles-sectors/references/discovery-question-bank-for-proposals.md) - reusable question bank for buyer discovery and proposal clarification.
 - [ai-agent-commercial-objection-handling](../../profiles-sectors/references/ai-agent-commercial-objection-handling.md) - agent commercial objection playbook.
 - [ai-agent-procurement-objections-on-commercials](../../ai-agent-commercial/ai-agent-procurement-objections-on-commercials/SKILL.md) - agent commercial objection skill.
