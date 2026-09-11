@@ -81,6 +81,16 @@ When a file, source, renderer, or verification capability is unavailable, mark t
 - Treating an inaccessible citation check as passed. Fix: mark it not assessed.
 - Removing useful authored material during cleanup. Fix: record what must be preserved.
 
+## Responsibility audit
+
+The 25 signs are non-diagnostic editing prompts. Require exact artefact evidence before reporting
+a style problem, and report the reader or evaluator cost. Audit claims for scope, date, source fit,
+transformation, limitation, and decision effect; verify client names, experience, quotations,
+statistics, and examples. Separate style from fabrication, provenance, compliance, and genericness;
+unavailable checks remain `NOT_ASSESSED`.
+
+- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+
 ## References
 
 - [Anti-slop production guardrail](../anti-ai-slop/SKILL.md)

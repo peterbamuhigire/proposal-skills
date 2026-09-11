@@ -80,6 +80,16 @@ Fallback: when a source, network check, or named fact is unavailable, return the
 - Removing an unusual but intentional proposer phrase. Fix: preserve authored voice unless it harms clarity or compliance.
 - Hiding an unavailable check. Fix: mark it `not assessed` and state the consequence.
 
+## Responsibility overlay
+
+Use the 25 signs to improve clarity and bid credibility, never to accuse a writer of using AI.
+For each client, assignment, capability, result, legal, price, or schedule claim, retain scope,
+date, source fit, transformation, limitation, and evaluator consequence. Label hypothetical
+method examples and never turn generated profiles or past performance into fact. Apply ME1-ME7,
+preserve purposeful compliance repetition, and mark unavailable evidence `NOT_ASSESSED`.
+
+- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+
 ## References
 
 - [AI slop audit companion](../ai-slop-audit/SKILL.md)
