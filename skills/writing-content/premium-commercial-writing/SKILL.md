@@ -138,6 +138,7 @@ Replace “our unmatched expertise guarantees success” with the verified team 
 - [document-section-patterns](references/document-section-patterns.md) - document-specific patterns for proposals, cover letters, summaries, case studies, business documents, and blogs.
 - [seo-ai-search-writing](references/seo-ai-search-writing.md) - SEO and AI-search guidance for public-facing articles, web documents, and thought leadership.
 - [book-extractions-audit-synthesis](references/book-extractions-audit-synthesis.md) - copyright-safe audit and synthesis rules for book and EPUB-derived inspiration.
+- [buyer-psychology-and-evaluator-persuasion](references/buyer-psychology-and-evaluator-persuasion.md) - transparent buyer psychology, evaluator journey, win themes, risk handling, and compliant choice architecture.
 - [premium-client-proposal-strategy](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) - premium buyer positioning and executive proposal strategy.
 - [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) - commercial options, premium fee logic, and price defence.
 - [proposal-storytelling-and-evaluator-journey](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) - narrative spine, evaluator journey, and case-story logic.
