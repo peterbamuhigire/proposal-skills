@@ -34,6 +34,7 @@ This parent skill covers the full range of consulting proposal documents. All ac
 1. Identify the requested document or proposal section.
 2. Load `skills/profiles-sectors/profiles/SKILL.md` before drafting proposal text so voice and identity are consistent.
 3. Load the relevant numbered section skill, then add procurement, sector, and supporting domain skills only where they materially improve the output.
+3a. For a hotel, resort, lodge, inn, guest house, restaurant, bar, catering, or event-venue brief, load `profiles-sectors/sectors/hospitality-hotel-restaurant/SKILL.md` and route the financial, requirements, website, social, and engineering handoffs it names.
 4. Load `skills/strategy-positioning/website-design-proposal-strategy/SKILL.md` whenever the proposal includes website design, redesign, SEO, web content, ecommerce, portal, landing page, web frontend, hosting, maintenance, or website costing.
 5. Load `skills/domain-delivery/retail-transformation-proposal/SKILL.md` whenever the proposal includes retail, omnichannel, e-commerce operations, POS, merchandising, pricing, promotions, markdowns, loyalty, CRM, fulfilment, returns, store operations, shrink, vendor terms, private label, planogram, new-store opening, or retail KPI/WBR scope.
 6. Load premium, discovery, service-design, storytelling, support, and pricing skills where the buyer context, value defence, implementation credibility, or post-launch operation requires them.
@@ -105,6 +106,14 @@ Fallback: when files, network sources, rendering, spreadsheet tooling, or eviden
 ## Book-informed technical-proposal route
 
 For technology-related proposals, load [the 2026-09-14 technical-proposal synthesis](../book-extractions/2026-09-14-technical-proposal-synthesis.md) and connect buyer outcomes to scenarios, architecture, delivery evidence, risks, operations, and cost drivers.
+
+## Hospitality proposal route
+
+For hospitality work, load `profiles-sectors/sectors/hospitality-hotel-restaurant/SKILL.md`.
+Treat room nights, F&B, events, guest service, staffing, safety, payments,
+privacy, seasonality, channel costs, training and handover as connected proposal
+logic. Do not promise occupancy, margins, reviews, certifications, AI citations,
+or system capability without attributable evidence.
 <!-- dual-compat-end -->
 
 ## Sub-Skills - Proposal Sections
