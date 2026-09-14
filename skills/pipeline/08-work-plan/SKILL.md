@@ -119,6 +119,9 @@ When the assignment must manage accounts, budgets, donor funds, project advances
 - Donor/client financial report review cycles.
 - Audit-file assembly and close-out financial report.
 
+## Book-informed technical-proposal route
+
+For technical work, use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) to schedule validation, review, QA, rollout, support, and optimisation as real delivery events.
 <!-- dual-compat-end -->
 
 ## References
