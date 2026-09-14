@@ -82,6 +82,9 @@ Without complete scope, evidence, schedule, or team data, return a bounded outli
 ## Worked Example
 For an ERP bid, sequence discovery, posting-rule design, configured prototype, migrated-data rehearsal, UAT, cutover, and first close, each with finance-owner approval and recovery conditions.
 
+## Book-informed technical-proposal route
+
+For technical work, use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) to make each phase produce verifiable engineering evidence and a clear handoff.
 <!-- dual-compat-end -->
 
 ## QC Story, PDCA, compliance screening, and review

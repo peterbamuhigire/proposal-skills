@@ -102,6 +102,9 @@ Fallback: when files, network sources, rendering, spreadsheet tooling, or eviden
 - [Anti-slop production guardrail](meta/anti-ai-slop/SKILL.md)
 - [AI slop audit gate](meta/ai-slop-audit/SKILL.md)
 - [Human English and reader-centred craft](../book-extractions/human-english-craft-synthesis-2026.md)
+## Book-informed technical-proposal route
+
+For technology-related proposals, load [the 2026-09-14 technical-proposal synthesis](../book-extractions/2026-09-14-technical-proposal-synthesis.md) and connect buyer outcomes to scenarios, architecture, delivery evidence, risks, operations, and cost drivers.
 <!-- dual-compat-end -->
 
 ## Sub-Skills - Proposal Sections

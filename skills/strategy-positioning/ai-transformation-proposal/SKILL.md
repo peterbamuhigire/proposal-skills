@@ -191,6 +191,9 @@ If required files, interviews, finance doctrine, search evidence, calculation to
 
 A buyer wants document classification and a supervisor copilot, with no autonomous actions. Use this skill, define evaluation and human review, and do not import agentic autonomy claims.
 
+## Book-informed technical-proposal route
+
+Use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) for evaluation cases, human oversight, fallback, AI cost drivers, and maintenance ownership.
 <!-- dual-compat-end -->
 
 ## References

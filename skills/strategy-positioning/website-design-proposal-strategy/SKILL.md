@@ -139,6 +139,9 @@ If required files, interviews, finance doctrine, search evidence, calculation to
 
 A membership portal needs public content, payments, and restricted resources. Separate website and application scope, name content owners, verify integration assumptions, and define launch acceptance and support.
 
+## Book-informed technical-proposal route
+
+Use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) to connect website outcomes to page scenarios, performance/accessibility proof, ownership, and staged learning.
 <!-- dual-compat-end -->
 
 ## References
