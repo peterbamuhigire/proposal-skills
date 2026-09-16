@@ -21,6 +21,13 @@ The engine helps teams keep requirements, evidence, methodology, staffing, sched
 
 ## Current engine state
 
+## Prompt-generation capability — September 2026
+
+The engine generates proposal prompts that preserve the solicitation/evaluation
+boundary, evidence and compliance matrix, win thesis, deliverables, risks,
+assumptions, approval gates, and acceptance checks through the local [domain
+prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md).
+
 As at 1 September 2026, the filesystem contains 109 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
 
 The engine is not a prompt collection. Each `SKILL.md` is an executable routing or production contract with inputs, outputs, evidence, boundaries, degraded mode, decision rules, quality standards, anti-patterns, and references.
