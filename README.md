@@ -21,7 +21,9 @@ The engine helps teams keep requirements, evidence, methodology, staffing, sched
 
 ## Current engine state
 
-## Prompt-generation capability — September 2026
+## Prompt-generation capability — 2026-09-17
+
+This release adds evidence-first candidate testing, failure-slice review, and explicit `NOT_ASSESSED` handling for volatile prompt claims.
 
 The engine generates proposal prompts that preserve the solicitation/evaluation
 boundary, evidence and compliance matrix, win thesis, deliverables, risks,
