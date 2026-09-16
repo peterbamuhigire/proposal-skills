@@ -188,6 +188,10 @@ Every proposal, bid, EOI, cover letter, executive summary, methodology, case stu
 
 The required result is readable British English with concrete verbs, accurate grammar and collocation, purposeful rhythm, visible judgement, and no copy-pasted prestige language. Do not simulate a human voice with errors, forced warmth, unsupported claims, or invented credentials. Record the buyer/purpose, claim-proof map, terms checked, revision/proof status, gaps, reviewer, and date.
 
+## DOMAIN PROMPT GENERATION CONTRACT
+
+For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md). Generate a ready-to-paste prompt with buyer/decision, ToR, win or compliance objective, evidence, delivery proof, evaluator logic, commercial and language constraints, output, and red-team checks. Never invent credentials or proof. **Ready-to-paste prompt:** include assumptions, evidence/rights flags, and next action. **Failure action:** repair one unsupported section or regenerate the argument structure.
+
 ## PORTFOLIO CRAFT CONTRACT
 
 Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Craft a proposal section by section: frame the decision-maker and win thesis, select one argument or compliance response, inspect the brief and evidence, draft the smallest persuasive unit, test it against the evaluation logic and counter-case, refine the language and layout, and record source, review, and acceptance evidence. Keep delivery proof, assumptions, risks, commercial logic, and next action visible. Do not produce a generic full proposal as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass.
