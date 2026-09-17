@@ -17,7 +17,7 @@ The engine helps teams keep requirements, evidence, methodology, staffing, sched
 | Compliance, evidence, and profiles | `skills/profiles-sectors/` |
 | Methodology, work plan, M&E, risk, and safeguards | `skills/domain-delivery/` |
 | Technical, financial, SaaS, AI, and transformation proposals | Relevant domain routes with finance, research, design, or engineering handoff |
-| Review, red-team, rendering, and release | `skills/meta/`, `skills/quality/`, and the release gates |
+| Review, red-team, rendering, and release | `skills/meta/` (including the `ai-slop-audit` and `skill-safety-audit` quality gates) and the release gates |
 
 ## Current engine state
 
@@ -30,7 +30,7 @@ boundary, evidence and compliance matrix, win thesis, deliverables, risks,
 assumptions, approval gates, and acceptance checks through the local [domain
 prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md).
 
-As at 1 September 2026, the filesystem contains 109 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
+As at 17 September 2026, the filesystem contains 110 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
 
 The engine is not a prompt collection. Each `SKILL.md` is an executable routing or production contract with inputs, outputs, evidence, boundaries, degraded mode, decision rules, quality standards, anti-patterns, and references.
 
