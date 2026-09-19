@@ -157,6 +157,9 @@ The engine contains dedicated proposal families for:
 
 These skills require explicit boundaries around autonomy, human authority, evaluation, reversibility, intervention, model-provider dependencies, data handling, and operational responsibility.
 
+For healthcare and health-financing proposals, use the evidence-pack references in
+`skills/profiles-sectors/references/`: [health IT integration and tenant evidence](skills/profiles-sectors/references/health-it-integration-and-tenant-evidence.md), [governance and budget decision pack](skills/profiles-sectors/references/healthcare-governance-budget-decision-pack.md), and [HR safety, conduct and metric evidence](skills/profiles-sectors/references/healthcare-hr-safety-and-metric-evidence.md). They define procurement questions, evidence fields, negative cases, reviewer roles, and `NOT_ASSESSED` handling; they do not certify a vendor, budget, workforce case, or clinical control.
+
 ### Writing and quality controls
 
 - `skills/language/east-african-english/` and `skills/language/language-standards/` maintain British English and appropriate professional tone.
@@ -191,6 +194,18 @@ These sources improve proposal reasoning and delivery framing; they do not autho
 ## September 2026 book-driven Kaizen wave
 
 See [`docs/continuous-improvement/book-driven-kaizen-2026-09-01.md`](docs/continuous-improvement/book-driven-kaizen-2026-09-01.md) for the new civil-society cyber-resilience route and health/AI proposal references.
+
+## Phase 1 Kaizen evidence contracts - 19 September 2026
+
+The bounded health slice adds three proposal-owned evidence references and a
+synthetic validator for normal and failure paths. The validator covers wrong-
+tenant read/write, duplicate and interrupted integration cases; authority and
+source requirements for governance decisions; material budget basis, period and
+reviewer checks; conduct-case closure; safety-critical competency; and
+second-reviewer metric reproduction. The fixture is explicitly fictional. B08-A03
+remains deferred because denial/compliance review is not a proposal-owned route;
+the canonical implementation surface is assigned to SRS and finance engines.
+See [`docs/continuous-improvement/kaizen-phase-1-proposal-2026-09-19.md`](docs/continuous-improvement/kaizen-phase-1-proposal-2026-09-19.md).
 
 ## Compliance screening and proposal audits
 
