@@ -112,6 +112,7 @@ If the current sub-processor register is unavailable, answer the affected questi
 ## References
 
 - [Proposal skill router](../../SKILL.md) — routing, profile, reasoning, and final quality gates.
+- [../references/health-it-integration-and-tenant-evidence.md](../../profiles-sectors/references/health-it-integration-and-tenant-evidence.md) - health IT integration, tenant-isolation, audit, subprocessor and exit evidence questions.
 <!-- dual-compat-end -->
 - [../references/saas-procurement-and-security-questionnaire-playbook.md](../../profiles-sectors/references/saas-procurement-and-security-questionnaire-playbook.md) — primary playbook.
 - [../references/ai-on-saas-procurement-questionnaire-pack.md](../../profiles-sectors/references/ai-on-saas-procurement-questionnaire-pack.md) — AI questionnaire answer pack.

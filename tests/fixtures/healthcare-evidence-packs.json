@@ -1,0 +1,93 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA",
+  "evidence_records": [
+    {
+      "evidence_id": "SRC-SYNTH-INTEGRATION-01",
+      "claim": "The synthetic wrong-tenant cases deny access.",
+      "source_scope": "Synthetic validator fixture only",
+      "source_version": "fixture-1",
+      "publication_or_revision_date": "2026-09-19",
+      "access_date": "2026-09-19",
+      "verification_date": "2026-09-19",
+      "freshness_class": "context-bound",
+      "review_date": "2026-10-19",
+      "uncertainty": "Synthetic result; not production evidence.",
+      "owner": "fixture-maintainer",
+      "support_review": {
+        "state": "supported",
+        "source_ids": ["SRC-SYNTH-INTEGRATION-01"],
+        "reviewer": "independent-fixture-reviewer",
+        "basis": "Observed validator fixture result",
+        "review_date": "2026-09-19"
+      }
+    },
+    {
+      "evidence_id": "SRC-SYNTH-BUDGET-01",
+      "claim": "The synthetic material budget line has a measured-driver basis and a named reviewer.",
+      "source_scope": "Synthetic validator fixture only",
+      "source_version": "fixture-1",
+      "publication_or_revision_date": "2026-09-19",
+      "access_date": "2026-09-19",
+      "verification_date": "2026-09-19",
+      "freshness_class": "context-bound",
+      "review_date": "2026-10-19",
+      "uncertainty": "Synthetic result; not an approved budget.",
+      "owner": "fixture-maintainer",
+      "support_review": {
+        "state": "supported",
+        "source_ids": ["SRC-SYNTH-BUDGET-01"],
+        "reviewer": "independent-fixture-reviewer",
+        "basis": "Observed validator fixture result",
+        "review_date": "2026-09-19"
+      }
+    },
+    {
+      "evidence_id": "SRC-SYNTH-HR-01",
+      "claim": "The synthetic conduct, competency, and metric records meet the closure and reproduction gates.",
+      "source_scope": "Synthetic validator fixture only",
+      "source_version": "fixture-1",
+      "publication_or_revision_date": "2026-09-19",
+      "access_date": "2026-09-19",
+      "verification_date": "2026-09-19",
+      "freshness_class": "context-bound",
+      "review_date": "2026-10-19",
+      "uncertainty": "Synthetic result; not HR, clinical, or privacy evidence.",
+      "owner": "fixture-maintainer",
+      "support_review": {
+        "state": "supported",
+        "source_ids": ["SRC-SYNTH-HR-01"],
+        "reviewer": "independent-fixture-reviewer",
+        "basis": "Observed validator fixture result",
+        "review_date": "2026-09-19"
+      }
+    }
+  ],
+  "integration_tenant_checks": {
+    "cases": [
+      {"case_id": "wrong-tenant-read", "expected": "deny", "observed": "deny", "state": "supported", "evidence_ids": ["SRC-SYNTH-INTEGRATION-01"], "reviewer": "security-reviewer", "review_date": "2026-09-19"},
+      {"case_id": "wrong-tenant-write", "expected": "deny", "observed": "deny", "state": "supported", "evidence_ids": ["SRC-SYNTH-INTEGRATION-01"], "reviewer": "security-reviewer", "review_date": "2026-09-19"},
+      {"case_id": "duplicate-event", "expected": "idempotent-or-held", "observed": "idempotent-or-held", "state": "supported", "evidence_ids": ["SRC-SYNTH-INTEGRATION-01"], "reviewer": "integration-reviewer", "review_date": "2026-09-19"},
+      {"case_id": "interrupted-transfer", "expected": "resume-or-reconcile", "observed": "resume-or-reconcile", "state": "supported", "evidence_ids": ["SRC-SYNTH-INTEGRATION-01"], "reviewer": "integration-reviewer", "review_date": "2026-09-19"}
+    ]
+  },
+  "governance_budget": {
+    "decisions": [
+      {"decision_id": "DEC-SYNTH-01", "status": "approved", "authority": "fictional governance committee", "approval_reference": "MIN-SYNTH-01", "review_date": "2026-09-19", "evidence_ids": ["SRC-SYNTH-BUDGET-01"]}
+    ],
+    "budget_lines": [
+      {"line_id": "BUD-SYNTH-01", "material": true, "basis_type": "measured-driver", "basis_source_id": "SRC-SYNTH-BUDGET-01", "period": "2026-Q4", "reviewer": "fictional finance reviewer", "evidence_ids": ["SRC-SYNTH-BUDGET-01"]}
+    ],
+    "links": {"service": ["SERVICE-SYNTH-01"], "staffing": ["ROLE-SYNTH-01"], "cash": ["CASH-SYNTH-01"], "risks": ["RISK-SYNTH-01"], "milestones": ["MILESTONE-SYNTH-01"]}
+  },
+  "hr_safety_metrics": {
+    "conduct_cases": [
+      {"case_id": "CASE-SYNTH-01", "status": "closed", "disposition": "fictional disposition recorded", "staff_response": "fictional response recorded", "reviewer": "fictional HR reviewer", "closed_at": "2026-09-19", "evidence_hold_decision": "retained then released by fictional reviewer", "evidence_ids": ["SRC-SYNTH-HR-01"]}
+    ],
+    "competencies": [
+      {"competency_id": "COMP-SYNTH-01", "safety_critical": true, "gap_status": "cleared", "evidence_ids": ["SRC-SYNTH-HR-01"]}
+    ],
+    "metrics": [
+      {"metric_id": "METRIC-SYNTH-01", "definition": "fictional completed safety briefing rate", "source_system": "synthetic-export", "period_start": "2026-07-01", "period_end": "2026-09-30", "calculation": "fictional numerator divided by fictional denominator", "second_reviewer": "independent-fixture-reviewer", "reproduction_inputs_or_hash": "synthetic-inputs-v1", "evidence_ids": ["SRC-SYNTH-HR-01"]}
+    ]
+  }
+}
