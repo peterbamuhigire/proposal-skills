@@ -88,7 +88,7 @@ date, source fit, transformation, limitation, and evaluator consequence. Label h
 method examples and never turn generated profiles or past performance into fact. Apply ME1-ME7,
 preserve purposeful compliance repetition, and mark unavailable evidence `NOT_ASSESSED`.
 
-- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+- Shared standard: [`AI-slop responsible publishing`](../../../../chwezi-dev-engine/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
 
 ## References
 

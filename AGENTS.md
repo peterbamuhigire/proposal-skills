@@ -55,7 +55,7 @@ primary sources; quarantine stale/ambiguous/unsupported claims and mark them
 
 Shared agent, command, hook, evidence, and handoff behavior is mapped for
 proposal work in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md)
-and governed centrally by `C:\wamp64\www\skills-web-dev\docs\engine-control-plane.md`.
+and governed centrally by `C:\wamp64\www\chwezi-dev-engine\docs\engine-control-plane.md`.
 
 This repository is a dual-compatible skill system for consulting proposals, procurement responses, and related writing workflows. Active skills live under `skills/`; load the relevant `skills/<skill-name>/SKILL.md` file directly.
 

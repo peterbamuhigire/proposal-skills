@@ -22,6 +22,17 @@ cd proposal-skills
 
 This engine names its sister engines directly in `AGENTS.md`'s mandatory gates — each is an independent, optional install, never a hard dependency. **`digital-research-engine`** is a *mandatory* pre-check for every Kaizen audit, skill edit, and standardisation decision ("Every Kaizen audit... MUST begin with the Digital Research Engine"), and is where current external claims route per this README's own opening. **`chwezi-accounting-doctrine`** is triggered whenever money flows, tax, payroll, grants, or any IFRS/IFRS-for-SMEs content appears in a proposal's financial or commercial sections. **`design-system-skills`** is routed to for every font, layout, colour, and visual-formatting decision on DOCX/PDF/XLSX proposal deliverables, per the engine's own design-trigger block in `AGENTS.md`. `AGENTS.md` also documents named handoffs (not sister-engine installs in the same sense) to the SRS engine once a bid is won and to a website-delivery engine for website-led work.
 
+## Content integrity
+
+This repository contains no client names, client data, or project-specific
+work product; client and proposal workspace directories are excluded from
+version control by design (see `.gitignore`). Users installing this engine
+should still exercise their own due diligence — you can ask Claude Code or
+Codex to run a security scan of this engine, its skills, and its reference
+files before relying on it in a sensitive environment (for example: "scan
+this repository for hardcoded secrets, personal paths, or unexpected
+network calls").
+
 ## Capabilities
 
 | Category | Skills | What it covers |
