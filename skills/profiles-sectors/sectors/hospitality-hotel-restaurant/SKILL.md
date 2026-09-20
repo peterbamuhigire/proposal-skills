@@ -150,7 +150,7 @@ Include only blocks supported by the brief or evidence pack:
 
 Route plan economics to `C:\wamp64\www\business-plan-skills`, requirements and
 acceptance to `C:\wamp64\www\srs-skills`, implementation to
-`C:\wamp64\www\skills-web-dev`, finance to
+`C:\wamp64\www\chwezi-dev-engine`, finance to
 `C:\wamp64\www\chwezi-accounting-doctrine`, website work to
 `C:\wamp64\www\website-skills`, and social work to
 `C:\wamp64\www\social-media-skills`.
