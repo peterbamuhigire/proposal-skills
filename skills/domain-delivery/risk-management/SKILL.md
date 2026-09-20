@@ -11,6 +11,8 @@ metadata:
 # Risk Management
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+When the assignment crosses a country, regulated sector, or local delivery dependency, load `skills/meta/operational-readiness-and-localisation/SKILL.md` and promote material readiness gaps into the risk register with owners, hold points, fallbacks, and re-test dates.
+
 <!-- dual-compat-start -->
 
 ## Use When

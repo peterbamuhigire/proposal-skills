@@ -11,6 +11,8 @@ metadata:
 # Work Plan and Timeline
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+When local registration, licensing, staffing, data, logistics, banking, or partner dependencies affect mobilisation, load `skills/meta/operational-readiness-and-localisation/SKILL.md` and carry each material item into the timeline with an owner, evidence, fallback, and acceptance gate.
+
 <!-- dual-compat-start -->
 
 ## Use When
