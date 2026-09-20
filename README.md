@@ -2,11 +2,50 @@
 
 For multi-phase proposal work, use the dated [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md). It defines scoped packages, evidence and pricing checkpoints, context hygiene, least agency, and sanitised handling of external content for Claude and Codex without changing runtime capabilities.
 
-Proposal Skills is a dual-compatible engine for turning a real brief, evaluation model, and evidence base into a persuasive, compliant, and deliverable consulting proposal or procurement response. It crafts the response section by section—linking requirements, win thesis, method, people, schedule, risks, measures, price, proof, and authority—so the final document is specific enough to evaluate and grounded enough to deliver.
+**Proposal Skills** (repository `proposal-skills`) is a 113-skill dual-compatible (Claude Code/Codex) engine for turning a real brief, evaluation model, and evidence base into a persuasive, compliant, and deliverable consulting proposal or procurement response, for the East & Central African market. It crafts the response section by section — linking requirements, win thesis, method, people, schedule, risks, measures, price, proof, and authority — across a numbered `pipeline/` (10 skills), profile/sector/compliance routing (`profiles-sectors/`, 18 skills), delivery-domain methodology (`domain-delivery/`, 16 skills, including GIZ/EU/BMZ local procurement response and retail-transformation proposals), positioning and evaluator-journey skills (`strategy-positioning/`, 10 skills), and dedicated SaaS, AI-on-SaaS, AI-agent product, and AI-agent commercial/SLA families (47 skills combined). Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions of Interest, donor and public-sector responses, technical and financial proposals, methodologies, work plans, staffing, monitoring and evaluation, risk, safeguards, and proposal audits. Concrete use cases: drafting a GIZ/EU local-procurement technical and financial response with the AVB/self-declaration checklist; running a two-reviewer adversarial "bid red-team" pass before a high-stakes submission; building an AI-agent product proposal with autonomy-level, kill-switch, and outcome-pricing exhibits; and fingerprinting the exact submitted files for a deadline-bearing tender so there is a durable receipt of what was sent, when, and to whom. It addresses incomplete compliance, unsupported claims, disconnected delivery logic, and submissions that are persuasive but difficult to evaluate or implement. It owns proposal content and structure; current or uncertain external claims route to the Digital Research Engine, while formal requirements and implementation work belong with the relevant companion engines.
 
-Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions of Interest, donor and public-sector responses, technical and financial proposals, methodologies, work plans, staffing, monitoring and evaluation, risk, safeguards, and proposal audits. It addresses incomplete compliance, unsupported claims, disconnected delivery logic, and submissions that are persuasive but difficult to evaluate or implement.
+## Installation
 
-The engine helps teams keep requirements, evidence, methodology, staffing, schedule, risks, measures, assumptions, exclusions, and price aligned so a response can be checked and handed into delivery. It owns proposal content and structure; current or uncertain external claims route to the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>, while formal requirements and implementation work belong with the relevant companion engines.
+```
+# Native Claude Code plugin
+/plugin marketplace add https://github.com/peterbamuhigire/proposal-skills
+/plugin install proposal@chwezi-proposal
+
+# npm-free, from a clone
+git clone https://github.com/peterbamuhigire/proposal-skills
+cd proposal-skills
+./install.sh --scope project      # macOS/Linux/Git Bash
+.\install.ps1 -scope project      # Windows PowerShell
+```
+
+`install.sh`/`install.ps1` delegate to the vendored `scripts/install-engine.js` (Node ≥18), which also supports `--dry-run` (prints the plan, writes nothing), `--json`, and `--scope user` (default, `~/.claude`) as an alternative to `--scope project` (`.claude` under the current directory).
+
+This engine names its sister engines directly in `AGENTS.md`'s mandatory gates — each is an independent, optional install, never a hard dependency. **`digital-research-engine`** is a *mandatory* pre-check for every Kaizen audit, skill edit, and standardisation decision ("Every Kaizen audit... MUST begin with the Digital Research Engine"), and is where current external claims route per this README's own opening. **`chwezi-accounting-doctrine`** is triggered whenever money flows, tax, payroll, grants, or any IFRS/IFRS-for-SMEs content appears in a proposal's financial or commercial sections. **`design-system-skills`** is routed to for every font, layout, colour, and visual-formatting decision on DOCX/PDF/XLSX proposal deliverables, per the engine's own design-trigger block in `AGENTS.md`. `AGENTS.md` also documents named handoffs (not sister-engine installs in the same sense) to the SRS engine once a bid is won and to a website-delivery engine for website-led work.
+
+## Capabilities
+
+| Category | Skills | What it covers |
+|---|---|---|
+| `profiles-sectors` | 18 | Proposer identity/voice, procurement framework and industry-sector routing, compliance references |
+| `saas-proposals` | 14 | SaaS discovery/qualification, business case & ROI, pricing/packaging, implementation methodology, PoC/pilot scoping, procurement & security questionnaire, customer success, vertical positioning |
+| `domain-delivery` | 16 | Project management, M&E, risk management, stakeholder engagement, GIZ/EU/BMZ local procurement response, EAC e-commerce BDS programme design, retail-transformation proposals |
+| `ai-agent-proposals` | 11 | Eight-phase agentic methodology, autonomy-level discipline, action catalogue, kill-switch architecture, Responsible-AI Agent Commitment, agent procurement Q&A |
+| `ai-on-saas-proposals` | 11 | Three-plane methodology, eval discipline, hallucination SLO, Responsible-AI commitments, AI pricing patterns, AI procurement questionnaire pack |
+| `strategy-positioning` | 10 | Critical-analysis/business-logic gate, website-design proposal strategy, AI-transformation proposals, premium-client and premium-pricing strategy, evaluator-journey storytelling |
+| `pipeline` | 10 | Numbered proposal sections |
+| `meta` | 9 | Kaizen improvement system, anti-ai-slop, ai-slop-audit, bid-red-team-dual-review, submission-proof-and-receipt-discipline, skill-writing, skill-safety-audit |
+| `ai-agent-commercial` | 8 | Agent SLA/credit schedules, commercial packaging, contract-language pack, success-fee/outcome pricing, intervention-credit and abort-refund, MSA/SLA addendum templates |
+| `writing-content` | 3 | Premium commercial writing, blog idea generator, blog writer |
+| `language` | 2 | East African English, language standards |
+
+Total: 113 `SKILL.md` files under `skills/` (including the parent router `skills/SKILL.md`).
+
+## References
+
+- Mustafa, A. et al. *Everything Claude Code* (ECC). GitHub: affaan-m/ECC, 2026. This engine adapts several named ECC skills: `skills/meta/bid-red-team-dual-review/SKILL.md` states its dual-review contract is "adapted from the Santa Method (origin: Ronald Skelton, Founder, RapportScore.ai), read from the ECC skill engine's `skills/santa-method/SKILL.md`"; `skills/meta/submission-proof-and-receipt-discipline/SKILL.md` states it is "distilled from the ECC skill engine's `skills/operator-approval-loop/SKILL.md` — the receipt-and-proof principle only, not its hashing/epoch/claim-token database mechanism"; and `rules/common/core.md` cites "`intent-driven-development` Rule 2 (ECC audit, report 02, §3.2)" for the rule against inferring a tender's evaluation criteria from a past, similar tender.
+- Skelton, Ronald (RapportScore.ai) — named as the origin of the Santa Method underlying `skills/meta/bid-red-team-dual-review/SKILL.md`, via the ECC skill engine (year not stated in the source file).
+
+This engine's `book-extractions/` directory (14 files, e.g. `2026-09-11-commercial-persuasion-and-growth-synthesis.md`, `2026-09-14-technical-proposal-synthesis.md`, `the-saas-playbook-walling-proposal-extraction.md`, `hacking-saas-proposal-extraction.md`) holds synthesis notes rather than fully cited book extractions with named authors, titles, and publishers in the way `business-plan-skills`' `book-extractions/` does; `AGENTS.md` itself states raw books, OCR output, and long extracts must never be stored in this repository, only the minimum distilled facts. No further genuine, fully-cited non-ECC reference beyond the Santa Method attribution above was found in this engine's doctrine, so none is padded in here.
 
 ## Capability map
 

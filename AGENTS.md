@@ -31,6 +31,13 @@ See `.skills-engine/engine-manifest.yaml` for the declarative contract used by t
 
 The package may read the router, discover skills, inspect Git, and run only declared checks. Missing evidence is NOT ASSESSED; writes, pulls, publication, submissions, ledger/filing changes, deployment, or control changes require explicit approval.
 
+## Rules
+
+Always-on cross-cutting principles live in `rules/` — see `rules/README.md`.
+Load `rules/common/core.md` alongside the routed skill for any non-trivial task;
+it is short and does not replace the skill, only sets the baseline the skill
+operates within.
+
 ## Mandatory Digital Research currentness gate for Kaizen
 
 Every Kaizen audit, skill edit, reference update, validator change, and
@@ -87,6 +94,8 @@ This repository is a dual-compatible skill system for consulting proposals, proc
 - Serious analysis and business logic: use [skills/strategy-positioning/critical-analysis-business-logic/SKILL.md](/C:/wamp64/www/proposal-skills/skills/strategy-positioning/critical-analysis-business-logic/SKILL.md) before methodology, work plan, financial, transformation, and final-review outputs
 - Language and tone: use [skills/language/east-african-english/SKILL.md](/C:/wamp64/www/proposal-skills/skills/language/east-african-english/SKILL.md), [skills/language/language-standards/SKILL.md](/C:/wamp64/www/proposal-skills/skills/language/language-standards/SKILL.md), and `skills/writing-content/premium-commercial-writing/` as cross-cutting review layers when commercial polish, proof, or premium value matters
 - Skill maintenance: use [skills/meta/skill-writing/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/skill-writing/SKILL.md), [skills/meta/skill-safety-audit/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/skill-safety-audit/SKILL.md), and [skills/meta/update-claude-documentation/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/update-claude-documentation/SKILL.md)
+- High-stakes bid red-teaming: use [skills/meta/bid-red-team-dual-review/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/bid-red-team-dual-review/SKILL.md) for adversarial two-independent-reviewer verification (both must PASS, max 3 iterations, fresh reviewers each round) with a compliance-sensitive rubric extension, when the stakes exceed what the routine `ai-slop-audit` gate tests. Use alongside `kaizen-improvement-system` step 6's red-team pass, not instead of it.
+- Submission proof for deadline/receipt-bearing tenders: use [skills/meta/submission-proof-and-receipt-discipline/SKILL.md](/C:/wamp64/www/proposal-skills/skills/meta/submission-proof-and-receipt-discipline/SKILL.md) to fingerprint the exact submitted files and hold a durable receipt of what was sent, when, to whom, after the relevant submission checklist (e.g. `giz-eu-local-procurement-response`) has passed its mechanical checks.
 - Anti-slop quality gate: use `skills/meta/anti-ai-slop/SKILL.md` as a real-time guardrail on every section while writing, and `skills/meta/ai-slop-audit/SKILL.md` to grade each section or iteration (A/B/C/F) and as the final gate before submission; grade F blocks submission. These pair with `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md`, which tests the reasoning
 - Blog workflows: use `skills/writing-content/blog-idea-generator/` and `skills/writing-content/blog-writer/` only for content publishing tasks, not for proposal work
 
