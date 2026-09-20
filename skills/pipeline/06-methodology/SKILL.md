@@ -11,6 +11,8 @@ metadata:
 # Approach and Methodology
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+When delivery depends on country-specific operating conditions, load `skills/meta/operational-readiness-and-localisation/SKILL.md` and convert its material dependencies into method phases, approval gates, evidence, and mobilisation hold points.
+
 <!-- dual-compat-start -->
 
 ## Use When

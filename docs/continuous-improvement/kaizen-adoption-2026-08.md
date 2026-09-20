@@ -12,6 +12,7 @@ Consulting proposals, bids, tenders, EOIs, technical and financial proposals, do
 - Add an evaluator-simulation and product-audit reference with the 65-cap/95-target model.
 - Strengthen proposal storytelling with an evidence-led evaluator journey: audience, problem tension, choice, proof, delivery consequence, and decision.
 - Strengthen methodology, M&E, change-management, and technical strategy references with PDCA, QC Story, root-cause analysis, standardisation, and learning reviews.
+- Add a ten-point local operational-readiness route that reconciles banking, tax, licensing, payroll, FX, compliance calendar, logistics, privacy, government interface, and local partnerships across methodology, work plan, team, risk, data/security, and financial proposal content.
 
 ## P1 changes
 

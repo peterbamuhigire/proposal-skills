@@ -33,10 +33,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 1. Read the local adoption plan, proposal router, profile/sector rules, and portfolio standard.
 2. Inventory section routes, references, templates, examples, visual/document handoffs, and release gates.
 3. Score every applicable dimension and product output. Publish `min(raw score, 65)` and record blockers.
-4. Audit compliance, evaluator journey, evidence, methodology, feasibility, staffing, risk, M&E, budget separation, document fidelity, ethics, and submission readiness.
+4. Audit compliance, evaluator journey, evidence, methodology, local operational readiness, feasibility, staffing, risk, M&E, budget separation, document fidelity, ethics, and submission readiness.
 5. Create a P0/P1/P2 plan targeting 95/100. Every action names a file, owner, measure, acceptance proof, and rollback.
 6. Run one time-boxed evaluator simulation or compliance red-team. If the result fails, stop, recover the last safe version, and revise.
-7. Run source-ingestion, anti-slop, document/render, and release gates; standardise successful learning and record the next review.
+7. Run source-ingestion, anti-slop, operational-readiness, document/render, and release gates; standardise successful learning and record the next review.
 
 ## Outputs
 

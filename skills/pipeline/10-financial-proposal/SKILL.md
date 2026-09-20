@@ -11,6 +11,8 @@ metadata:
 # Financial Proposal
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
+When local operating conditions affect price, margin, payment timing, reimbursables, or delivery risk, load `skills/meta/operational-readiness-and-localisation/SKILL.md`. Reconcile its banking, tax, payroll, FX, compliance, logistics, and licensing dependencies with the financial proposal; current statutory values remain Chwezi/source-register controlled.
+
 <!-- dual-compat-start -->
 
 ## Use When

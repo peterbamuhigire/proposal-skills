@@ -6,6 +6,7 @@
     {"id": "cover-letter", "kind": "neighbour", "prompt": "Write the bid cover letter, not the executive summary", "expected": "skills/pipeline/01-cover-letter"},
     {"id": "executive-summary", "kind": "neighbour", "prompt": "Draft the evaluator-facing executive summary, not the cover letter", "expected": "skills/pipeline/02-executive-summary"},
     {"id": "methodology", "kind": "positive", "prompt": "Develop the technical approach and methodology with phases, deliverables and acceptance", "expected": "skills/pipeline/06-methodology"},
+    {"id": "operational-readiness", "kind": "positive", "prompt": "Prove that the proposal is locally executable across banking, tax registration, licensing, payroll, FX, compliance calendar, last-mile logistics, data protection, government interface and credible local partnerships", "expected": "skills/meta/operational-readiness-and-localisation"},
     {"id": "financial", "kind": "negative", "prompt": "Prepare the separate financial proposal price schedule and fee assumptions, not the work plan", "expected": "skills/pipeline/10-financial-proposal"},
     {"id": "giz-local", "kind": "positive", "prompt": "Respond to a GIZ AVB local procurement tender with separate technical and financial zip folders", "expected": "skills/domain-delivery/giz-eu-local-procurement-response"},
     {"id": "retail", "kind": "positive", "prompt": "Propose a retail omnichannel transformation covering POS, merchandising, promotions, fulfilment and shrink", "expected": "skills/domain-delivery/retail-transformation-proposal"},
