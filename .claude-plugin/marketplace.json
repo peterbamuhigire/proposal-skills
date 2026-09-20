@@ -1,0 +1,21 @@
+{
+  "name": "chwezi-proposal",
+  "owner": { "name": "Peter Bamuhigire", "email": "peter.bamuhigire@gmail.com" },
+  "metadata": { "description": "Chwezi proposal engine — consulting proposals, Expressions of Interest, and procurement/tender responses for the East & Central African market" },
+  "plugins": [
+    {
+      "name": "proposal",
+      "source": "./",
+      "description": "94 skills for proposal strategy, EOI and tender response structure, compliance matrices, pricing narratives, and bid red-teaming",
+      "version": "1.0.0",
+      "author": { "name": "Peter Bamuhigire" },
+      "homepage": "https://github.com/chwezi/proposal-skills",
+      "repository": "https://github.com/chwezi/proposal-skills",
+      "license": "MIT",
+      "keywords": ["proposals", "tender", "procurement", "eoi", "bid", "consulting"],
+      "category": "consulting",
+      "tags": ["proposals", "tender", "procurement"],
+      "strict": false
+    }
+  ]
+}
