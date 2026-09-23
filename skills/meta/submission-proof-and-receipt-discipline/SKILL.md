@@ -9,6 +9,7 @@ metadata:
 ---
 
 # Submission Proof and Receipt Discipline
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178. Discipline distilled from the ECC skill engine's `skills/operator-approval-loop/SKILL.md` — the receipt-and-proof principle only, not its hashing/epoch/claim-token database mechanism, which is scoped for an always-on agent dispatching live messages and is not warranted for this engine's document-authoring workflow. See Degraded Mode and the note at the end of this file for the scoping reasoning.
 
 <!-- dual-compat-start -->
@@ -33,6 +34,8 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178. 
 
 ## Workflow
 
+Stop the affected proof path when the final pack, deadline, or receipt evidence is unavailable; record the gap and use the documented recovery route before release.
+
 1. **Fix the submitted state before sending.** Record a content fingerprint of the exact final files: file names, sizes, and a checksum (e.g. `sha256sum` or the OS-native equivalent) for each file in the submission pack. This is the artefact-level equivalent of hashing a draft — cheap, and it settles "which version did we actually send" disputes without needing a database.
 2. **Record the who and how.** Note who performed the submission action, the exact channel used (portal account, email address and subject line, courier and tracking number, or the person who hand-delivered), and the destination address/portal exactly as specified in the ToR/RFP.
 3. **Submit inside the deadline with margin.** Treat the buyer's stated deadline as fixed and jurisdiction/timezone-specific; do not assume your local clock matches the buyer's stated timezone. Submitting close to the deadline increases the cost of any receipt failure (Step 5) because there is no time left to retry.
@@ -42,6 +45,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178. 
 7. **If no receipt arrives**, escalate before the deadline passes, not after: retry the channel, use a documented fallback (alternate email, phone confirmation), and if the deadline is missed by a channel failure, retain every artefact (timestamps, error messages, correspondence) that could support a clarification or protest.
 
 ## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| A proof field or receipt is unavailable | Mark it `NOT_ASSESSED`, record the attempted recovery, and keep the submission state qualified | Treating incomplete delivery evidence as confirmed |
 
 | Condition | Action |
 |---|---|
@@ -67,19 +74,46 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178. 
 
 ## Capability Contract
 
+Preserve the submitted pack and original receipt. A requested submission-proof record authorises local evidence-file creation within scope. This skill alone does not authorise submitting, resending, altering the final pack or contacting the buyer; honour any submission authority already supplied through the governing workflow.
+
 Read, search, and running a checksum command are required. Sending the submission itself, and any related buyer correspondence, requires the same explicit authority already required by the pipeline and domain-delivery skills — this skill does not grant submission authority, it disciplines the proof once authority has been exercised.
 
 ## Degraded Mode
 
+If the receipt mechanism is unavailable, missing, or cannot be retained, mark delivery confirmation `NOT_ASSESSED` and state the limitation before treating the submission as complete. Escalate through the documented fallback while the deadline remains open; do not convert a missing receipt into a pass.
+
 If the channel offers no receipt mechanism at all (e.g. a bare email with no read receipt available), the fingerprint plus a timestamped copy of the sent email (headers included) is the minimum acceptable record — state explicitly that no third-party receipt exists, rather than silently treating the send as proven delivery.
 
 ## Domain Anti-Patterns
+
+- Treating an unavailable receipt as a completed proof record. Fix: mark delivery confirmation `NOT_ASSESSED` and retain the attempted recovery.
+- Editing the submitted files after fingerprinting without regenerating the proof. Fix: freeze the exact pack and recompute the checksum before submission.
+- Treating a sender-held timestamp as a third-party receipt. Fix: label the evidence source and state the remaining delivery uncertainty.
+- Using a local timezone when the tender states another deadline timezone. Fix: copy the tender's timezone into the deadline record and escalate ambiguity.
+- Closing the submission record without reconciling the receipt to the fingerprinted files. Fix: keep the record qualified until a reviewer can match both artefacts.
 
 - Treating "I clicked submit" as proof, with no fingerprint or receipt retained.
 - Storing the only copy of the receipt inside the same folder that keeps getting edited after submission.
 - Submitting minutes before a deadline with no time buffer to recover from a channel failure.
 - Assuming the buyer's stated deadline is in the proposer's local timezone without checking.
 - Reconstructing "what we submitted" from the current working files instead of the fingerprinted record, after the fact.
+
+## Quality Standards
+
+- The proof record identifies the exact files, checksums, submitter, channel, destination, timestamp, stated deadline and receipt reference, or states which field is `NOT_ASSESSED`.
+- The deadline and timezone come from the current ToR/RFP or approved clarification, and any ambiguity is recorded with the conservative action taken.
+- The retained receipt is a separate artefact with enough attribution for an independent reviewer to reconcile it to the fingerprinted submission pack.
+- A channel failure has a documented escalation, fallback, or evidence request before the deadline closes; silence is never treated as confirmation.
+- The record distinguishes an observed receipt, a sender-held artefact, and an inference about delivery, and preserves the release owner's authority boundary.
+
+## References
+
+- [Proposal engine core rules](../../../rules/common/core.md)
+- [GIZ/EU local procurement submission checklist](../../domain-delivery/giz-eu-local-procurement-response/references/submission-pack-checklist.md)
+- [Bid red-team dual review](../bid-red-team-dual-review/SKILL.md)
+- [Skill authoring standard](../../../docs/skill-authoring-standard.md)
+
+<!-- dual-compat-end -->
 
 ## Scoping note: why this is not a port of operator-approval-loop's mechanism
 

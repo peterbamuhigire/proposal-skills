@@ -9,7 +9,8 @@ metadata:
 ---
 
 # Bid Red Team Dual Review
-Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178. Dual-review contract adapted from the Santa Method (origin: Ronald Skelton, Founder, RapportScore.ai), read from the ECC skill engine's `skills/santa-method/SKILL.md`, and scoped to this engine's tender/EOI/compliance context.
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+Dual-review contract adapted from the Santa Method (origin: Ronald Skelton, Founder, RapportScore.ai), read from the ECC skill engine's `skills/santa-method/SKILL.md`, and scoped to this engine's tender/EOI/compliance context.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -86,13 +87,13 @@ Both reviewers must return `PASS` on every criterion for the content to ship. On
 
 ## Decision Rules
 
-| Condition | Action |
-|---|---|
-| Both reviewers PASS all criteria | Ship — record the result as this skill's evidence artefact |
-| Either reviewer FAILs any criterion | Fix and reconverge (Phase 6); never ship on one PASS and one FAIL |
-| 3 iterations exhausted without full PASS | Stop, escalate to a human signatory, do not submit |
-| No genuinely isolated second reviewer available | Downgrade to Degraded Mode and label the result accordingly — never present a single-reviewer pass as a dual-review PASS |
-| Compliance-sensitive extension criterion fails | Treat as a knockout-equivalent finding — same severity as a `kaizen-improvement-system` compliance blocker |
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Both reviewers PASS all criteria | Ship — record the result as this skill's evidence artefact | An undocumented release decision |
+| Either reviewer FAILs any criterion | Fix and reconverge (Phase 6); never ship on one PASS and one FAIL | Majority voting hiding a material finding |
+| 3 iterations exhausted without full PASS | Stop, escalate to a human signatory, do not submit | A fourth attempt turning an unresolved blocker into false assurance |
+| No genuinely isolated second reviewer available | Downgrade to Degraded Mode and label the result accordingly — never present a single-reviewer pass as a dual-review PASS | Context bleed being reported as independent assurance |
+| Compliance-sensitive extension criterion fails | Treat as a knockout-equivalent finding — same severity as a `kaizen-improvement-system` compliance blocker | A legal, financial, or compliance defect being treated as style feedback |
 
 ## Outputs
 
@@ -110,17 +111,34 @@ Both reviewers must return `PASS` on every criterion for the content to ship. On
 
 ## Capability Contract
 
-Read and search are required. Running two independent reviewer agents requires the `Agent` tool or an equivalent isolated second pass; fixing flagged content requires the same drafting authority as the section being reviewed. Final submission remains gated by `kaizen-improvement-system` and this engine's own release rules — this skill produces one input to that gate, not a standalone ship decision.
+Read and search are required. This is a read-only review by default: it may inspect the frozen draft, rubric, ToR/RFP, and evidence register, but may not alter source files, submit a bid, contact a buyer, or certify compliance. Running two independent reviewer agents requires the `Agent` tool or an equivalent isolated second pass; fixing flagged content requires the same explicit drafting authority as the section being reviewed. Final submission remains gated by `kaizen-improvement-system` and this engine's own release rules — this skill produces one input to that gate, not a standalone ship decision.
 
 ## Degraded Mode
 
-Without a genuinely isolated second reviewer (no `Agent` tool, no second human), simulate isolation with an explicit context reset between passes: record Reviewer A's findings verbatim, clear context completely, then run Reviewer B fresh against the same rubric and content with no visibility into Reviewer A's output. Label the result "single-session simulated dual review" rather than a true dual review, since context bleed risk is real even with a reset, and flag this limitation to the release owner.
+If the ToR/RFP, evidence register, frozen draft, or isolated reviewer is unavailable, mark the affected criterion `NOT_ASSESSED` and report the missing input before any release decision. Without a genuinely isolated second reviewer (no `Agent` tool, no second human), simulate isolation with an explicit context reset between passes: record Reviewer A's findings verbatim, clear context completely, then run Reviewer B fresh against the same rubric and content with no visibility into Reviewer A's output. Label the result "single-session simulated dual review" rather than a true dual review, qualify the limitation to the release owner, and do not represent it as a dual-review PASS.
+
+## Quality Standards
+
+- Both reviewers use the same frozen version, rubric, mandatory requirements, and evidence boundary; the verdict record names each input version.
+- Every criterion has a `PASS` or `FAIL` result with a specific cited issue or evidence location; unsupported claims remain findings.
+- The final record states the iteration count, convergence or escalation, unresolved risks, and whether any criterion is `NOT_ASSESSED`.
+- The compliance extension is applied whenever the proposal is regulated, legal, financial, donor-funded, or otherwise compliance-sensitive; no outcome guarantee is accepted without a stated basis.
+- A reviewer result is reproducible from the retained draft, rubric, and evidence register, while submission authority remains outside this skill.
+
+## References
+
+- [Proposal engine core rules](../../../rules/common/core.md)
+- [Kaizen improvement system](../kaizen-improvement-system/SKILL.md)
+- [Skill authoring standard](../../../docs/skill-authoring-standard.md)
+- [Submission proof and receipt discipline](../submission-proof-and-receipt-discipline/SKILL.md)
 
 ## Domain Anti-Patterns
 
-- Letting one reviewer see the other's findings before completing their own pass (anchoring bias).
-- Treating a compliance-sensitive rubric failure as a style note rather than a knockout-equivalent finding.
-- Reusing the same reviewer instance across fix rounds instead of spawning fresh reviewers each round.
-- Inferring "approved terminology" or "jurisdiction-appropriate language" from a similar past tender instead of the current ToR/RFP (see `rules/common/core.md`).
-- Shipping on a fourth iteration instead of escalating after round 3.
-- Presenting a single-reviewer or self-review pass as a dual-review PASS.
+- Letting one reviewer see the other's findings before completing their own pass (anchoring bias). Fix: freeze each brief and retain the independent verdict before reconvergence.
+- Treating a compliance-sensitive rubric failure as a style note rather than a knockout-equivalent finding. Fix: carry the failed criterion into the findings register and release decision.
+- Reusing the same reviewer instance across fix rounds instead of spawning fresh reviewers each round. Fix: start a fresh isolated pass for every iteration.
+- Inferring "approved terminology" or "jurisdiction-appropriate language" from a similar past tender instead of the current ToR/RFP (see `rules/common/core.md`). Fix: mark the check `NOT_ASSESSED` until the current buyer document is available.
+- Shipping on a fourth iteration instead of escalating after round 3. Fix: stop at the third failed round and escalate to the accountable signatory.
+- Presenting a single-reviewer or self-review pass as a dual-review PASS. Fix: label simulated isolation and retain its limitation explicitly.
+
+<!-- dual-compat-end -->

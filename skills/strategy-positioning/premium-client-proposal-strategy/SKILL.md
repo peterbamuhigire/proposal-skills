@@ -23,7 +23,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 2. Frame the problem in executive terms: cost of delay, lost revenue, risk exposure, operational drag, missed opportunity, customer experience, or strategic control.
 3. Build the evaluator journey: what the buyer must understand, believe, trust, and defend before awarding at a premium rate.
 4. Position the firm as the premium answer: specialist insight, method, proof, comparable results, senior team, governance, service quality, and implementation support.
-5. Write the value case before the activity list: outcomes, evidence, risk controls, delivery path, and what changes for the client.
+5. Write the value case before the activity list: outcomes, evidence, risk controls, delivery path, and what changes for the client. Complete [the service promise and proof workpaper](references/premium-service-promise-proof.md); separate supplier-controlled deliverables from conditional commercial outcomes.
 6. Defend the price through value, risk reduction, seniority, quality gates, total cost of ownership, and support rather than broad prestige language.
 7. Prepare ethical objection responses for price, risk, timeline, staffing, technology, local context, and post-launch support.
 8. Run the premium proposal gate before final submission.
@@ -132,6 +132,7 @@ A board is funding a regulated-system redesign. Lead with decision risk, senior 
 
 ## References
 
+- [Premium service promise and proof](references/premium-service-promise-proof.md) - service-specific scope, capacity, fee defence, alternatives and rejection cases.
 - [premium-proposal-gate](references/premium-proposal-gate.md) - executive, enterprise, affluent, high-ticket proposal quality gate.
 - [premium-commercial-writing](../../writing-content/premium-commercial-writing/SKILL.md) - cross-cutting premium writing gate for proposals, executive documents, case studies, and public content.
 - [premium-pricing-and-value-defense](../premium-pricing-and-value-defense/SKILL.md) - premium fee logic, options, value stack, and price defence.
