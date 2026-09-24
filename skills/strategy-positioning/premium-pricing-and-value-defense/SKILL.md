@@ -157,3 +157,9 @@ Procurement asks for 15% off. Offer the reduction only with a narrower workshop 
 - [premium-client-proposal-strategy](../premium-client-proposal-strategy/SKILL.md) - executive and premium-buyer proposal positioning.
 - [saas-pricing-and-packaging-proposal](../../saas-proposals/saas-pricing-and-packaging-proposal/SKILL.md) - SaaS pricing and packaging skill.
 - [saas-business-case-and-roi-modeling](../../saas-proposals/saas-business-case-and-roi-modeling/SKILL.md) - SaaS business case skill.
+
+## Offer Presentation and Strategic-Account Negotiation
+
+- Read [offer presentation and price order](references/offer-presentation-and-price-order.md) when designing options, presenting price, building agency or retainer programmes (fast-signal plus slow-compounding pairing, build inside the programme, three-programme cap, fee floor), running a cost-to-fulfil check, or defending against a cheaper bid.
+- Read [strategic-account negotiation](references/strategic-account-negotiation.md) before renewals, framework negotiations, BAFO rounds or post-award talks with a strategic client: compatible interests first, equivalent-value simultaneous options, conditional labelled concessions, contingent agreements, total-system-cost moves with upstream and downstream parties, negotiation team roles and a post-settlement review. It excludes exaggeration and hidden-term tactics.
+- Price language comes from sections 12 to 14 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md).

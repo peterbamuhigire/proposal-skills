@@ -52,7 +52,7 @@ client communication and production changes require separate approval.
 
 ## Degraded Mode
 
-Return the narrowest qualified proposal outline and an evidence-request list when
+Fallback: return the narrowest qualified proposal outline and an evidence-request list when
 brief, proof, finance, currentness or reviewer inputs are missing.
 
 ## Decision Rules

@@ -172,3 +172,6 @@ A summary table of four to six most relevant assignments, following the format i
 - If the firm is small, position this as an advantage: senior attention, no delegation to juniors, direct access to decision-makers
 - Follow east-african-english standards throughout
 
+## Differentiation Test and Earned Stature
+
+Before writing the company overview or core services, test each claim: could a competent competitor say it unchanged? If so it is a point of parity: keep it short or cut it, and lead with proved points of difference (a narrow specialism, a documented method, named comparable work, a relevant registration). Show niche depth rather than breadth. Include stature signals only when true and evidenced: publications, talks at professional or association events, contributions to standards or sector reports. Never inflate credentials or imply endorsements. Slot-templates and rewrites: section 7 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md).

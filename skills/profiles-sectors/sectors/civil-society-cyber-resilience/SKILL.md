@@ -103,7 +103,7 @@ engagement. Do not perform live incident response from this skill.
 
 ## Degraded Mode
 
-When threat, control, budget, or impact evidence is missing, label the affected
+Fallback: when threat, control, budget, or impact evidence is unavailable, label the affected
 claim as a hypothesis, mark it not assessed, and issue a focused evidence
 request. Return to the affected stage after the evidence is recovered.
 

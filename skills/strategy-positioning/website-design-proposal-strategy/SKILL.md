@@ -139,9 +139,9 @@ If required files, interviews, finance doctrine, search evidence, calculation to
 
 A membership portal needs public content, payments, and restricted resources. Separate website and application scope, name content owners, verify integration assumptions, and define launch acceptance and support.
 
-## Book-informed technical-proposal route
+## Technical-proposal evidence route
 
-Use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) to connect website outcomes to page scenarios, performance/accessibility proof, ownership, and staged learning.
+Use the [technical proposal evidence bridge](../../profiles-sectors/references/technical-proposal-evidence-bridge.md) to connect website outcomes to page scenarios, performance/accessibility proof, ownership, and staged learning.
 <!-- dual-compat-end -->
 
 ## References
@@ -155,3 +155,7 @@ Use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026
 - [customer-service-and-maintenance-proposals](../customer-service-and-maintenance-proposals/SKILL.md) - post-launch support, SLA, maintenance, and escalation language.
 - [premium-pricing-and-value-defense](../premium-pricing-and-value-defense/SKILL.md) - premium website pricing and value defence.
 - [technical-strategy-credibility-checklist](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) - architecture, maintainability, operations, SaaS, and roadmap checks.
+
+## Ownership, Care Plans and Creative Direction
+
+Read [website ownership, care plans and direction boards](references/website-ownership-care-plans-and-direction-boards.md) for the purpose split (outcomes, tasks, pages, measures), the "you own everything" commitments with the client as domain registrant and an asset ownership and access register, the honest design-route comparison, paid creative-direction boards with style cost tiers, care-plan specification and self-care handbook, pre-answered owner questions, and search expectations based on registered current facts (claims CW-01, CW-05, CW-07, CW-08, CW-09). Hand approved scope, purpose statement, ownership register and care-plan commitments to `website-skills` for delivery; visual direction to `design-system-skills`.

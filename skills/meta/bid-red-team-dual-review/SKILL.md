@@ -37,6 +37,8 @@ Dual-review contract adapted from the Santa Method (origin: Ronald Skelton, Foun
 
 ## Workflow
 
+Run the phases in order; stop and recover at any phase whose inputs or verdicts are incomplete.
+
 ### Phase 1 — Fix the target
 
 Freeze the exact text/version under review. Santa Method is a post-generation verification layer, not a drafting technique — do not revise while reviewers are working.

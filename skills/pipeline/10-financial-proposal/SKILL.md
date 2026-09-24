@@ -317,3 +317,12 @@ This is useful when presenting optional scope, alternative commercial options, o
 
 Read the budgeting reference when constructing budgets that need stronger modelling logic, scenario testing, or financial viability checks.
 
+## Cost Paragraph, Options and Guarantees
+
+- **Cost paragraph order:** price, then what the client achieves for it, then what is included beyond that, then why the fit makes price secondary. State the number first; never apologise for it or pad the sentence before it. Use "investment" or "fee" consistently.
+- **Assume a cheaper bid:** restate needs fit, extras and expertise next to the price where the format allows narrative.
+- **Options:** two to four aligned options that differ in scope, support or pace, never in quality controls; one truthful recommendation label; extras priced separately so they can be removed without cutting the core.
+- **Guarantees:** prefer bounded process guarantees ("if we miss the milestone for reasons within our control, next month's fee is waived") to results guarantees; check consumer-protection and contract rules first.
+- Separate-envelope and template rules override narrative placement.
+
+Language: sections 12 to 14 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md); commercial design: [offer presentation and price order](../../strategy-positioning/premium-pricing-and-value-defense/references/offer-presentation-and-price-order.md); negotiation after award or at BAFO: [strategic-account negotiation](../../strategy-positioning/premium-pricing-and-value-defense/references/strategic-account-negotiation.md).

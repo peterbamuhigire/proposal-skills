@@ -186,3 +186,5 @@ The table quotes the discovered `name` and `description` frontmatter values. `[M
 | skills/writing-content/blog-writer/references/editorial-standards.md | 263 | 5ab6de79c336 | Editorial Standards Reference — Blog Writer Skill |
 | skills/writing-content/blog-writer/references/human-voice-standards.md | 319 | 53088d1deb3b | Human Voice Standards — Anti-AI Writing Reference |
 | skills/writing-content/premium-commercial-writing/references/premium-writing-quality-gate.md | 67 | 381d25af5a79 | Premium Writing Quality Gate |
+
+> Note (2026-09-23): the `book-extractions/` folder and the `book-extractions-audit-synthesis.md` reference listed in this historical inventory were removed or rewritten under the owner's no-stored-extractions rule. Their capabilities are preserved in task-oriented skill references; see `docs/continuous-improvement/kaizen-book-integration-2026-09-23.md`.

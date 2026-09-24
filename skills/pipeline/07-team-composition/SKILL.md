@@ -263,3 +263,6 @@ For PPDA, private sector, and smaller bids where TECH-6 is not required:
 - For key experts, emphasise the specific experience that matches this assignment, not a full career history
 - Follow east-african-english standards throughout
 
+## Bio Formula and Strategic-Account Pods
+
+Every bio ends with what the person will do on this assignment: credential or relevant achievement, comparable work, recognition or known clients, then specific responsibility and deliverable (section 9 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md)). For bids to strategic, long-term clients, show the dedicated account pod (about five to nine people), a RASIC by phase, and a named senior sponsor with an agreed commitment, as set out in the [account expansion, value and sponsorship reference](../../strategy-positioning/key-account-pursuit-and-account-plan/references/account-expansion-value-and-sponsorship.md). Never present people who are not bid to the assignment.

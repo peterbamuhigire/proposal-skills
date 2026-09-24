@@ -15,6 +15,13 @@ Lawful access to a source does not grant permission to republish it. Keep the
 source outside the repository and treat any temporary extracted text as
 disposable processing material.
 
+**Owner rule (2026-09-23):** book extractions and book summaries are never
+stored in this repository, in any folder and under any name. There is no
+`book-extractions/` directory. Book knowledge lands only as task-oriented
+`SKILL.md` and `references/` guidance with a short citation (author, year,
+title, publisher). `scripts/source_ingestion_guardrail.py` fails on any
+`book-extractions/` path.
+
 ## Allowed repository content
 
 - Bibliographic attribution and a source register.

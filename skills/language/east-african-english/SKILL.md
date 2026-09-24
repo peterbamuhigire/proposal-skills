@@ -277,3 +277,7 @@ This skill runs alongside every other skill. It governs what the text says and h
 ## English collocation and lexical-precision overlay
 
 Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md). Retain genuine East African courtesy while removing inflated formality, stock phrases, unearned certainty, and unnatural synonym substitutions.
+
+## Proposal phrase bank
+
+For proposal sections, apply the tone rules and slot-templates in the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md): measured and courteous, no US hype idioms, currency with thousand separators, districts and towns named, and the client's own words in needs and goals.

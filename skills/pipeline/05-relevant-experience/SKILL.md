@@ -145,6 +145,10 @@ Order project cards by relevance to the current bid, not by date.
 
 For premium, digital, AI, website, service-design, or support-heavy proposals, add one line after each project card: **Relevance to this assignment:** [specific parallel in outcome, user group, technology, service journey, risk, operating context, or support model]. This helps evaluators see why the example matters, not only that it exists.
 
+## Case-Study Structure
+
+Write each card and case study as stakes, options weighed, what we did, result against baseline, and relevance, using the [case-study and past-performance structure](references/case-study-and-past-performance-structure.md). Apply its credibility tests (owner or participant, baseline present, permission recorded, evidence dated within twelve months) before a project is included, and phrase with section 8 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md).
+
 ## The Outcomes Rule
 
 Every project card must contain at least one quantified outcome. If the user cannot provide numbers, ask specifically:

@@ -34,7 +34,7 @@ All three levels interact. Individual skills are wasted without organisational s
 
 ### The 5C Model (ECDPM)
 
-The European Centre for Development Policy Management developed the 5C Model as an empirically grounded framework for understanding what organisations need to function and survive. The five core capabilities apply at all levels — individual, team, organisation, network, sector, and country (Ubels et al., 2010, Ch. 2).
+The European Centre for Development Policy Management developed the 5C Model as an empirically grounded framework for understanding what organisations need to function and survive. The five core capabilities apply at all levels — individual, team, organisation, network, sector, and country (Ubels et al., 2010).
 
 | # | Capability | Description | Diagnostic Questions |
 |---|-----------|-------------|---------------------|
@@ -48,11 +48,11 @@ The European Centre for Development Policy Management developed the 5C Model as 
 
 ### Multi-Stakeholder Capacity
 
-Capacity often resides not within a single organisation but across networks and value chains. The Uganda oilseeds value chain example (Ubels et al., Ch. 12) demonstrates how CD interventions must address multiple actors — farmers, processors, traders, regulators — simultaneously to achieve systemic results.
+Capacity often resides not within a single organisation but across networks and value chains. In a value chain, for example, CD interventions usually need to reach several actors at once (producers, processors, traders and regulators) to change results at system level (Ubels et al., 2010).
 
 ### Practitioner Roles in CD
 
-Effective CD practitioners combine two skill sets (Ubels et al., Ch. 14):
+Effective CD practitioners combine two skill sets (Ubels et al., 2010):
 - **Content expertise**: technical knowledge, sector experience, analytical tools
 - **Process expertise**: facilitation, relationship building, navigating politics, managing change
 
@@ -60,7 +60,7 @@ The **balanced practitioner** integrates both, knowing when to provide answers a
 
 ### Ownership, Authority, and Conflict
 
-CD is inherently political. Changing capacity means changing power relations, resource allocation, and institutional arrangements. Proposals must acknowledge (Ubels et al., Ch. 10):
+CD is inherently political. Changing capacity means changing power relations, resource allocation, and institutional arrangements. Proposals must acknowledge (Ubels et al., 2010):
 - Who owns the CD process and whose interests it serves
 - How authority structures will be affected
 - What conflicts may arise and how they will be managed
@@ -173,33 +173,37 @@ Systems archetypes are recurring patterns of behaviour in organisations. Recogni
 | **Growth and Underinvestment** | Growth is limited by failure to invest in capacity ahead of demand | Organisation expands services without investing in staff development, quality collapses, demand falls |
 | **Escalation** | Two parties competing for advantage, each escalating in response to the other | Departments competing for CD resources, each inflating their needs to secure funding |
 
-### 11 Laws of the Fifth Discipline
+### Systemic Diagnostic Questions for CD Design
 
-These counterintuitive principles should inform CD design (Senge, 2006):
+Senge's systems-thinking principles and his account of organisational learning blocks (Senge, 2006) are applied here as questions the CD team answers before designing interventions. The grouping and wording are this engine's own.
 
-1. **Today's problems come from yesterday's solutions** — trace current capacity gaps to past interventions and their unintended consequences
-2. **The harder you push, the harder the system pushes back** — forced change generates resistance; work with the system's own dynamics
-3. **Behaviour grows better before it grows worse** — early quick wins from CD may mask deeper problems that surface later
-4. **The easy way out usually leads back in** — simple training solutions rarely address systemic capacity constraints
-5. **The cure can be worse than the disease** — poorly designed CD can create dependency, undermine confidence, or distort incentives
-6. **Faster is slower** — sustainable capacity takes time; compressed timescales produce superficial results
-7. **Cause and effect are not closely related in time and space** — look beyond the immediate intervention site for impacts
-8. **Small changes can produce big results — but the areas of highest leverage are often the least obvious** — invest in diagnostic work to find leverage points
-9. **You can have your cake and eat it too — but not at once** — apparent trade-offs between speed and quality dissolve over longer time horizons
-10. **Dividing an elephant in half does not produce two small elephants** — capacity is systemic; piecemeal approaches fragment it
-11. **There is no blame** — performance gaps are systemic, not personal; focus on structure, not individuals
+**Where did the gap come from?**
+- Which earlier intervention, reform or "quick fix" created or worsened today's capacity gap?
+- Where will the consequences of our intervention appear, and how far (in time and place) from where we act?
+- Which recurring pattern (see the archetypes above) best explains what we observe?
 
-### 7 Learning Disabilities in Organisations
+**Will the system resist or absorb the change?**
+- Where are we pushing against the organisation's own dynamics, and how will it push back?
+- Are early improvements likely to fade or mask a deeper problem that surfaces later?
+- Could our design create dependency, undermine confidence or distort incentives?
+- Does the timetable allow real learning, or will compression produce shallow results?
 
-These common dysfunctions block capacity development (Senge, 2006):
+**Where is the leverage?**
+- What small, non-obvious change (a feedback loop, a decision right, an incentive) would shift performance most?
+- Which trade-offs (speed versus quality, coverage versus depth) disappear if we plan over a longer horizon?
+- Are we splitting a whole system into pieces that no longer work (for example training one unit without the unit it depends on)?
 
-1. **"I am my position"** — staff identify with their role rather than the organisation's purpose; limits cross-functional learning
-2. **"The enemy is out there"** — problems are attributed to external actors (donors, government, market) rather than internal factors
-3. **Illusion of taking charge** — reactive busyness mistaken for proactive strategy; firefighting displaces learning
-4. **Fixation on events** — focus on incidents rather than underlying patterns and systemic causes
-5. **Parable of the boiled frog** — gradual deterioration goes unnoticed until crisis; slow erosion of standards
-6. **Delusion of learning from experience** — limited feedback on consequences of decisions; learning is superficial or wrong
-7. **Myth of the management team** — leadership group protects turf and avoids conflict rather than engaging in genuine inquiry
+**What blocks learning in this organisation?**
+- Do staff see their job only as their post, rather than their contribution to the organisation's purpose?
+- Are problems routinely blamed on outsiders (donors, government, the market) rather than examined internally?
+- Is constant firefighting being mistaken for strategy?
+- Does attention stay on incidents rather than on the patterns behind them?
+- Would a slow decline in standards be noticed before it became a crisis?
+- Do decision-makers ever see the consequences of their decisions, or is feedback too slow or distant to learn from?
+- Does the leadership team debate openly, or does it protect territory and avoid conflict?
+
+**How will we frame findings?**
+- Present performance gaps as features of the system (structures, incentives, information), not as individual failings; avoid blame.
 
 ### Creative Tension Model
 
@@ -342,7 +346,7 @@ Effective CD interventions for adults must follow these principles (Knowles, 198
 
 ### Knowledge Networking for CD
 
-Based on Ubels et al. (Ch. 17), knowledge networks accelerate CD by connecting practitioners across organisations:
+Knowledge networks accelerate CD by connecting practitioners across organisations:
 
 - **Communities of practice (CoPs)**: groups of practitioners sharing knowledge on a common domain; require facilitation, not just a mailing list
 - **Peer assist**: structured process where peers from other organisations help a team facing a challenge
@@ -433,7 +437,7 @@ Capacity development is the primary mechanism for sustainability. Proposals shou
 
 ### M&E of Capacity Development
 
-CD is notoriously difficult to measure because capacity is a latent, multi-dimensional construct. Drawing on Ubels et al. (Ch. 18), effective M&E of CD requires:
+CD is notoriously difficult to measure because capacity is a latent, multi-dimensional construct. Effective M&E of CD requires:
 
 **Combining quantitative and qualitative methods**:
 - Quantitative: training completion rates, test scores, performance metrics, system usage statistics, output indicators

@@ -13,7 +13,7 @@ The proposal engine had strong evaluator logic but language guidance was spread 
 
 ## Improvement implemented
 
-- Added `book-extractions/human-english-craft-synthesis-2026.md` with source limits, five passes, proposal register, grammar/lexical checks, and original anti-slop examples.
+- Added the human-English craft synthesis (moved on 2026-09-23 to `skills/language/language-standards/references/human-english-editorial-standard.md` when the `book-extractions/` folder was removed) with source limits, five passes, proposal register, grammar/lexical checks, and original anti-slop examples.
 - Routed it through `AGENTS.md`, the parent proposal skill, premium-commercial-writing, and language-standards.
 - Preserved profile, ToR, compliance, evidence, finance, and envelope gates; readable prose cannot create proposer credentials or compliance evidence.
 

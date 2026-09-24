@@ -156,110 +156,62 @@ French business storytelling differs from English:
 
 When writing sales-oriented stories, use the frameworks below. For standard blog articles, the Five-Beat Structure (above) remains your primary tool.
 
-## The Dominant Story Idea (Ray Edwards)
+## Sales-Story Procedure
 
-Borrowed from movie trailers. Your product has a story — find it and build your copy around it.
+Use this procedure for landing pages, product pages and conversion copy. It is this engine's own sequence, synthesised from copywriting practice (sources credited briefly at the end of the section); it does not follow any single author's list.
 
-### Three Elements:
+### Step 1. Find the one-sentence story
 
-1. **The Dominant Story Idea (DSI)** — Sum up your product's story the way a movie trailer sums up a film. One sentence. This becomes your headline and lead.
+State the product's story the way a film trailer states a film: one sentence that could become the headline and lead (Ray Edwards calls this the "dominant story idea"). To find it, immerse yourself in the product and the client's world, read strong copy from unrelated industries and ask how its story could apply here, ask "If this product were a film, which film would it be?", and check current events for a timely link.
 
-2. **Sample Feelings** — Show scenes that help the reader feel the feelings they want from the product. These become your bullet points and deck copy.
+Then plan the page around it: put the story sentence in the headline and lead; turn the scenes that let readers feel what they want from the product into the bullet points and supporting copy; and spread proof (testimonials, case studies, before-and-after results) through the whole piece rather than saving it for the end.
 
-3. **Proof It Works** — Testimonials, case studies, before/after. Distributed throughout.
+### Step 2. Gather raw story material
 
-### Finding Your DSI:
-- Immerse yourself in the product and the client's world
-- Read copy from OTHER industries and ask "How might this story apply to my client?"
-- Ask: "If this product were a film, what film would it be?"
-- Watch the news for current tie-ins
+| Source | What to ask for |
+|---|---|
+| Founder or creator | Why it started; the backstory |
+| Product history | Unusual origins, accidents, pivots |
+| Production | Careful processes, new technology, unusual inputs |
+| Staff (service, product, sales) | Moments customers remember |
+| Customers and testimonials | Call them; ask "How did you feel?" and "What changed in how you see things?", not only "What happened?"; record with permission |
+| Current events | A present-day hook |
 
-### Using Your DSI:
-- Get it into the headline and lead
-- Summarise Sample Feelings in bullet points
-- Distribute proof throughout the body
+### Step 3. Shape the story
 
-## John Forde's Story Construction Process (AWAI)
+- Decide the message and the promise the story must support.
+- Draft the key details in two or three different ways and keep the version that works best.
+- Decide the ending first, then pick the one moment that makes the story compelling.
+- Start in the middle, where the action is, not at the beginning.
+- Keep only details that serve the promise; tell it quickly.
+- Close by tying the story to the promise, then move to the rest of the copy.
+- Stay truthful: never invent customers, results or experiences.
 
-### 1. Know Your Story
-- Study everything about the subject
-- Read everything available
-- Close your eyes and tell yourself what the story is about
-- Write the details different ways
-- Pick the most effective approach
+### Step 4. Test the story before publishing
 
-### 2. Prepare Your Story
-- Ask what message you want to convey
-- Identify the key moment that makes it compelling and relates to your promise
+- **Honest and consistent:** true to the brand and consistent with every other touchpoint.
+- **Worth telling:** makes a bold, relevant promise (safety, a shortcut, relief, enjoyment).
+- **Earned:** the brand has the credibility to tell it.
+- **Fast and subtle:** lands in the first lines and leaves the reader room to draw the conclusion.
+- **Felt, not argued:** appeals to feelings and senses as well as logic.
+- **Aimed:** written for a specific audience, not everyone.
+- **Fits the audience's worldview:** confirms what the reader already believes rather than lecturing.
+- **Has tension:** a real obstacle or problem (the "villain" that keeps the reader awake) and how it was overcome.
+- **Makes the reader the hero:** shows how the reader wins.
+- **Gives hope and pulls forward:** rewards progress, hints at what is to come, and ends on the emotion you intended.
+- **Personal and convinced:** a first-hand story proves what argument cannot, and the writer's conviction shows.
+- **Carries the facts painlessly:** key facts are embedded in the story rather than listed.
+- **Raises the stakes:** reminds the reader what matters and why it is worth more than they assumed.
+- **Builds the relationship:** leaves the reader closer to the brand, not only informed.
+- **Has an unexpected angle:** one turn the reader did not see coming keeps them reading.
+- **Sounds natural:** the writer knows the material well enough for the story to read as spontaneous, not scripted.
+- **Makes sense to experts:** knowledgeable readers would not spot anything false.
 
-### 3. Identify the Arc
-- Start by figuring out how the story ENDS
-- List inspiring details and order them
-- Start in the MIDDLE of the story (where the action is) — not the beginning
+### Step 5. Tighten the language
 
-### 4. Construct the Story
-- Make it tight: use only important details, cut ruthlessly
-- Hint at the big benefit to come
-- Tell it quickly — don't meander
-- Stick to the truth
-- Rely on specificity and juicy details
-- When finished, tie it all together with your promise, then transition to the rest
+- **Specific detail over adjectives:** "Within 18 months they had three branches in Kampala, 45 staff and 2,000 orders a week", not "very successful".
+- **Cut filler descriptors:** lovely, amazing, incredible, beautiful, upscale, colourful; replace each with a concrete detail.
+- **Strong verbs:** replace "was" and "had" with verbs that show action ("launched", not "started").
+- **Details others miss:** what was seen, heard, felt; exact numbers; the personal change ("we hired two staff and took our first holiday in three years").
 
-## 6 Places to Find Stories (AWAI)
-
-1. **Talk to the creator/founder** — there's almost always an interesting backstory
-2. **Discover how the product was developed** — unusual origins, accidental discoveries, pivots
-3. **Learn what goes into production** — exotic ingredients, new technology, careful processes
-4. **Talk to the team** — customer service, product development, sales staff all have stories
-5. **Mine testimonials deeply** — call the person, have them expand, record the conversation. Ask "How did you feel?" not just "What happened?"
-6. **Current events and trends** — tie your story to something happening now
-
-## Seth Godin's 9 Qualities of Great Stories
-
-1. **True** — consistent and authentic (not necessarily factual, but always honest)
-2. **Bold promise** — fun, safety, or a shortcut; must be exceptional or not worth telling
-3. **Trusted** — earned credibility to tell the story
-4. **Subtle** — fewer details spelled out = more powerful; let readers draw conclusions
-5. **Happen fast** — first impressions are far more powerful than we credit
-6. **Appeal to senses, not logic** — create feelings, not arguments
-7. **Rarely aimed at everyone** — narrow audience spreads the story; water it down and it appeals to no one
-8. **Don't contradict themselves** — consistency across all touchpoints
-9. **Agree with the audience's worldview** — best stories don't teach anything new; they make the audience feel smart and right
-
-## Jen Stevens' Authenticity Rules (AWAI)
-
-### 1. Employ specific details
-- Bad: "The business was successful, very successful."
-- Good: "Within 18 months, they'd opened three locations across Kampala, employed 45 staff, and processed 2,000 orders per week."
-
-### 2. Avoid filler words
-Eliminate: fashionable, lovely, charming, upscale, colourful, beautiful, amazing, incredible. These are lazy descriptions that don't paint specific pictures. Replace with concrete detail.
-
-### 3. Use strong verbs
-Replace "to be" and "to have" with verbs that describe action or offer visual images.
-- "swept through" instead of "was in"
-- "tucked into" instead of "had"
-- "launched" instead of "started"
-
-### 4. Ferret out details others overlook
-- What did you see, smell, hear, feel?
-- Offer exact numbers
-- When gathering testimonials, don't just ask "what happened" — ask "how did you feel?" and "in what ways did this change how you see things?"
-- Draw out specific details: not "business improved" but "we hired two new staff and finally took a holiday for the first time in three years"
-
-## 14 Storytelling Tips for Copywriters (John Forde, AWAI)
-
-1. **Appear spontaneous** — study until the message is second nature, then write naturally
-2. **Give hope** — for things to come
-3. **Show passion** — necessity, not optional
-4. **Overcome obstacles** — drama is about obstacles and how they're overcome
-5. **Make it personal** — personal stories prove what logic can't
-6. **Name the hero** — show your reader how they'll triumph
-7. **Name a villain** — what keeps the prospect up at night? That's your villain
-8. **Reward and tease** — reward with progress, tease with more to come
-9. **Enlarge and enrich** — remind what's important, raise the bar
-10. **Build a relationship** — between brand and customer, beneath the surface
-11. **Commute facts to the subconscious** — embed facts painlessly through story
-12. **Have a good twist** — unexpected angle that keeps them reading
-13. **Make sense** — knowledgeable customers spot fakes immediately
-14. **Leave them wanting more** — know the final emotion and write toward it
+*Sources credited briefly: Edwards (dominant story idea); John Forde and Jen Stevens for AWAI (story construction and authenticity practice); Seth Godin (qualities of stories that spread). The procedure and wording above are this engine's synthesis.*

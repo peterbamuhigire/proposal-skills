@@ -68,6 +68,10 @@ For each diagnosed pain, run one segment with this micro-structure:
 - "Who else needs to see this demo before the next decision?"
 - Confirm the next meeting date and the decision it will support.
 
+## Provocation: the risk the buyer is not measuring
+
+After the pain-by-pain walk-through and before the commercial snapshot, add one short provocation: a risk, cost or blind spot the buyer has not raised and is probably not measuring today (for example unreconciled tenant data, manual workarounds that hide error rates, or a regulatory reporting gap). State it as a question backed by evidence from discovery ("What would you see if you measured [x]? In our discovery we found [evidence]."), show how the proposed solution makes it visible or controls it, and never exaggerate it. The provocation earns the right to prescribe; if no evidence supports one, omit it.
+
 ## Demo Roles
 
 - **Solution lead** — drives the screens, restates pain, runs the match-check loop.
@@ -81,6 +85,10 @@ For each diagnosed pain, run one segment with this micro-structure:
 - No browser tabs, notifications, or unrelated bookmarks visible.
 - Pre-flight check 30 minutes before: data refresh, screen resolution, audio, secondary monitor, backup recording.
 - A backup recorded demo available for replay if connectivity fails.
+
+## Demo Library as a Hand-Over Deliverable
+
+Where the engagement includes hand-over to the client's own teams, commit to demo design as a deliverable: discovery-tuned scripts, a maintained demo environment, and a **recorded library of short, role-specific demos** (for example administrator, supervisor, finance approver, end user), each tied to one workflow and one outcome. Name the owner who keeps recordings current after each release and where the library is stored. Treat the library as a priced line in the financial proposal, not a free extra.
 
 ## Anti-Patterns
 

@@ -152,3 +152,7 @@ A public portal needs weekend coverage but not 24-hour resolution. Define priori
 - [ai-transformation-proposal](../ai-transformation-proposal/SKILL.md) - AI monitoring, evaluation refresh, and operational support context.
 - [saas-customer-success-and-adoption-proposal](../../saas-proposals/saas-customer-success-and-adoption-proposal/SKILL.md) - SaaS customer success skill.
 - [saas-lifecycle-communications-as-deliverable](../../saas-proposals/saas-lifecycle-communications-as-deliverable/SKILL.md) - lifecycle communications skill.
+
+## Website Care Plans
+
+For website and web-application support, specify the care plan explicitly (backups with off-server copies and tested restores, monthly functional checks, updates and security, content-update streams, contact-information audit, monitoring and twice-yearly review) and provide a self-care handbook when the client declines a retainer. See [website ownership, care plans and direction boards](../website-design-proposal-strategy/references/website-ownership-care-plans-and-direction-boards.md) section 5.

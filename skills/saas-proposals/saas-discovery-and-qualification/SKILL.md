@@ -137,3 +137,7 @@ Practitioner cross-checks: [Eleken product-idea validation](https://www.eleken.c
 - [../sales-discovery-and-objection-handling/SKILL.md](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) — broader discovery and objection handling.
 - [../premium-client-proposal-strategy/SKILL.md](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) — executive and premium buyer positioning.
 - [../03-understanding-of-assignment/SKILL.md](../../pipeline/03-understanding-of-assignment/SKILL.md) — section discipline.
+
+## Commercial Motion and Close Discipline
+
+Read [SaaS commercial motion and close discipline](../../profiles-sectors/references/saas-commercial-motion-and-close-discipline.md) for the three proposal layers (quote, impact proposal, business case), not-a-fit discipline, buyer-silence handling, mirrored role coverage, trade discipline, segment shape, dual funnels, net negative churn, growth and drag measures, and the SaaS workstreams to scope.

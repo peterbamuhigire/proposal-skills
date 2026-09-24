@@ -127,3 +127,7 @@ Run a short reviewer loop after each major revision: independent evaluator read,
 - [premium-commercial-writing](../../writing-content/premium-commercial-writing/SKILL.md) - premium commercial writing quality gate for evaluator-friendly prose, case studies, documents, and public content.
 - [05-relevant-experience](../../pipeline/05-relevant-experience/SKILL.md) - relevant experience section owner.
 - [Book-driven value story and evaluator journey](../../meta/references/book-driven-value-story-and-evaluator-journey.md) - evidence-first narrative and currentness gate.
+
+## Spoken Presentation Route
+
+When the narrative must be delivered in person (tender orals, shortlist interviews, proposal walk-throughs), use [tender-orals-and-proposal-presentation](../tender-orals-and-proposal-presentation/SKILL.md). The written spine here remains the source; the orals skill turns it into a timed, rehearsed and scored presentation.

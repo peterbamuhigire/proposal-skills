@@ -65,6 +65,19 @@ def scan(root: Path) -> list[Finding]:
 
         in_book_source_path = BOOK_SOURCE_PATH_RE.search(relative.as_posix()) is not None
         size = path.stat().st_size
+        if in_book_source_path:
+            # Owner rule (2026-09-23): book extractions and book summaries are never
+            # stored in this repository, whatever their size or format. Knowledge
+            # belongs in task-oriented SKILL.md and references/ files.
+            findings.append(
+                Finding(
+                    "book-extraction-stored",
+                    relative,
+                    "book extractions or summaries must never be stored in the repository; "
+                    "fold the knowledge into task-oriented skill references and remove the file",
+                )
+            )
+            continue
         if suffix == ".pdf" and in_book_source_path:
             findings.append(
                 Finding(

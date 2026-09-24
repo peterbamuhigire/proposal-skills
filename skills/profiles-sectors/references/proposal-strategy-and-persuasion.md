@@ -4,220 +4,115 @@ A cross-cutting reference for constructing persuasive, strategically sound consu
 
 ---
 
-## 1. The Baseline Logic: S1 → S2 → B
+## 1. Build the Argument Chain Before Writing Sections
 
-Every proposal must express three things clearly and in sequence:
+Several proposal-writing authorities (notably Freed and Wickham) teach the same core logic under different labels. This engine applies it as one chain with three links and a closing test. The S1 → S2 → B labels are kept because other skills use them.
 
-- **S1** = the client's current situation (the problem, the gap, or the unrealised opportunity)
-- **S2** = the desired result at the end of the engagement (the future state we will help them reach)
-- **B** = the benefits that accrue from achieving S2 (why it matters — financially, operationally, strategically)
+| Link | Question it answers | Weak version | Strong version |
+|---|---|---|---|
+| **S1: current situation** | What problem, gap or unrealised opportunity does the client face, and what does it cost? | A restatement of the ToR | The problem stated more precisely than the ToR states it, with its consequence |
+| **S2: desired result** | What state of affairs will exist when the work is done? | A deliverable ("a comprehensive report") | A picture the client can see: "The Ministry will have a validated, costed and sequenced five-year investment plan for its 14 district facilities." |
+| **B: benefits** | Why does reaching S2 matter, in the client's value language? | "Improved efficiency" | Quantified or ranged: "We anticipate a 15–25% reduction in procurement cycle time", with the basis stated |
 
-This is the fundamental architecture of a proposal. If S1 is vague, the proposal lacks urgency. If S2 is unclear, the methodology has no destination. If B is absent, the client has no reason to invest.
+A vague S1 removes urgency; an unclear S2 leaves the methodology without a destination; a missing B gives the client no reason to invest.
 
-### How to construct S1 → S2 → B
+**Find the overriding question first.** The ToR often describes symptoms. Identify the single question the whole assignment must answer, because a wrong question produces a wrong objective, a wrong method and wrong results. Example: a ToR asking for "a review of procurement processes" may really be asking "Why does the Authority take 14 months to complete procurements that comparable bodies complete in 6?"
 
-1. **Start with S1.** Read the Terms of Reference, background documents, and any pre-bid intelligence. Express the client's situation in language that is more precise and insightful than the ToR itself. We demonstrate understanding not by parroting the client's words but by articulating the problem more clearly than they have done.
+**Close the loop (coherence check).** Before release, walk the proposal round a single loop and repair any broken link. The loop combines Freed's alignment tests into this engine's check:
 
-2. **Define S2.** What will be different when our work is complete? S2 must be concrete enough that the client can picture it. "A comprehensive report" is not S2 — that is a deliverable. S2 is the state of affairs that the report enables: "The Ministry will have a validated prioritisation of its 14 district health facilities, with capital investment requirements costed and sequenced over a five-year horizon."
+1. The situation explains why the objective matters.
+2. Every method serves the objective, and every objective has a method.
+3. Every method has the named people and credentials to deliver it.
+4. The price matches the seniority and effort proposed (neither padded nor under-resourced).
+5. The benefits clearly exceed the price.
+6. The benefits answer the situation first described (a revenue-leakage problem ends with revenue recovered, not unrelated gains).
 
-3. **Articulate B.** Benefits are what happens because of S2. They are expressed in the client's value language — cost savings, revenue growth, reduced risk, improved service delivery, compliance with regulatory requirements, enhanced institutional capacity. Where possible, quantify them. Where quantification is premature, qualify them with ranges or conditional language: "We anticipate this could yield a 15–25% reduction in procurement cycle times."
+Evaluators notice a broken link even when they cannot name it.
 
-### The overriding question
+## 2. Classify the Assignment and Set the Objective Verb
 
-Before writing a single section, we must identify the **overriding question** — the single question the entire project must answer. Everything flows from this:
+The type of assignment decides the verb in the objective, the kind of deliverable and how boldly results may be stated.
 
-- If the overriding question is wrong, the objective will be wrong.
-- If the objective is wrong, the methodology will be wrong.
-- If the methodology is wrong, we will deliver the wrong results.
+| Assignment type | Objective verbs | Deliverable | How to state results | Example objective |
+|---|---|---|---|---|
+| Understanding (diagnostic, review, evaluation, audit) | assess, evaluate, identify, diagnose, review | Report, assessment, diagnostic | As knowledge the client will hold, with a qualified view of what acting on it could yield | "To assess water-supply infrastructure in the six target counties and identify the critical gaps limiting service." |
+| Direction-setting (strategy, plan, design) | develop, define, design, recommend, formulate | Plan, strategy, roadmap, framework | As a ranged estimate of what implementation should achieve | "To develop a costed five-year digital roadmap for the Revenue Authority, prioritised by impact and feasibility." |
+| Delivery (implementation, roll-out, change) | implement, establish, increase, reduce, operationalise | Working systems, trained staff, changed processes | In the objective itself, as a measured target | "To implement an integrated financial system in all 12 regional offices, cutting month-end reporting from 21 days to 5." |
 
-The overriding question is not always stated in the ToR. Often the ToR describes symptoms. Our job is to identify the underlying question. For example, a ToR that asks for "a review of procurement processes" may have the overriding question: "Why does it take the Authority an average of 14 months to complete procurements that comparable institutions complete in 6?"
+Many assignments combine an understanding phase with a direction-setting phase. Mark clearly where one ends and the next begins; each phase follows the conventions of its type. (Project-type distinction adapted from Freed.)
 
-### Freed's six alignment tests
+## 3. Structure Every Section as Case, Content, Consequence
 
-Before finalising the proposal, we apply six tests to ensure internal coherence:
+Freed describes this as persuasion–information–persuasion (P-I-P). Apply it to every section and every methodology phase:
 
-1. **The Situation–Objective Test.** Does the objective directly address the situation described? If we removed the situation section, would a reader still understand why the objective matters?
-2. **The Objective–Methods Test.** Does every method contribute to achieving the stated objective? Are there methods that serve no clear objective, or objectives that no method addresses?
-3. **The Methods–Qualifications Test.** For every method proposed, do we demonstrate the qualifications to execute it? If we propose econometric modelling, do we show team members with econometric credentials?
-4. **The Qualifications–Cost Test.** Is the cost consistent with the level of qualification proposed? A team of senior partners implies a higher cost; a team of junior analysts implies a lower one. Misalignment signals either padding or under-resourcing.
-5. **The Cost–Benefits Test.** Do the benefits justify the cost? The client must see that the value of achieving S2 substantially exceeds the investment required.
-6. **The Benefits–Situation Test.** Do the benefits loop back to the original situation? If S1 described a revenue leakage problem, the benefits must address revenue recovery — not unrelated improvements.
-
-When all six tests pass, the proposal is internally coherent. When any test fails, there is a structural weakness that evaluators will detect, consciously or not.
-
----
-
-## 2. Three Project Types
-
-Not all consulting projects are the same. The type of project determines the verb in the objective, the nature of the deliverables, and the language of results.
-
-### Insight Projects
-
-- **Purpose:** Assess, evaluate, identify, diagnose, review, audit
-- **Deliverable:** A report, assessment, diagnostic, or evaluation
-- **Example objective:** "To assess the current state of water supply infrastructure across the six target counties and identify the critical gaps inhibiting service delivery."
-- **Results language:** Insight projects deliver understanding. We cannot promise that the client will act on our findings, so we frame results as knowledge: "The Authority will have a clear, evidence-based picture of…"
-
-### Planning Projects
-
-- **Purpose:** Develop, define, design, recommend, formulate, propose
-- **Deliverable:** A plan, strategy, roadmap, framework, or set of recommendations
-- **Example objective:** "To develop a five-year digital transformation roadmap for the Revenue Authority, with costed initiatives prioritised by impact and feasibility."
-- **Results language:** Planning projects deliver direction. We can be more forward-looking: "The roadmap will enable the Authority to sequence investments for maximum impact, with an estimated 10–20% reduction in manual processing within the first two years of implementation."
-
-### Implementation Projects
-
-- **Purpose:** Implement, deliver, increase, reduce, establish, operationalise
-- **Deliverable:** Measurable results — systems installed, staff trained, processes redesigned and operational
-- **Example objective:** "To implement an integrated financial management information system across all 12 regional offices, reducing month-end reporting time from 21 days to 5 days."
-- **Results language:** Implementation projects deliver change. The objective itself should express measurable results.
-
-### Combined projects
-
-Many engagements combine types. A common pattern in East African development consulting is Insight + Planning: first assess the current state, then develop recommendations. When combining types, the methodology should clearly delineate where insight gathering ends and planning begins. Each phase inherits the conventions of its type.
-
----
-
-## 3. The P-I-P Structure (Persuasion–Information–Persuasion)
-
-Every section of a proposal — and every phase within the methodology — should follow the P-I-P structure:
-
-- **P (opening) = Persuasion.** Why this particular approach, out of all possible approaches, is right for THIS client in THIS context. This is not a generic introduction. It connects the approach to the client's specific situation, concerns, or evaluation criteria.
-- **I (middle) = Information.** What will be done and how. The activities, tools, techniques, data sources, and steps. This is the substantive content.
-- **P (closing) = Persuasion.** What will result — the deliverables, outcomes, and benefits. This reconnects the work to S2 and B.
-
-### Why P-I-P matters
-
-Without the P-slots, a methodology section becomes a list of activities — "We will conduct interviews, analyse data, prepare a report." This has no selling power. It does not explain why these activities are the right ones, nor does it connect them to the client's desired outcomes.
-
-The P-slots are where themes are woven in (see Section 5). They are where we differentiate ourselves from competitors who propose the same activities but fail to explain why their approach is superior.
-
-### Example
-
-**Without P-I-P (weak):**
-> Phase 1: Data Collection. We will collect data from all 47 counties through a combination of desk review, key informant interviews, and field surveys.
-
-**With P-I-P (strong):**
-> Our experience across 15 county-level assignments in Kenya has taught us that data quality varies enormously between counties, and that a single data collection method will produce incomplete and unreliable results. **[P — why this approach]** We will therefore employ a triangulated approach: desk review of existing county records, semi-structured interviews with county health directors and facility managers, and rapid facility surveys using a validated assessment tool adapted from the WHO Service Availability and Readiness Assessment (SARA) framework. **[I — what will be done]** This triangulated approach will yield a robust, defensible dataset that the Ministry can use with confidence for planning and resource allocation — and that development partners will accept as a credible evidence base for future investment decisions. **[P — what will result]**
-
----
-
-## 4. Buyer Psychology — Writing for the Evaluation Committee
-
-A proposal is not read by "the client" as a single entity. It is read by individuals with different roles, concerns, and decision-making authority. We must write for all of them.
-
-### Four buying roles
-
-Drawing from Miller and Heiman's strategic selling framework (as applied to proposals by Freed):
-
-1. **Economic Buyer.** Controls the budget and has ultimate veto power. Focused on return on investment, value for money, and strategic alignment. Often a Permanent Secretary, Chief Executive, or Programme Director. They may read only the executive summary and the financial proposal. *What they need from us:* Clear articulation of benefits relative to cost. Strategic framing. Confidence that this investment will deliver value.
-
-2. **User Buyer.** The people who will live with the results of our work day to day — department heads, regional managers, operational staff. They evaluate how the project will affect their area. They can sabotage implementation if they feel ignored or threatened. *What they need from us:* Evidence that we understand their operational reality. Assurance that our approach will not create more problems than it solves. Inclusion in our methodology (stakeholder engagement, workshops, validation sessions).
-
-3. **Technical Buyer.** Judges the measurable and quantifiable aspects of the proposal — methodology rigour, team qualifications, compliance with ToR requirements. Often the procurement officer or a technical evaluation committee member. They are gatekeepers: if we fail their criteria, we never reach the Economic Buyer. *What they need from us:* Compliance, precision, and evidence. Every requirement addressed. Every qualification documented. Every methodology step defensible.
-
-4. **Coach.** An internal advocate who wants us to win — perhaps because they know our work, share our approach, or believe we are the best fit. They help us navigate the client's internal dynamics. *What they need from us:* Ammunition. Clear, quotable statements they can use to champion our proposal in evaluation meetings.
-
-In addition, there is often a **Ratifier** — a senior executive (Minister, Board Chair, Development Partner representative) who approves the final decision but does not actively evaluate proposals. They ratify based on the recommendation of others and a quick scan for strategic alignment and risk.
-
-### Four behavioural styles
-
-Evaluation committee members also differ in how they process information and make decisions:
-
-1. **Analytical.** Values data, evidence, and logical rigour. Wants to see the numbers, the methodology detail, and the risk assessment. Distrusts vague claims. *Write for them with:* quantified statements, structured arguments, evidence tables, and clear assumptions.
-
-2. **Supportive.** Values relationships, trust, and track record. Wants to know that we will be collaborative, responsive, and easy to work with. Concerned about disruption to staff. *Write for them with:* references to past partnerships, stakeholder engagement plans, capacity building components, and a respectful tone.
-
-3. **Conceptual.** Values innovation, vision, and the big picture. Wants to see creative thinking and a compelling narrative about the future. Bored by excessive detail. *Write for them with:* strong executive summaries, visual frameworks, forward-looking benefit statements, and strategic framing.
-
-4. **Directing.** Values efficiency, results, and action. Wants to see clear timelines, deliverables, and accountability. Impatient with lengthy preambles. *Write for them with:* summary tables, milestone schedules, clear deliverable lists, and decisive language.
-
-A well-crafted proposal speaks to all four styles. The executive summary serves the Conceptual and Directing readers. The methodology detail serves the Analytical reader. The team composition and approach narrative serve the Supportive reader.
-
----
-
-## 5. Theme Architecture
-
-A proposal should have three to four persuasive themes woven through EVERY section — from the cover letter to the financial proposal. Themes are the connective tissue that transforms a collection of sections into a coherent argument.
-
-### Three sources of themes
-
-1. **Hot buttons.** Individual buyer concerns surfaced during pre-bid engagement. If the Permanent Secretary mentioned concern about sustainability, "sustainability beyond the project period" becomes a theme. If the Technical Director worried about data quality, "robust and defensible evidence" becomes a theme.
-
-2. **Evaluation criteria.** Published criteria in the ToR, or implicit criteria inferred from the ToR's emphasis. If the ToR allocates 30 points to methodology and 25 points to relevant experience, our themes should directly address what those criteria are looking for.
-
-3. **Counters to competition.** Our strengths relative to likely competitors. If we know the competition will propose international experts with limited local presence, "deep local knowledge and permanent East African presence" becomes a theme. If competitors lack sector-specific experience, "proven track record in [specific sector]" becomes a theme.
-
-### Developing themes across four dimensions
-
-Each theme should be developed consistently across the proposal using four dimensions:
-
-| Dimension | What it addresses | Where it appears |
+| Part | Job | Test |
 |---|---|---|
-| **Situation** | How this theme relates to the client's specific context | Understanding of Assignment |
-| **Methods** | How our approach specifically addresses this theme | Methodology, Work Plan |
-| **Qualifications** | What credentials, experience, or resources we bring that support this theme | Firm Profile, Relevant Experience, Team Composition |
-| **Benefits** | What value the client receives because we address this theme | Executive Summary, Benefits sections throughout |
+| Opening case | Why this approach fits this client in this context, tied to their situation, concerns or evaluation criteria | Would the sentence be false for a different client? If not, rewrite it |
+| Content | What will be done and how: activities, tools, data sources, steps | Could an evaluator check each step? |
+| Consequence | What results: deliverables, outcomes and benefits, linked back to S2 and B | Does it name a result, not an activity? |
 
-For example, if the theme is "capacity building for sustainable outcomes":
+Without the opening and closing parts, a methodology becomes an activity list ("we will interview, analyse and report") that sells nothing and does not show why our approach beats a competitor proposing the same activities. The opening and closing parts are also where themes (section 5) appear.
 
-- **Situation:** "The Ministry has experienced high staff turnover, and previous consultancy outputs have not been institutionalised because the knowledge remained with the consultants."
-- **Methods:** "We embed a structured knowledge transfer component in every phase, including paired working with Ministry counterparts, training workshops, and documented standard operating procedures."
-- **Qualifications:** "Our team includes a certified trainer with experience delivering capacity building programmes for six East African government ministries."
-- **Benefits:** "The Ministry will retain full capability to update and maintain the system independently after our engagement concludes, eliminating dependence on external consultants."
+**Illustration.** Weak: "Phase 1: Data Collection. We will collect data from all 47 counties through desk review, interviews and surveys." Strong: "County data quality varies widely, so a single collection method would leave gaps. [case] We will combine a desk review of county records, structured interviews with county health directors and facility managers, and rapid facility surveys using a recognised readiness assessment tool adapted to the country. [content] The Ministry will receive a dataset it can defend for planning and that development partners can accept as an evidence base for investment. [consequence]"
 
-When themes are developed across all four dimensions and woven through every section, the proposal reads as a unified argument rather than a set of disconnected responses.
+## 4. Write for Each Reader on the Evaluation Committee
 
----
+A proposal is read by several people with different roles and different ways of processing information. Map both before drafting. The role categories follow Miller and Heiman's strategic-selling model as applied to proposals by Freed; the reading-style categories follow common behavioural-style models. The combined matrix is this engine's own.
 
-## 6. Measurable-Results Orientation
+**Roles: what each needs to find**
 
-Clients — and evaluators — respond to proposals that speak in terms of results rather than activities. The language of results differs by project type.
+| Role | Who, typically | What they need from the proposal | Where they look |
+|---|---|---|---|
+| Budget holder (economic buyer) | Permanent Secretary, chief executive, programme director | Benefits against cost, strategic fit, confidence of value | Executive summary, financial proposal |
+| Users | Heads of department, regional managers, operational staff | Proof we understand their reality, that we will not create new problems, and that they are involved | Understanding, methodology, stakeholder engagement |
+| Technical evaluators | Procurement officer, technical committee | Full compliance, precision, documented qualifications, defensible method | Compliance matrix, methodology, CVs |
+| Internal advocate (coach) | Someone who knows and trusts our work | Clear statements they can quote in committee | Executive summary, key messages |
+| Ratifier | Minister, board chair, development-partner representative | Strategic alignment and low risk at a glance | Executive summary, risk section |
 
-### Commercial growth and disruption proposals
+**Reading styles: how each reader is persuaded**
 
-When the assignment concerns growth strategy, commercial transformation, product-led growth, AI-enabled products, pricing, or disruption, measurable results should describe the growth system, not only end-state revenue. Include the levers the engagement will test or improve:
+| Style | Values | Give them |
+|---|---|---|
+| Analytical | Data, evidence, rigour | Quantified statements, structured arguments, evidence tables, stated assumptions |
+| Relational | Trust, track record, low disruption | Past partnerships, engagement plans, capacity building, respectful tone |
+| Big-picture | Vision, new thinking | Strong summary, visual frameworks, forward-looking benefits |
+| Results-driven | Speed, accountability | Summary tables, milestones, deliverable lists, decisive language |
 
-- acquisition source quality;
-- activation or conversion rate;
-- customer retention and repeat purchase;
-- referral or expansion revenue;
-- price, packaging, offer mix, or margin;
-- experiment cycle time and decision cadence;
-- sales pipeline conversion and follow-up discipline;
-- service/support metrics that protect retention.
+A well-built proposal serves all four styles: the summary for big-picture and results-driven readers, methodology detail for analytical readers, the team and approach narrative for relational readers.
 
-Use `growth-profit-disruption-proposal-patterns.md` when a proposal needs this commercial logic.
+## 5. Build Three or Four Themes and Carry Them Everywhere
 
-### Insight projects
+Themes are the three or four persuasive messages that run through every section, from cover letter to financial proposal.
 
-We cannot promise numbers when the purpose of the project is to discover what the numbers are. However, we should signal what results MIGHT follow implementation of our findings, using appropriate qualifiers:
+**Where themes come from**
 
-- "Based on our experience with comparable assignments, organisations that act on diagnostic findings of this nature typically achieve a 15–25% improvement in service delivery efficiency within 18 months."
-- "The assessment will identify specific, actionable opportunities. While the magnitude of savings will depend on the client's implementation decisions, our previous diagnostic for [comparable client] identified opportunities worth approximately USD 2.3 million annually."
+- **The client's hot buttons:** concerns individuals raised before the bid (for example a Permanent Secretary worried about sustainability).
+- **The evaluation criteria:** published weights and what the ToR emphasises.
+- **Our advantage over likely competitors:** for example permanent local presence against fly-in teams, or proven sector depth.
 
-### Planning projects
+**Develop each theme in four places** (theme dimensions after Freed):
 
-We can include a range of likely outcomes, because the planning process itself involves estimation:
+| Where | What to show | Section |
+|---|---|---|
+| In the client's situation | How the theme arises in this client's context | Understanding of the assignment |
+| In our methods | How our approach addresses it | Methodology, work plan |
+| In our credentials | What people, experience and resources back it | Firm profile, experience, team |
+| In the benefits | What the client gains because we address it | Executive summary and benefit statements |
 
-- "The strategy is expected to yield a 10–20% reduction in cycle time within the first year of implementation."
-- "We will develop a costed investment plan. Based on preliminary analysis, we estimate the total capital requirement at USD 15–22 million over five years, with a projected internal rate of return of 12–18%."
+Example theme, "capacity that stays after we leave": the Ministry has lost consultant knowledge through staff turnover (situation); every phase pairs our consultants with Ministry counterparts and ends with documented procedures (methods); our trainer has run capacity programmes for six East African ministries (credentials); the Ministry maintains the system without external support after handover (benefit).
 
-### Implementation projects
+## 6. State Results in the Language the Assignment Allows
 
-The objective itself should express measurable results:
+| Assignment | What may be promised | Pattern |
+|---|---|---|
+| Understanding | Knowledge now; qualified potential later | "The Authority will have a clear, evidence-based picture of…". Where evidence exists: "In comparable diagnostics, organisations that acted on findings improved [measure] by [range] within [period] ([source])." |
+| Direction-setting | Ranged estimates of implementation effects | "The strategy is expected to reduce cycle time by 10–20% in the first year of implementation ([basis])." |
+| Delivery | Measured targets in the objective | "To raise the share of facilities meeting minimum standards from 43% to 80%." |
+| Commercial growth or disruption | The growth system and its levers, not only end-state revenue | Acquisition quality, activation or conversion, retention and repeat purchase, referral or expansion, price and margin, experiment cadence, pipeline conversion, service measures that protect retention (see `growth-profit-disruption-proposal-patterns.md`) |
 
-- "To reduce average procurement cycle time from 14 months to 6 months."
-- "To increase the proportion of facilities meeting minimum service standards from 43% to 80%."
+**Show value during the engagement.** Identify quick wins that start paying back before the final deliverable ("In Phase 1 we will implement immediate process fixes that begin saving time from Month 3"). It signals practical orientation and a focus on the client's interests.
 
-### Low-hanging fruit and pay-as-you-go wins
-
-Evaluators respond positively to proposals that demonstrate value will start accruing during the engagement, not only after it concludes. We should actively identify and highlight quick wins:
-
-- "During Phase 1, we will identify and implement immediate process improvements — 'quick wins' — that begin generating savings before the full strategy is developed."
-- "Our phased approach ensures that the client begins to see measurable benefits from Month 3, rather than waiting for the final deliverable."
-
-This signals confidence, practical orientation, and a focus on the client's interests rather than merely completing a scope of work.
+All figures in patterns are placeholders: every number in a submitted proposal needs a source or a stated basis.
 
 ---
 
@@ -352,64 +247,19 @@ The following errors are observed frequently in proposal evaluations and are con
 
 ---
 
-## 12. Quality Self-Assessment (Adapted from Freed's 100-Point Rating)
+## 12. Release Scorecard (100 points)
 
-Before submitting any proposal, we should assess it against the following checklist. Each area should be scored honestly, and weaknesses should be addressed before submission.
+Score honestly before submission and fix every weak area first. The scorecard is this engine's own; its idea of a points-based self-rating is adapted from Freed's proposal rating, re-weighted and re-grouped for East African procurement.
 
-### Situation understanding (15 points)
+| Area | Points | Pass conditions |
+|---|---:|---|
+| **Argument chain** | 25 | S1 is sharper than the ToR; the overriding question is stated; S2 is concrete; the objective uses the right verb for the assignment type; the coherence loop in section 1 passes all six links; the rational, cognitive and political facets of the problem are recognised |
+| **Method** | 20 | Specific to this client; every method serves the objective; each section and phase has case, content and consequence; tools are named and justified; client inputs and collaboration points are explicit; a working hypothesis is stated and tested |
+| **Proof of capability** | 15 | Every method has qualified people behind it; experience carries quantified outcomes; CVs are tailored; both breadth and depth are shown |
+| **Value and price** | 20 | Benefits are in the client's value language and answer S1; quick wins are identified; benefits are quantified or ranged with a basis; price matches seniority and effort, is broken down by phase and states its assumptions |
+| **Coherence and tone** | 20 | Three or four themes run through every section; cross-references tie sections together; the proposal reads as one argument; the tone is professional, measured and confident without arrogance |
 
-- [ ] We have articulated the client's current situation (S1) with precision and insight
-- [ ] We demonstrate understanding beyond what the ToR states — adding context, nuance, or reframing
-- [ ] The overriding question is clearly identified and correctly stated
-- [ ] We show awareness of the rational, cognitive, and political facets of the problem
-
-### Objectives clarity (15 points)
-
-- [ ] The objective is stated using the correct verb for the project type (assess/develop/implement)
-- [ ] The desired result (S2) is concrete and pictureable
-- [ ] The objective passes the Situation–Objective alignment test
-- [ ] There is a measurable-results orientation appropriate to the project type
-
-### Methods rigour (20 points)
-
-- [ ] The methodology is specific to this client and this assignment, not boilerplate
-- [ ] Every method contributes to achieving the stated objective (Objective–Methods test passes)
-- [ ] Each phase follows the P-I-P structure
-- [ ] Tools, frameworks, and techniques are named and justified
-- [ ] Client inputs and collaboration points are explicit
-- [ ] A hypothesis is stated and the methodology is structured to test it
-
-### Qualifications relevance (15 points)
-
-- [ ] For every method proposed, we demonstrate the qualifications to execute it
-- [ ] Relevant experience is presented with quantified outcomes
-- [ ] Team CVs are tailored to this assignment
-- [ ] We show both breadth (volume of relevant experience) and depth (specific results)
-
-### Cost justification (10 points)
-
-- [ ] The cost is consistent with the level of qualification and effort proposed
-- [ ] Costs are broken down by phase, making the investment logic transparent
-- [ ] Assumptions are clearly stated
-- [ ] The Cost–Benefits alignment test passes
-
-### Benefits persuasiveness (15 points)
-
-- [ ] Benefits are expressed in the client's value language
-- [ ] Benefits loop back to the original situation (Benefits–Situation test passes)
-- [ ] Quick wins and early value delivery are identified where possible
-- [ ] Benefits are quantified or qualified with ranges where appropriate
-
-### Overall coherence and theme consistency (10 points)
-
-- [ ] Three to four themes are woven through every section
-- [ ] The proposal reads as a unified argument, not a collection of disconnected sections
-- [ ] Cross-references between sections create a cohesive document
-- [ ] The tone is consistent: professional, measured, confident without arrogance
-- [ ] All six of Freed's alignment tests pass
-
----
-
+**Bands:** 90–100 submit; 75–89 fix named weaknesses; below 75 rework before any further polishing.
 
 ---
 

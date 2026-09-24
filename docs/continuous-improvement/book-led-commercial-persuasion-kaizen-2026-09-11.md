@@ -10,7 +10,7 @@
 
 - Added `skills/writing-content/premium-commercial-writing/references/buyer-psychology-and-evaluator-persuasion.md`.
 - Linked it from the premium commercial writing route.
-- Added `book-extractions/2026-09-11-commercial-persuasion-and-growth-synthesis.md` with provenance and proposal-specific synthesis.
+- Added a provenance note under the former `book-extractions/` folder. That folder was removed on 2026-09-23 under the owner's no-stored-extractions rule; the operating content already lives in `buyer-psychology-and-evaluator-persuasion.md`.
 
 ## PDCA experiment
 
