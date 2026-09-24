@@ -21,6 +21,11 @@
     {"id": "slop-audit", "kind": "negative", "prompt": "Audit this completed proposal section for AI slop in read-only mode and grade it A B C or F", "expected": "skills/meta/ai-slop-audit"},
     {"id": "website", "kind": "collision", "prompt": "Build the proposal strategy and costing for a website redesign, SEO and content migration", "expected": "skills/strategy-positioning/website-design-proposal-strategy"},
     {"id": "critical-logic", "kind": "positive", "prompt": "Stress-test proposal feasibility, assumptions, countercase, business logic and achievability", "expected": "skills/strategy-positioning/critical-analysis-business-logic"},
-    {"id": "premium-writing", "kind": "neighbour", "prompt": "Polish proposal copy for evaluator clarity and commercial proof without changing the strategy", "expected": "skills/writing-content/premium-commercial-writing"}
+    {"id": "premium-writing", "kind": "neighbour", "prompt": "Polish proposal copy for evaluator clarity and commercial proof without changing the strategy", "expected": "skills/writing-content/premium-commercial-writing"},
+    {"id": "key-account-plan", "kind": "positive", "prompt": "Write a key account plan with GRASP stakeholder map, executive sponsor and Account Cube expansion for our strategic bank client", "expected": "skills/strategy-positioning/key-account-pursuit-and-account-plan"},
+    {"id": "key-account-vs-discovery", "kind": "collision", "prompt": "Plan multi-year pursuit of a strategic key account across several proposals, not discovery questions for one bid", "expected": "skills/strategy-positioning/key-account-pursuit-and-account-plan"},
+    {"id": "tender-orals", "kind": "positive", "prompt": "Prepare our tender oral presentation for the shortlist interview with rehearsal rubric, hard questions and room readiness", "expected": "skills/strategy-positioning/tender-orals-and-proposal-presentation"},
+    {"id": "orals-vs-storytelling", "kind": "neighbour", "prompt": "Build the written narrative spine and evaluator journey for the proposal document, not the oral presentation", "expected": "skills/strategy-positioning/proposal-storytelling-and-evaluator-journey"},
+    {"id": "orals-no-invitation", "kind": "failure", "prompt": "Rehearse the pitch meeting presentation but stop because the invitation rules for the oral presentation are unknown", "expected": "skills/strategy-positioning/tender-orals-and-proposal-presentation"}
   ]
 }

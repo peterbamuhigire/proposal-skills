@@ -33,11 +33,12 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 1. Define the decision the writing must help the reader make: shortlist, award, approve budget, accept premium fees, request a meeting, trust a case study, or keep reading.
 2. State the governing idea in one sentence: problem, proposed answer, measurable value, and why this author or firm can deliver it.
-3. Build the argument before polishing the prose: claim, mechanism, evidence, risk control, and reader implication.
+3. For proposals, write the power-paragraph sheet first (seven lead paragraphs: need, goal, fit, tailoring, deliverables, price and value, value beyond the project) using the [power-paragraph method](references/proposal-power-paragraph-method.md), then build the argument: claim, mechanism, evidence, risk control, and reader implication.
 4. Make the evaluator or reader journey easy: answer-first opening, clear headings, proof near claims, visible trade-offs, and a concrete next step.
 5. Convert features and activities into value: outcome, why it matters, how the method creates it, and how delivery quality protects it.
 6. Add the right discoverability layer where relevant: SEO, AI-search, structured headings, direct answers, topic coverage, and source-friendly facts for public articles and web documents.
-7. Run the premium writing gate before final delivery.
+7. Draft each section from the [proposal phrase bank](references/proposal-phrase-bank.md): slot-templates filled only with sourced facts, the client's own words in needs and goals, price stated plainly next to value, and a specific next step.
+8. Run the premium writing gate before final delivery.
 
 ## Quality Standards
 
@@ -46,6 +47,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 - Every section must have a job: orient, prove, compare, reduce risk, explain value, or move the reader to the next decision.
 - Public content must serve human readers first, then search and AI-summary systems.
 - Use British English and East African professional tone unless the active project requires another standard.
+- The phrase bank and the [human-English editorial standard](../../language/language-standards/references/human-english-editorial-standard.md) are the engine's human-professional language standard; anti-slop audits judge proposal prose against them.
 
 ## Domain Risks
 
@@ -137,13 +139,16 @@ Replace “our unmatched expertise guarantees success” with the verified team 
 - [premium-writing-quality-gate](references/premium-writing-quality-gate.md) - cross-cutting quality gate for professional, persuasive, premium-fee-worthy writing.
 - [document-section-patterns](references/document-section-patterns.md) - document-specific patterns for proposals, cover letters, summaries, case studies, business documents, and blogs.
 - [seo-ai-search-writing](references/seo-ai-search-writing.md) - SEO and AI-search guidance for public-facing articles, web documents, and thought leadership.
-- [book-extractions-audit-synthesis](references/book-extractions-audit-synthesis.md) - copyright-safe audit and synthesis rules for book and EPUB-derived inspiration.
+- [proposal-power-paragraph-method](references/proposal-power-paragraph-method.md) - power paragraph, power-paragraph sheet in pipeline order, engagement shapes, short versus full document, tone rules; read before drafting any proposal.
+- [proposal-phrase-bank](references/proposal-phrase-bank.md) - section-by-section slot-templates, keywords, tone rules and before-and-after rewrites; read while drafting each section.
+- [copyright-safe-source-use](references/copyright-safe-source-use.md) - how books may inform skills; book extractions are never stored in the repository.
 - [buyer-psychology-and-evaluator-persuasion](references/buyer-psychology-and-evaluator-persuasion.md) - transparent buyer psychology, evaluator journey, win themes, risk handling, and compliant choice architecture.
 - [premium-client-proposal-strategy](../../strategy-positioning/premium-client-proposal-strategy/SKILL.md) - premium buyer positioning and executive proposal strategy.
 - [premium-pricing-and-value-defense](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) - commercial options, premium fee logic, and price defence.
 - [proposal-storytelling-and-evaluator-journey](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) - narrative spine, evaluator journey, and case-story logic.
 - [language-standards](../../language/language-standards/SKILL.md) - language, tone, and anti-AI wording standards.
-- [Human English and reader-centred craft](../../../book-extractions/human-english-craft-synthesis-2026.md) - audience-fit register, grammar, collocation, rhythm, and proof/read-aloud.
+- [Human-English editorial standard](../../language/language-standards/references/human-english-editorial-standard.md) - audience-fit register, grammar, collocation, rhythm, and proof/read-aloud.
+- [Offer presentation and price order](../../strategy-positioning/premium-pricing-and-value-defense/references/offer-presentation-and-price-order.md) - price order, option tables and retainer design.
 ## English collocation and lexical-precision overlay
 
 Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../../language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) before final proposal polish. Premium writing must be tailored, proof-led, natural, and restrained; never ornate or generic.

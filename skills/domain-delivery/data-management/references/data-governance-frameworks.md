@@ -2,276 +2,160 @@
 
 Parent skill: [Data Management](../SKILL.md).
 
-> Synthesised from Ladley (Data Governance, 2nd ed.), Ladley (Advanced Data Governance, 2024), African Union Data Policy Framework (2022), Ndemo et al. (Data Governance and Policy in Africa, 2023), and Ford Foundation Uganda DG Study (2023).
+> Organised by this engine's governance-engagement workflow and synthesised across Ladley (Data Governance, 2nd ed.), Ladley (Advanced Data Governance, 2024), African Union Data Policy Framework (2022), Ndemo et al. (Data Governance and Policy in Africa, 2023), and Ford Foundation Uganda DG Study (2023).
 
 ---
 
-## 1. Data Governance Foundations
+## 1. Frame the Governance Problem With the Client
 
-### Definition and Scope
+Work through these framing tasks in the first inception workshop. The task order is this engine's own; concepts are attributed where they come from a named source.
 
-Data governance is the exercise of authority, control, and shared decision-making over the management of data assets (Ladley, 2nd ed.). It is an enterprise-wide discipline — not an IT function, not a project, and not a one-off compliance exercise. Governance determines *who* may make *what* decisions about *which* data, under *what* conditions, using *what* methods.
+### 1.1 Agree the vocabulary
 
-Three distinctions matter in proposals:
+Data governance is the exercise of authority, control and shared decision-making over data assets: it settles who may decide what about which data, under which conditions and by which method (definition after Ladley). It is an organisation-wide discipline, not an IT function, a project or a one-off compliance exercise. Keep three terms apart in every proposal:
 
-| Concept | Meaning |
-|---------|---------|
-| **Data governance** | Strategy, oversight, accountability, policy — the *what* and *why* |
-| **Data management** | Execution of processes, tools, architecture — the *how* |
-| **Data administration** | Operational custody of databases, infrastructure, backups |
+| Term | Covers |
+|---|---|
+| **Data governance** | Direction, oversight, accountability and policy (the what and why) |
+| **Data management** | Processes, tools and architecture that execute the rules (the how) |
+| **Data administration** | Operational custody of databases, infrastructure and backups |
 
-### Data as an Asset
+### 1.2 Separate the two workstreams, then join them
 
-Organisations routinely treat data as a by-product of operations rather than a managed asset. Two framings help clients see the shift:
+Propose governance structures and management processes as two distinct workstreams so that ownership is clear, joined by shared artefacts both sides maintain. This mirrors Ladley's "V" model:
 
-- **Resource view**: data supports decisions, reporting, and compliance — a cost centre.
-- **Financial-asset view**: data has measurable value, can be monetised, and carries liabilities (storage costs, breach risk, regulatory fines). It should appear in strategic planning alongside human capital and physical assets.
+| Governance workstream | Management workstream | Shared artefacts |
+|---|---|---|
+| Vision and principles; policies and standards; accountability structures; compliance monitoring | Architecture and design; data quality processes; metadata management; technology operations | Data dictionary; business glossary; quality rules; RACI matrices |
 
-The business case for governance rests on closing the gap between these two views.
+### 1.3 Surface why data matters to this client
 
-### The Governance "V"
+Many organisations treat data as a by-product and a cost centre; governance becomes fundable when the client sees data as an asset that carries both value and liability (storage cost, breach risk, regulatory fines). In a stakeholder workshop, ask which of these roles data plays for the client today, and which it should play:
 
-Ladley's Governance "V" model separates governance (left arm) from data management (right arm), joined at the bottom by shared artefacts:
+- Does data run daily operations (registration, dispatch, supply tracking)?
+- Does it give the client an advantage others lack (customer analytics, pricing)?
+- Is it, or could it be, a product or service in its own right (research sets, credit scoring)?
+- Is it protected, licensable intellectual property?
+- Do systems, algorithms or trained models depend on it for their value?
+- Where does ungoverned data expose the client to legal, reputational or decision risk?
 
-```
-Governance (Strategy & Oversight)          Data Management (Execution)
-  ├─ Vision & principles                    ├─ Architecture & design
-  ├─ Policies & standards                   ├─ Data quality processes
-  ├─ Accountability structures              ├─ Metadata management
-  └─ Compliance monitoring                  └─ Technology operations
-                    ╲                      ╱
-                     ╲                    ╱
-                      Shared Artefacts
-                      ├─ Data dictionary
-                      ├─ Business glossary
-                      ├─ Quality rules
-                      └─ RACI matrices
-```
+(The six value roles are adapted from Ladley.)
 
-This separation is critical in methodology sections: propose governance structures *and* management processes, but keep the two workstreams distinct so the client understands who owns what.
+## 2. Size and Stage the Programme
 
-### Six Ways Data Creates Value
+### 2.1 Choose the intensity
 
-Ladley identifies six modes through which data generates organisational value:
+Governance intensity runs along a spectrum (Ladley, 2024, "little g" to "Big G"):
 
-1. **Process enabler** — data drives operational workflows (e.g., patient registration, supply chain tracking).
-2. **Competitive weapon** — proprietary data creates market advantage (e.g., customer analytics, pricing models).
-3. **Product** — data is packaged and sold or shared as a deliverable (e.g., market research, credit scoring datasets).
-4. **Asset / intellectual property** — data has balance-sheet value, is protected, and may be licensed.
-5. **Enabler of other assets** — data underpins the value of systems, algorithms, and trained models.
-6. **Risk** — ungoverned data creates legal liability, reputational damage, and decision errors.
+| Intensity | Looks like | Fits when |
+|---|---|---|
+| Light ("little g") | Targeted, embedded in existing processes, few new structures | Early maturity, low buy-in, one system |
+| Formal ("medium g") | Named roles, written policies, a council, measured compliance | Growing maturity, regulatory pressure, several systems |
+| Enterprise ("Big G") | Organisation-wide mandate, a chief data officer with budget and enforcement powers | High maturity, large data estate, regulatory mandate or data monetisation |
 
-Use these six modes in stakeholder workshops to help clients articulate *why* governance matters to their specific context.
+Most East African public bodies and NGO programme units start light. Propose a progression path, not an enterprise landing on day one.
 
----
+### 2.2 Identify the entry point
 
-## 2. Data Governance Programme Design
+Programmes usually start from one of five triggers; name the client's trigger because it shapes scope and quick wins: compliance (data-protection law, sector rules); master data; analytics and AI quality; architecture change (migration, integration, cloud); or formalising informal practices that already work.
 
-### Five-Area Delivery Framework
+### 2.3 Place the client on the maturity scale
 
-Ladley structures DG programme delivery across five sequential-but-iterative areas:
+| Level | Name | Signs |
+|---|---|---|
+| 1 | Initial | No formal governance; tribal knowledge; reactive fixes |
+| 2 | Aware | Need recognised; pilots; informal stewards |
+| 3 | Defined | Policies written; bodies established; roles assigned |
+| 4 | Managed | Metrics tracked; compliance measured; issues escalated and resolved |
+| 5 | Optimised | Governance part of the culture; continuous improvement |
 
-| # | Area | Key Activities |
-|---|------|----------------|
-| 1 | **Engagement** | Identify sponsors, secure mandate, build awareness, assess readiness |
-| 2 | **Strategy** | Define vision, principles, scope, business case, roadmap |
-| 3 | **Architecture & Design** | Data models, metadata standards, quality rules, technology selection |
-| 4 | **Implementation** | Deploy tools, train stewards, operationalise policies, pilot domains |
-| 5 | **Operation & Changes** | Monitor compliance, measure value, iterate, expand to new domains |
+Assess at inception. Most ministries and NGO programme units in the region sit at levels 1 to 2; a realistic target within one engagement is level 3, reaching 4 in well-resourced settings.
 
-Map proposal phases to these five areas. A typical 12-month engagement might allocate: Engagement (weeks 1-3), Strategy (weeks 4-8), Architecture & Design (weeks 9-16), Implementation (weeks 17-36), Operation & Changes (weeks 37-48+).
+### 2.4 Phase the work and run domains in cycles
 
-### Plan-Do-Act Approach
+Phase a typical twelve-month engagement as: engage sponsors and assess readiness (weeks 1–3); set vision, principles, scope, business case and roadmap (weeks 4–8); design models, metadata standards, quality rules and tooling choices (weeks 9–16); implement with trained stewards and pilot domains (weeks 17–36); operate, measure, adjust and extend to new domains (weeks 37–48 and beyond). This follows the delivery areas Ladley describes, re-sequenced for proposal phasing.
 
-Governance programmes fail when treated as waterfall projects. Ladley advocates a Plan-Do-Act cycle (adapted from Deming):
+Avoid a single waterfall. Run each data domain (for example finance, HR, health) through its own plan–do–act cycle (after Deming): assess, define vocabulary and quick wins; set policies, pilot and stand up bodies; embed in business as usual, monitor and expand. Domains progress in parallel and show value early.
 
-- **Plan**: assess current state, define needs, establish definitions and vocabulary, articulate vision, identify quick wins.
-- **Do**: define policies, build awareness, execute pilots, stand up governance bodies.
-- **Act**: integrate governance into business-as-usual, operate monitoring, measure outcomes, adjust and expand.
+## 3. Design Authority, Roles and Rules
 
-Each domain (e.g., customer data, financial data, health data) cycles through Plan-Do-Act independently. This allows parallel progress and early value demonstration.
+### 3.1 Map authority to existing structures
 
-### Big G vs Little g Spectrum
+| Authority layer | Role | Uganda public-sector mapping |
+|---|---|---|
+| Leadership | Sets data strategy, approves policy, allocates budget | Accounting Officer, board or Permanent Secretary |
+| Executive sponsorship | Chairs the council, resolves cross-department conflicts | Director of ICT or Planning |
+| Domain steering | Governs a data domain (HR, finance, health, agriculture) | Heads of department (data owners) |
+| Local stewardship | Applies standards, reports issues, maintains metadata | Records officers, M&E officers |
 
-Ladley (2024) introduces a spectrum of governance intensity:
+(Layered operating model adapted from Ladley.)
 
-| End | Description | When Appropriate |
-|-----|-------------|------------------|
-| **Little g** | Targeted, non-invasive, embedded in existing processes, minimal new structures | Early maturity, low buy-in, single-system scope |
-| **Medium g** | Formalised roles, defined policies, governance council, measured compliance | Growing maturity, regulatory pressure, multi-system integration |
-| **Big G** | Mandated enterprise-wide, CDO-led, budget authority, enforcement powers | High maturity, large data estates, regulatory mandates, data monetisation |
+### 3.2 Make implicit roles explicit
 
-Most East African organisations start at little g. Propose a progression path, not a Big G landing zone on day one.
+| Role | Accountable for | Typical holder |
+|---|---|---|
+| Chief data officer | Data strategy, programme leadership, board reporting | Director-level or dedicated appointment |
+| Data owner | A domain's policies, quality targets and access rules | Head of department |
+| Data steward | Business rules, quality issues, dictionary upkeep | Subject expert in the unit |
+| Data custodian | Access controls, backups, security, infrastructure | IT or database administrator |
 
-Five common DG programme themes that shape scope (Ladley 2024):
+### 3.3 Set up a data council
 
-1. **Compliance-driven** — triggered by PDPA, GDPR, sector regulations.
-2. **MDM-driven** — master data management as the entry point.
-3. **Analytics-driven** — data quality for dashboards, BI, and AI.
-4. **Architecture-driven** — data migration, system integration, cloud transition.
-5. **Formalise-the-informal** — documenting and scaling ad hoc practices that already work.
+Cross-departmental councils are the decision forum (Ndemo et al., 2023): one member per major domain plus IT, legal and M&E; chaired by the chief data officer or executive sponsor; monthly for operations and quarterly for strategy; mandated to approve standards, prioritise quality work, settle data-sharing disputes and review compliance; supported by a small secretariat that keeps the governance register.
 
-### Business Case Components
+### 3.4 Separate duties
 
-Structure the DG business case around four value categories (Ladley):
+Those who create data are not the only validators; those who write policy do not also enforce it without independent review; owners set rules, custodians implement them and auditors verify. This matters most in public-sector and donor-funded settings (principle emphasised by Ladley, 2024).
 
-1. **Direct contributions** — improved decision quality, faster reporting, better service delivery.
-2. **Efficiency gains** — reduced data reconciliation effort, fewer duplicate records, lower rework.
-3. **Data monetisation** — new revenue from data products, partnerships, or analytics services.
-4. **Risk reduction** — compliance with data protection law, reduced breach probability, lower audit findings.
+### 3.5 Deliver the rule hierarchy in order
 
-Add a fifth for public sector clients: **data debt retirement** — the accumulated cost of years of ungoverned data (inconsistent definitions, orphaned databases, undocumented transformations).
+| Level | Purpose | Example |
+|---|---|---|
+| Principles | Beliefs that guide decisions | "Data is a shared organisational asset" |
+| Policies | Mandatory rules derived from principles | "Every dataset has a named owner" |
+| Standards | Specific technical or procedural requirements | "Dates use ISO 8601 (YYYY-MM-DD)" |
+| Controls | Mechanisms that enforce standards | "The system rejects non-ISO dates" |
+| Processes | Procedures for governance activities | "Quality-issue escalation workflow" |
 
-### Maturity Model
+Propose the full hierarchy as a deliverable set. Buying tools (controls) before principles and policies exist is a common failure.
 
-Data governance maturity progresses through stages — evolution, not revolution:
+## 4. Build the Business Case
 
-| Level | Name | Characteristics |
-|-------|------|-----------------|
-| 1 | **Initial / Ad hoc** | No formal governance, tribal knowledge, reactive data fixes |
-| 2 | **Aware** | Recognised need, pilot initiatives, informal stewards |
-| 3 | **Defined** | Policies documented, governance bodies established, roles assigned |
-| 4 | **Managed** | Metrics tracked, compliance measured, issues escalated and resolved |
-| 5 | **Optimised** | Governance embedded in culture, continuous improvement, data valued as asset |
+Structure value in five categories: better decisions, faster reporting and service delivery; efficiency (less reconciliation, fewer duplicates, less rework); data products or partnerships where appropriate; risk reduction (data-protection compliance, lower breach probability, fewer audit findings); and, for public bodies, retiring "data debt" (inconsistent definitions, orphaned databases, undocumented transformations). The first four categories follow Ladley; the fifth is this engine's addition for public-sector clients.
 
-Assess the client's current level during inception. Most government ministries and NGO programme units in East Africa operate at Level 1-2. Propose a realistic target of Level 3-4 within the engagement period.
+## 5. Implement Through Change, Not Just Policy
 
----
+### 5.1 Plan adoption stage by stage
 
-## 3. Operating Models and Roles
+Use Prosci's ADKAR model as the adoption backbone and put its milestones in the work plan:
 
-### Four-Layer Operating Model
+| Stage | What the programme does |
+|---|---|
+| Awareness | Explain why governance matters; quantify the cost of poor data with the client's own examples |
+| Desire | Show stewards how governance makes their work easier |
+| Knowledge | Train on policies, tools and standards; build data literacy |
+| Ability | Provide templates, tools and support so people can follow the process |
+| Reinforcement | Publish metrics, recognise good practice, include data quality in performance reviews |
 
-Ladley's operating model organises governance authority in four layers:
+### 5.2 Pre-empt the usual failure causes in the risk register
 
-```
-Layer 1: Leadership (Board / Permanent Secretary / CEO)
-  └─ Sets data strategy, approves policy, allocates budget
+For each risk, name a mitigation: a governance team without business knowledge or political skill; assuming governance sells itself; leaders who endorse but do not fund or attend; tools and standards deployed before buy-in; treating governance as an IT project; stakeholders who do not understand what governance requires; low data literacy; and trying to govern everything at once instead of priority domains. (Failure causes synthesised from Ladley, 2024, and engine delivery experience.)
 
-Layer 2: Executive Sponsors (CDO / CIO / Director-level)
-  └─ Chairs governance council, resolves cross-department conflicts
+### 5.3 Develop the data leaders
 
-Layer 3: Subject Area Steering (Domain leads / Data Owners)
-  └─ Governs specific data domains (HR, finance, health, agriculture)
+As maturity grows, data leaders must move from firefighting to strategy, from technical expert to cross-functional influencer, and add facilitation, negotiation, business-case, benefits-realisation, organisational-design and change-leadership skills. Treat the programme as organisational change led by them, not a technical deployment.
 
-Layer 4: Local Stewards (Operational staff embedded in units)
-  └─ Enforces standards, reports issues, maintains metadata
-```
+### 5.4 Change the culture deliberately
 
-For public sector proposals in Uganda and the region, map these layers to existing structures: Layer 1 = Accounting Officer; Layer 2 = Director of ICT or Planning; Layer 3 = Department heads; Layer 4 = Records officers and M&E officers.
+Visible and resourced executive sponsorship; quick wins within 60 to 90 days (fix one persistent quality issue, publish one domain glossary); data-quality measures in performance agreements; regular progress updates in business language; a community of practice for stewards.
 
-### Key Roles
+### 5.5 Build literacy in three tiers
 
-| Role | Responsibility | Typical Holder |
-|------|---------------|----------------|
-| **Chief Data Officer (CDO)** | Enterprise data strategy, governance programme leadership, board reporting | Director-level or dedicated appointment |
-| **Data Owner** | Accountable for a data domain; approves policies, quality targets, access rules | Department head or senior manager |
-| **Data Steward** | Day-to-day governance execution; defines business rules, resolves quality issues, maintains dictionary | Subject matter expert within a unit |
-| **Data Custodian** | Technical custody; implements access controls, backups, security, infrastructure | IT / database administrator |
-
-In many East African organisations, these roles are implicit. A governance programme makes them explicit, documented, and resourced.
-
-### Data Councils
-
-Cross-departmental data councils provide the forum for governance decision-making (Ndemo et al., 2023). Structure:
-
-- **Composition**: one representative per major data domain or department, plus IT, legal, and M&E.
-- **Chair**: CDO or senior executive sponsor.
-- **Frequency**: monthly for operational councils; quarterly for strategic steering.
-- **Mandate**: approve standards, prioritise data quality initiatives, resolve cross-departmental data sharing disputes, review compliance metrics.
-- **Secretariat**: a small governance office that prepares agendas, tracks decisions, and maintains the governance register.
-
-### Separation of Duties
-
-Ladley (2024) emphasises separation of duties as a governance design principle:
-
-- Those who **create** data should not be the sole validators.
-- Those who **govern** policy should not also **enforce** compliance without independent review.
-- **Data owners** (business) set rules; **data custodians** (IT) implement them; **auditors** verify adherence.
-
-This prevents conflicts of interest and strengthens accountability — particularly important in public sector and donor-funded environments.
-
-### Principles, Policies, Standards, Controls Hierarchy
-
-Governance artefacts cascade from abstract to specific:
-
-| Level | Description | Example |
-|-------|-------------|---------|
-| **Principles** | High-level beliefs that guide all decisions | "Data is a shared organisational asset" |
-| **Policies** | Mandatory rules derived from principles | "All datasets must have a designated data owner" |
-| **Standards** | Specific technical or procedural requirements | "Date fields use ISO 8601 (YYYY-MM-DD) format" |
-| **Controls** | Mechanisms that enforce standards | "System validation rejects non-ISO date entries" |
-| **Processes** | Step-by-step procedures for governance activities | "Data quality issue escalation workflow" |
-
-Propose the full hierarchy as a deliverable set. Many organisations jump to controls (buying tools) without establishing principles and policies first — a common failure pattern.
+All staff (awareness and basic handling); stewards and analysts (quality assessment, metadata, policy application); owners and executives (data strategy, business-case reading, governance decisions). Use training of trainers for sustainability and the capacity-building skill for detailed design.
 
 ---
 
-## 4. Implementation and Change Management
-
-### ADKAR Change Model Applied to Data Governance
-
-Ladley advocates ADKAR (Prosci) as the change management backbone for DG programmes:
-
-| ADKAR Stage | DG Application |
-|-------------|---------------|
-| **Awareness** | Communicate why governance matters; share data quality horror stories; quantify cost of poor data |
-| **Desire** | Build personal motivation — show stewards how governance makes their work easier, not harder |
-| **Knowledge** | Train on policies, tools, standards; build data literacy across the organisation |
-| **Ability** | Provide tools, templates, and support so people *can* follow governance processes |
-| **Reinforcement** | Recognise good practice, publish metrics, celebrate quick wins, embed in performance reviews |
-
-Build ADKAR milestones into the project plan — governance without change management is policy without practice.
-
-### Root Causes for Data Governance Failure
-
-Ladley (2024) identifies eight recurring failure patterns:
-
-1. **Competency gaps** — governance team lacks business knowledge or political skill.
-2. **Hubris** — assuming governance is self-evidently valuable; failing to sell it internally.
-3. **Sincerity gap** — leadership endorses governance but does not fund it, attend meetings, or enforce compliance.
-4. **Premature implementation** — deploying tools and standards before culture and buy-in are ready.
-5. **IT mindset** — treating governance as a technology project rather than a business programme.
-6. **Ignorance** — stakeholders do not understand what governance means or requires.
-7. **Data illiteracy** — staff lack the skills to interpret, manage, or question data.
-8. **Scope overreach** — trying to govern everything at once instead of starting with priority domains.
-
-Address each explicitly in risk registers and mitigation strategies.
-
-### Data Leader Transformations
-
-Ladley (2024) outlines the transformations required of data leaders as governance matures:
-
-- **Strategic shift**: from reactive data firefighting to proactive data strategy.
-- **Changing roles**: from technical expert to cross-functional leader and influencer.
-- **New behaviours**: facilitation, negotiation, coalition-building, executive communication.
-- **New capabilities**: business case development, benefits realisation, stakeholder management.
-- **New skills**: change management, organisational design, programme governance.
-- **Transformation management**: leading the governance programme as an organisational change initiative, not a technical deployment.
-
-### Culture Change Requirements
-
-Data governance is fundamentally a culture change programme. Key interventions:
-
-- **Executive sponsorship** — visible, sustained, and resourced (not ceremonial).
-- **Quick wins** — demonstrate value within 60-90 days (e.g., resolve a persistent data quality issue, publish a business glossary for one domain).
-- **Incentive alignment** — include data quality metrics in performance agreements.
-- **Communication** — regular updates on governance progress, using language the business understands.
-- **Communities of practice** — peer networks of data stewards who share challenges and solutions.
-
-### Training and Literacy Programmes
-
-Propose data literacy as a core deliverable in any governance engagement:
-
-- **Tier 1 — Awareness** (all staff): what is data governance, why it matters, basic data handling.
-- **Tier 2 — Practitioner** (stewards, analysts): data quality assessment, metadata management, policy application.
-- **Tier 3 — Leadership** (owners, executives): data strategy, business case interpretation, governance decision-making.
-
-Use Training of Trainers (ToT) for sustainability. Pair with the capacity-building skill for detailed training design.
-
----
-
-## 5. African Data Governance Context
+## 6. African Data Governance Context
 
 ### AU Data Policy Framework (February 2022)
 
@@ -367,7 +251,7 @@ Reference AfCFTA when proposing data governance for regional programmes or multi
 
 ---
 
-## 6. Proposal Strategy Notes
+## 7. Proposal Strategy Notes
 
 ### When to Propose Data Governance
 

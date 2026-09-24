@@ -139,9 +139,9 @@ If required files, interviews, finance doctrine, search evidence, calculation to
 
 A six-week rollout claim conflicts with a twelve-week dependency lead time. Block the claim, identify the dependency owner, and revise the plan or scope before drafting continues.
 
-## Book-informed technical-proposal route
+## Technical-proposal evidence route
 
-Use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) when testing technical claims, acceptance evidence, delivery realism, or cost logic.
+Use the [technical proposal evidence bridge](../../profiles-sectors/references/technical-proposal-evidence-bridge.md) when testing technical claims, acceptance evidence, delivery realism, or cost logic.
 <!-- dual-compat-end -->
 
 ## References

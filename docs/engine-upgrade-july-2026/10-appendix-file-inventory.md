@@ -561,3 +561,5 @@ skills/
         premium-writing-quality-gate.md (3056 bytes)
         seo-ai-search-writing.md (2917 bytes)
 ```
+
+> Note (2026-09-23): the `book-extractions/` folder and the `book-extractions-audit-synthesis.md` reference listed in this historical inventory were removed or rewritten under the owner's no-stored-extractions rule. Their capabilities are preserved in task-oriented skill references; see `docs/continuous-improvement/kaizen-book-integration-2026-09-23.md`.

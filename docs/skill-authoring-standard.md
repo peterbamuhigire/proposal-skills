@@ -4,7 +4,7 @@ This repository follows the July 2026 portable skill contract. The canonical eng
 
 ## Active catalogue
 
-Every file named `SKILL.md` under `skills/` is active, including `skills/SKILL.md`. Files under `templates/`, `book-extractions/`, and `docs/` are not active skills. Discover the catalogue from the filesystem for every audit or release.
+Every file named `SKILL.md` under `skills/` is active, including `skills/SKILL.md`. Files under `templates/` and `docs/` are not active skills. Book extractions and book summaries are never stored in the repository (owner rule, 2026-09-23); book knowledge lands only in task-oriented `SKILL.md` and `references/` files with a short citation, and `scripts/source_ingestion_guardrail.py` rejects any `book-extractions/` path. Discover the catalogue from the filesystem for every audit or release.
 
 ## Required skill contract
 
@@ -24,6 +24,8 @@ Each active skill must meet all of these rules:
 12. `SKILL.md` stays at or below 500 lines. Long catalogues, schemas, case studies, and worked examples move to directly linked `references/` files; routing, safety, decisions, workflow, outputs, and acceptance remain in the entrypoint.
 
 ## Proposal-engine rules
+
+- References are never single-book digests: organise each `references/` file by the engine's task or workflow, synthesise across sources in the engine's own order and wording, keep named frameworks with brief attribution, and do not reproduce a book's lists in its sequence with its titles, its case studies or near-verbatim text.
 
 - Preserve British English, East African professional tone, proposer identity, procurement framework, and the distinction between technical and financial envelopes.
 - Use `profiles` before drafting proposal text and `sectors` for procurement and sector routing.

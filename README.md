@@ -1,8 +1,32 @@
 # Proposal Skills
 
-For multi-phase proposal work, use the dated [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md). It defines scoped packages, evidence and pricing checkpoints, context hygiene, least agency, and sanitised handling of external content for Claude and Codex without changing runtime capabilities.
+**Proposal Skills** (repository `proposal-skills`) is a 115-skill engine, usable in Claude Code and Codex, whose purpose is to help consultants, agencies and firms win work by writing proposals that are compliant, persuasive, deliverable and written in natural professional English. It turns a real brief (terms of reference, request for proposals, tender notice or a client conversation), the evaluation model and the proposer's own evidence into a complete consulting proposal, Expression of Interest, tender response, retainer proposal or partnership proposal, focused on the East and Central African market and its donor, public-sector and private-sector buyers.
 
-**Proposal Skills** (repository `proposal-skills`) is a 113-skill dual-compatible (Claude Code/Codex) engine for turning a real brief, evaluation model, and evidence base into a persuasive, compliant, and deliverable consulting proposal or procurement response, for the East & Central African market. It crafts the response section by section — linking requirements, win thesis, method, people, schedule, risks, measures, price, proof, and authority — across a numbered `pipeline/` (10 skills), profile/sector/compliance routing (`profiles-sectors/`, 18 skills), delivery-domain methodology (`domain-delivery/`, 16 skills, including GIZ/EU/BMZ local procurement response and retail-transformation proposals), positioning and evaluator-journey skills (`strategy-positioning/`, 10 skills), and dedicated SaaS, AI-on-SaaS, AI-agent product, and AI-agent commercial/SLA families (47 skills combined). Proposal teams, consultants, and reviewers use it for bids, tenders, Expressions of Interest, donor and public-sector responses, technical and financial proposals, methodologies, work plans, staffing, monitoring and evaluation, risk, safeguards, and proposal audits. Concrete use cases: drafting a GIZ/EU local-procurement technical and financial response with the AVB/self-declaration checklist; running a two-reviewer adversarial "bid red-team" pass before a high-stakes submission; building an AI-agent product proposal with autonomy-level, kill-switch, and outcome-pricing exhibits; and fingerprinting the exact submitted files for a deadline-bearing tender so there is a durable receipt of what was sent, when, and to whom. It addresses incomplete compliance, unsupported claims, disconnected delivery logic, and submissions that are persuasive but difficult to evaluate or implement. It owns proposal content and structure; current or uncertain external claims route to the Digital Research Engine, while formal requirements and implementation work belong with the relevant companion engines.
+It works section by section, not as one opaque batch. The numbered pipeline drafts the cover letter, executive summary, understanding of the assignment, firm profile, relevant experience, methodology, team, work plan, EOI and a separate financial proposal. Around it sit proposer-profile and procurement-framework routing (PPDA, World Bank, AfDB, UNDP, GIZ and others), delivery-domain methods (M&E, risk, change, safeguards, consulting frameworks, business analysis), positioning and commercial skills (premium pricing, discovery and objections, key-account pursuit, tender orals, storytelling, website and marketing service proposals) and specialist families for SaaS, AI-on-SaaS and AI-agent products and their commercial terms. A section-by-section proposal phrase bank and a power-paragraph method give every section a human, specific, evidence-led voice, while anti-slop, critical-analysis and red-team gates stop unsupported claims, generic prose and delivery promises the team cannot keep.
+
+It helps proposal teams, independent consultants, digital and marketing agencies, development-sector firms and bid reviewers in three ways: it raises win rates by making the evaluator's decision easy (the client's own words, proof beside every claim, price stated plainly next to value); it protects the firm by keeping methodology, staffing, schedule and price consistent and by refusing to invent credentials, statistics or compliance; and it builds long-term revenue through key-account planning, strategic-account negotiation, orals preparation and win-loss learning. It owns proposal content and structure; current or uncertain facts route to the Digital Research Engine, finance to the Chwezi Accounting Doctrine, visual design to Design System Skills, and delivery work to the relevant companion engines.
+
+## Capabilities
+
+| Category | Skills | What it covers |
+|---|---|---|
+| `profiles-sectors` | 18 | Proposer identity/voice, procurement framework and industry-sector routing, compliance references |
+| `saas-proposals` | 14 | SaaS discovery/qualification, business case & ROI, pricing/packaging, implementation methodology, PoC/pilot scoping, procurement & security questionnaire, customer success, vertical positioning |
+| `domain-delivery` | 16 | Project management, M&E, risk management, stakeholder engagement, GIZ/EU/BMZ local procurement response, EAC e-commerce BDS programme design, retail-transformation proposals |
+| `ai-agent-proposals` | 11 | Eight-phase agentic methodology, autonomy-level discipline, action catalogue, kill-switch architecture, Responsible-AI Agent Commitment, agent procurement Q&A |
+| `ai-on-saas-proposals` | 11 | Three-plane methodology, eval discipline, hallucination SLO, Responsible-AI commitments, AI pricing patterns, AI procurement questionnaire pack |
+| `strategy-positioning` | 12 | Critical-analysis/business-logic gate, website-design proposal strategy, AI-transformation proposals, premium-client and premium-pricing strategy (offer order, strategic-account negotiation, marketing-service proposals), discovery and objections, key-account pursuit and account plans, tender orals and proposal presentation, evaluator-journey storytelling |
+| `pipeline` | 10 | Numbered proposal sections |
+| `meta` | 9 | kaizen-improvement-system, anti-ai-slop, ai-slop-audit, bid-red-team-dual-review, submission-proof-and-receipt-discipline, operational-readiness-and-localisation, skill-writing, skill-safety-audit, update-claude-documentation |
+| `ai-agent-commercial` | 8 | Agent SLA/credit schedules, commercial packaging, contract-language pack, success-fee/outcome pricing, intervention-credit and abort-refund, MSA/SLA addendum templates |
+| `writing-content` | 3 | Premium commercial writing (proposal phrase bank and power-paragraph method), blog idea generator, blog writer |
+| `language` | 2 | East African English, language standards |
+
+Total: 115 `SKILL.md` files under `skills/` (including the parent router `skills/SKILL.md`).
+
+## Orchestration contract
+
+For multi-phase proposal work, use the dated [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md). It defines scoped packages, evidence and pricing checkpoints, context hygiene, least agency, and sanitised handling of external content for Claude and Codex without changing runtime capabilities.
 
 ## Installation
 
@@ -33,30 +57,34 @@ files before relying on it in a sensitive environment (for example: "scan
 this repository for hardcoded secrets, personal paths, or unexpected
 network calls").
 
-## Capabilities
-
-| Category | Skills | What it covers |
-|---|---|---|
-| `profiles-sectors` | 18 | Proposer identity/voice, procurement framework and industry-sector routing, compliance references |
-| `saas-proposals` | 14 | SaaS discovery/qualification, business case & ROI, pricing/packaging, implementation methodology, PoC/pilot scoping, procurement & security questionnaire, customer success, vertical positioning |
-| `domain-delivery` | 16 | Project management, M&E, risk management, stakeholder engagement, GIZ/EU/BMZ local procurement response, EAC e-commerce BDS programme design, retail-transformation proposals |
-| `ai-agent-proposals` | 11 | Eight-phase agentic methodology, autonomy-level discipline, action catalogue, kill-switch architecture, Responsible-AI Agent Commitment, agent procurement Q&A |
-| `ai-on-saas-proposals` | 11 | Three-plane methodology, eval discipline, hallucination SLO, Responsible-AI commitments, AI pricing patterns, AI procurement questionnaire pack |
-| `strategy-positioning` | 10 | Critical-analysis/business-logic gate, website-design proposal strategy, AI-transformation proposals, premium-client and premium-pricing strategy, evaluator-journey storytelling |
-| `pipeline` | 10 | Numbered proposal sections |
-| `meta` | 9 | Kaizen improvement system, anti-ai-slop, ai-slop-audit, bid-red-team-dual-review, submission-proof-and-receipt-discipline, skill-writing, skill-safety-audit |
-| `ai-agent-commercial` | 8 | Agent SLA/credit schedules, commercial packaging, contract-language pack, success-fee/outcome pricing, intervention-credit and abort-refund, MSA/SLA addendum templates |
-| `writing-content` | 3 | Premium commercial writing, blog idea generator, blog writer |
-| `language` | 2 | East African English, language standards |
-
-Total: 113 `SKILL.md` files under `skills/` (including the parent router `skills/SKILL.md`).
-
 ## References
 
 - Mustafa, A. et al. *Everything Claude Code* (ECC). GitHub: affaan-m/ECC, 2026. This engine adapts several named ECC skills: `skills/meta/bid-red-team-dual-review/SKILL.md` states its dual-review contract is "adapted from the Santa Method (origin: Ronald Skelton, Founder, RapportScore.ai), read from the ECC skill engine's `skills/santa-method/SKILL.md`"; `skills/meta/submission-proof-and-receipt-discipline/SKILL.md` states it is "distilled from the ECC skill engine's `skills/operator-approval-loop/SKILL.md` — the receipt-and-proof principle only, not its hashing/epoch/claim-token database mechanism"; and `rules/common/core.md` cites "`intent-driven-development` Rule 2 (ECC audit, report 02, §3.2)" for the rule against inferring a tender's evaluation criteria from a past, similar tender.
 - Skelton, Ronald (RapportScore.ai) — named as the origin of the Santa Method underlying `skills/meta/bid-red-team-dual-review/SKILL.md`, via the ECC skill engine (year not stated in the source file).
 
-This engine's `book-extractions/` directory (14 files, e.g. `2026-09-11-commercial-persuasion-and-growth-synthesis.md`, `2026-09-14-technical-proposal-synthesis.md`, `the-saas-playbook-walling-proposal-extraction.md`, `hacking-saas-proposal-extraction.md`) holds synthesis notes rather than fully cited book extractions with named authors, titles, and publishers in the way `business-plan-skills`' `book-extractions/` does; `AGENTS.md` itself states raw books, OCR output, and long extracts must never be stored in this repository, only the minimum distilled facts. No further genuine, fully-cited non-ECC reference beyond the Santa Method attribution above was found in this engine's doctrine, so none is padded in here.
+### Books used as concept sources (2026-09-23 Kaizen)
+
+Methods from these books were rewritten as original, task-oriented guidance; no book text, summaries or extractions are stored in the repository. Volatile figures in the books were excluded or replaced by registered current facts.
+
+| Citation | Where it is used |
+|---|---|
+| Debelak, D. (2006) *Perfect Phrases for Business Proposals and Business Plans*. New York: McGraw-Hill. | `premium-commercial-writing/references/proposal-power-paragraph-method.md` and `proposal-phrase-bank.md`; pipeline 01–10 language sections |
+| Marcos, J., Guesalaga, R., Hough, A. and Vincent, R. (c. 2025) *The High-Performing Key Account Manager*. London: Kogan Page. | `key-account-pursuit-and-account-plan` and its references; `premium-pricing-and-value-defense/references/strategic-account-negotiation.md` |
+| Hunter, V. L. with Tietyen, D. (1997) *Business to Business Marketing: Creating a Community of Customers*. Lincolnwood, IL: NTC Business Books. | Key-account selection, client grading, Account Cube, value reasons, relationship cycle |
+| Kupsh, J. and Graves, P. R. (1993) *How to Create High-Impact Business Presentations*. Lincolnwood, IL: NTC Business Books. | `tender-orals-and-proposal-presentation` and its references |
+| Maltz, M., Kennedy, D. S., Brooks, W. T., Oechsli, M., Paul, J. and Yellen, P. (1998) *Zero-Resistance Selling*. New York: Prentice Hall Press. | `sales-discovery-and-objection-handling/references/objection-root-cause-and-closing-language.md` (ethics-filtered) |
+| Nelson, J. (2019) *The Seven Figure Agency Roadmap*. Doral, FL: Seven Figure Agency LLC. | `premium-pricing-and-value-defense/references/offer-presentation-and-price-order.md`; marketing-service proposals |
+| Plumley, G. (2011) *Website Design and Development: 100 Questions to Ask Before Building a Website*. Indianapolis: Wiley. | `website-design-proposal-strategy/references/website-ownership-care-plans-and-direction-boards.md`; care plans |
+| McNeil, P. (2010; 2013) *The Web Designer's Idea Book*, Volumes 2 and 3. Cincinnati: HOW Books. | Paid direction boards and style cost tiers in website proposals |
+| Johnson, G., Whittington, R., Scholes, K., Angwin, D. and Regnér, P. (2017) *Exploring Strategy: Text and Cases*, 11th edn. Harlow: Pearson. | `consulting-frameworks/references/strategic-options-evaluation.md` and `strategy-workshops-and-hypothesis-testing.md` |
+| Wheelen, T. L., Hunger, J. D., Hoffman, A. N. and Bamford, C. E. (2018) *Concepts in Strategic Management and Business Policy*, 15th edn. Harlow: Pearson. | `business-analysis-tools/references/weighted-strategic-factor-analysis.md`; four criteria for alternatives |
+| Lin, L. C. (2013) *Decode and Conquer*, 2nd edn. Bellevue, WA: Impact Interview. | `consulting-frameworks/references/product-reasoning-and-estimation.md`; case-study structure; orals question handling |
+| Wiebe, J. (2011) *Copy Hackers: 6 Persuasion Strategies*. Copy Hackers (self-published). | Option-table organisation and price timing |
+| Croll, A. and Yoskovitz, B. (2013) *Lean Analytics*. Sebastopol, CA: O'Reilly Media. | Pre-deployment baselines in `05-relevant-experience/references/case-study-and-past-performance-structure.md` |
+| Brown, R. (2016) *Build Your Reputation*. Chichester: Capstone/Wiley; Serling, B. (ed.) (2002) *How to Write Million Dollar Ads, Sales Letters and Web Marketing Pieces*. The Internet Marketing Center. | Firm-profile differentiation test and earned stature (`04-firm-profile`); process guarantees (`proposal-phrase-bank.md`, `10-financial-proposal`) |
+| Stutts, P. (2021) *The Undefeated Marketing System*. Lioncrest; Landa, R. (2022) *Strategic Creativity*. Routledge; Hennessy, B. (2018) *Influencer*. Citadel Press; Kelley, L. D. and Sheehan, K. B. (c. 2021) *Advertising Management in a Digital Environment*. Routledge. | `premium-client-proposal-strategy/references/marketing-and-digital-services-proposals.md` |
+
+Earlier SaaS, AI-on-SaaS and AI-agent audit notes and the human-English and technical-proposal syntheses formerly held in `book-extractions/` were folded into task references (`saas-commercial-motion-and-close-discipline.md`, `technical-proposal-evidence-bridge.md`, `human-english-editorial-standard.md`) and the folder was removed on 2026-09-23.
 
 ## Capability map
 
@@ -80,7 +108,7 @@ boundary, evidence and compliance matrix, win thesis, deliverables, risks,
 assumptions, approval gates, and acceptance checks through the local [domain
 prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md).
 
-As at 17 September 2026, the filesystem contains 110 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
+As at 23 September 2026, the filesystem contains 115 active `SKILL.md` entrypoints, including the parent router at `skills/SKILL.md`. The catalogue is discovered from the filesystem; references, templates, examples, documentation, and book material are not counted as active skills.
 
 The engine is not a prompt collection. Each `SKILL.md` is an executable routing or production contract with inputs, outputs, evidence, boundaries, degraded mode, decision rules, quality standards, anti-patterns, and references.
 
@@ -189,7 +217,10 @@ The `skills/strategy-positioning/` family covers:
 - Critical analysis, business logic, feasibility, achievability, and evaluator reasoning.
 - Proposal storytelling and evaluator journey.
 - Premium client positioning and value defence.
-- Sales discovery and objection handling.
+- Sales discovery, objection root causes, closing language and win-loss debriefs.
+- Key-account pursuit, GRASP stakeholder mapping, account plans, executive sponsorship and strategic-account negotiation.
+- Tender orals, shortlist interviews and proposal walk-throughs.
+- Marketing, digital-marketing and advertising service proposals, with handoffs to the business-plan and social-media engines.
 - Service design, customer journeys, blueprints, co-creation, and implementation.
 - Website design and development proposals.
 - AI transformation and responsible-AI proposals.
@@ -324,7 +355,6 @@ proposal-skills/
 |-- CONTRIBUTING.md
 |-- quality-baseline.json
 |-- scripts/
-|-- book-extractions/        # legacy source records; never add raw books or OCR
 |-- docs/
 |   |-- continuous-improvement/
 |   |-- engine-upgrade-july-2026/
@@ -380,7 +410,7 @@ Then provide the ToR/RFP/brief, identify the proposer, and state the required de
 3. Apply the Kaizen improvement system: baseline the gap, run a bounded experiment, check evidence, standardise the improvement, and schedule re-measurement.
 4. Keep frontmatter limited to `name`, `description`, and portable metadata.
 5. Keep the exact acknowledgement immediately below the first top-level heading in every active `SKILL.md`.
-6. Do not duplicate sibling-engine doctrine or store raw books/OCR.
+6. Do not duplicate sibling-engine doctrine or store raw books, OCR, book extractions or book summaries anywhere in the repository.
 7. Run the validators, routing smoke test, source-ingestion guardrail, safety and anti-slop gates, and relevant document/render checks.
 8. Update the appropriate improvement record and this README when the public capability or routing model changes.
 
@@ -398,3 +428,10 @@ passes 23 tests. A fixture approval is not a signatory decision, and no bid has
 been submitted or accepted. The next step is independent reconciliation of one
 response fragment before rendering a complete package or starting the
 conditional AI/SaaS pilot.
+
+## September 2026 book-integration Kaizen (2026-09-23)
+
+- Added the proposal phrase bank and power-paragraph method as the engine's human-professional language standard, wired into pipeline 01–10, premium commercial writing, language skills and the anti-slop gates.
+- Added `key-account-pursuit-and-account-plan` and `tender-orals-and-proposal-presentation` (115 skills; 25 routing fixtures).
+- Added references for strategic-account negotiation, offer presentation and retainer design, marketing-service proposals with cross-engine handoffs, website ownership and care plans, objection root causes and win-loss debriefs, strategic options evaluation, strategy workshops, product reasoning and estimation, weighted strategic-factor analysis, and case-study structure.
+- Removed the `book-extractions/` folder with a zero-loss capability map; the source-ingestion guardrail now rejects any `book-extractions/` path. Record: [`docs/continuous-improvement/kaizen-book-integration-2026-09-23.md`](docs/continuous-improvement/kaizen-book-integration-2026-09-23.md).

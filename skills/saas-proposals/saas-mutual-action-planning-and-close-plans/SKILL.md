@@ -118,3 +118,7 @@ If legal review has no named owner or date, show it as an unresolved dependency 
 - [../references/meddic-and-command-of-message-for-saas.md](../../profiles-sectors/references/meddic-and-command-of-message-for-saas.md) — qualification logic.
 - [../08-work-plan/SKILL.md](../../pipeline/08-work-plan/SKILL.md) — work plan section discipline.
 - [../saas-discovery-and-qualification/SKILL.md](../saas-discovery-and-qualification/SKILL.md) — inputs to the MAP from discovery.
+
+## Commercial Motion and Close Discipline
+
+Read [SaaS commercial motion and close discipline](../../profiles-sectors/references/saas-commercial-motion-and-close-discipline.md) for the three proposal layers (quote, impact proposal, business case), not-a-fit discipline, buyer-silence handling, mirrored role coverage, trade discipline, segment shape, dual funnels, net negative churn, growth and drag measures, and the SaaS workstreams to scope.

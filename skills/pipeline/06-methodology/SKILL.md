@@ -84,9 +84,9 @@ Without complete scope, evidence, schedule, or team data, return a bounded outli
 ## Worked Example
 For an ERP bid, sequence discovery, posting-rule design, configured prototype, migrated-data rehearsal, UAT, cutover, and first close, each with finance-owner approval and recovery conditions.
 
-## Book-informed technical-proposal route
+## Technical-proposal evidence route
 
-For technical work, use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) to make each phase produce verifiable engineering evidence and a clear handoff.
+For technical work, use the [technical proposal evidence bridge](../../profiles-sectors/references/technical-proposal-evidence-bridge.md) to make each phase produce verifiable engineering evidence and a clear handoff.
 <!-- dual-compat-end -->
 
 ## QC Story, PDCA, compliance screening, and review
@@ -345,3 +345,14 @@ Read the relevant reference file when a methodology requires detailed frameworks
 - Apply SCQA within each phase: open with what the reader accepts (Situation), introduce the challenge (Complication), raise the question this phase answers (Question), then present the approach (Answer)
 - Follow east-african-english standards throughout
 
+## Options Considered and Consulting Method Sources
+
+For formal proposals, include an "options considered" subsection: at least three routes, the real merits and drawbacks of each, the route recommended with its reason tied to the client's stated goal, and a comparable success. Candid treatment of rejected options builds credibility and can lead to follow-on work. Phrase it with section 6 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md).
+
+Method references:
+
+- [Strategic options evaluation](../../domain-delivery/consulting-frameworks/references/strategic-options-evaluation.md) for suitability, acceptability and feasibility screening, the four criteria for alternatives and the decision memo.
+- [Strategy workshops and hypothesis testing](../../domain-delivery/consulting-frameworks/references/strategy-workshops-and-hypothesis-testing.md) for workshop series, quick hypothesis tests, co-staffed workstreams and issue-selling.
+- [Product reasoning and estimation](../../domain-delivery/consulting-frameworks/references/product-reasoning-and-estimation.md) for product or service design reasoning, sizing and pricing logic.
+- [Weighted strategic-factor analysis](../../domain-delivery/business-analysis-tools/references/weighted-strategic-factor-analysis.md) for the strategic audit and weighted factor summaries.
+- Where value co-creation fits, phase the work as co-diagnosis, co-ideation, co-design, co-testing and co-evaluation, and capture client baselines before implementation so that results can be reported as deltas.

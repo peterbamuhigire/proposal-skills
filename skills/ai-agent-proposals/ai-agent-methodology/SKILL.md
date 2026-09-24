@@ -210,3 +210,12 @@ After build, run shadow evaluation against agreed task sets. Advance to supervis
 - [ai-agent-poc-and-pilot-scoping](../ai-agent-poc-and-pilot-scoping/SKILL.md) — pilot-stage detail.
 - [ai-agent-risk-and-responsible-ai](../ai-agent-risk-and-responsible-ai/SKILL.md) — risk and commitment.
 - [ai-agent-team-composition](../ai-agent-team-composition/SKILL.md) — staffing this methodology assumes.
+
+## Composition With Other AI Families
+
+| Deployment shape | Skills to load | Weight |
+|---|---|---|
+| Stand-alone agent product or service | The `ai-agent-*` and `ai-agent-commercial` families only | Full |
+| Agentic layer inside a multi-tenant SaaS product | `ai-on-saas-combined-methodology` as the headline, with the agent stack overlaying the AI plane (action-catalogue design, autonomy-level architecture, agent risk entries, agent pricing, agent procurement answers, agent change staging) | Full, both stacks |
+| Single-model assistant that can take actions ("copilot with actions") | The agent stack at lighter weight: autonomy L1–L2 only, a small and tightly confined action catalogue, human approval on every action, audit log and kill-switch still in scope | Light, but the discipline still applies |
+| AI features with no autonomous actions | `ai-on-saas-*` or `ai-transformation-proposal`; do not import agent autonomy claims | Not agentic |

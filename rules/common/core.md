@@ -27,3 +27,21 @@ things went last time, not what the current evaluator requires.*
 Treat the skill file as authoritative and complete for the task at hand.
 Reference material exists for depth, not as a substitute for reading the
 skill first.
+
+## Never store book extractions or book summaries in the repository
+
+Book knowledge enters this engine only as task-oriented `SKILL.md` and
+`references/` guidance (procedures, checklists, templates, phrase banks,
+decision rules) with a short citation. No `book-extractions/` folder, no
+chapter summaries, no OCR. `scripts/source_ingestion_guardrail.py` enforces it.
+
+*Owner rule, 2026-09-23.*
+
+## References are task-organised, never single-book digests
+
+A `references/` file follows the engine's own task or workflow order and
+synthesises across sources in its own wording. Named frameworks may be applied
+with brief attribution; a book's lists in its sequence with its titles, its case
+studies and near-verbatim passages may not be reproduced.
+
+*Owner rule, 2026-09-24.*

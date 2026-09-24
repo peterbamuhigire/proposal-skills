@@ -160,3 +160,6 @@ Half a page. A checklist or brief statement confirming:
 - Focus on proving eligibility and relevance, not on persuasion
 - Follow east-african-english standards throughout
 
+## Compressed Power Paragraphs
+
+An EOI is scored on eligibility and relevance, so use only the expertise and experience paragraphs of the [power-paragraph method](../../writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md): the expertise the assignment requires, our matching expertise, and a summary of comparable experience with the list in an annex. Keep the client's needs to one sentence in the client's own words. Phrase with sections 7 and 8 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md).

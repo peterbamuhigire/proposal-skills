@@ -35,7 +35,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 Stop or block the workflow when a required input, permission, or acceptance basis is missing. Recover by revising the scope, obtaining evidence, or returning the narrowest qualified draft before proceeding.
 1. Read the assignment materials and confirm what the summary must persuade the evaluator to believe.
 2. Load the proposer profile and any relevant procurement, sector, or domain skills.
-3. Use the structure below to create a concise, benefits-forward summary tied to the actual assignment.
+3. Confirm the power-paragraph sheet (seven lead paragraphs) exists; if not, draft it first with the power-paragraph method, then use the structure below to create a concise, benefits-forward summary tied to the actual assignment.
 4. Build the evaluator journey: understanding, confidence, proof, control, and defensible decision.
 5. Cross-check the summary against the rest of the proposal so the themes and facts match.
 6. Verify that the opening, differentiators, scope logic, and close all reinforce the same win story.
@@ -206,3 +206,6 @@ This structure creates a persuasive arc: the executive summary opens with the pr
 
 When the assignment involves revenue growth, product-led growth, AI-enabled products, pricing, disruption, or business-model transformation, load `../references/growth-profit-disruption-proposal-patterns.md` before drafting. Use it to make the executive summary commercially sharper: growth system, profit levers, experiments, operating cadence, and disruption readiness.
 
+## Power-Paragraph Sheet and Phrase Bank
+
+The executive summary carries the key phrase from each of the seven power paragraphs in the [power-paragraph method](../../writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md), in the evaluator's order. Draft from section 3 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md): governing idea in one sentence, the client's problem in its own words, three or four proved pillars, a short "evaluators usually ask three things" block that pre-answers the top concerns, and a benefits-forward close (during, at completion, beyond). Identify the engagement shape (independent product, delivered with client staff, continuing service, shared cooperation, formal partnership) before drafting, because it changes the emphasis of every paragraph.

@@ -298,3 +298,13 @@ The closing should leave the evaluator with a clear sense of purpose and value. 
 - Frame suggestions as "we recommend" or "the firm suggests", not "the ToR should have included"
 - Follow east-african-english standards throughout
 
+## The Client's Words and the Cost of Doing Nothing
+
+Hard acceptance test for this section:
+
+1. At least one need is stated in the client's own words, with its source (meeting and date, clarification response, or ToR clause).
+2. At least one sentence states what doing nothing costs the client (money, time, members, compliance or reputation), with its basis. Many proposals lose to "do nothing", not to a competitor.
+3. The longer-term benefit looks outward to the client's position, not back at our activities.
+4. If the client's stated goal cannot be met within the budget or timetable, say so here and propose the achievable variant; never quietly re-scope.
+
+Use section 4 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md) for slot-templates and rewrites. For strategic accounts, decode the client's pragmatic strategy (formal strategy plus operators' current needs) with the [pragmatic strategy and GRASP reference](../../strategy-positioning/key-account-pursuit-and-account-plan/references/pragmatic-strategy-and-grasp-mapping.md).

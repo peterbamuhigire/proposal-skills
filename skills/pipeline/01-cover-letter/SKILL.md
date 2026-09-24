@@ -173,3 +173,6 @@ For and on behalf of: [FIRM NAME]
 Address: [ADDRESS]
 ```
 
+## Phrase Bank and Closing Language
+
+Draft from section 2 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md): open with the client's situation, give two or three sourced proof points, confirm compliance, add one sentence on value beyond the project (the value-beyond-the-project lead paragraph in the [power-paragraph method](../../writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md)), and close with one specific next step. Replace weak closes such as "Please do not hesitate to contact us" with a concrete offer, for example to present the approach to the evaluation committee. Reuse the key phrase from the power-paragraph sheet; never copy whole paragraphs from the executive summary.

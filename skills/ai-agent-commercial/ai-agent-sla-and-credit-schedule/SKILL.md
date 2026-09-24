@@ -175,6 +175,13 @@ If source terms, telemetry, calculation tools, or legal review are unavailable, 
 4. Draft the contracted output and cross-check every dependent exhibit; recover by reconciling the controlling term with its owner and rerunning the calculation.
 5. Verify acceptance conditions, evidence trace, legal-review markers, and anti-slop controls; block release until failed checks are corrected.
 
+## Africa Context and Ownership Boundary
+
+- Collection cycles can run long in some markets and longer in the public sector; do not rely on per-resolution pricing alone without a base fee and a unit floor (see `ai-agent-commercial-packaging`).
+- Public-sector buyers often will not accept outcome pricing on citizen services; offer the public-sector SLA variant instead.
+- Some financial-services regulators expect a named accountable person for automated decisions; check the current rule for the buyer's regulator (for example BoU, CBK, BNR) with the Digital Research Engine before drafting the accountability clause.
+- Ownership split: the engineering engine proves the kill-switch, audit-log completeness, replay and intervention telemetry that the SLA promises (the SLA may never be more aggressive than the engineering can evidence); the business-plan and finance engines own credit cost in the P&L, margin floor, revenue recognition and FX hedge cost; this engine owns the contractual language and credit schedule.
+
 ## Worked Example
 
 The buyer needs 99.5% availability and a 15-minute kill-switch response. Select the supported class, define measurement windows and exclusions, then model the worst credit month.

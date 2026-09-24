@@ -175,6 +175,17 @@ ANTI-SLOP GUARDRAIL (inherit in every proposal section):
 - **Unverifiable claims:** any market statistic, certification, ranking, or "studies show" line needs a named, real source or it is removed.
 - **Financial proposals:** day rates, fee breakdowns, and reimbursables must be internally consistent with the staffing schedule and the work plan. No round-number filler.
 
+## Human-professional standard for proposal prose
+
+The positive standard that replaces slop is the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md) with its [power-paragraph method](../../writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md) and the [human-English editorial standard](../../language/language-standards/references/human-english-editorial-standard.md). While writing:
+
+- **Specific over superlative:** at most one calibrated superlative per section, and only with proof beside it.
+- **The client's words:** needs and goals quote or paraphrase the client with a source; add the cost of doing nothing.
+- **Customisation in nouns:** their sites, members and regulator, never "tailored" or "bespoke" as a claim.
+- **Standardised insight:** AI-drafted account plans and proposals converge on the same generic observations; every analytical paragraph must contain account-specific evidence another bidder could not copy.
+- **Unsourced statistics:** remove any figure without a named, dated source, including figures that appear in books.
+- **Price and close:** price stated plainly with value beside it; the close asks for one specific action.
+
 ## Ship gate (run before delivering ANY section)
 
 - [ ] Every section has at least one concrete, named, assignment-specific element (U1 and U2).

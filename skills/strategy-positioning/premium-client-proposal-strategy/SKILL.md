@@ -147,3 +147,11 @@ A board is funding a regulated-system redesign. Lead with decision risk, senior 
 - [saas-metrics-glossary-for-proposals](../../profiles-sectors/references/saas-metrics-glossary-for-proposals.md) - investor-grade vocabulary opt-in.
 - [vertical-saas-positioning-financial-services](../../profiles-sectors/references/vertical-saas-positioning-financial-services.md) and related vertical positioning files.
 - [saas-discovery-and-qualification](../../saas-proposals/saas-discovery-and-qualification/SKILL.md), [saas-business-case-and-roi-modeling](../../saas-proposals/saas-business-case-and-roi-modeling/SKILL.md), [saas-vertical-positioning](../../saas-proposals/saas-vertical-positioning/SKILL.md) - SaaS-specific skills.
+
+## Value-Based Selling, Win Themes and Service Lines
+
+- **Value pitch, not product pitch:** state the client's metric, the estimated change, its value in UGX or KES, and how the baseline will be agreed; see [account expansion, value co-creation and sponsorship](../key-account-pursuit-and-account-plan/references/account-expansion-value-and-sponsorship.md).
+- **Win themes from evidence:** derive them from why clients actually buy from us (new-client interviews, lost-client reasons, a ranked feature-set comparison with buying importance), not from our own list of strengths.
+- **Stakeholder-tailored build:** write one message per decision role (finance, technical, operations, executive), prepare priced scenarios (full, phased, hybrid), a frequently-asked-questions list by stakeholder, and tie every section to the client's published objectives.
+- **Strategic accounts:** where the proposal is one step in a longer relationship, run [key-account-pursuit-and-account-plan](../key-account-pursuit-and-account-plan/SKILL.md) first.
+- **Marketing, digital-marketing and advertising services:** read [marketing and digital services proposals](references/marketing-and-digital-services-proposals.md) for engagement architecture, retainer design, creative-approach and influencer terms, compliance points, and the handoffs to `business-plan-skills` (marketing plans) and `social-media-skills` (digital marketing and advertising substance).

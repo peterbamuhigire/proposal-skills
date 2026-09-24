@@ -485,3 +485,6 @@ Name the tools as proprietary where possible: "Using our [Firm Name] Diagnostic 
 
 Follow east-african-english standards throughout.
 
+## Weighted Strategic-Factor Analysis
+
+Read [weighted strategic-factor analysis](references/weighted-strategic-factor-analysis.md) when a diagnostic must reduce the scan to fewer than ten weighted, rated, time-bound and justified strategic factors (external, internal and combined summaries), compare against competitors with an industry matrix, run the strategic audit as a four-workstream diagnostic, or write objectives, missions and control lines that pass explicit tests.

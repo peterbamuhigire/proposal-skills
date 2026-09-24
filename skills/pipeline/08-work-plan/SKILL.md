@@ -121,9 +121,9 @@ When the assignment must manage accounts, budgets, donor funds, project advances
 - Donor/client financial report review cycles.
 - Audit-file assembly and close-out financial report.
 
-## Book-informed technical-proposal route
+## Technical-proposal evidence route
 
-For technical work, use [the 2026-09-14 technical-proposal synthesis](../../../book-extractions/2026-09-14-technical-proposal-synthesis.md) to schedule validation, review, QA, rollout, support, and optimisation as real delivery events.
+For technical work, use the [technical proposal evidence bridge](../../profiles-sectors/references/technical-proposal-evidence-bridge.md) to schedule validation, review, QA, rollout, support, and optimisation as real delivery events.
 <!-- dual-compat-end -->
 
 ## References
@@ -259,3 +259,9 @@ This links the schedule to named accountability and reduces the risk that timeli
 - Ensure total person-days in the staffing schedule match the financial proposal
 - Follow `east-african-english` standards throughout
 
+## Governance Meetings and Deliverable Order
+
+- Every recurring meeting in the plan states its purpose, the artefact it produces and the decision it takes; minutes and action logs reach participants within two working days.
+- List the deliverable the client values most first; place extras under "in addition" and price optional extras separately in the financial proposal.
+- State client inputs with dates and the consequence if they slip.
+- Phrase with sections 10 and 11 of the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md); workshop and meeting discipline is in the [orals preparation and room readiness reference](../../strategy-positioning/tender-orals-and-proposal-presentation/references/orals-preparation-and-room-readiness.md) section 6.

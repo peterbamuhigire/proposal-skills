@@ -151,3 +151,7 @@ Never resort to false urgency, fake scarcity, unsupported authority, or fear-bas
 - `saas-vendor-vs-build-narrative.md` for build-vs-buy depth.
 - `saas-win-themes-and-discriminators.md` for the positioning that prevents objections in the first place.
 - `meddic-and-command-of-message-for-saas.md` for the qualification logic that catches objections early.
+
+## Pre-empting Objections with a Provocation
+
+Many objections come from the buyer not seeing the full cost of the status quo. Before objections arise, surface one evidence-based risk the buyer is not measuring (see the provocation step in the [SaaS demo script template](saas-demo-script-template.md)). It reframes the "do nothing" option honestly. Never invent or inflate the risk; if discovery produced no evidence, do not use a provocation.

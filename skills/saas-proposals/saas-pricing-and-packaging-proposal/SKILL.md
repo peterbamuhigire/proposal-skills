@@ -124,3 +124,7 @@ If usage volume is uncertain, present a bounded base allowance and transparent o
 - [../references/saas-gtm-motion-design-reference.md](../../profiles-sectors/references/saas-gtm-motion-design-reference.md) — pricing-experimentation register.
 - [../premium-pricing-and-value-defense/SKILL.md](../../strategy-positioning/premium-pricing-and-value-defense/SKILL.md) — premium fee defence overlay.
 - [../10-financial-proposal/SKILL.md](../../pipeline/10-financial-proposal/SKILL.md) — section discipline.
+
+## Commercial Motion and Close Discipline
+
+Read [SaaS commercial motion and close discipline](../../profiles-sectors/references/saas-commercial-motion-and-close-discipline.md) for the three proposal layers (quote, impact proposal, business case), not-a-fit discipline, buyer-silence handling, mirrored role coverage, trade discipline, segment shape, dual funnels, net negative churn, growth and drag measures, and the SaaS workstreams to scope.

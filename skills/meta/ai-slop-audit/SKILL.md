@@ -156,6 +156,8 @@ Combine burstiness, focal-word density, duplication, and template similarity int
   - *Methodology and work plan:* no visible logic (evidence → warrant → assumptions → counter-case → implication); frameworks used as decoration; methodology, staffing, timeline, and budget that do not tell one achievable delivery story.
   - *Financial proposal:* round-number filler; fees inconsistent with the staffing schedule and work plan; reimbursables that do not match the method.
 
+- 👁 **Human-professional standard:** judge proposal prose against the [proposal phrase bank](../../writing-content/premium-commercial-writing/references/proposal-phrase-bank.md): needs in the client's words with a source; a cost-of-doing-nothing sentence in the understanding section; power paragraphs leading scored sections; price stated plainly next to value; a specific close. Flag standardised insight (observations any bidder could make), superlatives without adjacent proof, and statistics without a named, dated source.
+
 Cross-check the reasoning failures with `critical-analysis-business-logic`, which is the complementary gate for evidence, business sense, feasibility, and achievability.
 
 ## Scoring and verdict

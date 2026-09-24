@@ -2,7 +2,7 @@
 
 Parent skill: [Capacity Building](../SKILL.md).
 
-> Synthesised from Ubels et al. (Capacity Development in Practice, 2010), USAID HICD Handbook (2010), Senge (The Fifth Discipline, 2006), and standard development practice frameworks (UNDP, OECD-DAC).
+> Organised by this engine's institutional-strengthening workflow and synthesised across Ubels et al. (Capacity Development in Practice, 2010), USAID HICD Handbook (2010), Senge (The Fifth Discipline, 2006), and standard development practice frameworks (UNDP, OECD-DAC, ECDPM). No section follows a single book's chapter order.
 
 ---
 
@@ -10,7 +10,7 @@ Parent skill: [Capacity Building](../SKILL.md).
 
 ### 1.1 Organisations as Open Systems
 
-Ubels and Boesen (Ch. 11) position organisations not as self-contained units but as **open systems** embedded in wider institutional environments. Capacity is shaped by forces that extend well beyond the organisation's formal boundaries — including legal frameworks, political incentives, social norms, and market structures. Any institutional assessment that stops at the organogram misses the drivers that determine whether capacity investments stick.
+Treat organisations not as self-contained units but as **open systems** embedded in wider institutional environments. Capacity is shaped by forces that extend well beyond the organisation's formal boundaries — including legal frameworks, political incentives, social norms, and market structures. Any institutional assessment that stops at the organogram misses the drivers that determine whether capacity investments stick.
 
 **Practical implication**: before proposing organisational interventions, map the external institutional environment. An efficient ministry department will still fail if the policy framework, budget cycle, or political incentives work against it.
 
@@ -39,7 +39,7 @@ Standard tools for institutional analysis in CD proposals:
 
 ### 1.4 Political Economy Analysis for CD
 
-Ubels (Ch. 11) is explicit: **institutions are about power and politics**. Ignoring this produces technically sound plans that never get implemented.
+Institutions are about **power and politics** (Ubels et al., 2010). Ignoring this produces technically sound plans that never get implemented.
 
 Key PEA questions for institutional strengthening:
 
@@ -101,21 +101,23 @@ Common public sector IS intervention packages:
 
 ### 2.4 Civil Society Strengthening
 
-**CBO Capacity Development Cycle** (Ubels, Ch. 15):
+**Community-organisation maturity path (engine synthesis).** Place each community-based organisation on this path during assessment and design support for its next step, not for every step at once:
 
-1. **Formation/mobilisation** — community identification of need, group formation, basic governance
-2. **Organisational basics** — constitution, registration, leadership election, record-keeping
-3. **Programme development** — needs assessment, activity planning, resource mobilisation
-4. **Institutional maturity** — systems formalisation, financial management, partnerships, M&E
-5. **Sustainability/graduation** — self-financing mechanisms, federation/networking, policy engagement
+| Stage | Signs the organisation is here | Support that fits |
+|---|---|---|
+| Getting started | A shared need, an informal group, basic leadership | Facilitation of purpose, simple governance, first records |
+| Formalising | Constitution, registration, elected leaders, record-keeping | Governance and book-keeping coaching |
+| Running programmes | Needs assessment, activity plans, first resources raised | Planning, proposal and reporting skills |
+| Maturing | Formal systems, financial controls, partnerships, M&E | Systems strengthening, audit readiness, partnership brokering |
+| Standing alone | Own income, membership of federations or networks, policy voice | Federation support, advocacy skills, exit planning |
 
-**Elements of CBO capacity** (Ubels): governance, management, financial viability, programme delivery, external relations, learning ability.
+Assess six elements at each stage: governance, management, financial viability, programme delivery, external relations and ability to learn.
 
-**HakiElimu Tanzania case** (Ubels, Ch. 12): demonstrates how CSOs can strengthen public accountability in education by combining community scorecards, media campaigns, and policy dialogue. Model for demand-side governance interventions.
+**Demand-side accountability pattern:** civil-society organisations can strengthen public accountability in a service (for example education or health) by combining community scorecards, media work and structured policy dialogue. Use it as a design pattern for demand-side governance components; cite local evidence rather than foreign cases.
 
 ### 2.5 Private Sector Institutional Development
 
-**Value chain approach to CD** (Ubels, Ch. 14 — Uganda agricultural case):
+**Value chain approach to CD:**
 
 - Multi-stakeholder processes involving farmers, processors, traders, input suppliers, regulators, and financiers.
 - Institutional strengthening of sector associations, cooperatives, and market platforms.
@@ -123,36 +125,38 @@ Common public sector IS intervention packages:
 - Regulatory and standards frameworks that enable private sector growth.
 - Public-private dialogue platforms for policy reform.
 
-**Bridging the micro-macro gap** (Ubels, Ch. 13): connect local-level CD interventions to national policy processes. Local CBOs and farmer groups need pathways to influence district and national planning. This requires federation, networking, and intermediary organisations.
+**Bridging the micro-macro gap:** connect local-level CD interventions to national policy processes. Local CBOs and farmer groups need pathways to influence district and national planning. This requires federation, networking, and intermediary organisations.
 
 ---
 
 ## 3. Leadership and Governance Development
 
-### 3.1 Typology of Leaders
+### 3.1 Map the Leadership in the Client System
 
-Ubels (Ch. 16) identifies several leader types relevant to CD:
+Before designing leadership development, map who actually leads change in the client system; formal titles are only one source. Ask:
 
-- **Positional leaders**: hold formal authority (directors, ministers, board chairs). CD focuses on management competence and strategic vision.
-- **Emergent leaders**: rise through demonstrated competence or charisma. CD focuses on formalising influence and building coalitions.
-- **Thought leaders**: shape discourse and ideas. CD focuses on platforms, publications, and policy engagement.
-- **Bridging leaders**: connect sectors, levels, or communities. CD focuses on convening skills, negotiation, and network management.
-- **Quiet leaders**: effect change through consistent, low-profile effort. CD focuses on support systems and peer networks.
+| Question | What it reveals | Design consequence |
+|---|---|---|
+| Who holds formal authority over the change (directors, ministers, board chairs)? | Positional leadership | Strategic management and decision-making support |
+| Who do staff follow because of competence or credibility, whatever their grade? | Informal leadership | Ways to formalise their influence and build coalitions |
+| Who shapes the ideas and language of the sector? | Thought leadership | Platforms, publications, policy dialogue |
+| Who connects units, levels, sectors or communities? | Bridging leadership | Convening, negotiation and network skills |
+| Who sustains change through steady, low-profile work? | Quiet leadership | Support systems and peer networks |
 
-**Practical note**: proposals should identify which leader types exist in the client organisation and design interventions accordingly. A leadership programme for positional leaders differs fundamentally from one for emergent leaders.
+A programme for formal office-holders differs fundamentally from one for informal or bridging leaders; design for the mix found (drawing on Ubels et al., 2010).
 
-### 3.2 Leadership for Change Programme Model
+### 3.2 Designing a Leadership-for-Change Programme
 
-The PLC curriculum (Ubels, Ch. 16) structures leadership development around:
+Build the programme around real change initiatives that participants lead in their own organisations. Cover, in the order that suits the cohort:
 
-1. **Self-awareness modules**: personal leadership style, strengths and blind spots, values clarification
-2. **Contextual analysis**: understanding the institutional environment, reading political dynamics, scanning for opportunities
-3. **Vision and strategy**: articulating compelling direction, strategic planning, prioritisation
-4. **Influencing and mobilisation**: stakeholder engagement, coalition building, negotiation, communication
-5. **Managing complexity**: adaptive management, dealing with uncertainty, resilience under pressure
-6. **Peer learning**: cohort-based learning, action learning sets, mentoring pairs
+- **Reading the context:** the institutional environment, political dynamics and openings for change.
+- **Setting direction:** a clear purpose, priorities and a realistic strategy.
+- **Working through others:** stakeholder engagement, coalitions, negotiation and communication.
+- **Handling uncertainty:** adaptive management and resilience under pressure.
+- **Knowing oneself:** leadership style, strengths, blind spots and values.
+- **Learning with peers:** cohort learning, action learning sets and mentoring pairs.
 
-**Delivery format**: typically 4–6 residential modules over 12–18 months, with action learning projects between modules. Participants implement real change initiatives in their organisations and report back.
+**Delivery format:** typically four to six residential modules over 12 to 18 months, with action-learning projects between modules; participants report back on the changes they lead.
 
 ### 3.3 Leadership Theories Applied to CD Interventions
 
@@ -203,7 +207,7 @@ Senge's five disciplines translate into concrete institutional strengthening int
 
 ### 4.2 Knowledge Networking for CD
 
-Ubels (Ch. 17) on knowledge networks:
+Knowledge networks:
 
 - **Definition**: groups of practitioners and organisations that create, share, and apply knowledge around a common domain.
 - **Network functions**: peer learning, joint problem-solving, innovation, advocacy, quality assurance.
@@ -328,7 +332,7 @@ Common reasons institutional strengthening outcomes fail to sustain:
 
 ### 6.1 Measuring Capacity Change
 
-Combining qualitative and quantitative approaches (drawing on Ubels, Ch. 18):
+Combine qualitative and quantitative approaches:
 
 **Quantitative indicators**: staff numbers, budget execution rates, service delivery volumes, processing times, error rates, compliance scores, system uptime.
 
@@ -343,7 +347,7 @@ Combining qualitative and quantitative approaches (drawing on Ubels, Ch. 18):
 
 ### 6.2 Time Frames: Outputs, Capability Outcomes, Impact
 
-Ubels (Ch. 19) insists that **time matters** in CD evaluation. Three distinct time frames must be tracked:
+**Time matters** in CD evaluation. Three distinct time frames must be tracked:
 
 | Time Frame | What to Measure | Typical Indicators | When Measurable |
 |---|---|---|---|
@@ -384,7 +388,7 @@ Participatory M&E method well-suited to capturing institutional strengthening st
 
 ### 6.6 Reconciling Accountability and Learning
 
-Ubels (Ch. 21) addresses the fundamental tension in CD M&E:
+CD M&E carries a fundamental tension:
 
 - **Accountability** demands proof of results, attribution, value for money — driving standardised measurement, upward reporting, and risk aversion.
 - **Learning** demands honesty about failure, experimentation, adaptation — driving reflective practice, peer exchange, and tolerance for uncertainty.
@@ -452,9 +456,9 @@ Typical deliverable set for institutional strengthening assignments:
 
 **OECD-DAC**: the Paris Declaration principles (ownership, alignment, harmonisation, results, mutual accountability) provide the normative framework. Proposals should demonstrate how institutional strengthening supports country ownership and uses country systems.
 
-### 7.5 CD Market and Local Provision (Ubels, Ch. 23)
+### 7.5 CD Market and Local Provision
 
-Ubels identifies the importance of **stimulating local CD support provision** rather than relying on international consultants:
+Stimulate **local CD support provision** rather than relying on international consultants:
 
 - **Types of CD services**: training, coaching, facilitation, organisational development, research, evaluation, knowledge brokering, network management, policy advice.
 - **Market terminology**: distinguish between supply-driven CD (providers push products) and demand-driven CD (institutions articulate needs). Best practice is demand-driven with informed choice.

@@ -40,6 +40,7 @@ This parent skill covers the full range of consulting proposal documents. All ac
 6. Load premium, discovery, service-design, storytelling, support, and pricing skills where the buyer context, value defence, implementation credibility, or post-launch operation requires them.
 7. Load `skills/domain-delivery/accounting-finance-advisory/SKILL.md` whenever the proposal needs a finance/accounting section, project financial management section, accounting controls, budget governance, donor/grant finance, statutory/tax handling, audit evidence, financial modelling, bookkeeping, ERP/POS finance, revenue assurance, cost controls, or management reporting. Also load `skills/strategy-positioning/embedded-accounting-engine-proposal/SKILL.md` when the proposal includes embedded accounting, finance automation, inventory accounting, payroll accounting, tax/VAT automation, or a claim that the system replaces QuickBooks/Sage/Pastel/Tally-class workflows.
 7a. Load `skills/meta/operational-readiness-and-localisation/SKILL.md` when the proposed work depends on local banking, tax registration, sector licensing, payroll/labour, FX, compliance-calendar, last-mile logistics, data protection, government interface, or local partnerships. Use its matrix to reconcile methodology, work plan, team, risk, data/security, and financial proposal claims.
+7b. Before drafting sections, write the seven-paragraph power-paragraph sheet (`writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md`) and draft each section from the proposal phrase bank (`.../references/proposal-phrase-bank.md`). For marketing, digital-marketing or advertising service proposals, read `strategy-positioning/premium-client-proposal-strategy/references/marketing-and-digital-services-proposals.md` and hand marketing-plan substance to business-plan-skills and digital-marketing substance to social-media-skills.
 8. Load `skills/writing-content/premium-commercial-writing/SKILL.md` when the proposal, cover letter, executive summary, case study, business document, or public-facing content needs premium commercial polish, evaluator-friendly structure, stronger proof, or search-aware writing.
 9. Load `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md` before drafting high-stakes, methodology, work plan, financial, transformation, or final-review content.
 9. Apply `skills/meta/anti-ai-slop/SKILL.md` as a REAL-TIME gate on every section while you write it, so slop never enters the draft in the first place.
@@ -65,6 +66,7 @@ Fallback: when files, network sources, rendering, spreadsheet tooling, or eviden
 | One known proposal section only | Route to the matching numbered pipeline skill | Loading the whole catalogue unnecessarily |
 | Technical and financial envelopes are separate | Produce and validate them independently | Procurement disqualification |
 | Software, finance, website, SaaS, or agentic scope appears | Add the named domain engine or specialist skill | Unsupported technical or commercial claims |
+| An assistant can take actions but only one at a time with a human confirming ("copilot with actions") | Load the agent families at lighter weight: autonomy L1–L2, small action catalogue, human approval on every action (see `ai-agent-methodology` composition table) | Over- or under-engineering agent controls |
 
 ## Quality Standards
 - Treat each [SKILL.md](SKILL.md) as the portable unit and load it from the `skills/` folder.
@@ -103,10 +105,11 @@ Fallback: when files, network sources, rendering, spreadsheet tooling, or eviden
 - [Critical analysis and business logic](strategy-positioning/critical-analysis-business-logic/SKILL.md)
 - [Anti-slop production guardrail](meta/anti-ai-slop/SKILL.md)
 - [AI slop audit gate](meta/ai-slop-audit/SKILL.md)
-- [Human English and reader-centred craft](../book-extractions/human-english-craft-synthesis-2026.md)
-## Book-informed technical-proposal route
+- [Human-English editorial standard](language/language-standards/references/human-english-editorial-standard.md)
+- [Proposal power-paragraph method](writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md) and [proposal phrase bank](writing-content/premium-commercial-writing/references/proposal-phrase-bank.md)
+## Technical-proposal evidence route
 
-For technology-related proposals, load [the 2026-09-14 technical-proposal synthesis](../book-extractions/2026-09-14-technical-proposal-synthesis.md) and connect buyer outcomes to scenarios, architecture, delivery evidence, risks, operations, and cost drivers.
+For technology-related proposals, load the [technical proposal evidence bridge](profiles-sectors/references/technical-proposal-evidence-bridge.md) and connect buyer outcomes to scenarios, architecture, delivery evidence, risks, operations, and cost drivers.
 
 ## Hospitality proposal route
 
@@ -152,6 +155,8 @@ Read the relevant supporting skill when the proposal requires that domain. Each 
 | `skills/strategy-positioning/premium-pricing-and-value-defense/SKILL.md` | Premium fee justification, value stack, commercial options, and price defence |
 | `skills/writing-content/premium-commercial-writing/SKILL.md` | Premium commercial writing quality for proposals, cover letters, executive summaries, case studies, business documents, and public content |
 | `skills/strategy-positioning/sales-discovery-and-objection-handling/SKILL.md` | Discovery questions, qualification, buyer concerns, objection handling, and follow-up logic |
+| `skills/strategy-positioning/key-account-pursuit-and-account-plan/SKILL.md` | Strategic-account selection, pragmatic strategy, GRASP stakeholder map, relationship target, Account Cube expansion, value co-creation, executive sponsor, one-page account plan |
+| `skills/strategy-positioning/tender-orals-and-proposal-presentation/SKILL.md` | Tender orals, shortlist interviews and proposal walk-throughs: strategy sheet, storyboard, rehearsal rubric, hard questions, room and equipment readiness |
 | `skills/strategy-positioning/service-design-proposal-strategy/SKILL.md` | Journey mapping, service blueprints, co-creation, service implementation, and experience redesign |
 | `skills/strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md` | Narrative spine, evaluator journey, case stories, design rationale, and presentation logic |
 | `skills/strategy-positioning/customer-service-and-maintenance-proposals/SKILL.md` | Support, maintenance, SLAs, escalation, incident response, customer success, and post-launch optimisation |
@@ -265,7 +270,7 @@ For SaaS-specific bids, the engine carries dedicated skills and references. The 
 - [saas-metrics-glossary-for-proposals.md](profiles-sectors/references/saas-metrics-glossary-for-proposals.md) - SaaS vocabulary.
 - [saas-trust-and-compliance-section-template.md](profiles-sectors/references/saas-trust-and-compliance-section-template.md) - Trust and Compliance section template.
 
-Load the SaaS skills and references when the engagement is SaaS implementation, SaaS product development, multi-tenant platform build, SaaS migration from installed software, SaaS commercial launch, or SaaS-on-AI work. The audit synthesis in `book-extractions/saas-proposal-skills-audit-2026.md` documents how these skills and references were derived from the seven SaaS books processed in 2026.
+Load the SaaS skills and references when the engagement is SaaS implementation, SaaS product development, multi-tenant platform build, SaaS migration from installed software, SaaS commercial launch, or SaaS-on-AI work. For close discipline, commercial-motion design, segment shape, growth and drag measures, and SaaS workstreams to scope, read [SaaS commercial motion and close discipline](profiles-sectors/references/saas-commercial-motion-and-close-discipline.md).
 
 ## Reference - Consulting Delivery Excellence
 

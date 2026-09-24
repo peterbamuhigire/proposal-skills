@@ -159,3 +159,7 @@ The timeline is fixed but data readiness is unknown. Ask who owns data acceptanc
 - [premium-client-proposal-strategy](../premium-client-proposal-strategy/SKILL.md) - premium buyer positioning and executive confidence.
 - [saas-discovery-and-qualification](../../saas-proposals/saas-discovery-and-qualification/SKILL.md) - SaaS-specific discovery and qualification skill.
 - [saas-objection-handling-and-competitive-displacement](../../saas-proposals/saas-objection-handling-and-competitive-displacement/SKILL.md) - SaaS-specific objection and displacement skill.
+
+## Objection Root Causes, Closing and Win-Loss Debriefs
+
+Read [objection root causes and closing language](references/objection-root-cause-and-closing-language.md) when objections recur, when a proposal or meeting needs a direct close, or after a bid is won or lost. It classifies objections by root cause (prospecting, positioning, presenting), keeps an objection register, applies a pre-meeting presentation checklist and a claim-to-proof register, gives courteous closing language that asks for one action, sets go-dark discipline, and runs a structured win-loss debrief. Fear-based pressure, inflated stature and pseudo-scientific sales psychology are excluded. For multi-proposal account work, route to [key-account-pursuit-and-account-plan](../key-account-pursuit-and-account-plan/SKILL.md); for formal presentations, to [tender-orals-and-proposal-presentation](../tender-orals-and-proposal-presentation/SKILL.md).
