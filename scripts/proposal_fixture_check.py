@@ -35,7 +35,8 @@ def validate_response_files(package: dict[str, Any], root: Path) -> list[str]:
                 (f"{envelope} envelope", file_path)
                 for envelope, record in records.items()
                 if isinstance(record, dict)
-                for file_path in record.get("files", [])
+                and isinstance(record.get("files"), list)
+                for file_path in record["files"]
                 if isinstance(file_path, str)
             ) if isinstance(records, dict) else ()
         for label, relative_path in paths:

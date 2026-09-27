@@ -69,6 +69,21 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
                 validate_response_files(mutated, root),
             )
 
+    def test_check_files_reports_malformed_envelope_paths_without_crashing(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["envelopes"]["technical"]["files"] = None
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            input_path = root / "malformed-fixture.json"
+            input_path.write_text(json.dumps(mutated), encoding="utf-8")
+            output = io.StringIO()
+            with redirect_stdout(output):
+                result = main(["--input", str(input_path), "--check-files"])
+
+        self.assertEqual(result, 1)
+        self.assertIn("result: FAIL", output.getvalue())
+        self.assertIn("envelope technical files must be a list of strings", output.getvalue())
+
     def test_synthetic_requirement_text_is_traceable_to_fictional_source(self) -> None:
         package = json.loads((SPECIMEN / "validator-input.json").read_text(encoding="utf-8"))
         source = "\n".join(
