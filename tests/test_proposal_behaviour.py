@@ -3,12 +3,15 @@
 from __future__ import annotations
 
 import copy
+import csv
+import io
 import json
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 
-from scripts.proposal_fixture_check import validate_bid_package, validate_response_files
+from scripts.proposal_fixture_check import main, validate_bid_package, validate_response_files
 
 
 FIXTURE = Path(__file__).parent / "fixtures" / "fictional-bid-package.json"
@@ -75,6 +78,42 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
         for requirement in package["requirements"]:
             with self.subTest(requirement=requirement["id"]):
                 self.assertIn(requirement["text"].casefold(), source)
+
+    def test_cli_checks_the_complete_synthetic_package_paths(self) -> None:
+        output = io.StringIO()
+        with redirect_stdout(output):
+            status = main([
+                "--input", str(SPECIMEN / "validator-input.json"),
+                "--check-files",
+            ])
+        self.assertEqual(status, 0)
+        self.assertIn("result: PASS", output.getvalue())
+
+    def test_matrix_and_evidence_register_match_validator_input(self) -> None:
+        package = json.loads((SPECIMEN / "validator-input.json").read_text(encoding="utf-8"))
+        with (SPECIMEN / "compliance-matrix.csv").open(encoding="utf-8", newline="") as handle:
+            matrix = list(csv.DictReader(handle))
+        with (SPECIMEN / "evidence-register.csv").open(encoding="utf-8", newline="") as handle:
+            evidence_rows = {row["evidence_id"]: row for row in csv.DictReader(handle)}
+        requirements = {row["id"]: row for row in package["requirements"]}
+        responses = {row["requirement_id"]: row for row in package["responses"]}
+        evidence = {row["id"]: row for row in package["evidence"]}
+
+        self.assertEqual({row["requirement_id"] for row in matrix}, set(requirements))
+        for row in matrix:
+            requirement = requirements[row["requirement_id"]]
+            response = responses[row["requirement_id"]]
+            evidence_item = evidence[row["evidence_id"]]
+            registered_evidence = evidence_rows[row["evidence_id"]]
+            self.assertEqual(row["source_clause"], requirement["source_clause"])
+            self.assertEqual(row["response_location"], requirement["response_location"])
+            self.assertEqual(row["response_location"], response["response_location"])
+            self.assertIn(row["evidence_id"], response["evidence_ids"])
+            self.assertEqual(row["owner"], requirement["evidence_owner"])
+            self.assertEqual(row["owner"], evidence_item["owner"])
+            self.assertEqual(row["owner"], registered_evidence["owner"])
+            self.assertEqual(row["evidence_status"], evidence_item["status"])
+            self.assertEqual(row["evidence_status"], registered_evidence["status"])
 
     def test_duplicate_identifiers_cannot_overwrite_records(self):
         for collection in ('requirements', 'responses', 'evidence'):

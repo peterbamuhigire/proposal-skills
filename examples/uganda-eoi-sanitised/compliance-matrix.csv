@@ -1,0 +1,4 @@
+requirement_id,source_clause,mandatory,response_location,evidence_id,evidence_status,owner,decision
+M-TECH-01,"Fictional solicitation, section 3.1",yes,technical/methodology.md,E-TECH-01,available,technical-lead,covered by synthetic method note
+M-RISK-01,"Fictional Addendum A1, newly added section 3.2",yes,technical/methodology.md,E-RISK-01,available,fictional-quality-reviewer,covered by synthetic risk register
+M-FIN-01,"Fictional solicitation, section 6.2",yes,financial/price-schedule.md,E-FIN-01,available,finance-lead,unpriced; blocked for any real submission

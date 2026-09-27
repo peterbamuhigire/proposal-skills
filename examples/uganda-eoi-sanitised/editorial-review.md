@@ -48,6 +48,6 @@ No unsupported experience claim, invented citation, unqualified guarantee or pro
 
 ## Review status
 
-- Revision and file consistency: corrected after the initial independent findings. The separate final red-team review is pending and will be recorded in `evidence/P12/review.md`; this editorial note does not claim that review passed.
+- Revision and file consistency: corrected after the initial independent findings. This note is a scoped editorial self-review; the independent bid red-team verdict is a separate P12 gate recorded in the Kaizen evidence workspace, not claimed here.
 - Browser reader review: completed for the rendered HTML specimen. PDF rendering, font embedding, tagged-PDF accessibility, mobile screen-reader use and print output remain **NOT_ASSESSED**.
 - Date: 2026-09-27.
