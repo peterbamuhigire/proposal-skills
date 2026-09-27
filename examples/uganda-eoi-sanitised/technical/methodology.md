@@ -1,10 +1,10 @@
 # Technical response: proposed method
 
-**TRAINING SPECIMEN — no past-performance claim or real supplier is represented.**
+**TRAINING SPECIMEN: no past-performance claim or real supplier is represented.**
 
 ## Delivery method
 
-The fictional team would first agree a sample inventory with the records unit, then test a small batch against that inventory before organising the remaining records. A designated reviewer would compare each completed batch with the agreed inventory and record exceptions for correction.
+The fictional team would agree a sample inventory with the records unit, then test one batch before organising the remaining records. A designated reviewer would compare each batch with the agreed inventory and log exceptions for correction.
 
 This method is conditional on access to the records, an agreed classification scheme and a named client contact. The specimen contains no claim that the work has been performed.
 

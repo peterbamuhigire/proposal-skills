@@ -18,6 +18,47 @@ def has_parent_traversal(path: str) -> bool:
     return '..' in path.replace('\\', '/').split('/')
 
 
+def validate_response_files(package: dict[str, Any], root: Path) -> list[str]:
+    """Optionally verify response/envelope paths resolve to files under a package root."""
+    errors: list[str] = []
+    package_root = root.resolve()
+    declared_paths: set[str] = set()
+    for collection in ("requirements", "envelopes"):
+        records = package.get(collection, [])
+        if collection == "requirements":
+            paths = (
+                (f"requirement {row.get('id', '?')}", row.get("response_location"))
+                for row in records if isinstance(row, dict)
+            ) if isinstance(records, list) else ()
+        else:
+            paths = (
+                (f"{envelope} envelope", file_path)
+                for envelope, record in records.items()
+                if isinstance(record, dict)
+                for file_path in record.get("files", [])
+                if isinstance(file_path, str)
+            ) if isinstance(records, dict) else ()
+        for label, relative_path in paths:
+            if not isinstance(relative_path, str) or not relative_path.strip():
+                continue
+            normalized = relative_path.replace("\\", "/")
+            if has_parent_traversal(normalized):
+                errors.append(f"{label} response path escapes the package root")
+                continue
+            if normalized in declared_paths:
+                continue
+            declared_paths.add(normalized)
+            candidate = package_root.joinpath(*normalized.split("/")).resolve()
+            try:
+                candidate.relative_to(package_root)
+            except ValueError:
+                errors.append(f"{label} response path escapes the package root")
+                continue
+            if not candidate.is_file():
+                errors.append(f"{label} response file does not exist: {normalized}")
+    return errors
+
+
 def validate_bid_package(package: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     if not isinstance(package, dict):
@@ -228,6 +269,10 @@ def validate_bid_package(package: dict[str, Any]) -> list[str]:
                             errors.append(
                                 f"required signature {role} has no available evidence"
                             )
+                        elif evidence_record.get("owner") != signature.get("owner"):
+                            errors.append(
+                                f"required signature {role} evidence owner does not match signer"
+                            )
             final_authority = controls.get("final_authority")
             if (
                 not isinstance(final_authority, dict)
@@ -242,6 +287,8 @@ def validate_bid_package(package: dict[str, Any]) -> list[str]:
                 or evidence_by_id[final_authority["evidence_id"]].get("status") != "available"
             ):
                 errors.append("final submission authority has no available evidence")
+            elif evidence_by_id[final_authority["evidence_id"]].get("owner") != final_authority.get("owner"):
+                errors.append("final submission authority evidence owner does not match approver")
             claims = controls.get("claims", [])
             if not isinstance(claims, list):
                 errors.append("submission claims must be a list")
@@ -359,6 +406,9 @@ def validate_bid_package(package: dict[str, Any]) -> list[str]:
         if approval_evidence is None or approval_evidence.get("status") != "available":
             errors.append(f"{envelope or '?'} approval has no available evidence")
             continue
+        if approval_evidence.get("owner") != owner:
+            errors.append(f"{envelope or '?'} approval evidence owner does not match approver")
+            continue
         approved_envelopes.add(envelope)
     for envelope in ("technical", "financial"):
         if envelope not in approved_envelopes:
@@ -377,9 +427,16 @@ def main(argv: list[str] | None = None) -> int:
         default=FIXTURE,
         help="JSON fixture to check (defaults to the repository's fictional test package)",
     )
+    parser.add_argument(
+        "--check-files",
+        action="store_true",
+        help="also require response/envelope files to exist relative to the input JSON",
+    )
     args = parser.parse_args(argv)
     package = json.loads(args.input.read_text(encoding="utf-8"))
     errors = validate_bid_package(package)
+    if args.check_files:
+        errors.extend(validate_response_files(package, args.input.parent))
     print(f"proposal-fixture-check: {args.input}")
     print(
         "scope: synthetic structural check only; it does not verify tender authenticity, "

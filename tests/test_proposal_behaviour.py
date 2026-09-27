@@ -4,13 +4,15 @@ from __future__ import annotations
 
 import copy
 import json
+import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.proposal_fixture_check import validate_bid_package
+from scripts.proposal_fixture_check import validate_bid_package, validate_response_files
 
 
 FIXTURE = Path(__file__).parent / "fixtures" / "fictional-bid-package.json"
+SPECIMEN = Path(__file__).parent.parent / "examples" / "uganda-eoi-sanitised"
 
 
 class ProposalFixtureBehaviourTests(unittest.TestCase):
@@ -36,6 +38,43 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
         technical_files = set(self.package["envelopes"]["technical"]["files"])
         financial_files = set(self.package["envelopes"]["financial"]["files"])
         self.assertFalse(technical_files & financial_files)
+
+    def test_response_paths_must_exist_within_package_root_when_requested(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            file_paths = (
+                "technical/methodology.md",
+                "financial/price-schedule.md",
+            )
+            for file_path in file_paths:
+                target = root.joinpath(*file_path.split("/"))
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text("synthetic test file", encoding="utf-8")
+            for requirement, file_path in zip(mutated["requirements"], file_paths):
+                requirement["response_location"] = file_path
+            for response, file_path in zip(mutated["responses"], file_paths):
+                response["response_location"] = file_path
+            mutated["envelopes"]["technical"]["files"] = [file_paths[0]]
+            mutated["envelopes"]["financial"]["files"] = [file_paths[1]]
+            self.assertEqual(validate_response_files(mutated, root), [])
+
+            missing_path = mutated["requirements"][0]["response_location"]
+            (root / missing_path).unlink()
+            self.assertIn(
+                f"requirement M-TECH-01 response file does not exist: {missing_path}",
+                validate_response_files(mutated, root),
+            )
+
+    def test_synthetic_requirement_text_is_traceable_to_fictional_source(self) -> None:
+        package = json.loads((SPECIMEN / "validator-input.json").read_text(encoding="utf-8"))
+        source = "\n".join(
+            (SPECIMEN / name).read_text(encoding="utf-8")
+            for name in ("fictional-solicitation.md", "addendum-a1.md")
+        ).casefold()
+        for requirement in package["requirements"]:
+            with self.subTest(requirement=requirement["id"]):
+                self.assertIn(requirement["text"].casefold(), source)
 
     def test_duplicate_identifiers_cannot_overwrite_records(self):
         for collection in ('requirements', 'responses', 'evidence'):
@@ -251,6 +290,33 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
             errors,
         )
         self.assertIn("final submission authority has no available evidence", errors)
+
+    def test_signature_and_final_authority_evidence_owner_must_match(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["submission_controls"]["required_signatures"][0]["owner"] = "wrong-signer"
+        mutated["submission_controls"]["final_authority"]["owner"] = "wrong-approver"
+        errors = validate_bid_package(mutated)
+        self.assertIn(
+            "required signature authorised signatory evidence owner does not match signer",
+            errors,
+        )
+        self.assertIn(
+            "final submission authority evidence owner does not match approver",
+            errors,
+        )
+
+    def test_envelope_approval_evidence_owner_must_match(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["approvals"][0]["owner"] = "wrong-reviewer"
+        errors = validate_bid_package(mutated)
+        self.assertIn(
+            "technical approval evidence owner does not match approver",
+            errors,
+        )
+        self.assertIn(
+            "technical envelope has no approved review record",
+            errors,
+        )
 
     def test_technical_and_financial_approvals_need_separate_evidence(self) -> None:
         mutated = copy.deepcopy(self.package)

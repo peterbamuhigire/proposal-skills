@@ -1,5 +1,6 @@
 {
   "fixture_label": "FICTIONAL TEST DATA - synthetic EOI specimen with fictional Addendum A1",
+  "specimen_version": "1.0.0-synthetic",
   "solicitation": {
     "id": "TEST-EOI-001",
     "title": "Fictional records-unit EOI training specimen",
@@ -10,7 +11,7 @@
   "requirements": [
     {
       "id": "M-TECH-01",
-      "text": "Provide the proposed delivery method",
+      "text": "Describe the proposed delivery method and its quality checks",
       "mandatory": true,
       "envelope": "technical",
       "response_location": "technical/methodology.md",
@@ -19,7 +20,7 @@
     },
     {
       "id": "M-FIN-01",
-      "text": "Provide the fictional price schedule",
+      "text": "Provide a financial schedule in a separate financial envelope",
       "mandatory": true,
       "envelope": "financial",
       "response_location": "financial/price-schedule.md",
@@ -28,7 +29,7 @@
     },
     {
       "id": "M-RISK-01",
-      "text": "Include a risk register with an owner, trigger and response for each material risk",
+      "text": "Provide a risk register listing each material risk, its owner, an observable trigger and a response",
       "mandatory": true,
       "envelope": "technical",
       "response_location": "technical/methodology.md",
@@ -48,7 +49,7 @@
       "id": "E-FIN-01",
       "owner": "finance-lead",
       "status": "available",
-      "label": "fictional cost-driver note"
+      "label": "synthetic unpriced schedule record; no amount or real finance approval"
     },
     {
       "id": "E-SIG-01",
@@ -124,7 +125,6 @@
   "envelopes": {
     "technical": {
       "files": [
-        "technical/methodology.md",
         "technical/methodology.md"
       ]
     },
