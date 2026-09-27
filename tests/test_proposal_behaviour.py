@@ -209,6 +209,26 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
         self.assertIn("required signature authorised signatory is missing or unowned", errors)
         self.assertIn("final submission authority is not approved by a named owner", errors)
 
+    def test_resolved_deadline_conflict_must_match_final_deadline_value(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        deadline = mutated["submission_controls"]["deadline"]
+        deadline["conflicts"] = [{
+            "value": "2030-01-14T17:00:00+03:00",
+            "source": "Fictional Addendum 2, clause 1",
+        }]
+        deadline["resolution"] = {
+            "value": "2030-01-15T17:00:00+03:00",
+            "source": "Fictional Addendum 2, clause 1",
+            "owner": "bid-lead",
+        }
+        self.assertEqual(validate_bid_package(mutated), [])
+
+        deadline["value"] = "2030-01-16T17:00:00+03:00"
+        self.assertIn(
+            "resolved deadline value must match the final submission deadline",
+            validate_bid_package(mutated),
+        )
+
     def test_eoi_cannot_bypass_deadline_signature_and_authority_controls(self) -> None:
         mutated = copy.deepcopy(self.package)
         del mutated["submission_controls"]
@@ -246,6 +266,20 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
             "unsupported claim C-EXP-01 must be excluded",
             validate_bid_package(mutated),
         )
+
+    def test_supported_claim_rejects_non_string_evidence_ids_without_crashing(self) -> None:
+        for evidence_id in ({"unexpected": "object"}, ["nested"], " "):
+            with self.subTest(evidence_id=evidence_id):
+                mutated = copy.deepcopy(self.package)
+                claim = mutated["submission_controls"]["claims"][0]
+                claim["status"] = "supported"
+                claim["included"] = True
+                claim["evidence_ids"] = [evidence_id]
+                errors = validate_bid_package(mutated)
+                self.assertIn(
+                    "supported claim C-EXP-01 evidence_ids must be nonblank strings",
+                    errors,
+                )
 
     def test_requirement_without_a_source_clause_is_a_gap(self) -> None:
         mutated = copy.deepcopy(self.package)

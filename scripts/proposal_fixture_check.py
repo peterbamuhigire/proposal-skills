@@ -196,6 +196,10 @@ def validate_bid_package(package: dict[str, Any]) -> list[str]:
                             or not resolution["owner"].strip()
                         ):
                             errors.append("resolved deadline conflict requires source and owner")
+                        elif resolution.get("value") != deadline.get("value"):
+                            errors.append(
+                                "resolved deadline value must match the final submission deadline"
+                            )
             signatures = controls.get("required_signatures")
             if not isinstance(signatures, list) or not signatures:
                 errors.append("required signatures must be a non-empty list")
@@ -263,6 +267,13 @@ def validate_bid_package(package: dict[str, Any]) -> list[str]:
                         claim_evidence = claim.get("evidence_ids")
                         if not isinstance(claim_evidence, list) or not claim_evidence:
                             errors.append(f"supported claim {claim_id or '?'} requires evidence")
+                        elif any(
+                            not isinstance(evidence_id, str) or not evidence_id.strip()
+                            for evidence_id in claim_evidence
+                        ):
+                            errors.append(
+                                f"supported claim {claim_id or '?'} evidence_ids must be nonblank strings"
+                            )
                         else:
                             for evidence_id in claim_evidence:
                                 item = evidence_by_id.get(evidence_id)
