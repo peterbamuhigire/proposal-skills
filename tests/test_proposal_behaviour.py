@@ -157,6 +157,116 @@ class ProposalFixtureBehaviourTests(unittest.TestCase):
             ["fixture must declare at least one requirement"],
         )
 
+    def test_addendum_requirement_blocks_until_matrix_response_and_evidence_match(self) -> None:
+        amended = copy.deepcopy(self.package)
+        amended["amendments"] = [{
+            "id": "ADD-001",
+            "source_clause": "Fictional Addendum 1, clause A.1",
+            "requirement_ids": ["M-TECH-02"],
+        }]
+        amended["requirements"].append({
+            "id": "M-TECH-02",
+            "text": "Provide a named delivery-risk register",
+            "source_clause": "Fictional Addendum 1, clause A.1",
+            "mandatory": True,
+            "envelope": "technical",
+            "response_location": "technical/methodology.md",
+            "evidence_owner": "technical-lead",
+            "amendment_id": "ADD-001",
+        })
+        errors = validate_bid_package(amended)
+        self.assertIn("mandatory requirement M-TECH-02 has no response", errors)
+
+        amended["responses"].append({
+            "requirement_id": "M-TECH-02",
+            "response_location": "technical/methodology.md",
+            "envelope": "technical",
+            "evidence_ids": ["E-TECH-02"],
+        })
+        errors = validate_bid_package(amended)
+        self.assertIn("requirement M-TECH-02 cites missing evidence E-TECH-02", errors)
+
+        amended["evidence"].append({
+            "id": "E-TECH-02",
+            "owner": "technical-lead",
+            "status": "available",
+            "label": "fictional risk-register note",
+        })
+        self.assertEqual(validate_bid_package(amended), [])
+
+    def test_deadline_conflict_missing_signature_and_authority_block_readiness(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        deadline = mutated["submission_controls"]["deadline"]
+        deadline["conflicts"] = [{
+            "value": "2030-01-14T17:00:00+03:00",
+            "source": "Fictional Addendum 2, clause 1",
+        }]
+        deadline["status"] = "unresolved"
+        mutated["submission_controls"]["required_signatures"][0]["status"] = "missing"
+        mutated["submission_controls"]["final_authority"]["status"] = "pending"
+        errors = validate_bid_package(mutated)
+        self.assertIn("submission deadline conflict is unresolved", errors)
+        self.assertIn("required signature authorised signatory is missing or unowned", errors)
+        self.assertIn("final submission authority is not approved by a named owner", errors)
+
+    def test_eoi_cannot_bypass_deadline_signature_and_authority_controls(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        del mutated["submission_controls"]
+        self.assertIn("EOI package requires submission_controls", validate_bid_package(mutated))
+
+        mutated = copy.deepcopy(self.package)
+        mutated["submission_controls"]["deadline"]["value"] = "2030-01-15T17:00:00"
+        self.assertIn(
+            "submission deadline must include a timezone offset",
+            validate_bid_package(mutated),
+        )
+
+    def test_signature_and_final_authority_require_evidence(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["submission_controls"]["required_signatures"][0]["evidence_id"] = "E-MISSING"
+        mutated["submission_controls"]["final_authority"]["evidence_id"] = "E-MISSING"
+        errors = validate_bid_package(mutated)
+        self.assertIn(
+            "required signature authorised signatory has no available evidence",
+            errors,
+        )
+        self.assertIn("final submission authority has no available evidence", errors)
+
+    def test_technical_and_financial_approvals_need_separate_evidence(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["approvals"][1]["evidence_id"] = "E-MISSING"
+        errors = validate_bid_package(mutated)
+        self.assertIn("financial approval has no available evidence", errors)
+        self.assertIn("financial envelope has no approved review record", errors)
+
+    def test_unsupported_experience_claim_is_excluded_from_response(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["submission_controls"]["claims"][0]["included"] = True
+        self.assertIn(
+            "unsupported claim C-EXP-01 must be excluded",
+            validate_bid_package(mutated),
+        )
+
+    def test_requirement_without_a_source_clause_is_a_gap(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        del mutated["requirements"][0]["source_clause"]
+        self.assertIn(
+            "requirement M-TECH-01 requires a source_clause",
+            validate_bid_package(mutated),
+        )
+
+    def test_malformed_amendment_mapping_is_reported_without_crashing(self) -> None:
+        mutated = copy.deepcopy(self.package)
+        mutated["amendments"] = [{
+            "id": "ADD-001",
+            "source_clause": "Fictional Addendum 1, clause A.1",
+            "requirement_ids": None,
+        }]
+        self.assertIn(
+            "amendment ADD-001 requires requirement_ids",
+            validate_bid_package(mutated),
+        )
+
     def test_thin_claude_bridge_preserves_generic_routing_surface(self) -> None:
         root = Path(__file__).resolve().parents[1]
         claude = (root / "CLAUDE.md").read_text(encoding="utf-8")
