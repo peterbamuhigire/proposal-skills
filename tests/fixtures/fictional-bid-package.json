@@ -1,9 +1,11 @@
 {
   "fixture_label": "FICTIONAL TEST DATA - not a client tender or submission",
   "solicitation": {
-    "id": "TEST-RFP-001",
-    "title": "Fictional service-delivery response",
-    "technical_financial_separation_required": true
+    "id": "TEST-EOI-001",
+    "title": "Fictional Uganda public-sector EOI response",
+    "technical_financial_separation_required": true,
+    "type": "EOI",
+    "jurisdiction_context": "Uganda - fictional context only; no procurement-law claims"
   },
   "requirements": [
     {
@@ -12,7 +14,8 @@
       "mandatory": true,
       "envelope": "technical",
       "response_location": "technical/methodology.md",
-      "evidence_owner": "technical-lead"
+      "evidence_owner": "technical-lead",
+      "source_clause": "Fictional solicitation, section 3.1"
     },
     {
       "id": "M-FIN-01",
@@ -20,7 +23,8 @@
       "mandatory": true,
       "envelope": "financial",
       "response_location": "financial/price-schedule.md",
-      "evidence_owner": "finance-lead"
+      "evidence_owner": "finance-lead",
+      "source_clause": "Fictional solicitation, section 6.2"
     }
   ],
   "evidence": [
@@ -35,6 +39,30 @@
       "owner": "finance-lead",
       "status": "available",
       "label": "fictional cost-driver note"
+    },
+    {
+      "id": "E-SIG-01",
+      "owner": "fictional-signatory",
+      "status": "available",
+      "label": "synthetic signature evidence record"
+    },
+    {
+      "id": "E-AUTH-01",
+      "owner": "fictional-submission-owner",
+      "status": "available",
+      "label": "synthetic submission-authority record"
+    },
+    {
+      "id": "E-APP-TECH-01",
+      "owner": "technical-reviewer",
+      "status": "available",
+      "label": "synthetic envelope approval evidence"
+    },
+    {
+      "id": "E-APP-FIN-01",
+      "owner": "finance-reviewer",
+      "status": "available",
+      "label": "synthetic envelope approval evidence"
     }
   ],
   "responses": [
@@ -42,21 +70,74 @@
       "requirement_id": "M-TECH-01",
       "response_location": "technical/methodology.md",
       "envelope": "technical",
-      "evidence_ids": ["E-TECH-01"]
+      "evidence_ids": [
+        "E-TECH-01"
+      ]
     },
     {
       "requirement_id": "M-FIN-01",
       "response_location": "financial/price-schedule.md",
       "envelope": "financial",
-      "evidence_ids": ["E-FIN-01"]
+      "evidence_ids": [
+        "E-FIN-01"
+      ]
     }
   ],
   "approvals": [
-    {"envelope": "technical", "status": "approved", "owner": "technical-reviewer"},
-    {"envelope": "financial", "status": "approved", "owner": "finance-reviewer"}
+    {
+      "envelope": "technical",
+      "status": "approved",
+      "owner": "technical-reviewer",
+      "evidence_id": "E-APP-TECH-01"
+    },
+    {
+      "envelope": "financial",
+      "status": "approved",
+      "owner": "finance-reviewer",
+      "evidence_id": "E-APP-FIN-01"
+    }
   ],
   "envelopes": {
-    "technical": {"files": ["technical/methodology.md"]},
-    "financial": {"files": ["financial/price-schedule.md"]}
-  }
+    "technical": {
+      "files": [
+        "technical/methodology.md"
+      ]
+    },
+    "financial": {
+      "files": [
+        "financial/price-schedule.md"
+      ]
+    }
+  },
+  "submission_controls": {
+    "deadline": {
+      "value": "2030-01-15T17:00:00+03:00",
+      "source": "Fictional solicitation, section 1.4",
+      "status": "resolved",
+      "conflicts": []
+    },
+    "required_signatures": [
+      {
+        "role": "authorised signatory",
+        "status": "signed",
+        "owner": "fictional-signatory",
+        "evidence_id": "E-SIG-01"
+      }
+    ],
+    "final_authority": {
+      "status": "approved",
+      "owner": "fictional-submission-owner",
+      "evidence_id": "E-AUTH-01"
+    },
+    "claims": [
+      {
+        "id": "C-EXP-01",
+        "statement": "The proposer has delivered five comparable public-sector projects.",
+        "status": "unsupported",
+        "included": false,
+        "evidence_ids": []
+      }
+    ]
+  },
+  "amendments": []
 }
