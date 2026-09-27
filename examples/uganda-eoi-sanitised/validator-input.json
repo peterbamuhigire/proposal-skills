@@ -1,0 +1,176 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA - synthetic EOI specimen with fictional Addendum A1",
+  "solicitation": {
+    "id": "TEST-EOI-001",
+    "title": "Fictional records-unit EOI training specimen",
+    "technical_financial_separation_required": true,
+    "type": "EOI",
+    "jurisdiction_context": "Synthetic context only; no procurement-law claims"
+  },
+  "requirements": [
+    {
+      "id": "M-TECH-01",
+      "text": "Provide the proposed delivery method",
+      "mandatory": true,
+      "envelope": "technical",
+      "response_location": "technical/methodology.md",
+      "evidence_owner": "technical-lead",
+      "source_clause": "Fictional solicitation, section 3.1"
+    },
+    {
+      "id": "M-FIN-01",
+      "text": "Provide the fictional price schedule",
+      "mandatory": true,
+      "envelope": "financial",
+      "response_location": "financial/price-schedule.md",
+      "evidence_owner": "finance-lead",
+      "source_clause": "Fictional solicitation, section 6.2"
+    },
+    {
+      "id": "M-RISK-01",
+      "text": "Include a risk register with an owner, trigger and response for each material risk",
+      "mandatory": true,
+      "envelope": "technical",
+      "response_location": "technical/methodology.md",
+      "evidence_owner": "fictional-quality-reviewer",
+      "source_clause": "Fictional Addendum A1, newly added section 3.2",
+      "amendment_id": "A1"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-TECH-01",
+      "owner": "technical-lead",
+      "status": "available",
+      "label": "fictional methodology note"
+    },
+    {
+      "id": "E-FIN-01",
+      "owner": "finance-lead",
+      "status": "available",
+      "label": "fictional cost-driver note"
+    },
+    {
+      "id": "E-SIG-01",
+      "owner": "fictional-signatory",
+      "status": "available",
+      "label": "synthetic signature evidence record"
+    },
+    {
+      "id": "E-AUTH-01",
+      "owner": "fictional-submission-owner",
+      "status": "available",
+      "label": "synthetic submission-authority record"
+    },
+    {
+      "id": "E-APP-TECH-01",
+      "owner": "technical-reviewer",
+      "status": "available",
+      "label": "synthetic envelope approval evidence"
+    },
+    {
+      "id": "E-APP-FIN-01",
+      "owner": "finance-reviewer",
+      "status": "available",
+      "label": "synthetic envelope approval evidence"
+    },
+    {
+      "id": "E-RISK-01",
+      "owner": "fictional-quality-reviewer",
+      "status": "available",
+      "label": "synthetic risk-register note"
+    }
+  ],
+  "responses": [
+    {
+      "requirement_id": "M-TECH-01",
+      "response_location": "technical/methodology.md",
+      "envelope": "technical",
+      "evidence_ids": [
+        "E-TECH-01"
+      ]
+    },
+    {
+      "requirement_id": "M-FIN-01",
+      "response_location": "financial/price-schedule.md",
+      "envelope": "financial",
+      "evidence_ids": [
+        "E-FIN-01"
+      ]
+    },
+    {
+      "requirement_id": "M-RISK-01",
+      "response_location": "technical/methodology.md",
+      "envelope": "technical",
+      "evidence_ids": [
+        "E-RISK-01"
+      ]
+    }
+  ],
+  "approvals": [
+    {
+      "envelope": "technical",
+      "status": "approved",
+      "owner": "technical-reviewer",
+      "evidence_id": "E-APP-TECH-01"
+    },
+    {
+      "envelope": "financial",
+      "status": "approved",
+      "owner": "finance-reviewer",
+      "evidence_id": "E-APP-FIN-01"
+    }
+  ],
+  "envelopes": {
+    "technical": {
+      "files": [
+        "technical/methodology.md",
+        "technical/methodology.md"
+      ]
+    },
+    "financial": {
+      "files": [
+        "financial/price-schedule.md"
+      ]
+    }
+  },
+  "submission_controls": {
+    "deadline": {
+      "value": "2030-01-15T17:00:00+03:00",
+      "source": "Fictional solicitation, section 1.4",
+      "status": "resolved",
+      "conflicts": []
+    },
+    "required_signatures": [
+      {
+        "role": "authorised signatory",
+        "status": "signed",
+        "owner": "fictional-signatory",
+        "evidence_id": "E-SIG-01"
+      }
+    ],
+    "final_authority": {
+      "status": "approved",
+      "owner": "fictional-submission-owner",
+      "evidence_id": "E-AUTH-01"
+    },
+    "claims": [
+      {
+        "id": "C-EXP-01",
+        "statement": "The proposer has delivered five comparable public-sector projects.",
+        "status": "unsupported",
+        "included": false,
+        "evidence_ids": []
+      }
+    ]
+  },
+  "amendments": [
+    {
+      "id": "A1",
+      "source_clause": "Fictional Addendum A1, newly added section 3.2",
+      "requirement_ids": [
+        "M-RISK-01"
+      ]
+    }
+  ]
+}

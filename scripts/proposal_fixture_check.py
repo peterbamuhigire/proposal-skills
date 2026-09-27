@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 from datetime import datetime
 from pathlib import Path
@@ -366,10 +367,24 @@ def validate_bid_package(package: dict[str, Any]) -> list[str]:
     return errors
 
 
-def main() -> int:
-    package = json.loads(FIXTURE.read_text(encoding="utf-8"))
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        description="Check a fictional proposal evidence package's structure; this is not bid-readiness certification."
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=FIXTURE,
+        help="JSON fixture to check (defaults to the repository's fictional test package)",
+    )
+    args = parser.parse_args(argv)
+    package = json.loads(args.input.read_text(encoding="utf-8"))
     errors = validate_bid_package(package)
-    print(f"proposal-fixture-check: {FIXTURE}")
+    print(f"proposal-fixture-check: {args.input}")
+    print(
+        "scope: synthetic structural check only; it does not verify tender authenticity, "
+        "claim truth, pricing, legal compliance, or permission to submit"
+    )
     print(f"result: {'PASS' if not errors else 'FAIL'}")
     for error in errors:
         print(f"[ERROR] {error}")
