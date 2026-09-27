@@ -1,0 +1,8 @@
+evidence_id,owner,status,artifact_or_scope,control_note
+E-TECH-01,technical-lead,available,technical/methodology.md,synthetic method note only
+E-RISK-01,fictional-quality-reviewer,available,technical/methodology.md,synthetic addendum risk register only
+E-FIN-01,finance-lead,available,financial/price-schedule.md,synthetic unpriced schedule record; no amount or finance approval
+E-SIG-01,fictional-signatory,available,validator-input.json,simulated signature state only; no actual signature
+E-AUTH-01,fictional-submission-owner,available,validator-input.json,simulated authority state only; no actual submission authority
+E-APP-TECH-01,technical-reviewer,available,validator-input.json,simulated technical approval state only
+E-APP-FIN-01,finance-reviewer,available,validator-input.json,simulated financial approval state only; not approval of an actual priced offer
