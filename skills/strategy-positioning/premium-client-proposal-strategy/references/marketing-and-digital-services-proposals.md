@@ -13,7 +13,7 @@ Sources (methods only, paraphrased): engagement architecture from Stutts, P. (20
 | A marketing plan as a deliverable, or the marketing section of a business plan | `business-plan-skills` (marketing-plan orchestrator) | Client brief, objectives, budget ceiling, markets, evidence gaps | Plan structure, SMART location-specific objectives, budget logic to describe in the methodology |
 | Digital marketing, social media, paid advertising, content calendars, influencer and community work | `social-media-skills` (being repositioned as the digital marketing and advertising engine) | Approved scope, audience, channels named by the client, measurement expectations, commercial boundaries | Channel strategy, content and campaign method, platform playbooks, reporting design |
 | Website build, SEO, conversion, care plans | `website-skills` | Approved scope, purpose split, ownership commitments, acceptance criteria | Delivery method, quality gates, launch checklist |
-| Visual layout of the proposal document or direction boards | `design-system-skills` | Content and structure | Typography, layout, colour decisions |
+| Visual layout of the proposal document or direction boards | `chwezi-design-engine` | Content and structure | Typography, layout, colour decisions |
 | Current platform facts (ad formats, objectives, policies) | `digital-research-engine` | Claims to verify | Dated, sourced claims |
 | Tax on ad spend, VAT on foreign platforms, pricing arithmetic | `chwezi-accounting-doctrine` | Cost lines and jurisdiction | Confirmed treatment |
 

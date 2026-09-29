@@ -26,7 +26,7 @@ Turn a submitted or near-final proposal into a spoken presentation that an evalu
 
 - Use `proposal-storytelling-and-evaluator-journey` to build the written narrative spine of the proposal itself.
 - Use `saas-mutual-action-planning-and-close-plans` or the SaaS demo-script reference for a SaaS product demonstration plan.
-- Route slide typography, layout, colour and deck templates to `design-system-skills`; this skill owns content, structure, rehearsal and logistics.
+- Route slide typography, layout, colour and deck templates to `chwezi-design-engine`; this skill owns content, structure, rehearsal and logistics.
 - Stop when the invitation's rules (duration, attendees, permitted materials, recording, language) are unknown; request them before designing the session.
 
 ## Inputs

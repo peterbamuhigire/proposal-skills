@@ -92,7 +92,7 @@ The canonical, model-neutral rules and routing remain in AGENTS.md, README.md, a
 - Premium commercial writing: use `skills/writing-content/premium-commercial-writing/` when proposals, cover letters, executive summaries, case studies, business documents, or blogs need stronger proof, evaluator-friendly structure, premium-fee-worthy language, or SEO/AI-search friendliness where relevant
 - Proposal language standard: before drafting any section, write the seven-paragraph power-paragraph sheet with `skills/writing-content/premium-commercial-writing/references/proposal-power-paragraph-method.md`, then draft from `skills/writing-content/premium-commercial-writing/references/proposal-phrase-bank.md` (section-by-section slot-templates, the client's own words, cost of doing nothing, price-first cost paragraphs, specific closes).
 - Key accounts: use `skills/strategy-positioning/key-account-pursuit-and-account-plan/` for strategic-account selection, pragmatic strategy, GRASP stakeholder mapping, relationship targets, Account Cube expansion, value co-creation, executive sponsors, one-page account plans and strategic-account negotiation across several proposals.
-- Orals and presentations: use `skills/strategy-positioning/tender-orals-and-proposal-presentation/` for tender orals, shortlist interviews, proposal walk-throughs and pitch meetings (strategy sheet, storyboard, rehearsal rubric, hard questions, room and equipment readiness); visual execution goes to `design-system-skills`.
+- Orals and presentations: use `skills/strategy-positioning/tender-orals-and-proposal-presentation/` for tender orals, shortlist interviews, proposal walk-throughs and pitch meetings (strategy sheet, storyboard, rehearsal rubric, hard questions, room and equipment readiness); visual execution goes to `chwezi-design-engine`.
 - Marketing, digital-marketing and advertising service proposals: read `skills/strategy-positioning/premium-client-proposal-strategy/references/marketing-and-digital-services-proposals.md`; hand marketing-plan substance to `business-plan-skills` (marketing-plan orchestrator) and digital marketing, social and advertising substance to `social-media-skills`, keeping the proposal's win logic, offer, scope and commercial terms here.
 - Discovery and objections: use `skills/strategy-positioning/sales-discovery-and-objection-handling/` when buyer assumptions, clarification questions, price objections, risk concerns, timeline objections, or follow-up logic matter
 - SaaS implementation and SaaS product-development proposals: use the `skills/saas-*` skill family (saas-discovery-and-qualification, saas-business-case-and-roi-modeling, saas-pricing-and-packaging-proposal, saas-implementation-methodology, saas-poc-and-pilot-scoping, saas-procurement-and-security-questionnaire, saas-customer-success-and-adoption-proposal, saas-mutual-action-planning-and-close-plans, saas-vertical-positioning, saas-objection-handling-and-competitive-displacement, saas-lifecycle-communications-as-deliverable, saas-trust-and-compliance-credentials-section, saas-multi-tenant-architecture-credibility-block, saas-pilot-to-rollout-change-management) for control plane / application plane methodology, tenant isolation, MEDDPICC qualification, MAP, business case, customer success, lifecycle communications, trust and compliance, and vertical positioning
@@ -187,25 +187,25 @@ When the trigger fires:
 The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
 
-<!-- design-system-skills:trigger v3 -->
+<!-- chwezi-design-engine:trigger v4 -->
 ### Design / typography / UI/UX (cross-cutting — consult IN ADDITION)
 
 Any work touching how an artifact LOOKS — font/typeface choice, type scale, colour, layout/grid,
 visual identity, web/desktop/mobile UI screens, or the visual formatting of a DOCX/PPTX/PDF/XLSX
-— routes to the **`design-system-skills`** engine, the single home for ALL design/UI/UX skills
+— routes to the **`chwezi-design-engine`** engine, the single home for ALL design/UI/UX skills
 and the anti-AI-slop doctrine.
 
 **Resolve its location on THIS device from the active runner's global engine-routing table or
 `AGENTS.md`** — never assume an absolute path; it varies per machine. Then read its
 `README.md` → `doctrine/design-doctrine.md` → glob `skills/**/SKILL.md` fresh and route by
 frontmatter (read SKILL.md directly, not via the Skill tool). Content and structure stay in THIS
-engine; presentation comes from design-system-skills. Hard rule: never use a banned AI-slop font
+engine; presentation comes from chwezi-design-engine. Hard rule: never use a banned AI-slop font
 as primary type — hard ban: Inter, Geist, Roboto, Open Sans, Lato, Arial, Fraunces, IBM Plex (all
 faces); secondary ban: Space Grotesk, Instrument Serif, Instrument Sans, Poppins, Montserrat, Nunito, Nunito Sans, Newsreader, Cormorant (all cuts), Crimson Pro, Plus Jakarta Sans, DM Sans, Outfit, Playfair Display, Lora, Space Mono;
 Roboto Mono and IBM Plex Mono are banned as monospace choices; Source Sans 3 only as a paired
 body face; no bare system stacks alone. State the chosen typeface and reason before producing
 any artifact.
-<!-- /design-system-skills:trigger -->
+<!-- /chwezi-design-engine:trigger -->
 
 ## Human-English editorial standard (2026-08 Kaizen)
 
