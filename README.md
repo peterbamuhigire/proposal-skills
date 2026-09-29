@@ -18,7 +18,7 @@ cd proposal-skills
 .\install.ps1 -scope project      # Windows PowerShell
 ```
 
-## Skills
+## Capabilities
 
 The category table reflects 115 active skill files under `skills/`, including the parent router. Open a category to browse its current skills; the [proposal router](skills/SKILL.md) sets the workflow and cross-cutting routes.
 
@@ -41,4 +41,6 @@ The category table reflects 115 active skill files under `skills/`, including th
 
 - [Proposal Skills repository](https://github.com/peterbamuhigire/proposal-skills) — active skill inventory and source implementation.
 - [Proposal router](skills/SKILL.md), [repository policy](AGENTS.md), [common rules](rules/common/core.md), and [language standards](skills/language/language-standards/SKILL.md) — evidence, routing, and writing contracts consulted for this overview.
+- [Runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md) — scoped packages, evidence and pricing checkpoints, context hygiene, least agency, and sanitised handling of external content for multi-phase proposal work.
+- Sister engines for commercial inputs: [Business Plan Skills](https://github.com/peterbamuhigire/business-plan-skills) for feasibility, projections, and investor readiness; [Social Media Skills](https://github.com/peterbamuhigire/social-media-skills) for campaigns, content calendars, and marketing reporting. Other cross-engine routes are listed in [AGENTS.md](AGENTS.md).
 - [Everything Claude Code (ECC)](https://github.com/affaan-m/ECC) — cited in local skill provenance and repository rules for specific workflow adaptations.
