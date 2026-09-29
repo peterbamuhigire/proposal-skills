@@ -107,6 +107,7 @@ Before release, run a compliance screen against every ToR/RFP instruction, eligi
 - [../sales-discovery-and-objection-handling/SKILL.md](../../strategy-positioning/sales-discovery-and-objection-handling/SKILL.md) when methodology assumptions or evaluator objections need to be anticipated.
 - [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) when phase logic needs a stronger narrative, storyboard, or design-rationale explanation.
 - [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) when the methodology includes SaaS, AI, software, cloud, APIs, integrations, architecture, or operations.
+- [references/technical-approach-figures.md](references/technical-approach-figures.md) when an ICT or systems-integration technical approach needs a solution-context and a delivery-workflow figure.
 - Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
 
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.
