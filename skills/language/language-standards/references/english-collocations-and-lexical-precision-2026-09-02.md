@@ -1,6 +1,6 @@
 # English Output Overlay - Proposals
 
-[Owning skill](../SKILL.md) | Canonical study: `C:\wamp64\www\digital-research-skills\docs\continuous-improvement\english-collocations-and-lexical-precision-2026-09-02.md`
+[Owning skill](../SKILL.md) | Canonical study: `C:\wamp64\www\digital-research-engine\docs\continuous-improvement\english-collocations-and-lexical-precision-2026-09-02.md`
 
 - Default to British English and a neutral East African professional register unless the buyer or submission rules specify otherwise.
 - Write for the evaluator's decision: tailored, direct, courteous, evidence-bearing, and calm. Polished language must never conceal a compliance gap or delivery risk.
