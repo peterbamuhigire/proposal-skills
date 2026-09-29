@@ -2,7 +2,7 @@
 
 Parent skill: [Website Design Proposal Strategy](../SKILL.md). Companion gate: [website design proposal gate](website-design-proposal-gate.md).
 
-**When to read:** when a website proposal needs ownership commitments, a purpose statement, a care or maintenance plan, a creative-direction deliverable, owner-education answers, or honest search expectations. Delivery doctrine stays with `website-skills`; visual doctrine with `design-system-skills` (resolve both through the global routing table). This reference sets what the proposal promises and prices.
+**When to read:** when a website proposal needs ownership commitments, a purpose statement, a care or maintenance plan, a creative-direction deliverable, owner-education answers, or honest search expectations. Delivery doctrine stays with `website-skills`; visual doctrine with `chwezi-design-engine` (resolve both through the global routing table). This reference sets what the proposal promises and prices.
 
 Sources (methods only, paraphrased): purpose split, asset ownership, owner questions, care-plan housekeeping and SEO expectation-setting from Plumley, G. (2011) *Website Design and Development: 100 Questions to Ask Before Building a Website*, Wiley; direction-board protocol and style cost tiers from McNeil, P. (2010, 2013) *The Web Designer's Idea Book*, Volumes 2 and 3, HOW Books; build-inside-retainer pattern from Nelson, J. (2019) *The Seven Figure Agency Roadmap*. All prices, screen sizes and platform facts from those books are obsolete and excluded.
 
@@ -51,7 +51,7 @@ For premium work, sell creative direction as a paid discovery deliverable:
 - **Acceptance:** the client selects one route against recorded criteria; the decision and rejected routes are logged.
 - **Style cost tiers:** tag each proposed style or effect with a build tier and a maintenance tier, and answer "Who can change this without a designer?" This is also a scope-creep control.
 
-Visual execution routes to `design-system-skills`.
+Visual execution routes to `chwezi-design-engine`.
 
 ## 5. Care plans (what happens after launch)
 

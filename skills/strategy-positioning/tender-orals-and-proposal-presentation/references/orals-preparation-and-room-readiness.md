@@ -35,7 +35,7 @@ East African planning points: offline deck and charged devices with a power bank
 
 People remember what is new to them, relevant to them, emphasised and clearly shown; design every card for that.
 
-**Slide discipline (the design engine governs type, colour and layout):** one message per slide, written as a short statement; supporting keywords, not paragraphs; parallel wording in lists; acronyms spelled out unless everyone knows them; mixed case rather than capitals; one dominant element; generous empty space; a title slide on screen as people enter. Persistent elements (title, logo, section marker) sit on the master; route visual design to `design-system-skills`.
+**Slide discipline (the design engine governs type, colour and layout):** one message per slide, written as a short statement; supporting keywords, not paragraphs; parallel wording in lists; acronyms spelled out unless everyone knows them; mixed case rather than capitals; one dominant element; generous empty space; a title slide on screen as people enter. Persistent elements (title, logo, section marker) sit on the master; route visual design to `chwezi-design-engine`.
 
 **Honest charts:** the same axis scale across related charts, labelled axes, no decorative effects that distort, and detailed figures moved to the handout.
 

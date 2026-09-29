@@ -149,7 +149,7 @@ Include only blocks supported by the brief or evidence pack:
 ## Handoff
 
 Route plan economics to `business-plan-skills`, requirements and
-acceptance to `srs-skills`, implementation to
+acceptance to `chwezi-sdlc-documentation`, implementation to
 `chwezi-dev-engine`, finance to
 `chwezi-accounting-doctrine`, website work to
 `website-skills`, and social work to
