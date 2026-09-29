@@ -2,6 +2,7 @@ schema_version: "1.0"
 engine_id: proposal-skills
 display_name: Proposal Skills
 contract_version: "1.0"
+version: "1.1.0"
 router:
   path: AGENTS.md
 skills:
@@ -26,3 +27,10 @@ source_of_truth:
   router: AGENTS.md
   skills: skills/**/SKILL.md
   references: references/**
+invariants:
+  - id: british-english
+    phrase: "Use British English and East African professional tone for proposal work unless the active skill says otherwise."
+  - id: book-extraction-ban
+    phrase: "Book extractions and book summaries must never be stored in this repository, in any folder or under any name"
+  - id: not-assessed
+    phrase: "Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass."
