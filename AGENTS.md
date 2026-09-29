@@ -187,7 +187,7 @@ When the trigger fires:
 The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
 
-<!-- design-system-skills:trigger v2 -->
+<!-- design-system-skills:trigger v3 -->
 ### Design / typography / UI/UX (cross-cutting — consult IN ADDITION)
 
 Any work touching how an artifact LOOKS — font/typeface choice, type scale, colour, layout/grid,
@@ -201,7 +201,7 @@ and the anti-AI-slop doctrine.
 frontmatter (read SKILL.md directly, not via the Skill tool). Content and structure stay in THIS
 engine; presentation comes from design-system-skills. Hard rule: never use a banned AI-slop font
 as primary type — hard ban: Inter, Geist, Roboto, Open Sans, Lato, Arial, Fraunces, IBM Plex (all
-faces); secondary ban: Space Grotesk, Instrument Serif, Poppins, Montserrat, Nunito, Nunito Sans;
+faces); secondary ban: Space Grotesk, Instrument Serif, Instrument Sans, Poppins, Montserrat, Nunito, Nunito Sans, Newsreader, Cormorant (all cuts), Crimson Pro, Plus Jakarta Sans, DM Sans, Outfit, Playfair Display, Lora, Space Mono;
 Roboto Mono and IBM Plex Mono are banned as monospace choices; Source Sans 3 only as a paired
 body face; no bare system stacks alone. State the chosen typeface and reason before producing
 any artifact.
