@@ -89,7 +89,7 @@ transformation, limitation, and decision effect; verify client names, experience
 statistics, and examples. Separate style from fabrication, provenance, compliance, and genericness;
 unavailable checks remain `NOT_ASSESSED`.
 
-- Shared standard: [`AI-slop responsible publishing`](../../../../chwezi-dev-engine/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+- Shared standard: [`AI-slop responsible publishing`](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
 
 ## References
 

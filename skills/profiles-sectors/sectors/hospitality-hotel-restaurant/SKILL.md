@@ -148,12 +148,12 @@ Include only blocks supported by the brief or evidence pack:
 
 ## Handoff
 
-Route plan economics to `C:\wamp64\www\business-plan-skills`, requirements and
-acceptance to `C:\wamp64\www\srs-skills`, implementation to
-`C:\wamp64\www\chwezi-dev-engine`, finance to
-`C:\wamp64\www\chwezi-accounting-doctrine`, website work to
-`C:\wamp64\www\website-skills`, and social work to
-`C:\wamp64\www\social-media-skills`.
+Route plan economics to `business-plan-skills`, requirements and
+acceptance to `srs-skills`, implementation to
+`chwezi-dev-engine`, finance to
+`chwezi-accounting-doctrine`, website work to
+`website-skills`, and social work to
+`social-media-skills`.
 
 ## Anti-patterns
 
@@ -174,4 +174,4 @@ the provider contract and core inventory evidence are available.
 ## References
 
 - [Hospitality proposal Kaizen record](../../../../docs/continuous-improvement/hospitality-hotel-restaurant-kaizen-2026-09-14.md)
-- [Digital Research source evaluation](C:/wamp64/www/digital-research-engine/skills/source-evaluation/SKILL.md)
+- [Digital Research source evaluation](https://github.com/peterbamuhigire/digital-research-skills/blob/main/skills/source-evaluation/SKILL.md)
