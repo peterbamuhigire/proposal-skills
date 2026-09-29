@@ -59,6 +59,8 @@ and governed centrally by `C:\wamp64\www\chwezi-dev-engine\docs\engine-control-p
 
 This repository is a dual-compatible skill system for consulting proposals, procurement responses, and related writing workflows. Active skills live under `skills/`; load the relevant `skills/<skill-name>/SKILL.md` file directly.
 
+The canonical, model-neutral rules and routing remain in AGENTS.md, README.md, and skills/SKILL.md. `CLAUDE.md` is only the Claude Code discovery bridge that imports this file; keep it free of duplicated policy.
+
 ## Baseline Rules
 
 - Kaizen is mandatory across the engine. Load `skills/meta/kaizen-improvement-system/SKILL.md` for engine/product audits and book-driven improvement; cap published audits at 65/100 and make every plan target 95/100 with evidence and re-audit dates.
