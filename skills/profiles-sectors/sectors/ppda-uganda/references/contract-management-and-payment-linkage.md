@@ -4,7 +4,7 @@ Parent skill: [Uganda PPDA Procurement Framework](../SKILL.md).
 
 Reference material for the ppda-uganda sector skill. Closes the financial-accountability gap in a Form 49 Contract Management Plan: how milestone payments, retention, performance and advance-payment security, and funds-flow reconciliation are structured so that what is delivered, what is certified, and what is paid stay aligned. Applies to PPDA central, local-government, and (in adapted form) donor-funded contracts.
 
-Sources: PPDA Act (Cap. 205, as amended) and Regulations; PPDA Form 49 (Contract Management Plan); Local Governments (Financial and Accounting) Regulations 2007 (SI 25/2007) commitment/vote control; donor disbursement and fiduciary frameworks. For underlying finance substance see the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
+Sources: PPDA Act (Cap. 205, as amended) and Regulations; PPDA Form 49 (Contract Management Plan); Local Governments (Financial and Accounting) Regulations 2007 (SI 25/2007) commitment/vote control; donor disbursement and fiduciary frameworks. For underlying finance substance see the finance engine at `chwezi-accounting-doctrine`.
 
 ---
 
@@ -66,7 +66,7 @@ For donor-funded contracts, add the donor disbursement leg (reimbursement / adva
 
 ## 6. Cross-references to the finance engine
 
-The financial substance behind this reference is held authoritatively in the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`:
+The financial substance behind this reference is held authoritatively in the finance engine at `chwezi-accounting-doctrine`:
 
 - `skills/12-public-sector-and-ipsas/government-procurement-and-fiscal-controls` — commitment control, vote control, fiscal-control gates on procurement payments.
 - `skills/05-receivables-payables-and-treasury/accounts-payable-and-supplier-management` — supplier-payment controls, certificate-to-payment matching, retention and advance recovery.

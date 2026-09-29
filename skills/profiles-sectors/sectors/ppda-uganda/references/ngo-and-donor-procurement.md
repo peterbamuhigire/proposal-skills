@@ -77,7 +77,7 @@ Retain the full procurement and accountability record. NGO manuals commonly set 
 2. **Mirror the buyer's own committee and threshold structure** in how you present compliance: three-quote competition, Procurement Committee evaluation, lowest responsive bid, documented exceptions.
 3. **Surface the governing donor early** and align your eligibility, origin/nationality, and documentation to that donor's framework, not to PPDA.
 4. **Build the Reasonable/Allocable/Allowable trail** into any cost you expect a grant to bear, and keep clear of the unallowable list.
-5. For the underlying finance substance (fund accounting, deferred income, approval matrices, the procurement control chain, the RAA test, unallowable costs), the authoritative engine reference is the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` — `doctrine/references/uganda-ngo-financial-management-patterns.md` (Procurement section) and the skill `skills/05-receivables-payables-and-treasury/accounts-payable-and-supplier-management`.
+5. For the underlying finance substance (fund accounting, deferred income, approval matrices, the procurement control chain, the RAA test, unallowable costs), the authoritative engine reference is the finance engine at `chwezi-accounting-doctrine` — `doctrine/references/uganda-ngo-financial-management-patterns.md` (Procurement section) and the skill `skills/05-receivables-payables-and-treasury/accounts-payable-and-supplier-management`.
 
 ---
 

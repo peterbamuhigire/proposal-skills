@@ -51,7 +51,7 @@ LG procurement is bounded by the financial-control regime in SI 25/2007. A techn
 - **Internal audit confirms value for money** before/around payment; a payment lacking the supporting commitment, certificate, and VFM trail is challengeable and may trigger surcharge.
 - **Surcharge / pecuniary liability (reg. 117–124):** officers who cause loss are personally and pecuniarily responsible; the Executive Committee recommends surcharge and the LG PAC determines it. This disciplines how certificates and variations are issued.
 
-For the underlying financial-control substance (commitment control, vote control, surcharge, banking-intact, signatory rules), the authoritative engine reference is the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` — `doctrine/references/uganda-public-sector-pfm.md` (Local-government financial control section) and the skill `skills/12-public-sector-and-ipsas/government-procurement-and-fiscal-controls`.
+For the underlying financial-control substance (commitment control, vote control, surcharge, banking-intact, signatory rules), the authoritative engine reference is the finance engine at `chwezi-accounting-doctrine` — `doctrine/references/uganda-public-sector-pfm.md` (Local-government financial control section) and the skill `skills/12-public-sector-and-ipsas/government-procurement-and-fiscal-controls`.
 
 ---
 

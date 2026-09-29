@@ -101,21 +101,37 @@ def table_headers(text: str | None) -> set[str]:
     return set()
 
 
+# Portable-link rule: CI checks out one repository, so a link that is host-absolute
+# (C:/..., /C:/..., file:) or that climbs out of the repository to a sibling engine
+# resolves only on the author's machine. Such links count as broken locally too, so a
+# local pass predicts the CI result; link to other engines by their GitHub URL instead.
+HOST_ABSOLUTE_LINK = re.compile(r"^(?:file:|/?[A-Za-z]:[\\/])", re.I)
+
+
+def portable_link_target(base: Path, root: Path, target: str) -> Path | None:
+    """Resolve a local link target, or return None when it is not portable."""
+    if HOST_ABSOLUTE_LINK.match(target):
+        return None
+    resolved = (base / target).resolve()
+    return resolved if resolved.is_relative_to(root.resolve()) else None
+
+
 def local_links(path: Path, body: str, root: Path) -> list[str]:
     broken: list[str] = []
     for target in re.findall(r"\[[^\]]+\]\(([^)]+)\)", body):
         clean = target.split("#", 1)[0].strip()
+        if HOST_ABSOLUTE_LINK.match(clean):
+            broken.append(target)
+            continue
         if not clean or "://" in clean or clean.startswith(("#", "mailto:")):
             continue
-        if clean.startswith("/") and clean.endswith("/") and not re.match(r"^/[A-Za-z]:/", clean):
+        if clean.startswith("/") and clean.endswith("/"):
             continue
-        if clean.startswith("/") and re.match(r"^/[A-Za-z]:/", clean):
-            candidate = Path(clean[1:])
-        elif clean.startswith("/"):
-            candidate = root / clean.lstrip("/")
+        if clean.startswith("/"):
+            candidate = portable_link_target(root, root, clean.lstrip("/"))
         else:
-            candidate = path.parent / clean
-        if not candidate.resolve().exists():
+            candidate = portable_link_target(path.parent, root, clean)
+        if candidate is None or not candidate.exists():
             broken.append(target)
     return broken
 

@@ -100,7 +100,7 @@ Every Kaizen cycle must begin with `digital-research-engine` source evaluation
 and source verification. Record scope, dates, freshness class, support status,
 uncertainty, and review date for current procurement, market, legal, policy,
 technology, finance, and lifecycle claims; quarantine unsupported claims as
-`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md).
+`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](https://github.com/peterbamuhigire/digital-research-skills/blob/main/docs/continuous-improvement/kaizen-currentness-gate.md).
 
 ## References
 
