@@ -1,6 +1,6 @@
 ---
 name: language-standards
-description: Use when proposal content must be written or reviewed in British East African English, Francophone African French, or standard East African Kiswahili; use east-african-english for English-only tone work.
+description: Use when a bilingual or multilingual proposal needs French or Kiswahili sections, translation checks, or one register and terminology policy across languages; use east-african-english for English-only tone work.
 metadata:
   portable: true
   compatible_with:
