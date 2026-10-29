@@ -305,3 +305,20 @@ Citations only, as recorded in the repository's skills, references and Kaizen re
 - [Shipley proposal assessment](https://www.shipleywins.com/consulting/proposal-assessment) — premium promise-to-proof benchmark (accessed 22 September 2026).
 - Eleken: [validating product ideas](https://www.eleken.co/blog-posts/how-to-validate-product-ideas), [mobile app onboarding](https://www.eleken.co/blog-posts/mobile-app-onboarding-best-practices), [AI design workflow](https://www.eleken.co/blog-posts/ai-design-workflow) and [launching a SaaS business](https://www.eleken.co/blog-posts/how-to-launch-a-saas-business) — practitioner cross-checks in the SaaS discovery and pilot skills.
 - OpenAI: [release notes](https://openai.com/products/release-notes/), [API models](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4), [GPT-5.6](https://openai.com/index/gpt-5-6/), [GPT-6 Astra safety overview](https://openai.com/index/safety-overview-gpt-6-astra/), [image generation](https://developers.openai.com/api/docs/guides/image-generation) and [image prompting](https://developers.openai.com/api/docs/guides/image-prompting) — model-currentness and prompt-compilation evidence in the Kaizen and AI-prompting records.
+
+## October Kaizen and local marketplaces
+
+The [October report](docs/kaizen/2026-10-engine-kaizen/05-final-report.md)
+records the current World Bank form repair and remaining bid-release gaps.
+Use the [scoped source register](docs/source-registers/2026-10-currentness.json)
+with the issued solicitation; the register does not certify legal compliance.
+
+Both Codex and Claude can install the local `proposal@chwezi-proposal`
+marketplace plugin. In the catalogue-resolved checkout, use
+`codex plugin marketplace add .` then `codex plugin add proposal@chwezi-proposal`;
+Claude uses `claude plugin marketplace add .` then
+`claude plugin install proposal@chwezi-proposal`. Native offline installation
+was tested; public directory approval and model behaviour remain unassessed.
+The registered skill validator enforces a hard **5,000 files per engine** for
+both full checkout (including Git/caches) and package inventory. Keep build
+dependencies and disposable artefacts outside the checkout.
