@@ -14,3 +14,14 @@ Three regressions cover the current map, stale staffing/extra-financial form and
 duplicate form. All six baseline commands pass, including 55 unit tests after
 this change; 115 active skills and 26 original top-three route hits remain.
 No production proposal was submitted and no experiment reverted.
+
+## P2 — hard capacity and local marketplace parity
+
+The registered skill validator now checks the immutable 5,000-entry ceiling on
+both full checkout and package inventory, exact canonical manifest paths,
+identity/version and portable router bindings. Traversal errors fail closed;
+symlinks count as entries and cannot escape skill paths. Four regression tests
+exercise the live package, both boundary counts, unreadable traversal and
+Git/symlink accounting. The initial run found additional finance-engine device
+bindings in the router; these now use the catalogue without changing finance
+activation rules. All six registered commands pass, with 59 unit tests.
