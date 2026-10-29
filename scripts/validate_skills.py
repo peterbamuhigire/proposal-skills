@@ -318,7 +318,8 @@ def main() -> int:
     }
 
     from check_marketplace import validate as validate_marketplace
-    baseline_errors: list[str] = validate_marketplace(root)
+    from check_source_currency import validate as validate_currency
+    baseline_errors: list[str] = validate_marketplace(root) + validate_currency(root)
     if args.baseline:
         baseline = json.loads(args.baseline.read_text(encoding="utf-8"))
         fixture_file = root / "tests" / "fixtures" / "routing-fixtures.json"

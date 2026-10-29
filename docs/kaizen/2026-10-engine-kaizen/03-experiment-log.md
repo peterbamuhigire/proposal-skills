@@ -38,3 +38,16 @@ this visible remaining collision is next-cycle work, not a claimed perfect
 router. The baseline fixture-count assertion now allows additive fixtures while
 rejecting a decrease; the frozen baseline data is unchanged. All six registered
 commands pass and the 59 unit tests remain green.
+
+## P4 — scoped currentness and expiry
+
+Added an engine-local register for selected procurement, AI and data-protection
+claims, with explicit scoped support versus NOT_ASSESSED, source/version,
+access/verification dates, owner, uncertainty and review date. Official pages
+were checked; inaccessible or incomplete current legal/edition evidence remains
+unassessed. The final check does not promote every old source in every skill.
+The registered validator rejects expired, malformed and future-verified rows;
+three regression tests exercise these boundaries. A final path review also
+rejects a symlinked SKILL.md itself, not just symlinked parent directories.
+All six registered commands pass, including 62 unit tests. No legal, security
+or certification assurance is inferred from metadata passing.

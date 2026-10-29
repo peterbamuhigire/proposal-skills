@@ -48,7 +48,7 @@ def validate(root=ROOT):
             path = root / entry
             if not path.resolve().is_relative_to(root) or any(part.is_symlink() for part in [path, *path.parents] if part != root):
                 raise ValueError('skill path escape or symlink')
-            if not (path / 'SKILL.md').is_file():
+            if (path / 'SKILL.md').is_symlink() or not (path / 'SKILL.md').is_file():
                 raise ValueError('missing skill')
             selected.append(path.relative_to(root).as_posix())
         if len(selected) != len(set(selected)) or set(selected) != actual:
