@@ -72,3 +72,9 @@ initially chose the Thin face. Visual inspection of the method page confirms
 readable text, but it is a sparse structural render, not a completed substantive
 bid. The full exercise content is the Markdown task record; neither its page
 counts nor these synthetic summaries predict a completed bidder package's size.
+
+Final acceptance preparation adds a real miniature package regression that
+rejects identity mismatch, duplicate/path-escaping entries and a symlinked
+SKILL.md. The full suite now passes **63 tests**; all six registered commands
+still exit 0. Final pre-review inventory is 632 checkout / 512 package entries,
+both below 5,000; Git commit growth is recounted at portfolio release.
