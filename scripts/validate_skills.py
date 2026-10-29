@@ -317,7 +317,8 @@ def main() -> int:
         "results": results + reference_results,
     }
 
-    baseline_errors: list[str] = []
+    from check_marketplace import validate as validate_marketplace
+    baseline_errors: list[str] = validate_marketplace(root)
     if args.baseline:
         baseline = json.loads(args.baseline.read_text(encoding="utf-8"))
         fixture_file = root / "tests" / "fixtures" / "routing-fixtures.json"

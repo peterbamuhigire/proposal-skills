@@ -44,7 +44,7 @@ operates within.
 
 Every Kaizen audit, skill edit, reference update, validator change, and
 standardisation decision MUST begin with the Digital Research Engine at
-`C:\wamp64\www\digital-research-engine`. Read its `source-evaluation` and
+the catalogue binding `digital-research-engine`. Read its `source-evaluation` and
 `source-verification` skills and the currentness gate reference
 `docs/continuous-improvement/kaizen-currentness-gate.md`.
 
@@ -57,7 +57,7 @@ primary sources; quarantine stale/ambiguous/unsupported claims and mark them
 
 Shared agent, command, hook, evidence, and handoff behavior is mapped for
 proposal work in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md)
-and governed centrally by `C:\wamp64\www\chwezi-dev-engine\docs\engine-control-plane.md`.
+and governed centrally by `chwezi-dev-engine/docs/engine-control-plane.md` (resolve through the catalogue).
 
 This repository is a dual-compatible skill system for consulting proposals, procurement responses, and related writing workflows. Active skills live under `skills/`; load the relevant `skills/<skill-name>/SKILL.md` file directly.
 
@@ -161,7 +161,7 @@ The canonical, model-neutral rules and routing remain in AGENTS.md, README.md, a
 
 ## Finance & Accounting Trigger
 
-For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
+For finance/accounting/IFRS/IAS work, use the finance engine at `chwezi-accounting-doctrine (catalogue binding)` whenever the user's request, the artefact being generated, or the code being edited touches **any** of:
 
 - Money flows: sales, purchases, payments, refunds, credit notes, expenses
 - Stock and inventory
@@ -178,13 +178,13 @@ For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\c
 
 When the trigger fires:
 
-1. For finance/accounting/IFRS/IAS work, use the finance engine at `C:\wamp64\www\chwezi-accounting-doctrine`.
-2. Read the relevant doctrine reference file in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
-3. Read the corresponding finance skill `SKILL.md` in the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
-4. Apply the **finance & accounting quality gate** from the finance engine (`C:\wamp64\www\chwezi-accounting-doctrine`).
+1. For finance/accounting/IFRS/IAS work, use the finance engine at `chwezi-accounting-doctrine (catalogue binding)`.
+2. Read the relevant doctrine reference file in the finance engine (`chwezi-accounting-doctrine (catalogue binding)`).
+3. Read the corresponding finance skill `SKILL.md` in the finance engine (`chwezi-accounting-doctrine (catalogue binding)`).
+4. Apply the **finance & accounting quality gate** from the finance engine (`chwezi-accounting-doctrine (catalogue binding)`).
 6. Record the gate run in the artefact manifest.
 
-The `finance-module-audit` skill (the corresponding skill in the finance engine, `C:\wamp64\www\chwezi-accounting-doctrine`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
+The `finance-module-audit` skill (the corresponding skill in the finance engine, `chwezi-accounting-doctrine (catalogue binding)`) auto-runs whenever the user asks to analyse, review, audit, build, propose, or replace any software system with even a slight finance element.
 
 
 <!-- chwezi-design-engine:trigger v4 -->
@@ -219,4 +219,4 @@ For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/
 
 ## PORTFOLIO CRAFT CONTRACT
 
-Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Craft a proposal section by section: frame the decision-maker and win thesis, select one argument or compliance response, inspect the brief and evidence, draft the smallest persuasive unit, test it against the evaluation logic and counter-case, refine the language and layout, and record source, review, and acceptance evidence. Keep delivery proof, assumptions, risks, commercial logic, and next action visible. Do not produce a generic full proposal as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass.
+Load `chwezi-engine-agents/docs/operations/portfolio-craft-standard-2026-09-04.md` through the catalogue when available. Craft a proposal section by section: frame the decision-maker and win thesis, select one argument or compliance response, inspect the brief and evidence, draft the smallest persuasive unit, test it against the evaluation logic and counter-case, refine the language and layout, and record source, review, and acceptance evidence. Keep delivery proof, assumptions, risks, commercial logic, and next action visible. Do not produce a generic full proposal as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass.
