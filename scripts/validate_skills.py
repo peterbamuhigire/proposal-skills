@@ -329,8 +329,8 @@ def main() -> int:
             baseline_errors.append("baseline must contain zero failure counts")
         if baseline.get("failure_counts", {}) != payload["failure_counts"]:
             baseline_errors.append("failure counts differ from zero-debt baseline")
-        if baseline.get("routing_fixture_count") != fixture_count:
-            baseline_errors.append("routing fixture count differs from baseline")
+        if fixture_count < baseline.get("routing_fixture_count", 0):
+            baseline_errors.append("routing fixture count falls below frozen baseline")
 
     if args.json:
         print(json.dumps(payload, indent=2, ensure_ascii=False))

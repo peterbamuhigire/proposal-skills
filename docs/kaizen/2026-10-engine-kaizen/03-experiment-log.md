@@ -25,3 +25,16 @@ exercise the live package, both boundary counts, unreadable traversal and
 Git/symlink accounting. The initial run found additional finance-engine device
 bindings in the router; these now use the catalogue without changing finance
 activation rules. All six registered commands pass, with 59 unit tests.
+
+## P3 — honest routing metrics and owned negatives
+
+The runner now distinguishes first-rank accuracy from expected-label presence
+in the top three, and checks explicit forbidden primary routes. The original
+26 fixtures have 19 first-rank hits; this was recovered from preserved baseline
+output after freeze. The expanded set has 23/31 first-rank hits, 31/31 top-three
+hits and two/two owned-negative checks. The World Bank route now has three
+positive and two owned-negative cases. Its FTP prompt still ranks UNDP first;
+this visible remaining collision is next-cycle work, not a claimed perfect
+router. The baseline fixture-count assertion now allows additive fixtures while
+rejecting a decrease; the frozen baseline data is unchanged. All six registered
+commands pass and the 59 unit tests remain green.

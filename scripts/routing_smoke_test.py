@@ -43,6 +43,7 @@ def main() -> int:
         document_frequency.update(counts.keys())
 
     failures: list[dict] = []
+    first_hits = top_three_hits = owned_total = owned_pass = 0
     for fixture in fixtures:
         prompt_tokens = Counter(tokens(fixture["prompt"]))
         ranked: list[tuple[float, str]] = []
@@ -53,13 +54,20 @@ def main() -> int:
             )
             ranked.append((score, skill))
         top_three = [skill for _, skill in sorted(ranked, key=lambda item: (-item[0], item[1]))[:3]]
-        passed = fixture["expected"] in top_three
+        first_hits += bool(top_three and fixture["expected"] == top_three[0])
+        owned = fixture.get("forbidden_primary", [])
+        owned_total += bool(owned)
+        exclusion_pass = not owned or top_three[0] not in owned
+        owned_pass += bool(owned) and exclusion_pass
+        top_three_hits += fixture["expected"] in top_three
+        passed = fixture["expected"] in top_three and exclusion_pass
         if not passed:
             failures.append({"id": fixture["id"], "expected": fixture["expected"], "top_three": top_three})
         print(f"{'PASS' if passed else 'FAIL'} {fixture['id']}: {fixture['expected']} | top3={', '.join(top_three)}")
 
-    precision = (len(fixtures) - len(failures)) / len(fixtures) if fixtures else 0.0
-    print(f"routing fixtures: {len(fixtures)}; top-three precision: {precision:.1%}; threshold: 100.0%")
+    precision = top_three_hits / len(fixtures) if fixtures else 0.0
+    print(f"routing fixtures: {len(fixtures)}; expected-in-top-three hit rate: {precision:.1%}; threshold: 100.0%")
+    print(f"precision@1: {first_hits}/{len(fixtures)}; owned-negative primary: {owned_pass}/{owned_total}; lexical proxy only")
     return 1 if failures or precision < 1.0 else 0
 
 
