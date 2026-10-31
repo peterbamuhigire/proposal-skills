@@ -1,6 +1,6 @@
 ---
 name: afdb
-description: Use when an assignment is funded or governed by African Development Bank procurement, including ADB, ADF, or NTF windows; use World Bank, UNDP, or PPDA skills when those rules control.
+description: Use when an assignment is funded or governed by African Development Bank (AfDB) procurement, including ADB, ADF, or NTF windows, QCBS consultant selection and African-firm participation; use World Bank, UNDP, or PPDA skills when those rules control.
 metadata:
   portable: true
   compatible_with:

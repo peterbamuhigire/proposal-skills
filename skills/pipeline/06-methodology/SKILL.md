@@ -1,6 +1,6 @@
 ---
 name: 06-methodology
-description: Use when drafting the technical approach, conceptual model, phases, methods, QA, deliverables, or implementation logic. Unlike 03-understanding-of-assignment, this skill explains how the work will be executed and verified.
+description: Use when drafting the technical approach, conceptual model, phases, methods, QA, deliverables, or implementation logic, or when sizing sections to a page limit and scoring weights. Unlike 03-understanding-of-assignment, this skill explains how the work will be executed and verified.
 metadata:
   portable: true
   compatible_with:
