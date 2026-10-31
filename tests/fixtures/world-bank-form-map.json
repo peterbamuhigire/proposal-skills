@@ -45,5 +45,27 @@
     "older local mapping",
     "do not carry forward",
     "no fin-5"
+  ],
+  "rated_criteria_ranges": {
+    "source": "Standard RFP Data Sheet (March 2025) and Regulations Seventh Edition, Annex X, Table 1; verified 2026-10-31",
+    "firm_experience": "0-10",
+    "methodology": "20-50",
+    "key_experts": "30-60",
+    "transfer_of_knowledge": "0-10",
+    "nationals": "0-10",
+    "minimum_technical_score_indicative": "70-85",
+    "key_expert_general_qualifications_weight": "10-20",
+    "key_expert_adequacy_weight": "60-80"
+  },
+  "retired_phrases": [
+    "typically **75 out of 100**",
+    "score 74 = eliminated",
+    "typically 70-80%, financial 20-30%",
+    "(5-8 points spread)",
+    "(30-40 points spread)",
+    "typically 3-6 firms",
+    "typical points | what evaluators look for",
+    "firm experience (tech-2b) — typically 10",
+    "comparative technical score ="
   ]
 }

@@ -135,7 +135,7 @@ All three windows use the same procurement framework and safeguard requirements.
 | **CQS** | Small assignments below monetary threshold | Consultant selected based on qualifications for the assignment. | Strong EoI and firm credentials are decisive. |
 | **SSS** | Non-competitive; requires AfDB justification | One firm approached directly. | Justification and quality of technical proposal are critical. |
 
-**Under QCBS (the most common method):** Technical weighting is typically 70-80%, financial 20-30%. The formula mirrors World Bank practice: winning on technical quality is almost always more decisive than winning on price.
+**Under QCBS (the most common method):** The RFP sets the technical and financial weights. AfDB's usual ranges were not verified on 31 October 2026 (the AfDB procurement pages and the May 2026 Operations Procurement Manual returned HTTP 403 to automated fetch), and the World Bank ranges in its Regulations are not AfDB rules. Read the weights in the issued RFP before choosing a price position; the arithmetic in the World Bank skill applies to any weighted formula of this kind.
 
 ---
 
@@ -146,7 +146,7 @@ All competitive consulting procurements use two sealed envelopes:
 1. **Envelope 1: Technical Proposal** — opened first, evaluated and scored
 2. **Envelope 2: Financial Proposal** — remains sealed until technical evaluation is complete; only opened for firms scoring above the minimum technical threshold
 
-Financial envelopes of firms scoring below the minimum technical threshold (typically **70-80 out of 100**, specified in RFP) are returned unopened.
+Financial envelopes of firms scoring below the minimum technical threshold (specified in the RFP; AfDB's usual range was not verified) are returned unopened.
 
 ---
 
@@ -228,7 +228,7 @@ AfDB actively promotes the use of African consulting firms:
 | Feature | World Bank | AfDB |
 |---|---|---|
 | Standard forms | TECH-1 through TECH-8, FIN-1 through FIN-4 (March 2025 RFP) | Similar structure, AfDB-specific templates; take the form list from the issued RFP (the AfDB pages were unreachable in the 31 October 2026 check) |
-| Minimum technical score | Typically 75/100 | Typically 70-80/100 (varies by RFP) |
+| Minimum technical score | Set in the Data Sheet; indicative range 70-85 (Regulations Annex X, para 4.5) | Set in the RFP; AfDB's usual range not verified |
 | Safeguard framework | ESF (10 Environmental and Social Standards) | ISS 2023 (10 Operational Safeguards) |
 | African firm preference | No specific preference | Active promotion of African consulting firms |
 | Project rating scale | 6-point IEG scale | 4-point IDEV scale |
