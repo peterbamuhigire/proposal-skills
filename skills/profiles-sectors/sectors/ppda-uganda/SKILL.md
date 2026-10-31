@@ -83,6 +83,7 @@ If the solicitation, profile, current procurement source, sector evidence, netwo
 | Decision | Action | Failure/risk avoided |
 |---|---|---|
 | PPDA evaluation route | Use the solicitation's method, mandatory documents, evaluation stages, forms, and approvals; flag any ambiguity for clarification. | Administrative rejection or incorrect scoring response |
+| Envelope structure, channel and securities | Take each from the BDS; use the submission table to spot a BDS that conflicts with the Regulations and raise it as a clarification. | Wrong envelope structure, a missing or unsuitable security, or a missed electronic submission |
 | Conflicting solicitation and background guidance | Follow the solicitation while recording the conflict for formal clarification. | Non-responsive interpretation |
 | Missing mandatory evidence | Stop the affected claim or form, record the owner and deadline, and continue only with independent supported content. | Fabricated evidence or silent omission |
 | Submission, certification, or contractual commitment | Obtain explicit authority and preserve approval evidence before acting. | Unauthorised external commitment |
@@ -131,12 +132,37 @@ This skill provides the evaluation methodology, scoring rules, form structures, 
 
 ---
 
-## The Two-Envelope Procedure
+## Bid Submission: Method, Channel and Securities
 
-All QCBS, QBS, LCS, and FBS procurements use two sealed envelopes:
+The bidding document states the submission method, the delivery channel and any security (Rules and Methods Regulations 2023, regs 63(1), 66(1)). Use the table to check that the Bid Data Sheet (BDS) is plausible and to prepare early; the BDS controls. Read on 31 October 2026 from the Regulations hosted on the PPDA website.
 
-1. **Envelope 1: Technical Proposal** — opened first, evaluated and scored
-2. **Envelope 2: Financial Proposal** — remains sealed in secure storage until technical evaluation is approved by Contracts Committee; only opened for bidders scoring above the minimum technical qualifying mark
+### Which envelope structure
+
+| Procurement and evaluation method | Submission method in the Regulations | What to build |
+|---|---|---|
+| Consultancy: QCBS, LCS or FBS | One-stage, two-envelope (Consultancy Services Regulations 2023, reg 48(2)(a)) | An outer sealed envelope holding separately sealed envelopes marked "technical proposal" and "financial proposal"; no price in the technical envelope. The financial envelope stays unopened until a later public session, after the Contracts Committee approves the technical evaluation report (Consultancy Services Regulations regs 62(1), 65 and 66) |
+| Consultancy: QBS | Two-envelope or two-stage, as the request for proposals states (reg 48(2)(a) and (c)) | Follow the request for proposals |
+| Consultancy: direct procurement or consultants' qualifications selection | One-stage, single envelope (reg 48(2)(b)) | One sealed envelope |
+| Supplies, works or non-consultancy services under the technical compliance method | One-stage, single envelope (Rules and Methods Regulations 2023, regs 66(2) and 66(6)(a)) | One sealed envelope holding the technical response and the price schedule |
+| Supplies, works or non-consultancy services where the detailed technical evaluation is done without reference to price | One-stage, two-envelope (reg 66(6)(b)) | Envelopes marked "TECHNICAL" and "FINANCIAL", opened at separate bid openings |
+| Design and build, textbooks and information technology systems | The buyer may choose one-stage two-envelope or two-stage (reg 66(4)) | Two-stage: a technical bid first, then a revised technical bid and a financial bid. Check which the BDS names before assembling anything |
+
+An ICT bid is therefore not automatically single-envelope or two-envelope. Do not carry the consultancy two-envelope pattern into a supplies or non-consultancy bid, and do not put the price in a separate envelope unless the BDS says so. The BDS also fixes the outer-envelope markings (Regulations reg 66(7) and (8): plain, securely sealed outer envelope; procurement reference; bidder name; "TECHNICAL" or "FINANCIAL" where two envelopes apply; "WITHDRAWAL", "MODIFICATION" or "REPLACEMENT"; "NOT TO BE OPENED BEFORE THE DATE AND TIME OF THE BID OPENING"). An unmarked or unsealed bid leaves the entity not responsible for early opening or misplacement (reg 66(9)).
+
+### Channel
+
+Regulation 68(2) allows delivery "in person or electronically", through Procurement and Disposal Unit staff who acknowledge receipt or "by use of a bid box or government electronic system". Take the channel from the BDS. PPDA's home page lists a press statement dated 5 June 2026 titled "Uganda to Roll Out E-GP to all Entities on 1st July 2026"; its text could not be retrieved on 31 October 2026, so which entities require e-GP submission is **not assessed**. If the BDS names e-GP, register as a supplier on the e-GP portal before the deadline, rehearse the upload, and keep the system's submission receipt. If it names a physical bid, keep the delivery acknowledgement (a courier loss is the bidder's risk, reg 68(3)).
+
+### Bid security, securing declaration and performance security
+
+| Instrument | What the Regulations say | Bidder action |
+|---|---|---|
+| Bid security | The bidding document states any requirement; PPDA format; issuer as the PPDA guidelines allow; valid at least 28 days after the bid expires (reg 63(1), (4), (5)) | Read the BDS amount, form and validity. Order the instrument early; extend it if the BDS extends bid validity |
+| Bid securing declaration | Required where restricted domestic bidding or quotation is used (reg 63(9)). For other methods the bidding document decides. A breach is reported to the Authority, which may suspend the bidder (reg 63(10) and (11)). For consultancy the entity "may require" a proposal securing declaration (Consultancy Regulations reg 47) | Sign only if the BDS requires it and the signatory can honour it |
+| Performance security or performance securing declaration | The bidding documents state which is required; a bank guarantee must be acceptable to the Bank of Uganda and an insurance bond to the Insurance Regulatory Authority (Contracts Regulations 2023, reg 11) | Do not assume a declaration will be accepted in place of a guarantee |
+| Advance payment | Not above 30% of the contract price without the approval of the Secretary to the Treasury, and an advance payment security is required (Contracts Regulations reg 43) | Price and structure any advance within the BDS terms |
+
+The PPDA performance securing declaration form records a three-year suspension on default; the Act leaves the suspension period to the Authority (section 128).
 
 ---
 
@@ -152,8 +178,8 @@ Every bid/proposal is checked for:
 
 **What to ensure:**
 - All eligibility documents present and valid
-- Correct format, signed, sealed, submitted on time
-- Bid securing declaration included
+- Correct format, signed, and delivered on time through the channel and in the envelope structure the BDS names (see "Bid Submission" above)
+- Any bid security or bid securing declaration the BDS requires, in the form and for the validity it states
 - Every administrative requirement in the bidding document addressed
 - Beneficial ownership declaration form completed
 
@@ -238,10 +264,10 @@ After award, a Contract Management Plan is prepared covering:
 
 ## Performance Security
 
-Uganda PPDA uses a **Performance Securing Declaration** rather than traditional bank guarantees:
-- Provider declares acceptance that failure to perform or default-triggered termination results in **3-year suspension from all Government procurement**
-- Valid until completion of all obligations and defects liability period
-- Signed by authorised representative of the provider
+The bidding documents state whether the successful provider must give a performance security (a bank guarantee acceptable to the Bank of Uganda or an insurance bond acceptable to the Insurance Regulatory Authority) or a performance securing declaration (Contracts Regulations 2023, reg 11). The declaration form, where used:
+- Records the provider's acceptance that failure to perform or a default-triggered termination leads to suspension from government procurement; the PPDA form text says three years, while the Act leaves the period to the Authority (section 128)
+- Stays valid until completion of all obligations and the defects liability period
+- Is signed by an authorised representative of the provider
 
 ---
 

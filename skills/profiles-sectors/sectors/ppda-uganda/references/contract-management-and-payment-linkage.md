@@ -41,7 +41,7 @@ A Form 49 Contract Management Plan typically lists deliverables, dates, and a pa
 
 | Instrument | What it secures | Note |
 |---|---|---|
-| **Performance security** | The provider's performance of the contract | Under PPDA, frequently a **Performance Securing Declaration** (default-triggered 3-year suspension from government procurement) rather than a bank guarantee; valid until obligations and defects liability are complete |
+| **Performance security** | The provider's performance of the contract | Under PPDA the bidding documents state either a **performance security** (bank guarantee or insurance bond) or a **Performance Securing Declaration** (the PPDA form text records a three-year suspension on default; Contracts Regulations 2023, reg 11); valid until obligations and defects liability are complete |
 | **Advance-payment guarantee** | Recovery of any advance paid | Required where an advance is made; the advance is recovered by deduction from subsequent certificates |
 | **Bid security / securing declaration** | Bid validity (pre-award) | Belongs to the bidding phase, not contract management |
 
