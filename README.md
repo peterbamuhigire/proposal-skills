@@ -58,7 +58,7 @@ The engine reads the real solicitation, the buyer's evaluation criteria and the 
 ## When to use it
 
 - **Use it for** consulting proposals, EOIs and prequalification responses, tenders and RFP responses, donor grant applications, SaaS, AI-on-SaaS and AI-agent bids, pilots, contract exhibits and oral presentations.
-- **Do not use it for** blog writing on its own, skill maintenance, or work that contains no proposal. The blog skills serve content publishing only.
+- **Do not use the router for** blog writing on its own, skill maintenance, or work unrelated to proposals. The blog skills serve content publishing only, and the maintenance skills sit in the Quality and operations category.
 - **Hand off** current facts, finance, visual design and software delivery to the sister engines listed under [Sister engines](#sister-engines).
 
 ### What it produces
