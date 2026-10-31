@@ -222,7 +222,10 @@ For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/
 
 Load `chwezi-engine-agents/docs/operations/portfolio-craft-standard-2026-09-04.md` through the catalogue when available. Craft a proposal section by section: frame the decision-maker and win thesis, select one argument or compliance response, inspect the brief and evidence, draft the smallest persuasive unit, test it against the evaluation logic and counter-case, refine the language and layout, and record source, review, and acceptance evidence. Keep delivery proof, assumptions, risks, commercial logic, and next action visible. Do not produce a generic full proposal as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass.
 
-October Kaizen evidence is in `docs/kaizen/2026-10-engine-kaizen/`.
+October Kaizen evidence is in `docs/kaizen/2026-10-engine-kaizen/`; pass 2 (31 October 2026) is in
+`docs/kaizen/2026-10-engine-kaizen-pass-2/`. The skill validator also scans every skill for retired World Bank
+form labels (`scripts/check_form_labels.py`), the link gate rejects machine-specific paths, and
+`scripts/proposal_fixture_check.py --check-content` scans a package's envelope files for cross-envelope leaks.
 Check `docs/source-registers/2026-10-currentness.json` before reusing volatile
 procurement or AI claims; scoped support never substitutes for the issued RFP.
 The skill validator also enforces marketplace parity, source review dates and
