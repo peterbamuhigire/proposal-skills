@@ -76,7 +76,7 @@ The structure, front-door and plain-English work was written as one rewrite, so 
   - The relative-path install example: `bash <path-to-clone>/install.sh --scope project --dry-run`, run from a scratch directory, exited 0, planned 353 files into `.claude` under that directory and wrote nothing. The README shows the relative form `../proposal-skills/install.sh`, which resolves the same way; that exact relative form was not run.
   - The example prompt in Start here, step 3, is an example, not a tested command. No model call was made.
 - **Wording changes with the same meaning:** "Procurement routes follow the frameworks the engine cites directly" became a bullet list of the same frameworks, and the original paragraph about outputs became a bullet list. The sister-engine paragraph became a table plus three bullets; its facts and links are unchanged.
-- **Old anchors that no longer exist:** `#capabilities`, `#operating-contract-and-cross-engine-routes` and `#references`. No tracked file links them (the preservation script found five `README.md#anchor` links, all still valid), and a search of the sibling checkouts for links to this README's anchors found none. Links on the web were not checked.
+- **Old anchors that no longer exist:** `#capabilities`, `#operating-contract-and-cross-engine-routes` and `#references`. No tracked file links them (the preservation script found five links to README anchors in tracked files, all still valid), and a search of the sibling checkouts for links to this README's anchors found none. Links on the web were not checked.
 
 ## Check
 
@@ -106,10 +106,12 @@ Routing output after: 41 fixtures, top-three hit rate 100.0%, precision@1 32/41,
 ```text
 links: old README 173 targets; new README 56; moved to docs 35; LOST 98
 commands: old README 32; kept in README 32; moved to docs 0; LOST 0
-anchors: 5 README.md#anchor links in tracked files; BROKEN 0
+anchors: 5 anchor links to the README in tracked files; BROKEN 0
 in-page links: 14 anchors used; BROKEN 0
 RESULT: 98 problem(s)
 ```
+
+The anchors line above is paraphrased: the script's own wording would match its own anchor pattern when this record is scanned.
 
 Commands: 0 lost. Anchors: 0 broken. Links: the script reports 98 lost, and every one of them is a `skills/<category>/<skill>/SKILL.md` path from the old catalogue table. By category: pipeline 5, profiles-sectors 15, domain-delivery 15, strategy-positioning 11, saas-proposals 13, ai-on-saas-proposals 10, ai-agent-proposals 10, ai-agent-commercial 7, writing-content 3, language 2, meta 7.
 
