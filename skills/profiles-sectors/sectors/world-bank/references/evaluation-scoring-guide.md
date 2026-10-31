@@ -127,7 +127,7 @@ Final Weighted Financial Score = Comparative Score × Financial Weighting %
 - **Logical flow** — each phase's outputs feed clearly into the next phase's inputs
 - **Deliverables are specific** — named, formatted, with review/approval points
 
-### Key Personnel (TECH-5/6) — Typically 30–60 Points
+### Key Personnel (TECH-6) — Typically 30–60 Points
 
 **Score 1–2:** CVs that show general sector experience but no direct match to the specific ToR tasks the person is assigned to. Junior staff on complex tasks.
 
@@ -139,7 +139,7 @@ Final Weighted Financial Score = Comparative Score × Financial Weighting %
 - **Availability confirmed:** CV states the person is available for the required period
 - **Complementary skills:** The team covers all ToR disciplines without gaps
 
-### Work Plan (TECH-7/8) — Embedded in Methodology Score
+### Work Plan and Deliverable Schedule (TECH-4, TECH-5) — Embedded in Methodology Score
 
 **Score 1–2:** A basic Gantt chart with generic phase names and uniform durations.
 
