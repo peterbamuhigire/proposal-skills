@@ -30,8 +30,8 @@ The critical defect D1 and the inherited open P1 are both in the selection.
 5. Root cause (skill and proof): a missing method plus a missing check. Add the method as a reference, a precedence rule in the router, and a deterministic checker.
 
 **D7: machine paths in shipped content.**
-1. Why does a skill carry `C:\...`? A pointer stub copied the author's local path next to the GitHub link.
-2. Why did the gate pass? `encoding_link_gate.py` matches two specific `C:\Users\...\source\repos` patterns only.
+1. Why does a skill carry a Windows drive-letter path? A pointer stub copied the author's local path next to the GitHub link.
+2. Why did the gate pass? `encoding_link_gate.py` matched one earlier, narrow pattern for two sibling-checkout routes and nothing else.
 3. Why so narrow? It was written for one earlier incident (stale sibling routes).
 4. Why no wider rule? The cycle's guardrail ("no machine-specific paths") was checked by hand.
 5. Root cause (tooling): a hand check never became a validator.

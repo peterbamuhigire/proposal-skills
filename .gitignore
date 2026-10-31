@@ -15,5 +15,5 @@ __pycache__/
 Thumbs.db
 desktop.ini
 
-# Stale local mirror of the finance engine (canonical: C:\wamp64\www\chwezi-accounting-doctrine; never commit)
+# Stale local mirror of the finance engine (canonical: the chwezi-accounting-doctrine repository; never commit)
 /doctrine/

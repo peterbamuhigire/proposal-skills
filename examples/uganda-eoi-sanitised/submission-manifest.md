@@ -16,7 +16,7 @@
 | Structural controls | `validator-input.json` | `1.0.0-synthetic`; test input only |
 | Editorial record | `editorial-review.md` | `1.0.0-synthetic`; specimen-only review |
 | Presentation | `review.html` | `1.0.0-synthetic`; browser-rendered specimen |
-| Render evidence | `C:\Users\Peter\Downloads\skills-kaizen\evidence\P12\synthetic-eoi-render.png` | `1.0.0-synthetic`; screenshot only |
+| Render evidence | Local screenshot of `review.html` (file not committed; path withheld) | `1.0.0-synthetic`; screenshot only |
 | This manifest | `submission-manifest.md` | `1.0.0-synthetic`; versioned bundle index |
 
 There is no archive, actual signature, real envelope approval, external destination or submission authority in this package. `validator-input.json` contains simulated positive status records solely to exercise structural checks. Validator approval means only that the fixture's declared relationships pass those checks; it does not authenticate a tender, prove a claim, approve pricing, establish legal compliance or permit submission.
