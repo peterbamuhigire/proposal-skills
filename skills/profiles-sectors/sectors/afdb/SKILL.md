@@ -227,7 +227,7 @@ AfDB actively promotes the use of African consulting firms:
 
 | Feature | World Bank | AfDB |
 |---|---|---|
-| Standard forms | TECH-1 through TECH-8, FIN-1 through FIN-5 | Similar structure but AfDB-specific templates |
+| Standard forms | TECH-1 through TECH-8, FIN-1 through FIN-4 (March 2025 RFP) | Similar structure, AfDB-specific templates; take the form list from the issued RFP (the AfDB pages were unreachable in the 31 October 2026 check) |
 | Minimum technical score | Typically 75/100 | Typically 70-80/100 (varies by RFP) |
 | Safeguard framework | ESF (10 Environmental and Social Standards) | ISS 2023 (10 Operational Safeguards) |
 | African firm preference | No specific preference | Active promotion of African consulting firms |

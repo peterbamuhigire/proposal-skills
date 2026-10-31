@@ -1,6 +1,6 @@
 {
   "source": "https://thedocs.worldbank.org/en/doc/648e88c7531aa9eb09daaceeaa6ffbfc-0290012025/original/SPD-RFP-Consulting-services-non-supervision-Feb-2025.docx",
-  "checked": "2026-10-29",
+  "checked": "2026-10-31",
   "scope": "March 2025 document revision; issued RFP controls",
   "technical": {
     "TECH-1": "Technical submission",
@@ -17,5 +17,33 @@
     "FIN-2": "Summary of costs",
     "FIN-3": "Remuneration breakdown",
     "FIN-4": "Reimbursable expense breakdown"
-  }
+  },
+  "stale_associations": {
+    "TECH-5": [
+      "team composition",
+      "task assignment",
+      "key personnel",
+      "key professional staff"
+    ],
+    "TECH-7": [
+      "staffing schedule",
+      "person-month",
+      "work plan",
+      "work schedule",
+      "gantt"
+    ],
+    "TECH-8": [
+      "work schedule",
+      "work plan",
+      "gantt"
+    ]
+  },
+  "unsupported_forms": [
+    "FIN-5"
+  ],
+  "warning_phrases": [
+    "older local mapping",
+    "do not carry forward",
+    "no fin-5"
+  ]
 }

@@ -139,20 +139,24 @@ Financial envelopes of firms scoring below the minimum technical threshold (typi
 
 ## TECH Forms — What Goes Where
 
-Each TECH form maps to a proposal section skill. Read the relevant sub-skill for content guidance; this table shows the World Bank form structure:
+This map follows the March 2025 revision of the World Bank non-supervision consulting RFP (read against the Bank's own file on 31 October 2026). The issued RFP controls: its checklist, Data Sheet and any amendment decide which forms apply, in what order and with what page limits. [references/tech-fin-forms-guide.md](references/tech-fin-forms-guide.md) holds the form-level detail.
 
-| Form | Content | Maps to Skill | Typical Weight |
+Each TECH form maps to a proposal section skill. Read the sub-skill for content guidance; this table shows the form structure:
+
+| Form | Content | Maps to Skill | Where the points sit |
 |---|---|---|---|
-| **TECH-1** | Technical Proposal Submission Form (cover letter) | `01-cover-letter/` | — |
-| **TECH-2A** | Organisation of the Firm | `04-firm-profile/` | 10-20 pts |
-| **TECH-2B** | Consultant's Experience (project list) | `05-relevant-experience/` | (part of TECH-2) |
-| **TECH-3A** | Comments on the Terms of Reference | `03-understanding-of-assignment/` | Embedded in methodology score |
-| **TECH-3B** | Comments on Counterpart Staff and Facilities | `03-understanding-of-assignment/` | Embedded in methodology score |
-| **TECH-4** | Approach, Methodology, and Work Plan | `06-methodology/` | **30-50 pts** |
-| **TECH-5** | Team Composition and Task Assignments | `07-team-composition/` | **30-60 pts** |
-| **TECH-6** | CVs of Proposed Professional Staff | `07-team-composition/` | (part of TECH-5) |
-| **TECH-7** | Staffing Schedule (person-months) | `08-work-plan/` | Embedded in methodology/team |
-| **TECH-8** | Work Schedule (Gantt chart) | `08-work-plan/` | Embedded in methodology score |
+| **TECH-1** | Technical Proposal Submission Form (a JV adds the attachment) | `01-cover-letter/` | Not scored |
+| **TECH-2A** | Consultant's organisation | `04-firm-profile/` | Relevant experience of the firm |
+| **TECH-2B** | Consultant's experience | `05-relevant-experience/` | Relevant experience of the firm |
+| **TECH-3A** | Comments on the Terms of Reference (full technical proposal only; the simplified checklist omits TECH-3) | `03-understanding-of-assignment/` | Embedded in the methodology criterion |
+| **TECH-3B** | Comments on counterpart staff and facilities (full technical proposal only) | `03-understanding-of-assignment/` | Embedded in the methodology criterion |
+| **TECH-4** | Approach, methodology and work plan | `06-methodology/` | Methodology criterion |
+| **TECH-5** | Work schedule and planning for deliverables | `08-work-plan/` | Embedded in the methodology criterion |
+| **TECH-6** | Team composition, key experts' inputs and attached CVs | `07-team-composition/` | Key-staff criterion |
+| **TECH-7** | Code of Conduct | The issued form; no section skill drafts it | Compliance requirement; obtain the actual commitments |
+| **TECH-8** | Sexual exploitation and abuse / sexual harassment (SEA/SH) performance declaration | The issued form; no section skill drafts it | Declaration; never invent a clean record |
+
+There is no FIN-5 in the March 2025 checklist. The financial forms are FIN-1 (submission), FIN-2 (summary of costs), FIN-3 (remuneration) and FIN-4 (reimbursable expenses).
 
 ---
 
@@ -248,7 +252,7 @@ This carries the most points and the most scoring differentiation between firms.
 
 Use the P-I-P structure (see `references/proposal-strategy-and-persuasion.md`) for every phase.
 
-### TECH-5/6: Key Personnel (Where Most Points Are Won or Lost)
+### TECH-6: Key Personnel (Where Most Points Are Won or Lost)
 
 This is typically the highest-weighted criterion. Critical rules:
 - Each CV must directly match the ToR tasks for that position
@@ -317,7 +321,7 @@ Critical disqualification risks:
 | Reference File | Contents |
 |---|---|
 | `references/evaluation-scoring-guide.md` | Detailed scoring methodology, comparative formulas, worked examples, scoring strategy per TECH form |
-| `references/tech-fin-forms-guide.md` | Complete TECH-1 through TECH-8 and FIN-1 through FIN-5 form requirements and best practices |
+| `references/tech-fin-forms-guide.md` | Current form map (TECH-1 through TECH-8, FIN-1 through FIN-4, March 2025 RFP), completion rules and pre-submission checks |
 
 Read the relevant reference file for detailed guidance beyond this summary.
 
