@@ -1,6 +1,6 @@
 # Documentation index
 
-This folder holds the engine's guidance documents, its source register and the dated records of every audit and improvement cycle. The skills themselves live under [`skills/`](../skills/SKILL.md); the repository overview, installation and validation instructions are in the [root README](../README.md).
+This folder holds the engine's guidance documents, its source register and the dated records of every audit and improvement cycle. The skills themselves live under [`skills/`](../skills/SKILL.md); the repository overview, installation and validation instructions, and a list of what the October 2026 kaizen improved ([quality section](../README.md#what-the-october-2026-kaizen-improved)), are in the [root README](../README.md).
 
 ## Current guidance
 
