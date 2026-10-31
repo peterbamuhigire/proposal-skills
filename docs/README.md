@@ -1,17 +1,19 @@
 # Documentation index
 
-This folder holds the engine's guidance documents, its source register and the dated records of every audit and improvement cycle. The skills themselves live under [`skills/`](../skills/SKILL.md); the repository overview, installation and validation instructions, and a list of what the October 2026 kaizen improved ([quality section](../README.md#what-the-october-2026-kaizen-improved)), are in the [root README](../README.md).
+This folder holds the engine's guidance documents, its source register and the dated records of every audit and improvement cycle. The skills themselves live under [`skills/`](../skills/SKILL.md); the [root README](../README.md) gives a short start, a task-to-skill table, the installation and validation instructions and a list of what the October 2026 kaizen improved ([quality section](../README.md#what-the-october-2026-kaizen-improved)).
 
 ## Current guidance
 
 | Path | What it is |
 |---|---|
 | [`skill-authoring-standard.md`](skill-authoring-standard.md) | The contract every `SKILL.md` must meet, and the release gates. |
+| [`skill-catalogue.md`](skill-catalogue.md) | All 115 skills with a one-line description and a link. The root README summarises it by category. |
+| [`references.md`](references.md) | The book, repository, standards and website citations. The root README summarises them. |
 | [`approval-enforcement.md`](approval-enforcement.md) and [`approval-adapter.json`](approval-adapter.json) | The proposal actions that need explicit approval (credential claims, pricing, final-file release, submission) and the preview they require. |
 | [`control-plane-adoption.md`](control-plane-adoption.md) | How the portfolio coordination package may read this engine. |
 | [`operations/runtime-agnostic-orchestration-2026-09-07.md`](operations/runtime-agnostic-orchestration-2026-09-07.md) | The orchestration contract for multi-phase proposal work under Claude Code and Codex. |
 | [`ai-prompting/domain-prompt-compilation-contract.md`](ai-prompting/domain-prompt-compilation-contract.md) | The contract for generating a ready-to-paste prompt for a proposal task. |
-| [`source-registers/2026-10-currentness.json`](source-registers/2026-10-currentness.json) | Scoped, dated source records for volatile procurement and AI claims. Its review date, 2026-11-30, is enforced by `scripts/validate_skills.py`; see the calendar in the [root README](../README.md#quality-and-improvement). |
+| [`source-registers/2026-10-currentness.json`](source-registers/2026-10-currentness.json) | Scoped, dated source records for volatile procurement and AI claims. Its review date, 2026-11-30, is enforced by `scripts/validate_skills.py`; see [Date-triggered gates](../README.md#date-triggered-gates) in the root README. |
 
 ## Improvement evidence
 
