@@ -196,6 +196,84 @@
       "forbidden_primary": [
         "skills/profiles-sectors/sectors/world-bank"
       ]
+    },
+    {
+      "id": "ppda-odb-ict",
+      "kind": "positive",
+      "prompt": "Respond to a Uganda PPDA open domestic bidding document for an ICT system with a compliance matrix against the bid data sheet",
+      "expected": "skills/profiles-sectors/sectors/ppda-uganda"
+    },
+    {
+      "id": "ppda-submission-not-donor",
+      "kind": "negative",
+      "prompt": "Uganda PPDA bid securing declaration and single envelope submission for supplies under the 2023 Regulations",
+      "expected": "skills/profiles-sectors/sectors/ppda-uganda",
+      "forbidden_primary": [
+        "skills/profiles-sectors/sectors/world-bank",
+        "skills/profiles-sectors/sectors/afdb"
+      ]
+    },
+    {
+      "id": "afdb-consulting",
+      "kind": "positive",
+      "prompt": "Prepare an African Development Bank consulting proposal under the AfDB procurement framework",
+      "expected": "skills/profiles-sectors/sectors/afdb"
+    },
+    {
+      "id": "afdb-qcbs",
+      "kind": "positive",
+      "prompt": "AfDB QCBS consultant selection proposal for a Bank Group funded operation",
+      "expected": "skills/profiles-sectors/sectors/afdb"
+    },
+    {
+      "id": "afdb-african-firm",
+      "kind": "positive",
+      "prompt": "Show African consulting firm participation and joint venture knowledge transfer in an AfDB funded proposal",
+      "expected": "skills/profiles-sectors/sectors/afdb"
+    },
+    {
+      "id": "afdb-not-wb-ppda",
+      "kind": "negative",
+      "prompt": "AfDB Bank Group funded consultant proposal with ISS 2023 safeguards and the Independent Review Mechanism",
+      "expected": "skills/profiles-sectors/sectors/afdb",
+      "forbidden_primary": [
+        "skills/profiles-sectors/sectors/world-bank",
+        "skills/profiles-sectors/sectors/ppda-uganda"
+      ]
+    },
+    {
+      "id": "wb-not-afdb-ppda",
+      "kind": "negative",
+      "prompt": "World Bank IPF consulting RFP with TECH-4 and FIN-3 forms under the Seventh Edition Regulations",
+      "expected": "skills/profiles-sectors/sectors/world-bank",
+      "forbidden_primary": [
+        "skills/profiles-sectors/sectors/afdb",
+        "skills/profiles-sectors/sectors/ppda-uganda"
+      ]
+    },
+    {
+      "id": "page-budget",
+      "kind": "positive",
+      "prompt": "Allocate the technical proposal pages by scoring weight under a tight page limit",
+      "expected": "skills/pipeline/06-methodology"
+    },
+    {
+      "id": "workplan-not-methodology",
+      "kind": "negative",
+      "prompt": "Draft the work plan timeline Gantt milestones and resource schedule, not the methodology",
+      "expected": "skills/pipeline/08-work-plan",
+      "forbidden_primary": [
+        "skills/pipeline/06-methodology"
+      ]
+    },
+    {
+      "id": "understanding-not-methodology",
+      "kind": "negative",
+      "prompt": "Write the understanding of the assignment section restating the ToR objectives and scope, not how the work will be executed",
+      "expected": "skills/pipeline/03-understanding-of-assignment",
+      "forbidden_primary": [
+        "skills/pipeline/06-methodology"
+      ]
     }
   ]
 }

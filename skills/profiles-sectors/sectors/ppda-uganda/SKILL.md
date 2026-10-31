@@ -1,6 +1,6 @@
 ---
 name: ppda-uganda
-description: Use when a Uganda public procurement follows PPDA rules for consultancy, supplies, works, or non-consultancy services; use donor-framework skills when the solicitation explicitly makes donor rules controlling.
+description: Use when a Uganda public procurement follows PPDA rules for consultancy, supplies, works, or non-consultancy services, including open domestic bidding, the bid data sheet, submission method and securities; use donor-framework skills when the solicitation explicitly makes donor rules controlling.
 metadata:
   portable: true
   compatible_with:

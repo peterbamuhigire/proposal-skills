@@ -1,6 +1,6 @@
 ---
 name: world-bank
-description: Use when a consulting-services proposal follows World Bank procurement, TECH/FIN forms, QCBS or related selection methods; use AfDB, UNDP, or PPDA skills when those rules control.
+description: Use when a consulting-services proposal follows World Bank procurement, TECH/FIN forms, QCBS or related selection methods, or a full or simplified technical proposal (FTP or STP); use AfDB, UNDP, or PPDA skills when those rules control.
 metadata:
   portable: true
   compatible_with:
