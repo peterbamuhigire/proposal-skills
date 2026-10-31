@@ -339,19 +339,33 @@ Citations only, as recorded in the repository's skills, references and Kaizen re
 - Eleken: [validating product ideas](https://www.eleken.co/blog-posts/how-to-validate-product-ideas), [mobile app onboarding](https://www.eleken.co/blog-posts/mobile-app-onboarding-best-practices), [AI design workflow](https://www.eleken.co/blog-posts/ai-design-workflow) and [launching a SaaS business](https://www.eleken.co/blog-posts/how-to-launch-a-saas-business) — practitioner cross-checks in the SaaS discovery and pilot skills.
 - OpenAI: [release notes](https://openai.com/products/release-notes/), [API models](https://platform.openai.com/docs/models/gpt-4-turbo-and-gpt-4), [GPT-5.6](https://openai.com/index/gpt-5-6/), [GPT-6 Astra safety overview](https://openai.com/index/safety-overview-gpt-6-astra/), [image generation](https://developers.openai.com/api/docs/guides/image-generation) and [image prompting](https://developers.openai.com/api/docs/guides/image-prompting) — model-currentness and prompt-compilation evidence in the Kaizen and AI-prompting records.
 
-## October Kaizen and local marketplaces
+## Quality and improvement
 
-The [October report](docs/kaizen/2026-10-engine-kaizen/05-final-report.md)
-records the current World Bank form repair and remaining bid-release gaps.
-Use the [scoped source register](docs/source-registers/2026-10-currentness.json)
-with the issued solicitation; the register does not certify legal compliance.
+The engine audits itself under the Portfolio Kaizen Standard: a published score is capped at 65 out of 100, and every plan targets 95 with evidence and a re-audit date. The evidence is committed in the repository:
 
-Both Codex and Claude can install the local `proposal@chwezi-proposal`
-marketplace plugin. In the catalogue-resolved checkout, use
-`codex plugin marketplace add .` then `codex plugin add proposal@chwezi-proposal`;
-Claude uses `claude plugin marketplace add .` then
-`claude plugin install proposal@chwezi-proposal`. Native offline installation
-was tested; public directory approval and model behaviour remain unassessed.
-The registered skill validator enforces a hard **5,000 files per engine** for
-both full checkout (including Git/caches) and package inventory. Keep build
-dependencies and disposable artefacts outside the checkout.
+- [`docs/kaizen/2026-10-engine-kaizen/`](docs/kaizen/2026-10-engine-kaizen/05-final-report.md), the 29 October 2026 cycle: World Bank form crosswalk, hard package ceiling, routing measures, scoped source register.
+- [`docs/kaizen/2026-10-engine-kaizen-pass-2/`](docs/kaizen/2026-10-engine-kaizen-pass-2/05-final-report.md), the 31 October 2026 cycle, with the open backlog in [`06-next-cycle.md`](docs/kaizen/2026-10-engine-kaizen-pass-2/06-next-cycle.md) and the documentation follow-ups in [`07-docs-followups.md`](docs/kaizen/2026-10-engine-kaizen-pass-2/07-docs-followups.md).
+- Earlier cycles and reviews are indexed in [`docs/README.md`](docs/README.md).
+
+**Latest score.** The pass 2 report records a raw score of 61.4 and a published score of `min(61.4, 65)` = 61.4 for 31 October 2026. The baseline measured before its changes was raw 54.5, and the 29 October final was raw 58.5. The target of 95 is not met. Scores are reviewer judgements, not bid-win probabilities, and a missing mandatory live-bid requirement blocks release whatever the score.
+
+**Open findings that matter to a user.**
+
+- No real solicitation, bidder evidence pack, evaluator or submission receipt has been used. The tools prove their mechanics on fictional data only.
+- PPDA: the scope of the e-GP mandate, the monetary thresholds and the bid and performance security amounts are `NOT_ASSESSED`; the PPDA reference labels its UGX figures as unverified.
+- AfDB, UNDP, PRAG and Uganda data-protection claims are unverified. The skills label the AfDB figures and the 0 to 4 scoring scale as such.
+- Routing is measured with a lexical proxy over skill descriptions. The 41 fixtures name 27 of the 115 skills, and no model-judged run has been made.
+- The World Bank form map follows the March 2025 Standard RFP; the issued RFP controls where it differs.
+- Accessibility is unchanged at 40 out of 100: no assistive-technology run has been made.
+
+**Calendar of date-triggered gates.** One gate in this engine depends on the calendar. No other check compares anything with today's date, and no unit test depends on it.
+
+| Date | Gate | Effect | How it was verified |
+|---|---|---|---|
+| 2026-11-30 | Source register [`docs/source-registers/2026-10-currentness.json`](docs/source-registers/2026-10-currentness.json): 14 records (10 `SCOPED`, 4 `NOT_ASSESSED`), all volatile, all with review date 2026-11-30 | The gate passes through 2026-11-30. From 2026-12-01 `scripts/validate_skills.py` and `scripts/check_source_currency.py` exit 1 with `review expired` for all 14 records, and the CI validation step fails with them | The scripts have no `--as-of` option, because they read `date.today()`. The gate was run with that call replaced: 0 errors on 2026-11-29 and 2026-11-30, 14 on 2026-12-01 and 2027-01-01; `validate_skills.py` run the same way exits 0 on 2026-11-30 and 1 on 2026-12-01 |
+
+To renew the gate, re-read each `SCOPED` source, then update its `access_date`, `verified_date` and `review_date`. A volatile record may be reviewed at most 45 days after it was verified. A claim that cannot be re-read stays `NOT_ASSESSED`: it carries no verified date, but its `review_date` must still move forward, because the gate checks all 14 records. The re-audit is due on 30 November 2026, or before a live bid if that is sooner.
+
+### Local marketplaces
+
+Both Codex and Claude can install the local `proposal@chwezi-proposal` marketplace plugin. In the catalogue-resolved checkout, use `codex plugin marketplace add .` then `codex plugin add proposal@chwezi-proposal`; Claude uses `claude plugin marketplace add .` then `claude plugin install proposal@chwezi-proposal`. Native offline installation was tested in a disposable container on 29 October 2026 and was not repeated on 31 October; public directory approval and model behaviour remain unassessed. `scripts/validate_skills.py` enforces a hard limit of 5,000 files per engine for both the full checkout (including Git and caches) and the package inventory; on 31 October 2026 they held 838 and 528. Keep build dependencies and disposable artefacts outside the checkout.
