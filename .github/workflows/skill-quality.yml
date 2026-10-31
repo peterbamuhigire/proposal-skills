@@ -16,3 +16,7 @@ jobs:
       - run: python -m pip install PyYAML
       - run: python -X utf8 scripts/validate_skills.py --baseline quality-baseline.json
       - run: python -X utf8 scripts/routing_smoke_test.py
+      - run: python -X utf8 scripts/encoding_link_gate.py
+      - run: python -X utf8 scripts/source_ingestion_guardrail.py
+      - run: python scripts/proposal_fixture_check.py
+      - run: python -X utf8 -m unittest discover -s tests

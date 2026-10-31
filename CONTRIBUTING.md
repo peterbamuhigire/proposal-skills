@@ -17,13 +17,13 @@ Treat every active `SKILL.md` as executable instruction, not background prose. P
 python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
 python -X utf8 scripts\routing_smoke_test.py
 python -X utf8 scripts\encoding_link_gate.py
-python -X utf8 C:\Users\Peter\.claude\skills\skills\sdlc-meta\skill-engine-audit\scripts\engine_compliance.py --root . --active-root skills --details
+python -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-engine-audit/scripts/engine_compliance.py --root . --active-root skills --details
 ```
 
 Run the canonical quick validator with each changed skill directory, not its file:
 
 ```powershell
-python -X utf8 C:\Users\Peter\.claude\skills\skills\sdlc-meta\skill-writing\scripts\quick_validate.py skills\path\to\skill
+python -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-writing/scripts/quick_validate.py skills/path/to/skill
 ```
 
 Finish with repository-specific tests, link and syntax checks, `git diff --check`, the skill-safety audit, and the anti-slop audit. The baseline must remain empty; update its skill or fixture counts only when the catalogue or fixture set changes intentionally.

@@ -17,6 +17,29 @@ STALE_DEVICE_ROUTE = re.compile(
     r"C:\\Users\\[^\s|)]+\\source\\repos\\(?:social-media-skills|business-plan-skills)",
     re.IGNORECASE,
 )
+# A Windows drive path (a drive letter, colon, then a slash or backslash; never a URL scheme such as https://) or a POSIX
+# home path. These bind engine content to one machine.
+MACHINE_PATH = re.compile(
+    r"(?<![A-Za-z0-9])[A-Za-z]:(?:\\|/(?!/))[\w.$-]"
+    r"|(?<![\w.-])/(?:home|Users)/[A-Za-z][\w.-]*/"
+    r"|/abs/path/"
+)
+# Dated records keep the paths of the machine that produced them. They are history,
+# not shipped guidance, so the machine-path rule skips them. Scripts and tests hold
+# the detection patterns themselves.
+RECORD_PREFIXES = (
+    "docs/audits/",
+    "docs/continuous-improvement/",
+    "docs/engine-upgrade-july-2026/",
+    "docs/evaluation/",
+    "docs/kaizen/",
+    "docs/march-12-evaluation/",
+    "docs/march-16-review/",
+    "docs/updates/",
+    "docs/dual-compatibility-report.md",
+    "scripts/",
+    "tests/",
+)
 PORTABLE_ROUTES = {
     "social-media-skills": "https://github.com/peterbamuhigire/social-media-skills",
     "business-plan-skills": "https://github.com/peterbamuhigire/business-plan-skills",
@@ -74,6 +97,11 @@ def check(root: Path) -> list[str]:
                 findings.append(f"stale device-specific sibling route: {relative}")
 
     for path, text in decoded.items():
+        relative = path.relative_to(root).as_posix()
+        if not relative.startswith(RECORD_PREFIXES):
+            for number, line in enumerate(text.splitlines(), start=1):
+                if MACHINE_PATH.search(line) and not STALE_DEVICE_ROUTE.search(line):
+                    findings.append(f"machine-specific path: {relative}:{number}")
         if path.suffix.lower() not in MARKDOWN_SUFFIXES:
             continue
         for target in re.findall(r"\[[^\]]+\]\(([^)]+)\)", text):
