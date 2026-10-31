@@ -103,7 +103,7 @@ Every Procuring and Disposing Entity comprises five independent bodies:
 | **Restricted international bidding** | Direct invitation including foreign providers | Foreign expertise needed; value does not justify open bidding |
 | **Quotation method** | Simplified method comparing price quotations | Low value; works and supplies only |
 | **Direct procurement** | Sole source | Exceptional circumstances preventing competition |
-| **Micro procurement** | Very low value | Supplies/consultancy/non-consultancy below UGX 5M; works below UGX 10M |
+| **Micro procurement** | Very low value | Below the threshold in PPDA guidelines (Rules and Methods Regulations 2023, reg 23(1)). The figures this table formerly gave (UGX 5M, and 10M for works) were not verified on 31 October 2026; take the current limit from the guidelines or the bidding document |
 | **Electronic reverse auction** | Competitive electronic bidding within specified time period | Lowest price within time period wins |
 | **Competitive dialogue / negotiation** | For complex, specialised, strategic requirements | Cannot define technical specs upfront; requires AG and Minister approval |
 
