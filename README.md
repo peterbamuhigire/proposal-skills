@@ -6,7 +6,7 @@ The engine produces submission-ready proposal sections and full bid packages, EO
 
 ## Installation
 
-**Prerequisites.** Claude Code for the plugin route. The clone installer needs Node.js 18 or newer. The validators and tests need Python 3.11 or newer and PyYAML (`python -m pip install PyYAML`).
+**Prerequisites.** Claude Code for the plugin route. The clone installer needs Node.js 18 or newer. The validators and tests need Python 3.11 or newer and PyYAML (`python3 -m pip install PyYAML`); there is no requirements file, and `pytest` is optional because the suite runs under `unittest`. The installer and every check were last run together on 31 October 2026 with Python 3.14, PyYAML 6.0 and Node.js 22 on Linux; the Windows route (`install.ps1`) was not run there.
 
 **Claude Code plugin (recommended).** The repository ships a marketplace (`chwezi-proposal`) and a plugin (`proposal`) in `.claude-plugin/`:
 
@@ -15,23 +15,28 @@ The engine produces submission-ready proposal sections and full bid packages, EO
 /plugin install proposal@chwezi-proposal
 ```
 
-**Clone and install.** `install.sh` and `install.ps1` delegate to `scripts/install-engine.js`, which copies the skills into `~/.claude` (`--scope user`, the default) or into `.claude` under the current directory (`--scope project`) and records ownership in `.chwezi/install-state.json`. Add `--dry-run` to preview the plan.
+**Clone and install.** `install.sh` and `install.ps1` delegate to `scripts/install-engine.js`, which copies the skills, rules and hooks into `~/.claude` (`--scope user`, the default) or into `.claude` under the current directory (`--scope project`) and records ownership in `.chwezi/install-state.json`. Add `--dry-run` to preview the plan. Run `install.sh` through `bash`: git stores it without the executable bit, so `./install.sh` stops with `Permission denied` on a fresh clone. Project scope writes to the directory you run it from, so run it inside the project that should receive the skills, not inside this checkout.
 
 ```text
 git clone https://github.com/peterbamuhigire/proposal-skills
 cd proposal-skills
-./install.sh --scope project        # macOS, Linux, Git Bash
-.\install.ps1 --scope project       # Windows PowerShell
+bash install.sh --scope project --dry-run    # Linux, macOS, Git Bash: preview
+bash install.sh --scope project              # install
 node scripts/install-engine.js doctor --scope project
 node scripts/install-engine.js uninstall --engine proposal-skills --scope project
+.\install.ps1 --scope project                # Windows PowerShell instead of install.sh
 ```
+
+The Linux sequence above (preview, install, `doctor`, uninstall) was run on 31 October 2026 into a throwaway project directory: `doctor` reported every installed file present and unmodified, and the install held all 115 `SKILL.md` files.
 
 **Codex.** Codex reads `AGENTS.md` as the repository policy. Before substantive Codex work, run the model-policy check in `.codex/` (Python 3.11+), and apply it only when drift is reported:
 
 ```text
-python <engine-root>/.codex/ensure_model_policy.py --runtime codex --check
-python <engine-root>/.codex/ensure_model_policy.py --runtime codex --apply
+python3 <engine-root>/.codex/ensure_model_policy.py --runtime codex --check
+python3 <engine-root>/.codex/ensure_model_policy.py --runtime codex --apply
 ```
+
+`--check` prints `PASS: Codex model policy is correct` and exits 0 when the settings match, prints a `DRIFT:` line and exits 1 when they do not (an empty Codex home gives `DRIFT: Codex config.toml is missing`), and exits 2 on an error. `--apply` uses `CODEX_HOME` (default `~/.codex`), preserves unrelated settings and backs up what it touches (see [`.codex/README.md`](.codex/README.md)); it was not run for this update. With `--runtime claude` the helper reports `NOT_APPLICABLE` and changes nothing.
 
 **Manual route (any runner).** Clone the repository, read [`AGENTS.md`](AGENTS.md) and the [proposal router](skills/SKILL.md), then load the routed `skills/<category>/<skill-name>/SKILL.md` directly with `rules/common/core.md`. Claude Code picks up `CLAUDE.md`, which imports `AGENTS.md`.
 
@@ -177,8 +182,36 @@ python <engine-root>/.codex/ensure_model_policy.py --runtime codex --apply
 
 - **Router and policy.** The [proposal router](skills/SKILL.md) sets workflow order and cross-cutting routes; [`AGENTS.md`](AGENTS.md) holds the model-neutral policy and [`rules/common/core.md`](rules/common/core.md) the always-on baseline.
 - **Multi-phase work.** The [runtime-agnostic orchestration contract](docs/operations/runtime-agnostic-orchestration-2026-09-07.md) (`runtime-agnostic-orchestration-2026-09-07.md`) governs scoped work packages, evidence and pricing checkpoints, context hygiene, least agency and sanitised handling of external content for Claude Code and Codex alike.
-- **Sister engines.** [Business Plan Skills](https://github.com/peterbamuhigire/business-plan-skills) supplies feasibility, projections and investor readiness; [Social Media Skills](https://github.com/peterbamuhigire/social-media-skills) supplies campaigns, content calendars and marketing reporting. Current facts route to the Digital Research Engine, finance to the Chwezi Accounting Doctrine, visual formatting to Design System Skills and software specification to SRS Skills; the full list is in [`AGENTS.md`](AGENTS.md).
-- **Validation.** `python -X utf8 scripts/validate_skills.py --baseline quality-baseline.json`, `scripts/routing_smoke_test.py`, `scripts/encoding_link_gate.py`, `scripts/source_ingestion_guardrail.py`, `scripts/proposal_fixture_check.py` and `python -X utf8 -m unittest discover -s tests`. Two helpers are run on demand: `scripts/proposal_fixture_check.py --input <package>/validator-input.json --check-content` scans a package's technical and financial envelope files for the other envelope's markers, and `scripts/page_budget_check.py` proposes or checks a weighted page allocation.
+- **Sister engines.** [Business Plan Skills](https://github.com/peterbamuhigire/business-plan-skills) supplies feasibility, projections and investor readiness; [Social Media Skills](https://github.com/peterbamuhigire/social-media-skills) supplies campaigns, content calendars and marketing reporting. Current facts route to the Digital Research Engine (catalogue id `digital-research-skills`), finance to [`chwezi-accounting-doctrine`](https://github.com/peterbamuhigire/chwezi-accounting-doctrine), visual formatting to [`chwezi-design-engine`](https://github.com/peterbamuhigire/chwezi-design-engine), software specification to [`chwezi-sdlc-documentation`](https://github.com/peterbamuhigire/chwezi-sdlc-documentation), engineering to [`chwezi-dev-engine`](https://github.com/peterbamuhigire/chwezi-dev-engine) and website delivery to [Website Skills](https://github.com/peterbamuhigire/website-skills). Website Skills keeps no copy of this engine; it resolves it through the catalogue like every other sibling. Four checkouts may still sit under their earlier folder names (`design-system-skills`, `srs-skills`, `skills-web-dev` and `chwezi-research-engine`); the portfolio catalogue in `chwezi-engine-agents` lists each as an alias. The full routing list is in [`AGENTS.md`](AGENTS.md).
+- **Validation.** Seven registered checks and the on-demand helpers are listed, with their dependencies and expected results, under [Validation](#validation).
+
+## Validation
+
+Run every command from the repository root. The checks use `python3` (use `python` where only that name exists), need PyYAML, and leave tracked files unchanged (Python writes only ignored `__pycache__` folders).
+
+| Command | What it checks | Expected result |
+|---|---|---|
+| `python3 -X utf8 scripts/validate_skills.py --baseline quality-baseline.json` | The skill contract for every `SKILL.md`, marketplace parity, the 5,000-file ceiling, the dated source register and retired World Bank form labels | Exit 0, `findings: 0` |
+| `python3 -X utf8 scripts/routing_smoke_test.py` | The routing fixtures in `tests/fixtures/routing-fixtures.json` against skill descriptions | Exit 0, top-three hit rate 100%; precision@1 and owned negatives are reported and are a lexical proxy, not a model run |
+| `python3 -X utf8 scripts/encoding_link_gate.py` | UTF-8, mojibake markers, broken local Markdown links, machine-specific paths outside dated records, portable sibling routes | Exit 0, `findings: 0` |
+| `python3 -X utf8 scripts/source_ingestion_guardrail.py` | The ban on book extractions and reconstructive book content | Exit 0, `findings: 0` |
+| `python3 scripts/proposal_fixture_check.py` | The structure of the fictional bid package in `tests/fixtures/` | `result: PASS` |
+| `python3 -X utf8 -m unittest discover -s tests` | The test suite: 117 tests, also collected and passed by `pytest` | `OK` |
+| `git diff --check` | Whitespace errors in the working tree | Exit 0, no output |
+
+All seven were run on 31 October 2026 and exited 0. None of them needs `pwsh`, Pandoc, Mermaid, a browser, LibreOffice or a container. PyYAML is the only third-party Python package the checks import. `pytest` is optional: a real `pytest` run collected the same 117 tests and passed them.
+
+Helpers and checks outside that list:
+
+- `python3 scripts/proposal_fixture_check.py --input <package>/validator-input.json --check-content` scans a package's technical and financial envelope files, including `.docx`, for the other envelope's markers; the sanitised example in `examples/uganda-eoi-sanitised/` passes. Add `--allow-unscanned-types` to accept a file type the scan cannot read, such as PDF.
+- `python3 -X utf8 scripts/page_budget_check.py <spec.json>` proposes or checks a weighted page allocation (`--propose` for a proportional split); `tests/fixtures/page-budget-example.json` is a worked input.
+- `python3 -X utf8 scripts/check_form_labels.py`, `scripts/check_marketplace.py` and `scripts/check_source_currency.py` are the three gates that `validate_skills.py` calls; each also runs alone.
+- `python3 -X utf8 scripts/validate_p0_commercial_fixture.py tests/fixtures/p0-commercial-fixture.json` and `python3 -X utf8 scripts/validate_healthcare_evidence_packs.py tests/fixtures/healthcare-evidence-packs.json` take a fixture path and print `PASS`; called without one they fail.
+- `node hooks/test-destructive-bash-gate.js` (61 checks) and `node hooks/test-plugin-hook-config.js` (7 checks) test the plugin hooks. They need Node.js only and are not in CI.
+- `python3 tests/agent-integration/test_proposal_agent_contract.py` checks the engine manifest against the portfolio catalogue and needs PyYAML. It is not part of `unittest` discovery or CI, and it looks for `chwezi-engine-agents` next to this checkout; where that folder is absent it prints `NOT ASSESSED` instead of failing.
+- The canonical engine audit and quick validator in `chwezi-dev-engine` are listed in [`CONTRIBUTING.md`](CONTRIBUTING.md); both ran on Linux and passed for this engine.
+
+The workflow `.github/workflows/skill-quality.yml` runs the first six commands above on `ubuntu-latest` with Python 3.12; it was not run here. `git diff --check` is the release gate declared in `.skills-engine/engine-manifest.yaml`, which lists no other check.
 
 ## References
 
