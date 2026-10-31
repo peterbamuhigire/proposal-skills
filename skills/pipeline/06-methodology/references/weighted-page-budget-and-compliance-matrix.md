@@ -113,6 +113,7 @@ matrix marks as a knockout test.
   evaluation, a footnote, or a link.
 - Rendered page, word or file counts are measured and recorded against each cap.
 - The envelope and channel rows agree with the submission pack, and no price appears
-  where the pack must stay technical.
+  where the pack must stay technical. For a two-envelope pack described by a
+  `validator-input.json`, run `python -X utf8 scripts/proposal_fixture_check.py --input <package>/validator-input.json --check-content`; it scans text and `.docx` files and treats other file types as `NOT_ASSESSED`.
 - Anything the solicitation leaves open is a clarification question, logged with its
   date, not an assumption.
