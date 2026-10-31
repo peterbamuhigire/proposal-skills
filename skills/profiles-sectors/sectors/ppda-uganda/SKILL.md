@@ -95,6 +95,7 @@ A solicitation requires **ppda evaluation route**, but one controlling input is 
 ## References
 
 - [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+- [Weighted page budget and compliance matrix](../../../pipeline/06-methodology/references/weighted-page-budget-and-compliance-matrix.md) — use when the solicitation caps pages or weights its criteria, and to build the Bid Data Sheet or Data Sheet compliance matrix.
 <!-- dual-compat-end -->
 - Local `references/` files for the PPDA Act, forms, procedures, and evaluation mechanics.
 - [../SKILL.md](../SKILL.md) to combine framework and sector context.

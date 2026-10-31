@@ -94,6 +94,7 @@ A solicitation requires **world bank selection method**, but one controlling inp
 ## References
 
 - [Proposal skill router](../../../SKILL.md) — orchestration, profile, reasoning, and release gates.
+- [Weighted page budget and compliance matrix](../../../pipeline/06-methodology/references/weighted-page-budget-and-compliance-matrix.md) — use when the solicitation caps pages or weights its criteria, and to build the Bid Data Sheet or Data Sheet compliance matrix.
 <!-- dual-compat-end -->
 - [references/evaluation-scoring-guide.md](references/evaluation-scoring-guide.md) for scoring behavior.
 - [references/tech-fin-forms-guide.md](references/tech-fin-forms-guide.md) for form-level guidance.

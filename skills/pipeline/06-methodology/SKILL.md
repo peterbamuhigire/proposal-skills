@@ -108,6 +108,7 @@ Before release, run a compliance screen against every ToR/RFP instruction, eligi
 - [../proposal-storytelling-and-evaluator-journey/SKILL.md](../../strategy-positioning/proposal-storytelling-and-evaluator-journey/SKILL.md) when phase logic needs a stronger narrative, storyboard, or design-rationale explanation.
 - [../references/technical-strategy-credibility-checklist.md](../../profiles-sectors/references/technical-strategy-credibility-checklist.md) when the methodology includes SaaS, AI, software, cloud, APIs, integrations, architecture, or operations.
 - [references/technical-approach-figures.md](references/technical-approach-figures.md) when an ICT or systems-integration technical approach needs a solution-context and a delivery-workflow figure.
+- [references/weighted-page-budget-and-compliance-matrix.md](references/weighted-page-budget-and-compliance-matrix.md) when the solicitation caps pages, words or files, weights its criteria, or states its rules in a Bid Data Sheet or Data Sheet.
 - Root and local `references/` files for persuasion, delivery excellence, and analytical frameworks.
 
 This is the technical heart of the proposal. It is where the firm explains how it will actually do the work — not just what it will deliver. A strong methodology is specific to this assignment, not a recycled generic framework.
@@ -339,7 +340,7 @@ Read the relevant reference file when a methodology requires detailed frameworks
 
 ## Tone Rules
 
-- Five to ten pages — this section should be the longest in the technical proposal
+- Five to ten pages when the brief sets no cap. When the solicitation caps pages or weights its criteria, size this section from the weighted page budget (see `references/weighted-page-budget-and-compliance-matrix.md`); it is the longest section only when its criterion carries the most points
 - Specific to this assignment — evaluators notice when methodology is generic
 - Reference ToR deliverables by name in the phase descriptions
 - Every phase must have at least one named deliverable

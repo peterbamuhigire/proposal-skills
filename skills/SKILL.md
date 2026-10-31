@@ -65,6 +65,7 @@ Fallback: when files, network sources, rendering, spreadsheet tooling, or eviden
 | Full bid or several interdependent sections | Use this parent router, profile, sector, reasoning, and quality gates | Cross-section contradiction |
 | One known proposal section only | Route to the matching numbered pipeline skill | Loading the whole catalogue unnecessarily |
 | Technical and financial envelopes are separate | Produce and validate them independently | Procurement disqualification |
+| The solicitation caps pages, words or files, weights its criteria, or has a Bid Data Sheet or Data Sheet | Build the compliance matrix and weighted page budget first (`skills/pipeline/06-methodology/references/weighted-page-budget-and-compliance-matrix.md`); the solicitation's caps and weights override the default section lengths in the section skills | A starved high-weight criterion, a missed floor or a non-compliant length |
 | Software, finance, website, SaaS, or agentic scope appears | Add the named domain engine or specialist skill | Unsupported technical or commercial claims |
 | An assistant can take actions but only one at a time with a human confirming ("copilot with actions") | Load the agent families at lighter weight: autonomy L1–L2, small action catalogue, human approval on every action (see `ai-agent-methodology` composition table) | Over- or under-engineering agent controls |
 
