@@ -522,8 +522,8 @@ Must state:
 
 ## Performance Securing Declaration
 
-**Applies to:** All contract types post-award
-**Purpose:** Replaces traditional performance bank guarantee with a declaration
+**Applies to:** Contracts whose bidding documents choose a declaration instead of a performance security (Contracts Regulations 2023, reg 11(1)); the bidding documents state which is required
+**Purpose:** An alternative to a performance bank guarantee or insurance bond, not a replacement for it in every contract
 
 ### Key Provisions
 
