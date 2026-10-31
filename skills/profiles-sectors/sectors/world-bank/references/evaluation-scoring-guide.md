@@ -2,7 +2,9 @@
 
 Parent skill: [World Bank Procurement Framework — Consulting Services](../SKILL.md).
 
-How World Bank evaluators actually score consulting proposals. Use this to write every section with scoring awareness — know what earns a 2 (meets) vs. a 4 (significantly exceeds).
+How World Bank evaluators score consulting proposals. Use this to write every section with scoring awareness — know what separates a competent response from an excellent one.
+
+**Source and limits.** Checked on 31 October 2026 against the March 2025 revision of the Bank's non-supervision consulting RFP (Data Sheet criteria, point ranges and combined-score formula) and the Procurement Regulations for IPF Borrowers, Seventh Edition, September 2025 (Annex X). The Data Sheet of the issued RFP fixes the criteria, points, sub-criterion weights, minimum technical score and formula; every figure below is an example or an indicative range, never a rule for your RFP. The 0-4 scale in the next section comes from the Bank's evaluation guidance for rated criteria, which could not be reached on that date; whether a given consulting RFP uses that scale, or only the point system in its Data Sheet, is not verified.
 
 ---
 
@@ -29,69 +31,41 @@ How World Bank evaluators actually score consulting proposals. Use this to write
 
 ---
 
-## Comparative Scoring Methodology
+## Combined Score Methodology
 
-Evaluators do not score firms in isolation — scores are comparative.
-
-### Technical Score Calculation
-
-1. Each evaluator scores independently on the 0–4 scale
-2. Panel moderation produces a consensus score per criterion
-3. Score × weight = weighted score per criterion
-4. Sum of weighted scores = total technical score
-
-### Converting to Comparative Technical Score
-
-The highest-scoring firm sets the ceiling at 100:
+The financial score is comparative; the technical score is the points awarded. The Standard RFP's Data Sheet formula is:
 
 ```
-Comparative Technical Score = (Firm's Total Score / Highest Total Score) × 100
-Final Weighted Technical Score = Comparative Score × Technical Weighting %
+Sf = 100 × Fm / F          (Fm = lowest price among opened financial proposals, F = this price)
+S  = St × T% + Sf × P%     (St = technical score out of 100; T + P = 100%)
 ```
 
-**Example (Technical weight 80%):**
+The Data Sheet inserts the weights T and P. If it specifies a different treatment, follow the Data Sheet.
 
-| Firm | Raw Score | Comparative | Weighted (80%) |
-|---|---|---|---|
-| A (highest) | 280 | 100.0 | 80.00 |
-| B | 240 | 85.7 | 68.57 |
-| C | 210 | 75.0 | 60.00 |
-| D | 190 | 67.9 | 54.29 |
+### Technical score (St)
 
-### Financial Score Calculation
+1. Evaluators score each criterion and sub-criterion against the point system in the Data Sheet.
+2. The technical score is the sum of points awarded, out of 100.
+3. Proposals below the minimum technical score are eliminated; their financial proposals are not opened.
 
-The lowest-priced qualifying firm sets the ceiling at 100:
+### Financial score (Sf) and combined score
 
-```
-Comparative Financial Score = (Lowest Price / Firm's Price) × 100
-Final Weighted Financial Score = Comparative Score × Financial Weighting %
-```
+**Worked example (illustrative figures: minimum technical score 70, weights 80/20).**
 
-**Example (Financial weight 20%):**
+| Firm | St | Price ($) | Sf | St × 80% | Sf × 20% | S | Rank |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| A | 90 | 480,000 | 79.17 | 72.00 | 15.83 | **87.83** | **#1** |
+| B | 80 | 420,000 | 90.48 | 64.00 | 18.10 | 82.10 | #2 |
+| C | 75 | 380,000 | 100.00 | 60.00 | 20.00 | 80.00 | #3 |
+| D | 68 | not opened | n/a | n/a | n/a | n/a | eliminated |
 
-| Firm | Price ($) | Comparative | Weighted (20%) |
-|---|---|---|---|
-| C (lowest) | 380,000 | 100.0 | 20.00 |
-| B | 420,000 | 90.5 | 18.10 |
-| D | 450,000 | 84.4 | 16.89 |
-| A | 480,000 | 79.2 | 15.83 |
-
-### Combined Score
-
-| Firm | Tech (80%) | Financial (20%) | Combined | Rank |
-|---|---|---|---|---|
-| **A** | 80.00 | 15.83 | **95.83** | **#1** |
-| B | 68.57 | 18.10 | 86.67 | #2 |
-| C | 60.00 | 20.00 | 80.00 | #3 |
-| D | 54.29 | 16.89 | 71.18 | #4 |
-
-**Firm A wins despite having the highest price** because its technical superiority (80.00 vs. 60.00) more than compensates for its financial disadvantage (15.83 vs. 20.00). The 20-point technical gap dwarfs the 4-point financial gap.
+Firm A wins despite the highest price: its 15-point technical lead over C is worth 12.00 combined points, against 4.17 lost on price. Firm D scored below the minimum, so its price never entered the comparison. Change the weights and the answer can change; recompute from your RFP's numbers.
 
 ---
 
 ## Scoring Strategy by Criterion
 
-### Firm Experience (TECH-2B) — Typically 10–20 Points
+### Firm Experience (TECH-2) — Indicative 0–10 Points
 
 **Score 1–2:** Lists many projects but they are only tangentially related to the ToR. Generic descriptions.
 
@@ -113,7 +87,7 @@ Final Weighted Financial Score = Comparative Score × Financial Weighting %
 - Comments on counterpart staff requirements are specific and realistic
 - Each comment structured as: ToR Reference → Observation → Recommendation
 
-### Methodology (TECH-4) — Typically 30–50 Points (The Decisive Section)
+### Methodology (TECH-4) — Indicative 20–50 Points (Often the Decisive Section)
 
 **Score 1–2:** Generic description of phases. Could apply to any assignment. "We will review documents, conduct interviews, analyse data, and prepare a report."
 
@@ -127,7 +101,7 @@ Final Weighted Financial Score = Comparative Score × Financial Weighting %
 - **Logical flow** — each phase's outputs feed clearly into the next phase's inputs
 - **Deliverables are specific** — named, formatted, with review/approval points
 
-### Key Personnel (TECH-6) — Typically 30–60 Points
+### Key Personnel (TECH-6) — Indicative 30–60 Points
 
 **Score 1–2:** CVs that show general sector experience but no direct match to the specific ToR tasks the person is assigned to. Junior staff on complex tasks.
 
@@ -155,15 +129,15 @@ Final Weighted Financial Score = Comparative Score × Financial Weighting %
 
 ## Minimum Quality Thresholds
 
-Three types of threshold may apply:
+The Regulations (Annex X, para 4.5) and the Standard RFP name one threshold for consulting proposals, the overall minimum technical score. The Data Sheet inserts it, and the Standard RFP gives an indicative range of 70 to 85 on a scale of 100. Two further types appear in some solicitations and must be read from the Data Sheet, because the consulting annex does not list them as standard:
 
 | Threshold Type | What It Means | Risk |
 |---|---|---|
-| **Total score threshold** (e.g., 75/100) | Score below this = eliminated entirely | The survival line — must pass |
-| **Selected criteria threshold** | Combined score on chosen criteria must exceed a floor | Weak performance on key criteria = eliminated even if overall score is acceptable |
-| **Individual criterion threshold** | A single criterion must score above a floor | Ignoring any criterion, even low-weighted, risks elimination |
+| **Total score threshold** (Data Sheet; indicative 70-85) | Score below this = eliminated entirely | The survival line — must pass |
+| **Selected criteria threshold** (only if the Data Sheet states it) | Combined score on chosen criteria must exceed a floor | Weak performance on key criteria could eliminate a proposal whose total looks safe |
+| **Individual criterion threshold** (only if the Data Sheet states it) | A single criterion must score above a floor | Ignoring a low-weighted criterion could eliminate a proposal |
 
-**Rule:** Never leave any criterion unaddressed. Even a 5-point criterion can have a sub-threshold that eliminates you.
+**Rule:** Never leave any criterion unaddressed. A criterion you ignore costs its points, and if the Data Sheet sets a floor on it, it can cost the bid.
 
 ---
 

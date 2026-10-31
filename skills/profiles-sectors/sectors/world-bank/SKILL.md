@@ -122,7 +122,7 @@ This skill provides the procurement rules, evaluation methodology, and scoring i
 | **CQS** | Small assignments below monetary threshold | Qualifications evaluated; most qualified firm invited to negotiate. | Strong EoI and firm credentials are decisive. |
 | **SSS** | Non-competitive; requires Bank justification | One firm approached directly. | Justification document is the critical output, not a competitive proposal. |
 
-**Under QCBS (the most common method):** Technical weighting is typically 70-80%, financial 20-30%. At an 80/20 split, the maximum financial score spread between firms is often only 5-8 points, while the technical spread can be 30-40 points. **Winning on technical quality is almost always more decisive than winning on price.**
+**Under QCBS (the most common method)** the RFP Data Sheet sets the quality and cost weights. The Procurement Regulations for IPF Borrowers (Seventh Edition, September 2025, Annex X, para 4.10 and Table 2) give the normal ranges: 90/10 for highly complex, specialised or high-consequence assignments (which may use QBS instead), 70-80 / 30-20 for moderate complexity, and 60-50 / 40-50 for routine assignments (which may use LCS instead). Other weights need the Bank's prior review. Work out what a price gap is worth from the weights in the RFP in front of you. At 80/20 a firm 20% above the lowest price scores 83.3 on cost and loses 3.3 combined points, which a technical lead of about 4.2 points recovers; at 60/40 the same premium loses 6.7 points and needs a lead of about 11.1.
 
 ---
 
@@ -133,7 +133,7 @@ All competitive consulting procurements use two sealed envelopes:
 1. **Envelope 1: Technical Proposal** — opened first, evaluated and scored
 2. **Envelope 2: Financial Proposal** — remains sealed until technical evaluation is complete; only opened for firms scoring above the minimum technical threshold
 
-Financial envelopes of firms scoring below the minimum technical threshold (typically **75 out of 100**) are returned unopened. This makes 75 the survival line — everything below it is wasted effort.
+Financial envelopes of firms scoring below the minimum technical score are returned unopened after the contract is signed (Regulations, para 5.46(c), for the single-stage two-envelope process). The Data Sheet fixes that score; Annex X para 4.5 says it normally falls between 70% and 85%, depending on the nature and complexity of the assignment. Read the number first: it is the survival line for this RFP.
 
 ---
 
@@ -162,28 +162,31 @@ There is no FIN-5 in the March 2025 checklist. The financial forms are FIN-1 (su
 
 ## Evaluation Criteria and Point Allocations
 
-### Standard Criteria (QCBS)
+### Indicative ranges (QCBS)
 
-| Criterion | Sub-criteria | Typical Points | What Evaluators Look For |
-|---|---|---|---|
-| **Specific Experience of the Firm** | Relevance, complexity, region/country | 10-20 | Highly analogous assignments (same type, sector, complexity). Not just quantity — quality and similarity to THIS ToR. |
-| **Adequacy of Methodology and Work Plan** | Understanding, approach, work plan, innovation, risk | **30-50** | Tailored (not generic), credible, realistic, thorough. Identifies risks and proposes mitigations. Shows mastery of the subject. |
-| **Key Professional Staff** | General qualifications, adequacy for assignment, regional experience | **30-60** | Each person's CV must directly match the tasks they are assigned. Senior staff on complex tasks. Regional/country experience scored separately. |
-| **Transfer of Knowledge** | Training programme, on-the-job training | 0-10 | Specific, structured plan — not vague "capacity building" language. |
-| **Participation by Nationals** | Proportion of national consultants | 0-10 | Named national experts with genuine roles, not token inclusions. |
-| **TOTAL** | | **100** | |
+Annex X, Table 1 of the Regulations (Seventh Edition, September 2025) gives indicative ranges of merit points for the rated criteria. Para 4.3 allows adjustment for justifiable reasons with the Bank's prior review, and para 4.4 leaves the division into sub-criteria to the Borrower.
+
+| Criterion | Indicative range | What Evaluators Look For |
+|---|---|---|
+| **Adequacy of methodology and work plan** | 20-50% | Tailored (not generic), credible, realistic, thorough. Identifies risks and proposes mitigations. Shows mastery of the subject. |
+| **Relevant experience and qualification of key staff** | 30-60% | Each person's CV must directly match the tasks they are assigned. Senior staff on complex tasks. Regional or country experience scored separately where the RFP lists it. |
+| **Relevant experience of the firm** | 0-10% | Highly analogous assignments (same type, sector, complexity). Not just quantity: similarity to THIS ToR. Do not spend pages here beyond what the points justify. |
+| **Transfer of knowledge** | 0-10% | Specific, structured plan, not vague "capacity building" language. |
+| **Nationals among key staff** | 0-10% | Measured as the share of key experts' person-months held by national experts (Annex X, Table 1). Named national experts with genuine roles, not token inclusions. |
+
+Methodology, key staff and firm experience are the three criteria the Regulations require; transfer of knowledge and participation of nationals are included only "depending on the nature and needs of the assignment" (para 4.2). The total is 100.
 
 **The exact point allocations are set per assignment in the RFP Data Sheet.** Always check the Data Sheet before writing — it tells you exactly how many points each criterion carries.
 
 ### Key Personnel Sub-scoring
 
-For each proposed professional position, evaluators typically score:
+The Standard RFP's Data Sheet template splits each key-expert position's points into three sub-criteria, with the Borrower inserting the weights inside these ranges (March 2025 revision, read on 31 October 2026). The Data Sheet of the issued RFP controls. For each proposed professional position:
 
 | Sub-criterion | Typical Weight | What Scores High |
 |---|---|---|
-| **General qualifications** | 20-30% | Advanced degree, relevant certifications, 15+ years experience |
-| **Adequacy for the assignment** | 50-60% | Specific experience directly matching the ToR tasks for this position. Not general sector work — the exact type of work described in the ToR. |
-| **Regional/country experience** | 10-20% | Named projects in the same country or East African region. Language skills if relevant. |
+| **General qualifications** | 10-20% | Education, training and relevant experience. Qualifications and years that meet or exceed the ToR's stated minimum. |
+| **Adequacy for the assignment** | 60-80% | Specific experience directly matching the ToR tasks for this position. Not general sector work — the exact type of work described in the ToR. |
+| **Regional/country experience** | 0-10% (only if the Data Sheet adds it) | Named projects in the same country or region, working-level language skills and knowledge of the local administrative system, if relevant to the task. |
 
 ---
 
@@ -197,7 +200,7 @@ For each proposed professional position, evaluators typically score:
 | **3** | Marginally exceeds | Information shows the requirement will be exceeded |
 | **4** | Significantly exceeds | Substantial evidence of significant value addition beyond requirements |
 
-**Score 2 is the minimum to be competitive. Scores 3 and 4 win contracts.**
+The 0-4 scale above comes from the Bank's evaluation guidance for rated criteria, which could not be reached on 31 October 2026. A consulting RFP awards points under the point system in its Data Sheet, so use the scale as a way to think about quality, not as the scoring rule. The practical point stands: a response that only meets the ToR earns a middling share of the points, and the proposals that win show more than compliance.
 
 To score 3-4, a proposal must:
 - Go beyond restating the ToR — show deeper understanding than the ToR itself demonstrates
@@ -211,17 +214,13 @@ To score 3-4, a proposal must:
 ## Combined Scoring Formula
 
 ### Technical Score
-Each criterion score × criterion weight = weighted score. Sum = total technical score.
-
-Comparative technical score: `(Firm's Score / Highest Score) × 100 × Technical Weight %`
+St is the sum of the points awarded across the Data Sheet's criteria, out of 100.
 
 ### Financial Score
-`(Lowest Price / Firm's Price) × 100 × Financial Weight %`
+`Sf = 100 × (Lowest Price / Firm's Price)`, using the lowest price among the financial proposals opened.
 
 ### Final Score
-`Weighted Technical Score + Weighted Financial Score = Combined Score`
-
-Highest combined score wins.
+`S = St × T% + Sf × P%`. The Data Sheet inserts the weights T and P (T + P = 100%) and fixes the formula for the issued RFP. The highest combined score wins.
 
 **Example (80/20 split):** A firm scoring 240/300 on technical with a price of $4.8M vs. the lowest price of $4.4M:
 - Technical: (240/300) × 100 × 80% = 64.00
@@ -254,7 +253,7 @@ Use the P-I-P structure (see `references/proposal-strategy-and-persuasion.md`) f
 
 ### TECH-6: Key Personnel (Where Most Points Are Won or Lost)
 
-This is typically the highest-weighted criterion. Critical rules:
+This is often the highest-weighted criterion (indicative range 30-60 points; the Data Sheet decides). Critical rules:
 - Each CV must directly match the ToR tasks for that position
 - Evaluators read CVs against the ToR task descriptions — mismatches score 1
 - Senior, experienced staff on the most technically complex tasks
@@ -264,9 +263,9 @@ This is typically the highest-weighted criterion. Critical rules:
 
 ### FIN Forms: Strategic Pricing Under QCBS
 
-- The financial score difference between firms is typically small (5-8 points spread)
-- The technical difference is typically large (30-40 points spread)
-- **Optimal QCBS strategy: price competitively (not cheapest) while maximising technical quality**
+- Financial scores are inversely proportional to price, with the lowest price scoring 100 (Annex X, para 4.8; the RFP states the formula). Price position is therefore a calculation, not a slogan: use the weights in the RFP (see the worked 80/20 and 60/40 figures above).
+- Evaluation prices exclude local indirect taxes and income tax payable on non-resident experts' remuneration, unless the Bank agrees otherwise (Annex X, para 4.6). Price on the basis the RFP states.
+- **Price competitively and defensibly while maximising technical quality**: the technical weight is the larger lever in every normal weighting.
 - Abnormally Low Bids are identified and rejected — price must be defensible
 - Unbalanced or front-loaded pricing is examined and may be rejected
 
@@ -274,15 +273,12 @@ This is typically the highest-weighted criterion. Critical rules:
 
 ## Minimum Technical Score — The Survival Line
 
-The RFP Data Sheet specifies a minimum technical score, typically **75 out of 100**. This is a hard gate:
-- Score 74 = eliminated. Financial envelope returned unopened.
-- Score 75 = survives to financial evaluation.
-- The difference between 74 and 75 is total — not marginal.
+The RFP Data Sheet specifies the minimum technical score; the Standard RFP leaves the number blank for the Borrower to insert. Annex X, para 4.5 of the Regulations says it "shall normally be in the range of 70-85%" depending on the nature and complexity of the assignment. It is a hard gate:
+- A proposal below the number is eliminated and its financial envelope is returned unopened.
+- A proposal at or above it goes to financial evaluation.
+- The difference between one point below and one point above is total, not marginal.
 
-Additionally, minimum quality thresholds may be applied to:
-- The total combined score of all criteria
-- Selected criteria or sub-criteria
-- An individual criterion
+The Regulations name this overall minimum for consulting proposals. Some RFPs may add minimums on selected criteria or on a single criterion; look for them in the Data Sheet, because the consulting annex of the Regulations does not list them as a standard category.
 
 **Never ignore a low-weighted criterion.** Even a criterion worth 5 points can have a sub-threshold that eliminates you if you score 0-1 on it.
 
@@ -292,13 +288,13 @@ Additionally, minimum quality thresholds may be applied to:
 
 1. **General Procurement Notice (GPN)** published
 2. **Request for Expressions of Interest (REoI)** issued
-3. **EoIs received and shortlist compiled** (typically 3-6 firms)
-4. **Request for Proposals (RFP)** issued to shortlisted firms (minimum 30 business days)
+3. **EoIs received and shortlist compiled** (five to eight eligible firms; fewer only with the Bank's agreement; Regulations para 7.17)
+4. **Request for Proposals (RFP)** issued to shortlisted firms (the Data Sheet sets the submission deadline; the 30-Business-Day minimum in Regulations para 5.36 is stated for open international competitive procurement)
 5. **Proposals submitted** (two envelopes)
 6. **Technical envelopes opened** publicly
 7. **Technical evaluation** by Evaluation Committee
 8. **Technical scores communicated** to all shortlisted firms
-9. **Financial envelopes opened** publicly (only for firms above minimum threshold)
+9. **Financial envelopes opened** publicly (only for firms above minimum threshold, and not earlier than 10 Business Days after the technical results are communicated; Regulations para 5.41)
 10. **Financial evaluation and combined scoring**
 11. **Notification of Intention to Award** (10 business day standstill period)
 12. **Negotiations** with first-ranked firm
@@ -328,3 +324,5 @@ Read the relevant reference file for detailed guidance beyond this summary.
 ---
 
 *Based on: World Bank "A Beginner's Guide for Borrowers: Procurement under World Bank Investment Project Financing" (November 2023, 2nd Edition) and "Evaluating Bids and Proposals — Including Use of Rated Criteria" (February 2025, 3rd Edition).*
+
+*Rules and ranges verified on 31 October 2026 against the Bank's Procurement Regulations for IPF Borrowers, Seventh Edition, September 2025 (paras 5.36, 5.41, 5.46, 5.81-5.82, 7.17 and Annex X) and the March 2025 revision of the non-supervision consulting RFP. The two guides above were not re-read on that date. The issued RFP controls.*
