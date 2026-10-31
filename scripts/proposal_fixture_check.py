@@ -5,12 +5,32 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+import zipfile
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 
 FIXTURE = Path(__file__).resolve().parents[1] / "tests" / "fixtures" / "fictional-bid-package.json"
+
+
+# Patterns that must not appear in the files of one envelope. A hit is a prompt for a
+# human to look at that line, not proof of a leak; a package can override either list
+# with an "envelope_markers" object in its JSON.
+DEFAULT_ENVELOPE_MARKERS = {
+    "technical": [
+        r"\bFIN-\d\b",
+        r"\b(?:UGX|USH|USD|EUR|KES|TZS|RWF)\s?\d[\d,.]{2,}",
+        r"\b\d[\d,.]{3,}\s?(?:UGX|USH|USD|EUR|KES|TZS|RWF)\b",
+    ],
+    "financial": [
+        r"^\s*(?:#+\s*)?(?:Form\s+)?TECH-\d",
+    ],
+}
+SCANNABLE_TEXT = {".md", ".txt", ".csv", ".tsv", ".json", ".html", ".htm", ".xml"}
+DOCX_PARTS = re.compile(r"^word/(?:document|header\d*|footer\d*|footnotes|endnotes)\.xml$")
+MAX_SCAN_BYTES = 50 * 1024 * 1024
 
 
 def has_parent_traversal(path: str) -> bool:
@@ -57,6 +77,94 @@ def validate_response_files(package: dict[str, Any], root: Path) -> list[str]:
                 continue
             if not candidate.is_file():
                 errors.append(f"{label} response file does not exist: {normalized}")
+    return errors
+
+
+def read_scannable(path: Path, max_bytes: int = MAX_SCAN_BYTES) -> str | None:
+    """Return the text of a text or .docx file, or None when the type cannot be scanned."""
+    suffix = path.suffix.lower()
+    if suffix in SCANNABLE_TEXT:
+        if path.stat().st_size > max_bytes:
+            raise ValueError("file is larger than the scan limit")
+        return path.read_text(encoding="utf-8")
+    if suffix == ".docx":
+        with zipfile.ZipFile(path) as archive:
+            parts = [info for info in archive.infolist() if DOCX_PARTS.match(info.filename)]
+            if sum(info.file_size for info in parts) > max_bytes:
+                raise ValueError("document parts are larger than the scan limit")
+            chunks = []
+            for info in parts:
+                xml = archive.read(info).decode("utf-8")
+                xml = re.sub(r"</w:p>", "\n", xml)
+                chunks.append(re.sub(r"<[^>]+>", "", xml))
+            return "\n".join(chunks)
+    return None
+
+
+def compile_markers(package: dict[str, Any]) -> tuple[dict[str, list[re.Pattern]], list[str]]:
+    errors: list[str] = []
+    configured = package.get("envelope_markers", {})
+    if not isinstance(configured, dict):
+        return {}, ["envelope_markers must be an object"]
+    compiled: dict[str, list[re.Pattern]] = {}
+    for envelope, defaults in DEFAULT_ENVELOPE_MARKERS.items():
+        patterns = configured.get(envelope, defaults)
+        if not isinstance(patterns, list) or any(not isinstance(item, str) for item in patterns):
+            errors.append(f"envelope_markers.{envelope} must be a list of strings")
+            continue
+        compiled[envelope] = []
+        for item in patterns:
+            try:
+                compiled[envelope].append(re.compile(item, re.IGNORECASE | re.MULTILINE))
+            except re.error as exc:
+                errors.append(f"envelope_markers.{envelope} has an invalid pattern: {exc}")
+    return compiled, errors
+
+
+def validate_envelope_content(
+    package: dict[str, Any],
+    root: Path,
+    allow_unscanned: bool = False,
+    max_bytes: int = MAX_SCAN_BYTES,
+) -> list[str]:
+    """Scan each envelope's files for the other envelope's markers (content, not names)."""
+    markers, errors = compile_markers(package)
+    envelopes = package.get("envelopes")
+    if errors or not isinstance(envelopes, dict):
+        return errors
+    package_root = root.resolve()
+    for envelope, patterns in markers.items():
+        record = envelopes.get(envelope)
+        files = record.get("files") if isinstance(record, dict) else None
+        for relative in files if isinstance(files, list) else []:
+            if not isinstance(relative, str) or has_parent_traversal(relative.replace("\\", "/")):
+                continue
+            candidate = package_root.joinpath(*relative.replace("\\", "/").split("/")).resolve()
+            try:
+                candidate.relative_to(package_root)
+            except ValueError:
+                continue
+            if not candidate.is_file():
+                continue
+            try:
+                text = read_scannable(candidate, max_bytes)
+            except (OSError, ValueError, UnicodeDecodeError, zipfile.BadZipFile) as exc:
+                errors.append(f"{envelope} envelope file {relative} could not be scanned: {exc}")
+                continue
+            if text is None:
+                if not allow_unscanned:
+                    errors.append(
+                        f"{envelope} envelope file {relative} has a type this check cannot read; "
+                        "content is NOT_ASSESSED (use --allow-unscanned-types to accept that)"
+                    )
+                continue
+            for number, line in enumerate(text.splitlines(), start=1):
+                for pattern in patterns:
+                    if pattern.search(line):
+                        errors.append(
+                            f"{envelope} envelope file {relative} line {number} matches marker "
+                            f"{pattern.pattern!r} that belongs to the other envelope"
+                        )
     return errors
 
 
@@ -433,11 +541,25 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="also require response/envelope files to exist relative to the input JSON",
     )
+    parser.add_argument(
+        "--check-content",
+        action="store_true",
+        help="also scan envelope files (text and .docx) for the other envelope's markers; implies --check-files",
+    )
+    parser.add_argument(
+        "--allow-unscanned-types",
+        action="store_true",
+        help="with --check-content, accept envelope files of a type the scan cannot read (for example PDF)",
+    )
     args = parser.parse_args(argv)
     package = json.loads(args.input.read_text(encoding="utf-8"))
     errors = validate_bid_package(package)
-    if args.check_files:
+    if args.check_files or args.check_content:
         errors.extend(validate_response_files(package, args.input.parent))
+    if args.check_content:
+        errors.extend(
+            validate_envelope_content(package, args.input.parent, args.allow_unscanned_types)
+        )
     print(f"proposal-fixture-check: {args.input}")
     print(
         "scope: synthetic structural check only; it does not verify tender authenticity, "
