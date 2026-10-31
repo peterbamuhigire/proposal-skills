@@ -60,7 +60,7 @@ Skipped: nothing from R1 to R8. Not done on purpose: no skill body, script or te
 | `fc5fb19` | Rewrites `README.md`: front door, contents, task table, category summary, repository layout, split sections, shorter sentences, relocation summary sections. |
 | `babecdf` | `docs/README.md`: lists the two new pages, describes the new root README, and repoints the source-register row from `#quality-and-improvement` to `#date-triggered-gates`, where the calendar now lives. |
 | `d3b5b88` | One-line README wording fix: the router's "Do Not Use When" list names skill maintenance, but the engine ships maintenance skills, so the line now says "Do not use the router for" and points to them. |
-| This record's commit | Adds this file. |
+| The record's two commits | Add this file, then paraphrase one quoted script line that the preservation script matched against its own pattern. |
 
 The structure, front-door and plain-English work was written as one rewrite, so it is one commit. Splitting it afterwards would have produced intermediate READMEs that were never measured.
 
