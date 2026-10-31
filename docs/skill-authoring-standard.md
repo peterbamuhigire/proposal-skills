@@ -44,11 +44,13 @@ When a contract gap needs judgement, read the skill and its directly linked refe
 
 Run these commands from the repository root:
 
-```powershell
-python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
-python -X utf8 scripts\routing_smoke_test.py
-python -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-engine-audit/scripts/engine_compliance.py --root . --active-root skills --details
+```text
+python3 -X utf8 scripts/validate_skills.py --baseline quality-baseline.json
+python3 -X utf8 scripts/routing_smoke_test.py
+python3 -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-engine-audit/scripts/engine_compliance.py --root . --active-root skills --details
 ```
+
+`<chwezi-dev-engine>` is the checkout of the `chwezi-dev-engine` repository on the machine running the check. `engine_compliance.py` is read-only unless `--fix-safe` is passed.
 
 Also run the canonical `quick_validate.py` against every skill directory, repository-specific checks, `git diff --check`, the local safety audit, and the anti-slop audit. A release baseline contains no failure counts; it is not a waiver register.
 

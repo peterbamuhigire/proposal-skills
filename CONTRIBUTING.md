@@ -13,20 +13,27 @@ Treat every active `SKILL.md` as executable instruction, not background prose. P
 
 ## Validate locally
 
-```powershell
-python -X utf8 scripts\validate_skills.py --baseline quality-baseline.json
-python -X utf8 scripts\routing_smoke_test.py
-python -X utf8 scripts\encoding_link_gate.py
-python -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-engine-audit/scripts/engine_compliance.py --root . --active-root skills --details
+```text
+python3 -X utf8 scripts/validate_skills.py --baseline quality-baseline.json
+python3 -X utf8 scripts/routing_smoke_test.py
+python3 -X utf8 scripts/encoding_link_gate.py
+python3 -X utf8 scripts/source_ingestion_guardrail.py
+python3 scripts/proposal_fixture_check.py
+python3 -X utf8 -m unittest discover -s tests
+python3 -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-engine-audit/scripts/engine_compliance.py --root . --active-root skills --details
 ```
+
+`<chwezi-dev-engine>` is the checkout of the `chwezi-dev-engine` repository on your machine. The checks need Python 3.11 or newer and PyYAML; use `python` where `python3` is not on the path. The [README validation table](README.md#validation) gives each command's purpose and expected result.
 
 Run the canonical quick validator with each changed skill directory, not its file:
 
-```powershell
-python -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-writing/scripts/quick_validate.py skills/path/to/skill
+```text
+python3 -X utf8 <chwezi-dev-engine>/skills/sdlc-meta/skill-writing/scripts/quick_validate.py skills/path/to/skill
 ```
 
 Finish with repository-specific tests, link and syntax checks, `git diff --check`, the skill-safety audit, and the anti-slop audit. The baseline must remain empty; update its skill or fixture counts only when the catalogue or fixture set changes intentionally.
+
+`scripts/validate_skills.py` also enforces the dated source register (`docs/source-registers/2026-10-currentness.json`). Its records carry a review date of 2026-11-30, so the check fails from 2026-12-01 until each record is re-verified against its source and given a new review date. Do not extend a review date without re-reading the source.
 
 ## Release
 
