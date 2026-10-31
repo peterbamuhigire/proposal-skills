@@ -1,0 +1,12 @@
+{
+  "label": "FICTIONAL TEST DATA: the cap, weights and floors are invented for this exercise and belong to no real solicitation",
+  "page_cap": 6,
+  "page_unit": 0.25,
+  "criteria": [
+    {"id": "methodology", "points": 30, "floor_pages": 1.0},
+    {"id": "key_experts", "points": 25, "floor_pages": 1.0, "evidence_outside_cap": true},
+    {"id": "national_participation_and_knowledge_transfer", "points": 25, "floor_pages": 1.25},
+    {"id": "data_protection_and_continuity", "points": 15, "floor_pages": 0.75},
+    {"id": "presentation", "points": 5, "embedded": true}
+  ]
+}
