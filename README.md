@@ -43,6 +43,7 @@ The engine reads the real solicitation, the buyer's evaluation criteria and the 
 ## Contents
 
 - [When to use it](#when-to-use-it)
+- [Capabilities](#capabilities)
 - [Find the right skill](#find-the-right-skill)
 - [How it works](#how-it-works)
 - [What is inside](#what-is-inside)
@@ -80,7 +81,11 @@ All writing follows the engine's professional British English and East African E
 - **Others:** UNDP and UN-system rules, EU PRAG and GIZ local procurement, and OECD-DAC evaluation criteria for results and monitoring and evaluation (M&E).
 - **Technology bids** are checked against the assurance standards that buyers ask about: ISO/IEC 27001, ISO/IEC 42001, SOC 2, the NIST AI RMF, the EU AI Act, GDPR and East African data-protection law.
 
-## Find the right skill
+## Capabilities
+
+The engine holds 115 skills in 11 categories plus a router, grouped under [What is inside](#what-is-inside). The [skill catalogue](docs/skill-catalogue.md) lists each one. The table under Find the right skill is the capability map: common tasks and the skill that handles each.
+
+### Find the right skill
 
 Start from the router for a whole bid. Go straight to a skill when you need one section or one topic. The [skill catalogue](docs/skill-catalogue.md) lists all 115 skills.
 
