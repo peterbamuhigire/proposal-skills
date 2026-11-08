@@ -126,5 +126,10 @@
       "description": "Run this engine's enforcement hooks (e.g. destructive-command gate, banned-font gate where applicable). Disable hook enforcement while keeping skills and agents available.",
       "default": true
     }
+  },
+  "description": "Develop and review proposals, EOIs, tender responses, compliance matrices, pricing narratives, and bids.",
+  "author": {
+    "name": "Peter Bamuhigire",
+    "url": "https://github.com/peterbamuhigire"
   }
 }
