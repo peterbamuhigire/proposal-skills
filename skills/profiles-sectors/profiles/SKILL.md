@@ -49,7 +49,7 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 - Do not draft proposal content before resolving the proposer identity.
 - Do not mix individual and company voices inside the same section unless the structure requires it.
-- Do not reference Peter or Chwezi when ghostwriting for a client unless they are genuinely part of the team.
+- Do not reference the user or the user's own firm when ghostwriting for a client unless they are genuinely part of the team.
 - Treating a neighbouring sector or framework as interchangeable. **Fix:** identify the controlling rule and primary outcome.
 - Adding terminology without changing a delivery choice. **Fix:** link each term to method, risk, output, or evaluation criterion.
 - Presenting an unverified current rule or statistic as settled. **Fix:** cite and date the source or mark it not assessed.
@@ -102,25 +102,25 @@ Every proposal is written on behalf of a specific entity. The profile determines
 
 ## How It Works
 
-1. **User specifies the proposer** — "write this as Peter", "write this for Chwezi", "write this for [client name]"
-2. **Load the matching profile** from this directory
+1. **User specifies the proposer**: "write this as me", "write this for our firm", "write this for [client name]"
+2. **Load the matching profile from the user's private profile folder.** Real proposer profiles are never stored in this repository. Read them from the folder named by the `CHWEZI_PROFILE_DIR` environment variable, or from a path the user gives. If neither exists, ask the user for their profile or create one with them from `client-template.md`.
 3. **Apply the profile** to every section: voice, signatory, experience, team, references
-4. **If no profile exists** for the specified proposer, copy `client-template.md`, fill it in with the user, and save it for future use
+4. **Save new profiles in the user's private folder**, never in this repository; profiles hold personal data
 
 ## Available Profiles
 
 | Profile | File | Proposer Type | Voice |
 |---|---|---|---|
-| **Peter Bamuhigire** | `peter-bamuhigire.md` | Individual consultant | First-person singular ("I propose…") |
-| **Chwezi Core Systems** | `chwezi-core-systems.md` | Company | First-person plural ("We propose…") |
-| **Client template** | `client-template.md` | Any (copy and customise) | As specified by client |
+| **Individual consultant** | `<private folder>/<name>.md` | Individual consultant | First-person singular ("I propose…") |
+| **Company** | `<private folder>/<company>.md` | Company | First-person plural ("We propose…") |
+| **Client template** | `client-template.md` (this directory) | Any (copy and customise) | As specified in the profile |
 
 ## Profile Selection Rules
 
 | User Says | Profile to Load |
 |---|---|
-| "Write as Peter" / "individual consultant" / "as me" | `peter-bamuhigire.md` |
-| "Write as Chwezi" / "as the company" / "as our firm" | `chwezi-core-systems.md` |
+| "Write as me" / "individual consultant" | The user's individual profile from their private folder |
+| "Write as our firm" / "as the company" | The user's company profile from their private folder |
 | "Write for [client name]" / "on behalf of [name]" | Load `[client-name].md` if it exists, otherwise create from `client-template.md` |
 | No proposer specified | **Ask before proceeding.** The profile affects every section. |
 
@@ -142,18 +142,18 @@ Every proposal is written on behalf of a specific entity. The profile determines
 Proposals sometimes involve multiple entities:
 
 ### Individual Consultant + Associates
-- Load [peter-bamuhigire.md](peter-bamuhigire.md) as primary profile
+- Load the user's individual profile as primary profile
 - List associates in team composition with their roles
 - Voice remains first-person singular with "supported by" language
 
 ### Company + Sub-Consultants
-- Load [chwezi-core-systems.md](chwezi-core-systems.md) as primary profile
+- Load the user's company profile as primary profile
 - Sub-consultants appear in team composition and association arrangements
 - Voice remains first-person plural
 
-### Company as Lead + Peter as Named Expert
+### Company as Lead + Founder as Named Expert
 - Load the company profile as primary
-- Peter appears in team composition with his CV
+- The founder appears in team composition with their CV
 - Voice follows the company profile
 
 ### JV or Consortium
@@ -164,7 +164,7 @@ Proposals sometimes involve multiple entities:
 
 ### Writing for a Client
 - Load the client's profile (or create one)
-- **Do not reference Peter Bamuhigire or Chwezi Core Systems** unless the client is explicitly associating with you as a team member or sub-consultant
+- **Do not reference the user or the user's own firm** unless the client is explicitly associating with them as a team member or sub-consultant
 - You are the invisible proposal writer — the document speaks entirely in the client's voice
 
 ## Keeping Profiles Current

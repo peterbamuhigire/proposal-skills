@@ -283,9 +283,8 @@ Before writing any proposal, load the correct proposer profile from `skills/prof
 
 | Profile | When to Use |
 |---|---|
-| `skills/profiles-sectors/profiles/peter-bamuhigire.md` | Proposing as Peter Bamuhigire as an individual consultant |
-| `skills/profiles-sectors/profiles/chwezi-core-systems.md` | Proposing as Chwezi Core Systems |
-| `skills/profiles-sectors/profiles/client-template.md` | Writing on behalf of a client; copy, customise, and save |
+| The user's private profile folder (`CHWEZI_PROFILE_DIR`, or a path the user gives) | Proposing as the user or the user's own company. Real profiles are never stored in this repository |
+| `skills/profiles-sectors/profiles/client-template.md` | Creating a new profile with the user; save it in their private folder |
 
 If no proposer is specified, ask before proceeding. The profile affects every section: voice, signatory, experience, team, and references.
 
