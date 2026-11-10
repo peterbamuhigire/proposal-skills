@@ -1,5 +1,16 @@
 # Proposal Skills Repository
 
+<!-- MODEL-ROUTING-BLOCK v2 2026-11-10 -->
+## Model classes and token discipline (Claude Code, Codex and any runner; mandatory)
+Name a class here, never a model version. The owner's routing file maps classes to current models (Knowledge Bank, Development, Anthropic Models: `model-routing.json`; handoff AM-01), so a model upgrade needs no edit in this repository.
+- **Classes:** **M Mundane** (fastest and cheapest; mechanical work with a clear right answer); **N Normal** (default; executes an approved plan); **X Expert** (strongest standard class; plans, judges, hard debugging, final review); **S Special occasion** (premium class above X; rare; only through the seven-test gate, AM-01 s5, including approved billing). A new model is classified by relative price and vendor positioning (AM-01 s1.1). With no S class available, X is the ceiling.
+- **Escalate one class, on a trigger only:** two failed acceptance checks; an undecidable choice; unreviewed money, tenant, security or legal work. Drop back after the hard step.
+- **Tokens, both runners:** start-up files at most 8,000 tokens and `AGENTS.md` at most 32 KiB (Codex stops at its byte cap); one task per session, clear or new thread between tasks, compact near 80%; plan to a file, execute in a fresh session (resume a plan from its small `RESUME.md` only); read the router section then one `SKILL.md`, search instead of loading; consult only the engine whose domain matches the task; subagents and tools return summaries, cap tool output (`tool_output_token_limit`), disable unused MCP tools; stable prefix first, no instruction edits mid-session; parallel agents only with a written budget; non-interactive runs for bulk (Batch API only with an approved API budget); effort medium by default, high needs a reason, the maximum needs approval.
+- **Class S case for this repository (E-10, AM-02):** none; class X gives the final pass on a bid. Everything else: X plans, N executes, M for mechanical work.
+- **Monthly Kaizen, first step:** Anthropic currency check (AM-01 s8) and the token-budget lint; record `Anthropic currency check YYYY-MM-DD: no change|changed`.
+<!-- /MODEL-ROUTING-BLOCK -->
+
+
 ## Codex-only model setup and Kaizen review
 
 Apply this section only when the active runner is Codex. Claude and other
@@ -12,7 +23,7 @@ If it reports configuration drift, Peter authorises the bounded
 `--runtime codex --apply` repair, followed by `--check`. The helper backs up
 changes and preserves unrelated settings. If Python or configuration access is
 unavailable, report the limitation; do not replace the user's config wholesale.
-Read `.codex/model-policy.md` for the full contract. Use Luna (`gpt-6-luna`) with high reasoning by
+Read `.codex/model-policy.md` for the full contract. Use Luna (`gpt-6-luna`) with medium reasoning by
 default for orchestration, research, audit, review, and implementation. Use Astra (`gpt-6-astra`) only when
 Peter explicitly selects it for the task; never select or fall back to GPT-5.6. Report unavailable required GPT-6
 models. A running session may need restarting for root settings to apply.
@@ -110,13 +121,14 @@ The canonical, model-neutral rules and routing remain in AGENTS.md, README.md, a
 - Anti-slop quality gate: use `skills/meta/anti-ai-slop/SKILL.md` as a real-time guardrail on every section while writing, and `skills/meta/ai-slop-audit/SKILL.md` to grade each section or iteration (A/B/C/F) and as the final gate before submission; grade F blocks submission. These pair with `skills/strategy-positioning/critical-analysis-business-logic/SKILL.md`, which tests the reasoning
 - Blog workflows: use `skills/writing-content/blog-idea-generator/` and `skills/writing-content/blog-writer/` only for content publishing tasks, not for proposal work
 
-## Document and Spreadsheet Tooling
+## Reference sections (read on demand)
 
-- Before promising `.docx`, `.pdf`, `.xlsx`, application registers, scoring matrices, price schedules, budgets, dashboards, CV packs, or annexes, check whether document and spreadsheet tooling is available on the machine.
-- Prefer available Codex/Claude document and spreadsheet plugins. If unavailable, use local Python libraries such as `openpyxl`, `XlsxWriter`, `pandas`, `python-docx`, `docxtpl`, `docxcompose`, `pypandoc`, `markdown`, `PyMuPDF`, `pypdf`, `pdfplumber`, and `reportlab`.
-- Check binaries such as `pandoc`, LibreOffice/`soffice`, `wkhtmltopdf`, and `tesseract` where the output route needs them.
-- Run a minimal DOCX/XLSX smoke test on a new machine before production export.
-- Never claim a generated Word, PDF, or Excel file exists unless it was actually written and opened or validated.
+These sections were moved verbatim to `docs/agents-reference.md`. Open the one that applies to the task; do not load the whole file.
+
+- Document and Spreadsheet Tooling (`docs/agents-reference.md#document-and-spreadsheet-tooling`)
+- July 2026 authoring and release gate (`docs/agents-reference.md#july-2026-authoring-and-release-gate`)
+- Human-English editorial standard (2026-08 Kaizen) (`docs/agents-reference.md#human-english-editorial-standard-2026-08-kaizen`)
+- PORTFOLIO CRAFT CONTRACT (`docs/agents-reference.md#portfolio-craft-contract`)
 
 ## Cross-Engine Handoffs
 
@@ -147,19 +159,6 @@ The canonical, model-neutral rules and routing remain in AGENTS.md, README.md, a
 - Keep active skills under `skills/` unless the repository architecture is explicitly changed.
 - Do not duplicate logic into parallel Claude-only and Codex-only files when one `SKILL.md` can serve both.
 - If you modify or add skills, keep frontmatter limited to `name`, `description`, and portable `metadata` as defined by `docs/skill-authoring-standard.md`; keep the body execution-oriented and move heavy detail into directly linked `references/`.
-
-## July 2026 authoring and release gate
-
-- The active catalogue is every `SKILL.md` under `skills/`, including `skills/SKILL.md`; discover it from the filesystem and keep the documented count aligned with machine output.
-- Follow [the local authoring standard](docs/skill-authoring-standard.md) and start new work from [the skill template](templates/skill-template.md).
-- Every active skill requires neighbour-aware positive and negative triggers, input/output/evidence contracts, capability and permission boundaries, degraded mode, a decision table, stop and recovery workflow, observable quality standards, five corrected anti-patterns, and direct references.
-- Analysis, review, critique, planning, and audit procedures default to read-only. Mutation, publishing, submission, spending, destructive action, and certification claims require explicit authority.
-- Run `python3 -X utf8 scripts/validate_skills.py --baseline quality-baseline.json` and `python3 -X utf8 scripts/routing_smoke_test.py` before release. The baseline must stay at zero findings; it is not a waiver.
-- Run `python3 -X utf8 scripts/encoding_link_gate.py` before release to reject invalid UTF-8, verified mojibake markers, broken local Markdown links, machine-specific paths outside dated records, and stale device-specific sibling-engine routes.
-- Run the canonical scanner and canonical quick validator for each changed skill directory, then the skill-safety and anti-slop gates. Grade F blocks release.
-- Run `python3 -X utf8 scripts/source_ingestion_guardrail.py`; any finding blocks release. Do not bypass the gate by renaming, compressing, splitting, or moving source material.
-- Use `python` where `python3` is not on the path (for example on Windows). The [README validation table](README.md#validation) lists every check, what it needs and its expected result.
-
 
 ## Finance & Accounting Trigger
 
@@ -209,27 +208,7 @@ body face; no bare system stacks alone. State the chosen typeface and reason bef
 any artifact.
 <!-- /chwezi-design-engine:trigger -->
 
-## Human-English editorial standard (2026-08 Kaizen)
-
-Every proposal, bid, EOI, cover letter, executive summary, methodology, case study, and evaluator-facing message must load the [human-English editorial standard](skills/language/language-standards/references/human-english-editorial-standard.md) and the [proposal phrase bank](skills/writing-content/premium-commercial-writing/references/proposal-phrase-bank.md) alongside the profile, ToR, section skill, critical-analysis, and anti-slop gates. Apply its five passes and preserve evaluator-specific register, proof, compliance language, and honest delivery constraints.
-
-The required result is readable British English with concrete verbs, accurate grammar and collocation, purposeful rhythm, visible judgement, and no copy-pasted prestige language. Do not simulate a human voice with errors, forced warmth, unsupported claims, or invented credentials. Record the buyer/purpose, claim-proof map, terms checked, revision/proof status, gaps, reviewer, and date.
-
 ## DOMAIN PROMPT GENERATION CONTRACT
 
 For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md). Generate a ready-to-paste prompt with buyer/decision, ToR, win or compliance objective, evidence, delivery proof, evaluator logic, commercial and language constraints, output, and red-team checks. Never invent credentials or proof. **Ready-to-paste prompt:** include assumptions, evidence/rights flags, and next action. **Failure action:** repair one unsupported section or regenerate the argument structure.
 
-## PORTFOLIO CRAFT CONTRACT
-
-Load `chwezi-engine-agents/docs/operations/portfolio-craft-standard-2026-09-04.md` through the catalogue when available. Craft a proposal section by section: frame the decision-maker and win thesis, select one argument or compliance response, inspect the brief and evidence, draft the smallest persuasive unit, test it against the evaluation logic and counter-case, refine the language and layout, and record source, review, and acceptance evidence. Keep delivery proof, assumptions, risks, commercial logic, and next action visible. Do not produce a generic full proposal as an opaque batch. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass.
-
-October Kaizen evidence is in `docs/kaizen/2026-10-engine-kaizen/`; pass 2 (31 October 2026) is in
-`docs/kaizen/2026-10-engine-kaizen-pass-2/`. The skill validator also scans every skill for retired World Bank
-form labels (`scripts/check_form_labels.py`), the link gate rejects machine-specific paths, and
-`scripts/proposal_fixture_check.py --check-content` scans a package's envelope files for cross-envelope leaks.
-Check `docs/source-registers/2026-10-currentness.json` before reusing volatile
-procurement or AI claims; scoped support never substitutes for the issued RFP.
-Every record there has a review date of 2026-11-30, and `scripts/validate_skills.py`
-fails from 2026-12-01 until each record is re-verified against its source.
-The skill validator also enforces marketplace parity, source review dates and
-the hard 5,000-entry limit for both package and complete checkout.
