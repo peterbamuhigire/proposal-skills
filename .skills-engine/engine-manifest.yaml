@@ -34,3 +34,4 @@ invariants:
     phrase: "Book extractions and book summaries must never be stored in this repository, in any folder or under any name"
   - id: not-assessed
     phrase: "Missing source, compliance, financial, design, render, reviewer, or authority evidence is `NOT ASSESSED`, never a pass."
+    files: [docs/agents-reference.md]
