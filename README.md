@@ -8,6 +8,10 @@ The engine reads the real solicitation, the buyer's evaluation criteria and the 
 
 **Use it when** you hold a solicitation, terms of reference (ToR) or brief and must write, review or assemble the response.
 
+Use the [proposal specialist guide](skills/references/proposal-specialists.md) to assign bid, grant, review and production responsibilities.
+
+For document work, select [editorial specialists](skills/references/editorial-specialists.md) according to the audience, format and publication stage.
+
 ## Start here
 
 ### At a glance

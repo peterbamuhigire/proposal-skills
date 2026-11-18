@@ -13,6 +13,10 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 This parent skill covers the full range of consulting proposal documents. All active proposal skills live under the repository `skills/` directory. Paths below are repository-root-relative so agents and project documentation refer to the same layout.
 
+Use the [proposal specialist guide](references/proposal-specialists.md) to assign bid, grant, review and production responsibilities.
+
+For document work, select [editorial specialists](references/editorial-specialists.md) according to the audience, format and publication stage.
+
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the user needs to draft, review, or assemble any consulting proposal, bid, or Expression of Interest.
